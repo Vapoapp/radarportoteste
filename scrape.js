@@ -107,9 +107,70 @@ function calcFundeio(tipo, para) {
   return /fundeio/i.test(para || '');
 }
 
-/** Chave de deduplicação do evento operacional */
+/**
+ * Hash de identidade do evento — sem horário, sem porto.
+ * Identifica "o quê" a embarcação faz, de onde e para onde.
+ * Usado pela máquina de estados para detectar remarcações.
+ */
+function hashIdentidade(v) {
+  return sha256(`${v.imo}|${v.tipo}|${v.de}|${v.para}`);
+}
+
+/**
+ * Hash completo para o arquivo .jsonl — inclui porto e horário.
+ * Usado apenas como identificador único de registro gravado.
+ */
 function hashEvento(v) {
   return sha256(`${v.porto}|${v.inicio}|${v.imo}|${v.tipo}|${v.de}|${v.para}`);
+}
+
+/**
+ * Máquina de estados por embarcação.
+ *
+ * Transições válidas:
+ *   (vazio | SAÍDA)      + ENTRADA  → novo evento
+ *   (ENTRADA | MUDANÇA)  + MUDANÇA  → novo evento
+ *   (ENTRADA | MUDANÇA)  + SAÍDA    → novo evento
+ *
+ * Remarcações (mesmo tipo consecutivo):
+ *   (ENTRADA | MUDANÇA)  + ENTRADA  → remarcação: atualiza horário
+ *   (SAÍDA)              + SAÍDA    → remarcação: atualiza horário
+ *   (SAÍDA | vazio)      + MUDANÇA  → evento órfão: ignora
+ *
+ * @param {string|null} ultimoTipo  — último tipo gravado para este IMO
+ * @param {string}      novoTipo    — tipo do evento sendo processado
+ * @returns {'novo'|'remarcacao'|'orfao'}
+ */
+function classificarEvento(ultimoTipo, novoTipo) {
+  const ultimo = (ultimoTipo || '').toLowerCase();
+  const novo   = novoTipo.toLowerCase();
+
+  const isEntrada = s => /entrada/.test(s);
+  const isSaida   = s => /sa[íi]da/.test(s);
+  const isMudanca = s => /mudan[cç]a/.test(s);
+
+  // sem histórico
+  if (!ultimoTipo) {
+    if (isEntrada(novo)) return 'novo';
+    if (isSaida(novo))   return 'novo';   // pode acontecer para embarcações sem histórico
+    if (isMudanca(novo)) return 'orfao';  // mudança sem entrada prévia
+  }
+
+  // último foi SAÍDA
+  if (isSaida(ultimo)) {
+    if (isEntrada(novo)) return 'novo';
+    if (isSaida(novo))   return 'remarcacao';
+    if (isMudanca(novo)) return 'orfao';
+  }
+
+  // último foi ENTRADA ou MUDANÇA (embarcação dentro do porto)
+  if (isEntrada(ultimo) || isMudanca(ultimo)) {
+    if (isEntrada(novo)) return 'remarcacao';
+    if (isMudanca(novo)) return 'novo';
+    if (isSaida(novo))   return 'novo';
+  }
+
+  return 'novo'; // fallback seguro
 }
 
 // ── FILESYSTEM ────────────────────────────────────────────────────────────────
@@ -123,9 +184,85 @@ function readJson(filePath, fallback) {
   catch { return fallback; }
 }
 
+/**
+ * Tenta adquirir lock exclusivo sobre um arquivo.
+ *
+ * Estratégia:
+ *   1. Se o .lock não existe → cria com O_EXCL (atômico) e retorna o path.
+ *   2. Se o .lock existe mas é mais velho que LOCK_STALE_MS → processo morreu,
+ *      remove o lock stale e tenta criar novamente.
+ *   3. Se o .lock existe e é recente → outro processo ativo, retorna null.
+ *
+ * O arquivo de lock contém o PID do processo dono, útil para diagnóstico.
+ */
+const LOCK_STALE_MS = 30000; // lock com mais de 30s é considerado morto
+
+function acquireLock(filePath) {
+  const lock = filePath + '.lock';
+  try {
+    // tenta criar diretamente (caminho mais comum — sem lock existente)
+    fs.writeFileSync(lock, String(process.pid), { flag: 'wx' });
+    return lock;
+  } catch {
+    // lock existe — verifica se é stale (processo morreu)
+    try {
+      const stat = fs.statSync(lock);
+      const age  = Date.now() - stat.mtimeMs;
+      if (age >= LOCK_STALE_MS) {
+        // lock abandonado → remove e tenta de novo
+        fs.unlinkSync(lock);
+        fs.writeFileSync(lock, String(process.pid), { flag: 'wx' });
+        console.warn(`⚠ lock stale removido (${Math.round(age / 1000)}s): ${lock}`);
+        return lock;
+      }
+    } catch { /* stat ou unlink falhou — outro processo ganhou a corrida */ }
+    return null;
+  }
+}
+
+function releaseLock(lockPath) {
+  try { if (lockPath) fs.unlinkSync(lockPath); } catch {}
+}
+
+/**
+ * Escreve JSON de forma atômica:
+ *   1. Adquire lock exclusivo
+ *   2. Grava em arquivo .tmp
+ *   3. Rename atômico .tmp → destino
+ *   4. Libera lock
+ * Garante que leitores nunca veem arquivo parcialmente escrito.
+ * Se outro processo já tiver o lock, aguarda até LOCK_TIMEOUT_MS e desiste.
+ */
+const LOCK_TIMEOUT_MS = 5000;
+const LOCK_RETRY_MS   = 50;
+
 function writeJson(filePath, data) {
   mkdirp(path.dirname(filePath));
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+  const tmp  = filePath + '.tmp';
+  const lock = filePath + '.lock';
+
+  // aguarda lock com timeout
+  const deadline = Date.now() + LOCK_TIMEOUT_MS;
+  let lockAcquired = null;
+  while (Date.now() < deadline) {
+    lockAcquired = acquireLock(filePath);
+    if (lockAcquired) break;
+    // espera síncrona simples (execução single-threaded, não bloqueia event loop)
+    Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, LOCK_RETRY_MS);
+  }
+  if (!lockAcquired) {
+    // timeout: grava direto sem lock (melhor do que perder o dado)
+    console.warn(`⚠ writeJson: timeout ao aguardar lock em ${filePath}, gravando sem lock`);
+    fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
+    fs.renameSync(tmp, filePath);
+    return;
+  }
+  try {
+    fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
+    fs.renameSync(tmp, filePath);  // atômico no mesmo filesystem
+  } finally {
+    releaseLock(lockAcquired);
+  }
 }
 
 /** Retorna path do .jsonl de eventos para uma data "YYYY-MM-DD" */
@@ -141,18 +278,33 @@ function snapshotPath(dia) {
 }
 
 /**
- * Carrega todos os hashes já gravados no .jsonl do dia.
- * Retorna um Set<string>.
+ * Carrega o estado do .jsonl do dia.
+ * Retorna:
+ *   hashesGravados — Set com todos os hash_evento já gravados (evita duplicata de linha)
+ *   identidadeMap  — Map<hash_identidade, evento> com o evento mais recente por identidade
+ *                    Usado pela máquina de estados para detectar remarcações.
  */
-function carregarHashesDoDia(dia) {
+function carregarEstadoDoDia(dia) {
   const p = eventosPath(dia);
-  if (!fs.existsSync(p)) return new Set();
+  const hashesGravados = new Set();
+  const identidadeMap  = new Map(); // hash_identidade → evento
+
+  if (!fs.existsSync(p)) return { hashesGravados, identidadeMap };
+
   const linhas = fs.readFileSync(p, 'utf8').split('\n').filter(Boolean);
-  const hashes = new Set();
   for (const linha of linhas) {
-    try { hashes.add(JSON.parse(linha).hash_evento); } catch {}
+    try {
+      const ev = JSON.parse(linha);
+      if (ev.hash_evento)     hashesGravados.add(ev.hash_evento);
+      if (ev.hash_identidade) {
+        const anterior = identidadeMap.get(ev.hash_identidade);
+        if (!anterior || ev.inicio_evento > anterior.inicio_evento) {
+          identidadeMap.set(ev.hash_identidade, ev);
+        }
+      }
+    } catch {}
   }
-  return hashes;
+  return { hashesGravados, identidadeMap };
 }
 
 /**
@@ -163,6 +315,47 @@ function appendEvento(dia, obj) {
   const p = eventosPath(dia);
   mkdirp(path.dirname(p));
   fs.appendFileSync(p, JSON.stringify(obj) + '\n', 'utf8');
+}
+
+/**
+ * Atualiza o inicio_evento de um evento já gravado no .jsonl do dia.
+ * Reescreve o arquivo substituindo a linha com o hash_identidade informado.
+ * Usado quando a máquina de estados detecta uma remarcação de horário.
+ */
+function atualizarInicioEvento(dia, hashIdentidade, inicioAnterior, novoInicio, novoHashEvento, agora) {
+  const p = eventosPath(dia);
+  if (!fs.existsSync(p)) return;
+
+  const lockAcquired = acquireLock(p);
+  if (!lockAcquired) {
+    console.warn(`⚠ atualizarInicioEvento: não conseguiu lock em ${p}, pulando atualização`);
+    return;
+  }
+  try {
+    const linhas = fs.readFileSync(p, 'utf8').split('\n').filter(Boolean);
+    let atualizou = false;
+    const atualizadas = linhas.map(l => {
+      try {
+        const ev = JSON.parse(l);
+        // precisa bater hash_identidade E o inicio anterior — evita colidir
+        // com outro evento legítimo da mesma identidade no mesmo dia
+        if (!atualizou && ev.hash_identidade === hashIdentidade && ev.inicio_evento === inicioAnterior) {
+          ev.inicio_evento  = novoInicio;
+          ev.hash_evento    = novoHashEvento;
+          ev.atualizado_em  = agora;
+          ev.remarcado      = true;
+          atualizou = true;
+        }
+        return JSON.stringify(ev);
+      } catch { return l; }
+    });
+    // escrita atômica: .tmp → rename
+    const tmp = p + '.tmp';
+    fs.writeFileSync(tmp, atualizadas.join('\n') + '\n', 'utf8');
+    fs.renameSync(tmp, p);
+  } finally {
+    releaseLock(lockAcquired);
+  }
 }
 
 /**
@@ -613,71 +806,128 @@ async function main() {
   // ── 3. acrescenta snapshot do dia ─────────────────────────────────────────
   appendSnapshot(diaHoje, jsonData);
 
-  // ── 4. carrega hashes já conhecidos do dia ────────────────────────────────
-  const hashesConhecidos = carregarHashesDoDia(diaHoje);
+  // ── 4. carrega estado do dia (hashes gravados + mapa de identidade) ────────
+  const { hashesGravados, identidadeMap } = carregarEstadoDoDia(diaHoje);
 
   // ── 5. carrega estado atual ───────────────────────────────────────────────
   const estado = readJson(ESTADO_PATH, {});  // { [imo]: { ...campos } }
 
-  // ── 6. processa cada embarcação ───────────────────────────────────────────
-  let novos = 0, repetidos = 0;
-
-  for (const v of allVessels) {
-    const hash = hashEvento(v);
-
-    if (hashesConhecidos.has(hash)) {
-      repetidos++;
-      continue;
-    }
-
-    const inicioISO    = parseInicio(v.inicio);
-    const navioNorm    = normalizeNavio(v.navio);
-    const emFundeio    = calcFundeio(v.tipo, v.para);
-    const estadoAtual  = estado[v.imo];
-
-    // ── grava evento ────────────────────────────────────────────────────────
-    const evento = {
-      porto:           v.porto,
-      inicio_evento:   inicioISO,
-      imo:             v.imo,
-      navio:           v.navio,
-      navio_normalizado: navioNorm,
-      tipo_evento:     v.tipo,
-      origem:          v.de,
-      destino:         v.para,
-      agente:          v.agente,
+  // ── helpers inline ────────────────────────────────────────────────────────
+  function buildEvento(v, inicioISO, navioNorm, emFundeio, hash, hashIdent, agora) {
+    return {
+      porto:                  v.porto,
+      inicio_evento:          inicioISO,
+      imo:                    v.imo,
+      navio:                  v.navio,
+      navio_normalizado:      navioNorm,
+      tipo_evento:            v.tipo,
+      origem:                 v.de,
+      destino:                v.para,
+      agente:                 v.agente,
       em_fundeio_apos_evento: emFundeio,
-      hash_evento:     hash,
-      criado_em:       agora,
+      hash_evento:            hash,
+      hash_identidade:        hashIdent,
+      criado_em:              agora,
     };
-    appendEvento(diaHoje, evento);
-    hashesConhecidos.add(hash);
-    novos++;
+  }
 
-    // ── atualiza estado_atual (só se for evento mais recente) ───────────────
+  function atualizarEstado(estado, v, inicioISO, navioNorm, emFundeio, hash, agora) {
+    const estadoAtual = estado[v.imo];
     const jaTemEstado = estadoAtual && estadoAtual.ultima_movimentacao_em;
     const maisRecente = !jaTemEstado || inicioISO >= estadoAtual.ultima_movimentacao_em;
-
     if (maisRecente) {
       estado[v.imo] = {
-        imo:                   v.imo,
-        navio:                 v.navio,
-        navio_normalizado:     navioNorm,
-        porto_atual:           v.porto,
-        ultimo_tipo_evento:    v.tipo,
-        origem_atual:          v.de,
-        destino_atual:         v.para,
-        agente_atual:          v.agente,
-        em_fundeio:            emFundeio,
+        imo:                    v.imo,
+        navio:                  v.navio,
+        navio_normalizado:      navioNorm,
+        porto_atual:            v.porto,
+        ultimo_tipo_evento:     v.tipo,
+        origem_atual:           v.de,
+        destino_atual:          v.para,
+        agente_atual:           v.agente,
+        em_fundeio:             emFundeio,
         ultima_movimentacao_em: inicioISO,
-        ultimo_hash_evento:    hash,
-        atualizado_em:         agora,
+        ultimo_hash_evento:     hash,
+        atualizado_em:          agora,
       };
     }
   }
 
-  // ── 7. salva estado_atual.json (se houve eventos novos) ───────────────────
-  if (novos > 0) {
+  // ── 6. ordena por horário antes de processar ────────────────────────────────
+  // Garante que a máquina de estados recebe os eventos em ordem cronológica,
+  // independente da ordem em que o HTML foi gerado pela fonte.
+  allVessels.sort((a, b) => {
+    const ta = parseInicio(a.inicio);
+    const tb = parseInicio(b.inicio);
+    if (ta !== tb) return ta.localeCompare(tb);
+    if (a.imo !== b.imo) return String(a.imo).localeCompare(String(b.imo));
+    return String(a.tipo).localeCompare(String(b.tipo));
+  });
+
+  // ── 7. processa cada embarcação (máquina de estados) ─────────────────────
+  let novos = 0, remarcados = 0, orfaos = 0, repetidos = 0;
+
+  for (const v of allVessels) {
+    const inicioISO  = parseInicio(v.inicio);
+    const navioNorm  = normalizeNavio(v.navio);
+    const emFundeio  = calcFundeio(v.tipo, v.para);
+    const ultimoTipo = estado[v.imo]?.ultimo_tipo_evento || null;
+
+    const hash      = hashEvento(v);
+    const hashIdent = hashIdentidade(v);
+
+    // proteção contra jobs paralelos: linha idêntica já gravada → ignora
+    if (hashesGravados.has(hash)) {
+      repetidos++;
+      continue;
+    }
+
+    const classificacao = classificarEvento(ultimoTipo, v.tipo);
+
+    if (classificacao === 'orfao') {
+      orfaos++;
+      console.log(`  ⚠ órfão ignorado: ${v.navio} (IMO ${v.imo}) — ${v.tipo} sem estado anterior`);
+      continue;
+    }
+
+    if (classificacao === 'remarcacao') {
+      const anterior = identidadeMap.get(hashIdent);
+      if (anterior && inicioISO === anterior.inicio_evento) {
+        // horário idêntico → repetição pura
+        repetidos++;
+        continue;
+      }
+      if (anterior) {
+        // horário diferente → remarcação: atualiza linha no .jsonl
+        atualizarInicioEvento(diaHoje, hashIdent, anterior.inicio_evento, inicioISO, hash, agora);
+        identidadeMap.set(hashIdent, { ...anterior, inicio_evento: inicioISO, hash_evento: hash });
+        hashesGravados.add(hash);
+        remarcados++;
+        console.log(`  ↺ remarcado: ${v.navio} — ${v.tipo} ${anterior.inicio_evento} → ${inicioISO}`);
+      } else {
+        // identidade não está no dia atual (ex.: SAÍDA remarcou de 23h→01h do dia seguinte)
+        // trata como novo evento no novo dia
+        const ev = buildEvento(v, inicioISO, navioNorm, emFundeio, hash, hashIdent, agora);
+        appendEvento(diaHoje, ev);
+        hashesGravados.add(hash);
+        identidadeMap.set(hashIdent, ev);
+        novos++;
+      }
+      atualizarEstado(estado, v, inicioISO, navioNorm, emFundeio, hash, agora);
+      continue;
+    }
+
+    // 'novo' — transição válida na máquina de estados
+    const ev = buildEvento(v, inicioISO, navioNorm, emFundeio, hash, hashIdent, agora);
+    appendEvento(diaHoje, ev);
+    hashesGravados.add(hash);
+    identidadeMap.set(hashIdent, ev);
+    novos++;
+    atualizarEstado(estado, v, inicioISO, navioNorm, emFundeio, hash, agora);
+  }
+
+  // ── 7. salva estado_atual.json (se houve eventos novos ou remarcações) ────
+  if (novos > 0 || remarcados > 0) {
     writeJson(ESTADO_PATH, estado);
   }
 
@@ -691,14 +941,14 @@ async function main() {
 
   // ── 10. resumo ─────────────────────────────────────────────────────────────
   console.log(`\n✓ ${allVessels.length} registros coletados`);
-  console.log(`  ${novos} eventos novos | ${repetidos} repetições ignoradas`);
-  if (novos > 0) {
+  console.log(`  ${novos} eventos novos | ${remarcados} remarcações | ${orfaos} órfãos ignorados | ${repetidos} repetições`);
+  if (novos > 0 || remarcados > 0) {
     console.log(`  → data/eventos/${diaHoje.replace(/-/g, '/')}.jsonl`);
     console.log(`  → data/estado_atual.json`);
   }
 
   // Código de saída: 0 = houve mudança (workflow commita), 2 = sem mudança
-  process.exit(novos > 0 ? 0 : 2);
+  process.exit(novos > 0 || remarcados > 0 ? 0 : 2);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
