@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-01T18:09:35.835Z",
+  "updatedAt": "2026-04-01T19:38:25.143Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 49
+      "count": 50
     },
     "niteroi": {
       "ok": true,
@@ -102,12 +102,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/04/2026 06:00",
-      "imo": "9946300",
-      "navio": "NS PIONEER",
+      "imo": "9788411",
+      "navio": "BRAM POWER",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F01S - Visita Sul",
-      "agente": "ISS MARINE SERVICES LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -122,12 +122,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/04/2026 06:00",
-      "imo": "9788411",
-      "navio": "BRAM POWER",
+      "imo": "9946300",
+      "navio": "NS PIONEER",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "para": "Fundeio - 2F01S - Visita Sul",
+      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -182,6 +182,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/04/2026 08:00",
+      "imo": "9747314",
+      "navio": "CL TAIZHOU",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01S - Visita Sul",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/04/2026 08:00",
       "imo": "9365544",
       "navio": "NAVEGANTES PRIDE",
       "tipo": "MUDANÇA",
@@ -198,16 +208,6 @@
       "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/04/2026 08:00",
-      "imo": "9747314",
-      "navio": "CL TAIZHOU",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01S - Visita Sul",
-      "para": "-",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,22 +252,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/04/2026 11:00",
-      "imo": "9769221",
-      "navio": "ANNA KNUTSEN",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01 - Visita",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/04/2026 11:00",
       "imo": "9627629",
       "navio": "CBO ARPOADOR",
       "tipo": "MUDANÇA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/04/2026 11:00",
+      "imo": "9769221",
+      "navio": "ANNA KNUTSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -288,16 +288,6 @@
       "de": "2C22 - TECON 2 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/04/2026 13:00",
-      "imo": "9806512",
-      "navio": "STARNAV DELPHINUS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -328,6 +318,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/04/2026 13:00",
+      "imo": "9806512",
+      "navio": "STARNAV DELPHINUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -362,6 +362,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/04/2026 14:00",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/04/2026 14:00",
       "imo": "9365544",
       "navio": "NAVEGANTES PRIDE",
       "tipo": "MUDANÇA",
@@ -378,16 +388,6 @@
       "de": "-",
       "para": "TPS2 - PETROBRAS PS2",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/04/2026 14:00",
-      "imo": "9573440",
-      "navio": "NORMAND CARIOCA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -468,6 +468,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/04/2026 19:00",
+      "imo": "9814973",
+      "navio": "SEALOADER 2",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -636,7 +646,7 @@
       "navio": "EVRIDIKI G",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "303 - TECON - SEPETIBA TECON S.A.",
+      "para": "302 - TECON - SEPETIBA TECON S.A.",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
@@ -655,7 +665,7 @@
       "imo": "9231482",
       "navio": "EVRIDIKI G",
       "tipo": "SAÍDA",
-      "de": "303 - TECON - SEPETIBA TECON S.A.",
+      "de": "302 - TECON - SEPETIBA TECON S.A.",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
