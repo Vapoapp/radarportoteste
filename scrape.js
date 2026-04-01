@@ -799,13 +799,6 @@ async function main() {
     process.exit(1);
   }
 
-  // ── 2. grava vessels.json (compatibilidade com index.html) ────────────────
-  const jsonData = { updatedAt: agora, portos: portStatus, vessels: allVessels };
-  writeJson(VESSELS_PATH, jsonData);
-
-  // ── 3. acrescenta snapshot do dia ─────────────────────────────────────────
-  appendSnapshot(diaHoje, jsonData);
-
   // ── 4. carrega estado do dia (hashes gravados + mapa de identidade) ────────
   const { hashesGravados, identidadeMap } = carregarEstadoDoDia(diaHoje);
 
@@ -853,10 +846,27 @@ async function main() {
     }
   }
 
-  // ── 6. ordena por horário antes de processar ────────────────────────────────
+  // ── 6. filtra eventos futuros ────────────────────────────────────────────────
+  // A pauta inclui manobras programadas para o futuro. O estado_atual e as
+  // métricas devem refletir apenas o que já aconteceu até agora.
+  const agoraMs = new Date(agora).getTime();
+  const futuros = allVessels.filter(v => new Date(parseInicio(v.inicio)).getTime() > agoraMs);
+  const vessels = allVessels.filter(v => new Date(parseInicio(v.inicio)).getTime() <= agoraMs);
+
+  if (futuros.length > 0) {
+    console.log(`  ⏭ ${futuros.length} evento(s) futuros ignorados (ainda não ocorreram)`);
+  }
+
+  // grava vessels.json com TODOS os eventos do dia (pauta completa para o frontend)
+  // mas processa apenas os passados na máquina de estados
+  const jsonData = { updatedAt: agora, portos: portStatus, vessels: allVessels };
+  writeJson(VESSELS_PATH, jsonData);
+  appendSnapshot(diaHoje, jsonData);
+
+  // ── 6b. ordena por horário antes de processar ─────────────────────────────
   // Garante que a máquina de estados recebe os eventos em ordem cronológica,
   // independente da ordem em que o HTML foi gerado pela fonte.
-  allVessels.sort((a, b) => {
+  vessels.sort((a, b) => {
     const ta = parseInicio(a.inicio);
     const tb = parseInicio(b.inicio);
     if (ta !== tb) return ta.localeCompare(tb);
@@ -871,14 +881,14 @@ async function main() {
   // que é o que queremos manter.
   {
     const seen = new Map(); // `${imo}|${tipo}|${inicio}` → índice
-    for (let i = 0; i < allVessels.length; i++) {
-      const v   = allVessels[i];
+    for (let i = 0; i < vessels.length; i++) {
+      const v   = vessels[i];
       const key = `${v.imo}|${v.tipo}|${v.inicio}`;
       if (seen.has(key)) {
         const prevIdx = seen.get(key);
-        console.log(`  ✂ duplicata de horário removida: ${v.navio} — ${v.tipo} ${v.inicio} (de: "${allVessels[prevIdx].de}" descartado, mantido: "${v.de}")`);
-        allVessels.splice(prevIdx, 1);
-        i--; // ajusta índice após remoção
+        console.log(`  ✂ duplicata de horário removida: ${v.navio} — ${v.tipo} ${v.inicio} (de: "${vessels[prevIdx].de}" descartado, mantido: "${v.de}")`);
+        vessels.splice(prevIdx, 1);
+        i--;
       }
       seen.set(key, i);
     }
@@ -887,7 +897,7 @@ async function main() {
   // ── 7. processa cada embarcação (máquina de estados) ─────────────────────
   let novos = 0, remarcados = 0, orfaos = 0, repetidos = 0;
 
-  for (const v of allVessels) {
+  for (const v of vessels) {
     const inicioISO  = parseInicio(v.inicio);
     const navioNorm  = normalizeNavio(v.navio);
     const emFundeio  = calcFundeio(v.tipo, v.para);
@@ -960,7 +970,7 @@ async function main() {
   limparSnapshotsAntigos();
 
   // ── 10. resumo ─────────────────────────────────────────────────────────────
-  console.log(`\n✓ ${allVessels.length} registros coletados`);
+  console.log(`\n✓ ${allVessels.length} registros na pauta | ${vessels.length} já ocorridos processados`);
   console.log(`  ${novos} eventos novos | ${remarcados} remarcações | ${orfaos} órfãos ignorados | ${repetidos} repetições`);
   if (novos > 0 || remarcados > 0) {
     console.log(`  → data/eventos/${diaHoje.replace(/-/g, '/')}.jsonl`);
