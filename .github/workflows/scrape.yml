@@ -2,7 +2,7 @@ name: Scrape Porto Data
 
 on:
   schedule:
-    - cron: '0 */2 * * *'   # roda a cada 2 horas
+    - cron: '*/30 * * * *'  # roda a cada 30 minutos
   workflow_dispatch:          # permite rodar manualmente
 
 jobs:
