@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZWN759NS6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9ZWN759NS6');
+  </script>
+  <title>Relatório de Embarcação — Vapozeiro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0d1117;
+      --panel:#161b22;
+      --panel2:#1c2330;
+      --border:rgba(0,255,136,.12);
+      --text:#e8edf3;
+      --muted:#8b9ab0;
+      --signal:#00ff88;
+      --warning:#ffd700;
+      --alert:#ff5a5a;
+      --blue:#61a8ff;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      background:var(--bg);
+      color:var(--text);
+      font-family:'Barlow Condensed',sans-serif;
+      min-height:100vh;
+    }
+    body::before{
+      content:'';
+      position:fixed;
+      inset:0;
+      background-image:
+        linear-gradient(rgba(0,255,136,.025) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(0,255,136,.025) 1px,transparent 1px);
+      background-size:40px 40px;
+      pointer-events:none;
+      z-index:0;
+    }
+    .container{
+      max-width:1180px;
+      margin:0 auto;
+      padding:24px 18px 40px;
+      position:relative;
+      z-index:1;
+    }
+    .topbar{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:10px 0 18px;
+      border-bottom:1px solid rgba(255,255,255,.06);
+      margin-bottom:22px;
+    }
+    .back{
+      text-decoration:none;
+      border:1px solid rgba(255,255,255,.14);
+      color:var(--text);
+      padding:7px 12px;
+      border-radius:8px;
+      font-size:13px;
+      font-family:'Share Tech Mono',monospace;
+    }
+    .brand{ font-weight:800; font-size:20px; letter-spacing:-.02em; }
+    .brand span{ color:#22a96b; }
+    header{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:18px;
+      margin-bottom:22px;
+      flex-wrap:wrap;
+    }
+    .title-wrap h1{
+      font-size:40px;
+      font-weight:900;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      line-height:1;
+    }
+    .title-wrap h1 em{ color:var(--signal); font-style:normal; }
+    .title-wrap p{
+      margin-top:8px;
+      color:var(--muted);
+      font-family:'Share Tech Mono',monospace;
+      font-size:12px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+    }
+    .updated{
+      color:var(--signal);
+      font-family:'Share Tech Mono',monospace;
+      font-size:12px;
+      letter-spacing:2px;
+      white-space:nowrap;
+    }
+    .panel{
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:6px;
+      padding:18px 18px 16px;
+      position:relative;
+      overflow:hidden;
+      margin-bottom:16px;
+    }
+    .panel::before{
+      content:'';
+      position:absolute;
+      top:0; left:0;
+      width:3px; height:100%;
+      background:linear-gradient(to bottom,var(--signal),transparent);
+    }
+    .panel-title{
+      font-family:'Share Tech Mono',monospace;
+      color:var(--signal);
+      font-size:11px;
+      letter-spacing:3px;
+      text-transform:uppercase;
+      margin-bottom:14px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+    .panel-title::after{
+      content:'';
+      height:1px;
+      flex:1;
+      background:rgba(0,255,136,.1);
+    }
+    .search-row{
+      display:grid;
+      grid-template-columns:1fr 180px;
+      gap:12px;
+      align-items:end;
+    }
+    .field{ display:flex; flex-direction:column; gap:6px; }
+    .field label{
+      font-size:11px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      color:var(--muted);
+      font-family:'Share Tech Mono',monospace;
+    }
+    .input-wrap{
+      position:relative;
+      border-radius:6px;
+      padding:1px;
+      background:linear-gradient(90deg, rgba(0,255,136,.15), rgba(0,255,136,.45), rgba(0,255,136,.15));
+    }
+    .input-wrap::before{
+      content:'';
+      position:absolute;
+      inset:1px;
+      background:var(--panel2);
+      border-radius:5px;
+    }
+    input{
+      position:relative;
+      z-index:1;
+      width:100%;
+      background:transparent;
+      color:var(--text);
+      border:none;
+      outline:none;
+      padding:13px 14px;
+      font-family:'Share Tech Mono',monospace;
+      font-size:15px;
+    }
+    input::placeholder{ color:#6f8096; }
+    .btn{
+      height:48px;
+      border:none;
+      border-radius:6px;
+      background:var(--signal);
+      color:#07110c;
+      font-weight:800;
+      text-transform:uppercase;
+      letter-spacing:2px;
+      font-family:'Barlow Condensed',sans-serif;
+      cursor:pointer;
+      transition:.2s;
+    }
+    .btn:hover{ transform:translateY(-1px); box-shadow:0 0 18px rgba(0,255,136,.25); }
+    .hero{
+      display:grid;
+      grid-template-columns:1.2fr .8fr;
+      gap:16px;
+    }
+    .name{ font-size:34px; font-weight:900; line-height:1; margin-bottom:6px; }
+    .sub{ font-family:'Share Tech Mono',monospace; color:var(--muted); font-size:12px; letter-spacing:2px; text-transform:uppercase; }
+    .badges{ display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      border:1px solid rgba(0,255,136,.2);
+      background:rgba(0,255,136,.08);
+      color:var(--signal);
+      border-radius:999px;
+      padding:6px 12px;
+      font-family:'Share Tech Mono',monospace;
+      font-size:11px;
+      letter-spacing:1px;
+    }
+    .badge.warn{ color:var(--warning); border-color:rgba(255,215,0,.25); background:rgba(255,215,0,.08); }
+    .badge.alert{ color:var(--alert); border-color:rgba(255,90,90,.25); background:rgba(255,90,90,.08); }
+    .stats-grid{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:14px;
+    }
+    .stat{
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:6px;
+      padding:18px 12px;
+      text-align:center;
+    }
+    .stat-value{ font-family:'Share Tech Mono',monospace; font-size:28px; line-height:1; color:var(--signal); font-weight:bold; }
+    .stat-value.blue{ color:var(--blue); }
+    .stat-value.warn{ color:var(--warning); }
+    .stat-value.alert{ color:var(--alert); }
+    .stat-label{ margin-top:8px; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); }
+    .two-col{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+    .meta-grid{ display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .meta-box{
+      border:1px solid rgba(255,255,255,.05);
+      background:rgba(255,255,255,.02);
+      border-radius:6px;
+      padding:12px;
+    }
+    .meta-label{ font-family:'Share Tech Mono',monospace; font-size:10px; letter-spacing:2px; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+    .meta-value{ color:#fff; font-size:18px; line-height:1.2; }
+    .table-wrap{ overflow:auto; }
+    table{ width:100%; border-collapse:collapse; min-width:700px; }
+    th{
+      text-align:left;
+      background:var(--panel2);
+      color:var(--signal);
+      font-family:'Share Tech Mono',monospace;
+      font-size:10px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      padding:10px 12px;
+      border-bottom:1px solid rgba(0,255,136,.12);
+      white-space:nowrap;
+    }
+    td{
+      padding:10px 12px;
+      border-bottom:1px solid rgba(255,255,255,.05);
+      color:var(--text);
+      font-family:'Share Tech Mono',monospace;
+      font-size:12px;
+      white-space:nowrap;
+    }
+    tr:hover td{ background:rgba(0,255,136,.04); }
+    .tipo-entrada{ color:var(--signal); }
+    .tipo-saida{ color:var(--alert); }
+    .tipo-mudanca{ color:var(--blue); }
+    .empty{ color:var(--muted); font-family:'Share Tech Mono',monospace; font-size:12px; letter-spacing:1px; padding:8px 0 2px; }
+    .loading,.error{ padding:18px 0 4px; font-family:'Share Tech Mono',monospace; color:var(--muted); font-size:12px; letter-spacing:1px; }
+    .error{ color:var(--alert); }
+    @media (max-width: 980px){
+      .hero,.two-col{ grid-template-columns:1fr; }
+      .stats-grid{ grid-template-columns:repeat(2,1fr); }
+    }
+    @media (max-width: 560px){
+      .container{ padding:16px 12px 30px; }
+      .title-wrap h1{ font-size:30px; }
+      .search-row{ grid-template-columns:1fr; }
+      .stats-grid{ grid-template-columns:1fr 1fr; }
+      .meta-grid{ grid-template-columns:1fr; }
+      .name{ font-size:28px; }
+      .stat-value{ font-size:23px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="topbar">
+      <!-- volta ao radar, não à home, porque o fluxo é radar → relatório -->
+      <a class="back" href="../">← Radar</a>
+      <div class="brand">VAPO<span>ZEIRO</span></div>
+    </div>
+    <header>
+      <div class="title-wrap">
+        <h1>Relatório de <em>Embarcação</em></h1>
+        <p>Histórico operacional, métricas e status atual</p>
+      </div>
+      <div class="updated" id="updatedAt">PRONTO PARA CONSULTA</div>
+    </header>
+    <div class="panel">
+      <div class="panel-title">🔎 Buscar embarcação</div>
+      <div class="search-row">
+        <div class="field">
+          <label>IMO ou nome da embarcação</label>
+          <div class="input-wrap">
+            <input id="imoInput" type="text" placeholder="Ex: 9619438 ou MSC ALBANY" autocomplete="off" />
+          </div>
+        </div>
+        <button class="btn" id="btnBuscar">Consultar</button>
+      </div>
+    </div>
+    <div id="contentArea">
+      <div class="panel">
+        <div class="loading">Digite um IMO para carregar o relatório.</div>
+      </div>
+    </div>
+  </div>
+  <script>
+    // caminho relativo ao repositório raiz — funciona em GitHub Pages
+    // estrutura: /relatorioembarcacao/index.html → /data/embarcacoes/{imo}.json
+    const DATA_BASE  = '../data/embarcacoes/';
+    const INDICE_URL = '../data/metricas/indice-embarcacoes.json';
+
+    function gtagSafe(eventName, params = {}) {
+      if (typeof gtag === 'function') gtag('event', eventName, params);
+    }
+    function escapeHtml(str) {
+      return String(str ?? '')
+        .replaceAll('&','&amp;').replaceAll('<','&lt;')
+        .replaceAll('>','&gt;').replaceAll('"','&quot;')
+        .replaceAll("'",'&#39;');
+    }
+    function formatIsoToBr(iso) {
+      if (!iso) return '-';
+      const d = new Date(iso);
+      if (isNaN(d.getTime())) return iso;
+      return d.toLocaleString('pt-BR');
+    }
+    function formatHours(v) {
+      if (v === null || v === undefined || Number.isNaN(Number(v))) return '-';
+      return Number(v).toFixed(1) + ' h';
+    }
+    function formatInt(v) {
+      if (v === null || v === undefined || Number.isNaN(Number(v))) return '0';
+      return String(v);
+    }
+    function tipoClass(tipo) {
+      const t = String(tipo || '').toUpperCase();
+      if (t.includes('ENTRADA')) return 'tipo-entrada';
+      if (t.includes('SA')) return 'tipo-saida';
+      return 'tipo-mudanca';
+    }
+    function buildPerfilTexto(m) {
+      // usa manobras_30d (inclui mudanças) — mais fiel que só entradas+saídas
+      const total = Number(m?.manobras_30d ?? (Number(m?.entradas_30d || 0) + Number(m?.saidas_30d || 0)));
+      if (total >= 12) return 'Alta recorrência';
+      if (total >= 5)  return 'Atividade moderada';
+      if (total >= 1)  return 'Atividade pontual';
+      return 'Sem mov. recente';
+    }
+    function buildSituacaoTexto(estado) {
+      if (!estado) return 'Sem estado consolidado';
+      if (estado.em_fundeio) return 'Em fundeio agora';
+      if (estado.porto)      return 'Operacional — ' + estado.porto;
+      return 'Estado conhecido';
+    }
+    function buildStatusBadges(estado) {
+      if (!estado) return '';
+      const badges = [];
+      if (estado.porto) badges.push(`<span class="badge">${escapeHtml(estado.porto)}</span>`);
+      badges.push(estado.em_fundeio
+        ? `<span class="badge warn">EM FUNDEIO</span>`
+        : `<span class="badge">FORA DE FUNDEIO</span>`);
+      if (estado.ultima_movimentacao)
+        badges.push(`<span class="badge">ÚLT. MOV.: ${escapeHtml(formatIsoToBr(estado.ultima_movimentacao))}</span>`);
+      return badges.join('');
+    }
+    function renderRelatorio(data) {
+      const estado   = data.estado_atual  || {};
+      const metricas = data.metricas      || {};
+      const historico = Array.isArray(data.historico_recente) ? data.historico_recente : [];
+
+      document.title = `${data.navio || data.imo} — Vapozeiro`;
+      document.getElementById('updatedAt').textContent =
+        'RELATÓRIO CARREGADO ' + new Date().toLocaleTimeString('pt-BR');
+
+      document.getElementById('contentArea').innerHTML = `
+        <div class="panel">
+          <div class="hero">
+            <div>
+              <div class="name">${escapeHtml(data.navio || '-')}</div>
+              <div class="sub">IMO ${escapeHtml(data.imo || '-')}</div>
+              <div class="badges">${buildStatusBadges(estado)}</div>
+            </div>
+            <div class="meta-grid">
+              <div class="meta-box">
+                <div class="meta-label">Situação atual</div>
+                <div class="meta-value">${escapeHtml(estado.em_fundeio ? 'Em fundeio' : 'Fora de fundeio')}</div>
+              </div>
+              <div class="meta-box">
+                <div class="meta-label">Local atual</div>
+                <div class="meta-value">${escapeHtml(estado.local || '-')}</div>
+              </div>
+              <div class="meta-box">
+                <div class="meta-label">Última entrada</div>
+                <div class="meta-value">${escapeHtml(formatIsoToBr(metricas.ultima_entrada))}</div>
+              </div>
+              <div class="meta-box">
+                <div class="meta-label">Última saída</div>
+                <div class="meta-value">${escapeHtml(formatIsoToBr(metricas.ultima_saida))}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-value blue">${formatInt(metricas.manobras_30d)}</div>
+            <div class="stat-label">Manobras 30 dias</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value warn">${formatInt(metricas.manobras_365d)}</div>
+            <div class="stat-label">Manobras 12 meses</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">${formatInt(metricas.entradas_30d)}</div>
+            <div class="stat-label">Entradas 30 dias</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value alert">${formatInt(metricas.saidas_30d)}</div>
+            <div class="stat-label">Saídas 30 dias</div>
+          </div>
+        </div>
+
+        <div class="two-col">
+          <div class="panel">
+            <div class="panel-title">⏱ Indicadores operacionais</div>
+            <div class="meta-grid">
+              <div class="meta-box">
+                <div class="meta-label">Tempo médio de estadia</div>
+                <div class="meta-value">${escapeHtml(formatHours(metricas.tempo_medio_estadia_horas))}</div>
+              </div>
+              <div class="meta-box">
+                <div class="meta-label">Tempo médio em fundeio</div>
+                <div class="meta-value">${escapeHtml(formatHours(metricas.tempo_medio_fundeio_horas))}</div>
+              </div>
+              <div class="meta-box">
+                <div class="meta-label">Entradas 12 meses</div>
+                <div class="meta-value">${formatInt(metricas.entradas_365d)}</div>
+              </div>
+              <div class="meta-box">
+                <div class="meta-label">Saídas 12 meses</div>
+                <div class="meta-value">${formatInt(metricas.saidas_365d)}</div>
+              </div>
+              <div class="meta-box">
+                <div class="meta-label">Mudanças 30 dias</div>
+                <div class="meta-value">${formatInt(metricas.mudancas_30d)}</div>
+              </div>
+            </div>
+          </div>
+          <div class="panel">
+            <div class="panel-title">📡 Leitura rápida</div>
+            <div class="meta-grid">
+              <div class="meta-box">
+                <div class="meta-label">Manobras 6 meses</div>
+                <div class="meta-value">${formatInt(metricas.manobras_180d)}</div>
+              </div>
+              <div class="meta-box">
+                <div class="meta-label">Perfil de atividade</div>
+                <div class="meta-value">${escapeHtml(buildPerfilTexto(metricas))}</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">🧭 Histórico recente</div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Data</th><th>Tipo</th><th>Porto</th><th>De</th><th>Para</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${historico.length ? historico.map(item => `
+                  <tr>
+                    <td>${escapeHtml(formatIsoToBr(item.data))}</td>
+                    <td class="${tipoClass(item.tipo)}">${escapeHtml(item.tipo || '-')}</td>
+                    <td>${escapeHtml(item.porto || '-')}</td>
+                    <td>${escapeHtml(item.de || '-')}</td>
+                    <td>${escapeHtml(item.para || '-')}</td>
+                  </tr>
+                `).join('') : `
+                  <tr><td colspan="5" class="empty">Sem histórico disponível.</td></tr>
+                `}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+    async function fetchJson(url) {
+      const u = new URL(url, window.location.href);
+      u.searchParams.set('t', Date.now().toString());
+      const res = await fetch(u.toString(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return await res.json();
+    }
+
+    async function fetchRelatorio(imo) {
+      const url = DATA_BASE + encodeURIComponent(imo) + '.json?t=' + Date.now();
+      const res = await fetch(url, { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return await res.json();
+    }
+
+    // normaliza string para comparação sem acento, maiúsculo
+    function norm(s) {
+      return String(s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/[^\w\s]/g, ' ').replace(/\s+/g, ' ').trim().toUpperCase();
+    }
+
+    // resolve entrada do usuário para um IMO:
+    //   só dígitos → usa direto | caso contrário → busca no índice por nome
+    async function resolverIMO(entrada) {
+      if (/^\d+$/.test(entrada)) return entrada;
+      const indice = await fetchJson(INDICE_URL);
+      const q = norm(entrada);
+      // 1. exato
+      let hit = indice.find(e => e.navio_normalizado === q);
+      if (hit) return hit.imo;
+      // 2. começa com — só retorna se for único
+      const hitsStart = indice.filter(e => e.navio_normalizado.startsWith(q));
+      if (hitsStart.length === 1) return hitsStart[0].imo;
+      if (hitsStart.length > 1)  throw { tipo: 'multiplos', resultados: hitsStart };
+      // 3. contém
+      const hits = indice.filter(e => e.navio_normalizado.includes(q));
+      if (hits.length === 1) return hits[0].imo;
+      if (hits.length > 1)  throw { tipo: 'multiplos', resultados: hits };
+      throw { tipo: 'nao_encontrado' };
+    }
+
+    function renderMultiplos(lista, query) {
+      document.getElementById('updatedAt').textContent = 'MÚLTIPLOS RESULTADOS';
+      document.getElementById('contentArea').innerHTML = `
+        <div class="panel">
+          <div class="panel-title">🔎 Múltiplos resultados para "${escapeHtml(query)}"</div>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            ${lista.slice(0, 15).map(e => `
+              <div style="border:1px solid rgba(0,255,136,.15);border-radius:6px;padding:12px 14px;cursor:pointer;transition:.15s;"
+                   onmouseover="this.style.background='rgba(0,255,136,.06)'"
+                   onmouseout="this.style.background=''"
+                   onclick="document.getElementById('imoInput').value='${escapeHtml(e.imo)}';buscar()">
+                <span style="color:#fff;font-weight:700;">${escapeHtml(e.navio)}</span>
+                <span style="color:var(--muted);font-family:'Share Tech Mono',monospace;font-size:11px;margin-left:10px;">
+                  IMO ${escapeHtml(e.imo)} · ${escapeHtml(e.porto || '-')}
+                </span>
+              </div>
+            `).join('')}
+          </div>
+        </div>`;
+    }
+
+    async function buscar() {
+      const entrada = document.getElementById('imoInput').value.trim();
+      if (!entrada) {
+        document.getElementById('contentArea').innerHTML =
+          `<div class="panel"><div class="error">Digite um IMO ou nome para consultar.</div></div>`;
+        return;
+      }
+
+      document.getElementById('updatedAt').textContent = 'BUSCANDO...';
+      document.getElementById('contentArea').innerHTML =
+        `<div class="panel"><div class="loading">Buscando "${escapeHtml(entrada)}"...</div></div>`;
+
+      let imo;
+      try {
+        imo = await resolverIMO(entrada);
+      } catch (err) {
+        if (err?.tipo === 'multiplos') { renderMultiplos(err.resultados, entrada); return; }
+        document.getElementById('updatedAt').textContent = 'NÃO ENCONTRADO';
+        document.getElementById('contentArea').innerHTML =
+          `<div class="panel"><div class="error">
+            Nenhuma embarcação encontrada para <strong>${escapeHtml(entrada)}</strong>.<br>
+            <span style="font-size:11px;color:var(--muted)">Tente o IMO numérico ou parte do nome.</span>
+          </div></div>`;
+        return;
+      }
+
+      const url = new URL(window.location);
+      url.searchParams.set('imo', imo);
+      history.replaceState(null, '', url);
+
+      document.getElementById('updatedAt').textContent = 'CARREGANDO...';
+      document.getElementById('contentArea').innerHTML =
+        `<div class="panel"><div class="loading">Carregando relatório...</div></div>`;
+
+      try {
+        const data = await fetchRelatorio(imo);
+        renderRelatorio(data);
+        gtagSafe('consulta_relatorio_embarcacao', { imo_consultado: imo });
+      } catch {
+        document.getElementById('updatedAt').textContent = 'FALHA NA CONSULTA';
+        document.getElementById('contentArea').innerHTML =
+          `<div class="panel"><div class="error">
+            Não encontrei relatório para <strong>${escapeHtml(entrada)}</strong>.<br>
+            <span style="font-size:11px;color:var(--muted)">Verifique o nome ou aguarde a próxima atualização.</span>
+          </div></div>`;
+      }
+    }
+
+    document.getElementById('btnBuscar').addEventListener('click', buscar);
+    document.getElementById('imoInput').addEventListener('keydown', e => {
+      if (e.key === 'Enter') buscar();
+    });
+
+    // abre direto se IMO vier na URL (?imo=9619438)
+    const imoFromUrl = new URLSearchParams(window.location.search).get('imo');
+    if (imoFromUrl) {
+      document.getElementById('imoInput').value = imoFromUrl;
+      buscar();
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9ZWN759NS6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-9ZWN759NS6');
+  </script>
+
+  <title>Radar Operacional — Vapozeiro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Barlow+Condensed:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0d1117;
+      --panel:#161b22;
+      --panel-2:#1c2330;
+      --border:rgba(0,255,136,.12);
+      --text:#e8edf3;
+      --muted:#8b9ab0;
+      --signal:#00ff88;
+      --warn:#ffd700;
+      --alert:#ff5a5a;
+      --blue:#61a8ff;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      background:var(--bg);
+      color:var(--text);
+      font-family:'Barlow Condensed',sans-serif;
+      min-height:100vh;
+    }
+
+    body::before{
+      content:'';
+      position:fixed;
+      inset:0;
+      background-image:
+        linear-gradient(rgba(0,255,136,.025) 1px,transparent 1px),
+        linear-gradient(90deg,rgba(0,255,136,.025) 1px,transparent 1px);
+      background-size:40px 40px;
+      pointer-events:none;
+      z-index:0;
+    }
+
+    .container{
+      max-width:1180px;
+      margin:0 auto;
+      padding:24px 18px 40px;
+      position:relative;
+      z-index:1;
+    }
+
+    .topbar{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      padding:10px 0 18px;
+      border-bottom:1px solid rgba(255,255,255,.06);
+      margin-bottom:22px;
+    }
+
+    .back{
+      text-decoration:none;
+      border:1px solid rgba(255,255,255,.14);
+      color:var(--text);
+      padding:7px 12px;
+      border-radius:8px;
+      font-size:13px;
+      font-family:'Share Tech Mono',monospace;
+    }
+
+    .brand{
+      font-weight:800;
+      font-size:20px;
+      letter-spacing:-.02em;
+    }
+
+    .brand span{ color:#22a96b; }
+
+    /* botão pesquisar embarcação — alinhado à direita da topbar */
+    .topbar-right{
+      margin-left:auto;
+    }
+
+    .btn-pesquisar{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      text-decoration:none;
+      background:rgba(0,255,136,.1);
+      border:1px solid rgba(0,255,136,.3);
+      color:var(--signal);
+      padding:8px 16px;
+      border-radius:8px;
+      font-size:13px;
+      font-family:'Share Tech Mono',monospace;
+      letter-spacing:1px;
+      transition:.2s;
+      white-space:nowrap;
+    }
+
+    .btn-pesquisar:hover{
+      background:rgba(0,255,136,.18);
+      border-color:rgba(0,255,136,.6);
+    }
+
+    header{
+      display:flex;
+      align-items:flex-end;
+      justify-content:space-between;
+      gap:18px;
+      margin-bottom:22px;
+      flex-wrap:wrap;
+    }
+
+    .title-wrap h1{
+      font-size:40px;
+      font-weight:900;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      line-height:1;
+    }
+
+    .title-wrap h1 em{
+      color:var(--signal);
+      font-style:normal;
+    }
+
+    .title-wrap p{
+      margin-top:8px;
+      color:var(--muted);
+      font-family:'Share Tech Mono',monospace;
+      font-size:12px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+    }
+
+    .updated{
+      color:var(--signal);
+      font-family:'Share Tech Mono',monospace;
+      font-size:12px;
+      letter-spacing:2px;
+      white-space:nowrap;
+    }
+
+    .grid{
+      display:grid;
+      gap:16px;
+    }
+
+    .stats-grid{
+      grid-template-columns:repeat(4,1fr);
+      margin-bottom:16px;
+    }
+
+    .panel{
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:6px;
+      padding:18px 18px 16px;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .panel::before{
+      content:'';
+      position:absolute;
+      top:0;
+      left:0;
+      width:3px;
+      height:100%;
+      background:linear-gradient(to bottom,var(--signal),transparent);
+    }
+
+    .panel-title{
+      font-family:'Share Tech Mono',monospace;
+      color:var(--signal);
+      font-size:11px;
+      letter-spacing:3px;
+      text-transform:uppercase;
+      margin-bottom:14px;
+      display:flex;
+      align-items:center;
+      gap:10px;
+    }
+
+    .panel-title::after{
+      content:'';
+      height:1px;
+      flex:1;
+      background:rgba(0,255,136,.1);
+    }
+
+    .stat{
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:6px;
+      padding:18px 12px;
+      text-align:center;
+    }
+
+    .stat-value{
+      font-family:'Share Tech Mono',monospace;
+      font-size:30px;
+      line-height:1;
+      color:var(--signal);
+      font-weight:bold;
+    }
+
+    .stat-value.warn{ color:var(--warn); }
+    .stat-value.alert{ color:var(--alert); }
+    .stat-value.blue{ color:var(--blue); }
+
+    .stat-label{
+      margin-top:8px;
+      font-size:10px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      color:var(--muted);
+    }
+
+    .layout{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:16px;
+      margin-top:4px;
+    }
+
+    .table-wrap{
+      overflow:auto;
+      border-radius:4px;
+    }
+
+    table{
+      width:100%;
+      border-collapse:collapse;
+      min-width:700px;
+    }
+
+    th{
+      text-align:left;
+      background:var(--panel-2);
+      color:var(--signal);
+      font-family:'Share Tech Mono',monospace;
+      font-size:10px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      padding:10px 12px;
+      border-bottom:1px solid rgba(0,255,136,.12);
+      white-space:nowrap;
+    }
+
+    td{
+      padding:10px 12px;
+      border-bottom:1px solid rgba(255,255,255,.05);
+      color:var(--text);
+      font-family:'Share Tech Mono',monospace;
+      font-size:12px;
+      white-space:nowrap;
+    }
+
+    /* linha clicável na tabela de fundeio */
+    tr.clickable{
+      cursor:pointer;
+    }
+
+    tr.clickable:hover td{
+      background:rgba(0,255,136,.07);
+    }
+
+    tr.clickable td.name{
+      color:var(--signal);
+      text-decoration:underline;
+      text-decoration-color:rgba(0,255,136,.35);
+      text-underline-offset:3px;
+    }
+
+    .muted{ color:var(--muted); }
+    .port{ color:var(--blue); }
+    .name{ color:#fff; font-weight:bold; }
+
+    .empty{
+      color:var(--muted);
+      font-family:'Share Tech Mono',monospace;
+      font-size:12px;
+      letter-spacing:1px;
+      padding:8px 0 2px;
+    }
+
+    .mini-list{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+
+    .mini-item{
+      border:1px solid rgba(255,255,255,.05);
+      background:rgba(255,255,255,.02);
+      border-radius:6px;
+      padding:12px;
+      cursor:pointer;
+      transition:.15s;
+    }
+
+    .mini-item:hover{
+      background:rgba(0,255,136,.06);
+      border-color:rgba(0,255,136,.2);
+    }
+
+    .mini-item-top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      margin-bottom:6px;
+    }
+
+    .mini-item h4{
+      font-size:16px;
+      color:var(--signal);
+      line-height:1.1;
+    }
+
+    .badge{
+      display:inline-block;
+      border:1px solid rgba(0,255,136,.25);
+      background:rgba(0,255,136,.08);
+      color:var(--signal);
+      border-radius:999px;
+      padding:4px 10px;
+      font-family:'Share Tech Mono',monospace;
+      font-size:10px;
+      letter-spacing:1px;
+      white-space:nowrap;
+    }
+
+    .mini-meta{
+      color:var(--muted);
+      font-family:'Share Tech Mono',monospace;
+      font-size:11px;
+      line-height:1.7;
+    }
+
+    .insight{
+      font-size:18px;
+      line-height:1.35;
+      color:#fff;
+    }
+
+    .insight strong{
+      color:var(--signal);
+    }
+
+    .footer-note{
+      margin-top:18px;
+      color:var(--muted);
+      font-family:'Share Tech Mono',monospace;
+      font-size:11px;
+      letter-spacing:1px;
+      text-align:center;
+    }
+
+    @media (max-width: 900px){
+      .stats-grid{ grid-template-columns:repeat(2,1fr); }
+      .layout{ grid-template-columns:1fr; }
+    }
+
+    .rbtn{
+      background:transparent;
+      border:1px solid rgba(0,255,136,.2);
+      color:var(--muted);
+      font-family:'Share Tech Mono',monospace;
+      font-size:10px;
+      letter-spacing:1px;
+      padding:5px 10px;
+      border-radius:4px;
+      cursor:pointer;
+      transition:.15s;
+    }
+    .rbtn.active{
+      background:rgba(0,255,136,.12);
+      border-color:rgba(0,255,136,.5);
+      color:var(--signal);
+    }
+    .rbtn:hover:not(.active){
+      border-color:rgba(0,255,136,.35);
+      color:var(--text);
+    }
+    @media (max-width: 560px){
+      .title-wrap h1{ font-size:30px; }
+      .stats-grid{ grid-template-columns:1fr 1fr; }
+      .stat-value{ font-size:24px; }
+      .container{ padding:16px 12px 30px; }
+      .btn-pesquisar span{ display:none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="topbar">
+      <a class="back" href="https://vapozeiro.com.br/#ferramentas">← Voltar</a>
+      <div class="brand">VAPO<span>ZEIRO</span></div>
+      <div class="topbar-right">
+        <a class="btn-pesquisar" href="./relatorioembarcacao/">
+          🔎 <span>Pesquisar embarcação</span>
+        </a>
+      </div>
+    </div>
+
+    <header>
+      <div class="title-wrap">
+        <h1>Radar <em>Operacional</em></h1>
+        <p>Fundeio, entradas, saídas e dinâmica real dos portos</p>
+      </div>
+      <div class="updated" id="updatedAt">ATUALIZANDO...</div>
+    </header>
+
+    <div class="grid stats-grid">
+      <div class="stat">
+        <div class="stat-value" id="statFundeio">--</div>
+        <div class="stat-label">Em fundeio agora</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value blue" id="statEntradas">--</div>
+        <div class="stat-label">Entradas hoje</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value alert" id="statSaidas">--</div>
+        <div class="stat-label">Saídas hoje</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value warn" id="statMudancas">--</div>
+        <div class="stat-label">Mudanças hoje</div>
+      </div>
+    </div>
+
+    <div class="layout">
+      <div class="panel">
+        <div class="panel-title">⚓ Fundeio agora</div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Porto</th>
+                <th>IMO</th>
+                <th>Navio</th>
+                <th>Local</th>
+                <th>Última movimentação</th>
+              </tr>
+            </thead>
+            <tbody id="tbodyFundeio">
+              <tr><td colspan="5" class="empty">Carregando...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="grid" style="gap:16px;">
+        <div class="panel">
+          <div class="panel-title">📡 Leitura do momento</div>
+          <div class="insight" id="insightText">
+            Carregando leitura operacional...
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-title">🚢 Embarcações em destaque</div>
+          <div class="mini-list" id="highlightList">
+            <div class="empty">Carregando...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── RANKING DE ATIVIDADE ──────────────────────────────────────────── -->
+    <div class="panel" style="margin-top:16px;">
+      <div class="panel-title" style="justify-content:space-between;flex-wrap:wrap;gap:8px;">
+        <span>🏆 Embarcações mais ativas</span>
+        <div style="display:flex;gap:6px;margin-left:auto;">
+          <button class="rbtn active" data-periodo="30d">30 DIAS</button>
+          <button class="rbtn" data-periodo="180d">6 MESES</button>
+          <button class="rbtn" data-periodo="365d">12 MESES</button>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th><th>Porto</th><th>IMO</th><th>Navio</th><th>Manobras</th>
+            </tr>
+          </thead>
+          <tbody id="tbodyRanking">
+            <tr><td colspan="5" class="empty">Carregando...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer-note">
+      Dados atualizados automaticamente a partir da pauta consolidada. Clique em qualquer embarcação para ver o relatório completo.
+    </div>
+  </div>
+
+  <script>
+    const RADAR_URL   = './data/metricas/radar.json';
+    const FUNDEIO_URL = './data/metricas/fundeio.json';
+    const RELATORIO_BASE  = './relatorioembarcacao/';
+    const RANKING_URL     = './data/metricas/ranking-atividade.json';
+
+    function abrirRelatorio(imo) {
+      window.location.href = RELATORIO_BASE + '?imo=' + encodeURIComponent(imo);
+    }
+
+    function formatIsoToBr(iso) {
+      if (!iso) return '-';
+      const d = new Date(iso);
+      if (isNaN(d.getTime())) return iso;
+      return d.toLocaleString('pt-BR');
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function normalizeLocal(local) {
+      if (!local) return '-';
+      return local
+        .replace('Fundeio - ', '')
+        .replace('Área de Fundeio ', '')
+        .trim();
+    }
+
+    function buildInsight(radar, fundeio) {
+      const total    = Number(radar.fundeio_agora || 0);
+      const entradas = Number(radar.entradas_hoje || 0);
+      const saidas   = Number(radar.saidas_hoje   || 0);
+      const mudancas = Number(radar.mudancas_hoje || 0);
+
+      if (total === 0 && entradas === 0 && saidas === 0 && mudancas === 0)
+        return 'Sem movimentações relevantes carregadas no momento.';
+      if (total >= 10)
+        return `Há <strong>${total} embarcações em fundeio agora</strong>, com dinâmica operacional ativa ao longo do dia.`;
+      if (entradas > saidas)
+        return `O dia mostra <strong>mais entradas do que saídas</strong>, indicando reforço de atividade portuária.`;
+      if (saidas > entradas)
+        return `O dia mostra <strong>mais saídas do que entradas</strong>, sugerindo escoamento de operações em curso.`;
+      if (mudancas > 0)
+        return `Há <strong>movimentações internas relevantes</strong>, com mudanças de posição ou destino dentro da janela do dia.`;
+      return `O painel registra <strong>${entradas}</strong> entradas, <strong>${saidas}</strong> saídas e <strong>${mudancas}</strong> mudanças hoje.`;
+    }
+
+    async function fetchJson(url) {
+      const u = new URL(url, window.location.href);
+      u.searchParams.set('t', Date.now().toString());
+      const res = await fetch(u.toString(), { cache: 'no-store' });
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return await res.json();
+    }
+
+    function renderRadar(radar) {
+      document.getElementById('statFundeio').textContent  = radar.fundeio_agora ?? 0;
+      document.getElementById('statEntradas').textContent = radar.entradas_hoje ?? 0;
+      document.getElementById('statSaidas').textContent   = radar.saidas_hoje   ?? 0;
+      document.getElementById('statMudancas').textContent = radar.mudancas_hoje ?? 0;
+      document.getElementById('updatedAt').textContent    =
+        'ATUALIZADO EM ' + formatIsoToBr(radar.atualizado_em || new Date().toISOString()).toUpperCase();
+    }
+
+    function renderFundeio(lista) {
+      const tbody = document.getElementById('tbodyFundeio');
+
+      if (!Array.isArray(lista) || !lista.length) {
+        tbody.innerHTML = '<tr><td colspan="5" class="empty">Nenhuma embarcação em fundeio no momento.</td></tr>';
+        return;
+      }
+
+      const sorted = [...lista].sort((a, b) =>
+        String(b.ultima_movimentacao || '').localeCompare(String(a.ultima_movimentacao || ''))
+      );
+
+      tbody.innerHTML = sorted.map(item => `
+        <tr class="clickable" data-imo="${escapeHtml(item.imo)}">
+          <td class="port">${escapeHtml(item.porto || '-')}</td>
+          <td>${escapeHtml(item.imo || '-')}</td>
+          <td class="name">${escapeHtml(item.navio || '-')}</td>
+          <td>${escapeHtml(normalizeLocal(item.local || '-'))}</td>
+          <td class="muted">${escapeHtml(formatIsoToBr(item.ultima_movimentacao))}</td>
+        </tr>
+      `).join('');
+
+      // clique em qualquer linha abre o relatório
+      tbody.querySelectorAll('tr.clickable').forEach(tr => {
+        tr.addEventListener('click', () => abrirRelatorio(tr.dataset.imo));
+      });
+    }
+
+    function renderHighlights(lista) {
+      const box = document.getElementById('highlightList');
+
+      if (!Array.isArray(lista) || !lista.length) {
+        box.innerHTML = '<div class="empty">Nenhuma embarcação em destaque.</div>';
+        return;
+      }
+
+      const top = [...lista]
+        .sort((a, b) => String(b.ultima_movimentacao || '').localeCompare(String(a.ultima_movimentacao || '')))
+        .slice(0, 5);
+
+      box.innerHTML = top.map(item => `
+        <div class="mini-item" data-imo="${escapeHtml(item.imo)}">
+          <div class="mini-item-top">
+            <h4>${escapeHtml(item.navio || '-')}</h4>
+            <span class="badge">${escapeHtml(item.porto || '-')}</span>
+          </div>
+          <div class="mini-meta">
+            IMO: ${escapeHtml(item.imo || '-')}<br>
+            Local: ${escapeHtml(normalizeLocal(item.local || '-'))}<br>
+            Última movimentação: ${escapeHtml(formatIsoToBr(item.ultima_movimentacao))}
+          </div>
+        </div>
+      `).join('');
+
+      box.querySelectorAll('.mini-item').forEach(el => {
+        el.addEventListener('click', () => abrirRelatorio(el.dataset.imo));
+      });
+    }
+
+    // ── RANKING ──────────────────────────────────────────────────────────────────
+    let rankingData = null;
+    let periodoAtivo = '30d';
+
+    function renderRanking(periodo) {
+      const tbody = document.getElementById('tbodyRanking');
+      if (!rankingData) return;
+      const lista = rankingData.periodos?.[periodo] || [];
+      if (!lista.length) {
+        tbody.innerHTML = '<tr><td colspan="5" class="empty">Sem dados para este período.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = lista.map((item, i) => `
+        <tr class="clickable" data-imo="${escapeHtml(item.imo)}">
+          <td class="muted">${i + 1}</td>
+          <td class="port">${escapeHtml(item.porto || '-')}</td>
+          <td>${escapeHtml(item.imo || '-')}</td>
+          <td class="name">${i === 0 ? '🏆 ' : ''}${escapeHtml(item.navio || '-')}</td>
+          <td style="color:var(--signal);font-weight:bold;">${escapeHtml(String(item.manobras))} manobras</td>
+        </tr>
+      `).join('');
+      tbody.querySelectorAll('tr.clickable').forEach(tr => {
+        tr.addEventListener('click', () => abrirRelatorio(tr.dataset.imo));
+      });
+    }
+
+    function initRankingButtons() {
+      document.querySelectorAll('.rbtn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.rbtn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          periodoAtivo = btn.dataset.periodo;
+          renderRanking(periodoAtivo);
+        });
+      });
+    }
+
+    async function loadRanking() {
+      try {
+        rankingData = await fetchJson(RANKING_URL);
+        renderRanking(periodoAtivo);
+      } catch {
+        const tbody = document.getElementById('tbodyRanking');
+        if (tbody) tbody.innerHTML = '<tr><td colspan="5" class="empty">Dados de ranking indisponíveis.</td></tr>';
+      }
+    }
+
+    async function loadPage() {
+      try {
+        const [radar, fundeio] = await Promise.all([
+          fetchJson(RADAR_URL),
+          fetchJson(FUNDEIO_URL)
+        ]);
+
+        renderRadar(radar);
+        renderFundeio(fundeio);
+        renderHighlights(fundeio);
+        document.getElementById('insightText').innerHTML = buildInsight(radar, fundeio);
+
+        gtag('event', 'view_radar_operacional', { page_title: 'Radar Operacional' });
+        if (!rankingData) { loadRanking(); initRankingButtons(); }
+      } catch (err) {
+        document.getElementById('updatedAt').textContent = 'ERRO AO CARREGAR DADOS';
+        document.getElementById('tbodyFundeio').innerHTML =
+          '<tr><td colspan="5" class="empty">Não foi possível carregar os dados agora.</td></tr>';
+        document.getElementById('highlightList').innerHTML =
+          '<div class="empty">Falha ao carregar destaques.</div>';
+        document.getElementById('insightText').textContent =
+          'Falha temporária ao carregar o painel.';
+        console.error(err);
+      }
+    }
+
+    loadPage();
+    setInterval(loadPage, 60000);
+  </script>
+</body>
+</html>
