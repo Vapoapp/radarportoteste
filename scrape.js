@@ -864,6 +864,26 @@ async function main() {
     return String(a.tipo).localeCompare(String(b.tipo));
   });
 
+  // ── 6b. deduplica eventos com mesmo IMO + tipo + horário ────────────────────
+  // A fonte (SILOG) às vezes publica dois eventos idênticos em tipo e horário
+  // para a mesma embarcação com origens diferentes — erro de entrada na pauta.
+  // Após o sort, o último da lista (índice maior) é o mais recente coletado,
+  // que é o que queremos manter.
+  {
+    const seen = new Map(); // `${imo}|${tipo}|${inicio}` → índice
+    for (let i = 0; i < allVessels.length; i++) {
+      const v   = allVessels[i];
+      const key = `${v.imo}|${v.tipo}|${v.inicio}`;
+      if (seen.has(key)) {
+        const prevIdx = seen.get(key);
+        console.log(`  ✂ duplicata de horário removida: ${v.navio} — ${v.tipo} ${v.inicio} (de: "${allVessels[prevIdx].de}" descartado, mantido: "${v.de}")`);
+        allVessels.splice(prevIdx, 1);
+        i--; // ajusta índice após remoção
+      }
+      seen.set(key, i);
+    }
+  }
+
   // ── 7. processa cada embarcação (máquina de estados) ─────────────────────
   let novos = 0, remarcados = 0, orfaos = 0, repetidos = 0;
 
