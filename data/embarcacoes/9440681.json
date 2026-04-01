@@ -1,34 +1,34 @@
 {
-  "imo": "9762742",
-  "navio": "POSIDONIA LEOPARD (REB)",
+  "imo": "9440681",
+  "navio": "SKUA",
   "gerado_em": "2026-04-01T20:52:43.233Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
     "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-01T05:00:00.000Z"
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-04-01T19:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 1,
     "manobras_180d": 1,
     "manobras_365d": 1,
-    "entradas_30d": 0,
+    "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 1,
-    "entradas_365d": 0,
+    "mudancas_30d": 0,
+    "entradas_365d": 1,
     "saidas_365d": 0,
-    "ultima_entrada": null,
+    "ultima_entrada": "2026-04-01T19:00:00.000Z",
     "ultima_saida": null,
     "tempo_medio_estadia_horas": null,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
     {
-      "data": "2026-04-01T05:00:00.000Z",
-      "tipo": "MUDANÇA",
+      "data": "2026-04-01T19:00:00.000Z",
+      "tipo": "ENTRADA",
       "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
+      "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
