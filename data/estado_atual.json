@@ -139,6 +139,20 @@
     "ultimo_hash_evento": "6b78b54b9b34cf09b3c9f25bb9635724ea15c3b8eda9a0a66179c7ed6137abd3",
     "atualizado_em": "2026-04-02T04:33:33.756Z"
   },
+  "9336012": {
+    "imo": "9336012",
+    "navio": "SSI INEVITABLE",
+    "navio_normalizado": "SSI INEVITABLE",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+    "destino_atual": "-",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-02T16:30:00.000Z",
+    "ultimo_hash_evento": "2e9e8b05edda5f87b086a9160e4e1371b5d9db7d5aea9f74fbbe9ff058cf63d6",
+    "atualizado_em": "2026-04-02T16:40:25.328Z"
+  },
   "9337121": {
     "imo": "9337121",
     "navio": "STAR UNITED",
@@ -269,15 +283,15 @@
     "imo": "9440679",
     "navio": "PETREL",
     "navio_normalizado": "PETREL",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "ESWS - ESTALEIRO",
-    "destino_atual": "-",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-02T11:00:00.000Z",
-    "ultimo_hash_evento": "f9cda8524389dfa29750998b9176af7421daad22caef3fca9ec490cceae0c80b",
-    "atualizado_em": "2026-04-02T12:08:05.679Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-02T16:00:00.000Z",
+    "ultimo_hash_evento": "e494312fe6ea4279526b641b8f17aed4a25478577fd31e7251319cf47e8fe673",
+    "atualizado_em": "2026-04-02T16:40:25.328Z"
   },
   "9440681": {
     "imo": "9440681",
@@ -376,6 +390,20 @@
     "ultima_movimentacao_em": "2026-04-01T21:30:00.000Z",
     "ultimo_hash_evento": "cd6e38b1a42ec797d171f31dba52249087fd19ec7e45a91721afa0097cce18d6",
     "atualizado_em": "2026-04-01T14:12:06.207Z"
+  },
+  "9514092": {
+    "imo": "9514092",
+    "navio": "BJ BLUE MARLIN",
+    "navio_normalizado": "BJ BLUE MARLIN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-02T16:00:00.000Z",
+    "ultimo_hash_evento": "d9a8ca3020c455e6cd7eab393e42ae27c265f29dbffa062a2f012f3554838e91",
+    "atualizado_em": "2026-04-02T16:40:25.328Z"
   },
   "9514212": {
     "imo": "9514212",
@@ -606,14 +634,14 @@
     "navio": "LARUS",
     "navio_normalizado": "LARUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-01T10:00:00.000Z",
-    "ultimo_hash_evento": "3305ead19945ef4f2a4c72f47f115a8dcff029974479d710e71bd544652c24e1",
-    "atualizado_em": "2026-04-01T09:30:04.532Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-02T16:00:00.000Z",
+    "ultimo_hash_evento": "4f36ad51260b0fc28c02d0f7c065881e9eca4300818b15897fb30ebc2cffe03b",
+    "atualizado_em": "2026-04-02T16:40:25.328Z"
   },
   "9644122": {
     "imo": "9644122",
@@ -950,6 +978,20 @@
     "ultima_movimentacao_em": "2026-04-01T09:00:00.000Z",
     "ultimo_hash_evento": "418a95a82e1b5ec5a7de8f273b115b146b4b94f3de7e43ff810c80ded7075adb",
     "atualizado_em": "2026-04-01T09:30:04.532Z"
+  },
+  "9799070": {
+    "imo": "9799070",
+    "navio": "STARNAV SCORPIUS",
+    "navio_normalizado": "STARNAV SCORPIUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-02T16:30:00.000Z",
+    "ultimo_hash_evento": "4864d58973bc8fa3b526592892e62c22786127a109d05aa8820ee4821c710acd",
+    "atualizado_em": "2026-04-02T16:40:25.328Z"
   },
   "9801196": {
     "imo": "9801196",
