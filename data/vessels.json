@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-02T05:59:35.547Z",
+  "updatedAt": "2026-04-02T07:25:32.883Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 22
+      "count": 25
     },
     "niteroi": {
       "ok": true,
@@ -71,12 +71,42 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 04:30",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 05:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/04/2026 05:00",
       "imo": "9529891",
       "navio": "JOE GRIFFIN (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 05:30",
+      "imo": "9365544",
+      "navio": "NAVEGANTES PRIDE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -122,16 +152,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/04/2026 08:00",
-      "imo": "9762742",
-      "navio": "POSIDONIA LEOPARD (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/04/2026 08:00",
       "imo": "9239446",
       "navio": "SKANDI CARLA",
       "tipo": "ENTRADA",
@@ -148,6 +168,16 @@
       "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "Fundeio - WPT 62 - 2F6A",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 08:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
