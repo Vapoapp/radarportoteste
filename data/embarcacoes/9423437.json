@@ -1,29 +1,36 @@
 {
   "imo": "9423437",
   "navio": "AKOFS SANTOS",
-  "gerado_em": "2026-04-02T22:34:58.022Z",
+  "gerado_em": "2026-04-02T23:02:58.000Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 62 - 2F6A",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-02T11:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-02T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 1,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-04-01T10:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "ultima_saida": "2026-04-02T23:00:00.000Z",
+    "tempo_medio_estadia_horas": 37,
+    "tempo_medio_fundeio_horas": 12
   },
   "historico_recente": [
+    {
+      "data": "2026-04-02T23:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 62 - 2F6A",
+      "para": "-"
+    },
     {
       "data": "2026-04-02T11:00:00.000Z",
       "tipo": "MUDANÇA",
