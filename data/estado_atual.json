@@ -32,14 +32,14 @@
     "navio": "YA QING ZHI XING",
     "navio_normalizado": "YA QING ZHI XING",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F03 - Feiticeira",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F03 - Feiticeira",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-01T07:00:00.000Z",
-    "ultimo_hash_evento": "dcb73e759e0a8c3f3aac6141460949cd689d6e3bbb9e17759c6675e5516d5fd6",
-    "atualizado_em": "2026-04-02T02:01:15.351Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-02T20:00:00.000Z",
+    "ultimo_hash_evento": "ec5e3a091d0b6b746d3f2eb3472d0d676fd8ab8928b1a22aa7a2eb09e4d9be13",
+    "atualizado_em": "2026-04-02T20:03:51.985Z"
   },
   "9188130": {
     "imo": "9188130",
@@ -681,9 +681,9 @@
     "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-02T16:00:00.000Z",
-    "ultimo_hash_evento": "4f36ad51260b0fc28c02d0f7c065881e9eca4300818b15897fb30ebc2cffe03b",
-    "atualizado_em": "2026-04-02T16:40:25.328Z"
+    "ultima_movimentacao_em": "2026-04-02T20:00:00.000Z",
+    "ultimo_hash_evento": "52f45f521ea4c0b94dbbb47f50c9589c07c1e40b305ef3c0f48918be3a519e84",
+    "atualizado_em": "2026-04-02T20:03:51.985Z"
   },
   "9644122": {
     "imo": "9644122",
@@ -775,13 +775,13 @@
     "navio_normalizado": "STARNAV PERSEUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "NIT - ATRACADO NITERÓI",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-02T12:40:00.000Z",
-    "ultimo_hash_evento": "53cd862f59045781ae621f0593b8861dab6e1579329b99d44de1170cfce46b03",
-    "atualizado_em": "2026-04-02T13:54:51.362Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-02T20:00:00.000Z",
+    "ultimo_hash_evento": "abfd44cf7f8bc8efe2bbd28793450a31da771b804f27f50450f6357c24adc317",
+    "atualizado_em": "2026-04-02T20:03:51.985Z"
   },
   "9678147": {
     "imo": "9678147",
@@ -809,7 +809,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-04-02T19:00:00.000Z",
     "ultimo_hash_evento": "86b8c8eeeaf66466dfaaaa99248a8b35513784c86ebbbfa76ce303fbcd8303ca",
-    "atualizado_em": "2026-04-02T19:31:29.082Z"
+    "atualizado_em": "2026-04-02T20:03:51.985Z"
   },
   "9687356": {
     "imo": "9687356",
@@ -922,6 +922,20 @@
     "ultima_movimentacao_em": "2026-04-01T18:00:00.000Z",
     "ultimo_hash_evento": "33a4cb64ec59199887da1e90dcc3338d366dc70b37940fd8c0935495074d44e8",
     "atualizado_em": "2026-04-01T18:09:35.835Z"
+  },
+  "9727352": {
+    "imo": "9727352",
+    "navio": "MINERAL EDO",
+    "navio_normalizado": "MINERAL EDO",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-02T20:00:00.000Z",
+    "ultimo_hash_evento": "b7f4e993d5b9c72d042f7f36e8686ec0ca5b1fe1aa5e3572dd69c42729bbf828",
+    "atualizado_em": "2026-04-02T20:03:51.985Z"
   },
   "9747314": {
     "imo": "9747314",
