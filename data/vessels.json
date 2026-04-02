@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-02T07:25:32.883Z",
+  "updatedAt": "2026-04-02T08:34:15.657Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 25
+      "count": 29
     },
     "niteroi": {
       "ok": true,
@@ -74,8 +74,8 @@
       "inicio": "02/04/2026 04:30",
       "imo": "9659543",
       "navio": "BARU ANTARES",
-      "tipo": "ENTRADA",
-      "de": "-",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
@@ -112,21 +112,31 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/04/2026 06:00",
+      "imo": "9426972",
+      "navio": "CBO BIANCA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 06:00",
+      "imo": "9528354",
+      "navio": "SKANDI IGUAÇU",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 06:00",
       "imo": "9692791",
       "navio": "WILDEBEEST (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/04/2026 06:30",
-      "imo": "9644160",
-      "navio": "BRAM BELEM",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "TPBL - BRICLOG",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -138,6 +148,26 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 06:30",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 06:30",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -198,6 +228,16 @@
       "de": "TPP1 - PETROBRAS PP1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 11:00",
+      "imo": "9426972",
+      "navio": "CBO BIANCA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
