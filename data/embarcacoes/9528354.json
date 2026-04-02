@@ -1,29 +1,36 @@
 {
   "imo": "9528354",
   "navio": "SKANDI IGUAÇU",
-  "gerado_em": "2026-04-02T17:33:57.289Z",
+  "gerado_em": "2026-04-02T18:31:33.811Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-02T13:10:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-02T18:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-02T13:10:00.000Z",
-    "ultima_saida": "2026-04-02T09:00:00.000Z",
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "ultima_saida": "2026-04-02T18:30:00.000Z",
+    "tempo_medio_estadia_horas": 5.3,
+    "tempo_medio_fundeio_horas": 5.3
   },
   "historico_recente": [
+    {
+      "data": "2026-04-02T18:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-04-02T13:10:00.000Z",
       "tipo": "ENTRADA",
