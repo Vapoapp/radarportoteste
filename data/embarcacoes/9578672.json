@@ -1,35 +1,35 @@
 {
-  "imo": "9426972",
-  "navio": "CBO BIANCA",
+  "imo": "9578672",
+  "navio": "SEA1 GIANT",
   "gerado_em": "2026-04-02T01:57:06.935Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2N11 - Armazém 13",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-01T07:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-01T23:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 1,
     "manobras_180d": 1,
     "manobras_365d": 1,
     "entradas_30d": 0,
-    "saidas_30d": 0,
-    "mudancas_30d": 1,
+    "saidas_30d": 1,
+    "mudancas_30d": 0,
     "entradas_365d": 0,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": null,
-    "ultima_saida": null,
+    "ultima_saida": "2026-04-01T23:00:00.000Z",
     "tempo_medio_estadia_horas": null,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
     {
-      "data": "2026-04-01T07:00:00.000Z",
-      "tipo": "MUDANÇA",
+      "data": "2026-04-01T23:00:00.000Z",
+      "tipo": "SAÍDA",
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "2N11 - Armazém 13"
+      "para": "-"
     }
   ]
 }
