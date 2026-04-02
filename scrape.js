@@ -2,7 +2,7 @@
 'use strict';
 
 // ============================================================
-// SENTINELA — scraper + ingestão GitHub-only v3
+// SENTINELA — scraper + ingestão GitHub-only v13
 //
 // Sem banco SQLite. Tudo em arquivos de texto.
 //
@@ -16,15 +16,32 @@
 //   1. Coleta os 4 portos → grava vessels.json
 //   2. Carrega hashes já conhecidos do .jsonl do dia (deduplicação)
 //   3. Carrega estado_atual.json
-//   4. Para cada embarcação:
-//      a. Calcula hash(porto+inicio+imo+tipo+de+para)
-//      b. Se hash já existe → repetição, ignora
-//      c. Se hash novo → acrescenta no .jsonl + atualiza estado_atual
+//   4. Para cada embarcação (em ordem cronológica):
+//      a. Calcula hash_evento(porto+inicio+imo+tipo+de+para)
+//         e   hash_identidade(imo+tipo+de+para) — sem horário
+//      b. Se hash_evento já existe → repetição, ignora
+//      c. Classifica: novo | remarcacao | orfao | incoerente
+//         - remarcação: substitui a linha INTEIRA no .jsonl (nunca append)
+//         - orfao: mudança sem entrada prévia → ignora
+//         - incoerente: origem da mudança/saída incompatível com último destino → descarta
+//      d. Evento novo → append no .jsonl + atualiza estado_atual
 //   5. Salva estado_atual.json (se mudou)
 //   6. Acrescenta snapshot compactado do dia
 //   7. Limpa snapshots com mais de 30 dias
 //   8. Retorna código 0 se houve eventos novos, 2 se não houve
 //      (o workflow usa esse código para decidir se commita)
+//
+// Regras de máquina de estados (v7):
+//   entrada→entrada           = remarcação (substitui)
+//   entrada→mudança           = novo (se origem coerente)
+//   entrada→saída             = novo (se origem coerente)
+//   mudança→mudança (Δt<2h)  = remarcação (substitui)
+//   mudança→mudança (Δt≥2h)  = novo (se origem coerente)
+//   mudança→saída             = novo (se origem coerente)
+//   saída→saída               = remarcação (substitui)
+//   saída→entrada             = novo
+//   saída→mudança             = órfão (descarta)
+//   (vazio)→mudança           = órfão (descarta)
 // ============================================================
 
 const https  = require('https');
@@ -49,6 +66,22 @@ const PORTOS = [
   { id:'itaguai', nome:'Itaguaí',        url:'https://silog.portosrio.gov.br/silog/pesquisa.aspx?WCI=relPrePautaSimplificado&Mv=Link&sqlCodDominio=3&sqlFLG_PUBLICO_EXTERNO=1' },
   { id:'angra',   nome:'Angra dos Reis', url:'https://silog.portosrio.gov.br/silog/pesquisa.aspx?WCI=relPrePautaSimplificado&Mv=Link&sqlCodDominio=4&sqlFLG_PUBLICO_EXTERNO=1' },
 ];
+
+/**
+ * Modo de validação de coerência de origem para mudança/saída.
+ *
+ *   'exata'   — só aceita se destino anterior == nova origem (normalizado).
+ *               Mais rígido. Rejeita truncamentos e abreviações do SILOG.
+ *
+ *   'parcial' — aceita se um contém o outro (dest.includes(orig) ou vice-versa).
+ *               Mais tolerante. Cobre "berço 1 norte" ↔ "berço 1".
+ *               Loga aviso para cada aceitação parcial (rastreável).
+ *
+ * Ajuste conforme o comportamento observado na fonte (SILOG).
+ * Se o SILOG for consistente nos nomes → use 'exata'.
+ * Se truncar com frequência → use 'parcial'.
+ */
+const ORIGEM_COERENTE_MODO = 'parcial'; // 'exata' | 'parcial'
 
 // ── UTILS ─────────────────────────────────────────────────────────────────────
 
@@ -109,11 +142,24 @@ function calcFundeio(tipo, para) {
 
 /**
  * Hash de identidade do evento — sem horário, sem porto.
- * Identifica "o quê" a embarcação faz, de onde e para onde.
- * Usado pela máquina de estados para detectar remarcações.
+ * Inclui de|para — usado como identificador estável do registro gravado
+ * e como chave de deduplicação de contagem em relatórios.
+ * NÃO é usado como chave de busca de remarcação (ver chaveRemarcacao).
  */
 function hashIdentidade(v) {
   return sha256(`${v.imo}|${v.tipo}|${v.de}|${v.para}`);
+}
+
+/**
+ * Chave de remarcação — apenas IMO + tipo normalizado (sem de/para).
+ * Usada para localizar o evento anterior na detecção de remarcação,
+ * mesmo quando de/para são corrigidos/alterados na nova versão da manobra.
+ * Ex.: entrada→entrada do mesmo navio é remarcação mesmo se o berço foi corrigido.
+ */
+function chaveRemarcacao(imo, tipo) {
+  const tipoNorm = (tipo || '').toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+  return `${imo}|${tipoNorm}`;
 }
 
 /**
@@ -129,19 +175,47 @@ function hashEvento(v) {
  *
  * Transições válidas:
  *   (vazio | SAÍDA)      + ENTRADA  → novo evento
- *   (ENTRADA | MUDANÇA)  + MUDANÇA  → novo evento
- *   (ENTRADA | MUDANÇA)  + SAÍDA    → novo evento
+ *   (ENTRADA | MUDANÇA)  + MUDANÇA  → novo evento (se coerente) ou remarcação (se < 2h)
+ *   (ENTRADA | MUDANÇA)  + SAÍDA    → novo evento (se coerente)
  *
  * Remarcações (mesmo tipo consecutivo):
- *   (ENTRADA | MUDANÇA)  + ENTRADA  → remarcação: atualiza horário
- *   (SAÍDA)              + SAÍDA    → remarcação: atualiza horário
+ *   (ENTRADA | MUDANÇA)  + ENTRADA  → remarcação: atualiza evento
+ *   (SAÍDA)              + SAÍDA    → remarcação: atualiza evento
+ *   (MUDANÇA)            + MUDANÇA  → remarcação se Δt < 2h; senão avalia como novo
  *   (SAÍDA | vazio)      + MUDANÇA  → evento órfão: ignora
  *
- * @param {string|null} ultimoTipo  — último tipo gravado para este IMO
- * @param {string}      novoTipo    — tipo do evento sendo processado
+ * Coerência de origem:
+ *   Para MUDANÇA e SAÍDA, a origem do novo evento deve bater com o destino
+ *   do último evento válido. Se não bater e houver estado gravado, descarta.
+ *
+/**
+ * Máquina de estados por embarcação.
+ *
+ * Transições válidas:
+ *   (vazio | SAÍDA)      + ENTRADA  → novo
+ *   (vazio | SAÍDA)      + SAÍDA    → novo (sem histórico) / remarcação (pós-saída)
+ *   (ENTRADA | MUDANÇA)  + MUDANÇA  → novo (ou remarcação se Δt < 2h)
+ *   (ENTRADA | MUDANÇA)  + SAÍDA    → novo
+ *
+ * Remarcações:
+ *   (ENTRADA | MUDANÇA)  + ENTRADA  → remarcação
+ *   (SAÍDA)              + SAÍDA    → remarcação
+ *   (MUDANÇA)            + MUDANÇA com Δt < 2h → remarcação
+ *
+ * Órfãos (descartados):
+ *   (vazio | SAÍDA)      + MUDANÇA  → órfão (mudança sem embarcação dentro do porto)
+ *
+ * Nota: validação de coerência de origem NÃO é feita aqui.
+ * Ela serve apenas para desempatar duplicatas na deduplicação inicial (maisCoerente).
+ * Um evento único com origem "incoerente" é aceito — o SILOG pode ter dados incompletos.
+ *
+ * @param {string|null} ultimoTipo   — último tipo gravado para este IMO
+ * @param {string}      novoTipo     — tipo do evento sendo processado
+ * @param {string|null} ultimoInicio — ISO do último evento (para janela de 2h em mudança)
+ * @param {string|null} novoInicio   — ISO do novo evento
  * @returns {'novo'|'remarcacao'|'orfao'}
  */
-function classificarEvento(ultimoTipo, novoTipo) {
+function classificarEvento(ultimoTipo, novoTipo, ultimoInicio, novoInicio) {
   const ultimo = (ultimoTipo || '').toLowerCase();
   const novo   = novoTipo.toLowerCase();
 
@@ -152,8 +226,8 @@ function classificarEvento(ultimoTipo, novoTipo) {
   // sem histórico
   if (!ultimoTipo) {
     if (isEntrada(novo)) return 'novo';
-    if (isSaida(novo))   return 'novo';   // pode acontecer para embarcações sem histórico
-    if (isMudanca(novo)) return 'orfao';  // mudança sem entrada prévia
+    if (isSaida(novo))   return 'novo';
+    if (isMudanca(novo)) return 'orfao'; // mudança sem embarcação dentro do porto
   }
 
   // último foi SAÍDA
@@ -166,11 +240,22 @@ function classificarEvento(ultimoTipo, novoTipo) {
   // último foi ENTRADA ou MUDANÇA (embarcação dentro do porto)
   if (isEntrada(ultimo) || isMudanca(ultimo)) {
     if (isEntrada(novo)) return 'remarcacao';
-    if (isMudanca(novo)) return 'novo';
-    if (isSaida(novo))   return 'novo';
+
+    if (isMudanca(novo)) {
+      // mudança → mudança: verifica janela de 2h para remarcação
+      if (isMudanca(ultimo) && ultimoInicio && novoInicio) {
+        const diffH = (new Date(novoInicio) - new Date(ultimoInicio)) / 3600000;
+        if (Math.abs(diffH) < 2) return 'remarcacao';
+      }
+      return 'novo';
+    }
+
+    if (isSaida(novo)) return 'novo';
   }
 
-  return 'novo'; // fallback seguro
+  // fallback conservador: combinação desconhecida → órfão
+  console.warn(`  ⚠ classificarEvento: combinação inesperada ultimo="${ultimoTipo}" novo="${novoTipo}" → tratado como órfão`);
+  return 'orfao';
 }
 
 // ── FILESYSTEM ────────────────────────────────────────────────────────────────
@@ -231,35 +316,32 @@ function releaseLock(lockPath) {
  *   3. Rename atômico .tmp → destino
  *   4. Libera lock
  * Garante que leitores nunca veem arquivo parcialmente escrito.
- * Se outro processo já tiver o lock, aguarda até LOCK_TIMEOUT_MS e desiste.
+ * Se não conseguir lock dentro de LOCK_TIMEOUT_MS, loga aviso e ABORTA —
+ * não grava sem lock. Filosofia consistente com appendEvento e atualizarEvento.
+ * Retorna true se gravou, false se abortou.
  */
 const LOCK_TIMEOUT_MS = 5000;
 const LOCK_RETRY_MS   = 50;
 
 function writeJson(filePath, data) {
   mkdirp(path.dirname(filePath));
-  const tmp  = filePath + '.tmp';
-  const lock = filePath + '.lock';
+  const tmp = filePath + '.tmp';
 
-  // aguarda lock com timeout
   const deadline = Date.now() + LOCK_TIMEOUT_MS;
   let lockAcquired = null;
   while (Date.now() < deadline) {
     lockAcquired = acquireLock(filePath);
     if (lockAcquired) break;
-    // espera síncrona simples (execução single-threaded, não bloqueia event loop)
     Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, LOCK_RETRY_MS);
   }
   if (!lockAcquired) {
-    // timeout: grava direto sem lock (melhor do que perder o dado)
-    console.warn(`⚠ writeJson: timeout ao aguardar lock em ${filePath}, gravando sem lock`);
-    fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
-    fs.renameSync(tmp, filePath);
-    return;
+    console.warn(`⚠ writeJson: timeout ao aguardar lock em ${filePath}, arquivo NÃO gravado (sem fallback inseguro)`);
+    return false;
   }
   try {
     fs.writeFileSync(tmp, JSON.stringify(data, null, 2), 'utf8');
     fs.renameSync(tmp, filePath);  // atômico no mesmo filesystem
+    return true;
   } finally {
     releaseLock(lockAcquired);
   }
@@ -278,95 +360,185 @@ function snapshotPath(dia) {
 }
 
 /**
- * Carrega o estado do .jsonl do dia.
+ * Carrega o estado do .jsonl do dia e dos N dias anteriores.
  * Retorna:
- *   hashesGravados — Set com todos os hash_evento já gravados (evita duplicata de linha)
- *   identidadeMap  — Map<hash_identidade, evento> com o evento mais recente por identidade
- *                    Usado pela máquina de estados para detectar remarcações.
+ *   hashesGravados — Set com todos os hash_evento do DIA ATUAL (evita duplicata de linha)
+ *   remarcacaoMap  — Map<chaveRemarcacao(imo,tipo), evento> com o evento mais recente
+ *                    por IMO+tipo na janela carregada. Usado para detectar remarcações
+ *                    mesmo quando de/para muda ou a remarcação cruza virada de dia.
+ *
+ * diasAnteriores: quantos dias anteriores incluir no remarcacaoMap (padrão 3).
+ * Hashes só são registrados para o dia atual — dias anteriores contribuem apenas
+ * ao mapa de remarcação, para não bloquear re-gravação de hash em dia diferente.
  */
-function carregarEstadoDoDia(dia) {
-  const p = eventosPath(dia);
+const JANELA_REMARCACAO_DIAS = 3;
+
+function carregarEstadoDoDia(dia, diasAnteriores = JANELA_REMARCACAO_DIAS) {
   const hashesGravados = new Set();
-  const identidadeMap  = new Map(); // hash_identidade → evento
+  const remarcacaoMap  = new Map(); // chaveRemarcacao(imo,tipo) → evento mais recente
 
-  if (!fs.existsSync(p)) return { hashesGravados, identidadeMap };
-
-  const linhas = fs.readFileSync(p, 'utf8').split('\n').filter(Boolean);
-  for (const linha of linhas) {
-    try {
-      const ev = JSON.parse(linha);
-      if (ev.hash_evento)     hashesGravados.add(ev.hash_evento);
-      if (ev.hash_identidade) {
-        const anterior = identidadeMap.get(ev.hash_identidade);
-        if (!anterior || ev.inicio_evento > anterior.inicio_evento) {
-          identidadeMap.set(ev.hash_identidade, ev);
+  function processarArquivo(p, registrarHashes) {
+    if (!fs.existsSync(p)) return;
+    const linhas = fs.readFileSync(p, 'utf8').split('\n').filter(Boolean);
+    for (const linha of linhas) {
+      try {
+        const ev = JSON.parse(linha);
+        if (registrarHashes && ev.hash_evento) hashesGravados.add(ev.hash_evento);
+        if (ev.imo && ev.tipo_evento) {
+          const chave    = chaveRemarcacao(ev.imo, ev.tipo_evento);
+          const anterior = remarcacaoMap.get(chave);
+          if (!anterior || ev.inicio_evento > anterior.inicio_evento) {
+            remarcacaoMap.set(chave, ev);
+          }
         }
-      }
-    } catch {}
+      } catch {}
+    }
   }
-  return { hashesGravados, identidadeMap };
+
+  // dia atual — registra hashes para deduplicação
+  processarArquivo(eventosPath(dia), true);
+
+  // dias anteriores — apenas para remarcacaoMap (cobre virada de dia e correções tardias)
+  const diaBaseMs = new Date(dia + 'T12:00:00Z').getTime();
+  for (let i = 1; i <= diasAnteriores; i++) {
+    const diaAnt = diaBrasilia(new Date(diaBaseMs - i * 86400000).toISOString());
+    processarArquivo(eventosPath(diaAnt), false);
+  }
+
+  return { hashesGravados, remarcacaoMap };
 }
 
 /**
- * Acrescenta uma linha ao .jsonl de eventos.
+ * Acrescenta uma linha ao .jsonl de eventos com lock exclusivo.
  * Cria o arquivo e diretórios se necessário.
+ * Se não conseguir lock dentro do timeout, loga aviso e ABORTA —
+ * não grava sem lock. Filosofia igual ao atualizarEvento: corretude
+ * antes de completude.
+ * Retorna true se gravou, false se abortou.
  */
 function appendEvento(dia, obj) {
   const p = eventosPath(dia);
   mkdirp(path.dirname(p));
-  fs.appendFileSync(p, JSON.stringify(obj) + '\n', 'utf8');
-}
 
-/**
- * Atualiza o inicio_evento de um evento já gravado no .jsonl do dia.
- * Reescreve o arquivo substituindo a linha com o hash_identidade informado.
- * Usado quando a máquina de estados detecta uma remarcação de horário.
- */
-function atualizarInicioEvento(dia, hashIdentidade, inicioAnterior, novoInicio, novoHashEvento, agora) {
-  const p = eventosPath(dia);
-  if (!fs.existsSync(p)) return;
-
-  const lockAcquired = acquireLock(p);
+  const deadline = Date.now() + LOCK_TIMEOUT_MS;
+  let lockAcquired = null;
+  while (Date.now() < deadline) {
+    lockAcquired = acquireLock(p);
+    if (lockAcquired) break;
+    Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, LOCK_RETRY_MS);
+  }
   if (!lockAcquired) {
-    console.warn(`⚠ atualizarInicioEvento: não conseguiu lock em ${p}, pulando atualização`);
-    return;
+    console.warn(`⚠ appendEvento: timeout ao aguardar lock em ${p}, evento NÃO gravado (sem fallback inseguro)`);
+    return false;
   }
   try {
-    const linhas = fs.readFileSync(p, 'utf8').split('\n').filter(Boolean);
-    let atualizou = false;
-    const atualizadas = linhas.map(l => {
-      try {
-        const ev = JSON.parse(l);
-        // precisa bater hash_identidade E o inicio anterior — evita colidir
-        // com outro evento legítimo da mesma identidade no mesmo dia
-        if (!atualizou && ev.hash_identidade === hashIdentidade && ev.inicio_evento === inicioAnterior) {
-          ev.inicio_evento  = novoInicio;
-          ev.hash_evento    = novoHashEvento;
-          ev.atualizado_em  = agora;
-          ev.remarcado      = true;
-          atualizou = true;
-        }
-        return JSON.stringify(ev);
-      } catch { return l; }
-    });
-    // escrita atômica: .tmp → rename
-    const tmp = p + '.tmp';
-    fs.writeFileSync(tmp, atualizadas.join('\n') + '\n', 'utf8');
-    fs.renameSync(tmp, p);
+    fs.appendFileSync(p, JSON.stringify(obj) + '\n', 'utf8');
+    return true;
   } finally {
     releaseLock(lockAcquired);
   }
 }
 
 /**
- * Acrescenta linha de snapshot compactado no .jsonl.gz do dia.
+ * Atualiza um evento já gravado no .jsonl com os dados mais recentes.
+ * Reescreve a linha inteira, identificando-a pela chave_remarcacao (imo|tipo)
+ * + inicio_evento anterior. Funciona mesmo quando de/para mudam na remarcação.
+ * Nunca faz append como fallback — se não encontrar a linha, loga e retorna false.
+ *
+ * Percorre a mesma janela de dias que carregarEstadoDoDia (JANELA_REMARCACAO_DIAS),
+ * garantindo que se o remarcacaoMap encontrou o anterior, atualizarEvento consegue
+ * substituí-lo independentemente de em qual dia ele foi gravado.
+ *
+ * @param {string} diaInicio   — "YYYY-MM-DD" do evento anterior (ponto de partida da busca)
+ * @param {string} chaveRemarc — chaveRemarcacao(imo, tipo)
+ * @param {string} inicioAnt   — ISO do evento a substituir
+ * @param {object} novoEvento  — objeto completo do novo evento
+ * @returns {boolean}          — true se atualizou, false se não encontrou/falhou
+ */
+function atualizarEvento(diaInicio, chaveRemarc, inicioAnt, novoEvento) {
+  // Gera lista de dias a tentar: diaInicio e até JANELA_REMARCACAO_DIAS anteriores
+  const diasTentar = [diaInicio];
+  const baseMs = new Date(diaInicio + 'T12:00:00Z').getTime();
+  for (let i = 1; i <= JANELA_REMARCACAO_DIAS; i++) {
+    diasTentar.push(diaBrasilia(new Date(baseMs - i * 86400000).toISOString()));
+  }
+  // Remove duplicatas (caso diaInicio já seja um dos calculados)
+  const diasUnicos = [...new Set(diasTentar)];
+
+  for (const dia of diasUnicos) {
+    const p = eventosPath(dia);
+    if (!fs.existsSync(p)) continue;
+
+    const lockAcquired = acquireLock(p);
+    if (!lockAcquired) {
+      console.warn(`⚠ atualizarEvento: não conseguiu lock em ${p}, atualização ignorada (sem fallback)`);
+      return false;
+    }
+    let lockReleased = false;
+    try {
+      const linhas = fs.readFileSync(p, 'utf8').split('\n').filter(Boolean);
+      let atualizou = false;
+      const atualizadas = linhas.map(l => {
+        try {
+          const ev = JSON.parse(l);
+          if (!atualizou
+              && chaveRemarcacao(ev.imo, ev.tipo_evento) === chaveRemarc
+              && ev.inicio_evento === inicioAnt) {
+            atualizou = true;
+            return JSON.stringify(novoEvento);
+          }
+          return JSON.stringify(ev);
+        } catch { return l; }
+      });
+
+      if (!atualizou) {
+        releaseLock(lockAcquired);
+        lockReleased = true;
+        continue; // tenta o próximo dia da janela
+      }
+
+      // escrita atômica: .tmp → rename
+      const tmp = p + '.tmp';
+      fs.writeFileSync(tmp, atualizadas.join('\n') + '\n', 'utf8');
+      fs.renameSync(tmp, p);
+      return true;
+    } finally {
+      if (!lockReleased) releaseLock(lockAcquired);
+    }
+  }
+
+  console.warn(`⚠ atualizarEvento: linha não encontrada para chave=${chaveRemarc} inicio=${inicioAnt} (janela de ${diasUnicos.length} dias), atualização ignorada`);
+  return false;
+}
+
+/**
+ * Acrescenta linha de snapshot compactado no .jsonl.gz do dia com lock exclusivo.
  * Cada linha é um JSON.stringify comprimido em gzip+base64.
+ * Sem lock dentro do timeout → loga aviso e não grava (sem fallback inseguro).
+ * Retorna true se gravou, false se abortou.
  */
 function appendSnapshot(dia, snapshotObj) {
   const p = snapshotPath(dia);
   mkdirp(path.dirname(p));
   const linha = zlib.gzipSync(JSON.stringify(snapshotObj)).toString('base64') + '\n';
-  fs.appendFileSync(p, linha, 'utf8');
+
+  const deadline = Date.now() + LOCK_TIMEOUT_MS;
+  let lockAcquired = null;
+  while (Date.now() < deadline) {
+    lockAcquired = acquireLock(p);
+    if (lockAcquired) break;
+    Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, LOCK_RETRY_MS);
+  }
+  if (!lockAcquired) {
+    console.warn(`⚠ appendSnapshot: timeout ao aguardar lock em ${p}, snapshot NÃO gravado (sem fallback inseguro)`);
+    return false;
+  }
+  try {
+    fs.appendFileSync(p, linha, 'utf8');
+    return true;
+  } finally {
+    releaseLock(lockAcquired);
+  }
 }
 
 /**
@@ -529,16 +701,22 @@ function gerarMetricas(estado, diaHoje, agora) {
     }));
 
   // ── contadores do dia (lê o .jsonl já gravado) ────────────────────────────
+  // Usa hash_evento como chave — único por registro gravado. Como remarcações
+  // já foram consolidadas in-place no .jsonl, cada linha representa exatamente
+  // um evento lógico real: não há risco de inflar nem de subcontar.
   let entradas = 0, saidas = 0, mudancas = 0;
-  const pEventos = eventosPath(diaHoje);  // usa diaHoje (Brasília), não UTC
+  const pEventos = eventosPath(diaHoje);
   if (fs.existsSync(pEventos)) {
+    const vistos = new Set();
     const linhas = fs.readFileSync(pEventos, 'utf8').split('\n').filter(Boolean);
     for (const linha of linhas) {
       try {
-        const e = JSON.parse(linha);
-        // campo correto é tipo_evento, não tipo
-        if (/entrada/i.test(e.tipo_evento))  entradas++;
-        else if (/saída|saida/i.test(e.tipo_evento)) saidas++;
+        const e     = JSON.parse(linha);
+        const chave = e.hash_evento || linha;
+        if (vistos.has(chave)) continue;
+        vistos.add(chave);
+        if (/entrada/i.test(e.tipo_evento))              entradas++;
+        else if (/saída|saida/i.test(e.tipo_evento))     saidas++;
         else if (/mudança|mudanca/i.test(e.tipo_evento)) mudancas++;
       } catch {}
     }
@@ -669,7 +847,22 @@ function gerarRelatoriosEmbarcacoes(estado, agora) {
     }
   }
 
-  const contar = (arr, re) => arr.filter(e => re.test(e.tipo_evento)).length;
+  const contar = (arr, re) => {
+    // Usa hash_evento como chave — ele é único por registro gravado no .jsonl
+    // (inclui porto + horário + imo + tipo + de + para).
+    // Isso evita subcontagem de eventos reais com mesma rota em dias diferentes
+    // (problema de hash_identidade+dia) e também não infla por remarcações
+    // (que já foram consolidadas in-place no .jsonl antes de chegar aqui).
+    const vistos = new Set();
+    let n = 0;
+    for (const e of arr) {
+      const chave = e.hash_evento || JSON.stringify(e);
+      if (vistos.has(chave)) continue;
+      vistos.add(chave);
+      if (re.test(e.tipo_evento)) n++;
+    }
+    return n;
+  };
   const ultimo = (arr, re) => arr
     .filter(e => re.test(e.tipo_evento))
     .sort((a, b) => b.inicio_evento.localeCompare(a.inicio_evento))[0]?.inicio_evento || null;
@@ -692,9 +885,15 @@ function gerarRelatoriosEmbarcacoes(estado, agora) {
     const todos_asc = [...todos].reverse();
 
     // manobras por janela (arrays já particionados — sem refiltrar por data)
-    const man30  = e30.length;
-    const man180 = e30.length + e180.length;
-    const man365 = e30.length + e180.length + e365.length;
+    // conta eventos lógicos únicos via hash_identidade
+    const contarUnicos = arr => {
+      const s = new Set();
+      for (const e of arr) s.add(e.hash_evento || JSON.stringify(e));
+      return s.size;
+    };
+    const man30  = contarUnicos(e30);
+    const man180 = contarUnicos(e30) + contarUnicos(e180);
+    const man365 = contarUnicos(e30) + contarUnicos(e180) + contarUnicos(e365);
 
     const relatorio = {
       imo,
@@ -799,8 +998,8 @@ async function main() {
     process.exit(1);
   }
 
-  // ── 4. carrega estado do dia (hashes gravados + mapa de identidade) ────────
-  const { hashesGravados, identidadeMap } = carregarEstadoDoDia(diaHoje);
+  // ── 4. carrega estado do dia (hashes gravados + mapa de remarcação) ────────
+  const { hashesGravados, remarcacaoMap } = carregarEstadoDoDia(diaHoje);
 
   // ── 5. carrega estado atual ───────────────────────────────────────────────
   const estado = readJson(ESTADO_PATH, {});  // { [imo]: { ...campos } }
@@ -860,8 +1059,10 @@ async function main() {
   // grava vessels.json com TODOS os eventos do dia (pauta completa para o frontend)
   // mas processa apenas os passados na máquina de estados
   const jsonData = { updatedAt: agora, portos: portStatus, vessels: allVessels };
-  writeJson(VESSELS_PATH, jsonData);
-  appendSnapshot(diaHoje, jsonData);
+  const vesselsGravado  = writeJson(VESSELS_PATH, jsonData);
+  const snapshotGravado = appendSnapshot(diaHoje, jsonData);
+  if (!vesselsGravado)  console.warn('⚠ vessels.json não atualizado neste ciclo (lock timeout)');
+  if (!snapshotGravado) console.warn('⚠ snapshot não gravado neste ciclo (lock timeout)');
 
   // ── 6b. ordena por horário antes de processar ─────────────────────────────
   // Garante que a máquina de estados recebe os eventos em ordem cronológica,
@@ -876,22 +1077,69 @@ async function main() {
 
   // ── 6b. deduplica eventos com mesmo IMO + tipo + horário ────────────────────
   // A fonte (SILOG) às vezes publica dois eventos idênticos em tipo e horário
-  // para a mesma embarcação com origens diferentes — erro de entrada na pauta.
-  // Após o sort, o último da lista (índice maior) é o mais recente coletado,
-  // que é o que queremos manter.
+  // para a mesma embarcação com origens/destinos diferentes — erro de entrada na pauta.
+  //
+  // Estratégia de desempate (em ordem de prioridade):
+  //   1. Se um dos candidatos tem origem compatível com o último destino gravado
+  //      no estado_atual → esse é o mais coerente operacionalmente.
+  //   2. Caso contrário, mantém o último item coletado (mais recente na fonte).
+  //
+  // Constrói novo array (sem splice durante iteração) e re-ordena ao final.
   {
-    const seen = new Map(); // `${imo}|${tipo}|${inicio}` → índice
-    for (let i = 0; i < vessels.length; i++) {
-      const v   = vessels[i];
+    const seen   = new Map(); // key → índice no result
+    const result = [];
+
+    function maisCoerente(candidato, atual) {
+      // retorna true se candidato é operacionalmente preferível a atual.
+      // Usa ORIGEM_COERENTE_MODO — mesma configuração de origemCoerente() —
+      // para consistência: se o sistema aceita parcial em um lugar, aceita no outro.
+      const estadoIMO  = estado[candidato.imo];
+      const ultDestino = estadoIMO?.destino_atual;
+      if (!ultDestino) return false; // sem estado → mantém atual (último coletado)
+      const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
+      const d     = norm(ultDestino);
+      const cOrig = norm(candidato.de);
+      const aOrig = norm(atual.de);
+
+      function bate(dest, orig) {
+        if (!dest || !orig) return false;
+        if (dest === orig) return true;
+        if (ORIGEM_COERENTE_MODO === 'parcial') return dest.includes(orig) || orig.includes(dest);
+        return false;
+      }
+
+      const candCoerente  = bate(d, cOrig);
+      const atualCoerente = bate(d, aOrig);
+      // candidato coerente e atual não → candidato vence
+      return candCoerente && !atualCoerente;
+    }
+
+    for (const v of vessels) {
       const key = `${v.imo}|${v.tipo}|${v.inicio}`;
       if (seen.has(key)) {
         const prevIdx = seen.get(key);
-        console.log(`  ✂ duplicata de horário removida: ${v.navio} — ${v.tipo} ${v.inicio} (de: "${vessels[prevIdx].de}" descartado, mantido: "${v.de}")`);
-        vessels.splice(prevIdx, 1);
-        i--;
+        const atual   = result[prevIdx];
+        if (maisCoerente(v, atual)) {
+          console.log(`  ✂ duplicata resolvida por coerência: ${v.navio} — ${v.tipo} ${v.inicio} (de: "${atual.de}" → preferido: "${v.de}")`);
+          result[prevIdx] = v;
+        } else {
+          console.log(`  ✂ duplicata de horário removida: ${v.navio} — ${v.tipo} ${v.inicio} (de: "${v.de}" descartado, mantido: "${atual.de}")`);
+        }
+      } else {
+        seen.set(key, result.length);
+        result.push(v);
       }
-      seen.set(key, i);
     }
+    // re-ordena cronologicamente após substituições
+    result.sort((a, b) => {
+      const ta = parseInicio(a.inicio);
+      const tb = parseInicio(b.inicio);
+      if (ta !== tb) return ta.localeCompare(tb);
+      if (a.imo !== b.imo) return String(a.imo).localeCompare(String(b.imo));
+      return String(a.tipo).localeCompare(String(b.tipo));
+    });
+    vessels.length = 0;
+    vessels.push(...result);
   }
 
   // ── 7. processa cada embarcação (máquina de estados) ─────────────────────
@@ -901,7 +1149,9 @@ async function main() {
     const inicioISO  = parseInicio(v.inicio);
     const navioNorm  = normalizeNavio(v.navio);
     const emFundeio  = calcFundeio(v.tipo, v.para);
-    const ultimoTipo = estado[v.imo]?.ultimo_tipo_evento || null;
+    const estadoIMO  = estado[v.imo];
+    const ultimoTipo    = estadoIMO?.ultimo_tipo_evento  || null;
+    const ultimoInicio  = estadoIMO?.ultima_movimentacao_em || null;
 
     const hash      = hashEvento(v);
     const hashIdent = hashIdentidade(v);
@@ -912,7 +1162,10 @@ async function main() {
       continue;
     }
 
-    const classificacao = classificarEvento(ultimoTipo, v.tipo);
+    const classificacao = classificarEvento(
+      ultimoTipo, v.tipo,
+      ultimoInicio, inicioISO
+    );
 
     if (classificacao === 'orfao') {
       orfaos++;
@@ -921,39 +1174,68 @@ async function main() {
     }
 
     if (classificacao === 'remarcacao') {
-      const anterior = identidadeMap.get(hashIdent);
-      if (anterior && inicioISO === anterior.inicio_evento) {
-        // horário idêntico → repetição pura
-        repetidos++;
-        continue;
-      }
+      const chaveRemarc = chaveRemarcacao(v.imo, v.tipo);
+      const anterior    = remarcacaoMap.get(chaveRemarc);
+
       if (anterior) {
-        // horário diferente → remarcação: atualiza linha no .jsonl
-        atualizarInicioEvento(diaHoje, hashIdent, anterior.inicio_evento, inicioISO, hash, agora);
-        identidadeMap.set(hashIdent, { ...anterior, inicio_evento: inicioISO, hash_evento: hash });
-        hashesGravados.add(hash);
-        remarcados++;
-        console.log(`  ↺ remarcado: ${v.navio} — ${v.tipo} ${anterior.inicio_evento} → ${inicioISO}`);
+        // Verifica se é repetição pura: horário, rota E campos relevantes idênticos.
+        // Inclui agente — se o SILOG corrigir o agente mantendo mesmo horário e rota,
+        // isso é uma atualização real e não deve ser descartada como repetição.
+        const mesmoCampos = inicioISO   === anterior.inicio_evento
+                         && v.de        === anterior.origem
+                         && v.para      === anterior.destino
+                         && v.agente    === anterior.agente
+                         && v.navio     === anterior.navio
+                         && v.porto     === anterior.porto;
+        if (mesmoCampos) {
+          repetidos++;
+          continue;
+        }
+        const novoEv        = buildEvento(v, inicioISO, navioNorm, emFundeio, hash, hashIdent, agora);
+        novoEv.remarcado    = true;
+        novoEv.atualizado_em = agora;
+        // dia do evento anterior pode ser diferente do dia atual (virada de dia)
+        const diaEvAnterior = diaBrasilia(anterior.inicio_evento);
+        const ok = atualizarEvento(diaEvAnterior, chaveRemarc, anterior.inicio_evento, novoEv);
+        if (ok) {
+          // remove hash antigo do set — o evento foi substituído no .jsonl
+          // e o hash antigo não representa mais nenhuma linha válida
+          if (anterior.hash_evento) hashesGravados.delete(anterior.hash_evento);
+          remarcacaoMap.set(chaveRemarc, novoEv);
+          hashesGravados.add(hash);
+          remarcados++;
+          const diffs = [];
+          if (inicioISO      !== anterior.inicio_evento) diffs.push(`horário: ${anterior.inicio_evento}→${inicioISO}`);
+          if (v.de           !== anterior.origem)         diffs.push(`de: "${anterior.origem}"→"${v.de}"`);
+          if (v.para         !== anterior.destino)        diffs.push(`para: "${anterior.destino}"→"${v.para}"`);
+          if (v.agente       !== anterior.agente)         diffs.push(`agente: "${anterior.agente}"→"${v.agente}"`);
+          if (v.navio        !== anterior.navio)          diffs.push(`navio: "${anterior.navio}"→"${v.navio}"`);
+          if (v.porto        !== anterior.porto)          diffs.push(`porto: "${anterior.porto}"→"${v.porto}"`);
+          console.log(`  ↺ remarcado: ${v.navio} — ${v.tipo} [${diffs.join(' | ')}]`);
+          // atualiza estado apenas quando histórico foi consolidado com sucesso
+          atualizarEstado(estado, v, inicioISO, navioNorm, emFundeio, hash, agora);
+        }
+        // se não ok: atualizarEvento já logou aviso; não faz append, não avança estado
       } else {
-        // identidade não está no dia atual (ex.: SAÍDA remarcou de 23h→01h do dia seguinte)
-        // trata como novo evento no novo dia
-        const ev = buildEvento(v, inicioISO, navioNorm, emFundeio, hash, hashIdent, agora);
-        appendEvento(diaHoje, ev);
-        hashesGravados.add(hash);
-        identidadeMap.set(hashIdent, ev);
-        novos++;
+        // P1: classificação foi 'remarcacao' mas não há evento anterior na janela
+        // carregada (bootstrap, histórico insuficiente, correção muito tardia).
+        // Comportamento conservador: loga e ignora. Não faz append — criar linha
+        // nova aqui quebraria a regra de "remarcação substitui, nunca duplica".
+        orfaos++;
+        console.warn(`  ⚠ remarcação sem anterior: ${v.navio} (IMO ${v.imo}) — ${v.tipo} ${inicioISO} ignorado (sem evento anterior na janela de ${JANELA_REMARCACAO_DIAS + 1} dias)`);
       }
-      atualizarEstado(estado, v, inicioISO, navioNorm, emFundeio, hash, agora);
       continue;
     }
 
     // 'novo' — transição válida na máquina de estados
     const ev = buildEvento(v, inicioISO, navioNorm, emFundeio, hash, hashIdent, agora);
-    appendEvento(diaHoje, ev);
-    hashesGravados.add(hash);
-    identidadeMap.set(hashIdent, ev);
-    novos++;
-    atualizarEstado(estado, v, inicioISO, navioNorm, emFundeio, hash, agora);
+    const gravou = appendEvento(diaHoje, ev);
+    if (gravou) {
+      hashesGravados.add(hash);
+      remarcacaoMap.set(chaveRemarcacao(v.imo, v.tipo), ev);
+      novos++;
+      atualizarEstado(estado, v, inicioISO, navioNorm, emFundeio, hash, agora);
+    }
   }
 
   // ── 7. salva estado_atual.json (se houve eventos novos ou remarcações) ────
