@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-02T23:02:58.000Z",
+  "updatedAt": "2026-04-02T23:48:09.912Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 70
+      "count": 74
     },
     "niteroi": {
       "ok": true,
@@ -372,22 +372,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/04/2026 12:00",
-      "imo": "9492000",
-      "navio": "ANGRA DOS REIS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/04/2026 12:00",
       "imo": "9440681",
       "navio": "SKUA",
       "tipo": "MUDANÇA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 12:00",
+      "imo": "9492000",
+      "navio": "ANGRA DOS REIS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -442,22 +442,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/04/2026 14:00",
-      "imo": "9994711",
-      "navio": "MH IBUKI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPEX - EXXON SOLUTEC",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/04/2026 14:00",
       "imo": "9292072",
       "navio": "ILHA DO CABO FRIO",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 14:00",
+      "imo": "9994711",
+      "navio": "MH IBUKI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPEX - EXXON SOLUTEC",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -542,12 +542,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/04/2026 17:00",
-      "imo": "1065978",
-      "navio": "YA QING ZHI XING",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F03 - Feiticeira",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "imo": "9668726",
+      "navio": "STARNAV PERSEUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "NIT - ATRACADO NITERÓI",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -562,12 +562,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/04/2026 17:00",
-      "imo": "9668726",
-      "navio": "STARNAV PERSEUS",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "NIT - ATRACADO NITERÓI",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "1065978",
+      "navio": "YA QING ZHI XING",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F03 - Feiticeira",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 17:15",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -612,12 +622,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/04/2026 20:00",
-      "imo": "9292072",
-      "navio": "ILHA DO CABO FRIO",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2PAL - Terminal Petrobras AL",
-      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -628,6 +638,26 @@
       "de": "Fundeio - WPT 62 - 2F6A",
       "para": "-",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 20:00",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/04/2026 21:00",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -657,6 +687,16 @@
       "tipo": "SAÍDA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/04/2026 05:00",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
