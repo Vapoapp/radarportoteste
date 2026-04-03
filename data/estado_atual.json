@@ -746,14 +746,14 @@
     "navio": "ALCATRAZ",
     "navio_normalizado": "ALCATRAZ",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-03T00:00:00.000Z",
-    "ultimo_hash_evento": "def7057f3f178a2520836996f5b4b36c32c4fc1fd7dee9bb2e323595e7cf105b",
-    "atualizado_em": "2026-04-03T01:03:06.122Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-03T07:00:00.000Z",
+    "ultimo_hash_evento": "4ed678449ae8c9bf79d259652fd3c0406cc328aaf62dc18212e14a87f6bf1141",
+    "atualizado_em": "2026-04-03T07:49:59.876Z"
   },
   "9644160": {
     "imo": "9644160",
@@ -894,6 +894,20 @@
     "ultima_movimentacao_em": "2026-04-03T01:00:00.000Z",
     "ultimo_hash_evento": "e98b45034c06db7f3f22c7c4306028c7e6becc06349e18dc942c5be0736c2061",
     "atualizado_em": "2026-04-03T01:03:06.122Z"
+  },
+  "9696802": {
+    "imo": "9696802",
+    "navio": "STARNAV AQUARIUS (REB)",
+    "navio_normalizado": "STARNAV AQUARIUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "-",
+    "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-03T07:00:00.000Z",
+    "ultimo_hash_evento": "2a529b64ff2c0ea5ada894d6ce6ec9caded1f93335c0187c69e311514042aacf",
+    "atualizado_em": "2026-04-03T07:49:59.876Z"
   },
   "9698317": {
     "imo": "9698317",
