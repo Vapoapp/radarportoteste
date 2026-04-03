@@ -2,14 +2,14 @@
 'use strict';
 
 // ============================================================
-// SENTINELA — scraper + ingestão GitHub-only v13
+// SENTINELA — scraper + ingestão GitHub-only
 //
 // Sem banco SQLite. Tudo em arquivos de texto.
 //
 // Arquivos gerados:
-//   data/vessels.json                        ← pauta atual (index.html)
-//   data/estado_atual.json                   ← foto por embarcação (IMO)
-//   data/eventos/YYYY/MM/YYYY-MM-DD.jsonl    ← histórico permanente
+//   data/vessels.json                          ← pauta atual (index.html)
+//   data/estado_atual.json                     ← foto por embarcação (IMO)
+//   data/eventos/YYYY/MM/YYYY-MM-DD.jsonl      ← histórico permanente
 //   data/snapshots/YYYY/MM/YYYY-MM-DD.jsonl.gz ← coletas brutas 30 dias
 //
 // Fluxo a cada execução:
@@ -20,10 +20,9 @@
 //      a. Calcula hash_evento(porto+inicio+imo+tipo+de+para)
 //         e   hash_identidade(imo+tipo+de+para) — sem horário
 //      b. Se hash_evento já existe → repetição, ignora
-//      c. Classifica: novo | remarcacao | orfao | incoerente
+//      c. Classifica: novo | remarcacao | orfao
 //         - remarcação: substitui a linha INTEIRA no .jsonl (nunca append)
-//         - orfao: mudança sem entrada prévia → ignora
-//         - incoerente: origem da mudança/saída incompatível com último destino → descarta
+//         - orfao: mudança sem estado de embarcação dentro do porto → ignora
 //      d. Evento novo → append no .jsonl + atualiza estado_atual
 //   5. Salva estado_atual.json (se mudou)
 //   6. Acrescenta snapshot compactado do dia
@@ -31,17 +30,18 @@
 //   8. Retorna código 0 se houve eventos novos, 2 se não houve
 //      (o workflow usa esse código para decidir se commita)
 //
-// Regras de máquina de estados (v7):
-//   entrada→entrada           = remarcação (substitui)
-//   entrada→mudança           = novo (se origem coerente)
-//   entrada→saída             = novo (se origem coerente)
-//   mudança→mudança (Δt<2h)  = remarcação (substitui)
-//   mudança→mudança (Δt≥2h)  = novo (se origem coerente)
-//   mudança→saída             = novo (se origem coerente)
-//   saída→saída               = remarcação (substitui)
-//   saída→entrada             = novo
-//   saída→mudança             = órfão (descarta)
-//   (vazio)→mudança           = órfão (descarta)
+// Regras de máquina de estados:
+//   entrada→entrada                              = remarcação (substitui)
+//   entrada→mudança                              = novo
+//   entrada→saída                                = novo
+//   mudança→mudança (rota exata, Δt qualquer)   = remarcação (substitui)
+//   mudança→mudança (rota parcial, Δt<2h)       = remarcação (substitui)
+//   mudança→mudança (rota diferente ou Δt≥2h)   = novo
+//   mudança→saída                                = novo
+//   saída→saída                                  = remarcação (substitui)
+//   saída→entrada                                = novo
+//   saída→mudança                                = órfão (descarta)
+//   (vazio)→mudança                              = órfão (descarta)
 // ============================================================
 
 const https  = require('https');
@@ -87,6 +87,32 @@ const ORIGEM_COERENTE_MODO = 'parcial'; // 'exata' | 'parcial'
 
 function sha256(s) {
   return crypto.createHash('sha256').update(s, 'utf8').digest('hex');
+}
+
+/**
+ * Normalização canônica de texto para comparações internas.
+ * Remove acentos, colapsa espaços, converte para minúsculas.
+ * Usada em todos os pontos onde strings do SILOG são comparadas entre si
+ * (sobreposição de rota, coerência de origem, deduplicação).
+ * Não deve ser usada para exibição — apenas para comparação.
+ */
+function normStr(s) {
+  return (s == null ? '' : String(s))
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')   // remove acentos
+    .replace(/[-\u2013\u2014\/\\|]/g, ' ') // hífens e separadores → espaço
+    .replace(/[^\w\s]/g, '')            // remove pontuação restante
+    .replace(/\s+/g, ' ')              // colapsa espaços múltiplos
+    .trim()
+    .toLowerCase();
+}
+
+/**
+ * Retorna true se a string representa uma data ISO válida.
+ * Protege cálculos de diffH contra Invalid Date contaminando decisões.
+ */
+function dataValida(d) {
+  return typeof d === 'string' && !Number.isNaN(new Date(d).getTime());
 }
 
 /**
@@ -157,9 +183,7 @@ function hashIdentidade(v) {
  * Ex.: entrada→entrada do mesmo navio é remarcação mesmo se o berço foi corrigido.
  */
 function chaveRemarcacao(imo, tipo) {
-  const tipoNorm = (tipo || '').toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
-  return `${imo}|${tipoNorm}`;
+  return `${imo}|${normStr(tipo)}`;
 }
 
 /**
@@ -174,33 +198,20 @@ function hashEvento(v) {
  * Máquina de estados por embarcação.
  *
  * Transições válidas:
- *   (vazio | SAÍDA)      + ENTRADA  → novo evento
- *   (ENTRADA | MUDANÇA)  + MUDANÇA  → novo evento (se coerente) ou remarcação (se < 2h)
- *   (ENTRADA | MUDANÇA)  + SAÍDA    → novo evento (se coerente)
- *
- * Remarcações (mesmo tipo consecutivo):
- *   (ENTRADA | MUDANÇA)  + ENTRADA  → remarcação: atualiza evento
- *   (SAÍDA)              + SAÍDA    → remarcação: atualiza evento
- *   (MUDANÇA)            + MUDANÇA  → remarcação se Δt < 2h; senão avalia como novo
- *   (SAÍDA | vazio)      + MUDANÇA  → evento órfão: ignora
- *
- * Coerência de origem:
- *   Para MUDANÇA e SAÍDA, a origem do novo evento deve bater com o destino
- *   do último evento válido. Se não bater e houver estado gravado, descarta.
- *
-/**
- * Máquina de estados por embarcação.
- *
- * Transições válidas:
  *   (vazio | SAÍDA)      + ENTRADA  → novo
  *   (vazio | SAÍDA)      + SAÍDA    → novo (sem histórico) / remarcação (pós-saída)
- *   (ENTRADA | MUDANÇA)  + MUDANÇA  → novo (ou remarcação se Δt < 2h)
+ *   (ENTRADA | MUDANÇA)  + MUDANÇA  → novo ou remarcação (ver regras abaixo)
  *   (ENTRADA | MUDANÇA)  + SAÍDA    → novo
  *
  * Remarcações:
- *   (ENTRADA | MUDANÇA)  + ENTRADA  → remarcação
- *   (SAÍDA)              + SAÍDA    → remarcação
- *   (MUDANÇA)            + MUDANÇA com Δt < 2h → remarcação
+ *   (ENTRADA | MUDANÇA)  + ENTRADA        → remarcação sempre
+ *   (SAÍDA)              + SAÍDA          → remarcação sempre
+ *   (MUDANÇA)            + MUDANÇA, rota exata (de E para iguais)
+ *                                           → remarcação mesmo além de 2h (reagendamento)
+ *   (MUDANÇA)            + MUDANÇA, rota parcial (de OU para igual), Δt < 2h
+ *                                           → remarcação (correção rápida de berço/destino)
+ *   (MUDANÇA)            + MUDANÇA, rota diferente ou Δt ≥ 2h sem rota exata
+ *                                           → novo evento
  *
  * Órfãos (descartados):
  *   (vazio | SAÍDA)      + MUDANÇA  → órfão (mudança sem embarcação dentro do porto)
@@ -211,11 +222,13 @@ function hashEvento(v) {
  *
  * @param {string|null} ultimoTipo   — último tipo gravado para este IMO
  * @param {string}      novoTipo     — tipo do evento sendo processado
- * @param {string|null} ultimoInicio — ISO do último evento (para janela de 2h em mudança)
- * @param {string|null} novoInicio   — ISO do novo evento
+ * @param {string|null} ultimoInicio — ISO do último evento gravado
+ * @param {string}      novoInicio   — ISO do novo evento
+ * @param {object}      [rota]       — { ultimoDe, ultimoPara, novoDe, novoPara }
+ *                                     Necessário para MUDANÇA→MUDANÇA.
  * @returns {'novo'|'remarcacao'|'orfao'}
  */
-function classificarEvento(ultimoTipo, novoTipo, ultimoInicio, novoInicio) {
+function classificarEvento(ultimoTipo, novoTipo, ultimoInicio, novoInicio, rota = {}) {
   const ultimo = (ultimoTipo || '').toLowerCase();
   const novo   = novoTipo.toLowerCase();
 
@@ -242,10 +255,42 @@ function classificarEvento(ultimoTipo, novoTipo, ultimoInicio, novoInicio) {
     if (isEntrada(novo)) return 'remarcacao';
 
     if (isMudanca(novo)) {
-      // mudança → mudança: verifica janela de 2h para remarcação
+      // MUDANÇA→MUDANÇA: duas regras distintas baseadas na similaridade de rota.
+      //
+      //   Regra 1 — rota EXATA (de E para iguais): remarcação sem limite de tempo,
+      //             desde que o novo horário seja posterior (diffH >= 0).
+      //             Cobre reagendamentos tardios da mesma operação (ex: 11:50 → 15:00).
+      //
+      //   Regra 2 — rota PARCIAL (de OU para igual): remarcação apenas dentro de 2h.
+      //             Cobre correção de berço/destino na mesma janela curta.
+      //             NÃO considera encadeamento (ultimoPara==novoDe) — isso é sequência real.
+      //
+      //   Fora dessas condições → evento novo.
       if (isMudanca(ultimo) && ultimoInicio && novoInicio) {
-        const diffH = (new Date(novoInicio) - new Date(ultimoInicio)) / 3600000;
-        if (Math.abs(diffH) < 2) return 'remarcacao';
+        if (!dataValida(ultimoInicio) || !dataValida(novoInicio)) {
+          console.warn(`  ⚠ MUDANÇA→MUDANÇA: data inválida (ultimoInicio="${ultimoInicio}" novoInicio="${novoInicio}") — tratado como novo`);
+        } else {
+          const diffH = (new Date(novoInicio) - new Date(ultimoInicio)) / 3600000;
+          if (diffH >= 0) {
+            const { ultimoDe = '', ultimoPara = '', novoDe = '', novoPara = '' } = rota;
+            const mesmaRotaExata = normStr(novoDe)   === normStr(ultimoDe)
+                                && normStr(novoPara) === normStr(ultimoPara);
+            const rotaParcial    = normStr(novoDe)   === normStr(ultimoDe)
+                                || normStr(novoPara) === normStr(ultimoPara);
+
+            if (mesmaRotaExata) {
+              console.log(`  ℹ MUDANÇA→MUDANÇA remarcação: rota exata, horário adiado ${diffH.toFixed(1)}h (ant: "${ultimoDe}"→"${ultimoPara}" | novo: "${novoDe}"→"${novoPara}")`);
+              return 'remarcacao';
+            }
+            if (diffH < 2 && rotaParcial) {
+              console.log(`  ℹ MUDANÇA→MUDANÇA remarcação: rota parcial <2h (ant: "${ultimoDe}"→"${ultimoPara}" | novo: "${novoDe}"→"${novoPara}")`);
+              return 'remarcacao';
+            }
+            if (diffH < 2) {
+              console.log(`  ℹ MUDANÇA→MUDANÇA evento novo: rota diferente <2h (ant: "${ultimoDe}"→"${ultimoPara}" | novo: "${novoDe}"→"${novoPara}")`);
+            }
+          }
+        }
       }
       return 'novo';
     }
@@ -885,15 +930,19 @@ function gerarRelatoriosEmbarcacoes(estado, agora) {
     const todos_asc = [...todos].reverse();
 
     // manobras por janela (arrays já particionados — sem refiltrar por data)
-    // conta eventos lógicos únicos via hash_identidade
-    const contarUnicos = arr => {
+    // Usa hash_evento como chave de deduplicação — único por linha gravada no .jsonl.
+    // Cada janela já é disjunta (ev30=0-29d, ev180=30-179d, ev365=180-364d), portanto
+    // a contagem cumulativa é feita com um Set unificado para evitar qualquer
+    // dupla contagem caso um hash apareça em mais de uma fatia (edge case de re-leitura).
+    const contarUnicosSet = (arrs) => {
       const s = new Set();
-      for (const e of arr) s.add(e.hash_evento || JSON.stringify(e));
+      for (const arr of arrs)
+        for (const e of arr) s.add(e.hash_evento || JSON.stringify(e));
       return s.size;
     };
-    const man30  = contarUnicos(e30);
-    const man180 = contarUnicos(e30) + contarUnicos(e180);
-    const man365 = contarUnicos(e30) + contarUnicos(e180) + contarUnicos(e365);
+    const man30  = contarUnicosSet([e30]);
+    const man180 = contarUnicosSet([e30, e180]);
+    const man365 = contarUnicosSet([e30, e180, e365]);
 
     const relatorio = {
       imo,
@@ -1075,61 +1124,172 @@ async function main() {
     return String(a.tipo).localeCompare(String(b.tipo));
   });
 
-  // ── 6b. deduplica eventos com mesmo IMO + tipo + horário ────────────────────
-  // A fonte (SILOG) às vezes publica dois eventos idênticos em tipo e horário
-  // para a mesma embarcação com origens/destinos diferentes — erro de entrada na pauta.
+  // ── 6b. deduplica eventos com mesmo IMO + horário ────────────────────────────
+  // A fonte (SILOG) às vezes publica dois eventos no mesmo IMO+horário:
+  //   Caso A: mesmo tipo  → erro de entrada (de/para diferentes). Desempata por coerência.
+  //   Caso B: tipos diferentes (ex: ENTRADA vs MUDANÇA) → conflito operacional.
+  //           A MUDANÇA só vence se a origem dela bater com o último destino
+  //           visto na sequência do próprio lote (não o estado persistido em disco).
+  //           Caso contrário a ENTRADA é mantida (comportamento conservador).
   //
-  // Estratégia de desempate (em ordem de prioridade):
-  //   1. Se um dos candidatos tem origem compatível com o último destino gravado
-  //      no estado_atual → esse é o mais coerente operacionalmente.
-  //   2. Caso contrário, mantém o último item coletado (mais recente na fonte).
+  // Chave de agrupamento: imo|inicio (sem tipo) — para capturar o Caso B.
   //
-  // Constrói novo array (sem splice durante iteração) e re-ordena ao final.
+  // Fonte de verdade para coerência: estadoSequencialPorIMO, construído em memória
+  // durante a varredura cronológica do lote. Isso garante que o evento de 09:40
+  // já terá atualizado o destino antes de avaliarmos o conflito de 17:00.
+  //
+  // Fluxo:
+  //   1ª passagem: agrupa por imo|inicio, resolve conflitos dentro do par.
+  //               Usa estadoSequencialPorIMO atualizado evento a evento.
+  //   2ª etapa:   re-ordena cronologicamente.
   {
+    // normalização: usa normStr() — função canônica centralizada nas utils
+
+    function bate(dest, orig) {
+      if (!dest || !orig) return false;
+      if (dest === orig) return true;
+      if (ORIGEM_COERENTE_MODO === 'parcial') return dest.includes(orig) || orig.includes(dest);
+      return false;
+    }
+
+    const isMudanca = s => /mudan[cç]a/i.test(s || '');
+    const isEntrada = s => /entrada/i.test(s || '');
+
+    // Estado sequencial em memória: { [imo]: { destino_atual } }
+    // Inicializa com o estado persistido em disco como ponto de partida,
+    // e vai sendo atualizado a cada evento não-conflitante processado na ordem.
+    // Isso garante que ao avaliar um conflito de 17:00, o destino do evento
+    // de 09:40 (do mesmo lote) já está refletido aqui.
+    const estadoSeq = {};
+    for (const [imo, est] of Object.entries(estado)) {
+      estadoSeq[imo] = { destino_atual: est.destino_atual || null };
+    }
+
+    function ultDestinoSeq(imo) {
+      return estadoSeq[imo]?.destino_atual || null;
+    }
+
+    function atualizarSeq(v) {
+      if (!estadoSeq[v.imo]) estadoSeq[v.imo] = { destino_atual: null };
+      // SAÍDA zera o destino: impede que destino antigo contamine
+      // decisões de coerência de eventos futuros do mesmo IMO.
+      if (/sa[íi]da/i.test(v.tipo || '')) {
+        estadoSeq[v.imo].destino_atual = null;
+        return;
+      }
+      if (v.para) estadoSeq[v.imo].destino_atual = v.para;
+    }
+
+    /**
+     * Desempate entre dois eventos do mesmo tipo no mesmo IMO+horário.
+     * Retorna true se candidato é preferível a atual.
+     *
+     * Prioridade de critérios:
+     *   1. Candidato coerente com destino anterior e atual não → candidato vence.
+     *   2. Ambos coerentes → prefere o que tem mais campos preenchidos (de+para).
+     *   3. Ambos incoerentes → prefere o que tem de/para preenchidos vs vazio.
+     *   4. Empate completo → mantém atual (conservador).
+     */
+    function maisCoerente(candidato, atual) {
+      const d     = normStr(ultDestinoSeq(candidato.imo));
+      const cOrig = normStr(candidato.de);
+      const aOrig = normStr(atual.de);
+      const candCoerente  = bate(d, cOrig);
+      const atualCoerente = bate(d, aOrig);
+
+      // critério 1: só um é coerente
+      if (candCoerente && !atualCoerente) return true;
+      if (!candCoerente && atualCoerente) return false;
+
+      // critério 2 e 3: desempate por completude de campos (de + para preenchidos)
+      const completude = v => (v.de ? 1 : 0) + (v.para ? 1 : 0);
+      const cComp = completude(candidato);
+      const aComp = completude(atual);
+      if (cComp !== aComp) return cComp > aComp;
+
+      // critério 4: empate → mantém atual
+      return false;
+    }
+
+    /**
+     * Conflito ENTRADA vs MUDANÇA no mesmo IMO+horário.
+     * Consulta estadoSeq — que já reflete os eventos anteriores do lote —
+     * para decidir se a origem da MUDANÇA é coerente.
+     * Retorna o evento vencedor.
+     */
+    function resolverConflitoEntradaMudanca(entrada, mudanca) {
+      const ultDest = ultDestinoSeq(mudanca.imo);
+      if (!ultDest) {
+        console.log(`  ✂ conflito ENTRADA×MUDANÇA: sem destino anterior para IMO ${entrada.imo} — mantida ENTRADA (conservador)`);
+        return entrada;
+      }
+      const d    = normStr(ultDest);
+      const orig = normStr(mudanca.de);
+      if (bate(d, orig)) {
+        console.log(`  ✂ conflito ENTRADA×MUDANÇA: MUDANÇA vence por coerência (de: "${mudanca.de}" bate com destino anterior: "${ultDest}") — ENTRADA descartada`);
+        return mudanca;
+      }
+      console.log(`  ✂ conflito ENTRADA×MUDANÇA: MUDANÇA não coerente (de: "${mudanca.de}" ≠ destino anterior: "${ultDest}") — mantida ENTRADA`);
+      return entrada;
+    }
+
     const seen   = new Map(); // key → índice no result
     const result = [];
 
-    function maisCoerente(candidato, atual) {
-      // retorna true se candidato é operacionalmente preferível a atual.
-      // Usa ORIGEM_COERENTE_MODO — mesma configuração de origemCoerente() —
-      // para consistência: se o sistema aceita parcial em um lugar, aceita no outro.
-      const estadoIMO  = estado[candidato.imo];
-      const ultDestino = estadoIMO?.destino_atual;
-      if (!ultDestino) return false; // sem estado → mantém atual (último coletado)
-      const norm = s => (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, ' ').trim().toLowerCase();
-      const d     = norm(ultDestino);
-      const cOrig = norm(candidato.de);
-      const aOrig = norm(atual.de);
-
-      function bate(dest, orig) {
-        if (!dest || !orig) return false;
-        if (dest === orig) return true;
-        if (ORIGEM_COERENTE_MODO === 'parcial') return dest.includes(orig) || orig.includes(dest);
-        return false;
-      }
-
-      const candCoerente  = bate(d, cOrig);
-      const atualCoerente = bate(d, aOrig);
-      // candidato coerente e atual não → candidato vence
-      return candCoerente && !atualCoerente;
-    }
-
     for (const v of vessels) {
-      const key = `${v.imo}|${v.tipo}|${v.inicio}`;
+      const key = `${v.imo}|${v.inicio}`;
       if (seen.has(key)) {
         const prevIdx = seen.get(key);
         const atual   = result[prevIdx];
-        if (maisCoerente(v, atual)) {
+
+        // Desfaz a atualização sequencial do primeiro evento (atual),
+        // que foi registrada prematuramente quando ele chegou sem conflito.
+        // Agora que há disputa, o estado correto é o que existia ANTES dele.
+        // Restauramos usando o snapshot guardado no momento em que atual entrou.
+        if (atual._snapSeqAntes !== undefined) {
+          estadoSeq[atual.imo] = atual._snapSeqAntes
+            ? { destino_atual: atual._snapSeqAntes }
+            : { destino_atual: null };
+        }
+
+        let vencedor;
+        // Caso B: conflito ENTRADA vs MUDANÇA (em qualquer ordem de chegada)
+        if ((isEntrada(atual.tipo) && isMudanca(v.tipo)) ||
+            (isMudanca(atual.tipo) && isEntrada(v.tipo))) {
+          const entrada = isEntrada(atual.tipo) ? atual : v;
+          const mudanca = isMudanca(atual.tipo) ? atual : v;
+          vencedor = resolverConflitoEntradaMudanca(entrada, mudanca);
+        // Caso A: mesmo tipo — desempata por coerência de origem
+        } else if (maisCoerente(v, atual)) {
           console.log(`  ✂ duplicata resolvida por coerência: ${v.navio} — ${v.tipo} ${v.inicio} (de: "${atual.de}" → preferido: "${v.de}")`);
-          result[prevIdx] = v;
+          vencedor = v;
         } else {
           console.log(`  ✂ duplicata de horário removida: ${v.navio} — ${v.tipo} ${v.inicio} (de: "${v.de}" descartado, mantido: "${atual.de}")`);
+          vencedor = atual;
         }
+        // Preserva o snapshot antes de gravar o vencedor em result,
+        // para que um eventual 3º evento no mesmo imo|inicio possa restaurar corretamente.
+        if (atual._snapSeqAntes !== undefined && vencedor._snapSeqAntes === undefined) {
+          vencedor._snapSeqAntes = atual._snapSeqAntes;
+        }
+        result[prevIdx] = vencedor;
+        // agora sim: avança com o vencedor real da disputa
+        atualizarSeq(vencedor);
       } else {
+        // Guarda snapshot do destino atual ANTES de avançar,
+        // para poder restaurar caso chegue um segundo evento disputando este horário.
+        const snapAntes = ultDestinoSeq(v.imo);
+        v._snapSeqAntes = snapAntes; // campo temporário, removido abaixo
         seen.set(key, result.length);
         result.push(v);
+        // avança provisoriamente — pode ser desfeito se houver conflito
+        atualizarSeq(v);
       }
     }
+
+    // Remove campos temporários de controle antes de passar para a máquina de estados
+    for (const ev of result) delete ev._snapSeqAntes;
+
     // re-ordena cronologicamente após substituições
     result.sort((a, b) => {
       const ta = parseInicio(a.inicio);
@@ -1164,7 +1324,13 @@ async function main() {
 
     const classificacao = classificarEvento(
       ultimoTipo, v.tipo,
-      ultimoInicio, inicioISO
+      ultimoInicio, inicioISO,
+      {
+        ultimoDe:   estadoIMO?.origem_atual  || '',
+        ultimoPara: estadoIMO?.destino_atual || '',
+        novoDe:     v.de  || '',
+        novoPara:   v.para || '',
+      }
     );
 
     if (classificacao === 'orfao') {
@@ -1181,12 +1347,15 @@ async function main() {
         // Verifica se é repetição pura: horário, rota E campos relevantes idênticos.
         // Inclui agente — se o SILOG corrigir o agente mantendo mesmo horário e rota,
         // isso é uma atualização real e não deve ser descartada como repetição.
-        const mesmoCampos = inicioISO   === anterior.inicio_evento
-                         && v.de        === anterior.origem
-                         && v.para      === anterior.destino
-                         && v.agente    === anterior.agente
-                         && v.navio     === anterior.navio
-                         && v.porto     === anterior.porto;
+        // Compara campos normalizados para tolerar variações textuais do SILOG
+        // (diferenças de acento, hífen, capitalização no mesmo conteúdo).
+        // horário e porto são comparados literalmente — são valores estruturados.
+        const mesmoCampos = inicioISO          === anterior.inicio_evento
+                         && normStr(v.de)      === normStr(anterior.origem)
+                         && normStr(v.para)    === normStr(anterior.destino)
+                         && normStr(v.agente)  === normStr(anterior.agente)
+                         && normStr(v.navio)   === normStr(anterior.navio)
+                         && v.porto            === anterior.porto;
         if (mesmoCampos) {
           repetidos++;
           continue;
