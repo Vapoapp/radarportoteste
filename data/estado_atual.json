@@ -377,6 +377,20 @@
     "ultimo_hash_evento": "c89a192575d5f7a909df44ab07d33b30014adb82c354188fede13675a0831a4f",
     "atualizado_em": "2026-04-02T02:01:15.351Z"
   },
+  "9482330": {
+    "imo": "9482330",
+    "navio": "MULTIPLICITY (REB)",
+    "navio_normalizado": "MULTIPLICITY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
+    "agente_atual": "CMM OFFSHORE BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-03T06:00:00.000Z",
+    "ultimo_hash_evento": "54fc101988ec22030a5444dc8930a2209ead2bb87412109404a97c868e7828fc",
+    "atualizado_em": "2026-04-03T06:46:14.083Z"
+  },
   "9492000": {
     "imo": "9492000",
     "navio": "ANGRA DOS REIS",
@@ -817,13 +831,13 @@
     "navio_normalizado": "STARNAV PERSEUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "NIT - ATRACADO NITERÓI",
+    "origem_atual": "NIT - ATRACADO NITERÓI",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-02T20:00:00.000Z",
-    "ultimo_hash_evento": "abfd44cf7f8bc8efe2bbd28793450a31da771b804f27f50450f6357c24adc317",
-    "atualizado_em": "2026-04-02T20:03:51.985Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-03T06:00:00.000Z",
+    "ultimo_hash_evento": "a27b6fbd04b6471cddab15de12735af0e66b0e6de640bf2d206ae82b3420bc0a",
+    "atualizado_em": "2026-04-03T06:46:14.083Z"
   },
   "9678147": {
     "imo": "9678147",
@@ -942,14 +956,14 @@
     "navio": "SEACOR NILE (REB)",
     "navio_normalizado": "SEACOR NILE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-01T14:30:00.000Z",
-    "ultimo_hash_evento": "7fe16af42a2cb6b5ab1103210d6f991363632196610f9105e836ad23c05dca83",
-    "atualizado_em": "2026-04-02T02:01:15.351Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-03T06:00:00.000Z",
+    "ultimo_hash_evento": "094fb0e08ccd677b92a1abfb377b4ee532f527e50443fcb97af10caf42a74ce6",
+    "atualizado_em": "2026-04-03T06:46:14.083Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -978,6 +992,20 @@
     "ultima_movimentacao_em": "2026-04-02T20:00:00.000Z",
     "ultimo_hash_evento": "b7f4e993d5b9c72d042f7f36e8686ec0ca5b1fe1aa5e3572dd69c42729bbf828",
     "atualizado_em": "2026-04-02T20:03:51.985Z"
+  },
+  "9736200": {
+    "imo": "9736200",
+    "navio": "BBC ST. PETERSBURG",
+    "navio_normalizado": "BBC ST. PETERSBURG",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "301 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "BRAZILIAN PORT AGENTS",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-03T06:00:00.000Z",
+    "ultimo_hash_evento": "c1eabdd0d635b8b56e4d07deea94c3fefcee4478a153bb39529cdce0f8d5de2d",
+    "atualizado_em": "2026-04-03T06:46:14.083Z"
   },
   "9747314": {
     "imo": "9747314",
