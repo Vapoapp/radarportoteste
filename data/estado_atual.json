@@ -275,9 +275,9 @@
     "destino_atual": "-",
     "agente_atual": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-02T23:00:00.000Z",
-    "ultimo_hash_evento": "019bf1e2d14bfde315414f9072982e81933d9c32441d2d7ad446ae3ad7e027e4",
-    "atualizado_em": "2026-04-02T23:02:58.000Z"
+    "ultima_movimentacao_em": "2026-04-03T09:00:00.000Z",
+    "ultimo_hash_evento": "9e0993b44d69a52d2ca241f1c53a61fb7a441fcebe317b5483b4eba4703cda88",
+    "atualizado_em": "2026-04-03T09:36:17.683Z"
   },
   "9426972": {
     "imo": "9426972",
@@ -348,6 +348,20 @@
     "ultima_movimentacao_em": "2026-04-02T15:00:00.000Z",
     "ultimo_hash_evento": "7675108a7c9acf8335bf3dd07670ea09b745af3818552544858a4538c0a53929",
     "atualizado_em": "2026-04-02T15:45:53.707Z"
+  },
+  "9440708": {
+    "imo": "9440708",
+    "navio": "FULMAR",
+    "navio_normalizado": "FULMAR",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "agente_atual": "WILSON SONS OFFSHORE S.A.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-03T09:00:00.000Z",
+    "ultimo_hash_evento": "0fe11283f34c1b09cc611d1f2b6eb532180e1653395b285b3f84a098d33f3071",
+    "atualizado_em": "2026-04-03T09:36:17.683Z"
   },
   "9454151": {
     "imo": "9454151",
@@ -634,14 +648,14 @@
     "navio": "OSCAR NIEMEYER",
     "navio_normalizado": "OSCAR NIEMEYER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - WPT 81 - 2F08",
-    "destino_atual": "TPIC - ILHA COMPRIDA",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPIC - ILHA COMPRIDA",
+    "destino_atual": "-",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-01T12:00:00.000Z",
-    "ultimo_hash_evento": "a1855219aadf67884fc8f4c477dd54af0ee422247115a0d9d9657209e76e1c1a",
-    "atualizado_em": "2026-04-01T09:30:04.532Z"
+    "ultima_movimentacao_em": "2026-04-03T09:00:00.000Z",
+    "ultimo_hash_evento": "e8111a66a5844d94a405b87274cff9e52f0bd225e2644ceaf583716d043b6b1e",
+    "atualizado_em": "2026-04-03T09:36:17.683Z"
   },
   "9619438": {
     "imo": "9619438",
@@ -671,19 +685,33 @@
     "ultimo_hash_evento": "69aef5acb5df301274a1d2a084b5b00d3f1ed75be94f2a0a67bae2967290f3ee",
     "atualizado_em": "2026-04-03T05:27:26.421Z"
   },
+  "9621546": {
+    "imo": "9621546",
+    "navio": "BOREAS-G",
+    "navio_normalizado": "BOREAS-G",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-03T09:00:00.000Z",
+    "ultimo_hash_evento": "63617e6ef7856572d60f8de6a119b9db8bd319d31d1c5dbf97d756d50bc59059",
+    "atualizado_em": "2026-04-03T09:36:17.683Z"
+  },
   "9627629": {
     "imo": "9627629",
     "navio": "CBO ARPOADOR",
     "navio_normalizado": "CBO ARPOADOR",
-    "porto_atual": "Rio de Janeiro",
+    "porto_atual": "Niterói",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-01T14:00:00.000Z",
-    "ultimo_hash_evento": "0489c8cf9e6f79c6fc11ac2253e8009c4b56cacf883c0f6126cc8038a0d89ded",
-    "atualizado_em": "2026-04-01T14:12:06.207Z"
+    "ultima_movimentacao_em": "2026-04-03T09:30:00.000Z",
+    "ultimo_hash_evento": "be7dc92c551e6cb520057b8ba304bfae846a0fa082dd3659f22334910455d2d2",
+    "atualizado_em": "2026-04-03T09:36:17.683Z"
   },
   "9627631": {
     "imo": "9627631",
@@ -1222,14 +1250,14 @@
     "navio": "EVER FAR",
     "navio_normalizado": "EVER FAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "destino_atual": "-",
     "agente_atual": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-02T09:30:00.000Z",
-    "ultimo_hash_evento": "6f8b206c8075d52bc1cd2183724e1b5b8efe5db3d17d02a230f54fd617d6cf5a",
-    "atualizado_em": "2026-04-02T09:39:17.438Z"
+    "ultima_movimentacao_em": "2026-04-03T09:00:00.000Z",
+    "ultimo_hash_evento": "96aaed66872a5cbe417eb6a11fd8fa60e8d56a9ef4d03bb4ee56a3333292eb5a",
+    "atualizado_em": "2026-04-03T09:36:17.683Z"
   },
   "9851282": {
     "imo": "9851282",
