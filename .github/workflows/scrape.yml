@@ -38,6 +38,12 @@ jobs:
           git add data/vessels.json data/estado_atual.json data/eventos/ data/snapshots/ data/metricas/ data/embarcacoes/
           if ! git diff --staged --quiet; then
             git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin main
-            git push origin main
+            # Retry loop: pull --rebase + push até 5 tentativas.
+            # Necessário porque dois jobs podem rodar em paralelo (schedule + manual)
+            # e o push pode ser rejeitado se outro job commitou no intervalo.
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main && git push origin main && break
+              echo "Push rejeitado (tentativa $i/5), aguardando e tentando novamente..."
+              sleep $((i * 5))
+            done
           fi
