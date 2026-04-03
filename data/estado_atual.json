@@ -130,14 +130,14 @@
     "navio": "ILHA DO CABO FRIO",
     "navio_normalizado": "ILHA DO CABO FRIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2PAL - Terminal Petrobras AL",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2PAL - Terminal Petrobras AL",
+    "destino_atual": "-",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-02T23:00:00.000Z",
-    "ultimo_hash_evento": "adb4566a11f1d7b3518ae49ed598cb8246f60c669269cc62cdc8bb3e3b8a5c17",
-    "atualizado_em": "2026-04-02T23:02:58.000Z"
+    "ultima_movimentacao_em": "2026-04-03T01:00:00.000Z",
+    "ultimo_hash_evento": "73bdba5faf5f388406d23f9562e65f1cbd8710860bb3b9b124959ecb8013adf4",
+    "atualizado_em": "2026-04-03T01:03:06.122Z"
   },
   "9309215": {
     "imo": "9309215",
@@ -306,6 +306,20 @@
     "ultima_movimentacao_em": "2026-04-02T01:00:00.000Z",
     "ultimo_hash_evento": "b3ae785b7389a8fcd890a695be22122d93a1310f8a01a63d6b79b72f6c8f31c5",
     "atualizado_em": "2026-04-02T02:01:15.351Z"
+  },
+  "9437385": {
+    "imo": "9437385",
+    "navio": "LONCOMILLA",
+    "navio_normalizado": "LONCOMILLA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "agente_atual": "ZIM DO BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-03T01:00:00.000Z",
+    "ultimo_hash_evento": "240ee78a42017d5d4c5dcd644f650a04d41edd8128909e7fc2066c57ca2478e0",
+    "atualizado_em": "2026-04-03T01:03:06.122Z"
   },
   "9440679": {
     "imo": "9440679",
@@ -538,12 +552,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-01T17:00:00.000Z",
-    "ultimo_hash_evento": "b2546fd83b40e0f3e0d0d69c53d124a34eb50748fda4fb083882ec25bebdd80b",
-    "atualizado_em": "2026-04-01T11:03:35.235Z"
+    "ultima_movimentacao_em": "2026-04-03T00:00:00.000Z",
+    "ultimo_hash_evento": "0f2d9a84db37d5083cced08a95967c8ff2eb261ae7d7190d1c60a47f46d455b2",
+    "atualizado_em": "2026-04-03T01:03:06.122Z"
   },
   "9578660": {
     "imo": "9578660",
@@ -713,19 +727,33 @@
     "ultimo_hash_evento": "43ac62ef0f898c25256560a09475d7ce333439558fb04ce310fee51e5a353d16",
     "atualizado_em": "2026-04-02T05:59:35.547Z"
   },
+  "9644146": {
+    "imo": "9644146",
+    "navio": "ALCATRAZ",
+    "navio_normalizado": "ALCATRAZ",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-03T00:00:00.000Z",
+    "ultimo_hash_evento": "def7057f3f178a2520836996f5b4b36c32c4fc1fd7dee9bb2e323595e7cf105b",
+    "atualizado_em": "2026-04-03T01:03:06.122Z"
+  },
   "9644160": {
     "imo": "9644160",
     "navio": "BRAM BELEM",
     "navio_normalizado": "BRAM BELEM",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "TPBL - BRICLOG",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-02T09:30:00.000Z",
-    "ultimo_hash_evento": "aca41732f33130b3a1a56a97de37948a0582b9821a912ead97f97ef4613447b7",
-    "atualizado_em": "2026-04-02T09:39:17.438Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-03T00:30:00.000Z",
+    "ultimo_hash_evento": "0baca0bad74afb69491397fd9aa49a8fde358f1c69e288da87ea20211eb42d4f",
+    "atualizado_em": "2026-04-03T01:03:06.122Z"
   },
   "9650145": {
     "imo": "9650145",
@@ -823,7 +851,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-04-02T19:00:00.000Z",
     "ultimo_hash_evento": "86b8c8eeeaf66466dfaaaa99248a8b35513784c86ebbbfa76ce303fbcd8303ca",
-    "atualizado_em": "2026-04-02T23:48:09.912Z"
+    "atualizado_em": "2026-04-03T01:03:06.122Z"
   },
   "9687356": {
     "imo": "9687356",
@@ -844,14 +872,14 @@
     "navio": "WILDEBEEST (REB)",
     "navio_normalizado": "WILDEBEEST",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-02T09:00:00.000Z",
-    "ultimo_hash_evento": "74c94f1bc7a62e010426306218f096d1a8a6cb409a1a0b912c05c5a7997cf913",
-    "atualizado_em": "2026-04-02T09:39:17.438Z"
+    "ultima_movimentacao_em": "2026-04-03T01:00:00.000Z",
+    "ultimo_hash_evento": "e98b45034c06db7f3f22c7c4306028c7e6becc06349e18dc942c5be0736c2061",
+    "atualizado_em": "2026-04-03T01:03:06.122Z"
   },
   "9698317": {
     "imo": "9698317",
@@ -1068,14 +1096,14 @@
     "navio": "BRAM POWER",
     "navio_normalizado": "BRAM POWER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-01T09:00:00.000Z",
-    "ultimo_hash_evento": "418a95a82e1b5ec5a7de8f273b115b146b4b94f3de7e43ff810c80ded7075adb",
-    "atualizado_em": "2026-04-01T09:30:04.532Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-03T00:00:00.000Z",
+    "ultimo_hash_evento": "858659385574b9d22afa8620d690eac2c8da38007cc9763cabe26fa9ea00f6fc",
+    "atualizado_em": "2026-04-03T01:03:06.122Z"
   },
   "9799070": {
     "imo": "9799070",
