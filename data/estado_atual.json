@@ -167,6 +167,20 @@
     "ultimo_hash_evento": "73bdba5faf5f388406d23f9562e65f1cbd8710860bb3b9b124959ecb8013adf4",
     "atualizado_em": "2026-04-03T01:03:06.122Z"
   },
+  "9294094": {
+    "imo": "9294094",
+    "navio": "MAERSK VENTURA",
+    "navio_normalizado": "MAERSK VENTURA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-03T23:00:00.000Z",
+    "ultimo_hash_evento": "f9506bfff1830369d84999316c911e794fb7bc5815d9b099d6539b8915519df5",
+    "atualizado_em": "2026-04-03T23:36:08.183Z"
+  },
   "9308156": {
     "imo": "9308156",
     "navio": "SEA DRAGON",
@@ -760,14 +774,14 @@
     "navio": "CBO MISTRAL (REB)",
     "navio_normalizado": "CBO MISTRAL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-03T04:20:00.000Z",
-    "ultimo_hash_evento": "69aef5acb5df301274a1d2a084b5b00d3f1ed75be94f2a0a67bae2967290f3ee",
-    "atualizado_em": "2026-04-03T05:27:26.421Z"
+    "ultima_movimentacao_em": "2026-04-03T23:00:00.000Z",
+    "ultimo_hash_evento": "1f0db905d12b87f701270405de07296e2b88f965d1e0c729fe8ad78df23d4037",
+    "atualizado_em": "2026-04-03T23:36:08.183Z"
   },
   "9621546": {
     "imo": "9621546",
@@ -985,13 +999,13 @@
     "navio_normalizado": "STARNAV PERSEUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-03T11:00:00.000Z",
-    "ultimo_hash_evento": "0dbab0c30227e29153b47dc5444cac3b26767693aeff7020bb2d1efc5b1c0043",
-    "atualizado_em": "2026-04-03T15:23:52.630Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-03T23:00:00.000Z",
+    "ultimo_hash_evento": "6accf8b724933c77d56ff2e271de052d9f45762de3f6b6a05f0cb91b9bd93898",
+    "atualizado_em": "2026-04-03T23:36:08.183Z"
   },
   "9668738": {
     "imo": "9668738",
