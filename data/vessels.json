@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-03T03:51:02.887Z",
+  "updatedAt": "2026-04-03T05:27:26.421Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 19
+      "count": 24
     },
     "niteroi": {
       "ok": true,
-      "count": 0
+      "count": 2
     },
     "itaguai": {
       "ok": true,
@@ -31,7 +31,27 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "03/04/2026 01:00",
+      "inicio": "03/04/2026 01:20",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "MUDANÇA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/04/2026 01:30",
+      "imo": "9687796",
+      "navio": "LOCAR LH XX",
+      "tipo": "MUDANÇA",
+      "de": "ESLO - ESTALEIRO LOCAR",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "LOCAR GUINDASTES E TRANSP. INTERMODAIS"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/04/2026 03:00",
       "imo": "9482330",
       "navio": "MULTIPLICITY (REB)",
       "tipo": "SAÍDA",
@@ -41,13 +61,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "03/04/2026 02:00",
+      "inicio": "03/04/2026 03:00",
+      "imo": "9668726",
+      "navio": "STARNAV PERSEUS",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/04/2026 03:00",
       "imo": "9710945",
       "navio": "SEACOR NILE (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/04/2026 04:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -72,22 +112,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "03/04/2026 06:00",
-      "imo": "9423437",
-      "navio": "AKOFS SANTOS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 62 - 2F6A",
-      "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "03/04/2026 06:00",
       "imo": "9850862",
       "navio": "EVER FAR",
       "tipo": "SAÍDA",
       "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/04/2026 06:00",
+      "imo": "9440708",
+      "navio": "FULMAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/04/2026 06:00",
+      "imo": "9423437",
+      "navio": "AKOFS SANTOS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 62 - 2F6A",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -208,6 +258,26 @@
       "de": "2N02 - TERMINAL DE PASSAGEIROS 1",
       "para": "-",
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "03/04/2026 08:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "04/04/2026 08:00",
+      "imo": "7417616",
+      "navio": "ATLANTIC-STAR",
+      "tipo": "SAÍDA",
+      "de": "TPMJ - Estaleiro Mauá",
+      "para": "-",
+      "agente": "SERVICOS DE PETROLEO CONSTELLATION S.A."
     },
     {
       "porto": "Itaguaí",
