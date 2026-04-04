@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-04T10:04:32.712Z",
+  "updatedAt": "2026-04-04T10:49:37.904Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 25
+      "count": 24
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -152,16 +152,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/04/2026 07:00",
-      "imo": "9668738",
-      "navio": "STARNAV CENTAURUS",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "04/04/2026 07:00",
       "imo": "9365544",
       "navio": "NAVEGANTES PRIDE",
       "tipo": "SAÍDA",
@@ -271,6 +261,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "04/04/2026 03:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "SAÍDA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "04/04/2026 08:00",
       "imo": "7417616",
       "navio": "ATLANTIC-STAR",
@@ -278,6 +278,16 @@
       "de": "TPMJ - Estaleiro Mauá",
       "para": "-",
       "agente": "SERVICOS DE PETROLEO CONSTELLATION S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "04/04/2026 09:00",
+      "imo": "9514092",
+      "navio": "BJ BLUE MARLIN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -296,7 +306,7 @@
       "navio": "RINI",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 5FB2 - Área de Fundeio B2",
+      "para": "Fundeio - 5FA1 - Área de Fundeio A1",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
