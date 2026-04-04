@@ -284,14 +284,14 @@
     "navio": "NAVEGANTES PRIDE",
     "navio_normalizado": "NAVEGANTES PRIDE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-02T15:00:00.000Z",
-    "ultimo_hash_evento": "1e77132c8a55564c6b33eb0594e61482b2ed91cfa17881006b4139aeffa89078",
-    "atualizado_em": "2026-04-02T15:45:53.707Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-04T10:00:00.000Z",
+    "ultimo_hash_evento": "95633ecc792521881f105d6a692870a7095581820f460fa0a6d19f0c2da53b6b",
+    "atualizado_em": "2026-04-04T10:04:32.712Z"
   },
   "9372456": {
     "imo": "9372456",
@@ -1041,13 +1041,13 @@
     "navio_normalizado": "STARNAV CENTAURUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-04T01:00:00.000Z",
-    "ultimo_hash_evento": "ac826a0751e3173bf3c4cdd7c2971ff84b887c9a66b7073d2852056d14117bcc",
-    "atualizado_em": "2026-04-04T02:53:27.573Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-04T10:00:00.000Z",
+    "ultimo_hash_evento": "314ab2f0c68f1ea7a2a59d6154a436aa495038c0bafcffb2a0f9ad3a95a00f09",
+    "atualizado_em": "2026-04-04T10:04:32.712Z"
   },
   "9668740": {
     "imo": "9668740",
@@ -1230,6 +1230,20 @@
     "ultima_movimentacao_em": "2026-04-03T19:00:00.000Z",
     "ultimo_hash_evento": "2ec20e5d216a9c6e7e0c20aaefb785cb5df9f06d043399a9a4e7c7a757d82a4b",
     "atualizado_em": "2026-04-03T19:59:32.267Z"
+  },
+  "9715725": {
+    "imo": "9715725",
+    "navio": "STARNAV TAURUS",
+    "navio_normalizado": "STARNAV TAURUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
+    "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-04T10:00:00.000Z",
+    "ultimo_hash_evento": "f8429cf682066db4fd61a2629f57927a4e27a1e77232d71567b10d37cf750fa3",
+    "atualizado_em": "2026-04-04T10:04:32.712Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -1524,6 +1538,20 @@
     "ultima_movimentacao_em": "2026-04-03T13:00:00.000Z",
     "ultimo_hash_evento": "baa4cc41dfebd72a13b0bd9afbef97d91794d7415a47a8c9dc86d980506b5d3e",
     "atualizado_em": "2026-04-03T13:47:28.128Z"
+  },
+  "9862023": {
+    "imo": "9862023",
+    "navio": "SEABOURN VENTURE",
+    "navio_normalizado": "SEABOURN VENTURE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N02 - TERMINAL DE PASSAGEIROS 1",
+    "agente_atual": "ALL FLAGS AGENCIAMENTO LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-04T10:00:00.000Z",
+    "ultimo_hash_evento": "b91d7f71ef02ba1cc0356df0877431d101104fb2f2d0d90071863f6e0b90f226",
+    "atualizado_em": "2026-04-04T10:04:32.712Z"
   },
   "9938248": {
     "imo": "9938248",
