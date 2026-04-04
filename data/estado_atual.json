@@ -956,14 +956,14 @@
     "navio": "BRAM BELEM",
     "navio_normalizado": "BRAM BELEM",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-03T12:00:00.000Z",
-    "ultimo_hash_evento": "8c4536550b12dad0da6920ecb85d24cc0b795cb404728bf706296334d4487c8b",
-    "atualizado_em": "2026-04-03T12:34:52.363Z"
+    "ultima_movimentacao_em": "2026-04-04T06:00:00.000Z",
+    "ultimo_hash_evento": "3607b26fda29d2b8ea9e0cbba833332dedd32a8eca1bc114e47cc7c48914a81e",
+    "atualizado_em": "2026-04-04T06:41:20.385Z"
   },
   "9650145": {
     "imo": "9650145",
@@ -1146,6 +1146,20 @@
     "ultima_movimentacao_em": "2026-04-01T03:00:00.000Z",
     "ultimo_hash_evento": "7cb52989d2df00b3b79cc44f8f63816b29f173dd108f7cd5b9887bacd71a8493",
     "atualizado_em": "2026-04-01T09:30:04.532Z"
+  },
+  "9703667": {
+    "imo": "9703667",
+    "navio": "BRAM HERO",
+    "navio_normalizado": "BRAM HERO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-04T06:00:00.000Z",
+    "ultimo_hash_evento": "bd649e67dd84b730742b6156935fd2d80daf2654d03d5286a00b445c016ecb8d",
+    "atualizado_em": "2026-04-04T06:41:20.385Z"
   },
   "9706528": {
     "imo": "9706528",
