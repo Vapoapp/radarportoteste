@@ -1,29 +1,36 @@
 {
   "imo": "9642588",
   "navio": "LARUS",
-  "gerado_em": "2026-04-04T18:46:06.676Z",
+  "gerado_em": "2026-04-04T19:21:29.049Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-02T20:00:00.000Z"
+    "ultima_movimentacao": "2026-04-04T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-01T10:00:00.000Z",
     "ultima_saida": null,
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 51
   },
   "historico_recente": [
+    {
+      "data": "2026-04-04T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-04-02T20:00:00.000Z",
       "tipo": "MUDANÇA",
