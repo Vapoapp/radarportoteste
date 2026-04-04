@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-04T11:17:40.348Z",
+  "updatedAt": "2026-04-04T11:46:29.207Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 24
+      "count": 26
     },
     "niteroi": {
       "ok": true,
@@ -181,6 +181,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "04/04/2026 08:00",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/04/2026 09:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "04/04/2026 09:00",
       "imo": "9627629",
       "navio": "CBO ARPOADOR",
@@ -311,7 +331,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "04/04/2026 11:30",
+      "inicio": "04/04/2026 13:30",
       "imo": "9977373",
       "navio": "CL YANGJIANG",
       "tipo": "SAÍDA",
