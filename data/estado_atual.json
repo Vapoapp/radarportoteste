@@ -573,6 +573,20 @@
     "ultimo_hash_evento": "c89a192575d5f7a909df44ab07d33b30014adb82c354188fede13675a0831a4f",
     "atualizado_em": "2026-04-02T02:01:15.351Z"
   },
+  "9477402": {
+    "imo": "9477402",
+    "navio": "CBO ANITA",
+    "navio_normalizado": "CBO ANITA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "-",
+    "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-04T22:00:00.000Z",
+    "ultimo_hash_evento": "aa4b13b19c2d25e06ad764b91609e69413099a38786d161d69e2c55e25c70e38",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
+  },
   "9482330": {
     "imo": "9482330",
     "navio": "MULTIPLICITY (REB)",
@@ -648,14 +662,14 @@
     "navio": "BJ BLUE MARLIN",
     "navio_normalizado": "BJ BLUE MARLIN",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESMC - MacLaren Ponta da Areia",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "ESMC - MacLaren Ponta da Areia",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-04T12:00:00.000Z",
-    "ultimo_hash_evento": "f7ef3bfb39a15113e896ba7acbf0c5a87a4846f85012d0ca10c157b5911bc401",
-    "atualizado_em": "2026-04-04T12:03:13.014Z"
+    "ultima_movimentacao_em": "2026-04-04T18:00:00.000Z",
+    "ultimo_hash_evento": "886c1bf3a7e723f8917ee10f7d1640e6c84c078572cbb4dffb657203bcc8dfed",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
   },
   "9514212": {
     "imo": "9514212",
@@ -802,14 +816,14 @@
     "navio": "NORMAND CARIOCA",
     "navio_normalizado": "NORMAND CARIOCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-03T00:00:00.000Z",
-    "ultimo_hash_evento": "0f2d9a84db37d5083cced08a95967c8ff2eb261ae7d7190d1c60a47f46d455b2",
-    "atualizado_em": "2026-04-03T01:03:06.122Z"
+    "ultima_movimentacao_em": "2026-04-04T09:40:00.000Z",
+    "ultimo_hash_evento": "eaf11cb3aee09d7c1b2b71839dacb191d98877b29fa0ca325ad64fafd746c5f3",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
   },
   "9578660": {
     "imo": "9578660",
@@ -880,6 +894,34 @@
     "ultima_movimentacao_em": "2026-04-03T09:00:00.000Z",
     "ultimo_hash_evento": "e8111a66a5844d94a405b87274cff9e52f0bd225e2644ceaf583716d043b6b1e",
     "atualizado_em": "2026-04-03T09:36:17.683Z"
+  },
+  "9597381": {
+    "imo": "9597381",
+    "navio": "ODYSSEAS L",
+    "navio_normalizado": "ODYSSEAS L",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01S - Visita Sul",
+    "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-04T19:00:00.000Z",
+    "ultimo_hash_evento": "20d7dabc5a46c49e569cb85ec1aadcb806decd2a7c7959c3d10e3b0645cb40ea",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
+  },
+  "9610688": {
+    "imo": "9610688",
+    "navio": "JERVIS BAY",
+    "navio_normalizado": "JERVIS BAY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01 - Visita",
+    "destino_atual": "-",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-04T04:30:00.000Z",
+    "ultimo_hash_evento": "c582f117dca10569ca50f34df0416a5e68b54d4389c7d0751cec2585b6972bf9",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
   },
   "9612064": {
     "imo": "9612064",
@@ -1101,9 +1143,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-01T12:00:00.000Z",
-    "ultimo_hash_evento": "11f98e77bc0ce13dd6e531a6c2a61724e3c27e82144ae8ecbad5da6203938847",
-    "atualizado_em": "2026-04-02T02:01:15.351Z"
+    "ultima_movimentacao_em": "2026-04-04T23:00:00.000Z",
+    "ultimo_hash_evento": "91cc6c87fee872cb9a41a556f8cebdbd6f4c35c0ecf15d36d811b8a7ff825687",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
   },
   "9655494": {
     "imo": "9655494",
@@ -1202,6 +1244,34 @@
     "ultima_movimentacao_em": "2026-04-01T16:30:00.000Z",
     "ultimo_hash_evento": "09921b1d9ea2841bc10f3f7855bfc743885ff3e50a28369b89f4684b0a73f46d",
     "atualizado_em": "2026-04-01T17:02:02.192Z"
+  },
+  "9679177": {
+    "imo": "9679177",
+    "navio": "WS PEGASUS",
+    "navio_normalizado": "WS PEGASUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N06 - Armazém 7",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-04T06:00:00.000Z",
+    "ultimo_hash_evento": "931448f5e1208d683b52c526b3a17d313144ed573df9f087cc226f7227987300",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
+  },
+  "9679218": {
+    "imo": "9679218",
+    "navio": "WS CYGNUS",
+    "navio_normalizado": "WS CYGNUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2N06 - Armazém 7",
+    "destino_atual": "-",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-04T16:30:00.000Z",
+    "ultimo_hash_evento": "6020af86b0ab1c68ec2d27b19aceb197e9ddd13dfb9c3e9aead7bc2fd38cdc8b",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
   },
   "9680786": {
     "imo": "9680786",
@@ -1679,6 +1749,20 @@
     "ultimo_hash_evento": "a1eed523ba9898e4c168bcf7148c8610ec6f0f049119f8dd0d16e8cf128138f1",
     "atualizado_em": "2026-04-04T20:15:21.175Z"
   },
+  "9868388": {
+    "imo": "9868388",
+    "navio": "SYNNOVE KNUTSEN",
+    "navio_normalizado": "SYNNOVE KNUTSEN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F10 - PREFERENCIAL GNL",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-04T11:00:00.000Z",
+    "ultimo_hash_evento": "034e2e396f8c2d7d69ed19becc432e2e78214d4c753c18636e755d00d116cb08",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
+  },
   "9938248": {
     "imo": "9938248",
     "navio": "CMA CGM BAHIA",
@@ -1762,6 +1846,20 @@
     "ultima_movimentacao_em": "2026-04-02T19:00:00.000Z",
     "ultimo_hash_evento": "b9d69059c5cbf80fb55cf08bf25c78af0b9509ebd7155094bc30af312f93d68a",
     "atualizado_em": "2026-04-02T19:31:29.082Z"
+  },
+  "9973315": {
+    "imo": "9973315",
+    "navio": "BOCHEM BRISBANE",
+    "navio_normalizado": "BOCHEM BRISBANE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2NTO - Terminal de Óleo",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-04T07:00:00.000Z",
+    "ultimo_hash_evento": "d26c2890680db644fa6c2591304b0e02d1ae0234e164aa0c5fb8f35040cf5621",
+    "atualizado_em": "2026-04-04T23:17:04.916Z"
   },
   "9976472": {
     "imo": "9976472",
