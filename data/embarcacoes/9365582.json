@@ -1,7 +1,7 @@
 {
   "imo": "9365582",
   "navio": "SKANDI FLUMINENSE",
-  "gerado_em": "2026-04-05T23:12:47.649Z",
+  "gerado_em": "2026-04-05T23:18:34.760Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
@@ -10,18 +10,18 @@
     "ultima_movimentacao": "2026-04-05T22:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-05T22:30:00.000Z",
     "ultima_saida": "2026-04-05T12:00:00.000Z",
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 5.5
   },
   "historico_recente": [
     {
@@ -37,6 +37,13 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
+    },
+    {
+      "data": "2026-04-05T06:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
