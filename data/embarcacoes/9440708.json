@@ -1,7 +1,7 @@
 {
   "imo": "9440708",
   "navio": "FULMAR",
-  "gerado_em": "2026-04-05T22:21:17.215Z",
+  "gerado_em": "2026-04-05T22:25:47.688Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,34 +10,20 @@
     "ultima_movimentacao": "2026-04-05T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 1,
+    "manobras_180d": 1,
+    "manobras_365d": 1,
     "entradas_30d": 1,
-    "saidas_30d": 1,
-    "mudancas_30d": 1,
+    "saidas_30d": 0,
+    "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 1,
+    "saidas_365d": 0,
     "ultima_entrada": "2026-04-03T09:00:00.000Z",
-    "ultima_saida": "2026-04-05T21:00:00.000Z",
-    "tempo_medio_estadia_horas": 60,
-    "tempo_medio_fundeio_horas": 54
+    "ultima_saida": null,
+    "tempo_medio_estadia_horas": null,
+    "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
-    {
-      "data": "2026-04-05T21:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
-    },
-    {
-      "data": "2026-04-05T15:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
-    },
     {
       "data": "2026-04-03T09:00:00.000Z",
       "tipo": "ENTRADA",
