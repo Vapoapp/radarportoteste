@@ -11,6 +11,7 @@
 //   data/estado_atual.json                     ← foto por embarcação (IMO)
 //   data/eventos/YYYY/MM/YYYY-MM-DD.jsonl      ← histórico permanente
 //   data/snapshots/YYYY/MM/YYYY-MM-DD.jsonl.gz ← coletas brutas 30 dias
+//   data/descartes/YYYY-MM-DD.jsonl            ← auditoria de eventos descartados
 //
 // Fluxo a cada execução:
 //   1. Coleta os 4 portos → grava vessels.json
@@ -59,6 +60,7 @@ const EVENTOS_DIR   = path.join(DATA_DIR, 'eventos');
 const SNAPSHOTS_DIR = path.join(DATA_DIR, 'snapshots');
 const METRICAS_DIR     = path.join(DATA_DIR, 'metricas');
 const EMBARCACOES_DIR  = path.join(DATA_DIR, 'embarcacoes');
+const DESCARTES_DIR    = path.join(DATA_DIR, 'descartes');
 
 const PORTOS = [
   { id:'rio',     nome:'Rio de Janeiro', url:'https://silog.portosrio.gov.br/silog/pesquisa.aspx?WCI=relPrePautaSimplificado&Mv=Link&sqlCodDominio=1&sqlFLG_PUBLICO_EXTERNO=1' },
@@ -158,6 +160,42 @@ function parseInicio(s) {
 function diaBrasilia(isoUtc) {
   const d = new Date(new Date(isoUtc).getTime() - 3 * 60 * 60 * 1000);
   return d.toISOString().slice(0, 10); // "YYYY-MM-DD"
+}
+
+/**
+ * Registra evento descartado em data/descartes/YYYY-MM-DD.jsonl.
+ *
+ * Classes:
+ *   parser_descartado        — linha ignorada no parseVessels antes de entrar no lote
+ *   orfao_sem_historico      — mudança sem nenhum histórico anterior para o IMO
+ *   orfao_estado_avancado    — evento chegou atrasado, estado já avançou (ex: SAÍDA→MUDANÇA)
+ *   orfao_inesperado_X_para_Y — combinação de tipos não prevista (X e Y substituídos pelos tipos reais normalizados)
+ *   remarcacao_update_falhou — classificou como remarcação, achou anterior, mas atualizarEvento() falhou
+ *   remarcacao_sem_anterior  — classificou como remarcação mas remarcacaoMap não tinha anterior na janela
+ *
+ * Não usa lock — append atômico por linha é suficiente para este arquivo de auditoria.
+ * Falhas de escrita são silenciosas para não interromper o fluxo principal.
+ */
+function registrarDescarte(dia, classe, v, extras = {}) {
+  try {
+    mkdirp(DESCARTES_DIR);
+    const p = path.join(DESCARTES_DIR, `${dia}.jsonl`);
+    const registro = {
+      timestamp_execucao: new Date().toISOString(),
+      classe,
+      navio:  v.navio  || null,
+      imo:    v.imo    || null,
+      tipo:   v.tipo   || null,
+      inicio: v.inicio || null,
+      porto:  v.porto  || null,
+      de:     v.de     || null,
+      para:   v.para   || null,
+      ...extras,
+    };
+    fs.appendFileSync(p, JSON.stringify(registro) + '\n', 'utf8');
+  } catch (e) {
+    console.warn(`⚠ registrarDescarte: falha ao gravar (${e.message})`);
+  }
 }
 
 /** em_fundeio: 1 se destino contém "Fundeio" e não é SAÍDA */
@@ -690,15 +728,22 @@ function stripHtml(s) {
     .trim();
 }
 
-function parseVessels(html, portoNome) {
+function parseVessels(html, portoNome, diaHoje) {
   const vessels = [];
+  let   descartados = 0;
   const rowRe   = /<tr([^>]*)>([\s\S]*?)<\/tr>/gi;
   let row;
   while ((row = rowRe.exec(html)) !== null) {
     const attrs   = row[1] || '';
     const content = row[2] || '';
-    if ((attrs + content).toLowerCase().includes('cancelado')) continue;
-    if (content.toLowerCase().includes('colspan'))             continue;
+    if ((attrs + content).toLowerCase().includes('cancelado')) {
+      // linha de cancelamento — descarte esperado, não auditável (sem dados de navio)
+      continue;
+    }
+    if (content.toLowerCase().includes('colspan')) {
+      // linha estrutural (cabeçalho, separador) — descarte esperado
+      continue;
+    }
     const cells = [];
     const tdRe  = /<td[^>]*>([\s\S]*?)<\/td>/gi;
     let td;
@@ -716,10 +761,29 @@ function parseVessels(html, portoNome) {
           para:   cells[5],
           agente: cells[6],
         });
+      } else {
+        // linha com células suficientes mas navio vazio — incomum, audita
+        descartados++;
+        registrarDescarte(diaHoje, 'parser_descartado', {
+          porto: portoNome, inicio: cells[0], imo: cells[1],
+          navio: navio || '', tipo: cells[3], de: cells[4], para: cells[5],
+        }, { motivo_parser: 'navio_vazio', cells_length: cells.length });
       }
+    } else if (cells.length > 0) {
+      // linha com dados mas células insuficientes — candidata a CARLOS DRUMMOND / SABLE
+      descartados++;
+      registrarDescarte(diaHoje, 'parser_descartado', {
+        porto: portoNome, inicio: cells[0] || '', imo: cells[1] || '',
+        navio: cells[2] || '', tipo: cells[3] || '', de: cells[4] || '', para: cells[5] || '',
+      }, {
+        motivo_parser: 'cells_lt_7',
+        cells_length:  cells.length,
+        cells_raw:     cells,
+        content_snippet: content.slice(0, 300),
+      });
     }
   }
-  return vessels;
+  return { vessels, descartados };
 }
 
 // ── MÉTRICAS ─────────────────────────────────────────────────────────────────
@@ -1026,15 +1090,17 @@ async function main() {
   const allVessels = [];
   const portStatus = {};
   let   anySuccess = false;
+  let   parseDescartados = 0;
 
   for (const porto of PORTOS) {
     try {
       process.stdout.write(`Coletando ${porto.nome}... `);
-      const html    = await fetchWithRetry(porto.url);
-      const vessels = parseVessels(html, porto.nome);
+      const html                        = await fetchWithRetry(porto.url);
+      const { vessels, descartados }    = parseVessels(html, porto.nome, diaHoje);
       allVessels.push(...vessels);
+      parseDescartados += descartados;
       portStatus[porto.id] = { ok: true, count: vessels.length };
-      console.log(`OK — ${vessels.length} registros`);
+      console.log(`OK — ${vessels.length} registros${descartados ? ` (${descartados} descartados pelo parser)` : ''}`);
       anySuccess = true;
     } catch (e) {
       console.log(`ERRO — ${e.message}`);
@@ -1304,6 +1370,7 @@ async function main() {
 
   // ── 7. processa cada embarcação (máquina de estados) ─────────────────────
   let novos = 0, remarcados = 0, orfaos = 0, repetidos = 0;
+  let remarcUpdateFalhou = 0, remarcSemAnterior = 0;
 
   for (const v of vessels) {
     const inicioISO  = parseInicio(v.inicio);
@@ -1335,7 +1402,34 @@ async function main() {
 
     if (classificacao === 'orfao') {
       orfaos++;
-      console.log(`  ⚠ órfão ignorado: ${v.navio} (IMO ${v.imo}) — ${v.tipo} sem estado anterior`);
+
+      // ── Separação de subclasse de órfão ────────────────────────────────────
+      // Permite distinguir em auditoria:
+      //   sem_historico    — nenhum estado anterior para o IMO (bootstrap, navio novo)
+      //   estado_avancado  — evento chegou atrasado, máquina já avançou além dele
+      //                      (caso típico: SILOG publica MUDANÇA retroativa após SAÍDA já gravada)
+      //   inesperado_X_Y   — combinação de tipos não mapeada → revela novos padrões do SILOG
+      const isSaidaT   = s => /sa[íi]da/i.test(s || '');
+      const isMudancaT = s => /mudan[cç]a/i.test(s || '');
+
+      let subclasse;
+      if (!ultimoTipo) {
+        subclasse = 'sem_historico';
+      } else if (isSaidaT(ultimoTipo) && isMudancaT(v.tipo)) {
+        subclasse = 'estado_avancado';
+      } else {
+        subclasse = `inesperado_${normStr(ultimoTipo)}_para_${normStr(v.tipo)}`;
+      }
+
+      console.log(`  ⚠ órfão [${subclasse}]: ${v.navio} (IMO ${v.imo}) — ${v.tipo} ${v.inicio}`);
+
+      registrarDescarte(diaHoje, 'orfao_' + subclasse, v, {
+        ultimo_tipo:             ultimoTipo,
+        ultima_movimentacao_em:  estadoIMO?.ultima_movimentacao_em || null,
+        destino_atual:           estadoIMO?.destino_atual          || null,
+        origem_atual:            estadoIMO?.origem_atual           || null,
+      });
+
       continue;
     }
 
@@ -1383,15 +1477,33 @@ async function main() {
           console.log(`  ↺ remarcado: ${v.navio} — ${v.tipo} [${diffs.join(' | ')}]`);
           // atualiza estado apenas quando histórico foi consolidado com sucesso
           atualizarEstado(estado, v, inicioISO, navioNorm, emFundeio, hash, agora);
+        } else {
+          // Classe 3: remarcação classificada corretamente, anterior encontrado no mapa,
+          // mas atualizarEvento() não achou a linha no arquivo (ou falha de lock/IO).
+          // O evento some silenciosamente do histórico — esse é o caso mais traiçoeiro.
+          console.warn(`  ✗ remarcacao_update_falhou: ${v.navio} (IMO ${v.imo}) — ${v.tipo} ${inicioISO} chave=${chaveRemarc} anterior=${anterior.inicio_evento}`);
+          remarcUpdateFalhou++;
+          registrarDescarte(diaHoje, 'remarcacao_update_falhou', v, {
+            chave_remarcacao:      chaveRemarc,
+            anterior_encontrado:   true,
+            anterior_inicio_evento: anterior.inicio_evento,
+            anterior_hash_evento:  anterior.hash_evento || null,
+            arquivo_alvo:          eventosPath(diaBrasilia(anterior.inicio_evento)),
+          });
         }
         // se não ok: atualizarEvento já logou aviso; não faz append, não avança estado
       } else {
-        // P1: classificação foi 'remarcacao' mas não há evento anterior na janela
-        // carregada (bootstrap, histórico insuficiente, correção muito tardia).
-        // Comportamento conservador: loga e ignora. Não faz append — criar linha
-        // nova aqui quebraria a regra de "remarcação substitui, nunca duplica".
-        orfaos++;
-        console.warn(`  ⚠ remarcação sem anterior: ${v.navio} (IMO ${v.imo}) — ${v.tipo} ${inicioISO} ignorado (sem evento anterior na janela de ${JANELA_REMARCACAO_DIAS + 1} dias)`);
+        // Classe 4: classificação foi 'remarcacao' mas remarcacaoMap não tem anterior
+        // na janela carregada (bootstrap, histórico insuficiente, correção muito tardia).
+        // Comportamento conservador: não faz append — criar linha nova quebraria a
+        // regra de "remarcação substitui, nunca duplica".
+        remarcSemAnterior++;
+        console.warn(`  ⚠ remarcacao_sem_anterior: ${v.navio} (IMO ${v.imo}) — ${v.tipo} ${inicioISO} chave=${chaveRemarc} (janela de ${JANELA_REMARCACAO_DIAS + 1} dias)`);
+        registrarDescarte(diaHoje, 'remarcacao_sem_anterior', v, {
+          chave_remarcacao:    chaveRemarc,
+          anterior_encontrado: false,
+          janela_dias:         JANELA_REMARCACAO_DIAS + 1,
+        });
       }
       continue;
     }
@@ -1422,7 +1534,15 @@ async function main() {
 
   // ── 10. resumo ─────────────────────────────────────────────────────────────
   console.log(`\n✓ ${allVessels.length} registros na pauta | ${vessels.length} já ocorridos processados`);
-  console.log(`  ${novos} eventos novos | ${remarcados} remarcações | ${orfaos} órfãos ignorados | ${repetidos} repetições`);
+  console.log(`  ${novos} eventos novos | ${remarcados} remarcações | ${repetidos} repetições`);
+  console.log(`  ${orfaos} órfãos (sem histórico / estado avançado / inesperado) | ${remarcSemAnterior} remarcações sem anterior | ${remarcUpdateFalhou} remarcações update falhou`);
+  const totalDescartesAuditados = parseDescartados + orfaos + remarcSemAnterior + remarcUpdateFalhou;
+  if (totalDescartesAuditados > 0) {
+    console.log(`  ${totalDescartesAuditados} descartes auditados → data/descartes/${diaHoje}.jsonl`);
+    if (parseDescartados > 0) {
+      console.log(`    - ${parseDescartados} descartados pelo parser`);
+    }
+  }
   if (novos > 0 || remarcados > 0) {
     console.log(`  → data/eventos/${diaHoje.replace(/-/g, '/')}.jsonl`);
     console.log(`  → data/estado_atual.json`);
