@@ -1,0 +1,42 @@
+{
+  "imo": "9944417",
+  "navio": "BRAM SPIRIT",
+  "gerado_em": "2026-04-05T22:42:28.335Z",
+  "estado_atual": {
+    "porto": "Rio de Janeiro",
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-05T10:50:00.000Z"
+  },
+  "metricas": {
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
+    "entradas_30d": 1,
+    "saidas_30d": 1,
+    "mudancas_30d": 0,
+    "entradas_365d": 1,
+    "saidas_365d": 1,
+    "ultima_entrada": "2026-04-05T09:00:00.000Z",
+    "ultima_saida": "2026-04-05T10:50:00.000Z",
+    "tempo_medio_estadia_horas": 1.8,
+    "tempo_medio_fundeio_horas": null
+  },
+  "historico_recente": [
+    {
+      "data": "2026-04-05T10:50:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBL - BRICLOG",
+      "para": "-"
+    },
+    {
+      "data": "2026-04-05T09:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "TPBL - BRICLOG"
+    }
+  ]
+}
