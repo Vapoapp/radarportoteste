@@ -172,6 +172,7 @@ function diaBrasilia(isoUtc) {
  *   orfao_inesperado_X_para_Y — combinação de tipos não prevista (X e Y substituídos pelos tipos reais normalizados)
  *   remarcacao_update_falhou — classificou como remarcação, achou anterior, mas atualizarEvento() falhou
  *   remarcacao_sem_anterior  — classificou como remarcação mas remarcacaoMap não tinha anterior na janela
+ *   inicio_invalido          — campo inicio não parseável, retornou epoch 1970 (descartado antes de processar)
  *
  * Não usa lock — append atômico por linha é suficiente para este arquivo de auditoria.
  * Falhas de escrita são silenciosas para não interromper o fluxo principal.
@@ -552,9 +553,18 @@ function atualizarEvento(diaInicio, chaveRemarc, inicioAnt, novoEvento) {
     const p = eventosPath(dia);
     if (!fs.existsSync(p)) continue;
 
-    const lockAcquired = acquireLock(p);
+    // Espera lock com o mesmo timeout usado em appendEvento e writeJson —
+    // sem retry aqui seria a única função de IO do sistema sem tolerância a contenção,
+    // inflando artificialmente a contagem de remarcacao_update_falhou.
+    const deadline = Date.now() + LOCK_TIMEOUT_MS;
+    let lockAcquired = null;
+    while (Date.now() < deadline) {
+      lockAcquired = acquireLock(p);
+      if (lockAcquired) break;
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, LOCK_RETRY_MS);
+    }
     if (!lockAcquired) {
-      console.warn(`⚠ atualizarEvento: não conseguiu lock em ${p}, atualização ignorada (sem fallback)`);
+      console.warn(`⚠ atualizarEvento: timeout ao aguardar lock em ${p}, atualização ignorada (sem fallback)`);
       return false;
     }
     let lockReleased = false;
@@ -1370,15 +1380,54 @@ async function main() {
 
   // ── 7. processa cada embarcação (máquina de estados) ─────────────────────
   let novos = 0, remarcados = 0, orfaos = 0, repetidos = 0;
-  let remarcUpdateFalhou = 0, remarcSemAnterior = 0;
+  let remarcUpdateFalhou = 0, remarcSemAnterior = 0, iniciosInvalidos = 0;
 
   for (const v of vessels) {
     const inicioISO  = parseInicio(v.inicio);
+
+    // Guard: data inválida retorna 1970 em parseInicio.
+    // Descartar antes de qualquer processamento — evita contaminar estado_atual.json
+    // com timestamp absurdo e influenciar classificações futuras silenciosamente.
+    if (!dataValida(inicioISO) || inicioISO.startsWith('1970-01-01')) {
+      console.warn(`  ✗ inicio_invalido: ${v.navio} (IMO ${v.imo}) — "${v.inicio}" não é uma data válida, evento descartado`);
+      registrarDescarte(diaHoje, 'inicio_invalido', v, {
+        inicio_raw: v.inicio,
+        motivo: 'parseInicio_retornou_epoch',
+      });
+      iniciosInvalidos++;
+      continue;
+    }
     const navioNorm  = normalizeNavio(v.navio);
     const emFundeio  = calcFundeio(v.tipo, v.para);
     const estadoIMO  = estado[v.imo];
-    const ultimoTipo    = estadoIMO?.ultimo_tipo_evento  || null;
-    const ultimoInicio  = estadoIMO?.ultima_movimentacao_em || null;
+
+    // ultimoTipo: prefere estado_atual.json (mais recente e completo).
+    // Fallback para remarcacaoMap quando estado está vazio — cobre o caso de
+    // início do zero ou bootstrap, onde estado_atual.json foi deletado mas os
+    // .jsonl de dias anteriores ainda existem e foram carregados no mapa.
+    // Sem esse fallback, todas as MUDANÇAs de navios conhecidos virariam órfãos
+    // desnecessariamente só porque o estado foi resetado.
+    let ultimoTipo   = estadoIMO?.ultimo_tipo_evento   || null;
+    let ultimoInicio = estadoIMO?.ultima_movimentacao_em || null;
+    let ultimoDe     = estadoIMO?.origem_atual  || '';
+    let ultimoPara   = estadoIMO?.destino_atual || '';
+
+    if (!ultimoTipo) {
+      // tenta recuperar do remarcacaoMap — itera pelas chaves deste IMO
+      // (pode ter ENTRADA, MUDANÇA ou SAÍDA como chave separada)
+      for (const tipo of ['ENTRADA', 'MUDANÇA', 'SAÍDA', 'SAIDA']) {
+        const ant = remarcacaoMap.get(chaveRemarcacao(v.imo, tipo));
+        if (ant && (!ultimoInicio || ant.inicio_evento > ultimoInicio)) {
+          ultimoTipo   = ant.tipo_evento;
+          ultimoInicio = ant.inicio_evento;
+          ultimoDe     = ant.origem   || '';
+          ultimoPara   = ant.destino  || '';
+        }
+      }
+      if (ultimoTipo) {
+        console.log(`  ℹ estado recuperado do histórico: ${v.navio} (IMO ${v.imo}) ultimo_tipo=${ultimoTipo} em ${ultimoInicio}`);
+      }
+    }
 
     const hash      = hashEvento(v);
     const hashIdent = hashIdentidade(v);
@@ -1393,9 +1442,9 @@ async function main() {
       ultimoTipo, v.tipo,
       ultimoInicio, inicioISO,
       {
-        ultimoDe:   estadoIMO?.origem_atual  || '',
-        ultimoPara: estadoIMO?.destino_atual || '',
-        novoDe:     v.de  || '',
+        ultimoDe,
+        ultimoPara,
+        novoDe:     v.de   || '',
         novoPara:   v.para || '',
       }
     );
@@ -1521,7 +1570,8 @@ async function main() {
 
   // ── 7. salva estado_atual.json (se houve eventos novos ou remarcações) ────
   if (novos > 0 || remarcados > 0) {
-    writeJson(ESTADO_PATH, estado);
+    const estadoGravado = writeJson(ESTADO_PATH, estado);
+    if (!estadoGravado) console.warn('⚠ estado_atual.json não atualizado neste ciclo (lock timeout) — estado em memória pode estar à frente do disco');
   }
 
 
@@ -1536,7 +1586,10 @@ async function main() {
   console.log(`\n✓ ${allVessels.length} registros na pauta | ${vessels.length} já ocorridos processados`);
   console.log(`  ${novos} eventos novos | ${remarcados} remarcações | ${repetidos} repetições`);
   console.log(`  ${orfaos} órfãos (sem histórico / estado avançado / inesperado) | ${remarcSemAnterior} remarcações sem anterior | ${remarcUpdateFalhou} remarcações update falhou`);
-  const totalDescartesAuditados = parseDescartados + orfaos + remarcSemAnterior + remarcUpdateFalhou;
+  if (iniciosInvalidos > 0) {
+    console.log(`  ${iniciosInvalidos} datas inválidas descartadas (inicio_invalido)`);
+  }
+  const totalDescartesAuditados = parseDescartados + orfaos + remarcSemAnterior + remarcUpdateFalhou + iniciosInvalidos;
   if (totalDescartesAuditados > 0) {
     console.log(`  ${totalDescartesAuditados} descartes auditados → data/descartes/${diaHoje}.jsonl`);
     if (parseDescartados > 0) {
