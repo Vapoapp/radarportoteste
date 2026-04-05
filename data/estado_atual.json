@@ -257,13 +257,13 @@
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-04T17:30:00.000Z",
-    "ultimo_hash_evento": "e222a6a38970384bdc04ce284a974155f9f31c21d3d32292759492ee456cb7af",
-    "atualizado_em": "2026-04-04T17:57:20.999Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-05T04:30:00.000Z",
+    "ultimo_hash_evento": "92f1bb624f177b25573a793d233415752a68e95fdeba0f47bf81cf7d5c7735ee",
+    "atualizado_em": "2026-04-05T09:54:08.980Z"
   },
   "9334179": {
     "imo": "9334179",
@@ -326,14 +326,14 @@
     "navio": "GRAND VEGA",
     "navio_normalizado": "GRAND VEGA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2R12 - Terminal - MCAR 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2R12 - Terminal - MCAR 1",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-04T20:00:00.000Z",
-    "ultimo_hash_evento": "118f14c6b1429d7e4ab51ab199eeab4a711f43ff3f01e6b1216c3e2b54b6ca89",
-    "atualizado_em": "2026-04-04T20:15:21.175Z"
+    "ultima_movimentacao_em": "2026-04-05T06:00:00.000Z",
+    "ultimo_hash_evento": "89aa02c2c29392690c3a1f60e1c342032f93dcaa6d93f3dc4565082e4fbc807c",
+    "atualizado_em": "2026-04-05T09:54:08.980Z"
   },
   "9356696": {
     "imo": "9356696",
@@ -522,14 +522,14 @@
     "navio": "SKUA",
     "navio_normalizado": "SKUA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
+    "ultimo_tipo_evento": "SAÍDA",
     "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-02T15:00:00.000Z",
-    "ultimo_hash_evento": "7675108a7c9acf8335bf3dd07670ea09b745af3818552544858a4538c0a53929",
-    "atualizado_em": "2026-04-02T15:45:53.707Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-05T04:20:00.000Z",
+    "ultimo_hash_evento": "3c9eda7c13529e39dc75aa83571bdb07e4b843a15d7b263f50e4b304b1873f54",
+    "atualizado_em": "2026-04-05T09:54:08.980Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -713,6 +713,20 @@
     "ultimo_hash_evento": "dafb09ab189e1ac8528ea9eafecdb7768f3a04ec3be7c29ebbfa910dba0b2a10",
     "atualizado_em": "2026-04-05T06:51:48.549Z"
   },
+  "9528249": {
+    "imo": "9528249",
+    "navio": "SKANDI IPANEMA",
+    "navio_normalizado": "SKANDI IPANEMA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-05T06:30:00.000Z",
+    "ultimo_hash_evento": "7d5e4d98af374d557e0a3dcfd0a2905798221ab9ad5326ac857863d3c07231f9",
+    "atualizado_em": "2026-04-05T09:54:08.980Z"
+  },
   "9528354": {
     "imo": "9528354",
     "navio": "SKANDI IGUAÇU",
@@ -830,14 +844,14 @@
     "navio": "NORMAND CARIOCA",
     "navio_normalizado": "NORMAND CARIOCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "-",
     "agente_atual": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-04T09:40:00.000Z",
-    "ultimo_hash_evento": "eaf11cb3aee09d7c1b2b71839dacb191d98877b29fa0ca325ad64fafd746c5f3",
-    "atualizado_em": "2026-04-04T23:17:04.916Z"
+    "ultima_movimentacao_em": "2026-04-05T05:20:00.000Z",
+    "ultimo_hash_evento": "de18b75a9bc6b8b439a4c892c4f2a7fadd8fc90220845a240c7e176b95f476c0",
+    "atualizado_em": "2026-04-05T09:54:08.980Z"
   },
   "9578660": {
     "imo": "9578660",
@@ -1544,14 +1558,14 @@
     "navio": "SEACOR DEMERARA (REB)",
     "navio_normalizado": "SEACOR DEMERARA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2PAL - Terminal Petrobras AL",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-04T00:30:00.000Z",
-    "ultimo_hash_evento": "a26bbc8d163c3183d25c37c3e93f0e918c0470e6c190779a368eb3331d320665",
-    "atualizado_em": "2026-04-04T02:53:27.573Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-05T03:30:00.000Z",
+    "ultimo_hash_evento": "97406b43d98cbd008c86c27beb8cfb76c03aa9c8d7fe3426c2023a7e08c274e3",
+    "atualizado_em": "2026-04-05T09:54:08.980Z"
   },
   "9758428": {
     "imo": "9758428",
@@ -1782,14 +1796,14 @@
     "navio": "SYNNOVE KNUTSEN",
     "navio_normalizado": "SYNNOVE KNUTSEN",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F10 - PREFERENCIAL GNL",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 81 - 2F08",
+    "destino_atual": "-",
     "agente_atual": "ISS MARINE SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-04T11:00:00.000Z",
-    "ultimo_hash_evento": "034e2e396f8c2d7d69ed19becc432e2e78214d4c753c18636e755d00d116cb08",
-    "atualizado_em": "2026-04-04T23:17:04.916Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-05T09:00:00.000Z",
+    "ultimo_hash_evento": "28b36529641d78d9c6bf0a5ac232c18442d39a8b1ad54252f7daddfa84026b6c",
+    "atualizado_em": "2026-04-05T09:54:08.980Z"
   },
   "9938248": {
     "imo": "9938248",
