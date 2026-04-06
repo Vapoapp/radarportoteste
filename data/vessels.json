@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-06T19:59:26.750Z",
+  "updatedAt": "2026-04-06T20:48:50.144Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 42
+      "count": 43
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -172,22 +172,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 11:00",
-      "imo": "9766621",
-      "navio": "CBO ALIANÇA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/04/2026 11:00",
       "imo": "9799070",
       "navio": "STARNAV SCORPIUS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 11:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -212,22 +212,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 12:00",
-      "imo": "9442055",
-      "navio": "TALHA-MAR",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/04/2026 12:00",
       "imo": "9403786",
       "navio": "COSTA DO FUTURO (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPBK - BRASKEM",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 12:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -361,6 +361,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 19:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "SAÍDA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 19:30",
       "imo": "9654464",
       "navio": "WIELAND",
@@ -458,6 +468,16 @@
       "de": "-",
       "para": "ESMC - MacLaren Ponta da Areia",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "06/04/2026 17:30",
+      "imo": "9668752",
+      "navio": "STARNAV REGULUS",
+      "tipo": "MUDANÇA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Niterói",

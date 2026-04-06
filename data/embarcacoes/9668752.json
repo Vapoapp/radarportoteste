@@ -1,21 +1,21 @@
 {
   "imo": "9668752",
   "navio": "STARNAV REGULUS",
-  "gerado_em": "2026-04-06T19:59:26.750Z",
+  "gerado_em": "2026-04-06T20:48:50.144Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
+    "porto": "Niterói",
     "em_fundeio": true,
     "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-05T10:30:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-06T20:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-05T10:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-06T20:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-04-05T10:30:00.000Z",
       "tipo": "ENTRADA",
