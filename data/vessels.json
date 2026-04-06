@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-04-06T15:29:16.579Z",
+  "updatedAt": "2026-04-06T16:10:31.244Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 29
+      "count": 32
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "itaguai": {
       "ok": true,
-      "count": 6
+      "count": 5
     },
     "angra": {
       "ok": true,
@@ -212,6 +212,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 12:00",
+      "imo": "9403786",
+      "navio": "COSTA DO FUTURO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBK - BRASKEM",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 12:00",
       "imo": "9442055",
       "navio": "TALHA-MAR",
       "tipo": "ENTRADA",
@@ -232,22 +242,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 12:00",
-      "imo": "9403786",
-      "navio": "COSTA DO FUTURO (REB)",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "TPBK - BRASKEM",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/04/2026 13:00",
-      "imo": "9563380",
-      "navio": "VISBY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F03 - Feiticeira",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +258,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 13:00",
+      "imo": "9563380",
+      "navio": "VISBY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F03 - Feiticeira",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Rio de Janeiro",
@@ -281,6 +291,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 15:00",
+      "imo": "9399595",
+      "navio": "OLIVIA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 18:00",
       "imo": "9539494",
       "navio": "MERCOSUL GUARUJÁ (CMA CGM LOME) (REB)",
@@ -301,6 +321,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 20:00",
+      "imo": "9710880",
+      "navio": "SEVEN CRUZEIRO",
+      "tipo": "SAÍDA",
+      "de": "2N09 - Armazém 10",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 23:00",
       "imo": "9685396",
       "navio": "RAQUEL KNUTSEN",
@@ -318,6 +348,16 @@
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "06/04/2026 20:00",
+      "imo": "9670341",
+      "navio": "BLUE ORCA",
+      "tipo": "MUDANÇA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -358,16 +398,6 @@
       "de": "101 - TECAR - CSN MINERAÇÃO S.A.",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "06/04/2026 15:30",
-      "imo": "9698317",
-      "navio": "YANNIS PITTAS",
-      "tipo": "SAÍDA",
-      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "para": "-",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Itaguaí",
