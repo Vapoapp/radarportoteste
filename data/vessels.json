@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-06T22:39:38.541Z",
+  "updatedAt": "2026-04-06T23:20:09.474Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 46
+      "count": 49
     },
     "niteroi": {
       "ok": true,
@@ -122,11 +122,11 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 09:00",
-      "imo": "9530008",
-      "navio": "JACK EDWARDS (BAND. GREYLIST TOKYO MOU)",
-      "tipo": "SAÍDA",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -142,11 +142,11 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 09:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "MUDANÇA",
+      "imo": "9530008",
+      "navio": "JACK EDWARDS (BAND. GREYLIST TOKYO MOU)",
+      "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -202,26 +202,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 12:00",
-      "imo": "9506394",
-      "navio": "LOG-IN DISCOVERY (REB S/L)",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/04/2026 12:00",
-      "imo": "9686144",
-      "navio": "HOS REMINGTON",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/04/2026 12:00",
       "imo": "9403786",
       "navio": "COSTA DO FUTURO (REB)",
       "tipo": "ENTRADA",
@@ -238,6 +218,26 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 12:00",
+      "imo": "9506394",
+      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 12:00",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,22 +342,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 18:00",
-      "imo": "9539494",
-      "navio": "MERCOSUL GUARUJÁ (CMA CGM LOME) (REB)",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/04/2026 18:00",
       "imo": "9489895",
       "navio": "CELSO FURTADO",
       "tipo": "MUDANÇA",
       "de": "Fundeio - WPT 61 - 2F6A",
       "para": "TPS1 - PETROBRAS PS1",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 18:00",
+      "imo": "9539494",
+      "navio": "MERCOSUL GUARUJÁ (CMA CGM LOME) (REB)",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -471,6 +471,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "07/04/2026 06:00",
+      "imo": "9600578",
+      "navio": "SKANDI URCA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/04/2026 08:00",
+      "imo": "9468657",
+      "navio": "GNL 1015",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "COASTAL OFFSHORE LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "07/04/2026 08:00",
       "imo": "9530008",
       "navio": "JACK EDWARDS (BAND. GREYLIST TOKYO MOU)",
@@ -478,6 +498,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/04/2026 10:00",
+      "imo": "9963413",
+      "navio": "BBC ODESA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N10 - Terminal de Trigo",
+      "agente": "BRAZILIAN PORT AGENTS"
     },
     {
       "porto": "Niterói",
