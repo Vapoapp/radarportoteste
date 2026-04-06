@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-06T17:06:43.553Z",
+  "updatedAt": "2026-04-06T18:02:01.567Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 38
+      "count": 39
     },
     "niteroi": {
       "ok": true,
@@ -201,16 +201,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "06/04/2026 11:00",
-      "imo": "9653111",
-      "navio": "DELTA CARDINAL (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 12:00",
       "imo": "9403786",
       "navio": "COSTA DO FUTURO (REB)",
@@ -282,6 +272,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 15:00",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 15:00",
       "imo": "9710945",
       "navio": "SEACOR NILE (REB)",
       "tipo": "SAÍDA",
@@ -301,16 +301,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "06/04/2026 15:00",
-      "imo": "9702883",
-      "navio": "CBO WISER (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "06/04/2026 17:00",
       "imo": "9715751",
       "navio": "STARNAV PHOENIX",
@@ -318,6 +308,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 18:00",
+      "imo": "9489895",
+      "navio": "CELSO FURTADO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - WPT 61 - 2F6A",
+      "para": "TPS1 - PETROBRAS PS1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -348,6 +348,16 @@
       "de": "2N09 - Armazém 10",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/04/2026 20:30",
+      "imo": "9786152",
+      "navio": "MAERSK CALLAO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 81 - 2F08",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -461,7 +471,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "06/04/2026 17:30",
+      "inicio": "06/04/2026 18:30",
       "imo": "9928891",
       "navio": "COSCO SHIPPING FOUNTAIN",
       "tipo": "ENTRADA",
