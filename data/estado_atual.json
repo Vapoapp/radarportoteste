@@ -284,14 +284,14 @@
     "navio": "ORYX (REB)",
     "navio_normalizado": "ORYX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-05T23:00:00.000Z",
-    "ultimo_hash_evento": "f45329e7b22f5910a553645c93bff515e69031d3f519843a63da2ab6b2aafa7f",
-    "atualizado_em": "2026-04-05T23:12:47.649Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-06T07:30:00.000Z",
+    "ultimo_hash_evento": "7507ef2adc2d1021b79e1f734e3d5ac26faedd7d6032744f1e9f9d367abf5f55",
+    "atualizado_em": "2026-04-06T08:02:18.236Z"
   },
   "9653111": {
     "imo": "9653111",
@@ -306,6 +306,20 @@
     "ultima_movimentacao_em": "2026-04-05T22:00:00.000Z",
     "ultimo_hash_evento": "33fa52e8bda563faa5e42dd204ba3db9930d18edef4292e58931691cd3b126bb",
     "atualizado_em": "2026-04-05T23:12:47.649Z"
+  },
+  "9659062": {
+    "imo": "9659062",
+    "navio": "NORMAND SIGMA (REB)",
+    "navio_normalizado": "NORMAND SIGMA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "SOLSTAD SHIPPING LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-06T05:00:00.000Z",
+    "ultimo_hash_evento": "27075ff2b2d898d19000a92aad294419f2f2df3da9f0b2b9a6199559964d3687",
+    "atualizado_em": "2026-04-06T08:02:18.236Z"
   },
   "9668752": {
     "imo": "9668752",
