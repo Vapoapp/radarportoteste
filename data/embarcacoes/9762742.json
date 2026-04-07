@@ -1,29 +1,36 @@
 {
   "imo": "9762742",
   "navio": "POSIDONIA LEOPARD (REB)",
-  "gerado_em": "2026-04-07T11:40:38.050Z",
+  "gerado_em": "2026-04-07T12:43:18.600Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-07T04:30:00.000Z"
+    "em_fundeio": false,
+    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-07T12:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-07T04:30:00.000Z",
     "ultima_saida": null,
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 8
   },
   "historico_recente": [
+    {
+      "data": "2026-04-07T12:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
     {
       "data": "2026-04-07T04:30:00.000Z",
       "tipo": "ENTRADA",
