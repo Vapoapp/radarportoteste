@@ -1,29 +1,36 @@
 {
   "imo": "9763760",
   "navio": "BRAM BUCK",
-  "gerado_em": "2026-04-07T10:45:11.290Z",
+  "gerado_em": "2026-04-07T11:40:38.050Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-07T04:00:00.000Z"
+    "ultima_movimentacao": "2026-04-07T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-05T03:00:00.000Z",
     "ultima_saida": null,
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": 33
+    "tempo_medio_fundeio_horas": 20
   },
   "historico_recente": [
+    {
+      "data": "2026-04-07T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-04-07T04:00:00.000Z",
       "tipo": "MUDANÇA",
