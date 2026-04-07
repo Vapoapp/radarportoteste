@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-07T15:48:24.931Z",
+  "updatedAt": "2026-04-07T16:41:04.931Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 45
+      "count": 48
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -232,6 +232,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/04/2026 09:00",
+      "imo": "9664299",
+      "navio": "BRAM BRASILIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/04/2026 09:00",
       "imo": "9680786",
       "navio": "VEGA CHALLENGER (REB)",
       "tipo": "SAÍDA",
@@ -248,16 +258,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "TPBR - BRASCO",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "07/04/2026 09:00",
-      "imo": "9664299",
-      "navio": "BRAM BRASILIA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBR - BRASCO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,6 +342,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/04/2026 12:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/04/2026 12:00",
       "imo": "9497127",
       "navio": "CAMPOS CONTENDER",
       "tipo": "ENTRADA",
@@ -351,13 +361,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "07/04/2026 12:00",
-      "imo": "9442055",
-      "navio": "TALHA-MAR",
+      "inicio": "07/04/2026 13:00",
+      "imo": "9715751",
+      "navio": "STARNAV PHOENIX",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2PAL - Terminal Petrobras AL",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -451,6 +461,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 10:30",
+      "imo": "9268681",
+      "navio": "FORTE DE COPACABANA",
+      "tipo": "SAÍDA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 12:00",
+      "imo": "9598256",
+      "navio": "EAGLE PARAIBA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 16:00",
       "imo": "9489895",
       "navio": "CELSO FURTADO",
@@ -488,6 +518,26 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "07/04/2026 20:00",
+      "imo": "9644134",
+      "navio": "PRION",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "08/04/2026 08:00",
+      "imo": "9417359",
+      "navio": "SKANDI OLYMPIA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Itaguaí",
