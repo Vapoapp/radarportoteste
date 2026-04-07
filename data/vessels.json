@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-07T08:46:21.199Z",
+  "updatedAt": "2026-04-07T09:52:29.431Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 29
+      "count": 30
     },
     "niteroi": {
       "ok": true,
@@ -142,12 +142,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/04/2026 07:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9668752",
+      "navio": "STARNAV REGULUS",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -161,13 +161,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "07/04/2026 07:00",
-      "imo": "9668752",
-      "navio": "STARNAV REGULUS",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
+      "inicio": "07/04/2026 08:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/04/2026 08:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/04/2026 08:00",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -191,26 +211,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "07/04/2026 08:00",
-      "imo": "9578892",
-      "navio": "CBO COPACABANA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "07/04/2026 08:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "07/04/2026 08:30",
       "imo": "9945887",
       "navio": "COSCO SHIPPING CHILE",
@@ -221,13 +221,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "07/04/2026 10:00",
-      "imo": "9963413",
-      "navio": "BBC ODESA",
+      "inicio": "07/04/2026 09:00",
+      "imo": "9664299",
+      "navio": "BRAM BRASILIA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2N10 - Terminal de Trigo",
-      "agente": "BRAZILIAN PORT AGENTS"
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -238,6 +238,16 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/04/2026 10:00",
+      "imo": "9963413",
+      "navio": "BBC ODESA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N10 - Terminal de Trigo",
+      "agente": "BRAZILIAN PORT AGENTS"
     },
     {
       "porto": "Rio de Janeiro",
@@ -381,7 +391,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "07/04/2026 10:30",
+      "inicio": "07/04/2026 11:00",
       "imo": "9928891",
       "navio": "COSCO SHIPPING FOUNTAIN",
       "tipo": "SAÍDA",
@@ -391,7 +401,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "07/04/2026 11:30",
+      "inicio": "07/04/2026 12:00",
       "imo": "9698317",
       "navio": "YANNIS PITTAS",
       "tipo": "SAÍDA",
