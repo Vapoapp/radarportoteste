@@ -10,47 +10,47 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+ 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: main
-
+ 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-
+ 
       - name: Scrape + ingestão
         id: scrape
         run: |
           node scrape.js
-          echo "exit_code=$?" >> $GITHUB_OUTPUT
+          echo "scrape_ok=true" >> $GITHUB_OUTPUT
         continue-on-error: true
         # Contrato de exit codes do scrape.js:
         #   exit 0 → houve eventos novos ou remarcações
         #   exit 2 → sem eventos novos (ciclo normal sem mudanças)
         #   exit 1 → erro real (todos os portos falharam, crash, etc.)
-        # continue-on-error permite que o step seguinte inspecione o código
-        # e decida se commita. exit 1 ainda fica visível no log como falha.
-
+        # O echo só é executado se exit 0 ou exit 2 NÃO travar o runner.
+        # continue-on-error permite inspecionar o resultado no step seguinte.
+ 
       - name: Commit e push
         if: always()
         run: |
           set -e
-
-          # Se o scrape falhou com erro real (exit 1), não commita.
-          # exit 2 (sem mudanças) e exit 0 (com mudanças) continuam normalmente.
-          EXIT="${{ steps.scrape.outputs.exit_code || '1' }}"
-          if [ "$EXIT" = "1" ]; then
-            echo "Scrape terminou com erro (exit 1) — commit abortado."
+ 
+          # scrape_ok só é gravado em exit 0 ou exit 2 (fluxo normal).
+          # Se o scrape crashou feio (exit 1 ou sinal), o output fica vazio.
+          SCRAPE_OK="${{ steps.scrape.outputs.scrape_ok }}"
+          if [ "$SCRAPE_OK" != "true" ]; then
+            echo "Scrape terminou com erro real — commit abortado."
             exit 1
           fi
-
+ 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
+ 
           git add \
             data/vessels.json \
             data/estado_atual.json \
@@ -60,16 +60,16 @@ jobs:
             data/embarcacoes/ \
             data/descartes/ || true
           # || true no git add: diretórios opcionais podem não existir ainda
-
+ 
           if git diff --staged --quiet; then
             echo "Nenhuma alteração nos dados — commit ignorado."
             exit 0
           fi
-
+ 
           MSG="data: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git commit -m "$MSG"
           echo "Commit criado: $MSG"
-
+ 
           # Retry loop: até 5 tentativas com pull --rebase antes de cada push.
           # Necessário porque dois jobs podem rodar em paralelo (schedule + dispatch)
           # e o push pode ser rejeitado se outro job commitou no intervalo.
@@ -85,8 +85,9 @@ jobs:
             echo "Push falhou na tentativa $i. Aguardando ${WAIT}s antes de tentar novamente..."
             sleep $WAIT
           done
-
+ 
           if [ "$PUSHED" -eq 0 ]; then
             echo "ERRO: push falhou após 5 tentativas. Dados gerados neste ciclo não foram publicados."
             exit 1
           fi
+ 
