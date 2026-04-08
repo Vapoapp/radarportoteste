@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-08T12:37:58.936Z",
+  "updatedAt": "2026-04-08T14:13:46.243Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 46
+      "count": 50
     },
     "niteroi": {
       "ok": true,
@@ -62,12 +62,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 03:00",
-      "imo": "9417828",
-      "navio": "NORMAND SAGARIS (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SOLSTAD SHIPPING LTDA."
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -82,12 +82,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 03:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9417828",
+      "navio": "NORMAND SAGARIS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -132,6 +132,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 06:00",
+      "imo": "9339131",
+      "navio": "SKANDI BOTAFOGO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 06:00",
       "imo": "3813886816",
       "navio": "MARTIN LEME XVII",
       "tipo": "MUDANÇA",
@@ -148,26 +158,6 @@
       "de": "TPS2 - PETROBRAS PS2",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 06:00",
-      "imo": "9339131",
-      "navio": "SKANDI BOTAFOGO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 06:00",
-      "imo": "9679517",
-      "navio": "SAFE ZEPHYRUS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F11 - AF Boa Viagem",
-      "para": "-",
-      "agente": "AGENCIA MARÍTIMA OFFSHORE CONTINENTAL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -242,22 +232,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 07:30",
-      "imo": "9423190",
-      "navio": "DEBORAH KAY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 07:30",
       "imo": "3810289680",
       "navio": "BS-8",
       "tipo": "MUDANÇA",
       "de": "2N16 - Armazém 16",
       "para": "NIT - ATRACADO NITERÓI",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 07:30",
+      "imo": "9423190",
+      "navio": "DEBORAH KAY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -268,6 +258,26 @@
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 08:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 08:00",
+      "imo": "9598256",
+      "navio": "EAGLE PARAIBA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -288,26 +298,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 08:00",
-      "imo": "9598256",
-      "navio": "EAGLE PARAIBA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 08:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -362,6 +352,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 11:00",
+      "imo": "9268681",
+      "navio": "FORTE DE COPACABANA",
+      "tipo": "MUDANÇA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "Fundeio - WPT 61 - 2F6A",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 11:00",
       "imo": "9529700",
       "navio": "POSIDONIA TIGER (REB)",
       "tipo": "MUDANÇA",
@@ -371,13 +371,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 11:00",
-      "imo": "9268681",
-      "navio": "FORTE DE COPACABANA",
+      "inicio": "08/04/2026 11:30",
+      "imo": "9399595",
+      "navio": "OLIVIA (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 12:00",
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 12:00",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
       "tipo": "MUDANÇA",
-      "de": "TPIC - ILHA COMPRIDA",
-      "para": "Fundeio - WPT 61 - 2F6A",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -388,6 +408,16 @@
       "de": "-",
       "para": "TPP2 - PETROBRAS PP2",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 13:00",
+      "imo": "9636034",
+      "navio": "ORYX (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -428,6 +458,16 @@
       "de": "-",
       "para": "Fundeio - 2F01N - Visita Norte",
       "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 16:00",
+      "imo": "9679517",
+      "navio": "SAFE ZEPHYRUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F11 - AF Boa Viagem",
+      "para": "-",
+      "agente": "AGENCIA MARÍTIMA OFFSHORE CONTINENTAL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
