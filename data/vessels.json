@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-08T22:09:53.710Z",
+  "updatedAt": "2026-04-08T22:59:59.069Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 76
+      "count": 77
     },
     "niteroi": {
       "ok": true,
@@ -62,12 +62,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 03:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9417828",
+      "navio": "NORMAND SAGARIS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -82,12 +82,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 03:00",
-      "imo": "9417828",
-      "navio": "NORMAND SAGARIS (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SOLSTAD SHIPPING LTDA."
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -152,26 +152,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 06:30",
-      "imo": "9659579",
-      "navio": "BARU MUCURA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 06:30",
-      "imo": "9715725",
-      "navio": "STARNAV TAURUS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 06:30",
       "imo": "1051109",
       "navio": "COSCO SHIPPING JIXIANG",
       "tipo": "ENTRADA",
@@ -191,9 +171,29 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 06:30",
+      "imo": "9659579",
+      "navio": "BARU MUCURA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 06:30",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 07:00",
-      "imo": "9385398",
-      "navio": "A.H. CAMOGLI (REB)",
+      "imo": "9477397",
+      "navio": "CBO CAROLINA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
@@ -212,8 +212,8 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 07:00",
-      "imo": "9477397",
-      "navio": "CBO CAROLINA",
+      "imo": "9385398",
+      "navio": "A.H. CAMOGLI (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
@@ -252,12 +252,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 08:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
+      "imo": "9329954",
+      "navio": "NORMAND TURMALINA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "para": "TPBR - BRASCO",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 08:00",
+      "imo": "9417828",
+      "navio": "NORMAND SAGARIS (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "-",
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -282,22 +292,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 08:00",
-      "imo": "9329954",
-      "navio": "NORMAND TURMALINA",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "SOLSTAD SHIPPING LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 08:00",
-      "imo": "9417828",
-      "navio": "NORMAND SAGARIS (REB)",
-      "tipo": "SAÍDA",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "-",
-      "agente": "SOLSTAD SHIPPING LTDA."
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -308,6 +308,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 10:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -328,16 +338,6 @@
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 10:00",
-      "imo": "9370070",
-      "navio": "SIDDIS SAILOR (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -472,6 +472,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 14:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 14:00",
       "imo": "9850563",
       "navio": "EVER FORTUNE",
       "tipo": "ENTRADA",
@@ -502,12 +512,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 15:00",
-      "imo": "3813896277",
-      "navio": "DRATEC XXII",
-      "tipo": "MUDANÇA",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "TPBS - TPBS",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "imo": "9843338",
+      "navio": "YUAN DONG HAI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01N - Visita Norte",
+      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -522,12 +532,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 15:00",
-      "imo": "9843338",
-      "navio": "YUAN DONG HAI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01N - Visita Norte",
-      "agente": "ISS MARINE SERVICES LTDA"
+      "imo": "3813896277",
+      "navio": "DRATEC XXII",
+      "tipo": "MUDANÇA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "TPBS - TPBS",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -561,16 +571,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 16:00",
-      "imo": "9945887",
-      "navio": "COSCO SHIPPING CHILE",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 17:00",
       "imo": "9659579",
       "navio": "BARU MUCURA",
@@ -592,22 +592,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 18:00",
-      "imo": "9489895",
-      "navio": "CELSO FURTADO",
-      "tipo": "SAÍDA",
-      "de": "TPS1 - PETROBRAS PS1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 18:00",
       "imo": "9720512",
       "navio": "MSC MICHELA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 18:00",
+      "imo": "9489895",
+      "navio": "CELSO FURTADO",
+      "tipo": "SAÍDA",
+      "de": "TPS1 - PETROBRAS PS1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -648,6 +648,16 @@
       "de": "-",
       "para": "TPS1 - PETROBRAS PS1",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 23:00",
+      "imo": "9563380",
+      "navio": "VISBY",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F03 - Feiticeira",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Rio de Janeiro",
