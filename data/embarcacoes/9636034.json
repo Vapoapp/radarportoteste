@@ -1,29 +1,36 @@
 {
   "imo": "9636034",
   "navio": "ORYX (REB)",
-  "gerado_em": "2026-04-08T15:47:17.411Z",
+  "gerado_em": "2026-04-08T16:46:30.836Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-07T13:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-08T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 4,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-04-05T23:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-04-08T16:00:00.000Z",
+    "tempo_medio_estadia_horas": 65,
     "tempo_medio_fundeio_horas": 14.5
   },
   "historico_recente": [
+    {
+      "data": "2026-04-08T16:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "-"
+    },
     {
       "data": "2026-04-07T13:00:00.000Z",
       "tipo": "MUDANÇA",
