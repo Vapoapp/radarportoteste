@@ -13,6 +13,20 @@
     "ultimo_hash_evento": "8a5ebc5626b01d007c8f9f72ccb25d279849776eb38e2e67214deeb1422c626a",
     "atualizado_em": "2026-04-07T07:44:55.871Z"
   },
+  "1051109": {
+    "imo": "1051109",
+    "navio": "COSCO SHIPPING JIXIANG",
+    "navio_normalizado": "COSCO SHIPPING JIXIANG",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01N - Visita Norte",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-08T09:30:00.000Z",
+    "ultimo_hash_evento": "755a7531c93efa0ae65b22ab021a799c684891230b217aa659b870d750b9ae0d",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
+  },
   "1057206": {
     "imo": "1057206",
     "navio": "P. TOKYO",
@@ -307,6 +321,20 @@
     "ultimo_hash_evento": "85d79df6b0b717bb001d258b34be94f56eee06dceeb62a1fb7b0f07207e8f3d5",
     "atualizado_em": "2026-04-06T10:34:44.330Z"
   },
+  "9385398": {
+    "imo": "9385398",
+    "navio": "A.H. CAMOGLI (REB)",
+    "navio_normalizado": "A.H. CAMOGLI",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-08T10:00:00.000Z",
+    "ultimo_hash_evento": "24e1f0b836ce96e35e0b1b98d91367e7ad3352cf524cb20a4f3f9f7c38b6d62f",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
+  },
   "9399595": {
     "imo": "9399595",
     "navio": "OLIVIA (REB)",
@@ -362,6 +390,20 @@
     "ultima_movimentacao_em": "2026-04-08T06:00:00.000Z",
     "ultimo_hash_evento": "92c6cffc9fd021f863f6ec35907bb4ad45c6ced9939280c5b541795414ec938b",
     "atualizado_em": "2026-04-08T06:46:32.867Z"
+  },
+  "9423190": {
+    "imo": "9423190",
+    "navio": "DEBORAH KAY",
+    "navio_normalizado": "DEBORAH KAY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-08T10:30:00.000Z",
+    "ultimo_hash_evento": "65c0a1d45c83501b1dc8465358d857ef644792e625412b6545a5f1b5a39113a9",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
   },
   "9423229": {
     "imo": "9423229",
@@ -424,28 +466,56 @@
     "navio": "TALHA-MAR",
     "navio_normalizado": "TALHA-MAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-08T09:30:00.000Z",
+    "ultimo_hash_evento": "907a087c9520789c55af6445b563a2c362b3151d881c7efbeedffc3975699736",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
+  },
+  "9459759": {
+    "imo": "9459759",
+    "navio": "SKANDI SKANSEN",
+    "navio_normalizado": "SKANDI SKANSEN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N05 - Armazém 6",
+    "agente_atual": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-08T06:30:00.000Z",
-    "ultimo_hash_evento": "ae5ded510cf382bc908190dbb35dc01fab25258fe22195c7749c8b18b2ec6d97",
-    "atualizado_em": "2026-04-08T09:16:22.919Z"
+    "ultima_movimentacao_em": "2026-04-08T10:00:00.000Z",
+    "ultimo_hash_evento": "992c9ccc0db5dc97f78ee9f1b580892a64de1b18c88d61ce96f202ba15733f4f",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
   },
   "9476886": {
     "imo": "9476886",
     "navio": "REEDBUCK (REB)",
     "navio_normalizado": "REEDBUCK",
     "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBL - BRICLOG",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-08T10:00:00.000Z",
+    "ultimo_hash_evento": "6ad910ab0c3d4f4466defb4985591d07dd1b9c5f64b5ca16024872d4ac102e90",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
+  },
+  "9477397": {
+    "imo": "9477397",
+    "navio": "CBO CAROLINA",
+    "navio_normalizado": "CBO CAROLINA",
+    "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
     "destino_atual": "Fundeio - 2F6A - LARGO",
-    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-07T20:00:00.000Z",
-    "ultimo_hash_evento": "8ee3109edb193f70116fa2faf4f3e883bb92d641e4eac420cf0ffaaf8aba8f8e",
-    "atualizado_em": "2026-04-07T20:25:16.015Z"
+    "ultima_movimentacao_em": "2026-04-08T10:00:00.000Z",
+    "ultimo_hash_evento": "abf396a950188e5ee7958ff9bf5e40efc0001bf60f707e7f4f43fda3f2f7bf17",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
   },
   "9480203": {
     "imo": "9480203",
@@ -1119,6 +1189,20 @@
     "ultimo_hash_evento": "73b908d3e4b4323c2f1c5eacdc06b688c9284d1edc58be5a4cf84356fb7b6bd6",
     "atualizado_em": "2026-04-05T22:42:28.335Z"
   },
+  "9715725": {
+    "imo": "9715725",
+    "navio": "STARNAV TAURUS",
+    "navio_normalizado": "STARNAV TAURUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-08T09:30:00.000Z",
+    "ultimo_hash_evento": "fff5d193e667f1eb826e98eb9cf8a0bf38aadabfd6103bcb910fde51cc4f33e8",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
+  },
   "9715737": {
     "imo": "9715737",
     "navio": "STARNAV ANDROMEDA",
@@ -1216,6 +1300,20 @@
     "ultima_movimentacao_em": "2026-04-07T11:00:00.000Z",
     "ultimo_hash_evento": "50c077db97b4c25023922f3559d26ceb9b1556ee600ed96a7b41caecee244d6b",
     "atualizado_em": "2026-04-07T11:40:38.050Z"
+  },
+  "9759991": {
+    "imo": "9759991",
+    "navio": "EMPEROR PAMPERO",
+    "navio_normalizado": "EMPEROR PAMPERO",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-08T10:00:00.000Z",
+    "ultimo_hash_evento": "e2aaabb7fe6a62db78d64a02c06278da54823dcec2d8d985cac509367d9f2d85",
+    "atualizado_em": "2026-04-08T10:32:01.183Z"
   },
   "9762742": {
     "imo": "9762742",
