@@ -25,26 +25,29 @@ jobs:
       - name: Scrape + ingestão
         id: scrape
         run: |
-          node scrape.js
-          echo "scrape_ok=true" >> $GITHUB_OUTPUT
+          node scrape.js; CODE=$?
+          echo "exit_code=$CODE" >> $GITHUB_OUTPUT
+          # Contrato de exit codes do scrape.js:
+          #   exit 0 → houve eventos novos ou remarcações
+          #   exit 2 → sem eventos novos (ciclo normal sem mudanças)
+          #   exit 1 → erro real (todos os portos falharam, crash, etc.)
+          # O ; captura o exit code antes que o shell possa abortar.
+          # Repropaga o código original para o runner registrar corretamente.
+          exit $CODE
         continue-on-error: true
-        # Contrato de exit codes do scrape.js:
-        #   exit 0 → houve eventos novos ou remarcações
-        #   exit 2 → sem eventos novos (ciclo normal sem mudanças)
-        #   exit 1 → erro real (todos os portos falharam, crash, etc.)
-        # O echo só é executado se exit 0 ou exit 2 NÃO travar o runner.
-        # continue-on-error permite inspecionar o resultado no step seguinte.
  
       - name: Commit e push
         if: always()
         run: |
           set -e
  
-          # scrape_ok só é gravado em exit 0 ou exit 2 (fluxo normal).
-          # Se o scrape crashou feio (exit 1 ou sinal), o output fica vazio.
-          SCRAPE_OK="${{ steps.scrape.outputs.scrape_ok }}"
-          if [ "$SCRAPE_OK" != "true" ]; then
-            echo "Scrape terminou com erro real — commit abortado."
+          CODE="${{ steps.scrape.outputs.exit_code }}"
+          echo "Exit code do scrape: $CODE"
+ 
+          # exit 1 = erro real → não commita
+          # exit 0 ou 2 = fluxo normal → continua
+          if [ "$CODE" = "1" ] || [ -z "$CODE" ]; then
+            echo "Scrape terminou com erro real (exit $CODE) — commit abortado."
             exit 1
           fi
  
@@ -59,7 +62,6 @@ jobs:
             data/metricas/ \
             data/embarcacoes/ \
             data/descartes/ || true
-          # || true no git add: diretórios opcionais podem não existir ainda
  
           if git diff --staged --quiet; then
             echo "Nenhuma alteração nos dados — commit ignorado."
@@ -70,9 +72,6 @@ jobs:
           git commit -m "$MSG"
           echo "Commit criado: $MSG"
  
-          # Retry loop: até 5 tentativas com pull --rebase antes de cada push.
-          # Necessário porque dois jobs podem rodar em paralelo (schedule + dispatch)
-          # e o push pode ser rejeitado se outro job commitou no intervalo.
           PUSHED=0
           for i in 1 2 3 4 5; do
             echo "Tentativa de push $i/5..."
@@ -87,7 +86,6 @@ jobs:
           done
  
           if [ "$PUSHED" -eq 0 ]; then
-            echo "ERRO: push falhou após 5 tentativas. Dados gerados neste ciclo não foram publicados."
+            echo "ERRO: push falhou após 5 tentativas."
             exit 1
           fi
- 
