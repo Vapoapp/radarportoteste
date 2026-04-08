@@ -25,25 +25,68 @@ jobs:
       - name: Scrape + ingestão
         id: scrape
         run: |
-          node scrape.js || true
-        # exit 0 = houve eventos novos
-        # exit 2 = sem eventos novos
-        # em ambos os casos, commita se houver qualquer mudança nos arquivos
+          node scrape.js
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+        # Contrato de exit codes do scrape.js:
+        #   exit 0 → houve eventos novos ou remarcações
+        #   exit 2 → sem eventos novos (ciclo normal sem mudanças)
+        #   exit 1 → erro real (todos os portos falharam, crash, etc.)
+        # continue-on-error permite que o step seguinte inspecione o código
+        # e decida se commita. exit 1 ainda fica visível no log como falha.
 
       - name: Commit e push
         if: always()
         run: |
+          set -e
+
+          # Se o scrape falhou com erro real (exit 1), não commita.
+          # exit 2 (sem mudanças) e exit 0 (com mudanças) continuam normalmente.
+          EXIT="${{ steps.scrape.outputs.exit_code || '1' }}"
+          if [ "$EXIT" = "1" ]; then
+            echo "Scrape terminou com erro (exit 1) — commit abortado."
+            exit 1
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/vessels.json data/estado_atual.json data/eventos/ data/snapshots/ data/metricas/ data/embarcacoes/
-          if ! git diff --staged --quiet; then
-            git commit -m "data: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            # Retry loop: pull --rebase + push até 5 tentativas.
-            # Necessário porque dois jobs podem rodar em paralelo (schedule + manual)
-            # e o push pode ser rejeitado se outro job commitou no intervalo.
-            for i in 1 2 3 4 5; do
-              git pull --rebase origin main && git push origin main && break
-              echo "Push rejeitado (tentativa $i/5), aguardando e tentando novamente..."
-              sleep $((i * 5))
-            done
+
+          git add \
+            data/vessels.json \
+            data/estado_atual.json \
+            data/eventos/ \
+            data/snapshots/ \
+            data/metricas/ \
+            data/embarcacoes/ \
+            data/descartes/ || true
+          # || true no git add: diretórios opcionais podem não existir ainda
+
+          if git diff --staged --quiet; then
+            echo "Nenhuma alteração nos dados — commit ignorado."
+            exit 0
+          fi
+
+          MSG="data: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git commit -m "$MSG"
+          echo "Commit criado: $MSG"
+
+          # Retry loop: até 5 tentativas com pull --rebase antes de cada push.
+          # Necessário porque dois jobs podem rodar em paralelo (schedule + dispatch)
+          # e o push pode ser rejeitado se outro job commitou no intervalo.
+          PUSHED=0
+          for i in 1 2 3 4 5; do
+            echo "Tentativa de push $i/5..."
+            if git pull --rebase origin main && git push origin main; then
+              echo "Push realizado com sucesso na tentativa $i."
+              PUSHED=1
+              break
+            fi
+            WAIT=$((i * 10))
+            echo "Push falhou na tentativa $i. Aguardando ${WAIT}s antes de tentar novamente..."
+            sleep $WAIT
+          done
+
+          if [ "$PUSHED" -eq 0 ]; then
+            echo "ERRO: push falhou após 5 tentativas. Dados gerados neste ciclo não foram publicados."
+            exit 1
           fi
