@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-08T08:03:23.209Z",
+  "updatedAt": "2026-04-08T09:16:22.919Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 34
+      "count": 36
     },
     "niteroi": {
       "ok": true,
@@ -82,22 +82,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 03:00",
-      "imo": "9442055",
-      "navio": "TALHA-MAR",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 03:00",
       "imo": "9417828",
       "navio": "NORMAND SAGARIS (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2TS2 - Terminal Siderúrgico 2",
       "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 03:30",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -132,6 +132,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/04/2026 06:00",
+      "imo": "9679517",
+      "navio": "SAFE ZEPHYRUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F11 - AF Boa Viagem",
+      "para": "-",
+      "agente": "AGENCIA MARÍTIMA OFFSHORE CONTINENTAL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/04/2026 06:00",
       "imo": "3813886816",
       "navio": "MARTIN LEME XVII",
       "tipo": "MUDANÇA",
@@ -161,13 +171,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "08/04/2026 06:00",
-      "imo": "9679517",
-      "navio": "SAFE ZEPHYRUS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F11 - AF Boa Viagem",
-      "para": "-",
-      "agente": "AGENCIA MARÍTIMA OFFSHORE CONTINENTAL LTDA"
+      "inicio": "08/04/2026 06:30",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -358,6 +368,16 @@
       "de": "-",
       "para": "TPS1 - PETROBRAS PS1",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 00:00",
+      "imo": "9476915",
+      "navio": "BUSHBUCK (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Niterói",
