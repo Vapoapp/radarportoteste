@@ -1,7 +1,7 @@
 {
   "imo": "3813886816",
   "navio": "MARTIN LEME XVII",
-  "gerado_em": "2026-04-08T18:56:15.543Z",
+  "gerado_em": "2026-04-08T19:58:17.313Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,12 +10,12 @@
     "ultima_movimentacao": "2026-04-08T16:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-08T16:30:00.000Z",
@@ -29,6 +29,13 @@
       "tipo": "ENTRADA",
       "porto": "Rio de Janeiro",
       "de": "-",
+      "para": "2N09 - Armazém 10"
+    },
+    {
+      "data": "2026-04-08T09:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2N09 - Armazém 10"
     }
   ]
