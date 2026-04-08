@@ -23,33 +23,21 @@ jobs:
           node-version: '20'
  
       - name: Scrape + ingestão
-        id: scrape
         run: |
           node scrape.js; CODE=$?
-          echo "exit_code=$CODE" >> $GITHUB_OUTPUT
           # Contrato de exit codes do scrape.js:
-          #   exit 0 → houve eventos novos ou remarcações
-          #   exit 2 → sem eventos novos (ciclo normal sem mudanças)
-          #   exit 1 → erro real (todos os portos falharam, crash, etc.)
-          # O ; captura o exit code antes que o shell possa abortar.
-          # Repropaga o código original para o runner registrar corretamente.
-          exit $CODE
-        continue-on-error: true
- 
-      - name: Commit e push
-        if: always()
-        run: |
-          set -e
- 
-          CODE="${{ steps.scrape.outputs.exit_code }}"
-          echo "Exit code do scrape: $CODE"
- 
-          # exit 1 = erro real → não commita
-          # exit 0 ou 2 = fluxo normal → continua
-          if [ "$CODE" = "1" ] || [ -z "$CODE" ]; then
-            echo "Scrape terminou com erro real (exit $CODE) — commit abortado."
+          #   exit 0 → houve eventos novos ou remarcações  → commita
+          #   exit 2 → sem eventos novos (ciclo normal)    → não commita, mas não é erro
+          #   exit 1 → erro real (portos falharam, crash)  → falha o job
+          if [ "$CODE" = "1" ]; then
+            echo "Scrape terminou com erro real — abortando."
             exit 1
           fi
+          echo "Scrape OK (exit $CODE)"
+ 
+      - name: Commit e push
+        run: |
+          set -e
  
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -89,3 +77,4 @@ jobs:
             echo "ERRO: push falhou após 5 tentativas."
             exit 1
           fi
+ 
