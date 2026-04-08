@@ -354,14 +354,14 @@
     "navio": "A.H. CAMOGLI (REB)",
     "navio_normalizado": "A.H. CAMOGLI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-08T10:00:00.000Z",
-    "ultimo_hash_evento": "24e1f0b836ce96e35e0b1b98d91367e7ad3352cf524cb20a4f3f9f7c38b6d62f",
-    "atualizado_em": "2026-04-08T10:32:01.183Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-08T16:00:00.000Z",
+    "ultimo_hash_evento": "0bc99a37d211e1b90097951f3959729c8a6da212d921bff47f72036cfa2baf6b",
+    "atualizado_em": "2026-04-08T17:49:58.557Z"
   },
   "9399595": {
     "imo": "9399595",
@@ -424,14 +424,14 @@
     "navio": "NORMAND SAGARIS (REB)",
     "navio_normalizado": "NORMAND SAGARIS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
+    "destino_atual": "-",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-08T06:00:00.000Z",
-    "ultimo_hash_evento": "92c6cffc9fd021f863f6ec35907bb4ad45c6ced9939280c5b541795414ec938b",
-    "atualizado_em": "2026-04-08T06:46:32.867Z"
+    "ultima_movimentacao_em": "2026-04-08T11:00:00.000Z",
+    "ultimo_hash_evento": "74893310aee61b99da908cbc300b1e60f43a1e58ad09f575bdaf199eb0f46914",
+    "atualizado_em": "2026-04-08T17:49:58.557Z"
   },
   "9423190": {
     "imo": "9423190",
@@ -466,14 +466,14 @@
     "navio": "AKER WAYFARER (REB)",
     "navio_normalizado": "AKER WAYFARER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPS2 - PETROBRAS PS2",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPS2 - PETROBRAS PS2",
+    "destino_atual": "-",
     "agente_atual": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-07T20:00:00.000Z",
-    "ultimo_hash_evento": "1fb06b320b899fd569a79e745743d87d60413141aea0bdb25f8717c750e5e24c",
-    "atualizado_em": "2026-04-07T20:25:16.015Z"
+    "ultima_movimentacao_em": "2026-04-08T17:00:00.000Z",
+    "ultimo_hash_evento": "105db2c5679d7827670f88dcfe17655ce2627f86f6b96cec20694e1c186fada0",
+    "atualizado_em": "2026-04-08T17:49:58.557Z"
   },
   "9440681": {
     "imo": "9440681",
@@ -872,14 +872,14 @@
     "navio": "CBO IPANEMA",
     "navio_normalizado": "CBO IPANEMA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-08T15:00:00.000Z",
-    "ultimo_hash_evento": "8b9c7f7e847acba216468965a461ee7f7eebb601dc4f30815033d8b58a62b37d",
-    "atualizado_em": "2026-04-08T15:01:15.813Z"
+    "ultima_movimentacao_em": "2026-04-08T17:15:00.000Z",
+    "ultimo_hash_evento": "9dbeb1a30d964015bc62b60c393884be3a68f61d00a023f459deda97f825cbe7",
+    "atualizado_em": "2026-04-08T17:49:58.557Z"
   },
   "9636022": {
     "imo": "9636022",
@@ -992,6 +992,20 @@
     "ultima_movimentacao_em": "2026-04-06T05:00:00.000Z",
     "ultimo_hash_evento": "27075ff2b2d898d19000a92aad294419f2f2df3da9f0b2b9a6199559964d3687",
     "atualizado_em": "2026-04-06T08:02:18.236Z"
+  },
+  "9659579": {
+    "imo": "9659579",
+    "navio": "BARU MUCURA",
+    "navio_normalizado": "BARU MUCURA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-08T17:00:00.000Z",
+    "ultimo_hash_evento": "5cab9575082fbed1d4d2a2d00efff5012ae8e84566ce46a1085ca5a68bade23d",
+    "atualizado_em": "2026-04-08T17:49:58.557Z"
   },
   "9664299": {
     "imo": "9664299",
@@ -1510,6 +1524,20 @@
     "ultima_movimentacao_em": "2026-04-08T11:00:00.000Z",
     "ultimo_hash_evento": "e550b2533514a79bb5a0ab6cb39e6db4032ab13cf2dd70e7326c9a62d2f10ae7",
     "atualizado_em": "2026-04-08T11:33:10.563Z"
+  },
+  "9850563": {
+    "imo": "9850563",
+    "navio": "EVER FORTUNE",
+    "navio_normalizado": "EVER FORTUNE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-08T17:00:00.000Z",
+    "ultimo_hash_evento": "3e4eb45593ed1600b3996149e98f161541edc6eb46c04208dd9fa4b739016da3",
+    "atualizado_em": "2026-04-08T17:49:58.557Z"
   },
   "9852133": {
     "imo": "9852133",
