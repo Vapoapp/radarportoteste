@@ -1,7 +1,7 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-04-08T14:51:47.373880Z",
+  "gerado_em": "2026-04-08T15:01:15.813Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,13 +10,13 @@
     "ultima_movimentacao": "2026-04-08T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
-    "entradas_30d": 1,
+    "manobras_30d": 7,
+    "manobras_180d": 7,
+    "manobras_365d": 7,
+    "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 2,
-    "entradas_365d": 1,
+    "mudancas_30d": 3,
+    "entradas_365d": 2,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-08T09:30:00.000Z",
     "ultima_saida": "2026-04-08T11:00:00.000Z",
@@ -46,6 +46,13 @@
       "para": "-"
     },
     {
+      "data": "2026-04-08T06:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
+    {
       "data": "2026-04-08T05:00:00.000Z",
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
@@ -58,6 +65,13 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2PAL - Terminal Petrobras AL"
+    },
+    {
+      "data": "2026-04-06T20:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
