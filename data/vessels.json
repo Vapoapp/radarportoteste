@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-09T03:46:07.850Z",
+  "updatedAt": "2026-04-09T05:31:45.769Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 34
+      "count": 35
     },
     "niteroi": {
       "ok": true,
@@ -19,16 +19,6 @@
     }
   },
   "vessels": [
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 00:00",
-      "imo": "9268681",
-      "navio": "FORTE DE COPACABANA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 00:00",
@@ -101,13 +91,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 03:00",
-      "imo": "9476915",
-      "navio": "BUSHBUCK (REB)",
-      "tipo": "MUDANÇA",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "inicio": "09/04/2026 03:30",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 04:00",
+      "imo": "9268681",
+      "navio": "FORTE DE COPACABANA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -188,6 +188,16 @@
       "de": "-",
       "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 06:30",
+      "imo": "9459759",
+      "navio": "SKANDI SKANSEN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N05 - Armazém 6",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -282,12 +292,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 11:00",
-      "imo": "9459759",
-      "navio": "SKANDI SKANSEN",
+      "imo": "9453365",
+      "navio": "SPYROS V",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2N05 - Armazém 6",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -308,16 +318,6 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 14:00",
-      "imo": "9453365",
-      "navio": "SPYROS V",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -348,6 +348,16 @@
       "de": "2NTO - Terminal de Óleo",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 22:00",
+      "imo": "9453365",
+      "navio": "SPYROS V",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
