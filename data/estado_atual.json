@@ -303,9 +303,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-08T09:00:00.000Z",
-    "ultimo_hash_evento": "8ae5329a5df6b232ec78e5ace2dfa47a9da4dec09b6575042434d27a0cbdbe4b",
-    "atualizado_em": "2026-04-08T09:16:22.919Z"
+    "ultima_movimentacao_em": "2026-04-09T10:00:00.000Z",
+    "ultimo_hash_evento": "ed403342cbdfd252ad524cdc7abc93756138f6b4f1f99ad19729c2c2127e4751",
+    "atualizado_em": "2026-04-09T10:48:23.867Z"
   },
   "9348259": {
     "imo": "9348259",
@@ -354,14 +354,14 @@
     "navio": "SKANDI FLUMINENSE",
     "navio_normalizado": "SKANDI FLUMINENSE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-06T09:30:00.000Z",
-    "ultimo_hash_evento": "85d79df6b0b717bb001d258b34be94f56eee06dceeb62a1fb7b0f07207e8f3d5",
-    "atualizado_em": "2026-04-06T10:34:44.330Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-09T10:00:00.000Z",
+    "ultimo_hash_evento": "b87b1454d13b5c91b8b218be7194d530d2d26fab11d987e5a66501073677db34",
+    "atualizado_em": "2026-04-09T10:48:23.867Z"
   },
   "9370070": {
     "imo": "9370070",
@@ -432,6 +432,20 @@
     "ultima_movimentacao_em": "2026-04-05T04:00:00.000Z",
     "ultimo_hash_evento": "fe76cb6b051ea4661124c36b3c680cc033b1767d20e82e432aeec413950e81a6",
     "atualizado_em": "2026-04-05T22:42:28.335Z"
+  },
+  "9411006": {
+    "imo": "9411006",
+    "navio": "RINI",
+    "navio_normalizado": "RINI",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "-",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-09T10:00:00.000Z",
+    "ultimo_hash_evento": "4e4d0c8d3246427a6456fe7b9bb543bad6c14acb03bf64f0df794f823513482d",
+    "atualizado_em": "2026-04-09T10:48:23.867Z"
   },
   "9417359": {
     "imo": "9417359",
@@ -698,6 +712,20 @@
     "ultima_movimentacao_em": "2026-04-07T15:00:00.000Z",
     "ultimo_hash_evento": "768eae08f3c69d051db3e21fa94b82b790e2056d0870539ab11f75f88fa6f4b0",
     "atualizado_em": "2026-04-07T15:48:24.931Z"
+  },
+  "9497139": {
+    "imo": "9497139",
+    "navio": "SANTOS SUPPLIER",
+    "navio_normalizado": "SANTOS SUPPLIER",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-09T10:00:00.000Z",
+    "ultimo_hash_evento": "b604da3d3788902685b6b8b88f37d90bcc5d2fa19bff123b5185f1296a271394",
+    "atualizado_em": "2026-04-09T10:48:23.867Z"
   },
   "9500704": {
     "imo": "9500704",
@@ -1888,5 +1916,19 @@
     "ultima_movimentacao_em": "2026-04-08T16:30:00.000Z",
     "ultimo_hash_evento": "eb6af6a35edfce7f389570d0d33cfa4c314e06202407bce5bea61ccbfc5a551a",
     "atualizado_em": "2026-04-08T18:56:15.543Z"
+  },
+  "3813890457": {
+    "imo": "3813890457",
+    "navio": "COSTA NOVA",
+    "navio_normalizado": "COSTA NOVA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "ESCA - ESTALEIRO CASSINU",
+    "destino_atual": "-",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-09T10:00:00.000Z",
+    "ultimo_hash_evento": "5eda959128023f73a7d35fd488dccbc9e24bb4b9ff11ba188d8723e9fc003a34",
+    "atualizado_em": "2026-04-09T10:48:23.867Z"
   }
 }
