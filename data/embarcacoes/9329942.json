@@ -1,29 +1,36 @@
 {
   "imo": "9329942",
   "navio": "MESTRE DOS MARES (REB)",
-  "gerado_em": "2026-04-09T14:30:16.863Z",
+  "gerado_em": "2026-04-09T16:04:24.267Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-04-05T13:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-04-09T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
-    "entradas_30d": 0,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
+    "entradas_30d": 1,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 0,
+    "entradas_365d": 1,
     "saidas_365d": 1,
-    "ultima_entrada": null,
+    "ultima_entrada": "2026-04-09T15:00:00.000Z",
     "ultima_saida": "2026-04-05T13:30:00.000Z",
     "tempo_medio_estadia_horas": null,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-09T15:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-04-05T13:30:00.000Z",
       "tipo": "SAÍDA",
