@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-09T19:39:05.740Z",
+  "updatedAt": "2026-04-09T20:30:53.714Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 64
+      "count": 66
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 5
     },
     "itaguai": {
       "ok": true,
@@ -242,6 +242,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 07:00",
+      "imo": "9497139",
+      "navio": "SANTOS SUPPLIER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 07:00",
       "imo": "3813890457",
       "navio": "COSTA NOVA",
       "tipo": "SAÍDA",
@@ -258,16 +268,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 07:00",
-      "imo": "9497139",
-      "navio": "SANTOS SUPPLIER",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -412,22 +412,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 13:00",
-      "imo": "9336878",
-      "navio": "ROSCO POPLAR",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01S - Visita Sul",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 13:00",
       "imo": "9497127",
       "navio": "CAMPOS CONTENDER",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 13:00",
+      "imo": "9336878",
+      "navio": "ROSCO POPLAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01S - Visita Sul",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -472,16 +472,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 16:00",
-      "imo": "9850563",
-      "navio": "EVER FORTUNE",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 16:00",
       "imo": "9973315",
       "navio": "BOCHEM BRISBANE",
       "tipo": "SAÍDA",
@@ -502,12 +492,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 16:00",
-      "imo": "9715737",
-      "navio": "STARNAV ANDROMEDA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "9850563",
+      "navio": "EVER FORTUNE",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -521,13 +511,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 17:00",
-      "imo": "3810289680",
-      "navio": "BS-8",
+      "inicio": "09/04/2026 16:00",
+      "imo": "9286762",
+      "navio": "SEVEN SABIÁ",
       "tipo": "MUDANÇA",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "TPSS - SUBSEA",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 16:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -571,6 +571,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 17:30",
+      "imo": "3810289680",
+      "navio": "BS-8",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "2N17 - Armazém 17",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 17:45",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "NIT - ATRACADO NITERÓI",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 18:00",
       "imo": "9944417",
       "navio": "BRAM SPIRIT",
@@ -601,6 +621,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 20:00",
+      "imo": "9497139",
+      "navio": "SANTOS SUPPLIER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 21:00",
       "imo": "9703667",
       "navio": "BRAM HERO",
@@ -618,16 +648,6 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 07:00",
-      "imo": "9262118",
-      "navio": "XIN CHONG QING",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -688,6 +708,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "09/04/2026 15:00",
+      "imo": "9371385",
+      "navio": "OCEANICASUB XVII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Niterói",
