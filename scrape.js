@@ -1170,15 +1170,36 @@ async function main() {
     }
   }
 
-  // ── 6. filtra eventos futuros ────────────────────────────────────────────────
-  // A pauta inclui manobras programadas para o futuro. O estado_atual e as
-  // métricas devem refletir apenas o que já aconteceu até agora.
+  // ── 6. filtra eventos fora do escopo de processamento ───────────────────────
+  // Dois critérios de exclusão:
+  //
+  //   1. Futuros: evento ainda não ocorreu (inicio > agora).
+  //      A pauta publica manobras programadas — só processa o que já aconteceu.
+  //
+  //   2. Dia diferente: evento pertence a outro dia (diaBrasilia(inicio) != diaHoje).
+  //      O SILOG às vezes publica na pauta do dia atual eventos de dias seguintes
+  //      (ex: coleta de 06/04 traz manobra de 08/04). Se processados, seriam
+  //      gravados no .jsonl do dia errado, poluindo o histórico.
+  //      Esses eventos serão capturados normalmente quando o dia deles chegar.
   const agoraMs = new Date(agora).getTime();
-  const futuros = allVessels.filter(v => new Date(parseInicio(v.inicio)).getTime() > agoraMs);
-  const vessels = allVessels.filter(v => new Date(parseInicio(v.inicio)).getTime() <= agoraMs);
+  const futuros   = allVessels.filter(v => new Date(parseInicio(v.inicio)).getTime() > agoraMs);
+  const outroDia  = allVessels.filter(v => {
+    const ms = new Date(parseInicio(v.inicio)).getTime();
+    return ms <= agoraMs && diaBrasilia(parseInicio(v.inicio)) !== diaHoje;
+  });
+  const vessels   = allVessels.filter(v => {
+    const ms = new Date(parseInicio(v.inicio)).getTime();
+    return ms <= agoraMs && diaBrasilia(parseInicio(v.inicio)) === diaHoje;
+  });
 
   if (futuros.length > 0) {
     console.log(`  ⏭ ${futuros.length} evento(s) futuros ignorados (ainda não ocorreram)`);
+  }
+  if (outroDia.length > 0) {
+    console.log(`  ⏭ ${outroDia.length} evento(s) de outro dia ignorados (dia != ${diaHoje}):`);
+    for (const v of outroDia) {
+      console.log(`     ${v.navio} (IMO ${v.imo}) — ${v.tipo} ${v.inicio} → dia ${diaBrasilia(parseInicio(v.inicio))}`);
+    }
   }
 
   // grava vessels.json com TODOS os eventos do dia (pauta completa para o frontend)
