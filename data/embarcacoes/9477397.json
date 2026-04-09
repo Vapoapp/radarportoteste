@@ -1,21 +1,21 @@
 {
   "imo": "9477397",
   "navio": "CBO CAROLINA",
-  "gerado_em": "2026-04-09T16:04:24.267Z",
+  "gerado_em": "2026-04-09T17:18:59.192Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-09T07:00:00.000Z"
+    "ultima_movimentacao": "2026-04-09T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-08T10:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 21
   },
   "historico_recente": [
+    {
+      "data": "2026-04-09T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-04-09T07:00:00.000Z",
       "tipo": "MUDANÇA",
