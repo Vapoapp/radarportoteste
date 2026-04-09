@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-09T10:48:23.867Z",
+  "updatedAt": "2026-04-09T11:41:05.583Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 40
+      "count": 44
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 7
+      "count": 5
     },
     "angra": {
       "ok": true,
@@ -162,6 +162,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 06:00",
+      "imo": "9768588",
+      "navio": "VOX AMALIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 06:00",
       "imo": "9528354",
       "navio": "SKANDI IGUAÇU",
       "tipo": "ENTRADA",
@@ -181,13 +191,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 06:00",
-      "imo": "9768588",
-      "navio": "VOX AMALIA",
+      "inicio": "09/04/2026 06:30",
+      "imo": "9492050",
+      "navio": "MADRE DE DEUS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -202,12 +212,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 06:30",
-      "imo": "9492050",
-      "navio": "MADRE DE DEUS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "imo": "1051109",
+      "navio": "COSCO SHIPPING JIXIANG",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01S - Visita Sul",
+      "para": "-",
+      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -218,16 +228,6 @@
       "de": "-",
       "para": "2N05 - Armazém 6",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/04/2026 06:30",
-      "imo": "1051109",
-      "navio": "COSCO SHIPPING JIXIANG",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01S - Visita Sul",
-      "para": "-",
-      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -271,6 +271,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 07:30",
+      "imo": "9510307",
+      "navio": "Siem Pilot",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - WPT 61 - 2F6A",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 08:00",
       "imo": "9286762",
       "navio": "SEVEN SABIÁ",
@@ -301,6 +311,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 10:00",
+      "imo": "9945887",
+      "navio": "COSCO SHIPPING CHILE",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 11:00",
       "imo": "9649029",
       "navio": "SEVEN WAVES",
@@ -308,6 +328,16 @@
       "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 11:00",
+      "imo": "9453365",
+      "navio": "SPYROS V",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -322,12 +352,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/04/2026 11:00",
-      "imo": "9453365",
-      "navio": "SPYROS V",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "ZIM DO BRASIL LTDA"
+      "imo": "9399595",
+      "navio": "OLIVIA (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -387,6 +417,16 @@
       "tipo": "SAÍDA",
       "de": "2NTO - Terminal de Óleo",
       "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/04/2026 18:00",
+      "imo": "9262118",
+      "navio": "XIN CHONG QING",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
@@ -471,26 +511,6 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "09/04/2026 12:30",
-      "imo": "9689691",
-      "navio": "BOSPORUS",
-      "tipo": "SAÍDA",
-      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "para": "-",
-      "agente": "GEM SHIPPING LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "09/04/2026 15:30",
-      "imo": "9750921",
-      "navio": "BERGE GROSSGLOCKNER",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "09/04/2026 16:30",
       "imo": "9926415",
       "navio": "SHANDONG CIVILIZATION",
@@ -502,12 +522,12 @@
     {
       "porto": "Itaguaí",
       "inicio": "09/04/2026 19:00",
-      "imo": "9865764",
-      "navio": "WITHAM",
+      "imo": "9689691",
+      "navio": "BOSPORUS",
       "tipo": "SAÍDA",
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "agente": "GEM SHIPPING LTDA"
     }
   ]
 }
