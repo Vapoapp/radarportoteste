@@ -1,29 +1,36 @@
 {
   "imo": "9944417",
   "navio": "BRAM SPIRIT",
-  "gerado_em": "2026-04-09T20:30:53.714Z",
+  "gerado_em": "2026-04-09T21:24:17.657Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-09T04:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-09T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 1,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-08T08:30:00.000Z",
-    "ultima_saida": "2026-04-05T10:50:00.000Z",
-    "tempo_medio_estadia_horas": 1.8,
-    "tempo_medio_fundeio_horas": null
+    "ultima_saida": "2026-04-09T21:00:00.000Z",
+    "tempo_medio_estadia_horas": 19.2,
+    "tempo_medio_fundeio_horas": 17
   },
   "historico_recente": [
+    {
+      "data": "2026-04-09T21:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-04-09T04:00:00.000Z",
       "tipo": "MUDANÇA",
