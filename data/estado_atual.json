@@ -830,14 +830,14 @@
     "navio": "SKANDI IGUAÇU",
     "navio_normalizado": "SKANDI IGUACU",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-09T09:00:00.000Z",
-    "ultimo_hash_evento": "0388e7fa9a0f59ba2af10707a342b9b857da2f41e9927241a28fb17531b4bade",
-    "atualizado_em": "2026-04-09T09:46:46.672Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-09T20:00:00.000Z",
+    "ultimo_hash_evento": "23816d30c1e112eda62679d0b3d1966e46b16d3a9d100f80a977ce22ee18ddb8",
+    "atualizado_em": "2026-04-09T22:02:25.376Z"
   },
   "9529700": {
     "imo": "9529700",
@@ -880,6 +880,20 @@
     "ultima_movimentacao_em": "2026-04-06T21:00:00.000Z",
     "ultimo_hash_evento": "ed28b1afbf206e2413da6c1d7ca52565a767de2f0a2fb768f9672a9f13c18f33",
     "atualizado_em": "2026-04-06T21:24:06.252Z"
+  },
+  "9545857": {
+    "imo": "9545857",
+    "navio": "COXON TIDE (REB)",
+    "navio_normalizado": "COXON TIDE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-09T21:30:00.000Z",
+    "ultimo_hash_evento": "322d94ef9d51452332e40e1665951c8e5d34bc5d6da5952143b6af58b45fd9b9",
+    "atualizado_em": "2026-04-09T22:02:25.376Z"
   },
   "9547685": {
     "imo": "9547685",
@@ -1488,14 +1502,14 @@
     "navio": "SEACOR NILE (REB)",
     "navio_normalizado": "SEACOR NILE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-06T18:00:00.000Z",
-    "ultimo_hash_evento": "57373df608fda02905fd01f2376ca52a17ec51126540e7249cd6e7c9fc08f89f",
-    "atualizado_em": "2026-04-06T18:02:01.567Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-09T15:30:00.000Z",
+    "ultimo_hash_evento": "c58a2314054a28ad05319e037dfaf4cc62c18fe724d83fcc65d3a5608a73dcd4",
+    "atualizado_em": "2026-04-09T22:02:25.376Z"
   },
   "9715567": {
     "imo": "9715567",
@@ -1684,14 +1698,14 @@
     "navio": "CBO ALIANÇA",
     "navio_normalizado": "CBO ALIANCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-09T03:00:00.000Z",
-    "ultimo_hash_evento": "076da42b7ed9de898d72056950c978488782bc50efaf91a5dba59fd5b47384fa",
-    "atualizado_em": "2026-04-09T03:46:07.850Z"
+    "ultima_movimentacao_em": "2026-04-09T21:30:00.000Z",
+    "ultimo_hash_evento": "eee9792e5c3a74613920535d5d794158debce4000d0bd88e92f060c13164d3cb",
+    "atualizado_em": "2026-04-09T22:02:25.376Z"
   },
   "9767833": {
     "imo": "9767833",
@@ -2014,6 +2028,20 @@
     "ultima_movimentacao_em": "2026-04-09T19:00:00.000Z",
     "ultimo_hash_evento": "d00d0cca4e1df26b5b0280f7323f6b26070bd5f11a68bcf6f02d5e2075cacd61",
     "atualizado_em": "2026-04-09T19:39:05.740Z"
+  },
+  "9977373": {
+    "imo": "9977373",
+    "navio": "CL YANGJIANG",
+    "navio_normalizado": "CL YANGJIANG",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "agente_atual": "GEM SHIPPING LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-09T22:00:00.000Z",
+    "ultimo_hash_evento": "b80d008428b5be55d09222134e698e6a791805af9476258be38a6dd4eb64643e",
+    "atualizado_em": "2026-04-09T22:02:25.376Z"
   },
   "9986910": {
     "imo": "9986910",
