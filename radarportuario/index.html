@@ -84,7 +84,6 @@
 
     .brand span{ color:#22a96b; }
 
-    /* botão pesquisar embarcação — alinhado à direita da topbar */
     .topbar-right{
       margin-left:auto;
     }
@@ -233,6 +232,92 @@
       margin-top:4px;
     }
 
+    /* ── FUNDEIO POR PORTO ─────────────────────────────────── */
+    #fundeioPortos{
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+    }
+
+    .porto-block{
+      background:var(--panel);
+      border:1px solid var(--border);
+      border-radius:6px;
+      overflow:hidden;
+      position:relative;
+    }
+
+    .porto-block::before{
+      content:'';
+      position:absolute;
+      top:0;left:0;
+      width:3px;height:100%;
+      background:linear-gradient(to bottom,var(--signal),transparent);
+    }
+
+    .porto-header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:10px;
+      padding:12px 16px 12px 20px;
+      cursor:pointer;
+      user-select:none;
+      transition:.15s;
+    }
+
+    .porto-header:hover{
+      background:rgba(0,255,136,.04);
+    }
+
+    .porto-header-left{
+      display:flex;
+      align-items:center;
+      gap:12px;
+    }
+
+    .porto-name{
+      font-family:'Share Tech Mono',monospace;
+      font-size:13px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      color:var(--blue);
+    }
+
+    .porto-count{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      background:rgba(0,255,136,.12);
+      border:1px solid rgba(0,255,136,.25);
+      color:var(--signal);
+      font-family:'Share Tech Mono',monospace;
+      font-size:11px;
+      border-radius:999px;
+      padding:2px 9px;
+      letter-spacing:1px;
+    }
+
+    .porto-chevron{
+      color:var(--muted);
+      font-size:14px;
+      transition:transform .2s;
+      font-family:'Share Tech Mono',monospace;
+    }
+
+    .porto-block.collapsed .porto-chevron{
+      transform:rotate(-90deg);
+    }
+
+    .porto-body{
+      overflow:hidden;
+      transition:max-height .25s ease;
+    }
+
+    .porto-block.collapsed .porto-body{
+      max-height:0 !important;
+    }
+
     .table-wrap{
       overflow:auto;
       border-radius:4px;
@@ -241,7 +326,7 @@
     table{
       width:100%;
       border-collapse:collapse;
-      min-width:700px;
+      min-width:560px;
     }
 
     th{
@@ -266,10 +351,7 @@
       white-space:nowrap;
     }
 
-    /* linha clicável na tabela de fundeio */
-    tr.clickable{
-      cursor:pointer;
-    }
+    tr.clickable{ cursor:pointer; }
 
     tr.clickable:hover td{
       background:rgba(0,255,136,.07);
@@ -354,9 +436,7 @@
       color:#fff;
     }
 
-    .insight strong{
-      color:var(--signal);
-    }
+    .insight strong{ color:var(--signal); }
 
     .footer-note{
       margin-top:18px;
@@ -393,6 +473,7 @@
       border-color:rgba(0,255,136,.35);
       color:var(--text);
     }
+
     @media (max-width: 560px){
       .title-wrap h1{ font-size:30px; }
       .stats-grid{ grid-template-columns:1fr 1fr; }
@@ -443,23 +524,11 @@
     </div>
 
     <div class="layout">
+      <!-- ── FUNDEIO POR PORTO ──────────────────────────────── -->
       <div class="panel">
-        <div class="panel-title">⚓ Fundeio agora</div>
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Porto</th>
-                <th>IMO</th>
-                <th>Navio</th>
-                <th>Local</th>
-                <th>Última movimentação</th>
-              </tr>
-            </thead>
-            <tbody id="tbodyFundeio">
-              <tr><td colspan="5" class="empty">Carregando...</td></tr>
-            </tbody>
-          </table>
+        <div class="panel-title">⚓ Fundeio agora — por porto</div>
+        <div id="fundeioPortos">
+          <div class="empty" style="padding:10px 0;">Carregando...</div>
         </div>
       </div>
 
@@ -510,8 +579,8 @@
   </div>
 
   <script>
-    const RADAR_URL   = './data/metricas/radar.json';
-    const FUNDEIO_URL = './data/metricas/fundeio.json';
+    const RADAR_URL       = './data/metricas/radar.json';
+    const FUNDEIO_URL     = './data/metricas/fundeio.json';
     const RELATORIO_BASE  = './relatorioembarcacao/';
     const RANKING_URL     = './data/metricas/ranking-atividade.json';
 
@@ -579,30 +648,82 @@
         'ATUALIZADO EM ' + formatIsoToBr(radar.atualizado_em || new Date().toISOString()).toUpperCase();
     }
 
+    /* ── FUNDEIO AGRUPADO POR PORTO ──────────────────────────────────────── */
     function renderFundeio(lista) {
-      const tbody = document.getElementById('tbodyFundeio');
+      const container = document.getElementById('fundeioPortos');
 
       if (!Array.isArray(lista) || !lista.length) {
-        tbody.innerHTML = '<tr><td colspan="5" class="empty">Nenhuma embarcação em fundeio no momento.</td></tr>';
+        container.innerHTML = '<div class="empty">Nenhuma embarcação em fundeio no momento.</div>';
         return;
       }
 
-      const sorted = [...lista].sort((a, b) =>
-        String(b.ultima_movimentacao || '').localeCompare(String(a.ultima_movimentacao || ''))
-      );
+      // agrupar por porto
+      const grupos = {};
+      lista.forEach(item => {
+        const porto = item.porto || 'Não informado';
+        if (!grupos[porto]) grupos[porto] = [];
+        grupos[porto].push(item);
+      });
 
-      tbody.innerHTML = sorted.map(item => `
-        <tr class="clickable" data-imo="${escapeHtml(item.imo)}">
-          <td class="port">${escapeHtml(item.porto || '-')}</td>
-          <td>${escapeHtml(item.imo || '-')}</td>
-          <td class="name">${escapeHtml(item.navio || '-')}</td>
-          <td>${escapeHtml(normalizeLocal(item.local || '-'))}</td>
-          <td class="muted">${escapeHtml(formatIsoToBr(item.ultima_movimentacao))}</td>
-        </tr>
-      `).join('');
+      // ordenar portos alfabeticamente
+      const portosOrdenados = Object.keys(grupos).sort();
 
-      // clique em qualquer linha abre o relatório
-      tbody.querySelectorAll('tr.clickable').forEach(tr => {
+      container.innerHTML = portosOrdenados.map(porto => {
+        const embarcacoes = grupos[porto].sort((a, b) =>
+          String(b.ultima_movimentacao || '').localeCompare(String(a.ultima_movimentacao || ''))
+        );
+
+        const rows = embarcacoes.map(item => `
+          <tr class="clickable" data-imo="${escapeHtml(item.imo)}">
+            <td>${escapeHtml(item.imo || '-')}</td>
+            <td class="name">${escapeHtml(item.navio || '-')}</td>
+            <td>${escapeHtml(normalizeLocal(item.local || '-'))}</td>
+            <td class="muted">${escapeHtml(formatIsoToBr(item.ultima_movimentacao))}</td>
+          </tr>
+        `).join('');
+
+        return `
+          <div class="porto-block" data-porto="${escapeHtml(porto)}">
+            <div class="porto-header">
+              <div class="porto-header-left">
+                <span class="porto-name">⚓ ${escapeHtml(porto)}</span>
+                <span class="porto-count">${embarcacoes.length} embarcação${embarcacoes.length !== 1 ? 'ões' : ''}</span>
+              </div>
+              <span class="porto-chevron">▾</span>
+            </div>
+            <div class="porto-body">
+              <div class="table-wrap">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>IMO</th>
+                      <th>Navio</th>
+                      <th>Local</th>
+                      <th>Última movimentação</th>
+                    </tr>
+                  </thead>
+                  <tbody>${rows}</tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      // altura dinâmica para animação suave
+      container.querySelectorAll('.porto-block').forEach(block => {
+        const body = block.querySelector('.porto-body');
+        body.style.maxHeight = body.scrollHeight + 'px';
+
+        // toggle colapso
+        block.querySelector('.porto-header').addEventListener('click', () => {
+          const isCollapsed = block.classList.toggle('collapsed');
+          body.style.maxHeight = isCollapsed ? '0' : body.scrollHeight + 'px';
+        });
+      });
+
+      // clique nas linhas
+      container.querySelectorAll('tr.clickable').forEach(tr => {
         tr.addEventListener('click', () => abrirRelatorio(tr.dataset.imo));
       });
     }
@@ -701,8 +822,8 @@
         if (!rankingData) { loadRanking(); initRankingButtons(); }
       } catch (err) {
         document.getElementById('updatedAt').textContent = 'ERRO AO CARREGAR DADOS';
-        document.getElementById('tbodyFundeio').innerHTML =
-          '<tr><td colspan="5" class="empty">Não foi possível carregar os dados agora.</td></tr>';
+        document.getElementById('fundeioPortos').innerHTML =
+          '<div class="empty">Não foi possível carregar os dados agora.</div>';
         document.getElementById('highlightList').innerHTML =
           '<div class="empty">Falha ao carregar destaques.</div>';
         document.getElementById('insightText').textContent =
