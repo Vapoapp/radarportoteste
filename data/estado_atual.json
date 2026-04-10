@@ -1133,6 +1133,20 @@
     "ultimo_hash_evento": "67e35543285ba7cbe14afd8091793c1190891aa2a5ee88f0d74df2aee9d6ae02",
     "atualizado_em": "2026-04-07T17:40:48.275Z"
   },
+  "9623635": {
+    "imo": "9623635",
+    "navio": "CARMEN KNUTSEN",
+    "navio_normalizado": "CARMEN KNUTSEN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01 - Visita",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-10T10:00:00.000Z",
+    "ultimo_hash_evento": "2aacc44feebc57f72656c18537b3898396f6a76d79bb75b394bac83cc591fea8",
+    "atualizado_em": "2026-04-10T11:36:26.088Z"
+  },
   "9624299": {
     "imo": "9624299",
     "navio": "MAERSK KARUN",
@@ -1515,15 +1529,15 @@
     "imo": "9696802",
     "navio": "STARNAV AQUARIUS (REB)",
     "navio_normalizado": "STARNAV AQUARIUS",
-    "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-10T09:00:00.000Z",
-    "ultimo_hash_evento": "6da39b5cb2e41c3ae0fe66cc35265a20a489a3ab639a31915b072303b5643251",
-    "atualizado_em": "2026-04-10T09:54:29.005Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-10T11:30:00.000Z",
+    "ultimo_hash_evento": "80d580a97d68761904fbdab169da7f78fd48fa584b787fbdbbfd464ff3d6fce6",
+    "atualizado_em": "2026-04-10T11:36:26.088Z"
   },
   "9698317": {
     "imo": "9698317",
@@ -1614,14 +1628,14 @@
     "navio": "SEACOR NILE (REB)",
     "navio_normalizado": "SEACOR NILE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-09T15:30:00.000Z",
-    "ultimo_hash_evento": "c58a2314054a28ad05319e037dfaf4cc62c18fe724d83fcc65d3a5608a73dcd4",
-    "atualizado_em": "2026-04-09T22:02:25.376Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-10T11:00:00.000Z",
+    "ultimo_hash_evento": "09677fd86f3b6ae9f7ec133cad6fb9d60d83758a14a7c56c7ecbea69bc35456f",
+    "atualizado_em": "2026-04-10T11:36:26.088Z"
   },
   "9715567": {
     "imo": "9715567",
@@ -1642,14 +1656,14 @@
     "navio": "STARNAV TAURUS",
     "navio_normalizado": "STARNAV TAURUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-08T09:30:00.000Z",
-    "ultimo_hash_evento": "fff5d193e667f1eb826e98eb9cf8a0bf38aadabfd6103bcb910fde51cc4f33e8",
-    "atualizado_em": "2026-04-08T10:32:01.183Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-10T11:00:00.000Z",
+    "ultimo_hash_evento": "6398217174a020a87172c6706aacfdefc55a9a377ea8dcd9b7fdd1601bb8c44e",
+    "atualizado_em": "2026-04-10T11:36:26.088Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -2160,14 +2174,14 @@
     "navio": "CL YANGJIANG",
     "navio_normalizado": "CL YANGJIANG",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB3 - Área de Fundeio B3",
     "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
     "agente_atual": "GEM SHIPPING LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-09T22:00:00.000Z",
-    "ultimo_hash_evento": "b80d008428b5be55d09222134e698e6a791805af9476258be38a6dd4eb64643e",
-    "atualizado_em": "2026-04-09T22:02:25.376Z"
+    "ultima_movimentacao_em": "2026-04-10T11:30:00.000Z",
+    "ultimo_hash_evento": "1bbf9750ef9231b324164481b376222552bb8e2e1cd278c4715bfb229991a5d8",
+    "atualizado_em": "2026-04-10T11:36:26.088Z"
   },
   "9986910": {
     "imo": "9986910",
