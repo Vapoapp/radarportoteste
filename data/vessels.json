@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-10T15:39:54.297Z",
+  "updatedAt": "2026-04-10T16:34:58.639Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 42
+      "count": 54
     },
     "niteroi": {
       "ok": true,
@@ -112,21 +112,21 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 05:00",
-      "imo": "9715751",
-      "navio": "STARNAV PHOENIX",
-      "tipo": "SAÍDA",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 05:00",
       "imo": "9696802",
       "navio": "STARNAV AQUARIUS (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 05:00",
+      "imo": "9715751",
+      "navio": "STARNAV PHOENIX",
+      "tipo": "SAÍDA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "-",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
@@ -152,22 +152,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 06:00",
-      "imo": "9370070",
-      "navio": "SIDDIS SAILOR (REB)",
-      "tipo": "MUDANÇA",
-      "de": "TPBR - BRASCO",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 06:00",
       "imo": "9696802",
       "navio": "STARNAV AQUARIUS (REB)",
       "tipo": "MUDANÇA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 06:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -232,22 +232,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 08:00",
-      "imo": "9715725",
-      "navio": "STARNAV TAURUS",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 08:00",
       "imo": "9710945",
       "navio": "SEACOR NILE (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 08:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,16 +342,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 12:00",
-      "imo": "9710945",
-      "navio": "SEACOR NILE (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CMM OFFSHORE BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 12:00",
       "imo": "9427639",
       "navio": "COPPER SPIRIT",
       "tipo": "ENTRADA",
@@ -368,6 +358,16 @@
       "de": "TPP2 - PETROBRAS PP2",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 12:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -391,6 +391,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 14:00",
+      "imo": "9489924",
+      "navio": "JOSÉ ALENCAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 82 - 2F08",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 15:00",
       "imo": "9350020",
       "navio": "APL NEW JERSEY",
@@ -401,19 +411,19 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 17:00",
-      "imo": "9506394",
-      "navio": "LOG-IN DISCOVERY (REB S/L)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 20:00",
       "imo": "3813896277",
       "navio": "DRATEC XXII",
+      "tipo": "MUDANÇA",
+      "de": "TPBS - TPBS",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 21:00",
+      "imo": "3813869946",
+      "navio": "DRATEC XXI",
       "tipo": "MUDANÇA",
       "de": "TPBS - TPBS",
       "para": "2PAL - Terminal Petrobras AL",
@@ -431,13 +441,123 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 21:00",
-      "imo": "3813869946",
-      "navio": "DRATEC XXI",
-      "tipo": "MUDANÇA",
-      "de": "TPBS - TPBS",
-      "para": "2PAL - Terminal Petrobras AL",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "inicio": "10/04/2026 23:00",
+      "imo": "9506394",
+      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 05:00",
+      "imo": "9351799",
+      "navio": "LOG-IN PANTANAL (REB)",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 06:00",
+      "imo": "1016692",
+      "navio": "MSC ADELE",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 07:00",
+      "imo": "9350020",
+      "navio": "APL NEW JERSEY",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 07:00",
+      "imo": "9973315",
+      "navio": "BOCHEM BRISBANE",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 09:00",
+      "imo": "9292773",
+      "navio": "ALESSANDRO VOLTA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIC - ILHA COMPRIDA",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 09:00",
+      "imo": "9506394",
+      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 11:00",
+      "imo": "9956903",
+      "navio": "SPARROWHAWK",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 13:00",
+      "imo": "9427639",
+      "navio": "COPPER SPIRIT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01S - Visita Sul",
+      "para": "-",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 15:00",
+      "imo": "9687356",
+      "navio": "NORMAND NAVIGATOR",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 19:00",
+      "imo": "9143556",
+      "navio": "DUSSELDORF EXPRESS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 21:00",
+      "imo": "9956903",
+      "navio": "SPARROWHAWK",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Niterói",
