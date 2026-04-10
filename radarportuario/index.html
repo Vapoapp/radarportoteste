@@ -154,102 +154,9 @@
       gap:16px;
     }
 
-    /* ── STATS COMPACTOS POR PORTO ─────────────────────────── */
-    .stats-bar{
-      background:var(--panel);
-      border:1px solid var(--border);
-      border-radius:6px;
+    .stats-grid{
+      grid-template-columns:repeat(4,1fr);
       margin-bottom:16px;
-      overflow:auto;
-      position:relative;
-    }
-
-    .stats-bar::before{
-      content:'';
-      position:absolute;
-      top:0;left:0;
-      width:3px;height:100%;
-      background:linear-gradient(to bottom,var(--signal),transparent);
-    }
-
-    .stats-bar-header{
-      display:grid;
-      grid-template-columns:1fr 80px 80px 80px 80px;
-      gap:0;
-      padding:8px 14px 8px 20px;
-      border-bottom:1px solid rgba(0,255,136,.1);
-      font-family:'Share Tech Mono',monospace;
-      font-size:10px;
-      letter-spacing:2px;
-      text-transform:uppercase;
-      color:var(--signal);
-      min-width:520px;
-    }
-
-    .stats-bar-header span:not(:first-child){
-      text-align:right;
-    }
-
-    .stats-bar-row{
-      display:grid;
-      grid-template-columns:1fr 80px 80px 80px 80px;
-      gap:0;
-      padding:7px 14px 7px 20px;
-      border-bottom:1px solid rgba(255,255,255,.04);
-      align-items:center;
-      min-width:520px;
-      transition:.15s;
-    }
-
-    .stats-bar-row:last-child{ border-bottom:none; }
-    .stats-bar-row:hover{ background:rgba(0,255,136,.04); }
-
-    .stats-bar-row .porto-label{
-      font-family:'Share Tech Mono',monospace;
-      font-size:12px;
-      color:var(--blue);
-      letter-spacing:1px;
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-    }
-
-    .stats-bar-row .sval{
-      font-family:'Share Tech Mono',monospace;
-      font-size:13px;
-      font-weight:bold;
-      text-align:right;
-    }
-
-    .sval.green{ color:var(--signal); }
-    .sval.blue { color:var(--blue);   }
-    .sval.red  { color:var(--alert);  }
-    .sval.gold { color:var(--warn);   }
-
-    /* totalizador */
-    .stats-bar-total{
-      display:grid;
-      grid-template-columns:1fr 80px 80px 80px 80px;
-      gap:0;
-      padding:8px 14px 8px 20px;
-      border-top:1px solid rgba(0,255,136,.15);
-      background:rgba(0,255,136,.04);
-      min-width:520px;
-    }
-
-    .stats-bar-total .porto-label{
-      font-family:'Share Tech Mono',monospace;
-      font-size:10px;
-      letter-spacing:2px;
-      text-transform:uppercase;
-      color:var(--muted);
-    }
-
-    .stats-bar-total .sval{
-      font-family:'Share Tech Mono',monospace;
-      font-size:13px;
-      font-weight:bold;
-      text-align:right;
     }
 
     .panel{
@@ -569,6 +476,8 @@
 
     @media (max-width: 560px){
       .title-wrap h1{ font-size:30px; }
+      .stats-grid{ grid-template-columns:1fr 1fr; }
+      .stat-value{ font-size:24px; }
       .container{ padding:16px 12px 30px; }
       .btn-pesquisar span{ display:none; }
     }
@@ -595,18 +504,22 @@
       <div class="updated" id="updatedAt">ATUALIZANDO...</div>
     </header>
 
-    <div class="stats-bar" id="statsBar">
-      <div class="stats-bar-header">
-        <span>Porto</span>
-        <span>⚓ Fundeio</span>
-        <span>↓ Entradas</span>
-        <span>↑ Saídas</span>
-        <span>↔ Mudanças</span>
+    <div class="grid stats-grid">
+      <div class="stat">
+        <div class="stat-value" id="statFundeio">--</div>
+        <div class="stat-label">Em fundeio agora</div>
       </div>
-      <div id="statsBarBody">
-        <div class="stats-bar-row">
-          <span class="porto-label muted">Carregando...</span>
-        </div>
+      <div class="stat">
+        <div class="stat-value blue" id="statEntradas">--</div>
+        <div class="stat-label">Entradas hoje</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value alert" id="statSaidas">--</div>
+        <div class="stat-label">Saídas hoje</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value warn" id="statMudancas">--</div>
+        <div class="stat-label">Mudanças hoje</div>
       </div>
     </div>
 
@@ -727,70 +640,12 @@
     }
 
     function renderRadar(radar) {
-      document.getElementById('updatedAt').textContent =
+      document.getElementById('statFundeio').textContent  = radar.fundeio_agora ?? 0;
+      document.getElementById('statEntradas').textContent = radar.entradas_hoje ?? 0;
+      document.getElementById('statSaidas').textContent   = radar.saidas_hoje   ?? 0;
+      document.getElementById('statMudancas').textContent = radar.mudancas_hoje ?? 0;
+      document.getElementById('updatedAt').textContent    =
         'ATUALIZADO EM ' + formatIsoToBr(radar.atualizado_em || new Date().toISOString()).toUpperCase();
-    }
-
-    /* stats compactos derivados do fundeio.json + radar.json por porto */
-    function renderStatsBar(fundeio, radar) {
-      const body = document.getElementById('statsBarBody');
-
-      // agrupar fundeio por porto → contagem de embarcações em fundeio
-      const grupos = {};
-      (fundeio || []).forEach(item => {
-        const p = item.porto || 'Não informado';
-        if (!grupos[p]) grupos[p] = { fundeio: 0, entradas: 0, saidas: 0, mudancas: 0 };
-        grupos[p].fundeio++;
-      });
-
-      // se radar tiver breakdown por porto, mesclar entradas/saídas/mudanças
-      if (Array.isArray(radar.portos)) {
-        radar.portos.forEach(rp => {
-          const p = rp.nome || rp.porto || '';
-          if (!grupos[p]) grupos[p] = { fundeio: 0, entradas: 0, saidas: 0, mudancas: 0 };
-          grupos[p].entradas  = rp.entradas_hoje  ?? grupos[p].entradas;
-          grupos[p].saidas    = rp.saidas_hoje    ?? grupos[p].saidas;
-          grupos[p].mudancas  = rp.mudancas_hoje  ?? grupos[p].mudancas;
-        });
-      }
-
-      const ORDEM_PORTOS = ['Rio de Janeiro', 'Itaguaí', 'Niterói', 'Angra dos Reis'];
-      const portos = [
-        ...ORDEM_PORTOS.filter(p => grupos[p]),
-        ...Object.keys(grupos).filter(p => !ORDEM_PORTOS.includes(p)).sort()
-      ];
-      if (!portos.length) {
-        body.innerHTML = '<div class="stats-bar-row"><span class="porto-label muted">Sem dados.</span></div>';
-        return;
-      }
-
-      // totais
-      const tot = portos.reduce((acc, p) => {
-        acc.fundeio  += grupos[p].fundeio;
-        acc.entradas += grupos[p].entradas;
-        acc.saidas   += grupos[p].saidas;
-        acc.mudancas += grupos[p].mudancas;
-        return acc;
-      }, { fundeio: 0, entradas: 0, saidas: 0, mudancas: 0 });
-
-      body.innerHTML = portos.map(p => {
-        const g = grupos[p];
-        return `
-          <div class="stats-bar-row">
-            <span class="porto-label">${escapeHtml(p)}</span>
-            <span class="sval green">${g.fundeio}</span>
-            <span class="sval blue">${g.entradas || '—'}</span>
-            <span class="sval red">${g.saidas || '—'}</span>
-            <span class="sval gold">${g.mudancas || '—'}</span>
-          </div>`;
-      }).join('') + `
-        <div class="stats-bar-total">
-          <span class="porto-label">Total</span>
-          <span class="sval green">${tot.fundeio}</span>
-          <span class="sval blue">${tot.entradas || '—'}</span>
-          <span class="sval red">${tot.saidas || '—'}</span>
-          <span class="sval gold">${tot.mudancas || '—'}</span>
-        </div>`;
     }
 
     /* ── FUNDEIO AGRUPADO POR PORTO ──────────────────────────────────────── */
@@ -810,11 +665,8 @@
         grupos[porto].push(item);
       });
 
-      const ORDEM_PORTOS = ['Rio de Janeiro', 'Itaguaí', 'Niterói', 'Angra dos Reis'];
-      const portosOrdenados = [
-        ...ORDEM_PORTOS.filter(p => grupos[p]),
-        ...Object.keys(grupos).filter(p => !ORDEM_PORTOS.includes(p)).sort()
-      ];
+      // ordenar portos alfabeticamente
+      const portosOrdenados = Object.keys(grupos).sort();
 
       container.innerHTML = portosOrdenados.map(porto => {
         const embarcacoes = grupos[porto].sort((a, b) =>
@@ -962,7 +814,6 @@
         ]);
 
         renderRadar(radar);
-        renderStatsBar(fundeio, radar);
         renderFundeio(fundeio);
         renderHighlights(fundeio);
         document.getElementById('insightText').innerHTML = buildInsight(radar, fundeio);
@@ -971,8 +822,6 @@
         if (!rankingData) { loadRanking(); initRankingButtons(); }
       } catch (err) {
         document.getElementById('updatedAt').textContent = 'ERRO AO CARREGAR DADOS';
-        document.getElementById('statsBarBody').innerHTML =
-          '<div class="stats-bar-row"><span class="porto-label" style="color:var(--alert)">Erro ao carregar dados.</span></div>';
         document.getElementById('fundeioPortos').innerHTML =
           '<div class="empty">Não foi possível carregar os dados agora.</div>';
         document.getElementById('highlightList').innerHTML =
