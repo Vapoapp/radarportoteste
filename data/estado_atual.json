@@ -130,14 +130,14 @@
     "navio": "XIN CHONG QING",
     "navio_normalizado": "XIN CHONG QING",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-09T21:00:00.000Z",
-    "ultimo_hash_evento": "d0e90161615cf18d5b975882aa22006aeee38f8117118afd59be1f08c0c05ef2",
-    "atualizado_em": "2026-04-09T21:24:17.657Z"
+    "ultima_movimentacao_em": "2026-04-10T07:30:00.000Z",
+    "ultimo_hash_evento": "1ee003b67c0bba53fa82736fe30c09482af2019c939672aafc0cb6d754af7a82",
+    "atualizado_em": "2026-04-10T08:46:34.708Z"
   },
   "9268681": {
     "imo": "9268681",
@@ -1049,6 +1049,20 @@
     "ultimo_hash_evento": "9d81edd3ac139879e8604696e5e4df3b58e3921dd30b5e9fbc8b0d6fda287ee9",
     "atualizado_em": "2026-04-07T01:51:53.553Z"
   },
+  "9610717": {
+    "imo": "9610717",
+    "navio": "JAMAICA BAY",
+    "navio_normalizado": "JAMAICA BAY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F03 - Feiticeira",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-10T08:30:00.000Z",
+    "ultimo_hash_evento": "6694342a294298381b14a2cfc0b39cf7a320f6ff0dc745a8ec9113ac3346cb65",
+    "atualizado_em": "2026-04-10T08:46:34.708Z"
+  },
   "9612064": {
     "imo": "9612064",
     "navio": "SAMJOHN DREAM",
@@ -1460,14 +1474,14 @@
     "navio": "STARNAV AQUARIUS (REB)",
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-09T19:00:00.000Z",
-    "ultimo_hash_evento": "f8bc50f499352f8eee7c11919690ac79bf25b2d2ac14147b8c9c07b76f952a6f",
-    "atualizado_em": "2026-04-09T19:39:05.740Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-10T08:00:00.000Z",
+    "ultimo_hash_evento": "33ea9723c90aeca436dcc1197e5a1e63f48e92311e2a41dea248484204302181",
+    "atualizado_em": "2026-04-10T08:46:34.708Z"
   },
   "9698317": {
     "imo": "9698317",
@@ -1614,14 +1628,14 @@
     "navio": "STARNAV PHOENIX",
     "navio_normalizado": "STARNAV PHOENIX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-09T20:00:00.000Z",
-    "ultimo_hash_evento": "59452bcfb4b5674c812f006199c561a2f7b65232cb18d33f9c99791cfceba301",
-    "atualizado_em": "2026-04-09T20:30:53.714Z"
+    "ultima_movimentacao_em": "2026-04-10T08:00:00.000Z",
+    "ultimo_hash_evento": "1354495b9c41c42030bb1a63148e5b04eff838f690f4329e304d821a43b6e271",
+    "atualizado_em": "2026-04-10T08:46:34.708Z"
   },
   "9720512": {
     "imo": "9720512",
@@ -1685,13 +1699,13 @@
     "navio_normalizado": "SEACOR DEMERARA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-10T07:00:00.000Z",
-    "ultimo_hash_evento": "1d3d703fcff272dd014887cc841646a76b200e7a96054cd76e27eb52cb5af381",
-    "atualizado_em": "2026-04-10T07:10:53.971Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-10T08:30:00.000Z",
+    "ultimo_hash_evento": "124645f6661c49ee59be58cfebc5ace7cfb03061a1b1fa87af55edd21ec25c94",
+    "atualizado_em": "2026-04-10T08:46:34.708Z"
   },
   "9758428": {
     "imo": "9758428",
