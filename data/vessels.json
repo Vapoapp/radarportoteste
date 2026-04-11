@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-11T08:04:32.656Z",
+  "updatedAt": "2026-04-11T09:50:34.078Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 33
+      "count": 34
     },
     "niteroi": {
       "ok": true,
@@ -72,6 +72,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 02:30",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 02:30",
       "imo": "9788459",
       "navio": "MR ALDO",
       "tipo": "MUDANÇA",
@@ -132,16 +142,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 07:00",
-      "imo": "9973315",
-      "navio": "BOCHEM BRISBANE",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "11/04/2026 07:00",
       "imo": "3813890457",
       "navio": "COSTA NOVA",
       "tipo": "SAÍDA",
@@ -151,13 +151,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "11/04/2026 07:30",
-      "imo": "9623635",
-      "navio": "CARMEN KNUTSEN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "inicio": "11/04/2026 07:00",
+      "imo": "9973315",
+      "navio": "BOCHEM BRISBANE",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -168,6 +168,16 @@
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 08:00",
+      "imo": "9403786",
+      "navio": "COSTA DO FUTURO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "TPBK - BRASKEM",
+      "para": "Fundeio - WPT 81 - 2F08",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -232,22 +242,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 13:00",
-      "imo": "9605279",
-      "navio": "MSC AMALFI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "11/04/2026 13:00",
       "imo": "9427639",
       "navio": "COPPER SPIRIT",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F01S - Visita Sul",
       "para": "-",
       "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 13:00",
+      "imo": "9605279",
+      "navio": "MSC AMALFI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
