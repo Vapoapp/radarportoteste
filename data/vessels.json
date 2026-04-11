@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-04-11T13:06:33.145Z",
+  "updatedAt": "2026-04-11T15:18:49.169Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 37
+      "count": 41
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 4
     },
     "itaguai": {
       "ok": true,
-      "count": 6
+      "count": 4
     },
     "angra": {
       "ok": true,
@@ -202,12 +202,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 09:00",
-      "imo": "9292773",
-      "navio": "ALESSANDRO VOLTA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPIC - ILHA COMPRIDA",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,12 +222,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 09:00",
-      "imo": "9477402",
-      "navio": "CBO ANITA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "imo": "9292773",
+      "navio": "ALESSANDRO VOLTA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIC - ILHA COMPRIDA",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -301,6 +301,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 13:00",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 14:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 15:00",
       "imo": "9687356",
       "navio": "NORMAND NAVIGATOR",
@@ -308,6 +328,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 15:00",
+      "imo": "9350020",
+      "navio": "APL NEW JERSEY",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -322,12 +352,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 15:00",
-      "imo": "9350020",
-      "navio": "APL NEW JERSEY",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -390,6 +420,16 @@
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 11:30",
+      "imo": "9659579",
+      "navio": "BARU MUCURA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "11/04/2026 00:30",
       "imo": "9514092",
@@ -408,6 +448,26 @@
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "11/04/2026 12:00",
+      "imo": "4030219411",
+      "navio": "OCEAN DREAM",
+      "tipo": "SAÍDA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "11/04/2026 18:00",
+      "imo": "9085211",
+      "navio": "OCEANIC CHAMPION",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
       "porto": "Itaguaí",
@@ -448,26 +508,6 @@
       "de": "-",
       "para": "Fundeio - 5FA1 - Área de Fundeio A1",
       "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "11/04/2026 16:00",
-      "imo": "9782209",
-      "navio": "UNITY SAKURA",
-      "tipo": "SAÍDA",
-      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "para": "-",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "11/04/2026 19:00",
-      "imo": "9363132",
-      "navio": "IOLE R",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     }
   ]
 }
