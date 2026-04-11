@@ -410,14 +410,14 @@
     "navio": "LOG-IN PANTANAL (REB)",
     "navio_normalizado": "LOG-IN PANTANAL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
     "agente_atual": "MSC MEDITERRANEAN",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-10T12:00:00.000Z",
-    "ultimo_hash_evento": "6a37a381f0baad7dedded8c07845bd143d5eabf6a5729be0be84135785e97c87",
-    "atualizado_em": "2026-04-10T12:32:09.658Z"
+    "ultima_movimentacao_em": "2026-04-11T04:00:00.000Z",
+    "ultimo_hash_evento": "79d4aa29c82fa5edc01a87ddf896c288749103d8f45ec34dfe9b255ef0c24188",
+    "atualizado_em": "2026-04-11T05:16:06.091Z"
   },
   "9355252": {
     "imo": "9355252",
@@ -1124,14 +1124,14 @@
     "navio": "CBO COPACABANA",
     "navio_normalizado": "CBO COPACABANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-10T12:00:00.000Z",
-    "ultimo_hash_evento": "bae1f10cf4f4661d405860c973d578fd9b5cad65f50a7353932d6b20abdc6834",
-    "atualizado_em": "2026-04-10T12:32:09.658Z"
+    "ultima_movimentacao_em": "2026-04-11T04:30:00.000Z",
+    "ultimo_hash_evento": "394a8f3ba30a6397896fdbafba3f4e53b7813b30cbd4afb4efca2c20dcd09ef6",
+    "atualizado_em": "2026-04-11T05:16:06.091Z"
   },
   "9597381": {
     "imo": "9597381",
@@ -1474,14 +1474,14 @@
     "navio": "BARU MUCURA",
     "navio_normalizado": "BARU MUCURA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-09T16:00:00.000Z",
-    "ultimo_hash_evento": "51fba33c8a0d39f1b1db86c265c6a23cbad0d9afb666407cbee4a59ce9c08084",
-    "atualizado_em": "2026-04-09T17:18:59.192Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-11T05:00:00.000Z",
+    "ultimo_hash_evento": "d20ff8bc3f2d0fef67797414797788f8b84b92a35104bd58ec187acb1eb7d36c",
+    "atualizado_em": "2026-04-11T05:16:06.091Z"
   },
   "9664299": {
     "imo": "9664299",
@@ -2140,6 +2140,20 @@
     "ultima_movimentacao_em": "2026-04-08T23:00:00.000Z",
     "ultimo_hash_evento": "7e39e69d8c777cd101a7e4fa70f3db5cc5e559712853f3b076ef906e97a33ff1",
     "atualizado_em": "2026-04-08T23:49:14.143Z"
+  },
+  "9806512": {
+    "imo": "9806512",
+    "navio": "STARNAV DELPHINUS",
+    "navio_normalizado": "STARNAV DELPHINUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-11T05:00:00.000Z",
+    "ultimo_hash_evento": "9b33d81a268cbc966e1b3b10b5e26200db72ec872ab1e64410f61f606865ac35",
+    "atualizado_em": "2026-04-11T05:16:06.091Z"
   },
   "9843338": {
     "imo": "9843338",
