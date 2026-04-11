@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-10T23:47:12.548Z",
+  "updatedAt": "2026-04-11T01:01:46.765Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 63
+      "count": 79
     },
     "niteroi": {
       "ok": true,
@@ -202,22 +202,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 07:00",
-      "imo": "9440679",
-      "navio": "PETREL",
-      "tipo": "SAÍDA",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "-",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 07:00",
       "imo": "9545857",
       "navio": "COXON TIDE (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBL - BRICLOG",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 07:00",
+      "imo": "9349370",
+      "navio": "NORMAND COMMANDER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 07:00",
+      "imo": "9440679",
+      "navio": "PETREL",
+      "tipo": "SAÍDA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,6 +262,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 09:00",
+      "imo": "9351799",
+      "navio": "LOG-IN PANTANAL (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 09:00",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 09:00",
       "imo": "9492050",
       "navio": "MADRE DE DEUS",
       "tipo": "MUDANÇA",
@@ -271,23 +301,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 09:00",
-      "imo": "9351799",
-      "navio": "LOG-IN PANTANAL (REB)",
+      "inicio": "10/04/2026 11:00",
+      "imo": "9708265",
+      "navio": "STELLAR ALAZANI",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "MSC MEDITERRANEAN"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 09:00",
-      "imo": "9477402",
-      "navio": "CBO ANITA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "para": "Fundeio - 2F01S - Visita Sul",
+      "agente": "GEM SHIPPING LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,16 +331,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 11:00",
-      "imo": "9708265",
-      "navio": "STELLAR ALAZANI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01S - Visita Sul",
-      "agente": "GEM SHIPPING LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 11:30",
       "imo": "1025124",
       "navio": "WINDEA CURIE",
@@ -328,16 +338,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 12:00",
-      "imo": "9431305",
-      "navio": "MAERSK KIERA",
-      "tipo": "SAÍDA",
-      "de": "TPP2 - PETROBRAS PP2",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -352,12 +352,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 12:00",
+      "imo": "9431305",
+      "navio": "MAERSK KIERA",
+      "tipo": "SAÍDA",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 12:00",
       "imo": "9710945",
       "navio": "SEACOR NILE (REB)",
       "tipo": "MUDANÇA",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 13:00",
+      "imo": "9349370",
+      "navio": "NORMAND COMMANDER (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2NTO - Terminal de Óleo",
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -392,16 +412,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 15:00",
-      "imo": "9350020",
-      "navio": "APL NEW JERSEY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 15:00",
       "imo": "9545857",
       "navio": "COXON TIDE (REB)",
       "tipo": "MUDANÇA",
@@ -411,13 +421,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 16:00",
-      "imo": "9627629",
-      "navio": "CBO ARPOADOR",
+      "inicio": "10/04/2026 15:00",
+      "imo": "9350020",
+      "navio": "APL NEW JERSEY",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -438,6 +448,16 @@
       "de": "2PAL - Terminal Petrobras AL",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 16:00",
+      "imo": "9627629",
+      "navio": "CBO ARPOADOR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -472,22 +492,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 19:00",
-      "imo": "9339131",
-      "navio": "SKANDI BOTAFOGO",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/04/2026 19:00",
       "imo": "9476886",
       "navio": "REEDBUCK (REB)",
       "tipo": "SAÍDA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 19:00",
+      "imo": "9339131",
+      "navio": "SKANDI BOTAFOGO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -541,6 +561,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 22:00",
+      "imo": "9349370",
+      "navio": "NORMAND COMMANDER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2NTO - Terminal de Óleo",
+      "para": "-",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/04/2026 22:00",
+      "imo": "9476886",
+      "navio": "REEDBUCK (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/04/2026 23:00",
       "imo": "9506394",
       "navio": "LOG-IN DISCOVERY (REB S/L)",
@@ -548,6 +588,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 01:00",
+      "imo": "9351799",
+      "navio": "LOG-IN PANTANAL (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN"
     },
     {
       "porto": "Rio de Janeiro",
@@ -571,6 +621,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 06:30",
+      "imo": "9336878",
+      "navio": "ROSCO POPLAR",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01S - Visita Sul",
+      "para": "-",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 07:00",
+      "imo": "3813890457",
+      "navio": "COSTA NOVA",
+      "tipo": "SAÍDA",
+      "de": "ESCA - ESTALEIRO CASSINU",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 07:00",
       "imo": "9973315",
       "navio": "BOCHEM BRISBANE",
@@ -591,6 +661,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 09:00",
+      "imo": "9351799",
+      "navio": "LOG-IN PANTANAL (REB)",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 09:00",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 10:00",
+      "imo": "3813896200",
+      "navio": "TS 9",
+      "tipo": "MUDANÇA",
+      "de": "BOIA TSHP - Boia Tranship",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 11:00",
       "imo": "9956903",
       "navio": "SPARROWHAWK",
@@ -598,6 +698,16 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 13:00",
+      "imo": "3810289680",
+      "navio": "BS-8",
+      "tipo": "MUDANÇA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "2N17 - Armazém 17",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -611,6 +721,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 13:00",
+      "imo": "9605279",
+      "navio": "MSC AMALFI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 15:00",
+      "imo": "8637926",
+      "navio": "RIOPORT II",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "2N16 - Armazém 16",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 15:00",
+      "imo": "9350020",
+      "navio": "APL NEW JERSEY",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 15:00",
       "imo": "9687356",
       "navio": "NORMAND NAVIGATOR",
@@ -621,6 +761,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 17:00",
+      "imo": "3813896200",
+      "navio": "TS 9",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "BOIA TSHP - Boia Tranship",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "11/04/2026 19:00",
       "imo": "9143556",
       "navio": "DUSSELDORF EXPRESS",
@@ -628,6 +778,16 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/04/2026 20:00",
+      "imo": "9453896",
+      "navio": "ABDIAS NASCIMENTO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F10 - PREFERENCIAL GNL",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
