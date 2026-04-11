@@ -662,14 +662,14 @@
     "navio": "COPPER SPIRIT",
     "navio_normalizado": "COPPER SPIRIT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F01N - Visita Norte",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01S - Visita Sul",
+    "destino_atual": "-",
     "agente_atual": "ISS MARINE SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-10T15:00:00.000Z",
-    "ultimo_hash_evento": "5d7580262b511e77bd897cb4806302578ccb3b21b215afcf31da6c12e9e497ec",
-    "atualizado_em": "2026-04-10T15:39:54.297Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-11T16:00:00.000Z",
+    "ultimo_hash_evento": "652773c79fa58561ac25e3eb31a64799501353c017c43fde8a862e6f5811a4ae",
+    "atualizado_em": "2026-04-11T16:19:50.626Z"
   },
   "9431305": {
     "imo": "9431305",
@@ -1203,6 +1203,20 @@
     "ultimo_hash_evento": "9d81edd3ac139879e8604696e5e4df3b58e3921dd30b5e9fbc8b0d6fda287ee9",
     "atualizado_em": "2026-04-07T01:51:53.553Z"
   },
+  "9605279": {
+    "imo": "9605279",
+    "navio": "MSC AMALFI",
+    "navio_normalizado": "MSC AMALFI",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-11T16:00:00.000Z",
+    "ultimo_hash_evento": "8af419525e436a69407c870140334cd25b4061d2e7ce4b0e6c638237af323b6f",
+    "atualizado_em": "2026-04-11T16:19:50.626Z"
+  },
   "9610717": {
     "imo": "9610717",
     "navio": "JAMAICA BAY",
@@ -1489,13 +1503,13 @@
     "navio_normalizado": "BARU MUCURA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-11T05:00:00.000Z",
-    "ultimo_hash_evento": "d20ff8bc3f2d0fef67797414797788f8b84b92a35104bd58ec187acb1eb7d36c",
-    "atualizado_em": "2026-04-11T05:16:06.091Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-11T14:00:00.000Z",
+    "ultimo_hash_evento": "225c05c2c66b20d6c5ba754655a44268359640f5d5e180f1775cd1a7dfefcd4d",
+    "atualizado_em": "2026-04-11T16:19:50.626Z"
   },
   "9664299": {
     "imo": "9664299",
