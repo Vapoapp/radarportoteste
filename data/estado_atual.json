@@ -312,14 +312,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-09T15:00:00.000Z",
-    "ultimo_hash_evento": "b163a88946d5940edb7082d3ee8e442285904e48e6560c3c6e39441e536343de",
-    "atualizado_em": "2026-04-09T16:04:24.267Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-11T18:00:00.000Z",
+    "ultimo_hash_evento": "3959fb650397305749e66facf63abda1a50db7c142c0b07d0d8e8cb9f894500c",
+    "atualizado_em": "2026-04-11T18:01:29.797Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -410,14 +410,14 @@
     "navio": "APL NEW JERSEY",
     "navio_normalizado": "APL NEW JERSEY",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-10T18:00:00.000Z",
-    "ultimo_hash_evento": "815acb05739e467421568fce3df96a6aac1404ac164243d9e60d754a53809052",
-    "atualizado_em": "2026-04-10T18:09:18.073Z"
+    "ultima_movimentacao_em": "2026-04-11T18:00:00.000Z",
+    "ultimo_hash_evento": "54e02d652083d8d900d393df19cd68897ad020167ff7f0609bf58fd6c5eeda44",
+    "atualizado_em": "2026-04-11T18:01:29.797Z"
   },
   "9351799": {
     "imo": "9351799",
@@ -1287,6 +1287,20 @@
     "ultimo_hash_evento": "2aacc44feebc57f72656c18537b3898396f6a76d79bb75b394bac83cc591fea8",
     "atualizado_em": "2026-04-10T11:36:26.088Z"
   },
+  "9624263": {
+    "imo": "9624263",
+    "navio": "BULK TIRRENO",
+    "navio_normalizado": "BULK TIRRENO",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FA1 - Área de Fundeio A1",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-11T18:00:00.000Z",
+    "ultimo_hash_evento": "fe97ecfd8164ff3f536887a6539511e368c06326b96de07fa27b36e06a12850a",
+    "atualizado_em": "2026-04-11T18:01:29.797Z"
+  },
   "9624299": {
     "imo": "9624299",
     "navio": "MAERSK KARUN",
@@ -1664,6 +1678,20 @@
     "ultima_movimentacao_em": "2026-04-10T21:15:00.000Z",
     "ultimo_hash_evento": "01689a9f5391110b5b8aa6184aae1cfd3320e4de23c47a15d98461acb69df7a4",
     "atualizado_em": "2026-04-10T21:51:35.669Z"
+  },
+  "9687356": {
+    "imo": "9687356",
+    "navio": "NORMAND NAVIGATOR",
+    "navio_normalizado": "NORMAND NAVIGATOR",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "SOLSTAD SHIPPING LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-11T18:00:00.000Z",
+    "ultimo_hash_evento": "4ab8475c46eb1d9a89a8800e6e6840d976e80faa29c6bc807aed03de7ce29ed5",
+    "atualizado_em": "2026-04-11T18:01:29.797Z"
   },
   "9689691": {
     "imo": "9689691",
