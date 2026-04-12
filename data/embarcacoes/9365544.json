@@ -1,29 +1,36 @@
 {
   "imo": "9365544",
   "navio": "NAVEGANTES PRIDE",
-  "gerado_em": "2026-04-12T11:09:18.010Z",
+  "gerado_em": "2026-04-12T13:41:04.196Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-10T19:00:00.000Z"
+    "ultima_movimentacao": "2026-04-12T12:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 1,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-09T15:00:00.000Z",
     "ultima_saida": "2026-04-07T05:00:00.000Z",
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": 23
+    "tempo_medio_fundeio_horas": 32.3
   },
   "historico_recente": [
+    {
+      "data": "2026-04-12T12:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-04-10T19:00:00.000Z",
       "tipo": "MUDANÇA",
