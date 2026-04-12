@@ -592,14 +592,14 @@
     "navio": "COSTA DO FUTURO (REB)",
     "navio_normalizado": "COSTA DO FUTURO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPBK - BRASKEM",
-    "destino_atual": "Fundeio - WPT 81 - 2F08",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 81 - 2F08",
+    "destino_atual": "-",
     "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-11T11:00:00.000Z",
-    "ultimo_hash_evento": "8be165dfd74ae71b8e91503caf76598a0f6d62af508df25a346bd1ec379101be",
-    "atualizado_em": "2026-04-11T11:35:59.137Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-12T05:00:00.000Z",
+    "ultimo_hash_evento": "94905aaa5fd93455c07440b167f61241a79531dbd621c96d08c215fdf6a442ab",
+    "atualizado_em": "2026-04-12T05:36:41.232Z"
   },
   "9407160": {
     "imo": "9407160",
@@ -970,14 +970,14 @@
     "navio": "CAMPOS CONTENDER",
     "navio_normalizado": "CAMPOS CONTENDER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-09T16:00:00.000Z",
-    "ultimo_hash_evento": "d3c3b206447d297c18663edec3fcfa3c2fed5b4e640350abf77442e8053b7221",
-    "atualizado_em": "2026-04-09T16:04:24.267Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-12T05:30:00.000Z",
+    "ultimo_hash_evento": "a0279acd01d8ac30911d67d1c359175edfd7cbde160c849ecfba75f20aaa9006",
+    "atualizado_em": "2026-04-12T05:36:41.232Z"
   },
   "9497139": {
     "imo": "9497139",
@@ -1390,14 +1390,14 @@
     "navio": "KUDU (REB)",
     "navio_normalizado": "KUDU",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-10T14:00:00.000Z",
-    "ultimo_hash_evento": "1cea2e0e824e7407650c267b55cf329533c3603c3f3ace9c418753c492cdd139",
-    "atualizado_em": "2026-04-10T14:52:27.130Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-12T05:00:00.000Z",
+    "ultimo_hash_evento": "66379cf1b892e4291f6e66f1fcf79fc15f131a4bcaf23209db54b1c703883345",
+    "atualizado_em": "2026-04-12T05:36:41.232Z"
   },
   "9627629": {
     "imo": "9627629",
@@ -2266,6 +2266,20 @@
     "ultima_movimentacao_em": "2026-04-08T23:00:00.000Z",
     "ultimo_hash_evento": "7e39e69d8c777cd101a7e4fa70f3db5cc5e559712853f3b076ef906e97a33ff1",
     "atualizado_em": "2026-04-08T23:49:14.143Z"
+  },
+  "9799070": {
+    "imo": "9799070",
+    "navio": "STARNAV SCORPIUS",
+    "navio_normalizado": "STARNAV SCORPIUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-12T04:00:00.000Z",
+    "ultimo_hash_evento": "3d905e389eb86445c68db3d4f9fb97943038cc04b83fea40eb475877385fefe1",
+    "atualizado_em": "2026-04-12T05:36:41.232Z"
   },
   "9806512": {
     "imo": "9806512",
