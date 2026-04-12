@@ -1,29 +1,36 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-04-12T09:01:03.047Z",
+  "gerado_em": "2026-04-12T10:31:20.682Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-11T08:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-12T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 6,
-    "manobras_365d": 6,
+    "manobras_30d": 7,
+    "manobras_180d": 7,
+    "manobras_365d": 7,
     "entradas_30d": 0,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 6,
     "entradas_365d": 0,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": null,
-    "ultima_saida": null,
+    "ultima_saida": "2026-04-12T10:00:00.000Z",
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": 58.3
+    "tempo_medio_fundeio_horas": 42.1
   },
   "historico_recente": [
+    {
+      "data": "2026-04-12T10:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-04-11T08:00:00.000Z",
       "tipo": "MUDANÇA",
