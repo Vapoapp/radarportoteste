@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-13T21:04:59.956Z",
+  "updatedAt": "2026-04-13T21:59:10.107Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 34
+      "count": 40
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -202,22 +202,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/04/2026 13:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/04/2026 13:00",
       "imo": "9477397",
       "navio": "CBO CAROLINA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 13:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -281,6 +281,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 16:00",
+      "imo": "9705005",
+      "navio": "MSC CATERINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "13/04/2026 16:30",
       "imo": "9702883",
       "navio": "CBO WISER (REB)",
@@ -288,6 +298,16 @@
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 17:00",
+      "imo": "9497139",
+      "navio": "SANTOS SUPPLIER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,6 +331,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 17:30",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "13/04/2026 18:00",
       "imo": "9762144",
       "navio": "C SALVADOR",
@@ -331,12 +361,42 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 19:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "MUDANÇA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "13/04/2026 19:30",
       "imo": "9539494",
       "navio": "MERCOSUL GUARUJÁ (CMA CGM LOME) (REB)",
       "tipo": "SAÍDA",
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 20:00",
+      "imo": "9385271",
+      "navio": "HOS TAURUS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 21:30",
+      "imo": "9697002",
+      "navio": "MERCOSUL ITAJAÍ",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
@@ -391,6 +451,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "13/04/2026 15:25",
+      "imo": "9664299",
+      "navio": "BRAM BRASILIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "13/04/2026 16:00",
       "imo": "9668726",
       "navio": "STARNAV PERSEUS",
@@ -398,6 +468,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "13/04/2026 20:00",
+      "imo": "9664299",
+      "navio": "BRAM BRASILIA",
+      "tipo": "SAÍDA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
