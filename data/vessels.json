@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-13T14:21:37.664Z",
+  "updatedAt": "2026-04-13T15:51:40.302Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 27
+      "count": 29
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -222,12 +222,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/04/2026 13:00",
-      "imo": "9385398",
-      "navio": "A.H. CAMOGLI (REB)",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "imo": "9409663",
+      "navio": "POSIDONIA LION (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +258,26 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 15:00",
+      "imo": "9385398",
+      "navio": "A.H. CAMOGLI (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/04/2026 16:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -302,10 +322,30 @@
     {
       "porto": "Niterói",
       "inicio": "13/04/2026 13:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "13/04/2026 13:00",
       "imo": "9668726",
       "navio": "STARNAV PERSEUS",
       "tipo": "ENTRADA",
       "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "13/04/2026 16:00",
+      "imo": "9668726",
+      "navio": "STARNAV PERSEUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
