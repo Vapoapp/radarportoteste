@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-14T08:04:19.946Z",
+  "updatedAt": "2026-04-14T09:45:33.147Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 26
+      "count": 29
     },
     "niteroi": {
       "ok": true,
@@ -112,6 +112,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 06:00",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 06:00",
       "imo": "9956903",
       "navio": "SPARROWHAWK",
       "tipo": "SAÍDA",
@@ -162,6 +172,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 08:00",
+      "imo": "9799070",
+      "navio": "STARNAV SCORPIUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 08:00",
       "imo": "9945837",
       "navio": "COSCO SHIPPING BRAZIL",
       "tipo": "ENTRADA",
@@ -208,6 +228,16 @@
       "de": "ESCM - ESTALEIRO CAMORIM",
       "para": "2N05 - Armazém 6",
       "agente": "SAM OFFSHORE ACU SERVIÇOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 10:30",
+      "imo": "9806483",
+      "navio": "STARNAV LIBRA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
