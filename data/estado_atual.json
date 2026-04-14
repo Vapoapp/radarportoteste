@@ -2076,14 +2076,14 @@
     "navio": "NORMAND NAVIGATOR",
     "navio_normalizado": "NORMAND NAVIGATOR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-11T18:00:00.000Z",
-    "ultimo_hash_evento": "4ab8475c46eb1d9a89a8800e6e6840d976e80faa29c6bc807aed03de7ce29ed5",
-    "atualizado_em": "2026-04-11T18:01:29.797Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-14T11:00:00.000Z",
+    "ultimo_hash_evento": "af66af3096fadc8e26299b2b7eb7a9be66d5752c0ec1716350f54c3e329207fd",
+    "atualizado_em": "2026-04-14T11:46:01.591Z"
   },
   "9689691": {
     "imo": "9689691",
@@ -2665,13 +2665,13 @@
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-12T13:00:00.000Z",
-    "ultimo_hash_evento": "8782cbd3316c0a6b9a035f46b49e2ca5b58408794a0a6ad1a541dbc612aee9d3",
-    "atualizado_em": "2026-04-12T13:41:04.196Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-14T11:00:00.000Z",
+    "ultimo_hash_evento": "cab70a5fbb1d9b24905da6819ef24bbebe16cd498248e9b3508c522b30c8ce3c",
+    "atualizado_em": "2026-04-14T11:46:01.591Z"
   },
   "9806512": {
     "imo": "9806512",
@@ -2868,6 +2868,20 @@
     "ultima_movimentacao_em": "2026-04-09T21:00:00.000Z",
     "ultimo_hash_evento": "4745889e6a2885eb016cb3bd7bc37ba2d1ebd8d623a176b4746e6fd2153901b5",
     "atualizado_em": "2026-04-09T21:24:17.657Z"
+  },
+  "9945837": {
+    "imo": "9945837",
+    "navio": "COSCO SHIPPING BRAZIL",
+    "navio_normalizado": "COSCO SHIPPING BRAZIL",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-14T11:00:00.000Z",
+    "ultimo_hash_evento": "7f488b456ac9d26552b8a94fcf7b9181cc690018ea89ebd1d9804f368368c386",
+    "atualizado_em": "2026-04-14T11:46:01.591Z"
   },
   "9945887": {
     "imo": "9945887",
