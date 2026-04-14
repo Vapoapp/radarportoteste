@@ -1,29 +1,43 @@
 {
   "imo": "9329954",
   "navio": "NORMAND TURMALINA",
-  "gerado_em": "2026-04-14T12:48:41.326Z",
+  "gerado_em": "2026-04-14T14:28:56.698Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-13T23:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-14T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
-    "saidas_30d": 1,
-    "mudancas_30d": 0,
+    "saidas_30d": 2,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-13T23:00:00.000Z",
-    "ultima_saida": "2026-04-08T15:50:00.000Z",
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "ultima_saida": "2026-04-14T14:00:00.000Z",
+    "tempo_medio_estadia_horas": 15,
+    "tempo_medio_fundeio_horas": 13
   },
   "historico_recente": [
+    {
+      "data": "2026-04-14T14:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "-"
+    },
+    {
+      "data": "2026-04-14T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-04-13T23:00:00.000Z",
       "tipo": "ENTRADA",
