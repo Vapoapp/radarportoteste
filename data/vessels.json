@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-14T15:51:20.475Z",
+  "updatedAt": "2026-04-14T16:52:33.770Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 57
+      "count": 62
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 5
     },
     "itaguai": {
       "ok": true,
@@ -142,6 +142,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 06:30",
+      "imo": "9499888",
+      "navio": "RECIFE KNUTSEN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 06:30",
       "imo": "9656199",
       "navio": "SAPURA TOPAZIO",
       "tipo": "ENTRADA",
@@ -151,13 +161,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/04/2026 06:30",
-      "imo": "9499888",
-      "navio": "RECIFE KNUTSEN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "inicio": "14/04/2026 07:30",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -232,22 +242,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 09:00",
-      "imo": "0011444517",
-      "navio": "DONA ISA (EX SANTA BÁRBARA XV)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/04/2026 09:00",
       "imo": "9329954",
       "navio": "NORMAND TURMALINA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO",
       "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 09:00",
+      "imo": "0011444517",
+      "navio": "DONA ISA (EX SANTA BÁRBARA XV)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,6 +282,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 10:00",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 10:00",
       "imo": "9762144",
       "navio": "C SALVADOR",
       "tipo": "MUDANÇA",
@@ -288,26 +308,6 @@
       "de": "-",
       "para": "2R12 - Terminal - MCAR 1",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/04/2026 10:00",
-      "imo": "9644160",
-      "navio": "BRAM BELEM",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/04/2026 10:30",
-      "imo": "9806483",
-      "navio": "STARNAV LIBRA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -328,6 +328,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 10:30",
+      "imo": "9806483",
+      "navio": "STARNAV LIBRA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -372,12 +382,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 13:00",
-      "imo": "9715751",
-      "navio": "STARNAV PHOENIX",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -392,12 +402,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 13:00",
-      "imo": "9497127",
-      "navio": "CAMPOS CONTENDER",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9715751",
+      "navio": "STARNAV PHOENIX",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -421,6 +431,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 14:30",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 15:00",
       "imo": "9529700",
       "navio": "POSIDONIA TIGER (REB)",
@@ -431,13 +451,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/04/2026 15:00",
-      "imo": "9705005",
-      "navio": "MSC CATERINA",
+      "inicio": "14/04/2026 15:30",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
       "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
+      "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 16:00",
+      "imo": "9715751",
+      "navio": "STARNAV PHOENIX",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -452,12 +482,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 16:00",
-      "imo": "9427641",
-      "navio": "TAHOE SPIRIT",
+      "imo": "9705005",
+      "navio": "MSC CATERINA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/04/2026 16:00",
+      "imo": "9423437",
+      "navio": "AKOFS SANTOS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "GAC DO BRASIL LTDA."
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -472,16 +512,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/04/2026 16:00",
-      "imo": "9423437",
-      "navio": "AKOFS SANTOS",
+      "imo": "9427641",
+      "navio": "TAHOE SPIRIT",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/04/2026 17:00",
+      "inicio": "14/04/2026 18:00",
       "imo": "9141297",
       "navio": "MSC ROCHELLE",
       "tipo": "ENTRADA",
@@ -581,6 +621,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/04/2026 21:00",
+      "imo": "9953482",
+      "navio": "CHIOS DF",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01S - Visita Sul",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/04/2026 22:00",
       "imo": "3813896277",
       "navio": "DRATEC XXII",
@@ -618,6 +668,26 @@
       "de": "ESMA - ESTALEIRO MAUÁ",
       "para": "-",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "14/04/2026 22:00",
+      "imo": "9514092",
+      "navio": "BJ BLUE MARLIN",
+      "tipo": "SAÍDA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "15/04/2026 06:00",
+      "imo": "9672636",
+      "navio": "HOS BRASS RING",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",
