@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-15T19:59:01.074Z",
+  "updatedAt": "2026-04-15T20:59:01.060Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 55
+      "count": 57
     },
     "niteroi": {
       "ok": true,
@@ -242,6 +242,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/04/2026 09:00",
+      "imo": "9991202",
+      "navio": "MAERSK FREEPORT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/04/2026 09:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/04/2026 09:00",
       "imo": "9530204",
       "navio": "SANTOS SOLUTION",
       "tipo": "ENTRADA",
@@ -271,26 +291,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/04/2026 09:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/04/2026 09:00",
-      "imo": "9991202",
-      "navio": "MAERSK FREEPORT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "15/04/2026 10:30",
       "imo": "9715737",
       "navio": "STARNAV ANDROMEDA",
@@ -302,22 +302,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/04/2026 10:30",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/04/2026 10:30",
       "imo": "9715567",
       "navio": "CBO OCEANA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/04/2026 10:30",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -368,6 +368,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/04/2026 14:00",
+      "imo": "3813896277",
+      "navio": "DRATEC XXII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -478,6 +488,16 @@
       "de": "-",
       "para": "Fundeio - WPT 82 - 2F08",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/04/2026 20:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
