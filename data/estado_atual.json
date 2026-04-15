@@ -1371,6 +1371,20 @@
     "ultimo_hash_evento": "62460f80069ab3f6454f1d7f8bad1464ccbf44b3bc8a515208dedfa9b174ff52",
     "atualizado_em": "2026-04-07T11:40:38.050Z"
   },
+  "9530204": {
+    "imo": "9530204",
+    "navio": "SANTOS SOLUTION",
+    "navio_normalizado": "SANTOS SOLUTION",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-15T12:00:00.000Z",
+    "ultimo_hash_evento": "4cdb07c983970d4977122be8d77ca9de6c8f9890cc2008830db8fe83ff18ca00",
+    "atualizado_em": "2026-04-15T12:46:21.831Z"
+  },
   "9534432": {
     "imo": "9534432",
     "navio": "INDUSTRIAL MOMENTUM",
@@ -1586,14 +1600,14 @@
     "navio": "SKANDI PARATY",
     "navio_normalizado": "SKANDI PARATY",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-13T11:00:00.000Z",
-    "ultimo_hash_evento": "56df4c771d335cc15c5f50e4755b7bcd772aee5f7e31483811b90ca23c7d9399",
-    "atualizado_em": "2026-04-14T01:08:05.413Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-15T12:00:00.000Z",
+    "ultimo_hash_evento": "5db1177f818fd04c71debb8f02a8632a8728aa91aabfbc3c9a9493ae01780f4f",
+    "atualizado_em": "2026-04-15T12:46:21.831Z"
   },
   "9604902": {
     "imo": "9604902",
@@ -2203,13 +2217,13 @@
     "navio_normalizado": "SPRINGBOK (BAND. GREYLIST PARIS MOU)",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "NIT - ATRACADO NITERÓI",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-15T09:00:00.000Z",
-    "ultimo_hash_evento": "2b8a5bfeaf951e3c669da3525217eb9c7253c47a6cda49403f3b5d5ac5437745",
-    "atualizado_em": "2026-04-15T09:46:49.883Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-15T12:00:00.000Z",
+    "ultimo_hash_evento": "e824951e5fd91d40c96a10998d47b3d47db6c0aa7778509fea241caf45f2d8a7",
+    "atualizado_em": "2026-04-15T12:46:21.831Z"
   },
   "9685396": {
     "imo": "9685396",
@@ -2327,15 +2341,15 @@
     "imo": "9698719",
     "navio": "BRAM BREEZE",
     "navio_normalizado": "BRAM BREEZE",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-12T19:00:00.000Z",
-    "ultimo_hash_evento": "a5dac6f228dff6783870ccb239dee1a891d1071f0a9cd70d413d72cd9eeba08f",
-    "atualizado_em": "2026-04-12T19:13:11.534Z"
+    "ultima_movimentacao_em": "2026-04-15T12:00:00.000Z",
+    "ultimo_hash_evento": "1760b33889add1fc21592dda39adc43a2605c4b134388c9e6694e23010f9d62f",
+    "atualizado_em": "2026-04-15T12:46:21.831Z"
   },
   "9701188": {
     "imo": "9701188",
@@ -3218,6 +3232,20 @@
     "ultima_movimentacao_em": "2026-04-12T21:00:00.000Z",
     "ultimo_hash_evento": "21c6fcc94c93fc8429e18193a9b07488ca2a8d373c57f16021e47c441ee5c2bd",
     "atualizado_em": "2026-04-12T21:01:17.130Z"
+  },
+  "9991202": {
+    "imo": "9991202",
+    "navio": "MAERSK FREEPORT",
+    "navio_normalizado": "MAERSK FREEPORT",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-15T12:00:00.000Z",
+    "ultimo_hash_evento": "199ab59aea374b6c12dd504045602aa7fd2be86bfa154383912c8a92a534fd63",
+    "atualizado_em": "2026-04-15T12:46:21.831Z"
   },
   "2412230048": {
     "imo": "2412230048",
