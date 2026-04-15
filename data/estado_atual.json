@@ -88,14 +88,14 @@
     "navio": "OCEANIC CHAMPION",
     "navio_normalizado": "OCEANIC CHAMPION",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-11T21:00:00.000Z",
-    "ultimo_hash_evento": "7291d5f4ca3be95165c7acca729f9154d811c11d5b16e049677a2844983d1acb",
-    "atualizado_em": "2026-04-11T21:17:50.853Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-15T14:30:00.000Z",
+    "ultimo_hash_evento": "000d8bd67b359f07835e342ee33778a978e83cf2bf12863f9bb876138a9cd717",
+    "atualizado_em": "2026-04-15T15:41:00.244Z"
   },
   "9141297": {
     "imo": "9141297",
@@ -578,14 +578,14 @@
     "navio": "IOLE R",
     "navio_normalizado": "IOLE R",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "destino_atual": "-",
     "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-12T18:30:00.000Z",
-    "ultimo_hash_evento": "9890375436ab118336e08bd759057cf2194d003e184a218f11c45d52306e2ace",
-    "atualizado_em": "2026-04-12T19:13:11.534Z"
+    "ultima_movimentacao_em": "2026-04-15T14:30:00.000Z",
+    "ultimo_hash_evento": "800cece20e2c399c7bf0c0b18abb364abf2005e2b78799cb032836aaf391a270",
+    "atualizado_em": "2026-04-15T15:41:00.244Z"
   },
   "9365544": {
     "imo": "9365544",
@@ -1129,9 +1129,9 @@
     "destino_atual": "-",
     "agente_atual": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-14T22:00:00.000Z",
-    "ultimo_hash_evento": "a7987ea4cba206933801d80ed2d1d33c43546a8cc94297e3e2e1eecc5c48b8c5",
-    "atualizado_em": "2026-04-14T22:04:36.028Z"
+    "ultima_movimentacao_em": "2026-04-15T15:00:00.000Z",
+    "ultimo_hash_evento": "42ba6105294348d69e3a2d6a08c8739dc56423fe8aba5a2dbfb255a833b16023",
+    "atualizado_em": "2026-04-15T15:41:00.244Z"
   },
   "9489895": {
     "imo": "9489895",
@@ -2095,9 +2095,9 @@
     "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-15T10:00:00.000Z",
-    "ultimo_hash_evento": "f5a63f07be957d846869f34c83babbb079d17e50fbbdc50e97d8112df36369cb",
-    "atualizado_em": "2026-04-15T10:48:00.066Z"
+    "ultima_movimentacao_em": "2026-04-15T14:40:00.000Z",
+    "ultimo_hash_evento": "dabccffe86b601ef934d483a763e2367e8d6338df9712e0a99b58ac14496ba66",
+    "atualizado_em": "2026-04-15T15:41:00.244Z"
   },
   "9668738": {
     "imo": "9668738",
@@ -3120,6 +3120,20 @@
     "ultima_movimentacao_em": "2026-04-15T10:00:00.000Z",
     "ultimo_hash_evento": "53812afb34d0ab5f3590db692ccdb18fcc64076c51a593b66d49ff36ddb88a4a",
     "atualizado_em": "2026-04-15T10:48:00.066Z"
+  },
+  "9945849": {
+    "imo": "9945849",
+    "navio": "COSCO SHIPPING ARGENTINA",
+    "navio_normalizado": "COSCO SHIPPING ARGENTINA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-15T15:00:00.000Z",
+    "ultimo_hash_evento": "2b43a71108b2e0e8eab039e6de4b157f04a947f8061308db5d4f5f1b2e803591",
+    "atualizado_em": "2026-04-15T15:41:00.244Z"
   },
   "9945887": {
     "imo": "9945887",
