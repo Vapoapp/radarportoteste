@@ -1516,14 +1516,14 @@
     "navio": "POSIDONIA TIGER (REB)",
     "navio_normalizado": "POSIDONIA TIGER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-16T06:00:00.000Z",
-    "ultimo_hash_evento": "17cc8d2e5b9546440bb2d41c9b9af5c2a6b6e7f867dd54ba2614f6a744e07fd7",
-    "atualizado_em": "2026-04-16T07:15:55.620Z"
+    "ultima_movimentacao_em": "2026-04-16T22:30:00.000Z",
+    "ultimo_hash_evento": "c3de616acf358410d9add7fea34316a4541be3152d49386fd8226683b883ab3d",
+    "atualizado_em": "2026-04-16T23:50:31.539Z"
   },
   "9529891": {
     "imo": "9529891",
@@ -1894,14 +1894,14 @@
     "navio": "MAR LIMPO II",
     "navio_normalizado": "MAR LIMPO II",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-15T09:00:00.000Z",
-    "ultimo_hash_evento": "15d510c64ce35903d42a0fc382b1b79f257da28db6db55e2d37b0ec18297a38a",
-    "atualizado_em": "2026-04-15T09:46:49.883Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-16T22:00:00.000Z",
+    "ultimo_hash_evento": "96060b42defba20407fde4aadfe5da53a25b045f3099231f04c482d417ee4f9c",
+    "atualizado_em": "2026-04-16T23:50:31.539Z"
   },
   "9620982": {
     "imo": "9620982",
@@ -2020,14 +2020,14 @@
     "navio": "CBO IPANEMA",
     "navio_normalizado": "CBO IPANEMA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPBR - BRASCO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-08T17:15:00.000Z",
-    "ultimo_hash_evento": "9dbeb1a30d964015bc62b60c393884be3a68f61d00a023f459deda97f825cbe7",
-    "atualizado_em": "2026-04-08T17:49:58.557Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-16T23:00:00.000Z",
+    "ultimo_hash_evento": "1375eef44376ebb71081e430eaa02b5a2439c88cb1f5f00ea858067f8935eda4",
+    "atualizado_em": "2026-04-16T23:50:31.539Z"
   },
   "9636022": {
     "imo": "9636022",
@@ -2364,6 +2364,20 @@
     "ultima_movimentacao_em": "2026-04-15T13:30:00.000Z",
     "ultimo_hash_evento": "25ae6a8d989c4ad633cd18a2627dec3732c02901ed8e54b35d0c6abfebb0f653",
     "atualizado_em": "2026-04-15T14:18:37.753Z"
+  },
+  "9671450": {
+    "imo": "9671450",
+    "navio": "ATLANTIC DAWN",
+    "navio_normalizado": "ATLANTIC DAWN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "OCEAN WORLD SHIPPING AG. MAR. E OP. PORTUÁRIA LTDA-EPP",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-16T07:00:00.000Z",
+    "ultimo_hash_evento": "db4fcfec412fe038524b74fa9319cd03dd65428ffd941685b08ff7cf158aa57c",
+    "atualizado_em": "2026-04-16T23:50:31.539Z"
   },
   "9672636": {
     "imo": "9672636",
@@ -2748,14 +2762,14 @@
     "navio": "STARNAV TAURUS",
     "navio_normalizado": "STARNAV TAURUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-16T05:30:00.000Z",
-    "ultimo_hash_evento": "5e9a21779205dc7df2e8692b71b386bff47fba311aa05f53ffb3f6fc902a34ae",
-    "atualizado_em": "2026-04-16T05:52:08.892Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-16T23:00:00.000Z",
+    "ultimo_hash_evento": "1b4014a4716d47cf3dc8c9a35d102c86f088fbf37c39934f4cbba7b2c9836f04",
+    "atualizado_em": "2026-04-16T23:50:31.539Z"
   },
   "9715737": {
     "imo": "9715737",

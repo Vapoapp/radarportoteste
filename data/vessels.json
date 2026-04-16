@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-16T22:05:42.030Z",
+  "updatedAt": "2026-04-16T23:50:31.539Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 63
+      "count": 68
     },
     "niteroi": {
       "ok": true,
@@ -111,6 +111,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 04:00",
+      "imo": "9671450",
+      "navio": "ATLANTIC DAWN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "OCEAN WORLD SHIPPING AG. MAR. E OP. PORTUÁRIA LTDA-EPP"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 04:30",
       "imo": "9664299",
       "navio": "BRAM BRASILIA",
@@ -182,22 +192,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 07:30",
-      "imo": "9701140",
-      "navio": "GOODWOOD",
-      "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/04/2026 07:30",
       "imo": "9753923",
       "navio": "SKANDI INVOLVER",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F08 - NW DO TPP1",
       "para": "-",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 07:30",
+      "imo": "9701140",
+      "navio": "GOODWOOD",
+      "tipo": "SAÍDA",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -302,16 +312,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 13:30",
-      "imo": "9569932",
-      "navio": "PHILIPPAKOS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N07 - Pátio 8/9",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/04/2026 13:30",
       "imo": "9271755",
       "navio": "MARLIN FLAMENGO",
       "tipo": "ENTRADA",
@@ -321,23 +321,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/04/2026 14:00",
-      "imo": "9141297",
-      "navio": "MSC ROCHELLE",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "inicio": "16/04/2026 13:30",
+      "imo": "9569932",
+      "navio": "PHILIPPAKOS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 14:00",
-      "imo": "9497139",
-      "navio": "SANTOS SUPPLIER",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9853278",
+      "navio": "NAVIG8 PASSION",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP2 - PETROBRAS PP2",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -352,12 +352,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 14:00",
-      "imo": "9853278",
-      "navio": "NAVIG8 PASSION",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP2 - PETROBRAS PP2",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "imo": "9497139",
+      "navio": "SANTOS SUPPLIER",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 14:00",
+      "imo": "9141297",
+      "navio": "MSC ROCHELLE",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -382,16 +392,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 16:00",
-      "imo": "9644160",
-      "navio": "BRAM BELEM",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/04/2026 16:00",
       "imo": "9181467",
       "navio": "ARTEMIS ANGLER",
       "tipo": "SAÍDA",
@@ -411,13 +411,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/04/2026 16:30",
-      "imo": "9283435",
-      "navio": "MARLIN COPACABANA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "inicio": "16/04/2026 16:00",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -428,6 +428,16 @@
       "de": "-",
       "para": "Fundeio - WPT 64 - 2F6A",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 16:30",
+      "imo": "9283435",
+      "navio": "MARLIN COPACABANA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -482,12 +492,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 19:00",
+      "imo": "9618757",
+      "navio": "MAR LIMPO II",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 19:00",
       "imo": "9636034",
       "navio": "ORYX (REB)",
       "tipo": "SAÍDA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 19:30",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -502,12 +532,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 20:00",
-      "imo": "9762742",
-      "navio": "POSIDONIA LEOPARD (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -518,6 +548,26 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 21:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 23:00",
+      "imo": "9334179",
+      "navio": "CAPTAIN NICHOLAS Z",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "PATRIA NAVAL OPERACOES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -552,22 +602,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/04/2026 07:00",
-      "imo": "9692791",
-      "navio": "WILDEBEEST (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBL - BRICLOG",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/04/2026 07:00",
       "imo": "9704972",
       "navio": "MSC ELODIE",
       "tipo": "SAÍDA",
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/04/2026 07:00",
+      "imo": "9692791",
+      "navio": "WILDEBEEST (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
