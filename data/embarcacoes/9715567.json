@@ -1,29 +1,36 @@
 {
   "imo": "9715567",
   "navio": "CBO OCEANA",
-  "gerado_em": "2026-04-16T03:45:42.686Z",
+  "gerado_em": "2026-04-16T05:52:08.892Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-16T00:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-16T04:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 9,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 6,
     "entradas_365d": 1,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-10T03:00:00.000Z",
-    "ultima_saida": "2026-04-05T20:00:00.000Z",
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-04-16T04:00:00.000Z",
+    "tempo_medio_estadia_horas": 145,
     "tempo_medio_fundeio_horas": 42
   },
   "historico_recente": [
+    {
+      "data": "2026-04-16T04:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "-"
+    },
     {
       "data": "2026-04-16T00:00:00.000Z",
       "tipo": "MUDANÇA",
