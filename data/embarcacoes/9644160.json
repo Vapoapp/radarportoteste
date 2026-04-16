@@ -1,21 +1,21 @@
 {
   "imo": "9644160",
   "navio": "BRAM BELEM",
-  "gerado_em": "2026-04-16T18:47:32.214Z",
+  "gerado_em": "2026-04-16T19:50:51.322Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-15T05:00:00.000Z"
+    "local": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-16T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-15T05:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 22
   },
   "historico_recente": [
+    {
+      "data": "2026-04-16T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-04-15T05:00:00.000Z",
       "tipo": "ENTRADA",
