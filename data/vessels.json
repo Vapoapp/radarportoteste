@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-16T07:15:55.620Z",
+  "updatedAt": "2026-04-16T08:58:03.439Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 31
+      "count": 33
     },
     "niteroi": {
       "ok": true,
@@ -92,6 +92,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 03:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 03:00",
       "imo": "9529700",
       "navio": "POSIDONIA TIGER (REB)",
       "tipo": "MUDANÇA",
@@ -108,6 +118,16 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 05:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -151,6 +171,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 07:30",
+      "imo": "9701140",
+      "navio": "GOODWOOD",
+      "tipo": "SAÍDA",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 08:00",
       "imo": "9902249",
       "navio": "EAGLE COLOMBO",
@@ -178,16 +208,6 @@
       "de": "TPP1 - PETROBRAS PP1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/04/2026 09:00",
-      "imo": "9701140",
-      "navio": "GOODWOOD",
-      "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -232,22 +252,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/04/2026 13:30",
-      "imo": "9569932",
-      "navio": "PHILIPPAKOS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N07 - Pátio 8/9",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/04/2026 13:30",
       "imo": "9271755",
       "navio": "MARLIN FLAMENGO",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/04/2026 13:30",
+      "imo": "9569932",
+      "navio": "PHILIPPAKOS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
