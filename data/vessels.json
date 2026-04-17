@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-17T04:21:52.423Z",
+  "updatedAt": "2026-04-17T06:16:54.375Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 21
+      "count": 25
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 8
+      "count": 7
     },
     "angra": {
       "ok": true,
@@ -31,6 +31,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "17/04/2026 01:10",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "17/04/2026 02:00",
       "imo": "9578892",
       "navio": "CBO COPACABANA",
@@ -47,6 +57,26 @@
       "tipo": "SAÍDA",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/04/2026 03:00",
+      "imo": "9448528",
+      "navio": "CBO SUPPORTER (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/04/2026 03:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
@@ -111,23 +141,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "17/04/2026 07:00",
-      "imo": "9858618",
-      "navio": "GLAD YOUNG",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/04/2026 07:00",
-      "imo": "9788459",
-      "navio": "MR ALDO",
+      "inicio": "17/04/2026 06:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -148,6 +168,26 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/04/2026 07:00",
+      "imo": "9788459",
+      "navio": "MR ALDO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/04/2026 07:00",
+      "imo": "9858618",
+      "navio": "GLAD YOUNG",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -251,17 +291,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "17/04/2026 02:30",
-      "imo": "9852676",
-      "navio": "AMIS QUEEN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "101 - TECAR - CSN MINERAÇÃO S.A.",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "17/04/2026 05:00",
+      "inicio": "17/04/2026 06:00",
       "imo": "9701188",
       "navio": "MINERAL HIMAWARI",
       "tipo": "SAÍDA",
@@ -271,7 +301,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "17/04/2026 06:30",
+      "inicio": "17/04/2026 07:30",
       "imo": "9439620",
       "navio": "RICHLAND NEWCASTLE",
       "tipo": "MUDANÇA",
@@ -281,7 +311,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "17/04/2026 08:00",
+      "inicio": "17/04/2026 09:00",
       "imo": "9849241",
       "navio": "China Steel Prestige",
       "tipo": "ENTRADA",
