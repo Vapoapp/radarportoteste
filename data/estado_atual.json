@@ -1265,13 +1265,13 @@
     "navio_normalizado": "CBO CAROLINA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-17T14:00:00.000Z",
-    "ultimo_hash_evento": "779575c4fe428bf33c6b020f497264817624f7f0f4445741699e93a1bdde1e0a",
-    "atualizado_em": "2026-04-17T15:13:01.363Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-17T22:00:00.000Z",
+    "ultimo_hash_evento": "90f897b9450e51d27c896649f983bf7231f83ad8b7fdcad4f9cc2d831f1e199f",
+    "atualizado_em": "2026-04-17T22:28:07.840Z"
   },
   "9477402": {
     "imo": "9477402",
@@ -1796,14 +1796,14 @@
     "navio": "CBO COPACABANA",
     "navio_normalizado": "CBO COPACABANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-17T05:00:00.000Z",
-    "ultimo_hash_evento": "8a2a2f5228f77df9f2e37346ac6110f31cb67ffd91ef2ae546331681682fa176",
-    "atualizado_em": "2026-04-17T06:16:54.375Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-17T22:00:00.000Z",
+    "ultimo_hash_evento": "43c4efb81e5fe84dcae49ffd6d5911fa03086891a0aa5c0d66ea2e633c6b46c4",
+    "atualizado_em": "2026-04-17T22:28:07.840Z"
   },
   "9597381": {
     "imo": "9597381",
@@ -2994,6 +2994,20 @@
     "ultima_movimentacao_em": "2026-04-07T03:00:00.000Z",
     "ultimo_hash_evento": "5b3c912cc2452293fc04484f2c89fb7f24ad6701dc59af8564eb337e447aba88",
     "atualizado_em": "2026-04-07T04:21:36.859Z"
+  },
+  "9735945": {
+    "imo": "9735945",
+    "navio": "ORION",
+    "navio_normalizado": "ORION",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "agente_atual": "GEM SHIPPING LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-17T22:00:00.000Z",
+    "ultimo_hash_evento": "5e44e9f5e0bf7148811b2e6d12ec201ddcfe716d6b128456a3be0140c0f97e78",
+    "atualizado_em": "2026-04-17T22:28:07.840Z"
   },
   "9745378": {
     "imo": "9745378",
