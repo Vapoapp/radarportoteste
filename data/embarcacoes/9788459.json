@@ -1,29 +1,36 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-04-17T09:44:20.097Z",
+  "gerado_em": "2026-04-17T10:42:32.589Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-16T19:40:00.000Z"
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-17T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 9,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 1,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-16T19:40:00.000Z",
     "ultima_saida": "2026-04-12T10:00:00.000Z",
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": 42.1
+    "tempo_medio_fundeio_horas": 32.9
   },
   "historico_recente": [
+    {
+      "data": "2026-04-17T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-04-16T19:40:00.000Z",
       "tipo": "ENTRADA",
