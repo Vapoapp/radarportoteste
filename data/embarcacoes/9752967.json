@@ -1,29 +1,36 @@
 {
   "imo": "9752967",
   "navio": "SEACOR DEMERARA (REB)",
-  "gerado_em": "2026-04-18T19:57:11.292Z",
+  "gerado_em": "2026-04-18T20:38:35.024Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-18T17:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-18T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 11,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 6,
     "entradas_365d": 2,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-04-17T00:00:00.000Z",
-    "ultima_saida": "2026-04-11T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 58,
-    "tempo_medio_fundeio_horas": 15.8
+    "ultima_saida": "2026-04-18T20:00:00.000Z",
+    "tempo_medio_estadia_horas": 51,
+    "tempo_medio_fundeio_horas": 12.6
   },
   "historico_recente": [
+    {
+      "data": "2026-04-18T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-04-18T17:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-06T05:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
