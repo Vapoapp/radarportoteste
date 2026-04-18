@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-18T22:57:58.095Z",
+  "updatedAt": "2026-04-18T23:39:12.323Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 72
+      "count": 73
     },
     "niteroi": {
       "ok": true,
@@ -82,12 +82,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 03:00",
-      "imo": "9668738",
-      "navio": "STARNAV CENTAURUS",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
       "tipo": "MUDANÇA",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -102,12 +102,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 03:00",
-      "imo": "9578892",
-      "navio": "CBO COPACABANA",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -162,6 +162,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 06:00",
+      "imo": "9629457",
+      "navio": "CARDIFF",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 06:00",
       "imo": "9329942",
       "navio": "MESTRE DOS MARES (REB)",
       "tipo": "SAÍDA",
@@ -178,16 +188,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLSTAD SHIPPING LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/04/2026 06:00",
-      "imo": "9629457",
-      "navio": "CARDIFF",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,22 +252,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 08:00",
-      "imo": "9644146",
-      "navio": "ALCATRAZ",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/04/2026 08:00",
       "imo": "9627629",
       "navio": "CBO ARPOADOR",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 08:00",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -502,22 +502,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 16:00",
-      "imo": "9670743",
-      "navio": "CETUS BELUGA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/04/2026 16:00",
       "imo": "9720287",
       "navio": "MSC MAXINE",
       "tipo": "SAÍDA",
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 16:00",
+      "imo": "9670743",
+      "navio": "CETUS BELUGA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Rio de Janeiro",
@@ -632,22 +632,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 22:00",
-      "imo": "9668752",
-      "navio": "STARNAV REGULUS",
-      "tipo": "MUDANÇA",
-      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/04/2026 22:00",
       "imo": "9324837",
       "navio": "NAVIOS VERMILION",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 22:00",
+      "imo": "9668752",
+      "navio": "STARNAV REGULUS",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -737,6 +737,16 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2N04 - Armazém 4",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/04/2026 20:00",
+      "imo": "9636888",
+      "navio": "COSTA DIADEMA",
+      "tipo": "SAÍDA",
+      "de": "2N02 - TERMINAL DE PASSAGEIROS 1",
+      "para": "-",
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
     },
     {
