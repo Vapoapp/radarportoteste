@@ -1348,14 +1348,14 @@
     "navio": "MULTIPLICITY (REB)",
     "navio_normalizado": "MULTIPLICITY",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-14T05:00:00.000Z",
-    "ultimo_hash_evento": "3bdac4a8be752f554627945a3a28bd27f28bfec13a3c1a36bc64d8bc35455ca2",
-    "atualizado_em": "2026-04-14T06:12:48.317Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-18T21:00:00.000Z",
+    "ultimo_hash_evento": "4c340759a8ae56894bd2ab96db46c25ef83658ed6f67b026a955102c3a053b1d",
+    "atualizado_em": "2026-04-18T21:06:33.941Z"
   },
   "9484845": {
     "imo": "9484845",
@@ -2253,6 +2253,20 @@
     "ultimo_hash_evento": "a60d0a247db7da71ee478a582905b8d4f651e3236a081dfa8e9dd7b3cb2fb093",
     "atualizado_em": "2026-04-18T19:22:41.464Z"
   },
+  "9631125": {
+    "imo": "9631125",
+    "navio": "LORI",
+    "navio_normalizado": "LORI",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-18T21:00:00.000Z",
+    "ultimo_hash_evento": "6699179c7d383d3994eea9650a0ac61109dfd8740353e5a35029fa8fe28c2df1",
+    "atualizado_em": "2026-04-18T21:06:33.941Z"
+  },
   "9636022": {
     "imo": "9636022",
     "navio": "SABLE (REB)",
@@ -2587,7 +2601,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-04-18T19:30:00.000Z",
     "ultimo_hash_evento": "795956e59f5a637acf55a496fcbe5cf127717e932da1bdef29f73a07e66a6e6f",
-    "atualizado_em": "2026-04-18T20:38:35.024Z"
+    "atualizado_em": "2026-04-18T21:06:33.941Z"
   },
   "9670341": {
     "imo": "9670341",
