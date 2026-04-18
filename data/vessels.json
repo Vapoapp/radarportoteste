@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-18T18:27:25.572Z",
+  "updatedAt": "2026-04-18T19:22:41.464Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 53
+      "count": 57
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 6
+      "count": 7
     },
     "angra": {
       "ok": true,
@@ -202,12 +202,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 07:00",
-      "imo": "9530199",
-      "navio": "SANTOS SERVICE",
+      "imo": "9858618",
+      "navio": "GLAD YOUNG",
       "tipo": "SAÍDA",
-      "de": "TPBL - BRICLOG",
+      "de": "Fundeio - 2F01 - Visita",
       "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,12 +222,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 07:00",
-      "imo": "9858618",
-      "navio": "GLAD YOUNG",
+      "imo": "9530199",
+      "navio": "SANTOS SERVICE",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01 - Visita",
+      "de": "TPBL - BRICLOG",
       "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 07:30",
+      "imo": "9459759",
+      "navio": "SKANDI SKANSEN",
+      "tipo": "MUDANÇA",
+      "de": "2N05 - Armazém 6",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -362,16 +372,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 13:00",
-      "imo": "9703667",
-      "navio": "BRAM HERO",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/04/2026 13:00",
       "imo": "9687356",
       "navio": "NORMAND NAVIGATOR",
       "tipo": "ENTRADA",
@@ -392,12 +392,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 13:00",
-      "imo": "9644146",
-      "navio": "ALCATRAZ",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -408,6 +408,16 @@
       "de": "Fundeio - 2F10 - PREFERENCIAL GNL",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 13:00",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -452,6 +462,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/04/2026 15:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 15:00",
       "imo": "9657698",
       "navio": "FUGRO AQUARIUS",
       "tipo": "ENTRADA",
@@ -468,6 +488,26 @@
       "de": "2N06 - Armazém 7",
       "para": "-",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 15:30",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/04/2026 16:00",
+      "imo": "9422330",
+      "navio": "NORMAND POSEIDON (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -628,6 +668,16 @@
       "de": "-",
       "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/04/2026 19:00",
+      "imo": "9141297",
+      "navio": "MSC ROCHELLE",
+      "tipo": "SAÍDA",
+      "de": "301 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING DO BRASIL LTDA"
     }
   ]
 }
