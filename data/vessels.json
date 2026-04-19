@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-19T14:00:17.488Z",
+  "updatedAt": "2026-04-19T14:51:19.942Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 39
+      "count": 45
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 5
+      "count": 4
     },
     "angra": {
       "ok": true,
@@ -201,22 +201,22 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/04/2026 07:30",
+      "imo": "9756951",
+      "navio": "BS UBATUBA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/04/2026 08:00",
       "imo": "9626455",
       "navio": "KUDU (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/04/2026 08:30",
-      "imo": "9636022",
-      "navio": "SABLE (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -231,13 +231,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "19/04/2026 09:00",
-      "imo": "9357169",
-      "navio": "ASSO VENTISETTE",
-      "tipo": "SAÍDA",
+      "inicio": "19/04/2026 08:30",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -248,6 +248,16 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/04/2026 09:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -268,6 +278,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/04/2026 11:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -321,6 +341,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/04/2026 13:00",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/04/2026 14:00",
       "imo": "9789726",
       "navio": "MANTA BEYOGLU",
@@ -331,6 +361,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/04/2026 14:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/04/2026 15:00",
+      "imo": "9649835",
+      "navio": "CMA CGM SANTOS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/04/2026 15:00",
       "imo": "9696802",
       "navio": "STARNAV AQUARIUS (REB)",
@@ -338,6 +388,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/04/2026 15:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -458,16 +518,6 @@
       "de": "303 - TECON - SEPETIBA TECON S.A.",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "19/04/2026 19:00",
-      "imo": "9141297",
-      "navio": "MSC ROCHELLE",
-      "tipo": "SAÍDA",
-      "de": "301 - TECON - SEPETIBA TECON S.A.",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING DO BRASIL LTDA"
     }
   ]
 }
