@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-19T09:06:56.706Z",
+  "updatedAt": "2026-04-19T09:58:36.205Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 28
+      "count": 31
     },
     "niteroi": {
       "ok": true,
@@ -262,6 +262,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/04/2026 07:00",
+      "imo": "9403786",
+      "navio": "COSTA DO FUTURO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBK - BRASKEM",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/04/2026 07:00",
       "imo": "9530010",
       "navio": "ROBERT ADAMS",
       "tipo": "MUDANÇA",
@@ -288,6 +298,26 @@
       "de": "TPBL - BRICLOG",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/04/2026 16:00",
+      "imo": "9739305",
+      "navio": "STOLT COBALT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPEX - EXXON SOLUTEC",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/04/2026 17:00",
+      "imo": "9704996",
+      "navio": "MSC JULIE",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -331,22 +361,22 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/04/2026 11:30",
-      "imo": "9527051",
-      "navio": "MAERSK LAMANAI",
-      "tipo": "SAÍDA",
-      "de": "303 - TECON - SEPETIBA TECON S.A.",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "19/04/2026 15:00",
       "imo": "9802255",
       "navio": "THERMAIKOS",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/04/2026 18:00",
+      "imo": "9527051",
+      "navio": "MAERSK LAMANAI",
+      "tipo": "SAÍDA",
+      "de": "303 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
