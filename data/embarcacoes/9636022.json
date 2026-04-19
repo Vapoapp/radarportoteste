@@ -1,21 +1,21 @@
 {
   "imo": "9636022",
   "navio": "SABLE (REB)",
-  "gerado_em": "2026-04-19T11:23:49.311Z",
+  "gerado_em": "2026-04-19T11:55:54.917Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2PAL - Terminal Petrobras AL",
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-15T18:00:00.000Z"
+    "ultima_movimentacao": "2026-04-19T11:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 1,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-15T17:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 1
   },
   "historico_recente": [
+    {
+      "data": "2026-04-19T11:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-04-15T18:00:00.000Z",
       "tipo": "MUDANÇA",
