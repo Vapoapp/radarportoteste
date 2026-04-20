@@ -1,7 +1,7 @@
 {
   "imo": "9334179",
   "navio": "CAPTAIN NICHOLAS Z",
-  "gerado_em": "2026-04-20T21:06:11.105Z",
+  "gerado_em": "2026-04-20T21:59:06.152Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,17 +10,17 @@
     "ultima_movimentacao": "2026-04-20T19:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
-    "entradas_30d": 0,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
+    "entradas_30d": 1,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 0,
+    "entradas_365d": 1,
     "saidas_365d": 1,
-    "ultima_entrada": null,
+    "ultima_entrada": "2026-04-20T10:00:00.000Z",
     "ultima_saida": "2026-04-20T19:30:00.000Z",
-    "tempo_medio_estadia_horas": null,
+    "tempo_medio_estadia_horas": 9.5,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "2P14 - Terminal Petrobrás (Armazém 14)",
       "para": "-"
+    },
+    {
+      "data": "2026-04-20T10:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2P14 - Terminal Petrobrás (Armazém 14)"
     }
   ]
 }
