@@ -788,14 +788,14 @@
     "navio": "NAVEGANTES PRIDE",
     "navio_normalizado": "NAVEGANTES PRIDE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPBL - BRICLOG",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-20T00:00:00.000Z",
-    "ultimo_hash_evento": "d1742455aa6c2e08a1a32a09542e0a9c359e13ef7198a1d0b8bd169f395be1e8",
-    "atualizado_em": "2026-04-20T01:09:09.807Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-20T21:00:00.000Z",
+    "ultimo_hash_evento": "7b20a2771b47668c126239b3b4690b03697ef478ac7d2b92079c7ccc27f0d4b5",
+    "atualizado_em": "2026-04-20T21:06:11.105Z"
   },
   "9365582": {
     "imo": "9365582",
@@ -1201,7 +1201,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-04-20T09:40:00.000Z",
     "ultimo_hash_evento": "dafe2faf1798e5d1ec4532edb9312e24c8229dad83b6acce685132e8bd937654",
-    "atualizado_em": "2026-04-20T20:23:15.670Z"
+    "atualizado_em": "2026-04-20T21:06:11.105Z"
   },
   "9440681": {
     "imo": "9440681",
@@ -3168,14 +3168,14 @@
     "navio": "BRAM HERO",
     "navio_normalizado": "BRAM HERO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-20T09:10:00.000Z",
-    "ultimo_hash_evento": "2d3b7b5f079b7f32d52eca1bd5c6144804f4d1c109d39375daea0055b40446b4",
-    "atualizado_em": "2026-04-20T10:21:08.739Z"
+    "ultima_movimentacao_em": "2026-04-20T21:00:00.000Z",
+    "ultimo_hash_evento": "11c1787ab361b65b827d8cd2160b01bac82414efdaa40457dc8de6524cd1ddb0",
+    "atualizado_em": "2026-04-20T21:06:11.105Z"
   },
   "9704972": {
     "imo": "9704972",
@@ -3358,6 +3358,20 @@
     "ultima_movimentacao_em": "2026-04-09T17:00:00.000Z",
     "ultimo_hash_evento": "f31af770b36857a4e25574aa56bd1840b21b8dc3840c474ff85328ea96141266",
     "atualizado_em": "2026-04-09T17:18:59.192Z"
+  },
+  "9726279": {
+    "imo": "9726279",
+    "navio": "JIM O'BRIEN",
+    "navio_normalizado": "JIM O'BRIEN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-20T20:30:00.000Z",
+    "ultimo_hash_evento": "89b3527de546094a3a452ad1511b0281ad705deada016ec0ba000588226aed49",
+    "atualizado_em": "2026-04-20T21:06:11.105Z"
   },
   "9727352": {
     "imo": "9727352",
