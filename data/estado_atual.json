@@ -1201,7 +1201,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-04-20T09:40:00.000Z",
     "ultimo_hash_evento": "dafe2faf1798e5d1ec4532edb9312e24c8229dad83b6acce685132e8bd937654",
-    "atualizado_em": "2026-04-20T14:44:36.709Z"
+    "atualizado_em": "2026-04-20T15:57:57.913Z"
   },
   "9440681": {
     "imo": "9440681",
@@ -1726,14 +1726,14 @@
     "navio": "POSIDONIA TIGER (REB)",
     "navio_normalizado": "POSIDONIA TIGER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-16T22:30:00.000Z",
-    "ultimo_hash_evento": "c3de616acf358410d9add7fea34316a4541be3152d49386fd8226683b883ab3d",
-    "atualizado_em": "2026-04-16T23:50:31.539Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-20T15:00:00.000Z",
+    "ultimo_hash_evento": "51c9516c632d03728626c713aed9fb0fbbbe84a6f51d2d50bda5c0ab01233e18",
+    "atualizado_em": "2026-04-20T15:57:57.913Z"
   },
   "9529891": {
     "imo": "9529891",
@@ -3546,14 +3546,14 @@
     "navio": "BRAM BUCK",
     "navio_normalizado": "BRAM BUCK",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-15T23:00:00.000Z",
-    "ultimo_hash_evento": "c198971d2f4e438811f5d776fdf07ab74177677d16c2c99d6562d6aa04464ad7",
-    "atualizado_em": "2026-04-15T23:29:27.008Z"
+    "ultima_movimentacao_em": "2026-04-20T15:30:00.000Z",
+    "ultimo_hash_evento": "667676f2f597330658377cce02fc9a745e6d9383c15b8be8c8df346fd924d347",
+    "atualizado_em": "2026-04-20T15:57:57.913Z"
   },
   "9763772": {
     "imo": "9763772",
@@ -3744,12 +3744,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "2N06 - Armazém 7",
+    "destino_atual": "2N08 - Pátio 9",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-04-20T06:00:00.000Z",
-    "ultimo_hash_evento": "ceb857bded2fb264e194773a5df8eef88f1c0afc102667bf50a0c1ba8676b205",
-    "atualizado_em": "2026-04-20T12:54:53.955Z"
+    "ultimo_hash_evento": "c2172ef0fb3a0eee0b922fc394746b8eddeec692a1364e24f3fd4ab2baa752d1",
+    "atualizado_em": "2026-04-20T15:57:57.913Z"
   },
   "9795139": {
     "imo": "9795139",
@@ -4394,6 +4394,34 @@
     "ultima_movimentacao_em": "2026-04-13T12:00:00.000Z",
     "ultimo_hash_evento": "be1165f9b27841dcfa60232ed96262bb3d93eefd02d1a14a270979678af31ab4",
     "atualizado_em": "2026-04-13T12:44:57.268Z"
+  },
+  "2818927463": {
+    "imo": "2818927463",
+    "navio": "BELOV BARRA",
+    "navio_normalizado": "BELOV BARRA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-20T15:00:00.000Z",
+    "ultimo_hash_evento": "4a807fae4654764b9a5bf02f4c1ae83a5d68a05f74a551dadcc15c7e93fa95db",
+    "atualizado_em": "2026-04-20T15:57:57.913Z"
+  },
+  "3813879631": {
+    "imo": "3813879631",
+    "navio": "NEW TROVÃO",
+    "navio_normalizado": "NEW TROVAO",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-20T15:00:00.000Z",
+    "ultimo_hash_evento": "22fe6ef159ac146ba612d7dc31ab958dfb56f80df8c482d6b0747e86849f4c23",
+    "atualizado_em": "2026-04-20T15:57:57.913Z"
   },
   "3813886816": {
     "imo": "3813886816",

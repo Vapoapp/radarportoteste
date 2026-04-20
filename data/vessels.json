@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-20T14:44:36.709Z",
+  "updatedAt": "2026-04-20T15:57:57.913Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 40
+      "count": 41
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 1
     },
     "itaguai": {
       "ok": true,
@@ -76,7 +76,7 @@
       "navio": "ISABELA ISLAND",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2N06 - Armazém 7",
+      "para": "2N08 - Pátio 9",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
@@ -92,21 +92,21 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/04/2026 05:00",
-      "imo": "9642590",
-      "navio": "PINGUIM",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "20/04/2026 05:00",
       "imo": "9644146",
       "navio": "ALCATRAZ",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/04/2026 05:00",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
@@ -182,22 +182,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/04/2026 07:00",
-      "imo": "9403786",
-      "navio": "COSTA DO FUTURO (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBK - BRASKEM",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "20/04/2026 07:00",
       "imo": "9530010",
       "navio": "ROBERT ADAMS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBL - BRICLOG",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/04/2026 07:00",
+      "imo": "9403786",
+      "navio": "COSTA DO FUTURO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBK - BRASKEM",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,12 +312,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/04/2026 15:00",
-      "imo": "9938250",
-      "navio": "CMA CGM BUZIOS",
+      "imo": "9814961",
+      "navio": "SEALOADER 1",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "para": "2N11 - Armazém 13",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
       "porto": "Rio de Janeiro",
@@ -420,6 +420,16 @@
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/04/2026 11:00",
+      "imo": "9739305",
+      "navio": "STOLT COBALT",
+      "tipo": "MUDANÇA",
+      "de": "TPEX - EXXON SOLUTEC",
+      "para": "2NTO - Terminal de Óleo",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "20/04/2026 06:40",
       "imo": "9440679",
@@ -428,16 +438,6 @@
       "de": "-",
       "para": "ESWS - ESTALEIRO",
       "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Niterói",
-      "inicio": "20/04/2026 10:00",
-      "imo": "9578892",
-      "navio": "CBO COPACABANA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
