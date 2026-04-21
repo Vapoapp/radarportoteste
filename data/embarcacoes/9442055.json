@@ -1,29 +1,36 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-04-21T21:27:57.527Z",
+  "gerado_em": "2026-04-21T22:09:06.614Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-04-16T11:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-04-21T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
-    "entradas_30d": 2,
+    "manobras_30d": 10,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
+    "entradas_30d": 3,
     "saidas_30d": 3,
     "mudancas_30d": 4,
-    "entradas_365d": 2,
+    "entradas_365d": 3,
     "saidas_365d": 3,
-    "ultima_entrada": "2026-04-13T19:00:00.000Z",
+    "ultima_entrada": "2026-04-21T22:00:00.000Z",
     "ultima_saida": "2026-04-16T11:00:00.000Z",
     "tempo_medio_estadia_horas": 32.8,
     "tempo_medio_fundeio_horas": 21.3
   },
   "historico_recente": [
+    {
+      "data": "2026-04-21T22:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-04-16T11:00:00.000Z",
       "tipo": "SAÍDA",
