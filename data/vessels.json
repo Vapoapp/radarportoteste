@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-21T14:03:10.727Z",
+  "updatedAt": "2026-04-21T15:22:44.157Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 42
+      "count": 45
     },
     "niteroi": {
       "ok": true,
@@ -212,6 +212,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/04/2026 07:00",
+      "imo": "9283435",
+      "navio": "MARLIN COPACABANA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/04/2026 07:00",
       "imo": "9358826",
       "navio": "SEVEN OCEANS",
       "tipo": "SAÍDA",
@@ -228,16 +238,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBL - BRICLOG",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/04/2026 07:00",
-      "imo": "9283435",
-      "navio": "MARLIN COPACABANA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -321,6 +321,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "21/04/2026 12:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "21/04/2026 13:00",
       "imo": "9687526",
       "navio": "COPIAPO",
@@ -342,6 +352,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/04/2026 13:00",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/04/2026 13:00",
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/04/2026 13:00",
       "imo": "9188130",
       "navio": "BRAM NATAL (REB)",
       "tipo": "MUDANÇA",
@@ -351,13 +381,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/04/2026 13:00",
-      "imo": "9529700",
-      "navio": "POSIDONIA TIGER (REB)",
+      "inicio": "21/04/2026 13:30",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -392,22 +422,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/04/2026 19:00",
-      "imo": "9442055",
-      "navio": "TALHA-MAR",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/04/2026 19:00",
       "imo": "8637926",
       "navio": "RIOPORT II",
       "tipo": "MUDANÇA",
       "de": "2N09 - Armazém 10",
       "para": "2N16 - Armazém 16",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/04/2026 19:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
