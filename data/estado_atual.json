@@ -149,9 +149,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-20T09:00:00.000Z",
-    "ultimo_hash_evento": "71663713e8d40e9d3c7041c74915224f5714dbfc51cb3d24bb2a14eb4171ea77",
-    "atualizado_em": "2026-04-20T19:33:39.248Z"
+    "ultima_movimentacao_em": "2026-04-21T09:00:00.000Z",
+    "ultimo_hash_evento": "dda14ddf1399077408b3a11890df42652b7ea866cd3329e02b4e7cf054e9cfc3",
+    "atualizado_em": "2026-04-21T09:52:16.771Z"
   },
   "9222302": {
     "imo": "9222302",
@@ -236,6 +236,20 @@
     "ultima_movimentacao_em": "2026-04-07T00:00:00.000Z",
     "ultimo_hash_evento": "f6c3203faffee847e6666b81d90f162d3912a71fc2db728f723721bd1c4de5f3",
     "atualizado_em": "2026-04-07T01:51:53.553Z"
+  },
+  "9250983": {
+    "imo": "9250983",
+    "navio": "MSC DAMLA",
+    "navio_normalizado": "MSC DAMLA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-21T09:00:00.000Z",
+    "ultimo_hash_evento": "bc852314610b64fdc8cd705625479e41b4a3a7d5949c6af401473b45eddf811a",
+    "atualizado_em": "2026-04-21T09:52:16.771Z"
   },
   "9253210": {
     "imo": "9253210",
@@ -914,14 +928,28 @@
     "navio": "A.H. GIORGIO P.",
     "navio_normalizado": "A.H. GIORGIO P.",
     "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "FINARGE APOIO MARITIMO LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-21T09:30:00.000Z",
+    "ultimo_hash_evento": "9ebb09d1f87e7d0102b52f384472c3018623fbe10ef52402cae259459e173f29",
+    "atualizado_em": "2026-04-21T09:52:16.771Z"
+  },
+  "9379428": {
+    "imo": "9379428",
+    "navio": "ASSO VENTINOVE (REB)",
+    "navio_normalizado": "ASSO VENTINOVE",
+    "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
     "destino_atual": "Fundeio - 2F6A - LARGO",
-    "agente_atual": "FINARGE APOIO MARITIMO LTDA",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-20T12:30:00.000Z",
-    "ultimo_hash_evento": "5554b4f94ca5b58d0c5b4bd45dc7295c97b49cc0b72763e38cfc5a0cf4ecab7a",
-    "atualizado_em": "2026-04-20T12:54:53.955Z"
+    "ultima_movimentacao_em": "2026-04-21T09:00:00.000Z",
+    "ultimo_hash_evento": "bf331bc9dc4c840e113ef73c1ab950a71cb906ffe202f2da243b2ceb11c43577",
+    "atualizado_em": "2026-04-21T09:52:16.771Z"
   },
   "9385271": {
     "imo": "9385271",
@@ -1810,14 +1838,14 @@
     "navio": "POSIDONIA TIGER (REB)",
     "navio_normalizado": "POSIDONIA TIGER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
     "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-20T15:00:00.000Z",
-    "ultimo_hash_evento": "51c9516c632d03728626c713aed9fb0fbbbe84a6f51d2d50bda5c0ab01233e18",
-    "atualizado_em": "2026-04-20T15:57:57.913Z"
+    "ultima_movimentacao_em": "2026-04-21T09:30:00.000Z",
+    "ultimo_hash_evento": "e70a55550dca29b30d2aef5216f52e48a7ff9d3bf58b63b4e4e2a1812fb7f505",
+    "atualizado_em": "2026-04-21T09:52:16.771Z"
   },
   "9529891": {
     "imo": "9529891",
@@ -1937,13 +1965,13 @@
     "navio_normalizado": "COXON TIDE",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPBL - BRICLOG",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBL - BRICLOG",
     "agente_atual": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-10T18:00:00.000Z",
-    "ultimo_hash_evento": "3f6b2c582f1df5daf873f4dfb18d039e5ad5916dfde2e4a59cbd3cc9d97399bb",
-    "atualizado_em": "2026-04-10T18:09:18.073Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-21T09:00:00.000Z",
+    "ultimo_hash_evento": "c97da1d2d746ecd271cf55422bd5d5a420c584873db9971d0d7bdf8accfd3352",
+    "atualizado_em": "2026-04-21T09:52:16.771Z"
   },
   "9547685": {
     "imo": "9547685",
@@ -2322,6 +2350,20 @@
     "ultima_movimentacao_em": "2026-04-16T22:00:00.000Z",
     "ultimo_hash_evento": "96060b42defba20407fde4aadfe5da53a25b045f3099231f04c482d417ee4f9c",
     "atualizado_em": "2026-04-16T23:50:31.539Z"
+  },
+  "9618769": {
+    "imo": "9618769",
+    "navio": "MAR LIMPO III",
+    "navio_normalizado": "MAR LIMPO III",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-21T09:00:00.000Z",
+    "ultimo_hash_evento": "b861122aa52bb649961d0854ca46aa6f0c939f9eb036660e3767f417526905fe",
+    "atualizado_em": "2026-04-21T09:52:16.771Z"
   },
   "9620982": {
     "imo": "9620982",
@@ -4092,14 +4134,14 @@
     "navio": "NAVIG8 PASSION",
     "navio_normalizado": "NAVIG8 PASSION",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPP2 - PETROBRAS PP2",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "TPP2 - PETROBRAS PP2",
+    "destino_atual": "Fundeio - 2F01S - Visita Sul",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-16T17:00:00.000Z",
-    "ultimo_hash_evento": "0b309e98229781e84cb6a18ea465f3f62694b77d32ef1bda87364c535d8a81f7",
-    "atualizado_em": "2026-04-16T17:39:38.351Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-21T09:30:00.000Z",
+    "ultimo_hash_evento": "ce8a752e5be7be22b217a1814d39099bab0b9d7aaaad05d2021059db77f8f571",
+    "atualizado_em": "2026-04-21T09:52:16.771Z"
   },
   "9858618": {
     "imo": "9858618",
