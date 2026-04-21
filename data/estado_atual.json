@@ -354,14 +354,14 @@
     "navio": "MARLIN COPACABANA",
     "navio_normalizado": "MARLIN COPACABANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-20T21:00:00.000Z",
-    "ultimo_hash_evento": "fe48dd1ed4007f62590baf0900c4bee8dcb9f2e5b17b326e1d2eca577c168893",
-    "atualizado_em": "2026-04-20T21:59:06.152Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-21T10:00:00.000Z",
+    "ultimo_hash_evento": "0d685f59d24c9c5421e3b14a95fac24642eb27234d3dec3b9450bc0a23934484",
+    "atualizado_em": "2026-04-21T14:03:10.727Z"
   },
   "9284324": {
     "imo": "9284324",
@@ -592,14 +592,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-18T09:00:00.000Z",
-    "ultimo_hash_evento": "4f629320867364917cc8b2d44cfa7cb2a2f0d1d434083d175890396004e949f6",
-    "atualizado_em": "2026-04-18T09:55:33.719Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-21T13:30:00.000Z",
+    "ultimo_hash_evento": "be6590844846f8578b6030bb5c6be9f703f9fea235182e868c8ca8ed3347589e",
+    "atualizado_em": "2026-04-21T14:03:10.727Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -1245,6 +1245,20 @@
     "ultimo_hash_evento": "bd99cbdde01d430e7b0f0d45f807402be74cf510a43be5763d65066da959ecae",
     "atualizado_em": "2026-04-10T15:39:54.297Z"
   },
+  "9435052": {
+    "imo": "9435052",
+    "navio": "EASTERN XANTHINA",
+    "navio_normalizado": "EASTERN XANTHINA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-21T13:00:00.000Z",
+    "ultimo_hash_evento": "d9d474373d42bea272a5f5a5840fc9617bc971a69badaed4f4374de7825302eb",
+    "atualizado_em": "2026-04-21T14:03:10.727Z"
+  },
   "9435478": {
     "imo": "9435478",
     "navio": "AKER WAYFARER (REB)",
@@ -1280,12 +1294,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
     "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "2PAL - Terminal Petrobras AL",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-20T23:00:00.000Z",
-    "ultimo_hash_evento": "e008444fe5b924949636705e5a5736e530987dea4917556ead638e4a7201a22f",
-    "atualizado_em": "2026-04-20T23:34:31.913Z"
+    "ultima_movimentacao_em": "2026-04-21T13:00:00.000Z",
+    "ultimo_hash_evento": "2db0ab1d856a77975c6632234f79e5965c4fc57ae3fbea1d7ea3a8c226d2c0a7",
+    "atualizado_em": "2026-04-21T14:03:10.727Z"
   },
   "9440681": {
     "imo": "9440681",
@@ -1577,9 +1591,9 @@
     "destino_atual": "TPP1 - PETROBRAS PP1",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-20T10:30:00.000Z",
-    "ultimo_hash_evento": "e9e542430e58c63454cdeaec20447c7f80f95f96e3c2a8a5985e9b0ef7cac969",
-    "atualizado_em": "2026-04-20T11:48:00.363Z"
+    "ultima_movimentacao_em": "2026-04-21T13:30:00.000Z",
+    "ultimo_hash_evento": "5cd2facaac62e261bde55ad7d2c6be8132705c8bffe5d42c4e29117397ae9ef0",
+    "atualizado_em": "2026-04-21T14:03:10.727Z"
   },
   "9492050": {
     "imo": "9492050",
@@ -2313,15 +2327,15 @@
     "imo": "9616187",
     "navio": "SCOTSMAN TIDE (REB)",
     "navio_normalizado": "SCOTSMAN TIDE",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESMC - MacLaren Ponta da Areia",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBL - BRICLOG",
     "agente_atual": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-18T11:00:00.000Z",
-    "ultimo_hash_evento": "7dbd77268153083ee5789215ac754ebfca8a867d5f7cfe17145fff84aaa40e5a",
-    "atualizado_em": "2026-04-18T11:20:43.867Z"
+    "ultima_movimentacao_em": "2026-04-21T10:00:00.000Z",
+    "ultimo_hash_evento": "f5f91413284a0e56868df7dd18ed36a66706d0c02eb5e38977587d1e0de7f663",
+    "atualizado_em": "2026-04-21T14:03:10.727Z"
   },
   "9618305": {
     "imo": "9618305",
@@ -2921,9 +2935,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-18T06:00:00.000Z",
-    "ultimo_hash_evento": "65a768d5b876c770d0c1c344460fb5fd7d9c74f57be712b280768fd9d455f4c8",
-    "atualizado_em": "2026-04-18T06:57:41.486Z"
+    "ultima_movimentacao_em": "2026-04-21T13:00:00.000Z",
+    "ultimo_hash_evento": "9b18300c19bf7b14df48f5bc718f98721980df3beb2ddb747fff08c08c04e968",
+    "atualizado_em": "2026-04-21T14:03:10.727Z"
   },
   "9668752": {
     "imo": "9668752",
