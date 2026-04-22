@@ -1,29 +1,36 @@
 {
   "imo": "9476915",
   "navio": "BUSHBUCK (REB)",
-  "gerado_em": "2026-04-22T12:43:06.779Z",
+  "gerado_em": "2026-04-22T14:21:33.988Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-21T05:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-22T13:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-21T05:00:00.000Z",
     "ultima_saida": "2026-04-09T15:00:00.000Z",
     "tempo_medio_estadia_horas": 21,
-    "tempo_medio_fundeio_horas": 8
+    "tempo_medio_fundeio_horas": 16.2
   },
   "historico_recente": [
+    {
+      "data": "2026-04-22T13:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-04-21T05:00:00.000Z",
       "tipo": "ENTRADA",
