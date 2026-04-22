@@ -1,29 +1,36 @@
 {
   "imo": "9664299",
   "navio": "BRAM BRASILIA",
-  "gerado_em": "2026-04-22T19:54:48.166Z",
+  "gerado_em": "2026-04-22T20:48:51.691Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-21T16:00:00.000Z"
+    "ultima_movimentacao": "2026-04-22T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
+    "manobras_30d": 10,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
     "entradas_30d": 4,
     "saidas_30d": 2,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 4,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-21T00:00:00.000Z",
     "ultima_saida": "2026-04-16T07:30:00.000Z",
     "tempo_medio_estadia_horas": 25.8,
-    "tempo_medio_fundeio_horas": 22
+    "tempo_medio_fundeio_horas": 24
   },
   "historico_recente": [
+    {
+      "data": "2026-04-22T20:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-04-21T16:00:00.000Z",
       "tipo": "MUDANÇA",
