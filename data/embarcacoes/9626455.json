@@ -1,29 +1,36 @@
 {
   "imo": "9626455",
   "navio": "KUDU (REB)",
-  "gerado_em": "2026-04-22T22:29:57.578Z",
+  "gerado_em": "2026-04-22T23:27:45.225Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-22T11:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-22T22:40:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 8,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 4,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-19T11:00:00.000Z",
-    "ultima_saida": "2026-04-13T13:30:00.000Z",
-    "tempo_medio_estadia_horas": 71.5,
+    "ultima_saida": "2026-04-22T22:40:00.000Z",
+    "tempo_medio_estadia_horas": 77.6,
     "tempo_medio_fundeio_horas": 32.6
   },
   "historico_recente": [
+    {
+      "data": "2026-04-22T22:40:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-04-22T11:00:00.000Z",
       "tipo": "MUDANÇA",
