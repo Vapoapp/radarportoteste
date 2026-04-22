@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-22T11:35:36.184Z",
+  "updatedAt": "2026-04-22T12:43:06.779Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 28
+      "count": 30
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "itaguai": {
       "ok": true,
@@ -81,16 +81,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/04/2026 05:00",
-      "imo": "9368895",
-      "navio": "VIKING BRASILIA",
-      "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "22/04/2026 06:00",
       "imo": "9250983",
       "navio": "MSC DAMLA",
@@ -98,16 +88,6 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/04/2026 06:00",
-      "imo": "9417828",
-      "navio": "NORMAND SAGARIS (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -138,6 +118,16 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "MAGALLANES NAVEGACAO BRASILEIRA SA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 07:00",
+      "imo": "9489900",
+      "navio": "SERGIO BUARQUE DE HOLANDA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 81 - 2F08",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,6 +162,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/04/2026 08:00",
+      "imo": "9290531",
+      "navio": "MSC PAMELA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 08:00",
       "imo": "9417359",
       "navio": "SKANDI OLYMPIA (REB)",
       "tipo": "ENTRADA",
@@ -181,13 +181,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/04/2026 08:00",
-      "imo": "9290531",
-      "navio": "MSC PAMELA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "inicio": "22/04/2026 08:40",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -212,12 +212,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/04/2026 12:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 12:00",
       "imo": "9830056",
       "navio": "CSSC YUAN JING",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F01 - Visita",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 12:30",
+      "imo": "9902225",
+      "navio": "EAGLE CAMPOS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -271,13 +291,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/04/2026 14:00",
-      "imo": "9706449",
-      "navio": "SKANDI AÇU",
+      "inicio": "22/04/2026 14:30",
+      "imo": "9368895",
+      "navio": "VIKING BRASILIA",
       "tipo": "SAÍDA",
-      "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+      "de": "2R12 - Terminal - MCAR 1",
       "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -308,6 +328,16 @@
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "22/04/2026 18:00",
+      "imo": "9424508",
+      "navio": "SEA1 DORADO",
+      "tipo": "SAÍDA",
+      "de": "ESCS - CASTRO SILVA",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Itaguaí",
