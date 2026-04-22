@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-22T07:15:49.227Z",
+  "updatedAt": "2026-04-22T08:58:59.558Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 5
+      "count": 18
     },
     "niteroi": {
       "ok": true,
@@ -19,6 +19,16 @@
     }
   },
   "vessels": [
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 00:30",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/04/2026 00:30",
@@ -70,6 +80,126 @@
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 05:00",
+      "imo": "9368895",
+      "navio": "VIKING BRASILIA",
+      "tipo": "SAÍDA",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 06:00",
+      "imo": "9250983",
+      "navio": "MSC DAMLA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 06:00",
+      "imo": "9417828",
+      "navio": "NORMAND SAGARIS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 06:30",
+      "imo": "9644122",
+      "navio": "TAGAZ",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 08:00",
+      "imo": "9290531",
+      "navio": "MSC PAMELA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 08:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 09:30",
+      "imo": "9996733",
+      "navio": "CMA CGM KRYPTON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 13:00",
+      "imo": "9347322",
+      "navio": "HOS SPRINGFIELD",
+      "tipo": "MUDANÇA",
+      "de": "DOCKBRASIL - DOCKBRASIL",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 13:00",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 14:00",
+      "imo": "9706449",
+      "navio": "SKANDI AÇU",
+      "tipo": "SAÍDA",
+      "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 16:30",
+      "imo": "9246607",
+      "navio": "GRANDE AMBURGO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/04/2026 17:00",
+      "imo": "9435478",
+      "navio": "AKER WAYFARER (REB)",
+      "tipo": "SAÍDA",
+      "de": "TPS2 - PETROBRAS PS2",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "22/04/2026 02:00",
       "imo": "9852676",
@@ -101,17 +231,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "22/04/2026 10:00",
-      "imo": "9595591",
-      "navio": "NGM GLORY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 5FB2 - Área de Fundeio B2",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "22/04/2026 11:00",
+      "inicio": "22/04/2026 08:30",
       "imo": "9500754",
       "navio": "CAPE PEREGRINE",
       "tipo": "MUDANÇA",
@@ -121,12 +241,22 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "22/04/2026 12:00",
+      "inicio": "22/04/2026 09:30",
       "imo": "9849241",
       "navio": "China Steel Prestige",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 5FB5 - Área de Fundeio B5",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "22/04/2026 12:00",
+      "imo": "9595591",
+      "navio": "NGM GLORY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB2 - Área de Fundeio B2",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
