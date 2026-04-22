@@ -1,21 +1,21 @@
 {
   "imo": "9739305",
   "navio": "STOLT COBALT",
-  "gerado_em": "2026-04-22T14:21:33.988Z",
+  "gerado_em": "2026-04-22T15:46:21.035Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPEX - EXXON SOLUTEC",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-20T09:00:00.000Z"
+    "local": "2NTO - Terminal de Óleo",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-22T15:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-20T09:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-22T15:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPEX - EXXON SOLUTEC",
+      "para": "2NTO - Terminal de Óleo"
+    },
     {
       "data": "2026-04-20T09:00:00.000Z",
       "tipo": "ENTRADA",
