@@ -2734,14 +2734,14 @@
     "navio": "POSIDONIA JAGUAR",
     "navio_normalizado": "POSIDONIA JAGUAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-18T18:00:00.000Z",
-    "ultimo_hash_evento": "a60d0a247db7da71ee478a582905b8d4f651e3236a081dfa8e9dd7b3cb2fb093",
-    "atualizado_em": "2026-04-18T19:22:41.464Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-23T12:00:00.000Z",
+    "ultimo_hash_evento": "36e61279f1d1b91eff6ac2f55dc34595b91efd995f4a6debc68962c4ce58704b",
+    "atualizado_em": "2026-04-23T12:49:17.515Z"
   },
   "9631125": {
     "imo": "9631125",
@@ -3574,14 +3574,14 @@
     "navio": "SKANDI AÇU",
     "navio_normalizado": "SKANDI ACU",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-19T14:30:00.000Z",
-    "ultimo_hash_evento": "4a1390c6dfc4556dcadb0a761b7e1e54f6f342ccaf6e04e12f2c900cd9335206",
-    "atualizado_em": "2026-04-19T14:51:19.942Z"
+    "ultima_movimentacao_em": "2026-04-23T12:00:00.000Z",
+    "ultimo_hash_evento": "f75524997598f09dcf1cd5ebfd6d3952a8a45a4d193d5c8477aef239d28698bb",
+    "atualizado_em": "2026-04-23T12:49:17.515Z"
   },
   "9708265": {
     "imo": "9708265",
@@ -4534,6 +4534,20 @@
     "ultima_movimentacao_em": "2026-04-16T11:00:00.000Z",
     "ultimo_hash_evento": "317758a8a9be11838b9f9b59556e72530ef4771b8c350381e364fcdbd545002a",
     "atualizado_em": "2026-04-16T11:33:25.253Z"
+  },
+  "9907847": {
+    "imo": "9907847",
+    "navio": "ETG MISHIMA",
+    "navio_normalizado": "ETG MISHIMA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01S - Visita Sul",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-23T12:30:00.000Z",
+    "ultimo_hash_evento": "b1ce3424497ca7090fd4d05ba6ed37afed835915c101069a547007473e77313f",
+    "atualizado_em": "2026-04-23T12:49:17.515Z"
   },
   "9926415": {
     "imo": "9926415",
