@@ -1,29 +1,36 @@
 {
   "imo": "9283435",
   "navio": "MARLIN COPACABANA",
-  "gerado_em": "2026-04-23T09:14:46.324Z",
+  "gerado_em": "2026-04-23T10:48:59.545Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-21T21:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-23T07:15:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 0,
     "entradas_365d": 3,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-04-21T21:00:00.000Z",
-    "ultima_saida": "2026-04-21T10:00:00.000Z",
-    "tempo_medio_estadia_horas": 40.8,
-    "tempo_medio_fundeio_horas": 40.8
+    "ultima_saida": "2026-04-23T07:15:00.000Z",
+    "tempo_medio_estadia_horas": 38.6,
+    "tempo_medio_fundeio_horas": 38.6
   },
   "historico_recente": [
+    {
+      "data": "2026-04-23T07:15:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-04-21T21:00:00.000Z",
       "tipo": "ENTRADA",

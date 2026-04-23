@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-23T09:14:46.324Z",
+  "updatedAt": "2026-04-23T10:48:59.545Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 34
+      "count": 36
     },
     "niteroi": {
       "ok": true,
@@ -24,9 +24,9 @@
       "inicio": "23/04/2026 00:00",
       "imo": "9644146",
       "navio": "ALCATRAZ",
-      "tipo": "SAÍDA",
+      "tipo": "MUDANÇA",
       "de": "NIT - ATRACADO NITERÓI",
-      "para": "-",
+      "para": "Fundeio - 2F6A - LARGO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
@@ -81,6 +81,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "23/04/2026 04:15",
+      "imo": "9283435",
+      "navio": "MARLIN COPACABANA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/04/2026 04:30",
       "imo": "9788459",
       "navio": "MR ALDO",
@@ -118,6 +128,16 @@
       "de": "-",
       "para": "2N06 - Armazém 7",
       "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/04/2026 06:00",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "NIT - ATRACADO NITERÓI",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -192,22 +212,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "23/04/2026 08:00",
-      "imo": "9696802",
-      "navio": "STARNAV AQUARIUS (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "23/04/2026 08:00",
       "imo": "9644122",
       "navio": "TAGAZ",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/04/2026 08:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",

@@ -1,29 +1,36 @@
 {
   "imo": "9996733",
   "navio": "CMA CGM KRYPTON",
-  "gerado_em": "2026-04-23T09:14:46.324Z",
+  "gerado_em": "2026-04-23T10:48:59.545Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-22T12:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-23T10:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-04-22T12:30:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-04-23T10:30:00.000Z",
+    "tempo_medio_estadia_horas": 22,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-23T10:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-"
+    },
     {
       "data": "2026-04-22T12:30:00.000Z",
       "tipo": "ENTRADA",
