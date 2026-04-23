@@ -251,6 +251,20 @@
     "ultimo_hash_evento": "7d1cd175b2043b92aa1cbe9ddcdbbc93e32682148c5e11ff5cd96c2ddb74bcaf",
     "atualizado_em": "2026-04-17T23:54:27.408Z"
   },
+  "9237955": {
+    "imo": "9237955",
+    "navio": "OCEANICASUB VI",
+    "navio_normalizado": "OCEANICASUB VI",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "-",
+    "agente_atual": "OCEANICA ENGENHARIA E CONSULTORIA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-23T13:15:00.000Z",
+    "ultimo_hash_evento": "c53e18a09b9053787107db773e31ed4dfea77907c8ac1efd34a794c4415442d1",
+    "atualizado_em": "2026-04-23T19:25:47.643Z"
+  },
   "9239446": {
     "imo": "9239446",
     "navio": "SKANDI CARLA",
@@ -1619,9 +1633,9 @@
     "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-23T15:00:00.000Z",
-    "ultimo_hash_evento": "93b64be3963396885a206fd6b548140b68b9bf455c7cf95da2a3cbfa98326a19",
-    "atualizado_em": "2026-04-23T15:02:26.612Z"
+    "ultima_movimentacao_em": "2026-04-23T19:00:00.000Z",
+    "ultimo_hash_evento": "25590da4806e81aa1e7c65d84351a42019c721608449d929edf9b8c20ad53041",
+    "atualizado_em": "2026-04-23T19:25:47.643Z"
   },
   "9477397": {
     "imo": "9477397",
@@ -2112,6 +2126,20 @@
     "ultima_movimentacao_em": "2026-04-15T12:00:00.000Z",
     "ultimo_hash_evento": "4cdb07c983970d4977122be8d77ca9de6c8f9890cc2008830db8fe83ff18ca00",
     "atualizado_em": "2026-04-15T12:46:21.831Z"
+  },
+  "9530216": {
+    "imo": "9530216",
+    "navio": "OLIN CONQUEROR",
+    "navio_normalizado": "OLIN CONQUEROR",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-23T16:00:00.000Z",
+    "ultimo_hash_evento": "a756f1280e926d699f4f8c48d31eddbc099d60c076eaf36958f4237b8a1a4514",
+    "atualizado_em": "2026-04-23T19:25:47.643Z"
   },
   "9534432": {
     "imo": "9534432",
@@ -2874,14 +2902,14 @@
     "navio": "TAGAZ",
     "navio_normalizado": "TAGAZ",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-23T11:00:00.000Z",
-    "ultimo_hash_evento": "09fe577056f521a4758cc22348d2e28b8707416cf4f345414195f31a1cec915d",
-    "atualizado_em": "2026-04-23T11:48:39.443Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-23T18:15:00.000Z",
+    "ultimo_hash_evento": "96d59474854aa287ab5ce9ebadb659c4928e1370685c6ffbf3403698619118a4",
+    "atualizado_em": "2026-04-23T19:25:47.643Z"
   },
   "9644134": {
     "imo": "9644134",
@@ -3028,14 +3056,14 @@
     "navio": "FUGRO AQUARIUS",
     "navio_normalizado": "FUGRO AQUARIUS",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESMA - ESTALEIRO MAUÁ",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPMJ - Estaleiro Mauá",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-19T18:00:00.000Z",
-    "ultimo_hash_evento": "a5aaad31caaf19fbbcd137b5a010849745b16144e6f621f3f7ef9b4fc8f07718",
-    "atualizado_em": "2026-04-20T01:09:09.807Z"
+    "ultima_movimentacao_em": "2026-04-23T18:00:00.000Z",
+    "ultimo_hash_evento": "6c76c066cb83d558f8bde8a00184159dd184d29cd01639606b1f4568e87de533",
+    "atualizado_em": "2026-04-23T19:25:47.643Z"
   },
   "9659062": {
     "imo": "9659062",
@@ -3462,14 +3490,14 @@
     "navio": "BRAM BREEZE",
     "navio_normalizado": "BRAM BREEZE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-22T15:00:00.000Z",
-    "ultimo_hash_evento": "1a3475a071d356afe9094e16e54a59f62d13dd72865ac49688c0c44f40893185",
-    "atualizado_em": "2026-04-22T15:46:21.035Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-23T19:00:00.000Z",
+    "ultimo_hash_evento": "f18f0ad2322bf2bfe880d2ff0b34455878149c87c06a69d767b55a812fdd6cba",
+    "atualizado_em": "2026-04-23T19:25:47.643Z"
   },
   "9701140": {
     "imo": "9701140",
