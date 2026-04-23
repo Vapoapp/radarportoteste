@@ -1,29 +1,36 @@
 {
   "imo": "9644146",
   "navio": "ALCATRAZ",
-  "gerado_em": "2026-04-23T00:10:14.333Z",
+  "gerado_em": "2026-04-23T03:46:05.433Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "NIT - ATRACADO NITERÓI",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-22T11:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-23T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 11,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 4,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 4,
     "entradas_365d": 4,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-04-22T11:00:00.000Z",
-    "ultima_saida": "2026-04-20T18:00:00.000Z",
-    "tempo_medio_estadia_horas": 34.3,
+    "ultima_saida": "2026-04-23T03:00:00.000Z",
+    "tempo_medio_estadia_horas": 28.2,
     "tempo_medio_fundeio_horas": 80.3
   },
   "historico_recente": [
+    {
+      "data": "2026-04-23T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "-"
+    },
     {
       "data": "2026-04-22T11:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
-    },
-    {
-      "data": "2026-04-09T08:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }
