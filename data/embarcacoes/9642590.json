@@ -1,21 +1,21 @@
 {
   "imo": "9642590",
   "navio": "PINGUIM",
-  "gerado_em": "2026-04-24T21:57:50.944Z",
+  "gerado_em": "2026-04-24T22:41:48.873Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-24T12:00:00.000Z"
+    "ultima_movimentacao": "2026-04-24T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 1,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-15T16:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 58
   },
   "historico_recente": [
+    {
+      "data": "2026-04-24T22:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-04-24T12:00:00.000Z",
       "tipo": "MUDANÇA",
