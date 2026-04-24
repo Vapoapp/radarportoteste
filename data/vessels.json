@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-24T14:23:10.565Z",
+  "updatedAt": "2026-04-24T15:44:21.524Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 41
+      "count": 47
     },
     "niteroi": {
       "ok": true,
-      "count": 0
+      "count": 1
     },
     "itaguai": {
       "ok": true,
@@ -222,16 +222,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/04/2026 09:00",
-      "imo": "9710945",
-      "navio": "SEACOR NILE (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CMM OFFSHORE BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/04/2026 09:00",
       "imo": "9351799",
       "navio": "LOG-IN PANTANAL (REB)",
       "tipo": "ENTRADA",
@@ -246,8 +236,18 @@
       "navio": "PINGUIM",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
+      "para": "2TS1 - Terminal Siderúrgico",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/04/2026 09:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -291,6 +291,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "24/04/2026 10:00",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "24/04/2026 11:00",
       "imo": "9165970",
       "navio": "MARLIN STOLMEN (REB)",
@@ -302,12 +312,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/04/2026 12:00",
-      "imo": "9686144",
-      "navio": "HOS REMINGTON",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "imo": "9257606",
+      "navio": "VIKING SURF (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -321,13 +331,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "24/04/2026 13:00",
-      "imo": "9794446",
-      "navio": "STI JARDINS",
-      "tipo": "SAÍDA",
-      "de": "TPS1 - PETROBRAS PS1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "inicio": "24/04/2026 12:00",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -341,6 +351,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "24/04/2026 13:00",
+      "imo": "9794446",
+      "navio": "STI JARDINS",
+      "tipo": "SAÍDA",
+      "de": "TPS1 - PETROBRAS PS1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/04/2026 13:30",
+      "imo": "9672636",
+      "navio": "HOS BRASS RING",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "24/04/2026 13:30",
       "imo": "9299549",
       "navio": "MSC JUDITH (BAND. GREYLIST PARIS MOU)",
@@ -348,6 +378,26 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/04/2026 14:00",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "SAÍDA",
+      "de": "TPBR - BRASCO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/04/2026 14:00",
+      "imo": "9600578",
+      "navio": "SKANDI URCA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -411,7 +461,17 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "25/04/2026 06:00",
+      "inicio": "25/04/2026 07:00",
+      "imo": "9545857",
+      "navio": "COXON TIDE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBL - BRICLOG",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/04/2026 15:00",
       "imo": "9299549",
       "navio": "MSC JUDITH (BAND. GREYLIST PARIS MOU)",
       "tipo": "SAÍDA",
@@ -428,6 +488,16 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "24/04/2026 06:00",
+      "imo": "9418664",
+      "navio": "OCEANICASUB XI (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Itaguaí",
