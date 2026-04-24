@@ -1,29 +1,36 @@
 {
   "imo": "9644134",
   "navio": "PRION",
-  "gerado_em": "2026-04-24T09:12:52.302Z",
+  "gerado_em": "2026-04-24T10:45:35.849Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-24T00:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-24T09:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-24T00:00:00.000Z",
-    "ultima_saida": "2026-04-09T07:00:00.000Z",
-    "tempo_medio_estadia_horas": 22,
+    "ultima_saida": "2026-04-24T09:30:00.000Z",
+    "tempo_medio_estadia_horas": 15.8,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-24T09:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-"
+    },
     {
       "data": "2026-04-24T00:00:00.000Z",
       "tipo": "ENTRADA",
