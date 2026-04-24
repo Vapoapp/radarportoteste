@@ -172,14 +172,14 @@
     "navio": "MARLIN STOLMEN (REB)",
     "navio_normalizado": "MARLIN STOLMEN",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-22T18:00:00.000Z",
-    "ultimo_hash_evento": "6d74e0cb9835ac1a0809424bde57d2ee7632634558cb7f39043054bb1ebfa7a4",
-    "atualizado_em": "2026-04-22T18:47:38.895Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-24T14:00:00.000Z",
+    "ultimo_hash_evento": "6075f274058895a55dbd616d4fb805540e67c6b787cd8ab6bc92a6bf853e4cf0",
+    "atualizado_em": "2026-04-24T14:23:10.565Z"
   },
   "9181467": {
     "imo": "9181467",
@@ -2341,15 +2341,15 @@
     "imo": "9578892",
     "navio": "CBO COPACABANA",
     "navio_normalizado": "CBO COPACABANA",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-20T16:20:00.000Z",
-    "ultimo_hash_evento": "1a47744f1ec203a6a1a37980ff69847187c015f700d1451c483f37dfb8d2eb63",
-    "atualizado_em": "2026-04-20T17:08:17.553Z"
+    "ultima_movimentacao_em": "2026-04-24T13:00:00.000Z",
+    "ultimo_hash_evento": "cbaf33bdfc42e54bbf1d8d96cbc2f352a10c01e026fb1e7705c325f872710fc3",
+    "atualizado_em": "2026-04-24T14:23:10.565Z"
   },
   "9588768": {
     "imo": "9588768",
@@ -2636,14 +2636,14 @@
     "navio": "CBO MISTRAL (REB)",
     "navio_normalizado": "CBO MISTRAL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-23T18:00:00.000Z",
-    "ultimo_hash_evento": "d95fdb5a7c793b843d6d9459f19786e1876ed95f82266d300dda2c5f338ea417",
-    "atualizado_em": "2026-04-23T18:00:12.030Z"
+    "ultima_movimentacao_em": "2026-04-24T13:00:00.000Z",
+    "ultimo_hash_evento": "e8950582f91a4d8d58609313eec336d0abb0e737aaa9715454df199b8d963279",
+    "atualizado_em": "2026-04-24T14:23:10.565Z"
   },
   "9621546": {
     "imo": "9621546",
@@ -2795,9 +2795,9 @@
     "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-23T21:00:00.000Z",
-    "ultimo_hash_evento": "afbed4213a1081264aa8a249f1627a2bfd7db0397fad004f7a05971a18a7ad9c",
-    "atualizado_em": "2026-04-23T21:24:41.532Z"
+    "ultima_movimentacao_em": "2026-04-24T13:00:00.000Z",
+    "ultimo_hash_evento": "cde89ec66cfda84f0322e59f95204d298be01193177fbc50fbe28bb45799d3f2",
+    "atualizado_em": "2026-04-24T14:23:10.565Z"
   },
   "9631125": {
     "imo": "9631125",
@@ -4688,6 +4688,20 @@
     "ultima_movimentacao_em": "2026-04-07T14:00:00.000Z",
     "ultimo_hash_evento": "c6949d8e6a03113e04b491f81658cdfdf2ede1a5bae615ad642d271042289292",
     "atualizado_em": "2026-04-07T14:16:21.572Z"
+  },
+  "9928918": {
+    "imo": "9928918",
+    "navio": "COSCO SHIPPING CHANG SHENG",
+    "navio_normalizado": "COSCO SHIPPING CHANG SHENG",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "303 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-24T13:30:00.000Z",
+    "ultimo_hash_evento": "b0adac68e11c9119f1eb516e9b5b7f9e24bfcbe74f09d4c8a94e793d0a4db7e9",
+    "atualizado_em": "2026-04-24T14:23:10.565Z"
   },
   "9938250": {
     "imo": "9938250",
