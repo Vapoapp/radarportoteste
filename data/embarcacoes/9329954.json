@@ -1,29 +1,36 @@
 {
   "imo": "9329954",
   "navio": "NORMAND TURMALINA",
-  "gerado_em": "2026-04-24T07:16:15.273Z",
+  "gerado_em": "2026-04-24T09:12:52.302Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-23T18:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-24T04:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 8,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 1,
     "entradas_365d": 3,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-04-23T18:00:00.000Z",
-    "ultima_saida": "2026-04-19T17:00:00.000Z",
-    "tempo_medio_estadia_horas": 23.5,
-    "tempo_medio_fundeio_horas": 22.5
+    "ultima_saida": "2026-04-24T04:00:00.000Z",
+    "tempo_medio_estadia_horas": 19,
+    "tempo_medio_fundeio_horas": 18.3
   },
   "historico_recente": [
+    {
+      "data": "2026-04-24T04:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-04-23T18:00:00.000Z",
       "tipo": "ENTRADA",

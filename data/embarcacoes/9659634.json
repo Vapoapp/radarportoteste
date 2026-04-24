@@ -1,29 +1,36 @@
 {
   "imo": "9659634",
   "navio": "BARU TESORO",
-  "gerado_em": "2026-04-24T07:16:15.273Z",
+  "gerado_em": "2026-04-24T09:12:52.302Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-24T02:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-24T04:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 2,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-17T11:00:00.000Z",
-    "ultima_saida": "2026-04-16T08:00:00.000Z",
-    "tempo_medio_estadia_horas": 21,
+    "ultima_saida": "2026-04-24T04:00:00.000Z",
+    "tempo_medio_estadia_horas": 91,
     "tempo_medio_fundeio_horas": 89
   },
   "historico_recente": [
+    {
+      "data": "2026-04-24T04:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-04-24T02:00:00.000Z",
       "tipo": "MUDANÇA",
