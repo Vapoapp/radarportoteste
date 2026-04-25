@@ -1,21 +1,21 @@
 {
   "imo": "9351799",
   "navio": "LOG-IN PANTANAL (REB)",
-  "gerado_em": "2026-04-24T23:25:29.097Z",
+  "gerado_em": "2026-04-25T00:02:47.483Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C11 - TECON - ICTSI 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-24T12:00:00.000Z"
+    "local": "2C22 - TECON 2 - MRIO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-25T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 8,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-24T12:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-25T00:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "2C22 - TECON 2 - MRIO"
+    },
     {
       "data": "2026-04-24T12:00:00.000Z",
       "tipo": "ENTRADA",
