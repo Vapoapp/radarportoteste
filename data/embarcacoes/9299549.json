@@ -1,29 +1,36 @@
 {
   "imo": "9299549",
   "navio": "MSC JUDITH (BAND. GREYLIST PARIS MOU)",
-  "gerado_em": "2026-04-25T17:07:21.852Z",
+  "gerado_em": "2026-04-25T18:42:47.279Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C21 - TECON 3 - MRIO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-24T16:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-25T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-04-24T16:30:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-04-25T18:00:00.000Z",
+    "tempo_medio_estadia_horas": 25.5,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-25T18:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-"
+    },
     {
       "data": "2026-04-24T16:30:00.000Z",
       "tipo": "ENTRADA",
