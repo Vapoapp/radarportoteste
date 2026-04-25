@@ -2398,14 +2398,14 @@
     "navio": "CBO COPACABANA",
     "navio_normalizado": "CBO COPACABANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-24T13:00:00.000Z",
-    "ultimo_hash_evento": "cbaf33bdfc42e54bbf1d8d96cbc2f352a10c01e026fb1e7705c325f872710fc3",
-    "atualizado_em": "2026-04-24T14:23:10.565Z"
+    "ultima_movimentacao_em": "2026-04-25T07:00:00.000Z",
+    "ultimo_hash_evento": "50ab35125b95917b97c93a526783c280b8f0b2eb87a1ca7811c5fb16c8b9d8ff",
+    "atualizado_em": "2026-04-25T07:56:31.401Z"
   },
   "9588768": {
     "imo": "9588768",
@@ -2441,13 +2441,13 @@
     "navio_normalizado": "NGM GLORY",
     "porto_atual": "Itaguaí",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 5FB2 - Área de Fundeio B2",
-    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "origem_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-23T23:30:00.000Z",
-    "ultimo_hash_evento": "56be415eee8a8f8e092ff6e56286a71160f33c0dcbf575aa7609dcd2baa5d32b",
-    "atualizado_em": "2026-04-23T23:57:07.996Z"
+    "ultima_movimentacao_em": "2026-04-25T07:30:00.000Z",
+    "ultimo_hash_evento": "5870d396210e03cfc87543c7d14ef824a0b0794c0c9822bfe123d2579380ccc5",
+    "atualizado_em": "2026-04-25T07:56:31.401Z"
   },
   "9597381": {
     "imo": "9597381",
@@ -3756,14 +3756,14 @@
     "navio": "STARNAV TAURUS",
     "navio_normalizado": "STARNAV TAURUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-24T21:30:00.000Z",
-    "ultimo_hash_evento": "53da4ae76810878b437a7cbcde77541a6bed911be78dc5ee574434dd95943361",
-    "atualizado_em": "2026-04-24T21:57:50.944Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-25T07:00:00.000Z",
+    "ultimo_hash_evento": "690f149b79ca547898900f76e17fa38c6e8deb05d2affaf3514e8ff000be5ba8",
+    "atualizado_em": "2026-04-25T07:56:31.401Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -4856,6 +4856,20 @@
     "ultima_movimentacao_em": "2026-04-14T09:00:00.000Z",
     "ultimo_hash_evento": "79a8eb6f7f73bd82dcb5bd2d43a664fd53633bead75055dea1b89944dff6301e",
     "atualizado_em": "2026-04-14T09:45:33.147Z"
+  },
+  "9961972": {
+    "imo": "9961972",
+    "navio": "LOG-IN EXPERIENCE (REB)",
+    "navio_normalizado": "LOG-IN EXPERIENCE",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "302 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "MSC MEDITERRANEAN SHIPPING DO BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-25T07:30:00.000Z",
+    "ultimo_hash_evento": "fb337839b718ac5f63f58c468dd66faf9307844b707951e7086dc716280337d9",
+    "atualizado_em": "2026-04-25T07:56:31.401Z"
   },
   "9963413": {
     "imo": "9963413",
