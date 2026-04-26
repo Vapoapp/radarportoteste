@@ -1,21 +1,21 @@
 {
   "imo": "9482330",
   "navio": "MULTIPLICITY (REB)",
-  "gerado_em": "2026-04-26T18:01:11.057Z",
+  "gerado_em": "2026-04-26T19:08:31.711Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-22T12:50:00.000Z"
+    "ultima_movimentacao": "2026-04-26T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 6,
-    "manobras_365d": 6,
+    "manobras_30d": 7,
+    "manobras_180d": 7,
+    "manobras_365d": 7,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 2,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-18T21:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 87.8
   },
   "historico_recente": [
+    {
+      "data": "2026-04-26T18:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-04-22T12:50:00.000Z",
       "tipo": "MUDANÇA",
