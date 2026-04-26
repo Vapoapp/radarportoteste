@@ -46,14 +46,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-26T06:00:00.000Z",
-    "ultimo_hash_evento": "23c03b5cb6b702aae33bc1af0faff843a230528f7ff886fac23bd9149803443f",
-    "atualizado_em": "2026-04-26T07:49:00.285Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-26T11:00:00.000Z",
+    "ultimo_hash_evento": "a0ee5413babac371f7f5a7bb69e195cd4f18eaacbf2ec94a691ac4c5cdf828e7",
+    "atualizado_em": "2026-04-26T11:59:28.491Z"
   },
   "1025124": {
     "imo": "1025124",
@@ -2294,6 +2294,20 @@
     "ultima_movimentacao_em": "2026-04-07T14:00:00.000Z",
     "ultimo_hash_evento": "a666bfa6c0f05f7f2976098b324f4603ac69dc280aee94ffed6e460d9c3147ad",
     "atualizado_em": "2026-04-07T14:16:21.572Z"
+  },
+  "9552991": {
+    "imo": "9552991",
+    "navio": "NORD KARAS",
+    "navio_normalizado": "NORD KARAS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01 - Visita",
+    "destino_atual": "-",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-26T11:00:00.000Z",
+    "ultimo_hash_evento": "0db3b96b6b1facf65b214802b9769daa74177a60d7feb852871e384986f4147c",
+    "atualizado_em": "2026-04-26T11:59:28.491Z"
   },
   "9559975": {
     "imo": "9559975",
