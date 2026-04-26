@@ -1754,14 +1754,14 @@
     "navio": "CBO CAROLINA",
     "navio_normalizado": "CBO CAROLINA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-26T16:00:00.000Z",
-    "ultimo_hash_evento": "8116f04186e8a97b1c877732bc65565c9b1284f570af00e6d842844e1a500520",
-    "atualizado_em": "2026-04-26T19:08:31.711Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-26T22:00:00.000Z",
+    "ultimo_hash_evento": "8b117b404762a3a8ffa02a533652d079ddaa59c09df491d4f1aeba94745f1b0a",
+    "atualizado_em": "2026-04-26T22:24:02.823Z"
   },
   "9477402": {
     "imo": "9477402",
@@ -2588,6 +2588,20 @@
     "ultima_movimentacao_em": "2026-04-21T06:00:00.000Z",
     "ultimo_hash_evento": "409375d86a1d25c1cee21350791ec6f3faa94ca76468b2aa9082b40800a20e50",
     "atualizado_em": "2026-04-21T06:16:04.515Z"
+  },
+  "9603219": {
+    "imo": "9603219",
+    "navio": "PEDRO ÁLVARES CABRAL",
+    "navio_normalizado": "PEDRO ALVARES CABRAL",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "303 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-26T22:00:00.000Z",
+    "ultimo_hash_evento": "f26dc2c52e31d635f71c91bcfaccefe91e2bd9c5d712740dc825e160b44003a1",
+    "atualizado_em": "2026-04-26T22:24:02.823Z"
   },
   "9603221": {
     "imo": "9603221",
