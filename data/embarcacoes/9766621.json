@@ -1,21 +1,21 @@
 {
   "imo": "9766621",
   "navio": "CBO ALIANÇA",
-  "gerado_em": "2026-04-25T22:03:37.633Z",
+  "gerado_em": "2026-04-26T03:50:24.840Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-25T16:00:00.000Z"
+    "ultima_movimentacao": "2026-04-26T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 14,
-    "manobras_365d": 14,
+    "manobras_30d": 15,
+    "manobras_180d": 15,
+    "manobras_365d": 15,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-04-25T13:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 17.6
   },
   "historico_recente": [
+    {
+      "data": "2026-04-26T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-04-25T16:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-04-09T21:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "-"
     }
   ]
 }
