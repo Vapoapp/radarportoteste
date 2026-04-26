@@ -1,29 +1,36 @@
 {
   "imo": "9559975",
   "navio": "STIM STAR ARABIAN GULF (REB)",
-  "gerado_em": "2026-04-26T09:39:14.866Z",
+  "gerado_em": "2026-04-26T10:28:24.131Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-04-15T00:00:00.000Z"
+    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-04-26T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
-    "entradas_30d": 1,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 1,
+    "entradas_365d": 2,
     "saidas_365d": 1,
-    "ultima_entrada": "2026-04-13T16:00:00.000Z",
+    "ultima_entrada": "2026-04-26T10:00:00.000Z",
     "ultima_saida": "2026-04-15T00:00:00.000Z",
     "tempo_medio_estadia_horas": 32,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-26T10:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
     {
       "data": "2026-04-15T00:00:00.000Z",
       "tipo": "SAÍDA",
