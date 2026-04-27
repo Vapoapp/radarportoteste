@@ -1,29 +1,36 @@
 {
   "imo": "9525388",
   "navio": "MAERSK CHACHAI",
-  "gerado_em": "2026-04-27T18:03:52.238Z",
+  "gerado_em": "2026-04-27T19:45:02.844Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-04-21T07:00:00.000Z"
+    "local": "2C22 - TECON 2 - MRIO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-04-27T19:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
-    "entradas_30d": 1,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 1,
+    "entradas_365d": 2,
     "saidas_365d": 1,
-    "ultima_entrada": "2026-04-20T16:00:00.000Z",
+    "ultima_entrada": "2026-04-27T19:30:00.000Z",
     "ultima_saida": "2026-04-21T07:00:00.000Z",
     "tempo_medio_estadia_horas": 15,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-27T19:30:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO"
+    },
     {
       "data": "2026-04-21T07:00:00.000Z",
       "tipo": "SAÍDA",
