@@ -1,29 +1,36 @@
 {
   "imo": "9489900",
   "navio": "SERGIO BUARQUE DE HOLANDA",
-  "gerado_em": "2026-04-27T09:38:14.715Z",
+  "gerado_em": "2026-04-27T11:26:01.930Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPS1 - PETROBRAS PS1",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-24T18:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-27T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 1,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-04-22T10:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-04-27T10:00:00.000Z",
+    "tempo_medio_estadia_horas": 120,
     "tempo_medio_fundeio_horas": 56
   },
   "historico_recente": [
+    {
+      "data": "2026-04-27T10:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F08 - NW DO TPP1",
+      "para": "-"
+    },
     {
       "data": "2026-04-24T18:00:00.000Z",
       "tipo": "MUDANÇA",
