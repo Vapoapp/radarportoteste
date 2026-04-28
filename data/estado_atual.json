@@ -1180,14 +1180,14 @@
     "navio": "OCEANICASUB XVII",
     "navio_normalizado": "OCEANICASUB XVII",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
     "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "OCEANICA ENGENHARIA E CONSULTORIA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-09T18:00:00.000Z",
-    "ultimo_hash_evento": "6577e19e9e8ede97bdeef10953cf6d4e5244c9de520b74cc815324e6fca268c7",
-    "atualizado_em": "2026-04-09T20:30:53.714Z"
+    "ultima_movimentacao_em": "2026-04-28T03:00:00.000Z",
+    "ultimo_hash_evento": "0335d7d2311a489e94228a57362adf6c9c0b3fbb35ac72923d7caadd41a29365",
+    "atualizado_em": "2026-04-28T04:45:10.638Z"
   },
   "9379014": {
     "imo": "9379014",
@@ -1657,13 +1657,13 @@
     "navio_normalizado": "SKUA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "origem_atual": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-26T08:00:00.000Z",
-    "ultimo_hash_evento": "01449cb8adfb0dc0879c27d638da3187d890f3ab21cc9e25ae74968eefffdda6",
-    "atualizado_em": "2026-04-26T08:45:46.127Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-28T03:00:00.000Z",
+    "ultimo_hash_evento": "6fa0736022cd697024854f1fb4b2db03d79f4969c466597f8f8c07c951420cf7",
+    "atualizado_em": "2026-04-28T04:45:10.638Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -2049,13 +2049,13 @@
     "navio_normalizado": "A.H. VALLETTA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBL - BRICLOG",
+    "origem_atual": "TPBL - BRICLOG",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-27T16:00:00.000Z",
-    "ultimo_hash_evento": "21f58da35d4f58e029f9fc451ac89c32500f45704ce84fa8bff2b72838d974be",
-    "atualizado_em": "2026-04-27T16:56:38.348Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-28T04:00:00.000Z",
+    "ultimo_hash_evento": "11bd3217054a9b65c8d628763062f233af918b37da1f99ba22cf017816943667",
+    "atualizado_em": "2026-04-28T04:45:10.638Z"
   },
   "9497127": {
     "imo": "9497127",
@@ -3275,6 +3275,20 @@
     "ultimo_hash_evento": "981be810a0280a1213017b834229106f1282ba18a20deddbaa50abb6b0d91178",
     "atualizado_em": "2026-04-20T10:21:08.739Z"
   },
+  "9651321": {
+    "imo": "9651321",
+    "navio": "AEGIS (REB)",
+    "navio_normalizado": "AEGIS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-28T04:00:00.000Z",
+    "ultimo_hash_evento": "75a0ae19e5dea89924b665a0fd38f96a1f42d4d826ed9f0d24db1bd7ea44c2e1",
+    "atualizado_em": "2026-04-28T04:45:10.638Z"
+  },
   "9653111": {
     "imo": "9653111",
     "navio": "DELTA CARDINAL (REB)",
@@ -3728,14 +3742,14 @@
     "navio": "STARNAV AQUARIUS (REB)",
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-23T15:00:00.000Z",
-    "ultimo_hash_evento": "a439d5f154a121b3c06d13bf52a4c93261f28af25a83bd7185a7efb91ae7a65f",
-    "atualizado_em": "2026-04-23T21:24:41.532Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-28T03:00:00.000Z",
+    "ultimo_hash_evento": "cc26f75cf7dc87c42e5cded940429ac2a432b76ec1bb8694f6cbe9644d2d8ff0",
+    "atualizado_em": "2026-04-28T04:45:10.638Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -3862,6 +3876,20 @@
     "ultima_movimentacao_em": "2026-04-27T16:40:00.000Z",
     "ultimo_hash_evento": "1d734e9b54f72cfffb31f1f33e12bedff54ce005ebd24f0ef00bb7daa752fea5",
     "atualizado_em": "2026-04-27T16:56:38.348Z"
+  },
+  "9703411": {
+    "imo": "9703411",
+    "navio": "CL CONTIGO",
+    "navio_normalizado": "CL CONTIGO",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "agente_atual": "GEM SHIPPING LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-28T03:30:00.000Z",
+    "ultimo_hash_evento": "7b8bb6ffed41fb3c1138fc9adbd7e8da56702e580b1f99115bff3ee90092d7e7",
+    "atualizado_em": "2026-04-28T04:45:10.638Z"
   },
   "9703667": {
     "imo": "9703667",
@@ -4037,13 +4065,13 @@
     "navio_normalizado": "STARNAV PHOENIX",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T01:00:00.000Z",
-    "ultimo_hash_evento": "fd91afd6fcde552aa0f347cb35ee98f8bcf85b7aaf158cc2468095ea73da3605",
-    "atualizado_em": "2026-04-28T01:15:36.585Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-28T04:00:00.000Z",
+    "ultimo_hash_evento": "776f77bd6c536bf088aa9c507a467fe4fb7b8f5b3b89be6070c6b12bffdd9eb5",
+    "atualizado_em": "2026-04-28T04:45:10.638Z"
   },
   "9720287": {
     "imo": "9720287",

@@ -1,21 +1,21 @@
 {
   "imo": "9371385",
   "navio": "OCEANICASUB XVII",
-  "gerado_em": "2026-04-28T01:15:36.585Z",
+  "gerado_em": "2026-04-28T04:45:10.638Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
     "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-09T18:00:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-28T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-09T18:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-28T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
     {
       "data": "2026-04-09T18:00:00.000Z",
       "tipo": "ENTRADA",

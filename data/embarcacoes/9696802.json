@@ -1,29 +1,36 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-04-28T01:15:36.585Z",
+  "gerado_em": "2026-04-28T04:45:10.638Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-23T15:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-28T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 12,
-    "manobras_365d": 12,
+    "manobras_30d": 13,
+    "manobras_180d": 13,
+    "manobras_365d": 13,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-23T15:00:00.000Z",
     "ultima_saida": "2026-04-23T11:00:00.000Z",
     "tempo_medio_estadia_horas": 89,
-    "tempo_medio_fundeio_horas": 21.6
+    "tempo_medio_fundeio_horas": 38.9
   },
   "historico_recente": [
+    {
+      "data": "2026-04-28T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-04-23T15:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-10T11:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Niterói",
-      "de": "-",
-      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     }
   ]
 }
