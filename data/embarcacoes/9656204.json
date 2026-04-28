@@ -1,29 +1,36 @@
 {
   "imo": "9656204",
   "navio": "SAPURA ESMERALDA",
-  "gerado_em": "2026-04-28T20:10:39.783Z",
+  "gerado_em": "2026-04-28T21:18:59.638Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-25T04:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-28T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 4,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-04-20T03:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "ultima_saida": "2026-04-28T21:00:00.000Z",
+    "tempo_medio_estadia_horas": 210,
+    "tempo_medio_fundeio_horas": 89
   },
   "historico_recente": [
+    {
+      "data": "2026-04-28T21:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-04-25T04:00:00.000Z",
       "tipo": "MUDANÇA",
