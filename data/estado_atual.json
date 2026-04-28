@@ -419,6 +419,20 @@
     "ultimo_hash_evento": "4cbcc2f7ad6d826ebd9d0368651d476e7484dc4dcb820688bd730e47bae009cd",
     "atualizado_em": "2026-04-09T07:02:21.538Z"
   },
+  "9270244": {
+    "imo": "9270244",
+    "navio": "HAROLDO RAMOS",
+    "navio_normalizado": "HAROLDO RAMOS",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "agente_atual": "ASGAARD NAVEGACAO S/A",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-28T22:30:00.000Z",
+    "ultimo_hash_evento": "783366f8e641f39b22e49cdce051d62ada7955b7bc12e4bc49f4e2bb33cec33d",
+    "atualizado_em": "2026-04-28T23:12:06.014Z"
+  },
   "9271755": {
     "imo": "9271755",
     "navio": "MARLIN FLAMENGO",
@@ -485,9 +499,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-27T06:00:00.000Z",
-    "ultimo_hash_evento": "0a706a65f45f84fcc36693dbc77bcbd178dd6dfc86f57b484ac133de697af5e8",
-    "atualizado_em": "2026-04-27T07:27:51.922Z"
+    "ultima_movimentacao_em": "2026-04-28T21:00:00.000Z",
+    "ultimo_hash_evento": "d6648736877e484ecd256819f8238b34504577991ae95ab4d599bc72f645919c",
+    "atualizado_em": "2026-04-28T23:12:06.014Z"
   },
   "9283435": {
     "imo": "9283435",
@@ -2608,14 +2622,14 @@
     "navio": "SEA1 GIANT",
     "navio_normalizado": "SEA1 GIANT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T16:00:00.000Z",
-    "ultimo_hash_evento": "971c09b1bf0b35586c1612e77a67d876ae560cd6f80f17b8fe3bd987bac1618f",
-    "atualizado_em": "2026-04-28T17:15:54.652Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-28T20:25:00.000Z",
+    "ultimo_hash_evento": "5ea85d825529cfef1594a31b40b80a907bd44a97d5233979d6571d00a9e6340f",
+    "atualizado_em": "2026-04-28T23:12:06.014Z"
   },
   "9578880": {
     "imo": "9578880",
@@ -3517,15 +3531,15 @@
     "imo": "9668726",
     "navio": "STARNAV PERSEUS",
     "navio_normalizado": "STARNAV PERSEUS",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-28T11:00:00.000Z",
-    "ultimo_hash_evento": "7ab05f3fa257ae9fc49698b4a0540c9d6c6e0a1ac3a48627b8b97fed9ce9eedd",
-    "atualizado_em": "2026-04-28T11:24:10.103Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-28T23:00:00.000Z",
+    "ultimo_hash_evento": "d4db09b9439949aa77fcc49cbeca5af4d330790c0855ebc9abe2a0eedb6ae2e3",
+    "atualizado_em": "2026-04-28T23:12:06.014Z"
   },
   "9668738": {
     "imo": "9668738",
@@ -5529,6 +5543,20 @@
     "ultimo_hash_evento": "4a807fae4654764b9a5bf02f4c1ae83a5d68a05f74a551dadcc15c7e93fa95db",
     "atualizado_em": "2026-04-20T15:57:57.913Z"
   },
+  "3810508756": {
+    "imo": "3810508756",
+    "navio": "TS OURIÇADO",
+    "navio_normalizado": "TS OURICADO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-28T23:00:00.000Z",
+    "ultimo_hash_evento": "44c8da512afead69f0a83b230dce141efe3cfe70138f1ebeeab7531ca0254951",
+    "atualizado_em": "2026-04-28T23:12:06.014Z"
+  },
   "3813879631": {
     "imo": "3813879631",
     "navio": "NEW TROVÃO",
@@ -5576,14 +5604,14 @@
     "navio": "COSTA NOVA",
     "navio_normalizado": "COSTA NOVA",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 5FD0 - Área de Fundeio D",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FD0 - Área de Fundeio D",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-12T20:00:00.000Z",
-    "ultimo_hash_evento": "525de2351b8ccfff25c0029484573fffee769f507c09a231662f6217c266d101",
-    "atualizado_em": "2026-04-12T20:25:56.407Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-28T23:00:00.000Z",
+    "ultimo_hash_evento": "991f440c691f05627e70144ac9ef4c5884bdf25079c119ee62b1da805bc66e74",
+    "atualizado_em": "2026-04-28T23:12:06.014Z"
   },
   "3813896277": {
     "imo": "3813896277",

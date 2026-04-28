@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-28T21:18:59.638Z",
+  "updatedAt": "2026-04-28T23:12:06.014Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 48
+      "count": 58
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 20
+      "count": 18
     },
     "angra": {
       "ok": true,
@@ -102,6 +102,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 07:00",
+      "imo": "9569932",
+      "navio": "PHILIPPAKOS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "para": "-",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 07:00",
       "imo": "0011466537",
       "navio": "BONO II",
       "tipo": "MUDANÇA",
@@ -121,16 +131,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "28/04/2026 07:00",
-      "imo": "9569932",
-      "navio": "PHILIPPAKOS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
-      "para": "-",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 07:30",
       "imo": "9627631",
       "navio": "CBO IPANEMA",
@@ -138,16 +138,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/04/2026 08:00",
-      "imo": "9494618",
-      "navio": "A.H. VALLETTA (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2N05 - Armazém 6",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -168,6 +158,16 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2N16 - Armazém 16",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 08:00",
+      "imo": "9494618",
+      "navio": "A.H. VALLETTA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N05 - Armazém 6",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -242,16 +242,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 12:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/04/2026 12:00",
       "imo": "9440681",
       "navio": "SKUA",
       "tipo": "SAÍDA",
@@ -268,6 +258,16 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 12:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -292,16 +292,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 14:00",
-      "imo": "9489900",
-      "navio": "SERGIO BUARQUE DE HOLANDA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 82 - 2F08",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/04/2026 14:00",
       "imo": "9767833",
       "navio": "CBO PARINTINS",
       "tipo": "ENTRADA",
@@ -311,13 +301,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "28/04/2026 14:30",
-      "imo": "9530204",
-      "navio": "SANTOS SOLUTION",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "inicio": "28/04/2026 14:00",
+      "imo": "9489900",
+      "navio": "SERGIO BUARQUE DE HOLANDA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 82 - 2F08",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -352,6 +342,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 15:30",
+      "imo": "9525388",
+      "navio": "MAERSK CHACHAI",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 15:30",
       "imo": "9799070",
       "navio": "STARNAV SCORPIUS",
       "tipo": "MUDANÇA",
@@ -361,13 +361,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "28/04/2026 15:30",
-      "imo": "9525388",
-      "navio": "MAERSK CHACHAI",
-      "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "inicio": "28/04/2026 15:45",
+      "imo": "9530204",
+      "navio": "SANTOS SOLUTION",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -382,12 +382,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 17:00",
+      "imo": "3810508756",
+      "navio": "TS OURIÇADO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 17:00",
       "imo": "9442067",
       "navio": "TORDA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "MAGALLANES NAVEGACAO BRASILEIRA SA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 17:25",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -408,6 +428,26 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 18:00",
+      "imo": "9274874",
+      "navio": "NORMAND TOPAZIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 20:00",
+      "imo": "3810508756",
+      "navio": "TS OURIÇADO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -441,6 +481,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 23:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 23:59",
       "imo": "9542350",
       "navio": "UAL TEXAS",
@@ -451,6 +501,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 01:30",
+      "imo": "9442067",
+      "navio": "TORDA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "MAGALLANES NAVEGACAO BRASILEIRA SA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "29/04/2026 05:30",
       "imo": "1025124",
       "navio": "WINDEA CURIE",
@@ -458,6 +518,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 06:00",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -481,6 +551,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 10:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 11:00",
+      "imo": "9458157",
+      "navio": "GAZ SYNERGY",
+      "tipo": "SAÍDA",
+      "de": "TPIR - ILHA REDONDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "29/04/2026 12:00",
       "imo": "9945837",
       "navio": "COSCO SHIPPING BRAZIL",
@@ -488,6 +578,16 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 15:00",
+      "imo": "9968853",
+      "navio": "KOTA EBONY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -737,26 +837,6 @@
       "tipo": "SAÍDA",
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "29/04/2026 17:00",
-      "imo": "9965928",
-      "navio": "FRONTIER SPIRIT",
-      "tipo": "MUDANÇA",
-      "de": "102 - TECAR - CSN MINERAÇÃO S.A.",
-      "para": "101 - TECAR - CSN MINERAÇÃO S.A.",
-      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "29/04/2026 18:30",
-      "imo": "9871098",
-      "navio": "HUGO OLDENDORFF",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
-      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
