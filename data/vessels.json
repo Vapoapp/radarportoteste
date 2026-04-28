@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-04-28T18:54:30.831Z",
+  "updatedAt": "2026-04-28T20:10:39.783Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 42
+      "count": 48
     },
     "niteroi": {
       "ok": true,
@@ -142,12 +142,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 08:00",
-      "imo": "8637926",
-      "navio": "RIOPORT II",
+      "imo": "9494618",
+      "navio": "A.H. VALLETTA (REB)",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2N16 - Armazém 16",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N05 - Armazém 6",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -158,6 +158,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 08:00",
+      "imo": "8637926",
+      "navio": "RIOPORT II",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2N16 - Armazém 16",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -232,6 +242,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 12:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 12:00",
       "imo": "9440681",
       "navio": "SKUA",
       "tipo": "SAÍDA",
@@ -248,16 +268,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/04/2026 12:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -321,6 +331,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 15:00",
+      "imo": "9578919",
+      "navio": "CBO PACÍFICO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 15:20",
       "imo": "9477397",
       "navio": "CBO CAROLINA",
@@ -328,16 +348,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/04/2026 15:30",
-      "imo": "9525388",
-      "navio": "MAERSK CHACHAI",
-      "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -351,6 +361,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 15:30",
+      "imo": "9525388",
+      "navio": "MAERSK CHACHAI",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 16:00",
       "imo": "9636034",
       "navio": "ORYX (REB)",
@@ -361,6 +381,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 17:00",
+      "imo": "9442067",
+      "navio": "TORDA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "MAGALLANES NAVEGACAO BRASILEIRA SA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 17:30",
+      "imo": "9494618",
+      "navio": "A.H. VALLETTA (REB)",
+      "tipo": "SAÍDA",
+      "de": "2N05 - Armazém 6",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "28/04/2026 18:00",
       "imo": "9656204",
       "navio": "SAPURA ESMERALDA",
@@ -368,6 +408,16 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/04/2026 20:00",
+      "imo": "9668726",
+      "navio": "STARNAV PERSEUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -398,6 +448,16 @@
       "de": "2N06 - Armazém 7",
       "para": "-",
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 05:30",
+      "imo": "1025124",
+      "navio": "WINDEA CURIE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",

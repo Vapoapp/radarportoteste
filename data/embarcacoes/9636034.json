@@ -1,29 +1,36 @@
 {
   "imo": "9636034",
   "navio": "ORYX (REB)",
-  "gerado_em": "2026-04-28T18:54:30.831Z",
+  "gerado_em": "2026-04-28T20:10:39.783Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "porto": "Rio de Janeiro",
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-27T19:00:00.000Z"
+    "ultima_movimentacao": "2026-04-28T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 14,
-    "manobras_365d": 14,
+    "manobras_30d": 15,
+    "manobras_180d": 15,
+    "manobras_365d": 15,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 9,
+    "mudancas_30d": 10,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-23T08:00:00.000Z",
     "ultima_saida": "2026-04-16T22:00:00.000Z",
     "tempo_medio_estadia_horas": 63.5,
-    "tempo_medio_fundeio_horas": 19.8
+    "tempo_medio_fundeio_horas": 37.2
   },
   "historico_recente": [
+    {
+      "data": "2026-04-28T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-04-27T19:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "-"
-    },
-    {
-      "data": "2026-04-07T13:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
     }
   ]
 }
