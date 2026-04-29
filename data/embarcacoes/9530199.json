@@ -1,29 +1,36 @@
 {
   "imo": "9530199",
   "navio": "SANTOS SERVICE",
-  "gerado_em": "2026-04-29T10:30:25.531Z",
+  "gerado_em": "2026-04-29T12:05:18.467Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-25T04:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-29T11:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 1,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-24T08:30:00.000Z",
-    "ultima_saida": "2026-04-19T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 27,
-    "tempo_medio_fundeio_horas": 27
+    "ultima_saida": "2026-04-29T11:30:00.000Z",
+    "tempo_medio_estadia_horas": 75,
+    "tempo_medio_fundeio_horas": 65.3
   },
   "historico_recente": [
+    {
+      "data": "2026-04-29T11:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-04-25T04:00:00.000Z",
       "tipo": "MUDANÇA",
