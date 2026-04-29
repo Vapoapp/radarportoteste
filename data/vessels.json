@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-29T04:00:25.183Z",
+  "updatedAt": "2026-04-29T06:31:07.286Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 20
+      "count": 26
     },
     "niteroi": {
       "ok": true,
-      "count": 0
+      "count": 1
     },
     "itaguai": {
       "ok": true,
@@ -19,6 +19,16 @@
     }
   },
   "vessels": [
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 00:00",
+      "imo": "9423437",
+      "navio": "AKOFS SANTOS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPS2 - PETROBRAS PS2",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "29/04/2026 00:30",
@@ -62,12 +72,42 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "29/04/2026 03:00",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 03:00",
       "imo": "9762742",
       "navio": "POSIDONIA LEOPARD (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 04:00",
+      "imo": "9459759",
+      "navio": "SKANDI SKANSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 04:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -102,12 +142,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "29/04/2026 06:00",
-      "imo": "9578672",
-      "navio": "SEA1 GIANT",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
+      "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -122,12 +162,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "29/04/2026 06:00",
+      "imo": "9529891",
+      "navio": "JOE GRIFFIN (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 06:00",
       "imo": "2412230323",
       "navio": "SÃO LUIS",
       "tipo": "MUDANÇA",
       "de": "2N11 - Armazém 13",
       "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/04/2026 06:00",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -218,6 +278,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "29/04/2026 06:30",
+      "imo": "9578660",
+      "navio": "SEA1 ATLAS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Itaguaí",
