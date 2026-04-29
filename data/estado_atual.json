@@ -438,14 +438,14 @@
     "navio": "HAROLDO RAMOS",
     "navio_normalizado": "HAROLDO RAMOS",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "-",
     "agente_atual": "ASGAARD NAVEGACAO S/A",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T22:30:00.000Z",
-    "ultimo_hash_evento": "783366f8e641f39b22e49cdce051d62ada7955b7bc12e4bc49f4e2bb33cec33d",
-    "atualizado_em": "2026-04-28T23:12:06.014Z"
+    "ultima_movimentacao_em": "2026-04-29T13:20:00.000Z",
+    "ultimo_hash_evento": "b35cffed5c89c41ae78fdab2271ae87c154fe375b7a66da5966469b51cb1093a",
+    "atualizado_em": "2026-04-29T14:27:34.343Z"
   },
   "9271755": {
     "imo": "9271755",
@@ -1273,6 +1273,20 @@
     "ultimo_hash_evento": "1890fca7ca29a25cbceb1a8d8a179f6c4b9e382600d15b986a064843a105cfd1",
     "atualizado_em": "2026-04-24T05:24:49.056Z"
   },
+  "9381495": {
+    "imo": "9381495",
+    "navio": "A.H. LIGURIA (REB)",
+    "navio_normalizado": "A.H. LIGURIA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "FINARGE APOIO MARITIMO LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T14:00:00.000Z",
+    "ultimo_hash_evento": "f983e4854e552b7a6f70cf28037a0cff6aff0abd44a81e0ab7459e5b9529cd81",
+    "atualizado_em": "2026-04-29T14:27:34.343Z"
+  },
   "9385257": {
     "imo": "9385257",
     "navio": "HOS MAVERICK",
@@ -1880,14 +1894,14 @@
     "navio": "GAZ SYNERGY",
     "navio_normalizado": "GAZ SYNERGY",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPIR - ILHA REDONDA",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPIR - ILHA REDONDA",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T11:30:00.000Z",
-    "ultimo_hash_evento": "54d68836138cf6ccdd698d514e94e68f7f947578819a26e6fd882721d0579359",
-    "atualizado_em": "2026-04-28T15:35:55.765Z"
+    "ultima_movimentacao_em": "2026-04-29T14:00:00.000Z",
+    "ultimo_hash_evento": "8afbdc468689c7c7a5e4e2c5b37a60e158bb56e37829d482ee8caf1403bc6cc2",
+    "atualizado_em": "2026-04-29T14:27:34.343Z"
   },
   "9459759": {
     "imo": "9459759",
@@ -2860,14 +2874,14 @@
     "navio": "SKANDI PARATY",
     "navio_normalizado": "SKANDI PARATY",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-28T13:00:00.000Z",
-    "ultimo_hash_evento": "8a658d0a767fa143f3cae58709d89f4a3fb7deba65cded1536131c228ec2267f",
-    "atualizado_em": "2026-04-28T13:08:52.455Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T14:00:00.000Z",
+    "ultimo_hash_evento": "a7e2ad5e06bf43d31c5afd4e9d726d9bb4de16fbdfd49c9be3b6b691168f8764",
+    "atualizado_em": "2026-04-29T14:27:34.343Z"
   },
   "9604902": {
     "imo": "9604902",
@@ -5416,6 +5430,20 @@
     "ultima_movimentacao_em": "2026-04-28T18:30:00.000Z",
     "ultimo_hash_evento": "b24d8dd01d3946c1be6b0150853295ce5f490882155764f19ce11e839cec7dd9",
     "atualizado_em": "2026-04-28T18:54:30.831Z"
+  },
+  "9968853": {
+    "imo": "9968853",
+    "navio": "KOTA EBONY",
+    "navio_normalizado": "KOTA EBONY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T13:00:00.000Z",
+    "ultimo_hash_evento": "743bea01f3095d7489af6312f5aeb7dc644009e97b4e8960d3748fc9949a5b0c",
+    "atualizado_em": "2026-04-29T14:27:34.343Z"
   },
   "9973315": {
     "imo": "9973315",
