@@ -3827,13 +3827,13 @@
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T03:00:00.000Z",
-    "ultimo_hash_evento": "cc26f75cf7dc87c42e5cded940429ac2a432b76ec1bb8694f6cbe9644d2d8ff0",
-    "atualizado_em": "2026-04-28T04:45:10.638Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-29T03:30:00.000Z",
+    "ultimo_hash_evento": "e3e23c4291c6ef2fe905ce00eb24bf64e92dcb17cc1c6435ca27c7ceb6bfb277",
+    "atualizado_em": "2026-04-29T04:00:25.183Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -4722,14 +4722,14 @@
     "navio": "STARNAV SCORPIUS",
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T18:30:00.000Z",
-    "ultimo_hash_evento": "2cde7adedb08af9dbc9fc9e0a69417f27244da6c9d5b8c79d1b2526ab5c6657b",
-    "atualizado_em": "2026-04-28T18:54:30.831Z"
+    "ultima_movimentacao_em": "2026-04-29T04:00:00.000Z",
+    "ultimo_hash_evento": "7ebbcbab0c8eb617c39996eb5bf17fd439711e1571716c5dc54dd73c5c85e334",
+    "atualizado_em": "2026-04-29T04:00:25.183Z"
   },
   "9802255": {
     "imo": "9802255",
@@ -5346,6 +5346,20 @@
     "ultima_movimentacao_em": "2026-04-07T13:00:00.000Z",
     "ultimo_hash_evento": "05a117260e366c660b5d6096cbd3f8ac617d14280eabe08ee3a3015a4fd11782",
     "atualizado_em": "2026-04-07T18:36:36.590Z"
+  },
+  "9965772": {
+    "imo": "9965772",
+    "navio": "FIRANDO",
+    "navio_normalizado": "FIRANDO",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T04:00:00.000Z",
+    "ultimo_hash_evento": "9568e1697db538ab8d2996a10b2189ad3c1a8f7b2053e57d214657fd61c2003f",
+    "atualizado_em": "2026-04-29T04:00:25.183Z"
   },
   "9965837": {
     "imo": "9965837",
