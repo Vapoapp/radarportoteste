@@ -979,6 +979,20 @@
     "ultimo_hash_evento": "6c312a3b507228577c1f80dcdada61f3b4c796696f5afac37add62b915cf8cf1",
     "atualizado_em": "2026-04-15T09:46:49.883Z"
   },
+  "9347322": {
+    "imo": "9347322",
+    "navio": "HOS SPRINGFIELD",
+    "navio_normalizado": "HOS SPRINGFIELD",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "DOCKBRASIL - DOCKBRASIL",
+    "destino_atual": "-",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T15:00:00.000Z",
+    "ultimo_hash_evento": "03818bd83386e1238712a9d3914769fe6c59b674dc5c8e117b25ba21c8bb7d86",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
+  },
   "9347358": {
     "imo": "9347358",
     "navio": "ALLIE CHOUEST",
@@ -1755,13 +1769,13 @@
     "navio_normalizado": "TALHA-MAR",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "NIT - ATRACADO NITERÓI",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T15:00:00.000Z",
-    "ultimo_hash_evento": "b10af92ef268ae7047923a5a0c1e391c6964ac65f9aeafe3925c38ab3c103dd0",
-    "atualizado_em": "2026-04-28T15:35:55.765Z"
+    "ultima_movimentacao_em": "2026-04-29T15:00:00.000Z",
+    "ultimo_hash_evento": "8e02493d03028260512f4a88ec66ef7c46363d1217771c55d30665388ce8496d",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
   },
   "9442067": {
     "imo": "9442067",
@@ -1838,14 +1852,14 @@
     "navio": "ZUMBI DOS PALMARES",
     "navio_normalizado": "ZUMBI DOS PALMARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - WPT 82 - 2F08",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - WPT 81 - 2F08",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "GAC DO BRASIL LTDA.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-27T16:00:00.000Z",
-    "ultimo_hash_evento": "17660bfcc76e8146fdd3b18db2e2077655d62f58b6d95475b0c6238d1cbe345d",
-    "atualizado_em": "2026-04-28T01:15:36.585Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T15:00:00.000Z",
+    "ultimo_hash_evento": "eed584026ee048617922d867c50c5f2402d49685080c47d249b965839507b355",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
   },
   "9453896": {
     "imo": "9453896",
@@ -3113,13 +3127,13 @@
     "navio_normalizado": "CBO ARPOADOR",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-18T15:00:00.000Z",
-    "ultimo_hash_evento": "98720efd308722419516d3bda4562926b1b33252c15aacaf9e4fc607a68c7e14",
-    "atualizado_em": "2026-04-18T15:06:59.121Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T16:00:00.000Z",
+    "ultimo_hash_evento": "d3f50f7d207c6a67e50417326537977f4e5da4f8858152d51cf97068b71d3a83",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
   },
   "9627631": {
     "imo": "9627631",
@@ -3350,14 +3364,14 @@
     "navio": "BRAM BELEM",
     "navio_normalizado": "BRAM BELEM",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-29T00:00:00.000Z",
-    "ultimo_hash_evento": "24b09a44b55ef9063924a4520ad7316c77c887e9aad67c23e416e6ddcb56acb2",
-    "atualizado_em": "2026-04-29T00:07:41.045Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-29T15:00:00.000Z",
+    "ultimo_hash_evento": "d00cc774b01625cad194c5c4ad2ec1f19304e45b72d801260a7b34c02082ed7e",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
   },
   "9649029": {
     "imo": "9649029",
@@ -3573,15 +3587,15 @@
     "imo": "9668726",
     "navio": "STARNAV PERSEUS",
     "navio_normalizado": "STARNAV PERSEUS",
-    "porto_atual": "Rio de Janeiro",
+    "porto_atual": "Niterói",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-29T09:00:00.000Z",
-    "ultimo_hash_evento": "2dd6a31cf217154bf14d307b3ca0a49b698d7bb24b8032d2b7670a0d4044de53",
-    "atualizado_em": "2026-04-29T10:30:25.531Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T15:00:00.000Z",
+    "ultimo_hash_evento": "ce22c8aaa5b0780714d03e0ea5c0bfa4726bae4ef216278368bed08bb9f5837e",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
   },
   "9668738": {
     "imo": "9668738",
@@ -4535,6 +4549,20 @@
     "ultimo_hash_evento": "a407fde9d6bf054172e0ea5588eac32fddf56dc5b23178fe279a0abb13e19ba6",
     "atualizado_em": "2026-04-26T03:50:24.840Z"
   },
+  "9767819": {
+    "imo": "9767819",
+    "navio": "CBO XAVANTES",
+    "navio_normalizado": "CBO XAVANTES",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPBR - BRASCO",
+    "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T15:00:00.000Z",
+    "ultimo_hash_evento": "23f3a5cb7dadb978724455acd76cb560e79bab6dc1c3171b6b060e990e24e373",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
+  },
   "9767833": {
     "imo": "9767833",
     "navio": "CBO PARINTINS",
@@ -5165,6 +5193,20 @@
     "ultimo_hash_evento": "456d80a73ed29e8759ab19ba1af064f07116a0eb7299107f76547402c8cf2aa2",
     "atualizado_em": "2026-04-23T23:02:37.026Z"
   },
+  "9916197": {
+    "imo": "9916197",
+    "navio": "ASANAGI",
+    "navio_normalizado": "ASANAGI",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB4 - Área de Fundeio B4",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-04-29T15:00:00.000Z",
+    "ultimo_hash_evento": "af86c1c606ab754b1cab1c5d4e104413f6ae23694a7760db57f5a21bfc7ac3e1",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
+  },
   "9926415": {
     "imo": "9926415",
     "navio": "SHANDONG CIVILIZATION",
@@ -5674,14 +5716,14 @@
     "navio": "COSTA NOVA",
     "navio_normalizado": "COSTA NOVA",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FD0 - Área de Fundeio D",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 5FD0 - Área de Fundeio D",
+    "destino_atual": "-",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-28T23:00:00.000Z",
-    "ultimo_hash_evento": "991f440c691f05627e70144ac9ef4c5884bdf25079c119ee62b1da805bc66e74",
-    "atualizado_em": "2026-04-28T23:12:06.014Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-04-29T15:00:00.000Z",
+    "ultimo_hash_evento": "d131ec0dfc409b85aba2f4616ddefd72a5c1ed1ebdc1a43e121687fa3d163e1c",
+    "atualizado_em": "2026-04-29T16:13:48.663Z"
   },
   "3813896277": {
     "imo": "3813896277",
