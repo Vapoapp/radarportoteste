@@ -1,29 +1,36 @@
 {
   "imo": "9630327",
   "navio": "POSIDONIA JAGUAR",
-  "gerado_em": "2026-04-30T17:59:06.111Z",
+  "gerado_em": "2026-04-30T19:42:02.459Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-04-30T11:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-04-30T19:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
-    "entradas_30d": 4,
+    "manobras_30d": 9,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
+    "entradas_30d": 5,
     "saidas_30d": 4,
     "mudancas_30d": 0,
-    "entradas_365d": 4,
+    "entradas_365d": 5,
     "saidas_365d": 4,
-    "ultima_entrada": "2026-04-29T18:00:00.000Z",
+    "ultima_entrada": "2026-04-30T19:30:00.000Z",
     "ultima_saida": "2026-04-30T11:00:00.000Z",
     "tempo_medio_estadia_horas": 52.4,
     "tempo_medio_fundeio_horas": 52.4
   },
   "historico_recente": [
+    {
+      "data": "2026-04-30T19:30:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-04-30T11:00:00.000Z",
       "tipo": "SAÍDA",
