@@ -1,29 +1,36 @@
 {
   "imo": "9644146",
   "navio": "ALCATRAZ",
-  "gerado_em": "2026-04-30T21:40:46.213Z",
+  "gerado_em": "2026-04-30T23:31:44.327Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-30T09:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-30T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 12,
-    "manobras_365d": 12,
+    "manobras_30d": 13,
+    "manobras_180d": 13,
+    "manobras_365d": 13,
     "entradas_30d": 5,
     "saidas_30d": 3,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 5,
     "saidas_365d": 3,
     "ultima_entrada": "2026-04-30T09:00:00.000Z",
     "ultima_saida": "2026-04-23T03:00:00.000Z",
     "tempo_medio_estadia_horas": 28.2,
-    "tempo_medio_fundeio_horas": 80.3
+    "tempo_medio_fundeio_horas": 58.2
   },
   "historico_recente": [
+    {
+      "data": "2026-04-30T23:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-04-30T09:00:00.000Z",
       "tipo": "ENTRADA",
@@ -85,13 +92,6 @@
       "tipo": "ENTRADA",
       "porto": "Rio de Janeiro",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-09T15:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "NIT - ATRACADO NITERÓI",
       "para": "Fundeio - 2F6A - LARGO"
     }
   ]
