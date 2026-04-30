@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-04-30T11:15:20.562Z",
+  "updatedAt": "2026-04-30T12:56:37.277Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 48
+      "count": 52
     },
     "niteroi": {
       "ok": true,
-      "count": 5
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -138,16 +138,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "30/04/2026 03:00",
-      "imo": "9702754",
-      "navio": "SAPURA JADE",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - WPT 82 - 2F08",
-      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -292,12 +282,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/04/2026 07:00",
-      "imo": "9239446",
-      "navio": "SKANDI CARLA",
+      "imo": "9600580",
+      "navio": "SKANDI ANGRA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,12 +302,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/04/2026 07:00",
-      "imo": "9600580",
-      "navio": "SKANDI ANGRA",
+      "imo": "9239446",
+      "navio": "SKANDI CARLA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -362,12 +352,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/04/2026 08:00",
+      "imo": "9578919",
+      "navio": "CBO PACÍFICO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/04/2026 08:00",
       "imo": "9630327",
       "navio": "POSIDONIA JAGUAR",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/04/2026 08:15",
+      "imo": "9578919",
+      "navio": "CBO PACÍFICO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -388,6 +398,16 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/04/2026 10:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -428,6 +448,26 @@
       "de": "Fundeio - WPT 81 - 2F08",
       "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/04/2026 13:00",
+      "imo": "0011444517",
+      "navio": "DONA ISA (EX SANTA BÁRBARA XV)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/04/2026 13:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -508,6 +548,16 @@
       "de": "-",
       "para": "ESWS - ESTALEIRO",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "30/04/2026 00:30",
+      "imo": "9409651",
+      "navio": "OCEANICASUB XV (REB)",
+      "tipo": "SAÍDA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "-",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Niterói",
