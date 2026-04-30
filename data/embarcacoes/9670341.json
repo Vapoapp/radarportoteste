@@ -1,29 +1,36 @@
 {
   "imo": "9670341",
   "navio": "BLUE ORCA",
-  "gerado_em": "2026-04-30T19:42:02.459Z",
+  "gerado_em": "2026-04-30T20:43:18.086Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-29T14:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-04-30T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 1,
     "entradas_365d": 2,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-04-27T03:00:00.000Z",
-    "ultima_saida": "2026-04-19T09:00:00.000Z",
-    "tempo_medio_estadia_horas": 91.5,
+    "ultima_saida": "2026-04-30T20:00:00.000Z",
+    "tempo_medio_estadia_horas": 90.3,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-04-30T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "-"
+    },
     {
       "data": "2026-04-29T14:00:00.000Z",
       "tipo": "MUDANÇA",
