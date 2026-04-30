@@ -1,21 +1,21 @@
 {
   "imo": "9424962",
   "navio": "SAVEIROS PELICANO",
-  "gerado_em": "2026-04-30T09:29:41.075Z",
+  "gerado_em": "2026-04-30T11:15:20.562Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
+    "porto": "Niterói",
     "em_fundeio": true,
     "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-26T19:30:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-04-30T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-26T19:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 63
   },
   "historico_recente": [
+    {
+      "data": "2026-04-30T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESWS - ESTALEIRO",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-04-26T19:30:00.000Z",
       "tipo": "ENTRADA",
