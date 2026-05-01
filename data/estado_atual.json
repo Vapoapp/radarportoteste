@@ -2589,6 +2589,20 @@
     "ultimo_hash_evento": "8d622a6332cbc3ede78581461b83f5d02ef6ce95b01215b482b1771532b1e51b",
     "atualizado_em": "2026-04-25T18:42:47.279Z"
   },
+  "9531844": {
+    "imo": "9531844",
+    "navio": "SPRING VENTURE",
+    "navio_normalizado": "SPRING VENTURE",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "GEM SHIPPING LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-01T03:30:00.000Z",
+    "ultimo_hash_evento": "4a145ae88859fe849df978f0d53856fb46de4dc0220151472de247a70685e5c9",
+    "atualizado_em": "2026-05-01T05:00:42.734Z"
+  },
   "9534432": {
     "imo": "9534432",
     "navio": "INDUSTRIAL MOMENTUM",
@@ -3155,13 +3169,13 @@
     "navio_normalizado": "CBO MISTRAL",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-30T15:00:00.000Z",
-    "ultimo_hash_evento": "2048ef01ecbc56e9b71d032b8e5d9d5b5301599f5e8e64e5ca7f41661ab7c953",
-    "atualizado_em": "2026-04-30T16:45:34.317Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-01T03:00:00.000Z",
+    "ultimo_hash_evento": "d9e8718591d12e322b1aae81f2998a0dbb36e97bec505a2eacdd9a4f9ba82556",
+    "atualizado_em": "2026-05-01T05:00:42.734Z"
   },
   "9621546": {
     "imo": "9621546",
@@ -3509,9 +3523,9 @@
     "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-30T23:00:00.000Z",
-    "ultimo_hash_evento": "f225163ba276530ce2480b50c7b2ed7c5241ed2ce3bf0541e9b99b9e863af06a",
-    "atualizado_em": "2026-04-30T23:31:44.327Z"
+    "ultima_movimentacao_em": "2026-05-01T03:00:00.000Z",
+    "ultimo_hash_evento": "d2a09daa8d364c4f1a33b8654b83a4f98d29fee05035c43b73301cb147f97f98",
+    "atualizado_em": "2026-05-01T05:00:42.734Z"
   },
   "9644160": {
     "imo": "9644160",
@@ -3750,6 +3764,20 @@
     "ultima_movimentacao_em": "2026-04-23T21:00:00.000Z",
     "ultimo_hash_evento": "08821f96310f15da2708431725cbbb3b5d1cf203b2cecbadb3c9bca8d5c84eb0",
     "atualizado_em": "2026-04-23T21:24:41.532Z"
+  },
+  "9665566": {
+    "imo": "9665566",
+    "navio": "A.H. VARAZZE (REB)",
+    "navio_normalizado": "A.H. VARAZZE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
+    "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-01T05:00:00.000Z",
+    "ultimo_hash_evento": "8125f0a41664a766b79b3f3397a856d6447f3c96296dfb61fa67122ffdf6c93c",
+    "atualizado_em": "2026-05-01T05:00:42.734Z"
   },
   "9668726": {
     "imo": "9668726",
@@ -4036,14 +4064,14 @@
     "navio": "WILDEBEEST (REB)",
     "navio_normalizado": "WILDEBEEST",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPBL - BRICLOG",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPBL - BRICLOG",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-30T10:00:00.000Z",
-    "ultimo_hash_evento": "65cb0f7972d6aff7cf17f03aa206f39c45a42b0a977e8c52ae371c9d45aaecd2",
-    "atualizado_em": "2026-04-30T11:15:20.562Z"
+    "ultima_movimentacao_em": "2026-05-01T03:10:00.000Z",
+    "ultimo_hash_evento": "7ecebca99d252e6dda19567b08db0c8c6e72dbf1f4a95966f0e180a94d3e52a9",
+    "atualizado_em": "2026-05-01T05:00:42.734Z"
   },
   "9696802": {
     "imo": "9696802",
@@ -4190,14 +4218,14 @@
     "navio": "CL CONTIGO",
     "navio_normalizado": "CL CONTIGO",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "destino_atual": "-",
     "agente_atual": "GEM SHIPPING LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T03:30:00.000Z",
-    "ultimo_hash_evento": "7b8bb6ffed41fb3c1138fc9adbd7e8da56702e580b1f99115bff3ee90092d7e7",
-    "atualizado_em": "2026-04-28T04:45:10.638Z"
+    "ultima_movimentacao_em": "2026-05-01T05:00:00.000Z",
+    "ultimo_hash_evento": "4d322b655df4b01e89970963a88081b2e14830e75628f47a035e8795878f2d30",
+    "atualizado_em": "2026-05-01T05:00:42.734Z"
   },
   "9703667": {
     "imo": "9703667",
