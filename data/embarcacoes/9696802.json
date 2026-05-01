@@ -1,29 +1,36 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-04-30T23:31:44.327Z",
+  "gerado_em": "2026-05-01T01:22:52.311Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "porto": "Niterói",
+    "em_fundeio": false,
+    "local": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-30T14:00:00.000Z"
+    "ultima_movimentacao": "2026-04-30T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 16,
-    "manobras_365d": 16,
+    "manobras_30d": 17,
+    "manobras_180d": 17,
+    "manobras_365d": 17,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 11,
+    "mudancas_30d": 12,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-23T15:00:00.000Z",
     "ultima_saida": "2026-04-23T11:00:00.000Z",
     "tempo_medio_estadia_horas": 89,
-    "tempo_medio_fundeio_horas": 36.8
+    "tempo_medio_fundeio_horas": 32.9
   },
   "historico_recente": [
+    {
+      "data": "2026-04-30T23:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A."
+    },
     {
       "data": "2026-04-30T14:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-12T07:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }

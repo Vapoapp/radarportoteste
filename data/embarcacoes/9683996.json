@@ -1,29 +1,36 @@
 {
   "imo": "9683996",
   "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
-  "gerado_em": "2026-04-30T23:31:44.327Z",
+  "gerado_em": "2026-05-01T01:22:52.311Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-30T23:00:00.000Z"
+    "ultima_movimentacao": "2026-04-30T23:50:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 14,
-    "manobras_365d": 14,
+    "manobras_30d": 15,
+    "manobras_180d": 15,
+    "manobras_365d": 15,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 10,
+    "mudancas_30d": 11,
     "entradas_365d": 2,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-26T20:30:00.000Z",
     "ultima_saida": "2026-04-21T21:00:00.000Z",
     "tempo_medio_estadia_horas": 184.5,
-    "tempo_medio_fundeio_horas": 7
+    "tempo_medio_fundeio_horas": 21
   },
   "historico_recente": [
+    {
+      "data": "2026-04-30T23:50:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
+    },
     {
       "data": "2026-04-30T23:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-04-14T21:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
