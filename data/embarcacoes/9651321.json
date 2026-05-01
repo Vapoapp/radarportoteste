@@ -1,29 +1,36 @@
 {
   "imo": "9651321",
   "navio": "AEGIS (REB)",
-  "gerado_em": "2026-05-01T18:10:49.886Z",
+  "gerado_em": "2026-05-01T19:38:08.854Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-01T13:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-05-01T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
-    "entradas_30d": 1,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 1,
+    "entradas_365d": 2,
     "saidas_365d": 1,
-    "ultima_entrada": "2026-04-28T04:00:00.000Z",
+    "ultima_entrada": "2026-05-01T19:00:00.000Z",
     "ultima_saida": "2026-05-01T13:00:00.000Z",
     "tempo_medio_estadia_horas": 81,
     "tempo_medio_fundeio_horas": 81
   },
   "historico_recente": [
+    {
+      "data": "2026-05-01T19:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-05-01T13:00:00.000Z",
       "tipo": "SAÍDA",
