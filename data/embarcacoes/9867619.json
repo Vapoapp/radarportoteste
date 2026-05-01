@@ -1,29 +1,36 @@
 {
   "imo": "9867619",
   "navio": "AITOLOS",
-  "gerado_em": "2026-05-01T09:17:48.702Z",
+  "gerado_em": "2026-05-01T10:47:06.521Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 81 - 2F08",
+    "em_fundeio": false,
+    "local": "TPP1 - PETROBRAS PP1",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-30T18:00:00.000Z"
+    "ultima_movimentacao": "2026-05-01T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-23T10:30:00.000Z",
     "ultima_saida": null,
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 41
   },
   "historico_recente": [
+    {
+      "data": "2026-05-01T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 81 - 2F08",
+      "para": "TPP1 - PETROBRAS PP1"
+    },
     {
       "data": "2026-04-30T18:00:00.000Z",
       "tipo": "MUDANÇA",
