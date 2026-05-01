@@ -3433,15 +3433,15 @@
     "imo": "9636022",
     "navio": "SABLE (REB)",
     "navio_normalizado": "SABLE",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "-",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-26T14:30:00.000Z",
-    "ultimo_hash_evento": "911ec2ff62cf059f71c4f91020b136a919d7a6f0fa6fdb70639d3b4bd8e4f9c2",
-    "atualizado_em": "2026-04-26T15:02:27.300Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-01T20:30:00.000Z",
+    "ultimo_hash_evento": "9d4a11c725fa9afd8d79a93479a17654d964fe0585ef66d6085a96817ef4a0e8",
+    "atualizado_em": "2026-05-01T20:30:56.677Z"
   },
   "9636034": {
     "imo": "9636034",
@@ -3504,14 +3504,14 @@
     "navio": "LARUS",
     "navio_normalizado": "LARUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-30T17:30:00.000Z",
-    "ultimo_hash_evento": "920f88dd78ffd07bb6e36f781bf34f69938ce0f06de63474977b4b9607bcc2d9",
-    "atualizado_em": "2026-04-30T17:59:06.111Z"
+    "ultima_movimentacao_em": "2026-05-01T20:00:00.000Z",
+    "ultimo_hash_evento": "dffd7ee6d7de8e7b9fac6c4999730d6926c510dfeeb9e48ea1c7ab5b7486feca",
+    "atualizado_em": "2026-05-01T20:30:56.677Z"
   },
   "9642590": {
     "imo": "9642590",
@@ -5178,6 +5178,20 @@
     "ultima_movimentacao_em": "2026-05-01T14:30:00.000Z",
     "ultimo_hash_evento": "7c605f1ec7ff87060ce313743b2ef2a2ca1c4e62b21b41e28ee1f31a000c099b",
     "atualizado_em": "2026-05-01T15:12:25.664Z"
+  },
+  "9829409": {
+    "imo": "9829409",
+    "navio": "ARCTOS",
+    "navio_normalizado": "ARCTOS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPS1 - PETROBRAS PS1",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-01T20:00:00.000Z",
+    "ultimo_hash_evento": "a303b6a047e99a49eed1f00f2005193a5b069441686e0200464a91ab7b444e52",
+    "atualizado_em": "2026-05-01T20:30:56.677Z"
   },
   "9830056": {
     "imo": "9830056",
