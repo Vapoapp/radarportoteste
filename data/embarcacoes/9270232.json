@@ -1,21 +1,21 @@
 {
   "imo": "9270232",
   "navio": "YVAN BARRETTO",
-  "gerado_em": "2026-05-02T17:13:32.357Z",
+  "gerado_em": "2026-05-02T18:02:46.051Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "ESPR - MacLaren Ilha da Conceição",
-    "ultimo_tipo_evento": "ENTRADA",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
     "ultima_movimentacao": "2026-05-02T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-05-02T17:00:00.000Z",
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "ESPR - MacLaren Ilha da Conceição"
+    },
+    {
+      "data": "2026-05-02T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

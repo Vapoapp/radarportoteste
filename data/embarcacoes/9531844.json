@@ -1,29 +1,36 @@
 {
   "imo": "9531844",
   "navio": "SPRING VENTURE",
-  "gerado_em": "2026-05-02T17:13:32.357Z",
+  "gerado_em": "2026-05-02T18:02:46.051Z",
   "estado_atual": {
     "porto": "Itaguaí",
     "em_fundeio": false,
-    "local": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-01T03:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-02T17:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-05-01T03:30:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-05-02T17:30:00.000Z",
+    "tempo_medio_estadia_horas": 38,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-05-02T17:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Itaguaí",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-"
+    },
     {
       "data": "2026-05-01T03:30:00.000Z",
       "tipo": "ENTRADA",
