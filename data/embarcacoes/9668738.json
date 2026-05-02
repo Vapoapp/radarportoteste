@@ -1,21 +1,21 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-05-02T22:08:28.202Z",
+  "gerado_em": "2026-05-02T23:01:32.857Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-02T00:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-02T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 11,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 3,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-02T00:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 79.3
   },
   "historico_recente": [
+    {
+      "data": "2026-05-02T23:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-02T00:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-07T00:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "-"
     }
   ]
 }
