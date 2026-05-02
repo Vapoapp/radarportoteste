@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-02T09:54:52.122Z",
+  "updatedAt": "2026-05-02T11:33:06.105Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 24
+      "count": 34
     },
     "niteroi": {
       "ok": true,
@@ -28,6 +28,16 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "2C22 - TECON 2 - MRIO",
       "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 03:00",
+      "imo": "8637926",
+      "navio": "RIOPORT II",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - 2F09 - XAREU",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -121,13 +131,23 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 07:00",
+      "imo": "9767833",
+      "navio": "CBO PARINTINS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N05 - Armazém 6",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 08:00",
-      "imo": "9659567",
-      "navio": "BARU ÁTRIA",
+      "imo": "9616187",
+      "navio": "SCOTSMAN TIDE (REB)",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Rio de Janeiro",
@@ -142,12 +162,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 08:00",
-      "imo": "9616187",
-      "navio": "SCOTSMAN TIDE (REB)",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 08:30",
+      "imo": "9715206",
+      "navio": "AFRICAN PLOVER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N10 - Terminal de Trigo",
+      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 09:00",
+      "imo": "9417828",
+      "navio": "NORMAND SAGARIS (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -198,6 +238,16 @@
       "de": "-",
       "para": "TPAM - ARSENAL DA MARINHA",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 12:30",
+      "imo": "9757797",
+      "navio": "PORT PIRIE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +308,56 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/05/2026 01:30",
+      "imo": "9928188",
+      "navio": "MAERSK ACADIA",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/05/2026 06:30",
+      "imo": "9630420",
+      "navio": "XIAMEN EXPRESS",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/05/2026 06:30",
+      "imo": "9640114",
+      "navio": "LUMPHINI PARK",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPT - NEOLUBES",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/05/2026 07:00",
+      "imo": "9403786",
+      "navio": "COSTA DO FUTURO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBK - BRASKEM",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/05/2026 07:30",
+      "imo": "9770749",
+      "navio": "MSC BIANCA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Itaguaí",
