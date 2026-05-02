@@ -1,29 +1,36 @@
 {
   "imo": "9687356",
   "navio": "NORMAND NAVIGATOR",
-  "gerado_em": "2026-05-02T18:02:46.051Z",
+  "gerado_em": "2026-05-02T19:14:19.932Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-14T11:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2N06 - Armazém 7",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-02T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-14T11:00:00.000Z",
     "ultima_saida": "2026-04-11T18:00:00.000Z",
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 431
   },
   "historico_recente": [
+    {
+      "data": "2026-05-02T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N06 - Armazém 7"
+    },
     {
       "data": "2026-04-14T11:00:00.000Z",
       "tipo": "ENTRADA",

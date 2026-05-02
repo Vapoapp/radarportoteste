@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-05-02T18:02:46.051Z",
+  "updatedAt": "2026-05-02T19:14:19.932Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 46
+      "count": 57
     },
     "niteroi": {
       "ok": true,
-      "count": 0
+      "count": 1
     },
     "itaguai": {
       "ok": true,
-      "count": 2
+      "count": 8
     },
     "angra": {
       "ok": true,
@@ -132,6 +132,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 07:00",
+      "imo": "9687356",
+      "navio": "NORMAND NAVIGATOR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N06 - Armazém 7",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 07:00",
       "imo": "9767833",
       "navio": "CBO PARINTINS",
       "tipo": "ENTRADA",
@@ -142,12 +152,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 08:00",
-      "imo": "9616187",
-      "navio": "SCOTSMAN TIDE (REB)",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -162,12 +172,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 08:00",
-      "imo": "9659567",
-      "navio": "BARU ÁTRIA",
+      "imo": "9616187",
+      "navio": "SCOTSMAN TIDE (REB)",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Rio de Janeiro",
@@ -232,11 +242,11 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 10:30",
-      "imo": "9679177",
-      "navio": "WS PEGASUS",
+      "imo": "7351783",
+      "navio": "FPSO PETROBRAS 35",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "TPAM - ARSENAL DA MARINHA",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
@@ -252,11 +262,11 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 10:30",
-      "imo": "7351783",
-      "navio": "FPSO PETROBRAS 35",
+      "imo": "9679177",
+      "navio": "WS PEGASUS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "TPAM - ARSENAL DA MARINHA",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
@@ -282,22 +292,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 12:30",
-      "imo": "9757797",
-      "navio": "PORT PIRIE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N07 - Pátio 8/9",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/05/2026 12:30",
       "imo": "9928188",
       "navio": "MAERSK ACADIA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 12:30",
+      "imo": "9757797",
+      "navio": "PORT PIRIE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -332,6 +342,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 14:00",
+      "imo": "9181467",
+      "navio": "ARTEMIS ANGLER",
+      "tipo": "MUDANÇA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 14:00",
       "imo": "9270232",
       "navio": "YVAN BARRETTO",
       "tipo": "ENTRADA",
@@ -351,13 +371,33 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 14:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 15:00",
-      "imo": "9799070",
-      "navio": "STARNAV SCORPIUS",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 15:00",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -372,12 +412,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 15:00",
-      "imo": "9659567",
-      "navio": "BARU ÁTRIA",
+      "imo": "9799070",
+      "navio": "STARNAV SCORPIUS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 15:30",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -388,6 +438,16 @@
       "de": "2R12 - Terminal - MCAR 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 17:30",
+      "imo": "9417828",
+      "navio": "NORMAND SAGARIS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -402,12 +462,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 20:00",
+      "imo": "8637926",
+      "navio": "RIOPORT II",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F09 - XAREU",
+      "para": "2N16 - Armazém 16",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 20:00",
       "imo": "9616187",
       "navio": "SCOTSMAN TIDE (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 20:00",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -418,6 +498,36 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 21:00",
+      "imo": "9687356",
+      "navio": "NORMAND NAVIGATOR",
+      "tipo": "MUDANÇA",
+      "de": "2N06 - Armazém 7",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 22:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 22:00",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -480,6 +590,16 @@
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
+      "porto": "Niterói",
+      "inicio": "02/05/2026 14:30",
+      "imo": "9371385",
+      "navio": "OCEANICASUB XVII",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "02/05/2026 09:30",
       "imo": "9552367",
@@ -498,6 +618,66 @@
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
       "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "03/05/2026 04:00",
+      "imo": "9916197",
+      "navio": "ASANAGI",
+      "tipo": "SAÍDA",
+      "de": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "03/05/2026 05:30",
+      "imo": "9959228",
+      "navio": "PROMETHEUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
+      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "03/05/2026 09:00",
+      "imo": "9603221",
+      "navio": "FERNÃO DE MAGALHÃES",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "303 - TECON - SEPETIBA TECON S.A.",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "03/05/2026 11:30",
+      "imo": "9965772",
+      "navio": "FIRANDO",
+      "tipo": "SAÍDA",
+      "de": "101 - TECAR - CSN MINERAÇÃO S.A.",
+      "para": "-",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "03/05/2026 12:30",
+      "imo": "9500742",
+      "navio": "PRINCESS PEARL",
+      "tipo": "SAÍDA",
+      "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+      "para": "-",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "03/05/2026 19:00",
+      "imo": "1031288",
+      "navio": "ZUGERBERG",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "agente": "ISS MARINE SERVICES LTDA"
     }
   ]
 }
