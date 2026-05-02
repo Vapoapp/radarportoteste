@@ -1,29 +1,36 @@
 {
   "imo": "9683996",
   "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
-  "gerado_em": "2026-05-02T14:41:34.687Z",
+  "gerado_em": "2026-05-02T15:32:26.872Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-01T15:00:00.000Z"
+    "ultima_movimentacao": "2026-05-02T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 16,
-    "manobras_365d": 16,
+    "manobras_30d": 17,
+    "manobras_180d": 17,
+    "manobras_365d": 17,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 12,
+    "mudancas_30d": 13,
     "entradas_365d": 2,
     "saidas_365d": 2,
     "ultima_entrada": "2026-04-26T20:30:00.000Z",
     "ultima_saida": "2026-04-21T21:00:00.000Z",
     "tempo_medio_estadia_horas": 184.5,
-    "tempo_medio_fundeio_horas": 21
+    "tempo_medio_fundeio_horas": 21.5
   },
   "historico_recente": [
+    {
+      "data": "2026-05-02T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-05-01T15:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "NIT - ATRACADO NITERÓI"
-    },
-    {
-      "data": "2026-04-15T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

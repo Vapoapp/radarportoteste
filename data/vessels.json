@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-02T14:41:34.687Z",
+  "updatedAt": "2026-05-02T15:32:26.872Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 43
+      "count": 46
     },
     "niteroi": {
       "ok": true,
@@ -102,12 +102,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 06:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
       "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -122,12 +122,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 06:00",
-      "imo": "9482330",
-      "navio": "MULTIPLICITY (REB)",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "CMM OFFSHORE BRASIL LTDA"
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -232,11 +232,11 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 10:30",
-      "imo": "7351783",
-      "navio": "FPSO PETROBRAS 35",
+      "imo": "9679177",
+      "navio": "WS PEGASUS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "TPAM - ARSENAL DA MARINHA",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
@@ -252,11 +252,11 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 10:30",
-      "imo": "9679177",
-      "navio": "WS PEGASUS",
+      "imo": "7351783",
+      "navio": "FPSO PETROBRAS 35",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "TPAM - ARSENAL DA MARINHA",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
@@ -302,16 +302,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 13:00",
-      "imo": "9696802",
-      "navio": "STARNAV AQUARIUS (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/05/2026 13:00",
       "imo": "9497127",
       "navio": "CAMPOS CONTENDER",
       "tipo": "ENTRADA",
@@ -331,6 +321,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 13:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 14:00",
+      "imo": "9270232",
+      "navio": "YVAN BARRETTO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "ASGAARD NAVEGACAO S/A"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 14:00",
       "imo": "9270232",
       "navio": "YVAN BARRETTO",
@@ -342,12 +352,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 15:00",
-      "imo": "9659567",
-      "navio": "BARU ÁTRIA",
+      "imo": "9799070",
+      "navio": "STARNAV SCORPIUS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -358,6 +368,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 15:00",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -388,6 +408,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 20:30",
+      "imo": "9227027",
+      "navio": "SUNNY PHOENIX",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",

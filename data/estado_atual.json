@@ -3238,14 +3238,14 @@
     "navio": "CBO MISTRAL (REB)",
     "navio_normalizado": "CBO MISTRAL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-01T03:00:00.000Z",
-    "ultimo_hash_evento": "d9e8718591d12e322b1aae81f2998a0dbb36e97bec505a2eacdd9a4f9ba82556",
-    "atualizado_em": "2026-05-01T05:00:42.734Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-02T15:00:00.000Z",
+    "ultimo_hash_evento": "439930a4a97bee2fb611b7fb9d4dd689cc6fbfd0cdf17437a723287746abc18f",
+    "atualizado_em": "2026-05-02T15:32:26.872Z"
   },
   "9621546": {
     "imo": "9621546",
@@ -4065,13 +4065,13 @@
     "navio_normalizado": "SPRINGBOK (BAND. GREYLIST PARIS MOU)",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-01T15:00:00.000Z",
-    "ultimo_hash_evento": "1199c0555a031c873854384c2942b5d6e643317e26252facc038624218b035d1",
-    "atualizado_em": "2026-05-01T15:12:25.664Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-02T15:00:00.000Z",
+    "ultimo_hash_evento": "66715df06e312c3efade070f718c8dedb2e136add549936ba768cd9b2a4b258f",
+    "atualizado_em": "2026-05-02T15:32:26.872Z"
   },
   "9685396": {
     "imo": "9685396",
@@ -4791,15 +4791,15 @@
     "imo": "9757797",
     "navio": "PORT PIRIE",
     "navio_normalizado": "PORT PIRIE",
-    "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-    "destino_atual": "-",
-    "agente_atual": "GEM SHIPPING LTDA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N07 - Pátio 8/9",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-28T01:00:00.000Z",
-    "ultimo_hash_evento": "02b718c1672de3daa576b74ca187eceba76c680c4b5a82924716ed11c7486646",
-    "atualizado_em": "2026-04-28T01:15:36.585Z"
+    "ultima_movimentacao_em": "2026-05-02T15:30:00.000Z",
+    "ultimo_hash_evento": "b3ba8e32db2c37a21dddcbebeff0cb977097b4078f565dc4eaac90e575ee8552",
+    "atualizado_em": "2026-05-02T15:32:26.872Z"
   },
   "9758428": {
     "imo": "9758428",
@@ -5640,6 +5640,20 @@
     "ultima_movimentacao_em": "2026-04-12T14:30:00.000Z",
     "ultimo_hash_evento": "f9d95bc76ee7c983c12883aa91a32a69d36ab6416f3b32b22a984229ff27cac9",
     "atualizado_em": "2026-04-12T15:03:31.823Z"
+  },
+  "9928188": {
+    "imo": "9928188",
+    "navio": "MAERSK ACADIA",
+    "navio_normalizado": "MAERSK ACADIA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-02T15:30:00.000Z",
+    "ultimo_hash_evento": "c4a93c9f7eb7b972ab66c701b30472d0cec339390bb9b8acd1dff74d496988ca",
+    "atualizado_em": "2026-05-02T15:32:26.872Z"
   },
   "9928877": {
     "imo": "9928877",
