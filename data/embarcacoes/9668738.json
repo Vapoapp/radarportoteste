@@ -1,21 +1,21 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-05-02T23:01:32.857Z",
+  "gerado_em": "2026-05-02T23:55:47.839Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "porto": "Rio de Janeiro",
+    "em_fundeio": false,
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "ultimo_tipo_evento": "MUDANÇA",
     "ultima_movimentacao": "2026-05-02T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 12,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 3,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-02T00:00:00.000Z",
@@ -30,6 +30,13 @@
       "porto": "Niterói",
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-05-02T23:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
     },
     {
       "data": "2026-05-02T00:00:00.000Z",
@@ -85,13 +92,6 @@
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-17T14:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
     }
   ]
