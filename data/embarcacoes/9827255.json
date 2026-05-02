@@ -1,29 +1,36 @@
 {
   "imo": "9827255",
   "navio": "VICTORIA HIGHWAY",
-  "gerado_em": "2026-05-02T19:59:46.330Z",
+  "gerado_em": "2026-05-02T20:53:14.592Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2R12 - Terminal - MCAR 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-01T14:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-02T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-05-01T14:30:00.000Z",
-    "ultima_saida": "2026-04-15T08:00:00.000Z",
-    "tempo_medio_estadia_horas": 19,
+    "ultima_saida": "2026-05-02T20:00:00.000Z",
+    "tempo_medio_estadia_horas": 24.3,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-05-02T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-"
+    },
     {
       "data": "2026-05-01T14:30:00.000Z",
       "tipo": "ENTRADA",

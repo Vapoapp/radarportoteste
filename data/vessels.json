@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-02T19:59:46.330Z",
+  "updatedAt": "2026-05-02T20:53:14.592Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 62
+      "count": 66
     },
     "niteroi": {
       "ok": true,
@@ -292,16 +292,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 12:30",
-      "imo": "9757797",
-      "navio": "PORT PIRIE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N07 - Pátio 8/9",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/05/2026 12:30",
       "imo": "9928188",
       "navio": "MAERSK ACADIA",
       "tipo": "ENTRADA",
@@ -311,13 +301,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "02/05/2026 13:00",
-      "imo": "9767819",
-      "navio": "CBO XAVANTES",
-      "tipo": "MUDANÇA",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "inicio": "02/05/2026 12:30",
+      "imo": "9757797",
+      "navio": "PORT PIRIE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -332,8 +322,18 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 13:00",
-      "imo": "9664299",
-      "navio": "BRAM BRASILIA",
+      "imo": "9767819",
+      "navio": "CBO XAVANTES",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 13:00",
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
@@ -342,8 +342,8 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 13:00",
-      "imo": "9497127",
-      "navio": "CAMPOS CONTENDER",
+      "imo": "9664299",
+      "navio": "BRAM BRASILIA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
@@ -392,26 +392,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 15:00",
-      "imo": "9644146",
-      "navio": "ALCATRAZ",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/05/2026 15:00",
-      "imo": "9659567",
-      "navio": "BARU ÁTRIA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/05/2026 15:00",
       "imo": "9715751",
       "navio": "STARNAV PHOENIX",
       "tipo": "ENTRADA",
@@ -428,6 +408,26 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 15:00",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 15:00",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -491,6 +491,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 19:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 20:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/05/2026 20:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/05/2026 20:00",
       "imo": "8637926",
       "navio": "RIOPORT II",
@@ -518,16 +548,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/05/2026 20:00",
-      "imo": "9668738",
-      "navio": "STARNAV CENTAURUS",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -591,6 +611,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "03/05/2026 05:30",
+      "imo": "9227027",
+      "navio": "SUNNY PHOENIX",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "03/05/2026 06:30",
       "imo": "9630420",
       "navio": "XIAMEN EXPRESS",
@@ -628,6 +658,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/05/2026 08:00",
+      "imo": "9616187",
+      "navio": "SCOTSMAN TIDE (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Rio de Janeiro",
