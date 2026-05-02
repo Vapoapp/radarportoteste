@@ -1,29 +1,36 @@
 {
   "imo": "9422330",
   "navio": "NORMAND POSEIDON (REB)",
-  "gerado_em": "2026-05-02T11:33:06.105Z",
+  "gerado_em": "2026-05-02T12:32:40.694Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-01T09:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-02T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-05-01T09:30:00.000Z",
-    "ultima_saida": "2026-04-18T19:00:00.000Z",
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-05-02T12:00:00.000Z",
+    "tempo_medio_estadia_horas": 26.5,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-05-02T12:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-05-01T09:30:00.000Z",
       "tipo": "ENTRADA",
