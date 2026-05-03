@@ -1,21 +1,21 @@
 {
   "imo": "9440681",
   "navio": "SKUA",
-  "gerado_em": "2026-05-03T13:10:55.949Z",
+  "gerado_em": "2026-05-03T14:14:40.028Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-03T03:00:00.000Z"
+    "ultima_movimentacao": "2026-05-03T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 11,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 3,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-03T01:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 33.7
   },
   "historico_recente": [
+    {
+      "data": "2026-05-03T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-03T03:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "ESMC - MacLaren Ponta da Areia"
-    },
-    {
-      "data": "2026-04-05T04:20:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }

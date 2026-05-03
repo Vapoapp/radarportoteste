@@ -1,29 +1,36 @@
 {
   "imo": "9715751",
   "navio": "STARNAV PHOENIX",
-  "gerado_em": "2026-05-03T13:10:55.949Z",
+  "gerado_em": "2026-05-03T14:14:40.028Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-02T18:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-03T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 17,
-    "manobras_365d": 17,
+    "manobras_30d": 18,
+    "manobras_180d": 18,
+    "manobras_365d": 18,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 5,
     "saidas_365d": 4,
     "ultima_entrada": "2026-05-02T18:00:00.000Z",
     "ultima_saida": "2026-04-29T19:00:00.000Z",
     "tempo_medio_estadia_horas": 45.6,
-    "tempo_medio_fundeio_horas": 19.7
+    "tempo_medio_fundeio_horas": 19.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-03T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-05-02T18:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-04-14T19:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
