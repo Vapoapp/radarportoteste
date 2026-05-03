@@ -1909,13 +1909,13 @@
     "navio_normalizado": "FULMAR",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-02T07:00:00.000Z",
-    "ultimo_hash_evento": "b57d7fe4a175ca9b39ad7b937a1c619e346c80394d275964b75c456661630193",
-    "atualizado_em": "2026-05-02T08:53:53.863Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-03T19:30:00.000Z",
+    "ultimo_hash_evento": "1e8c68ef6bceaad615bb4ba010344b98ed347c1672fedd28f367215afea6079f",
+    "atualizado_em": "2026-05-03T19:41:37.470Z"
   },
   "9442055": {
     "imo": "9442055",
@@ -4232,14 +4232,14 @@
     "navio": "COPIAPO",
     "navio_normalizado": "COPIAPO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C22 - TECON 2 - MRIO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C22 - TECON 2 - MRIO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-21T16:00:00.000Z",
-    "ultimo_hash_evento": "9afaa8e39273cec78e8365f59cd7e95f3d63e6458add340803655ff8f7d92455",
-    "atualizado_em": "2026-04-21T16:34:49.972Z"
+    "ultima_movimentacao_em": "2026-05-03T19:00:00.000Z",
+    "ultimo_hash_evento": "a554a9b4aa91d428a06db1da19935a53766c4bcabb872519f5ab182acafa338f",
+    "atualizado_em": "2026-05-03T19:41:37.470Z"
   },
   "9687693": {
     "imo": "9687693",
@@ -4302,14 +4302,14 @@
     "navio": "STARNAV AQUARIUS (REB)",
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-02T23:00:00.000Z",
-    "ultimo_hash_evento": "bfc05689bbd2c3e7c5465eeb8f2fde70ef09c9c9b416858d9b6b61ec9dcd7b81",
-    "atualizado_em": "2026-05-02T23:01:32.857Z"
+    "ultima_movimentacao_em": "2026-05-03T19:00:00.000Z",
+    "ultimo_hash_evento": "ae84da6c45c9e1eee622abeebaddd659bdff55605efdda12a70ee3654e14746f",
+    "atualizado_em": "2026-05-03T19:41:37.470Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -5430,6 +5430,20 @@
     "ultima_movimentacao_em": "2026-04-23T11:30:00.000Z",
     "ultimo_hash_evento": "d4d95e7e57861e7c23cbc41c35639a3fdf358a7236e8a9ef9d4dda2c3444860b",
     "atualizado_em": "2026-04-23T11:48:39.443Z"
+  },
+  "9837640": {
+    "imo": "9837640",
+    "navio": "ZHONG YUAN HAI YUN KAI TUO",
+    "navio_normalizado": "ZHONG YUAN HAI YUN KAI TUO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01S - Visita Sul",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-03T19:00:00.000Z",
+    "ultimo_hash_evento": "baac26e998b4ce804785ead3b70ade681dd937148a1abf2d0eb86a8fb753d0b0",
+    "atualizado_em": "2026-05-03T19:41:37.470Z"
   },
   "9843338": {
     "imo": "9843338",
