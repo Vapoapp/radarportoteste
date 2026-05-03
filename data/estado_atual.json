@@ -97,6 +97,20 @@
     "ultimo_hash_evento": "bf8831da0e10af64716330409bc407499504696287ec160757b7d44bc7d8ec4f",
     "atualizado_em": "2026-04-29T21:34:01.103Z"
   },
+  "1031288": {
+    "imo": "1031288",
+    "navio": "ZUGERBERG",
+    "navio_normalizado": "ZUGERBERG",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-03T22:00:00.000Z",
+    "ultimo_hash_evento": "369f5309ead39713572d305dc13eb18d045094f007fac3201c095106252aeda0",
+    "atualizado_em": "2026-05-03T22:49:37.735Z"
+  },
   "1047419": {
     "imo": "1047419",
     "navio": "CAPTAIN PANAGIS",
@@ -732,14 +746,14 @@
     "navio": "ILHA DO CABO FRIO",
     "navio_normalizado": "ILHA DO CABO FRIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2PAL - Terminal Petrobras AL",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2PAL - Terminal Petrobras AL",
+    "destino_atual": "-",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-11T19:45:00.000Z",
-    "ultimo_hash_evento": "1ad5446f859f10cb6b16b77ccae78591af6f48bc32473e8f6d01c4213f9022fe",
-    "atualizado_em": "2026-04-11T20:00:53.706Z"
+    "ultima_movimentacao_em": "2026-05-03T21:30:00.000Z",
+    "ultimo_hash_evento": "633530b1663e8d0773ab136a4e39cc2ab5401d0daf4412164486c09983a3baa2",
+    "atualizado_em": "2026-05-03T22:49:37.735Z"
   },
   "9292773": {
     "imo": "9292773",
@@ -747,13 +761,13 @@
     "navio_normalizado": "ALESSANDRO VOLTA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F10 - PREFERENCIAL GNL",
-    "destino_atual": "TPIC - ILHA COMPRIDA",
-    "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-14T15:30:00.000Z",
-    "ultimo_hash_evento": "2123013958d1569c2b8645aae0377969897e16b5bf4f248d2063929ee1615af7",
-    "atualizado_em": "2026-04-14T15:51:20.475Z"
+    "origem_atual": "TPIR - ILHA REDONDA",
+    "destino_atual": "Fundeio - WPT 61 - 2F6A",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-03T21:00:00.000Z",
+    "ultimo_hash_evento": "7d28c58c87661280bbdb5b4863ba36524521f297aa41b45292e57b48f46ae82c",
+    "atualizado_em": "2026-05-03T22:49:37.735Z"
   },
   "9294082": {
     "imo": "9294082",
@@ -3968,12 +3982,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
     "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-03T20:00:00.000Z",
-    "ultimo_hash_evento": "1171ab3675fd65c2d30a099f9960c4165214ec578aa43c2fca2d4dd8335e6452",
-    "atualizado_em": "2026-05-03T20:25:04.766Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-03T22:00:00.000Z",
+    "ultimo_hash_evento": "4dc0062670f8700cca629ec1fd22d05704db64e5bc105ccfd2114dbedff5a5d5",
+    "atualizado_em": "2026-05-03T22:49:37.735Z"
   },
   "9665566": {
     "imo": "9665566",
@@ -4307,9 +4321,9 @@
     "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-03T19:00:00.000Z",
-    "ultimo_hash_evento": "ae84da6c45c9e1eee622abeebaddd659bdff55605efdda12a70ee3654e14746f",
-    "atualizado_em": "2026-05-03T19:41:37.470Z"
+    "ultima_movimentacao_em": "2026-05-03T22:00:00.000Z",
+    "ultimo_hash_evento": "f343bcd7baf613512e9ef57bd5bc3cec67800819b2d6e23bb7386ae558c63cbb",
+    "atualizado_em": "2026-05-03T22:49:37.735Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -4988,14 +5002,14 @@
     "navio": "BRAM BUCK",
     "navio_normalizado": "BRAM BUCK",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-03T18:00:00.000Z",
-    "ultimo_hash_evento": "a5401f7c5a7f203a859a1e08d58147666ad228f92b84bf519ea30b070a276676",
-    "atualizado_em": "2026-05-03T18:43:01.747Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-03T22:00:00.000Z",
+    "ultimo_hash_evento": "7bf230e34575185433d290d1f8241dc7779485ce055bf9ef264d6ec141709bfe",
+    "atualizado_em": "2026-05-03T22:49:37.735Z"
   },
   "9763772": {
     "imo": "9763772",
@@ -5221,6 +5235,20 @@
     "ultimo_hash_evento": "7926729ca594bdcff6613d6fe84f508763a5ba6f293f84de85df7a112d1a37fd",
     "atualizado_em": "2026-04-22T20:48:51.691Z"
   },
+  "9788552": {
+    "imo": "9788552",
+    "navio": "PACIFIC JASPER",
+    "navio_normalizado": "PACIFIC JASPER",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPP2 - PETROBRAS PP2",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-03T15:30:00.000Z",
+    "ultimo_hash_evento": "e0e01cc4088d3c8d392d1df54fbf9c4afa7b887636649153c5fd79a1580ed01d",
+    "atualizado_em": "2026-05-03T22:49:37.735Z"
+  },
   "9789726": {
     "imo": "9789726",
     "navio": "MANTA BEYOGLU",
@@ -5296,14 +5324,14 @@
     "navio": "STARNAV SCORPIUS",
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-02T18:00:00.000Z",
-    "ultimo_hash_evento": "0a4ccb88021373781dc95df39ff8a259e6ce410b3b8195b79c33a0ccb9b03db7",
-    "atualizado_em": "2026-05-02T18:02:46.051Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-03T22:30:00.000Z",
+    "ultimo_hash_evento": "2008dfbcc55e44a7a18966acfb810e2892a3b59447d952f7e488b3c27388b8dc",
+    "atualizado_em": "2026-05-03T22:49:37.735Z"
   },
   "9802255": {
     "imo": "9802255",
