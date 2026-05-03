@@ -1,29 +1,36 @@
 {
   "imo": "9371385",
   "navio": "OCEANICASUB XVII",
-  "gerado_em": "2026-05-03T14:14:40.028Z",
+  "gerado_em": "2026-05-03T15:07:31.715Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-02T17:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-05-03T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
-    "entradas_30d": 1,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 1,
-    "entradas_365d": 1,
+    "entradas_365d": 2,
     "saidas_365d": 1,
-    "ultima_entrada": "2026-04-09T18:00:00.000Z",
+    "ultima_entrada": "2026-05-03T15:00:00.000Z",
     "ultima_saida": "2026-05-02T17:30:00.000Z",
     "tempo_medio_estadia_horas": 551.5,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-05-03T15:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-05-02T17:30:00.000Z",
       "tipo": "SAÍDA",
