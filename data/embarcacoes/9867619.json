@@ -1,29 +1,36 @@
 {
   "imo": "9867619",
   "navio": "AITOLOS",
-  "gerado_em": "2026-05-03T20:25:04.766Z",
+  "gerado_em": "2026-05-03T21:08:10.074Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPP1 - PETROBRAS PP1",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-01T10:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-03T08:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 3,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-04-23T10:30:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-05-03T08:30:00.000Z",
+    "tempo_medio_estadia_horas": 238,
     "tempo_medio_fundeio_horas": 41
   },
   "historico_recente": [
+    {
+      "data": "2026-05-03T08:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "-"
+    },
     {
       "data": "2026-05-01T10:00:00.000Z",
       "tipo": "MUDANÇA",
