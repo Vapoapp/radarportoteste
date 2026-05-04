@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-04T19:11:25.615Z",
+  "updatedAt": "2026-05-04T20:40:58.441Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 47
+      "count": 50
     },
     "niteroi": {
       "ok": true,
@@ -141,16 +141,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "04/05/2026 07:00",
-      "imo": "9492127",
-      "navio": "SAO SEBASTIAO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "04/05/2026 07:30",
       "imo": "9949209",
       "navio": "EPTALOFOS",
@@ -192,16 +182,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/05/2026 09:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "04/05/2026 09:00",
       "imo": "9657698",
       "navio": "FUGRO AQUARIUS",
       "tipo": "ENTRADA",
@@ -212,12 +192,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/05/2026 09:00",
-      "imo": "9578892",
-      "navio": "CBO COPACABANA",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -228,6 +208,16 @@
       "de": "2N17 - Armazém 17",
       "para": "2TS2 - Terminal Siderúrgico 2",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/05/2026 09:00",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -332,6 +322,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/05/2026 14:00",
+      "imo": "1016666",
+      "navio": "MSC INSA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/05/2026 14:00",
       "imo": "9702883",
       "navio": "CBO WISER (REB)",
       "tipo": "MUDANÇA",
@@ -348,16 +348,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "04/05/2026 14:00",
-      "imo": "1016666",
-      "navio": "MSC INSA",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -388,6 +378,16 @@
       "de": "-",
       "para": "2R12 - Terminal - MCAR 1",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/05/2026 18:00",
+      "imo": "9767833",
+      "navio": "CBO PARINTINS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -431,6 +431,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "05/05/2026 06:00",
+      "imo": "9581423",
+      "navio": "GINGA OCELOT",
+      "tipo": "MUDANÇA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "05/05/2026 09:00",
       "imo": "9367554",
       "navio": "BOW CAROLINE",
@@ -448,6 +458,16 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/05/2026 12:00",
+      "imo": "9637777",
+      "navio": "BRASIL KNUTSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01S - Visita Sul",
+      "para": "-",
+      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -484,6 +504,16 @@
       "inicio": "05/05/2026 18:00",
       "imo": "9456965",
       "navio": "MSC ODESSA V",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/05/2026 20:00",
+      "imo": "9252541",
+      "navio": "MSC MAGNUM VII",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
