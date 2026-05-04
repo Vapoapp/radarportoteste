@@ -2216,14 +2216,14 @@
     "navio": "CBO ANITA",
     "navio_normalizado": "CBO ANITA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-03T14:00:00.000Z",
-    "ultimo_hash_evento": "4c71f98173c92250d6843bdf3c24dac2a1c701837546531d2527194421d4bf88",
-    "atualizado_em": "2026-05-03T15:59:33.744Z"
+    "ultima_movimentacao_em": "2026-05-04T14:10:00.000Z",
+    "ultimo_hash_evento": "0d25b98b2b449f25d713453de8c882fbf6799ab4d4dafc66e3f0fa8051dfcdde",
+    "atualizado_em": "2026-05-04T16:13:56.832Z"
   },
   "9480203": {
     "imo": "9480203",
@@ -3504,14 +3504,14 @@
     "navio": "CBO ARPOADOR",
     "navio_normalizado": "CBO ARPOADOR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-30T17:00:00.000Z",
-    "ultimo_hash_evento": "9ad1359c1f2e883c96c8799a812e38aa4eb225fce5d9aa5ac870009e82eef4a4",
-    "atualizado_em": "2026-04-30T17:59:06.111Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-04T14:30:00.000Z",
+    "ultimo_hash_evento": "18c1a1d76b8c4c7dd83d2b1a038725914afcc93dd77a31b00c42c95dfbfff54f",
+    "atualizado_em": "2026-05-04T16:13:56.832Z"
   },
   "9627631": {
     "imo": "9627631",
@@ -4269,6 +4269,20 @@
     "ultimo_hash_evento": "813ccf15e625c9402dd18eff240f1cb683e6b3ff940df1c7da29c4b3ecb41358",
     "atualizado_em": "2026-04-24T15:44:21.524Z"
   },
+  "9687241": {
+    "imo": "9687241",
+    "navio": "NORMAND FRONTIER",
+    "navio_normalizado": "NORMAND FRONTIER",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-04T15:00:00.000Z",
+    "ultimo_hash_evento": "ca14ab98301b1391b38b011c7d4a67828833819f086748493163797164d3628e",
+    "atualizado_em": "2026-05-04T16:13:56.832Z"
+  },
   "9687356": {
     "imo": "9687356",
     "navio": "NORMAND NAVIGATOR",
@@ -4293,9 +4307,9 @@
     "destino_atual": "-",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-04T10:00:00.000Z",
-    "ultimo_hash_evento": "773cf8879dd1d85fd7eadccc8c787c8464b558e331c9405553705f1759c2c44c",
-    "atualizado_em": "2026-05-04T11:57:59.370Z"
+    "ultima_movimentacao_em": "2026-05-04T16:00:00.000Z",
+    "ultimo_hash_evento": "3936a5088cc0a95839e4ec9d75eafc6982d166732a46d697cccc78b72d574c55",
+    "atualizado_em": "2026-05-04T16:13:56.832Z"
   },
   "9687693": {
     "imo": "9687693",
@@ -4694,14 +4708,14 @@
     "navio": "STARNAV PHOENIX",
     "navio_normalizado": "STARNAV PHOENIX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-03T14:00:00.000Z",
-    "ultimo_hash_evento": "d3b3ba3332f06dde9300c4b0213ca93d42212c86507dd925e9a78298f832c1a2",
-    "atualizado_em": "2026-05-03T14:14:40.028Z"
+    "ultima_movimentacao_em": "2026-05-04T16:00:00.000Z",
+    "ultimo_hash_evento": "43992dacd39e422c30a7ae524c2d73aebd16e5b4fcc7528dd8825bbac137aca5",
+    "atualizado_em": "2026-05-04T16:13:56.832Z"
   },
   "9720287": {
     "imo": "9720287",
