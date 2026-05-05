@@ -1,21 +1,21 @@
 {
   "imo": "9640114",
   "navio": "LUMPHINI PARK",
-  "gerado_em": "2026-05-05T11:45:42.502Z",
+  "gerado_em": "2026-05-05T12:58:22.980Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPPT - NEOLUBES",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-03T09:30:00.000Z"
+    "local": "2NTO - Terminal de Óleo",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-05T12:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-05-03T09:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-05-05T12:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPSH - Terminal Privativo Shell",
+      "para": "2NTO - Terminal de Óleo"
+    },
     {
       "data": "2026-05-03T09:30:00.000Z",
       "tipo": "ENTRADA",
