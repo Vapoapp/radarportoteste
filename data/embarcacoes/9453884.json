@@ -1,29 +1,36 @@
 {
   "imo": "9453884",
   "navio": "MILTON SANTOS",
-  "gerado_em": "2026-05-05T18:07:18.935Z",
+  "gerado_em": "2026-05-05T19:50:28.449Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 81 - 2F08",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-03T23:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-05T19:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-05-03T23:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "ultima_saida": "2026-05-05T19:30:00.000Z",
+    "tempo_medio_estadia_horas": 44.5,
+    "tempo_medio_fundeio_horas": 44.5
   },
   "historico_recente": [
+    {
+      "data": "2026-05-05T19:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F08 - NW DO TPP1",
+      "para": "-"
+    },
     {
       "data": "2026-05-03T23:00:00.000Z",
       "tipo": "ENTRADA",
