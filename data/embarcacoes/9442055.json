@@ -1,29 +1,36 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-05-05T08:36:55.042Z",
+  "gerado_em": "2026-05-05T10:23:12.516Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
+    "porto": "Niterói",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-01T13:00:00.000Z"
+    "local": "ESWS - ESTALEIRO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-05-05T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 17,
-    "manobras_365d": 17,
-    "entradas_30d": 4,
+    "manobras_30d": 18,
+    "manobras_180d": 18,
+    "manobras_365d": 18,
+    "entradas_30d": 5,
     "saidas_30d": 5,
     "mudancas_30d": 8,
-    "entradas_365d": 4,
+    "entradas_365d": 5,
     "saidas_365d": 5,
-    "ultima_entrada": "2026-04-29T05:20:00.000Z",
+    "ultima_entrada": "2026-05-05T09:00:00.000Z",
     "ultima_saida": "2026-05-01T13:00:00.000Z",
     "tempo_medio_estadia_horas": 35.2,
     "tempo_medio_fundeio_horas": 20.5
   },
   "historico_recente": [
+    {
+      "data": "2026-05-05T09:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "ESWS - ESTALEIRO"
+    },
     {
       "data": "2026-05-01T13:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-04-13T22:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
