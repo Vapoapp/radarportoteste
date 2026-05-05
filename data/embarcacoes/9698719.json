@@ -1,13 +1,13 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-05-04T23:36:24.957Z",
+  "gerado_em": "2026-05-05T01:15:31.269Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-04T12:00:00.000Z"
+    "porto": "Niterói",
+    "em_fundeio": false,
+    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-05-05T00:40:00.000Z"
   },
   "metricas": {
     "manobras_30d": 12,
@@ -18,12 +18,19 @@
     "mudancas_30d": 7,
     "entradas_365d": 3,
     "saidas_365d": 2,
-    "ultima_entrada": "2026-05-03T16:00:00.000Z",
+    "ultima_entrada": "2026-05-05T00:40:00.000Z",
     "ultima_saida": "2026-04-30T10:00:00.000Z",
     "tempo_medio_estadia_horas": 187,
-    "tempo_medio_fundeio_horas": 50
+    "tempo_medio_fundeio_horas": 50.2
   },
   "historico_recente": [
+    {
+      "data": "2026-05-05T00:40:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
     {
       "data": "2026-05-04T12:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -37,13 +44,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-05-03T16:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     },
     {
       "data": "2026-04-30T10:00:00.000Z",
