@@ -1,21 +1,21 @@
 {
   "imo": "9627629",
   "navio": "CBO ARPOADOR",
-  "gerado_em": "2026-05-05T06:34:36.375Z",
+  "gerado_em": "2026-05-05T08:36:55.042Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-05T04:00:00.000Z"
+    "ultima_movimentacao": "2026-05-05T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 10,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 3,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-04T14:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 103.5
   },
   "historico_recente": [
+    {
+      "data": "2026-05-05T07:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-05T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-05T14:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
