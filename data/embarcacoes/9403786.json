@@ -1,21 +1,21 @@
 {
   "imo": "9403786",
   "navio": "COSTA DO FUTURO (REB)",
-  "gerado_em": "2026-05-05T12:58:22.980Z",
+  "gerado_em": "2026-05-05T16:55:06.249Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPBK - BRASKEM",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-20T10:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - WPT 92 - AF Preferencial Gusa",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-05T13:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-20T10:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 18
   },
   "historico_recente": [
+    {
+      "data": "2026-05-05T13:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBK - BRASKEM",
+      "para": "Fundeio - WPT 92 - AF Preferencial Gusa"
+    },
     {
       "data": "2026-04-20T10:00:00.000Z",
       "tipo": "ENTRADA",
