@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-05T23:30:58.511Z",
+  "updatedAt": "2026-05-06T01:12:45.331Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 69
+      "count": 70
     },
     "niteroi": {
       "ok": true,
@@ -381,6 +381,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "05/05/2026 15:00",
+      "imo": "9885245",
+      "navio": "AQUA HELIX (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "PATRIA NAVAL OPERACOES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "05/05/2026 16:00",
       "imo": "9303508",
       "navio": "ILHA DE SÃO SEBASTIÃO (REB)",
@@ -402,16 +412,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "05/05/2026 16:30",
-      "imo": "9453884",
-      "navio": "MILTON SANTOS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F08 - NW DO TPP1",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "05/05/2026 16:30",
       "imo": "9530204",
       "navio": "SANTOS SOLUTION",
       "tipo": "ENTRADA",
@@ -421,13 +421,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "05/05/2026 17:00",
-      "imo": "9762742",
-      "navio": "POSIDONIA LEOPARD (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "inicio": "05/05/2026 16:30",
+      "imo": "9453884",
+      "navio": "MILTON SANTOS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F08 - NW DO TPP1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -438,6 +438,16 @@
       "de": "TPEX - EXXON SOLUTEC",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/05/2026 17:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
