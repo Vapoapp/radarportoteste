@@ -1,29 +1,36 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-05-06T20:24:23.602Z",
+  "gerado_em": "2026-05-06T21:37:49.055Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "porto": "Rio de Janeiro",
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-06T00:00:00.000Z"
+    "ultima_movimentacao": "2026-05-06T21:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 19,
-    "manobras_365d": 19,
+    "manobras_30d": 19,
+    "manobras_180d": 20,
+    "manobras_365d": 20,
     "entradas_30d": 5,
     "saidas_30d": 5,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 5,
     "saidas_365d": 5,
     "ultima_entrada": "2026-05-05T09:00:00.000Z",
     "ultima_saida": "2026-05-01T13:00:00.000Z",
     "tempo_medio_estadia_horas": 35.2,
-    "tempo_medio_fundeio_horas": 20.5
+    "tempo_medio_fundeio_horas": 20.7
   },
   "historico_recente": [
+    {
+      "data": "2026-05-06T21:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-05-06T00:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-04-21T22:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
