@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-07T14:29:44.791Z",
+  "updatedAt": "2026-05-07T16:23:13.760Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 58
+      "count": 64
     },
     "niteroi": {
       "ok": true,
-      "count": 5
+      "count": 7
     },
     "itaguai": {
       "ok": true,
@@ -302,22 +302,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/05/2026 09:00",
-      "imo": "9767807",
-      "navio": "CBO IGUAÇU",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "07/05/2026 09:00",
       "imo": "9659543",
       "navio": "BARU ANTARES",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/05/2026 09:00",
+      "imo": "9767807",
+      "navio": "CBO IGUAÇU",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -362,12 +362,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/05/2026 10:00",
-      "imo": "9381495",
-      "navio": "A.H. LIGURIA (REB)",
+      "imo": "9885245",
+      "navio": "AQUA HELIX (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "FINARGE APOIO MARITIMO LTDA"
+      "agente": "PATRIA NAVAL OPERACOES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -392,12 +392,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/05/2026 10:00",
-      "imo": "9885245",
-      "navio": "AQUA HELIX (REB)",
+      "imo": "9381495",
+      "navio": "A.H. LIGURIA (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "PATRIA NAVAL OPERACOES LTDA"
+      "agente": "FINARGE APOIO MARITIMO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -432,6 +432,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/05/2026 11:00",
+      "imo": "9458157",
+      "navio": "GAZ SYNERGY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIC - ILHA COMPRIDA",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/05/2026 11:00",
       "imo": "9530204",
       "navio": "SANTOS SOLUTION",
       "tipo": "MUDANÇA",
@@ -451,13 +461,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "07/05/2026 11:00",
-      "imo": "9458157",
-      "navio": "GAZ SYNERGY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPIC - ILHA COMPRIDA",
-      "agente": "GAC DO BRASIL LTDA."
+      "inicio": "07/05/2026 12:00",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -488,6 +498,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/05/2026 13:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -522,6 +542,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/05/2026 14:00",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/05/2026 14:00",
       "imo": "9659567",
       "navio": "BARU ÁTRIA",
       "tipo": "ENTRADA",
@@ -541,6 +571,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "07/05/2026 16:00",
+      "imo": "9530008",
+      "navio": "JACK EDWARDS (BAND. GREYLIST TOKYO MOU)",
+      "tipo": "MUDANÇA",
+      "de": "2N05 - Armazém 6",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "07/05/2026 18:00",
       "imo": "9181467",
       "navio": "ARTEMIS ANGLER",
@@ -548,6 +588,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/05/2026 19:00",
+      "imo": "8906614",
+      "navio": "PATUXENT",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F2B - Fundeio Martinha",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "Blupearl Agency Ltda"
     },
     {
       "porto": "Rio de Janeiro",
@@ -600,6 +650,16 @@
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/05/2026 15:00",
+      "imo": "9768007",
+      "navio": "LAEM CHABANG EXPRESS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
       "porto": "Niterói",
       "inicio": "07/05/2026 02:00",
       "imo": "9763772",
@@ -627,6 +687,26 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "ESMA - ESTALEIRO MAUÁ",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "07/05/2026 14:00",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "07/05/2026 15:00",
+      "imo": "9706449",
+      "navio": "SKANDI AÇU",
+      "tipo": "SAÍDA",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
