@@ -1,29 +1,36 @@
 {
   "imo": "9659567",
   "navio": "BARU ÁTRIA",
-  "gerado_em": "2026-05-07T16:23:13.760Z",
+  "gerado_em": "2026-05-07T18:01:23.527Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-07T13:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-05-07T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
-    "entradas_30d": 3,
+    "manobras_30d": 9,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
+    "entradas_30d": 4,
     "saidas_30d": 5,
     "mudancas_30d": 0,
-    "entradas_365d": 3,
+    "entradas_365d": 4,
     "saidas_365d": 5,
-    "ultima_entrada": "2026-05-05T17:00:00.000Z",
+    "ultima_entrada": "2026-05-07T17:00:00.000Z",
     "ultima_saida": "2026-05-07T13:00:00.000Z",
     "tempo_medio_estadia_horas": 99.1,
     "tempo_medio_fundeio_horas": 99.1
   },
   "historico_recente": [
+    {
+      "data": "2026-05-07T17:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-05-07T13:00:00.000Z",
       "tipo": "SAÍDA",
