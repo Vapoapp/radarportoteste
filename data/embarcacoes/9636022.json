@@ -1,21 +1,21 @@
 {
   "imo": "9636022",
   "navio": "SABLE (REB)",
-  "gerado_em": "2026-05-07T18:01:23.527Z",
+  "gerado_em": "2026-05-07T19:50:37.579Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "porto": "Niterói",
+    "em_fundeio": false,
+    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "ultimo_tipo_evento": "MUDANÇA",
     "ultima_movimentacao": "2026-05-07T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 11,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 2,
     "saidas_365d": 2,
     "ultima_entrada": "2026-05-04T21:30:00.000Z",
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-05-07T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     },
     {
       "data": "2026-05-05T22:00:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2PAL - Terminal Petrobras AL"
-    },
-    {
-      "data": "2026-04-15T17:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
