@@ -1,21 +1,21 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-05-08T08:00:10.397Z",
+  "gerado_em": "2026-05-08T09:47:20.791Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPBR - BRASCO",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-07T16:00:00.000Z"
+    "ultima_movimentacao": "2026-05-08T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 16,
-    "manobras_365d": 16,
+    "manobras_30d": 17,
+    "manobras_180d": 17,
+    "manobras_365d": 17,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 9,
+    "mudancas_30d": 10,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-06T12:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 41.6
   },
   "historico_recente": [
+    {
+      "data": "2026-05-08T09:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBL - BRICLOG",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-07T16:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -85,13 +92,6 @@
       "tipo": "MUDANÇA",
       "porto": "Niterói",
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-24T04:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO"
     }
   ]
