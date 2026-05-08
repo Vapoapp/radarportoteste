@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-08T15:53:59.707Z",
+  "updatedAt": "2026-05-08T17:04:51.386Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 39
+      "count": 45
     },
     "niteroi": {
       "ok": true,
@@ -112,22 +112,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/05/2026 06:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "MUDANÇA",
-      "de": "TPBL - BRICLOG",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/05/2026 06:00",
       "imo": "9752967",
       "navio": "SEACOR DEMERARA (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/05/2026 06:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "MUDANÇA",
+      "de": "TPBL - BRICLOG",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -202,6 +202,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/05/2026 08:30",
+      "imo": "9741279",
+      "navio": "ACE DEFENDER (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/05/2026 08:30",
+      "imo": "9659646",
+      "navio": "BARU VEGA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/05/2026 08:30",
       "imo": "8615540",
       "navio": "MIRZAN",
       "tipo": "ENTRADA",
@@ -218,26 +238,6 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/05/2026 08:30",
-      "imo": "9659646",
-      "navio": "BARU VEGA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/05/2026 08:30",
-      "imo": "9741279",
-      "navio": "ACE DEFENDER (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -302,22 +302,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/05/2026 13:00",
-      "imo": "9642588",
-      "navio": "LARUS",
+      "imo": "3810289680",
+      "navio": "BS-8",
       "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/05/2026 13:00",
-      "imo": "9424508",
-      "navio": "SEA1 DORADO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "de": "2N17 - Armazém 17",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -332,12 +322,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/05/2026 13:00",
-      "imo": "3810289680",
-      "navio": "BS-8",
+      "imo": "9424508",
+      "navio": "SEA1 DORADO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/05/2026 13:00",
+      "imo": "9642588",
+      "navio": "LARUS",
       "tipo": "MUDANÇA",
-      "de": "2N17 - Armazém 17",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -361,6 +361,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "08/05/2026 14:30",
+      "imo": "9547697",
+      "navio": "OLAVO BILAC",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 81 - 2F08",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "08/05/2026 15:00",
       "imo": "3810289680",
       "navio": "BS-8",
@@ -371,6 +381,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "08/05/2026 15:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "08/05/2026 16:00",
       "imo": "3810289680",
       "navio": "BS-8",
@@ -378,6 +398,16 @@
       "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "2N17 - Armazém 17",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/05/2026 16:00",
+      "imo": "9687148",
+      "navio": "LUNAR STAR 1",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -408,6 +438,36 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/05/2026 08:00",
+      "imo": "9347358",
+      "navio": "ALLIE CHOUEST",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/05/2026 12:30",
+      "imo": "9406635",
+      "navio": "CMA CGM RABELAIS",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/05/2026 12:30",
+      "imo": "9464247",
+      "navio": "MALIAKOS",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Niterói",
