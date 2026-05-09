@@ -1,29 +1,36 @@
 {
   "imo": "9351799",
   "navio": "LOG-IN PANTANAL (REB)",
-  "gerado_em": "2026-05-09T09:48:23.509Z",
+  "gerado_em": "2026-05-09T10:41:34.005Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C22 - TECON 2 - MRIO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-09T05:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-09T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 14,
-    "manobras_365d": 14,
+    "manobras_30d": 15,
+    "manobras_180d": 15,
+    "manobras_365d": 15,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 5,
     "entradas_365d": 5,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-05-08T22:30:00.000Z",
-    "ultima_saida": "2026-05-02T08:00:00.000Z",
-    "tempo_medio_estadia_horas": 18.1,
+    "ultima_saida": "2026-05-09T10:00:00.000Z",
+    "tempo_medio_estadia_horas": 16.8,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-05-09T10:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-"
+    },
     {
       "data": "2026-05-09T05:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2C22 - TECON 2 - MRIO",
       "para": "-"
-    },
-    {
-      "data": "2026-04-17T23:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "2C22 - TECON 2 - MRIO"
     }
   ]
 }
