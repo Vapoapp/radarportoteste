@@ -130,14 +130,14 @@
     "navio": "ZY YULONG",
     "navio_normalizado": "ZY YULONG",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - WPT 91 - AF Preferencial Gusa",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 91 - AF Preferencial Gusa",
+    "destino_atual": "-",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-08T09:30:00.000Z",
-    "ultimo_hash_evento": "5db1629172adbea0aed4df90f7d427a3208db63043a8a32d4f8e8cf241533c7a",
-    "atualizado_em": "2026-05-08T09:47:20.791Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-09T09:30:00.000Z",
+    "ultimo_hash_evento": "52219dc61a3a2cc8981dd001f1bf38be49a414f483119b28297ee00e86b43ebf",
+    "atualizado_em": "2026-05-09T09:48:23.509Z"
   },
   "1051109": {
     "imo": "1051109",
@@ -4400,14 +4400,14 @@
     "navio": "BARU MUCURA",
     "navio_normalizado": "BARU MUCURA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
     "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-08T11:30:00.000Z",
-    "ultimo_hash_evento": "49eb856035f34510b2197a77fdac8fc9f3aa3166d7272dc0bba970ef7833d2b1",
-    "atualizado_em": "2026-05-08T12:11:52.548Z"
+    "ultima_movimentacao_em": "2026-05-09T03:30:00.000Z",
+    "ultimo_hash_evento": "9ffe5b9845e2c2e3f16cbb201df3c078ed981d31bf9734f1375ba6207577c438",
+    "atualizado_em": "2026-05-09T09:48:23.509Z"
   },
   "9659634": {
     "imo": "9659634",
@@ -4443,13 +4443,13 @@
     "navio_normalizado": "BRAM BRASILIA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-09T05:00:00.000Z",
-    "ultimo_hash_evento": "130e6cd4d2b92cdd38e05c41fbdf5fc01e94f337b69e6fbbb4d85e9b0eedf743",
-    "atualizado_em": "2026-05-09T06:35:47.891Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-09T09:00:00.000Z",
+    "ultimo_hash_evento": "05da1c8d78a74e9f3600fe5d331ab4587a4bae8f026973448c840f1f5d6780a1",
+    "atualizado_em": "2026-05-09T09:48:23.509Z"
   },
   "9665566": {
     "imo": "9665566",
@@ -5143,13 +5143,13 @@
     "navio_normalizado": "STARNAV TAURUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-08T08:00:00.000Z",
-    "ultimo_hash_evento": "7ccb96cd039f31744937f5754d62cd6a5e839ef3e255aedd8613c572edc83a7a",
-    "atualizado_em": "2026-05-08T08:00:10.397Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-09T08:30:00.000Z",
+    "ultimo_hash_evento": "5e4029136c7f7ea781f162e28f0b0017bb8901d42b72a0b3d55c015b1b13b020",
+    "atualizado_em": "2026-05-09T09:48:23.509Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -6774,6 +6774,20 @@
     "ultima_movimentacao_em": "2026-04-11T10:00:00.000Z",
     "ultimo_hash_evento": "e4dcf4594332c4fc8efaf0b260f0a67898ee2bfaa4d6d530be936e0a184244c7",
     "atualizado_em": "2026-04-11T10:20:30.188Z"
+  },
+  "9975583": {
+    "imo": "9975583",
+    "navio": "MSC LE HAVRE",
+    "navio_normalizado": "MSC LE HAVRE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
+    "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-09T09:00:00.000Z",
+    "ultimo_hash_evento": "a85ff32a31e864c27128f3fab03cd12b85c909de37dca09c84ff93484e40987e",
+    "atualizado_em": "2026-05-09T09:48:23.509Z"
   },
   "9976408": {
     "imo": "9976408",
