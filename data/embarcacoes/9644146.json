@@ -1,29 +1,36 @@
 {
   "imo": "9644146",
   "navio": "ALCATRAZ",
-  "gerado_em": "2026-05-09T04:37:39.481Z",
+  "gerado_em": "2026-05-09T06:35:47.891Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-08T01:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-09T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 19,
-    "manobras_365d": 19,
+    "manobras_30d": 17,
+    "manobras_180d": 20,
+    "manobras_365d": 20,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 7,
     "entradas_365d": 6,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-05-07T13:30:00.000Z",
-    "ultima_saida": "2026-05-03T08:00:00.000Z",
-    "tempo_medio_estadia_horas": 28.2,
+    "ultima_saida": "2026-05-09T05:00:00.000Z",
+    "tempo_medio_estadia_horas": 31,
     "tempo_medio_fundeio_horas": 49.6
   },
   "historico_recente": [
+    {
+      "data": "2026-05-09T05:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-05-08T01:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
-    },
-    {
-      "data": "2026-04-23T03:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "-"
     }
   ]
 }
