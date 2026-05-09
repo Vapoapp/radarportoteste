@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-09T19:16:44.396Z",
+  "updatedAt": "2026-05-09T20:57:32.964Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 39
+      "count": 43
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -192,22 +192,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/05/2026 08:00",
-      "imo": "9687148",
-      "navio": "LUNAR STAR 1",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01 - Visita",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/05/2026 08:00",
       "imo": "9347358",
       "navio": "ALLIE CHOUEST",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBL - BRICLOG",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/05/2026 08:00",
+      "imo": "9687148",
+      "navio": "LUNAR STAR 1",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,16 +272,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/05/2026 13:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/05/2026 13:00",
       "imo": "9510307",
       "navio": "Siem Pilot",
       "tipo": "MUDANÇA",
@@ -291,13 +281,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/05/2026 15:00",
-      "imo": "9630327",
-      "navio": "POSIDONIA JAGUAR",
+      "inicio": "09/05/2026 13:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,13 +301,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/05/2026 16:00",
-      "imo": "9303493",
-      "navio": "MR. CHAFIC",
-      "tipo": "MUDANÇA",
-      "de": "ESPR - MacLaren Ilha da Conceição",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "inicio": "09/05/2026 15:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -328,6 +318,46 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/05/2026 16:00",
+      "imo": "9303493",
+      "navio": "MR. CHAFIC",
+      "tipo": "MUDANÇA",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/05/2026 16:30",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/05/2026 17:30",
+      "imo": "9715751",
+      "navio": "STARNAV PHOENIX",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/05/2026 18:00",
+      "imo": "9440679",
+      "navio": "PETREL",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -347,6 +377,16 @@
       "tipo": "SAÍDA",
       "de": "TPP1 - PETROBRAS PP1",
       "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/05/2026 00:00",
+      "imo": "9453846",
+      "navio": "ANDRÉ REBOUÇAS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 64 - 2F6A",
       "agente": "GAC DO BRASIL LTDA."
     },
     {
@@ -408,6 +448,36 @@
       "de": "TPBL - BRICLOG",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "09/05/2026 12:40",
+      "imo": "9644134",
+      "navio": "PRION",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "09/05/2026 14:00",
+      "imo": "9822683",
+      "navio": "OCEANICASUB III",
+      "tipo": "SAÍDA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "09/05/2026 17:00",
+      "imo": "9710878",
+      "navio": "SEVEN RIO",
+      "tipo": "SAÍDA",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Niterói",

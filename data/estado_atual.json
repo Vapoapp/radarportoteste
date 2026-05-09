@@ -4148,14 +4148,14 @@
     "navio": "PRION",
     "navio_normalizado": "PRION",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-24T09:30:00.000Z",
-    "ultimo_hash_evento": "6e0cba17f03848a73720813eab638d1a1b935fc01ad64ef97ca25db650de0f6d",
-    "atualizado_em": "2026-04-24T10:45:35.849Z"
+    "ultima_movimentacao_em": "2026-05-09T15:40:00.000Z",
+    "ultimo_hash_evento": "6495bae8b202429f0bf3df8dc58565e0f8e5b537c82ceb6964e7995ee679ce7a",
+    "atualizado_em": "2026-05-09T20:57:32.964Z"
   },
   "9644146": {
     "imo": "9644146",
@@ -5058,14 +5058,14 @@
     "navio": "SEVEN RIO",
     "navio_normalizado": "SEVEN RIO",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESMA - ESTALEIRO MAUÁ",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "ESMA - ESTALEIRO MAUÁ",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-08T08:00:00.000Z",
-    "ultimo_hash_evento": "fda5a252ab57f44ef4de80ab7fc7ef43c20e843c6033b422f9e4e4f318c35f86",
-    "atualizado_em": "2026-05-08T08:00:10.397Z"
+    "ultima_movimentacao_em": "2026-05-09T20:00:00.000Z",
+    "ultimo_hash_evento": "431fc543d93416d4829de8a711591caed359dc20ad296755640ca92ed73e9ec3",
+    "atualizado_em": "2026-05-09T20:57:32.964Z"
   },
   "9710880": {
     "imo": "9710880",
@@ -5142,14 +5142,14 @@
     "navio": "STARNAV TAURUS",
     "navio_normalizado": "STARNAV TAURUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-09T08:30:00.000Z",
-    "ultimo_hash_evento": "5e4029136c7f7ea781f162e28f0b0017bb8901d42b72a0b3d55c015b1b13b020",
-    "atualizado_em": "2026-05-09T09:48:23.509Z"
+    "ultima_movimentacao_em": "2026-05-09T19:30:00.000Z",
+    "ultimo_hash_evento": "73f0ce2c726f099c3938736c567b6b7dbbc3bcd728f5ef38d75c592294d38ead",
+    "atualizado_em": "2026-05-09T20:57:32.964Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -5170,14 +5170,14 @@
     "navio": "STARNAV PHOENIX",
     "navio_normalizado": "STARNAV PHOENIX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-09T03:00:00.000Z",
-    "ultimo_hash_evento": "6bed34c6b482f44e9504448095fa152bd8e8db12d44262c7090f165edd8d680d",
-    "atualizado_em": "2026-05-09T04:37:39.481Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-09T20:30:00.000Z",
+    "ultimo_hash_evento": "284cd8bfbb504f7c9187d32f487396d6b77be87f809fd4e7d26c2d0b71a19f21",
+    "atualizado_em": "2026-05-09T20:57:32.964Z"
   },
   "9720287": {
     "imo": "9720287",
@@ -5990,6 +5990,20 @@
     "ultima_movimentacao_em": "2026-04-30T09:00:00.000Z",
     "ultimo_hash_evento": "bf1cce024628816fcd2704e8109ec99e432f0c6e844b1d7ceb81dee4a0fafe04",
     "atualizado_em": "2026-04-30T09:29:41.075Z"
+  },
+  "9822683": {
+    "imo": "9822683",
+    "navio": "OCEANICASUB III",
+    "navio_normalizado": "OCEANICASUB III",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "-",
+    "agente_atual": "OCEANICA ENGENHARIA E CONSULTORIA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-09T17:00:00.000Z",
+    "ultimo_hash_evento": "49b9fdcf6fbcb760b6c1557586d1e25f74da1bb507b594577d7b978fb2ef3e8b",
+    "atualizado_em": "2026-05-09T20:57:32.964Z"
   },
   "9827255": {
     "imo": "9827255",
