@@ -1,21 +1,21 @@
 {
   "imo": "9659567",
   "navio": "BARU ÁTRIA",
-  "gerado_em": "2026-05-10T17:31:49.213Z",
+  "gerado_em": "2026-05-10T18:33:58.742Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-10T09:30:00.000Z"
+    "ultima_movimentacao": "2026-05-10T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 11,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 4,
     "saidas_30d": 5,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 4,
     "saidas_365d": 5,
     "ultima_entrada": "2026-05-07T17:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 90.4
   },
   "historico_recente": [
+    {
+      "data": "2026-05-10T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-05-10T09:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -85,13 +92,6 @@
       "tipo": "SAÍDA",
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
-    },
-    {
-      "data": "2026-04-17T19:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "ESSM - SÃO MIGUEL",
       "para": "-"
     }
   ]
