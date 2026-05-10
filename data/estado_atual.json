@@ -1488,14 +1488,14 @@
     "navio": "ASSO VENTISETTE",
     "navio_normalizado": "ASSO VENTISETTE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-10T06:00:00.000Z",
-    "ultimo_hash_evento": "1583ff3103d0157f78d1691ee9bd4fd278b063a00d01b2a5acd298b7f8e8ceb8",
-    "atualizado_em": "2026-05-10T09:56:41.699Z"
+    "ultima_movimentacao_em": "2026-05-10T14:30:00.000Z",
+    "ultimo_hash_evento": "b6f3996f08ab57dd331fa8d1a384f72d5d0afde7612ad5815d63a26233cc2cce",
+    "atualizado_em": "2026-05-10T15:36:00.325Z"
   },
   "9357236": {
     "imo": "9357236",
@@ -4414,14 +4414,14 @@
     "navio": "FUGRO AQUARIUS",
     "navio_normalizado": "FUGRO AQUARIUS",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-05T15:00:00.000Z",
-    "ultimo_hash_evento": "1cf452a731119135145e1cdf36b59c6df9e1dd4a20c5abd9d6a0f4763bdb3357",
-    "atualizado_em": "2026-05-05T21:45:35.093Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-10T15:00:00.000Z",
+    "ultimo_hash_evento": "4372fa9dd19811e3bcfe42498079a55c084e85049c34bf3fbcc298a237fe6b77",
+    "atualizado_em": "2026-05-10T15:36:00.325Z"
   },
   "9659062": {
     "imo": "9659062",
@@ -4513,13 +4513,13 @@
     "navio_normalizado": "BRAM BRASILIA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "ESPR - MacLaren Ilha da Conceição",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-10T09:30:00.000Z",
-    "ultimo_hash_evento": "477421952bbfe4940bc2e593018a5a700e114840df052dbed7c586d9881f7973",
-    "atualizado_em": "2026-05-10T09:56:41.699Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-10T14:00:00.000Z",
+    "ultimo_hash_evento": "5d1292dfad688ce268bc514aa226f61d2e2c3bcbeb31d9fb642ab03ced8c5d5c",
+    "atualizado_em": "2026-05-10T15:36:00.325Z"
   },
   "9665566": {
     "imo": "9665566",
@@ -6010,14 +6010,14 @@
     "navio": "STARNAV CIRCINUS",
     "navio_normalizado": "STARNAV CIRCINUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2N06 - Armazém 7",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-18T18:00:00.000Z",
-    "ultimo_hash_evento": "7ffd503ca9fafaf4df01bd2bbacf24155f764f8e9d9d1845c99b90d2fa6eef1f",
-    "atualizado_em": "2026-04-18T18:27:25.572Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-10T10:30:00.000Z",
+    "ultimo_hash_evento": "8e1560ecd5089246439bd52ecf0df8e18b13e1425edbddb146a4c02774b69f4f",
+    "atualizado_em": "2026-05-10T15:36:00.325Z"
   },
   "9806512": {
     "imo": "9806512",
@@ -7040,6 +7040,20 @@
     "ultima_movimentacao_em": "2026-04-13T12:00:00.000Z",
     "ultimo_hash_evento": "be1165f9b27841dcfa60232ed96262bb3d93eefd02d1a14a270979678af31ab4",
     "atualizado_em": "2026-04-13T12:44:57.268Z"
+  },
+  "2818922518": {
+    "imo": "2818922518",
+    "navio": "POSIDONIA BRAVO",
+    "navio_normalizado": "POSIDONIA BRAVO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-10T14:00:00.000Z",
+    "ultimo_hash_evento": "356324239b3972e110204b5d62956685e6783b4e3fef31a9bb8da37f77433c46",
+    "atualizado_em": "2026-05-10T15:36:00.325Z"
   },
   "2818927463": {
     "imo": "2818927463",
