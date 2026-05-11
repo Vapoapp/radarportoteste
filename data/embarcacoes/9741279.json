@@ -1,29 +1,36 @@
 {
   "imo": "9741279",
   "navio": "ACE DEFENDER (REB)",
-  "gerado_em": "2026-05-11T18:22:13.483Z",
+  "gerado_em": "2026-05-11T20:10:24.141Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-10T18:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-11T19:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 0,
     "entradas_365d": 2,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-05-10T18:00:00.000Z",
-    "ultima_saida": "2026-05-10T13:00:00.000Z",
-    "tempo_medio_estadia_horas": 42,
-    "tempo_medio_fundeio_horas": 42
+    "ultima_saida": "2026-05-11T19:30:00.000Z",
+    "tempo_medio_estadia_horas": 33.8,
+    "tempo_medio_fundeio_horas": 33.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-11T19:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-05-10T18:00:00.000Z",
       "tipo": "ENTRADA",
