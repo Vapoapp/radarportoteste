@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-12T10:10:55.058Z",
+  "updatedAt": "2026-05-12T12:16:48.049Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 25
+      "count": 30
     },
     "niteroi": {
       "ok": true,
@@ -162,6 +162,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/05/2026 07:00",
+      "imo": "9965849",
+      "navio": "YM COMPASS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/05/2026 07:00",
       "imo": "9418030",
       "navio": "SKANDI MERCURY",
       "tipo": "ENTRADA",
@@ -222,12 +232,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/05/2026 10:00",
-      "imo": "9702077",
-      "navio": "MSC MELINE",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -261,13 +271,53 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/05/2026 15:00",
-      "imo": "9313931",
-      "navio": "MSC INIYA V",
+      "inicio": "12/05/2026 16:30",
+      "imo": "9786097",
+      "navio": "MAERSK PANGANI",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 00:00",
+      "imo": "9735103",
+      "navio": "PORT ORIENT",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 06:30",
+      "imo": "9945863",
+      "navio": "COSCO SHIPPING MEXICO",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 07:30",
+      "imo": "9786097",
+      "navio": "MAERSK PANGANI",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 19:00",
+      "imo": "9757711",
+      "navio": "TORDIS KNUTSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 61 - 2F6A",
+      "para": "-",
+      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Niterói",
