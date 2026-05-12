@@ -1,21 +1,21 @@
 {
   "imo": "9762742",
   "navio": "POSIDONIA LEOPARD (REB)",
-  "gerado_em": "2026-05-12T20:51:28.002Z",
+  "gerado_em": "2026-05-12T21:58:30.132Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-12T13:30:00.000Z"
+    "local": "2PAL - Terminal Petrobras AL",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-12T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 18,
-    "manobras_365d": 18,
+    "manobras_30d": 13,
+    "manobras_180d": 19,
+    "manobras_365d": 19,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 5,
     "saidas_365d": 4,
     "ultima_entrada": "2026-05-12T13:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 24
   },
   "historico_recente": [
+    {
+      "data": "2026-05-12T21:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "2PAL - Terminal Petrobras AL"
+    },
     {
       "data": "2026-05-12T13:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-04-19T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
