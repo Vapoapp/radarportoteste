@@ -634,14 +634,14 @@
     "navio": "GRANDE SAN PAOLO",
     "navio_normalizado": "GRANDE SAN PAOLO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2R12 - Terminal - MCAR 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2R12 - Terminal - MCAR 1",
+    "destino_atual": "-",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-11T15:00:00.000Z",
-    "ultimo_hash_evento": "4bab72e0ecd21ebcb933b94268c191598c4997a27347642d7f218cda452e0c03",
-    "atualizado_em": "2026-05-11T16:37:12.069Z"
+    "ultima_movimentacao_em": "2026-05-12T07:00:00.000Z",
+    "ultimo_hash_evento": "12619dfba2d1ebc5ed822b9d7970c3217c7c945db5408a4d654a76a0cd148258",
+    "atualizado_em": "2026-05-12T07:35:47.716Z"
   },
   "9253210": {
     "imo": "9253210",
@@ -4148,14 +4148,14 @@
     "navio": "ORYX (REB)",
     "navio_normalizado": "ORYX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-29T08:00:00.000Z",
-    "ultimo_hash_evento": "f3f7cb11f66d0a6620a87f51e5df2e10b88894326a55fa73b0072f7390f8a812",
-    "atualizado_em": "2026-04-29T08:39:47.293Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-12T06:00:00.000Z",
+    "ultimo_hash_evento": "b5460d1a8699c5ea4711144d1f02b4e391ecb4dea4250fdf9c7149b674e0616a",
+    "atualizado_em": "2026-05-12T07:35:47.716Z"
   },
   "9636888": {
     "imo": "9636888",
@@ -4624,14 +4624,14 @@
     "navio": "STARNAV CENTAURUS",
     "navio_normalizado": "STARNAV CENTAURUS",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-12T01:00:00.000Z",
-    "ultimo_hash_evento": "36ef9a4267a85744fe79eb9a3deb1904a2fac52f8025a53d63097e4dd64445a5",
-    "atualizado_em": "2026-05-12T01:22:22.870Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-12T07:00:00.000Z",
+    "ultimo_hash_evento": "8044ad149617c95c63518883dbf89f12aef3e93b3f4164e4b79dbf2615624f1b",
+    "atualizado_em": "2026-05-12T07:35:47.716Z"
   },
   "9668752": {
     "imo": "9668752",
@@ -6327,6 +6327,20 @@
     "ultimo_hash_evento": "5e123b49dee9db7f6e36a12ad952895aba75015bb659202416f0cbb5d4d349d6",
     "atualizado_em": "2026-04-24T05:24:49.056Z"
   },
+  "9849265": {
+    "imo": "9849265",
+    "navio": "CLEAROCEAN MELODY",
+    "navio_normalizado": "CLEAROCEAN MELODY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPS1 - PETROBRAS PS1",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-12T07:00:00.000Z",
+    "ultimo_hash_evento": "c6257ebceca85740e0b032c92f3a071c82d604cea7dd38cc5b8bbae7365218d4",
+    "atualizado_em": "2026-05-12T07:35:47.716Z"
+  },
   "9849758": {
     "imo": "9849758",
     "navio": "GENCO VALKYRIE",
@@ -7404,5 +7418,19 @@
     "ultima_movimentacao_em": "2026-04-27T17:00:00.000Z",
     "ultimo_hash_evento": "a3a69fedefd490e596c908410c03aa11ba0279c62bfe275c6a84e67315d4c787",
     "atualizado_em": "2026-04-27T19:45:02.844Z"
+  },
+  "": {
+    "imo": "",
+    "navio": "M ILHAVO",
+    "navio_normalizado": "M ILHAVO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESCA - ESTALEIRO CASSINU",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-12T05:00:00.000Z",
+    "ultimo_hash_evento": "98cfe47bf45d76f6af64c3c5d89e5d3af5843c9a1da5f79093c40abc393d984a",
+    "atualizado_em": "2026-05-12T07:35:47.716Z"
   }
 }
