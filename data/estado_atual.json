@@ -1749,6 +1749,20 @@
     "ultimo_hash_evento": "a929ec7c46fed8dcaef0e4eb5dc1ab65ab598b601684bf6fcd6539f00ce48acd",
     "atualizado_em": "2026-05-10T14:39:01.853Z"
   },
+  "9382229": {
+    "imo": "9382229",
+    "navio": "NORTH OCEAN 102",
+    "navio_normalizado": "NORTH OCEAN 102",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N05 - Armazém 6",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-13T12:00:00.000Z",
+    "ultimo_hash_evento": "81e0f97908a0c68de5249795705d8ac610bbd92fa4dce69548c176658be3b389",
+    "atualizado_em": "2026-05-13T12:18:30.942Z"
+  },
   "9385257": {
     "imo": "9385257",
     "navio": "HOS MAVERICK",
@@ -5170,14 +5184,14 @@
     "navio": "MSC MELINE",
     "navio_normalizado": "MSC MELINE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-11T11:00:00.000Z",
-    "ultimo_hash_evento": "f8f8fcf3cc6e671333be9c8e94849a81fcbd1f486759e503268b281a8132f4c6",
-    "atualizado_em": "2026-05-11T14:00:39.319Z"
+    "ultima_movimentacao_em": "2026-05-13T10:30:00.000Z",
+    "ultimo_hash_evento": "15c96ebf836c2193a03c63de50e5da188a46fbda7073a3a7fdc0f83c27cbed3c",
+    "atualizado_em": "2026-05-13T12:18:30.942Z"
   },
   "9702754": {
     "imo": "9702754",
@@ -5408,14 +5422,14 @@
     "navio": "CBO OCEANA",
     "navio_normalizado": "CBO OCEANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-13T05:00:00.000Z",
-    "ultimo_hash_evento": "c1c69f9d94cee3f4ff2fbe3aa0139931e9a6307fd8d755125c871f6080364075",
-    "atualizado_em": "2026-05-13T07:27:18.570Z"
+    "ultima_movimentacao_em": "2026-05-13T11:00:00.000Z",
+    "ultimo_hash_evento": "b6ce60316e40713daaf1fddeb7345bc7b452f8a9a49e5002f347599009aeaa06",
+    "atualizado_em": "2026-05-13T12:18:30.942Z"
   },
   "9715725": {
     "imo": "9715725",
@@ -5707,9 +5721,9 @@
     "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-13T10:00:00.000Z",
-    "ultimo_hash_evento": "0f3b17910190a51adcd4890c9f02d12bcd85f1f8e8ff16c7757a0b63aa85ebdb",
-    "atualizado_em": "2026-05-13T10:03:19.269Z"
+    "ultima_movimentacao_em": "2026-05-13T12:00:00.000Z",
+    "ultimo_hash_evento": "8843f01b04f21d9b8a1d1592747bfebcb4f8711725ddc4043b7a24d68b516483",
+    "atualizado_em": "2026-05-13T12:18:30.942Z"
   },
   "9753923": {
     "imo": "9753923",
@@ -5857,13 +5871,13 @@
     "navio_normalizado": "POSIDONIA LEOPARD",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "NIT - ATRACADO NITERÓI",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-12T23:00:00.000Z",
-    "ultimo_hash_evento": "f3e2c9775fad24e77cc1c94ea03b08b1b68c6ad164415379bf5edb30495e4b3e",
-    "atualizado_em": "2026-05-12T23:05:49.043Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-13T11:00:00.000Z",
+    "ultimo_hash_evento": "ddcd893e098c83f1a347e16c2caea2e500b30a01621f1f03a0c9fda565311fd2",
+    "atualizado_em": "2026-05-13T12:18:30.942Z"
   },
   "9763760": {
     "imo": "9763760",
@@ -6038,14 +6052,14 @@
     "navio": "MAERSK PANGANI",
     "navio_normalizado": "MAERSK PANGANI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-12T19:30:00.000Z",
-    "ultimo_hash_evento": "80696d1f4675217978cbffc3fa2ebb81b85738473571783d5ea99b420262e095",
-    "atualizado_em": "2026-05-12T20:51:28.002Z"
+    "ultima_movimentacao_em": "2026-05-13T11:30:00.000Z",
+    "ultimo_hash_evento": "4255cab4456e8fe85d84090276fed264342490c87c39595754df6436aa33f535",
+    "atualizado_em": "2026-05-13T12:18:30.942Z"
   },
   "9786152": {
     "imo": "9786152",
