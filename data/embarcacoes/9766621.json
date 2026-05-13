@@ -1,29 +1,36 @@
 {
   "imo": "9766621",
   "navio": "CBO ALIANÇA",
-  "gerado_em": "2026-05-13T19:16:09.909Z",
+  "gerado_em": "2026-05-13T20:57:38.040Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-13T09:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-13T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 21,
-    "manobras_180d": 26,
-    "manobras_365d": 26,
+    "manobras_30d": 22,
+    "manobras_180d": 27,
+    "manobras_365d": 27,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 14,
     "entradas_365d": 5,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-05-06T21:00:00.000Z",
-    "ultima_saida": "2026-05-01T06:00:00.000Z",
-    "tempo_medio_estadia_horas": 74.3,
+    "ultima_saida": "2026-05-13T20:00:00.000Z",
+    "tempo_medio_estadia_horas": 92.8,
     "tempo_medio_fundeio_horas": 33
   },
   "historico_recente": [
+    {
+      "data": "2026-05-13T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-05-13T09:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-01T06:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
