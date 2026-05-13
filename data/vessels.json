@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-13T17:26:51.381Z",
+  "updatedAt": "2026-05-13T19:16:09.909Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 59
+      "count": 62
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 3
+      "count": 12
     },
     "angra": {
       "ok": true,
@@ -192,22 +192,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/05/2026 08:00",
-      "imo": "9578660",
-      "navio": "SEA1 ATLAS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N06 - Armazém 7",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/05/2026 08:00",
-      "imo": "9659543",
-      "navio": "BARU ANTARES",
-      "tipo": "SAÍDA",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
       "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,12 +212,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/05/2026 08:00",
-      "imo": "9762742",
-      "navio": "POSIDONIA LEOPARD (REB)",
-      "tipo": "MUDANÇA",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
+      "tipo": "SAÍDA",
       "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 08:00",
+      "imo": "9578660",
+      "navio": "SEA1 ATLAS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N06 - Armazém 7",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -238,16 +238,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/05/2026 09:00",
-      "imo": "9382229",
-      "navio": "NORTH OCEAN 102",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N05 - Armazém 6",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,22 +262,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/05/2026 10:00",
-      "imo": "9753923",
-      "navio": "SKANDI INVOLVER",
-      "tipo": "SAÍDA",
-      "de": "2N08 - Pátio 9",
-      "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/05/2026 10:00",
       "imo": "9283435",
       "navio": "MARLIN COPACABANA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 10:00",
+      "imo": "9753923",
+      "navio": "SKANDI INVOLVER",
+      "tipo": "SAÍDA",
+      "de": "2N08 - Pátio 9",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -382,6 +372,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/05/2026 14:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 14:00",
       "imo": "3813883612",
       "navio": "C MACAÉ",
       "tipo": "ENTRADA",
@@ -401,16 +401,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "13/05/2026 14:00",
-      "imo": "9710945",
-      "navio": "SEACOR NILE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CMM OFFSHORE BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "13/05/2026 15:30",
       "imo": "9850898",
       "navio": "EVER FEAT",
@@ -422,22 +412,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/05/2026 16:00",
-      "imo": "9679907",
-      "navio": "CMA CGM MISSISSIPPI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/05/2026 16:00",
       "imo": "9668738",
       "navio": "STARNAV CENTAURUS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 16:00",
+      "imo": "9679907",
+      "navio": "CMA CGM MISSISSIPPI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -462,6 +452,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/05/2026 19:00",
+      "imo": "9757711",
+      "navio": "TORDIS KNUTSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 61 - 2F6A",
+      "para": "-",
+      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 19:00",
+      "imo": "9668752",
+      "navio": "STARNAV REGULUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/05/2026 19:00",
       "imo": "9196307",
       "navio": "F. F GLORY",
       "tipo": "ENTRADA",
@@ -481,13 +491,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "13/05/2026 19:00",
-      "imo": "9757711",
-      "navio": "TORDIS KNUTSEN",
+      "inicio": "13/05/2026 20:00",
+      "imo": "9423437",
+      "navio": "AKOFS SANTOS",
       "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 61 - 2F6A",
+      "de": "TPS2 - PETROBRAS PS2",
       "para": "-",
-      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -518,6 +528,16 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/05/2026 07:00",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -591,6 +611,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/05/2026 13:00",
+      "imo": "9453810",
+      "navio": "ZUMBI DOS PALMARES",
+      "tipo": "MUDANÇA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - WPT 63 - 2F6A",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/05/2026 15:30",
       "imo": "9850898",
       "navio": "EVER FEAT",
@@ -657,6 +687,96 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "301 - TECON - SEPETIBA TECON S.A.",
+      "agente": "BRAZILIAN PORT AGENTS"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 02:00",
+      "imo": "9849758",
+      "navio": "GENCO VALKYRIE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
+      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 06:00",
+      "imo": "1026996",
+      "navio": "PALEXPO",
+      "tipo": "SAÍDA",
+      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "para": "-",
+      "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 07:30",
+      "imo": "9492098",
+      "navio": "AVILA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB4 - Área de Fundeio B4",
+      "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 08:30",
+      "imo": "9725029",
+      "navio": "ASIAN PRIDE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 09:30",
+      "imo": "9847205",
+      "navio": "BBG Nanning",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 10:30",
+      "imo": "9860972",
+      "navio": "TOMINI K11",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB3 - Área de Fundeio B3",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 11:30",
+      "imo": "9500297",
+      "navio": "AGIA YPOMONI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "101 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 16:00",
+      "imo": "9712682",
+      "navio": "GARGANTUA",
+      "tipo": "SAÍDA",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-",
+      "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/05/2026 17:30",
+      "imo": "9508433",
+      "navio": "BBC MONT BLANC",
+      "tipo": "SAÍDA",
+      "de": "303 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
       "agente": "BRAZILIAN PORT AGENTS"
     }
   ]
