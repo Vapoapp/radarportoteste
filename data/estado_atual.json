@@ -1829,9 +1829,9 @@
     "destino_atual": "2N05 - Armazém 6",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-13T12:00:00.000Z",
-    "ultimo_hash_evento": "81e0f97908a0c68de5249795705d8ac610bbd92fa4dce69548c176658be3b389",
-    "atualizado_em": "2026-05-13T12:18:30.942Z"
+    "ultima_movimentacao_em": "2026-05-14T12:00:00.000Z",
+    "ultimo_hash_evento": "ad0c8a058d270c086057f811732f108b2d7bf4d9199714c94742f9c321d012d6",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
   },
   "9385257": {
     "imo": "9385257",
@@ -2715,6 +2715,20 @@
     "ultimo_hash_evento": "1119d155aa4b1ebe884925b3358fddc94efb536995b071e318ec8237de16a449",
     "atualizado_em": "2026-04-30T11:15:20.562Z"
   },
+  "9467445": {
+    "imo": "9467445",
+    "navio": "MSC KATRINA",
+    "navio_normalizado": "MSC KATRINA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-14T11:30:00.000Z",
+    "ultimo_hash_evento": "e3720431c12df524d1a3ceddf770c695bde54fd77340fdda4becd6ceb9f08b47",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
+  },
   "9476886": {
     "imo": "9476886",
     "navio": "REEDBUCK (REB)",
@@ -2930,14 +2944,14 @@
     "navio": "AVILA",
     "navio_normalizado": "AVILA",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB4 - Área de Fundeio B4",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB4 - Área de Fundeio B4",
+    "destino_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
     "agente_atual": "ISS MARINE SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-13T19:00:00.000Z",
-    "ultimo_hash_evento": "0e8323a69abccdbf4cd526bb7734c022092983b72c78526907b23c26b6c97f9a",
-    "atualizado_em": "2026-05-13T19:16:09.909Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-14T10:30:00.000Z",
+    "ultimo_hash_evento": "e52a0231c2348e5178bc0cd236b3bd85fafaf9fa36cebcaca7cbb2b2bb0988e2",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
   },
   "9492127": {
     "imo": "9492127",
@@ -3322,14 +3336,14 @@
     "navio": "SANTOS SCOUT",
     "navio_normalizado": "SANTOS SCOUT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPBR - BRASCO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-13T21:30:00.000Z",
-    "ultimo_hash_evento": "20df4b8aa90baad4a36e7591c74f5aa7a9da07f1f17480f8ea607b620f3b2fd6",
-    "atualizado_em": "2026-05-13T22:14:20.650Z"
+    "ultima_movimentacao_em": "2026-05-14T09:00:00.000Z",
+    "ultimo_hash_evento": "c81698612a06da46289a8f855d7d511c61f4bb603915dec3b00c095d80c41775",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
   },
   "9530199": {
     "imo": "9530199",
@@ -4521,6 +4535,20 @@
     "ultimo_hash_evento": "aec41646adc742a3201ab84da2cc97350dfd85ea67f9963db65bf50e2f9d0b0d",
     "atualizado_em": "2026-05-09T06:35:47.891Z"
   },
+  "9644158": {
+    "imo": "9644158",
+    "navio": "ZARAPITO",
+    "navio_normalizado": "ZARAPITO",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "agente_atual": "WILSON SONS OFFSHORE S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-14T12:00:00.000Z",
+    "ultimo_hash_evento": "9a9be9d84c449c394214763ce77b40439edce8ddc1e7dfac2808123ecdbccf41",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
+  },
   "9644160": {
     "imo": "9644160",
     "navio": "BRAM BELEM",
@@ -4764,14 +4792,14 @@
     "navio": "BARU MUCURA",
     "navio_normalizado": "BARU MUCURA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
     "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-13T23:00:00.000Z",
-    "ultimo_hash_evento": "a3a36d214d76cf41cea91838459079676f38d14b2c087908d86a38438938e35f",
-    "atualizado_em": "2026-05-14T01:28:13.530Z"
+    "ultima_movimentacao_em": "2026-05-14T05:30:00.000Z",
+    "ultimo_hash_evento": "18ff12e792619da15570eebe1896d0ffb795bbf5ccfa940944a3fce3d6a6443d",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
   },
   "9659634": {
     "imo": "9659634",
@@ -4862,14 +4890,14 @@
     "navio": "STARNAV REGULUS",
     "navio_normalizado": "STARNAV REGULUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-13T22:00:00.000Z",
-    "ultimo_hash_evento": "17b955c1edafa7818972b6ff764a9f43266174e1aece6475cc21bf2d3d6986af",
-    "atualizado_em": "2026-05-13T22:14:20.650Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-14T05:00:00.000Z",
+    "ultimo_hash_evento": "cd22cb075954296c63b228e8df34023ea0eb37df184a1a5dd2fe6d65159e02c2",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
   },
   "9670262": {
     "imo": "9670262",
@@ -5002,14 +5030,14 @@
     "navio": "CMA CGM MISSISSIPPI",
     "navio_normalizado": "CMA CGM MISSISSIPPI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-13T19:00:00.000Z",
-    "ultimo_hash_evento": "734e53122805a0540a8389c36a5a078ee588483d0518e74cdf5dcee1ff18fab0",
-    "atualizado_em": "2026-05-13T19:16:09.909Z"
+    "ultima_movimentacao_em": "2026-05-14T10:30:00.000Z",
+    "ultimo_hash_evento": "259727cd95de37765150abaacc76e51a98dcb5648ed5559592e3f01277334e98",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
   },
   "9680786": {
     "imo": "9680786",
@@ -5403,6 +5431,20 @@
     "ultimo_hash_evento": "55047cc0c50e1d1fc0ebc66d669c967f288d72fa732b6fc4e619bc75d89141c7",
     "atualizado_em": "2026-05-04T20:40:58.441Z"
   },
+  "9703631": {
+    "imo": "9703631",
+    "navio": "BRAM TITAN",
+    "navio_normalizado": "BRAM TITAN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-14T11:00:00.000Z",
+    "ultimo_hash_evento": "078cf14a01209cf6865eabc24d72b7e1ccd0fc0f35b8a3df114eb1392db45e97",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
+  },
   "9703667": {
     "imo": "9703667",
     "navio": "BRAM HERO",
@@ -5682,6 +5724,20 @@
     "ultima_movimentacao_em": "2026-05-12T08:30:00.000Z",
     "ultimo_hash_evento": "4131a072931537bbbca1f5bd7f384f311a7634e6f5a71d65144020af67b97654",
     "atualizado_em": "2026-05-12T10:10:55.058Z"
+  },
+  "9725029": {
+    "imo": "9725029",
+    "navio": "ASIAN PRIDE",
+    "navio_normalizado": "ASIAN PRIDE",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-14T11:30:00.000Z",
+    "ultimo_hash_evento": "59bc6967d1d0fab0b2b2d1c0a947736cf82071c868b89bc44ad00191bbbe1d98",
+    "atualizado_em": "2026-05-14T12:11:21.240Z"
   },
   "9726279": {
     "imo": "9726279",
