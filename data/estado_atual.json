@@ -453,13 +453,13 @@
     "navio_normalizado": "BRAM NATAL",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-22T16:00:00.000Z",
-    "ultimo_hash_evento": "c27441cb88927645a6f82e26b13e3ebf665632db186277f2fbc4a389699fea40",
-    "atualizado_em": "2026-04-22T16:44:54.716Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-14T18:00:00.000Z",
+    "ultimo_hash_evento": "fc24b9daf00b255f2f7a12072c5aa4288b9fc1cd01a7a71edebca8d6469cc2e2",
+    "atualizado_em": "2026-05-14T20:08:27.900Z"
   },
   "9191448": {
     "imo": "9191448",
@@ -872,14 +872,14 @@
     "navio": "NORMAND TOPAZIO",
     "navio_normalizado": "NORMAND TOPAZIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-30T16:30:00.000Z",
-    "ultimo_hash_evento": "4105dd097fbda5783c62cf3864d43b94b7b7333afd290fa15f9f9243be548cbc",
-    "atualizado_em": "2026-05-01T01:22:52.311Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-14T20:00:00.000Z",
+    "ultimo_hash_evento": "60b28ab0dc531057fabb2e32837655a5d8ee55311ce3987624d6ace56db78530",
+    "atualizado_em": "2026-05-14T20:08:27.900Z"
   },
   "9283435": {
     "imo": "9283435",
@@ -2070,6 +2070,20 @@
     "ultima_movimentacao_em": "2026-05-03T04:45:00.000Z",
     "ultimo_hash_evento": "42e34617aeb94a7a9ce529939fe0ff5d456ddd8a31108f1679f7fcb212ffc5bc",
     "atualizado_em": "2026-05-03T05:46:09.384Z"
+  },
+  "9417830": {
+    "imo": "9417830",
+    "navio": "CBO ENDEAVOUR (REB)",
+    "navio_normalizado": "CBO ENDEAVOUR",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-14T15:00:00.000Z",
+    "ultimo_hash_evento": "dab07c51e38a3b459d790e0c369871e6a5a120ea052b42c369d6206d041a2557",
+    "atualizado_em": "2026-05-14T20:08:27.900Z"
   },
   "9418030": {
     "imo": "9418030",
@@ -4386,14 +4400,14 @@
     "navio": "ORYX (REB)",
     "navio_normalizado": "ORYX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-14T13:00:00.000Z",
-    "ultimo_hash_evento": "9cbf91158623e79cba3300b5af800ba9134afef0a548a7573f810f3886840c13",
-    "atualizado_em": "2026-05-14T14:40:18.241Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-14T19:30:00.000Z",
+    "ultimo_hash_evento": "ac8f3be5f5fd3ab6fbeed237398b2389cebe11f1b53f42669d013c83adf99609",
+    "atualizado_em": "2026-05-14T20:08:27.900Z"
   },
   "9636888": {
     "imo": "9636888",
@@ -5422,14 +5436,14 @@
     "navio": "SAPURA RUBI",
     "navio_normalizado": "SAPURA RUBI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-14T13:30:00.000Z",
-    "ultimo_hash_evento": "00b051fe21ecf6b819c561e5c07a356ca2244efef5b7860bc00bf3422d915f6b",
-    "atualizado_em": "2026-05-14T16:32:08.365Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-14T20:00:00.000Z",
+    "ultimo_hash_evento": "9e8b5bdf3956504890be42a577e789847f3b9169591b6df417f844c32fce455f",
+    "atualizado_em": "2026-05-14T20:08:27.900Z"
   },
   "9702883": {
     "imo": "9702883",
@@ -5632,14 +5646,14 @@
     "navio": "GARGANTUA",
     "navio_normalizado": "GARGANTUA",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "destino_atual": "-",
     "agente_atual": "GEM SHIPPING LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-11T03:00:00.000Z",
-    "ultimo_hash_evento": "725ae52c3ffb59fc66160642f8ab1e9f2301c4ade1caf0876dc91cc66d0b06ca",
-    "atualizado_em": "2026-05-11T04:19:17.191Z"
+    "ultima_movimentacao_em": "2026-05-14T19:00:00.000Z",
+    "ultimo_hash_evento": "71278abdf84d298a6d8024acc796f8af788c4a3e880013d7c290e38917e72a95",
+    "atualizado_em": "2026-05-14T20:08:27.900Z"
   },
   "9715206": {
     "imo": "9715206",
@@ -5688,14 +5702,14 @@
     "navio": "STARNAV ANDROMEDA",
     "navio_normalizado": "STARNAV ANDROMEDA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-05T05:00:00.000Z",
-    "ultimo_hash_evento": "d1a086a26cdc52f0f0a7f31f6cbc470c718834ebd09528b00dce3b537dd511d7",
-    "atualizado_em": "2026-05-05T06:34:36.375Z"
+    "ultima_movimentacao_em": "2026-05-14T19:00:00.000Z",
+    "ultimo_hash_evento": "8c74950df380acbcdb72cf9e1ec7d0a536cc6594c4f3b18785a04424e2a7f2f3",
+    "atualizado_em": "2026-05-14T20:08:27.900Z"
   },
   "9715751": {
     "imo": "9715751",
