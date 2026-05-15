@@ -1,29 +1,36 @@
 {
   "imo": "9545857",
   "navio": "COXON TIDE (REB)",
-  "gerado_em": "2026-05-15T10:39:24.160Z",
+  "gerado_em": "2026-05-15T12:23:05.079Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "TPBL - BRICLOG",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-25T16:00:00.000Z"
+    "ultima_movimentacao": "2026-05-15T10:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 5,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-25T10:00:00.000Z",
     "ultima_saida": "2026-04-21T15:00:00.000Z",
     "tempo_medio_estadia_horas": 281.5,
-    "tempo_medio_fundeio_horas": 133.8
+    "tempo_medio_fundeio_horas": 247.3
   },
   "historico_recente": [
+    {
+      "data": "2026-05-15T10:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBL - BRICLOG"
+    },
     {
       "data": "2026-04-25T16:00:00.000Z",
       "tipo": "MUDANÇA",
