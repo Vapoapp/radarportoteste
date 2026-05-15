@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-14T23:32:08.091Z",
+  "updatedAt": "2026-05-15T01:24:14.478Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 65
+      "count": 71
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -222,12 +222,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/05/2026 10:00",
-      "imo": "9806512",
-      "navio": "STARNAV DELPHINUS",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "2N06 - Armazém 7",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "9188130",
+      "navio": "BRAM NATAL (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -242,12 +242,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/05/2026 10:00",
-      "imo": "9188130",
-      "navio": "BRAM NATAL (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBR - BRASCO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9806512",
+      "navio": "STARNAV DELPHINUS",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2N06 - Armazém 7",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,16 +312,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/05/2026 13:00",
-      "imo": "9530187",
-      "navio": "SANTOS SCOUT",
-      "tipo": "SAÍDA",
-      "de": "TPBR - BRASCO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/05/2026 13:00",
       "imo": "9453810",
       "navio": "ZUMBI DOS PALMARES",
       "tipo": "MUDANÇA",
@@ -331,13 +321,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/05/2026 13:30",
-      "imo": "9313931",
-      "navio": "MSC INIYA V",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "inicio": "14/05/2026 13:00",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
+      "tipo": "SAÍDA",
+      "de": "TPBR - BRASCO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -351,12 +341,22 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/05/2026 14:00",
+      "inicio": "14/05/2026 13:30",
+      "imo": "9313931",
+      "navio": "MSC INIYA V",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/05/2026 13:50",
       "imo": "9692636",
       "navio": "CBO ENERGY (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
@@ -402,22 +402,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/05/2026 16:00",
-      "imo": "9715737",
-      "navio": "STARNAV ANDROMEDA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/05/2026 16:00",
       "imo": "9616187",
       "navio": "SCOTSMAN TIDE (REB)",
       "tipo": "MUDANÇA",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/05/2026 16:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -481,6 +481,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/05/2026 21:35",
+      "imo": "9692636",
+      "navio": "CBO ENERGY (REB)",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/05/2026 22:00",
       "imo": "9267754",
       "navio": "OCEAN7 ROYAL",
@@ -492,22 +502,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/05/2026 22:30",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/05/2026 22:30",
       "imo": "9627629",
       "navio": "CBO ARPOADOR",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico",
+      "para": "2P19 - Terminal Petrobrás SC",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/05/2026 23:00",
-      "imo": "3810505781",
-      "navio": "C TORNADO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "ESCM - ESTALEIRO CAMORIM",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -521,13 +531,53 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/05/2026 01:00",
-      "imo": "9642590",
-      "navio": "PINGUIM",
+      "inicio": "14/05/2026 23:00",
+      "imo": "3810505781",
+      "navio": "C TORNADO",
       "tipo": "ENTRADA",
       "de": "-",
+      "para": "ESCM - ESTALEIRO CAMORIM",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 00:00",
+      "imo": "9788459",
+      "navio": "MR ALDO",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 01:00",
+      "imo": "9782699",
+      "navio": "GRANDE HOUSTON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 02:00",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 04:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -670,6 +720,16 @@
       "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 20:00",
+      "imo": "9639440",
+      "navio": "C NEBLINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESCM - ESTALEIRO CAMORIM",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "14/05/2026 09:00",
       "imo": "9644158",
@@ -688,6 +748,16 @@
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "-",
       "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "14/05/2026 18:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "SAÍDA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
