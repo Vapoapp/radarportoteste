@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-15T05:07:32.644Z",
+  "updatedAt": "2026-05-15T08:15:21.717Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 26
+      "count": 29
     },
     "niteroi": {
       "ok": true,
-      "count": 0
+      "count": 1
     },
     "itaguai": {
       "ok": true,
@@ -58,6 +58,16 @@
       "de": "-",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 01:00",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -132,12 +142,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/05/2026 06:00",
-      "imo": "9458157",
-      "navio": "GAZ SYNERGY",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
       "tipo": "MUDANÇA",
-      "de": "TPIC - ILHA COMPRIDA",
-      "para": "Fundeio - WPT 61 - 2F6A",
-      "agente": "GAC DO BRASIL LTDA."
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -148,6 +158,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 06:00",
+      "imo": "9458157",
+      "navio": "GAZ SYNERGY",
+      "tipo": "MUDANÇA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "Fundeio - WPT 61 - 2F6A",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -241,6 +261,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 11:00",
+      "imo": "9196307",
+      "navio": "F. F GLORY",
+      "tipo": "SAÍDA",
+      "de": "2N10 - Terminal de Trigo",
+      "para": "-",
+      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/05/2026 15:00",
       "imo": "9972361",
       "navio": "HL EDWARD AUSTIN",
@@ -248,16 +278,6 @@
       "de": "TPG1 - GNL 1",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/05/2026 18:00",
-      "imo": "9782699",
-      "navio": "GRANDE HOUSTON",
-      "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -271,6 +291,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/05/2026 18:00",
+      "imo": "9782699",
+      "navio": "GRANDE HOUSTON",
+      "tipo": "SAÍDA",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/05/2026 20:00",
       "imo": "9639440",
       "navio": "C NEBLINA",
@@ -278,6 +308,16 @@
       "de": "-",
       "para": "ESCM - ESTALEIRO CAMORIM",
       "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "15/05/2026 03:40",
+      "imo": "9767821",
+      "navio": "CBO BOSSA NOVA",
+      "tipo": "SAÍDA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Itaguaí",
