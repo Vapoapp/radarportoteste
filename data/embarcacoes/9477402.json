@@ -1,7 +1,7 @@
 {
   "imo": "9477402",
   "navio": "CBO ANITA",
-  "gerado_em": "2026-05-15T18:06:45.258Z",
+  "gerado_em": "2026-05-15T19:51:36.004Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
@@ -10,12 +10,12 @@
     "ultima_movimentacao": "2026-05-15T17:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 8,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-07T06:00:00.000Z",
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "TPBR - BRASCO",
       "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-05-15T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
     },
     {
       "data": "2026-05-07T17:00:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-11T12:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }

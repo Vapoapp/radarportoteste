@@ -1,29 +1,36 @@
 {
   "imo": "9616187",
   "navio": "SCOTSMAN TIDE (REB)",
-  "gerado_em": "2026-05-15T18:06:45.258Z",
+  "gerado_em": "2026-05-15T19:51:36.004Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-14T19:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-15T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 19,
-    "manobras_180d": 19,
-    "manobras_365d": 19,
+    "manobras_30d": 20,
+    "manobras_180d": 20,
+    "manobras_365d": 20,
     "entradas_30d": 7,
-    "saidas_30d": 6,
+    "saidas_30d": 7,
     "mudancas_30d": 6,
     "entradas_365d": 7,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-05-07T18:00:00.000Z",
-    "ultima_saida": "2026-05-07T11:00:00.000Z",
-    "tempo_medio_estadia_horas": 70,
-    "tempo_medio_fundeio_horas": 59.2
+    "ultima_saida": "2026-05-15T18:00:00.000Z",
+    "tempo_medio_estadia_horas": 100.5,
+    "tempo_medio_fundeio_horas": 54.7
   },
   "historico_recente": [
+    {
+      "data": "2026-05-15T18:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-05-14T19:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-02T11:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
