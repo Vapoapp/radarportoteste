@@ -555,9 +555,9 @@
     "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-20T17:00:00.000Z",
-    "ultimo_hash_evento": "e9b245d6000efc46ab927add15a4b15d033f7f0e80fe25a9f8d85e207b57b445",
-    "atualizado_em": "2026-04-20T18:12:11.861Z"
+    "ultima_movimentacao_em": "2026-05-15T17:30:00.000Z",
+    "ultimo_hash_evento": "344b8f2781ac570bce9d5fe7b201c92046b2bc6c3d66b514cd0d05ade3189b43",
+    "atualizado_em": "2026-05-15T18:06:45.258Z"
   },
   "9231535": {
     "imo": "9231535",
@@ -2833,13 +2833,13 @@
     "navio_normalizado": "CBO ANITA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-07T17:00:00.000Z",
-    "ultimo_hash_evento": "66cd02e49cd4777ffd64132db68f8b637c78b81511d677adf7ceff3ef8a15c0d",
-    "atualizado_em": "2026-05-07T18:01:23.527Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-15T17:30:00.000Z",
+    "ultimo_hash_evento": "820731c2c276687f368cb53275b3d11a1cac79d824e820914b1518e7ab2ab8ab",
+    "atualizado_em": "2026-05-15T18:06:45.258Z"
   },
   "9480203": {
     "imo": "9480203",
@@ -3392,14 +3392,14 @@
     "navio": "SANTOS SCOUT",
     "navio_normalizado": "SANTOS SCOUT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-15T04:30:00.000Z",
-    "ultimo_hash_evento": "8f844c76aa4cbcadf249bfea622f54372fa5fe86c44fb7273105287a400a9c14",
-    "atualizado_em": "2026-05-15T05:07:32.644Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-15T17:00:00.000Z",
+    "ultimo_hash_evento": "7c15b97c4fd42cb0b4bb4831bd77d24a9261e9d541ac40ca0809c7d7d16ce5d3",
+    "atualizado_em": "2026-05-15T18:06:45.258Z"
   },
   "9530199": {
     "imo": "9530199",
@@ -7363,6 +7363,20 @@
     "ultimo_hash_evento": "a909f90f9c194944c9d20091eeb20c7bba9177bf5c95a960a809506a2bdafbca",
     "atualizado_em": "2026-04-21T19:51:16.912Z"
   },
+  "9939967": {
+    "imo": "9939967",
+    "navio": "MOUNT ITA",
+    "navio_normalizado": "MOUNT ITA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-15T17:00:00.000Z",
+    "ultimo_hash_evento": "946353b1d5dfb8f9f6ed2b6584c84372eeaa04bd562a4ebb7bbe8383ec1d524e",
+    "atualizado_em": "2026-05-15T18:06:45.258Z"
+  },
   "9944417": {
     "imo": "9944417",
     "navio": "BRAM SPIRIT",
@@ -7634,14 +7648,14 @@
     "navio": "HL EDWARD AUSTIN",
     "navio_normalizado": "HL EDWARD AUSTIN",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPG1 - GNL 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPG1 - GNL 1",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-14T10:00:00.000Z",
-    "ultimo_hash_evento": "2b5e193c0e54f9a2450e25e738a9a7803025fb20c4a841421aa5c88eeab745d4",
-    "atualizado_em": "2026-05-14T10:29:16.766Z"
+    "ultima_movimentacao_em": "2026-05-15T18:00:00.000Z",
+    "ultimo_hash_evento": "b2460c556846f343220ee1a88b4ffe3b97bb7936cbe5e87bdb79753c6d721123",
+    "atualizado_em": "2026-05-15T18:06:45.258Z"
   },
   "9973315": {
     "imo": "9973315",
