@@ -1,29 +1,36 @@
 {
   "imo": "9741279",
   "navio": "ACE DEFENDER (REB)",
-  "gerado_em": "2026-05-15T08:15:21.717Z",
+  "gerado_em": "2026-05-15T10:39:24.160Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS2 - Terminal Siderúrgico 2",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-15T04:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-15T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 8,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 1,
     "entradas_365d": 3,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-05-12T03:00:00.000Z",
-    "ultima_saida": "2026-05-11T19:30:00.000Z",
-    "tempo_medio_estadia_horas": 33.8,
+    "ultima_saida": "2026-05-15T10:00:00.000Z",
+    "tempo_medio_estadia_horas": 48.8,
     "tempo_medio_fundeio_horas": 46.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-15T10:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "-"
+    },
     {
       "data": "2026-05-15T04:00:00.000Z",
       "tipo": "MUDANÇA",
