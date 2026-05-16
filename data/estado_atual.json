@@ -3555,6 +3555,20 @@
     "ultimo_hash_evento": "40f16481cd818ef0c614adb396d7e84fc270a78255bf7e5f0e5f01edb61b9121",
     "atualizado_em": "2026-05-15T12:23:05.079Z"
   },
+  "9546801": {
+    "imo": "9546801",
+    "navio": "AM PORT CARTIER",
+    "navio_normalizado": "AM PORT CARTIER",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-16T07:00:00.000Z",
+    "ultimo_hash_evento": "f46fba2b9fb6366eee6ca8c088894d9edfcdf5beafec4b462cb3f6fa9e8c79d7",
+    "atualizado_em": "2026-05-16T07:05:45.180Z"
+  },
   "9547673": {
     "imo": "9547673",
     "navio": "CASTRO ALVES",
@@ -4554,14 +4568,14 @@
     "navio": "PINGUIM",
     "navio_normalizado": "PINGUIM",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-15T04:00:00.000Z",
-    "ultimo_hash_evento": "8ed4186254a932501db9af403fcae62e780968a674c4a09cf28922e109d7e913",
-    "atualizado_em": "2026-05-15T05:07:32.644Z"
+    "ultima_movimentacao_em": "2026-05-16T06:00:00.000Z",
+    "ultimo_hash_evento": "d2ac42f9fead696707fc03455d80f31394ee524d73024382ac567dc535b4b8da",
+    "atualizado_em": "2026-05-16T07:05:45.180Z"
   },
   "9644122": {
     "imo": "9644122",
@@ -4596,14 +4610,14 @@
     "navio": "ALCATRAZ",
     "navio_normalizado": "ALCATRAZ",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-09T05:00:00.000Z",
-    "ultimo_hash_evento": "aec41646adc742a3201ab84da2cc97350dfd85ea67f9963db65bf50e2f9d0b0d",
-    "atualizado_em": "2026-05-09T06:35:47.891Z"
+    "ultima_movimentacao_em": "2026-05-16T05:00:00.000Z",
+    "ultimo_hash_evento": "5b0a08fcb67bb3d8839501de4f7b4f9e0d53955340955e05fc137c8a419564aa",
+    "atualizado_em": "2026-05-16T07:05:45.180Z"
   },
   "9644158": {
     "imo": "9644158",
@@ -5745,13 +5759,13 @@
     "navio_normalizado": "STARNAV TAURUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
     "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-15T20:25:00.000Z",
-    "ultimo_hash_evento": "c0577f39807e2e08cfd53b2f4b3898b18285e4249166a448127265727c2b8011",
-    "atualizado_em": "2026-05-15T21:43:18.956Z"
+    "ultima_movimentacao_em": "2026-05-16T04:00:00.000Z",
+    "ultimo_hash_evento": "85ad5332edb1a57fdf05def42dcecd8ae8c7295ca963d1a6d8a230bd02e2719e",
+    "atualizado_em": "2026-05-16T07:05:45.180Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -7278,6 +7292,20 @@
     "ultima_movimentacao_em": "2026-04-12T14:30:00.000Z",
     "ultimo_hash_evento": "f9d95bc76ee7c983c12883aa91a32a69d36ab6416f3b32b22a984229ff27cac9",
     "atualizado_em": "2026-04-12T15:03:31.823Z"
+  },
+  "9926520": {
+    "imo": "9926520",
+    "navio": "FLORIDA",
+    "navio_normalizado": "FLORIDA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-16T05:30:00.000Z",
+    "ultimo_hash_evento": "340693452776b81b592d77950fb1dc5c2b8f2646b09a0a1e3f2966f7ecde3b8b",
+    "atualizado_em": "2026-05-16T07:05:45.180Z"
   },
   "9928188": {
     "imo": "9928188",
