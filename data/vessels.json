@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-16T14:07:11.350Z",
+  "updatedAt": "2026-05-16T15:13:22.962Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 38
+      "count": 39
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 7
+      "count": 6
     },
     "angra": {
       "ok": true,
@@ -221,16 +221,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/05/2026 10:00",
-      "imo": "9530187",
-      "navio": "SANTOS SCOUT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 10:30",
       "imo": "9351799",
       "navio": "LOG-IN PANTANAL (REB)",
@@ -261,6 +251,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 11:00",
+      "imo": "9715567",
+      "navio": "CBO OCEANA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 12:00",
       "imo": "9492139",
       "navio": "SAO LUIZ",
@@ -268,6 +268,16 @@
       "de": "TPP1 - PETROBRAS PP1",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 12:00",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -282,22 +292,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 13:00",
-      "imo": "9453810",
-      "navio": "ZUMBI DOS PALMARES",
+      "imo": "9720483",
+      "navio": "MSC CHLOE",
       "tipo": "SAÍDA",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "de": "2C22 - TECON 2 - MRIO",
       "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/05/2026 13:00",
-      "imo": "9659634",
-      "navio": "BARU TESORO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,12 +312,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 13:00",
-      "imo": "9720483",
-      "navio": "MSC CHLOE",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 13:00",
+      "imo": "9453810",
+      "navio": "ZUMBI DOS PALMARES",
       "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -498,16 +508,6 @@
       "de": "-",
       "para": "302 - TECON - SEPETIBA TECON S.A.",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "16/05/2026 19:00",
-      "imo": "9723502",
-      "navio": "MINERAL TOBY",
-      "tipo": "SAÍDA",
-      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "para": "-",
-      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
     }
   ]
 }
