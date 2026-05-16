@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-16T11:27:55.731Z",
+  "updatedAt": "2026-05-16T12:37:12.746Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 33
+      "count": 36
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -82,16 +82,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 06:00",
-      "imo": "9642590",
-      "navio": "PINGUIM",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/05/2026 06:00",
       "imo": "9627629",
       "navio": "CBO ARPOADOR",
       "tipo": "MUDANÇA",
@@ -102,12 +92,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 06:00",
-      "imo": "9453858",
-      "navio": "MARCÍLIO DIAS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -118,6 +108,16 @@
       "de": "TPCM - Estaleiro Camorim",
       "para": "-",
       "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 06:00",
+      "imo": "9453858",
+      "navio": "MARCÍLIO DIAS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -171,23 +171,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/05/2026 10:00",
-      "imo": "9530187",
-      "navio": "SANTOS SCOUT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "inicio": "16/05/2026 09:50",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 10:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9868376",
+      "navio": "TOVE KNUTSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01N - Visita Norte",
+      "para": "-",
+      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -202,12 +202,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 10:00",
-      "imo": "9868376",
-      "navio": "TOVE KNUTSEN",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01N - Visita Norte",
-      "para": "-",
-      "agente": "ISS MARINE SERVICES LTDA"
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 10:00",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -218,6 +228,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 10:30",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -248,6 +268,26 @@
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 13:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 13:00",
+      "imo": "9706528",
+      "navio": "SKANDI BUZIOS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -291,16 +331,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/05/2026 17:00",
-      "imo": "9246607",
-      "navio": "GRANDE AMBURGO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2R12 - Terminal - MCAR 1",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "16/05/2026 18:00",
       "imo": "0011466537",
       "navio": "BONO II",
@@ -318,6 +348,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/05/2026 20:30",
+      "imo": "9246607",
+      "navio": "GRANDE AMBURGO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -340,16 +380,6 @@
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/05/2026 23:30",
-      "imo": "9928205",
-      "navio": "MAERSK EVERGLADES",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
       "porto": "Niterói",
       "inicio": "16/05/2026 08:00",
       "imo": "9371385",
@@ -368,6 +398,16 @@
       "de": "-",
       "para": "TPMJ - Estaleiro Mauá",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "16/05/2026 22:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Niterói",
