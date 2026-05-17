@@ -3785,13 +3785,13 @@
     "navio_normalizado": "NORMAND CARIOCA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPBR - BRASCO",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-16T17:30:00.000Z",
-    "ultimo_hash_evento": "96a8e05dc6b6521e7546c9e548f248050f00d14a8700bbfd549dfcecdfc3f098",
-    "atualizado_em": "2026-05-16T18:07:07.893Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-17T12:00:00.000Z",
+    "ultimo_hash_evento": "57e825186721d8ccb64bc0b078098e9ec9cd47656f0b31e6cc8965f8aced7ed4",
+    "atualizado_em": "2026-05-17T13:44:16.286Z"
   },
   "9574107": {
     "imo": "9574107",
@@ -4750,14 +4750,14 @@
     "navio": "CMA CGM SANTOS (REB)",
     "navio_normalizado": "CMA CGM SANTOS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-20T08:00:00.000Z",
-    "ultimo_hash_evento": "981be810a0280a1213017b834229106f1282ba18a20deddbaa50abb6b0d91178",
-    "atualizado_em": "2026-04-20T10:21:08.739Z"
+    "ultima_movimentacao_em": "2026-05-17T12:30:00.000Z",
+    "ultimo_hash_evento": "b159ba08bde1b974e6e42554b53335a634cd8189e85580c3d98adff863f20c2f",
+    "atualizado_em": "2026-05-17T13:44:16.286Z"
   },
   "9651321": {
     "imo": "9651321",
@@ -8034,6 +8034,20 @@
     "ultima_movimentacao_em": "2026-04-28T23:00:00.000Z",
     "ultimo_hash_evento": "44c8da512afead69f0a83b230dce141efe3cfe70138f1ebeeab7531ca0254951",
     "atualizado_em": "2026-04-28T23:12:06.014Z"
+  },
+  "3810513041": {
+    "imo": "3810513041",
+    "navio": "TEMPESTADE C",
+    "navio_normalizado": "TEMPESTADE C",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPCM - Estaleiro Camorim",
+    "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-17T12:00:00.000Z",
+    "ultimo_hash_evento": "a1a7cca47dcb817990a126aba81936670e20b839c72440523526258f784dc32c",
+    "atualizado_em": "2026-05-17T13:44:16.286Z"
   },
   "3810517208": {
     "imo": "3810517208",
