@@ -1,29 +1,36 @@
 {
   "imo": "9440679",
   "navio": "PETREL",
-  "gerado_em": "2026-05-18T05:50:34.507Z",
+  "gerado_em": "2026-05-18T09:01:28.392Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-04-28T05:00:00.000Z"
+    "local": "ESPR - MacLaren Ilha da Conceição",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-05-18T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
-    "entradas_30d": 2,
+    "manobras_30d": 8,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
+    "entradas_30d": 3,
     "saidas_30d": 2,
     "mudancas_30d": 3,
-    "entradas_365d": 3,
+    "entradas_365d": 4,
     "saidas_365d": 3,
-    "ultima_entrada": "2026-04-27T20:00:00.000Z",
+    "ultima_entrada": "2026-05-18T09:00:00.000Z",
     "ultima_saida": "2026-04-28T05:00:00.000Z",
     "tempo_medio_estadia_horas": 7.3,
     "tempo_medio_fundeio_horas": 13
   },
   "historico_recente": [
+    {
+      "data": "2026-05-18T09:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "ESPR - MacLaren Ilha da Conceição"
+    },
     {
       "data": "2026-04-28T05:00:00.000Z",
       "tipo": "SAÍDA",
