@@ -1,21 +1,21 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-05-18T18:11:28.664Z",
+  "gerado_em": "2026-05-18T20:00:51.518Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
     "local": "2PAL - Terminal Petrobras AL",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-18T09:00:00.000Z"
+    "ultima_movimentacao": "2026-05-18T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 23,
-    "manobras_365d": 23,
+    "manobras_30d": 15,
+    "manobras_180d": 24,
+    "manobras_365d": 24,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 6,
     "saidas_365d": 6,
     "ultima_entrada": "2026-05-17T16:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 20
   },
   "historico_recente": [
+    {
+      "data": "2026-05-18T20:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "2PAL - Terminal Petrobras AL"
+    },
     {
       "data": "2026-05-18T09:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "ESWS - ESTALEIRO"
-    },
-    {
-      "data": "2026-04-29T03:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }
