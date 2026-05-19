@@ -1,21 +1,21 @@
 {
   "imo": "9530204",
   "navio": "SANTOS SOLUTION",
-  "gerado_em": "2026-05-19T08:48:43.007Z",
+  "gerado_em": "2026-05-19T11:48:04.768Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPBL - BRICLOG",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-08T00:00:00.000Z"
+    "ultima_movimentacao": "2026-05-19T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 7,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-05-05T19:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-05-19T09:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBL - BRICLOG",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-08T00:00:00.000Z",
       "tipo": "MUDANÇA",

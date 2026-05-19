@@ -1,29 +1,36 @@
 {
   "imo": "9626443",
   "navio": "BONGO (REB)",
-  "gerado_em": "2026-05-19T08:48:43.007Z",
+  "gerado_em": "2026-05-19T11:48:04.768Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-07T22:30:00.000Z"
+    "local": "TPBL - BRICLOG",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-05-19T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
-    "entradas_30d": 1,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 1,
-    "entradas_365d": 1,
+    "entradas_365d": 2,
     "saidas_365d": 1,
-    "ultima_entrada": "2026-05-05T08:00:00.000Z",
+    "ultima_entrada": "2026-05-19T09:00:00.000Z",
     "ultima_saida": "2026-05-07T22:30:00.000Z",
     "tempo_medio_estadia_horas": 62.5,
     "tempo_medio_fundeio_horas": 36.5
   },
   "historico_recente": [
+    {
+      "data": "2026-05-19T09:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "TPBL - BRICLOG"
+    },
     {
       "data": "2026-05-07T22:30:00.000Z",
       "tipo": "SAÍDA",

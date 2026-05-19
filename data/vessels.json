@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-19T08:48:43.007Z",
+  "updatedAt": "2026-05-19T11:48:04.768Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 33
+      "count": 39
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 5
     },
     "itaguai": {
       "ok": true,
@@ -82,16 +82,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 04:00",
-      "imo": "9442055",
-      "navio": "TALHA-MAR",
-      "tipo": "MUDANÇA",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 04:00",
       "imo": "9703631",
       "navio": "BRAM TITAN",
       "tipo": "MUDANÇA",
@@ -108,6 +98,16 @@
       "de": "2PAL - Terminal Petrobras AL",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 04:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "MUDANÇA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -142,26 +142,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 06:00",
-      "imo": "9530204",
-      "navio": "SANTOS SOLUTION",
-      "tipo": "MUDANÇA",
-      "de": "TPBL - BRICLOG",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 06:00",
-      "imo": "9626443",
-      "navio": "BONGO (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBL - BRICLOG",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 06:00",
       "imo": "9358826",
       "navio": "SEVEN OCEANS",
       "tipo": "ENTRADA",
@@ -178,6 +158,26 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 06:00",
+      "imo": "9530204",
+      "navio": "SANTOS SOLUTION",
+      "tipo": "MUDANÇA",
+      "de": "TPBL - BRICLOG",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 06:00",
+      "imo": "9626443",
+      "navio": "BONGO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -201,6 +201,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 06:50",
+      "imo": "9318412",
+      "navio": "CBO GUANABARA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 07:00",
       "imo": "9423190",
       "navio": "DEBORAH KAY",
@@ -208,6 +218,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 08:00",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "MUDANÇA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -238,6 +258,16 @@
       "de": "Fundeio - 2F01 - Visita",
       "para": "-",
       "agente": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 11:00",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,22 +302,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 16:00",
-      "imo": "3813884350",
-      "navio": "C RIO",
-      "tipo": "SAÍDA",
-      "de": "TPCM - Estaleiro Camorim",
-      "para": "-",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 16:00",
       "imo": "9435478",
       "navio": "AKER WAYFARER (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2TS2 - Terminal Siderúrgico 2",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 16:00",
+      "imo": "3813884350",
+      "navio": "C RIO",
+      "tipo": "SAÍDA",
+      "de": "TPCM - Estaleiro Camorim",
+      "para": "-",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -350,6 +380,36 @@
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/05/2026 05:00",
+      "imo": "9213959",
+      "navio": "INDUSTRIAL CHARGER",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/05/2026 10:30",
+      "imo": "9727625",
+      "navio": "CAPE SOUNIO",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/05/2026 22:00",
+      "imo": "9362827",
+      "navio": "INDUSTRIAL HOBART",
+      "tipo": "SAÍDA",
+      "de": "2N06 - Armazém 7",
+      "para": "-",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "19/05/2026 05:00",
       "imo": "9762742",
@@ -362,12 +422,42 @@
     {
       "porto": "Niterói",
       "inicio": "19/05/2026 07:00",
+      "imo": "9423190",
+      "navio": "DEBORAH KAY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "19/05/2026 07:00",
       "imo": "9710945",
       "navio": "SEACOR NILE (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "ESMC - MacLaren Ponta da Areia",
       "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "19/05/2026 15:00",
+      "imo": "9670341",
+      "navio": "BLUE ORCA",
+      "tipo": "MUDANÇA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "19/05/2026 18:00",
+      "imo": "9423190",
+      "navio": "DEBORAH KAY",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -391,7 +481,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/05/2026 13:00",
+      "inicio": "19/05/2026 10:00",
       "imo": "9602875",
       "navio": "SEBASTIÃO CABOTO",
       "tipo": "SAÍDA",
