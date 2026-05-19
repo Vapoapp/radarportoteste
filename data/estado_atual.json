@@ -801,15 +801,15 @@
     "imo": "9267754",
     "navio": "OCEAN7 ROYAL",
     "navio_normalizado": "OCEAN7 ROYAL",
-    "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "303 - TECON - SEPETIBA TECON S.A.",
-    "destino_atual": "-",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N06 - Armazém 7",
     "agente_atual": "ALL FLAGS AGENCIAMENTO LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-18T12:30:00.000Z",
-    "ultimo_hash_evento": "7815677e59d9d394ca07d53f76e5457c925c941fd547a0df33ab7dc7961925d2",
-    "atualizado_em": "2026-05-18T12:43:08.073Z"
+    "ultima_movimentacao_em": "2026-05-19T01:00:00.000Z",
+    "ultimo_hash_evento": "2486db6e58c2ff4061f1fd4f54ad341d38507442b72ba7717a1b4ff6fcdd6db8",
+    "atualizado_em": "2026-05-19T01:31:58.931Z"
   },
   "9268681": {
     "imo": "9268681",
@@ -1026,14 +1026,14 @@
     "navio": "ILHA DO CABO FRIO",
     "navio_normalizado": "ILHA DO CABO FRIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-12T03:30:00.000Z",
-    "ultimo_hash_evento": "608c0a4e2a1fe15fe46281384a1ee87e116eee614fa13d19a0f3231d69edb38d",
-    "atualizado_em": "2026-05-12T04:52:19.315Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-19T01:00:00.000Z",
+    "ultimo_hash_evento": "436fbbab6a13d785998c3f59984badad87b03d1036088493568c02df08856002",
+    "atualizado_em": "2026-05-19T01:31:58.931Z"
   },
   "9292773": {
     "imo": "9292773",
@@ -2113,6 +2113,20 @@
     "ultimo_hash_evento": "66eb8c3a9931a5acc522c78088b580188b50b85d1b5598feb8a5c5436e49ef73",
     "atualizado_em": "2026-04-13T20:00:57.600Z"
   },
+  "9410480": {
+    "imo": "9410480",
+    "navio": "HARALAMBOS",
+    "navio_normalizado": "HARALAMBOS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB4 - Área de Fundeio B4",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-19T01:00:00.000Z",
+    "ultimo_hash_evento": "bb0c9120b6a92e6728d4b06443c89ec83cea362c8ed619e2e73491104656b877",
+    "atualizado_em": "2026-05-19T01:31:58.931Z"
+  },
   "9411006": {
     "imo": "9411006",
     "navio": "RINI",
@@ -2917,13 +2931,13 @@
     "navio_normalizado": "CBO CAROLINA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-17T22:00:00.000Z",
-    "ultimo_hash_evento": "7b308b7a15d05eb55792681c9e3c1d84d551e6722e211cbded8065d7eaec5f99",
-    "atualizado_em": "2026-05-17T22:29:30.221Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-18T10:00:00.000Z",
+    "ultimo_hash_evento": "8a81862cadfd40696e07500c42050daec72a0042c31c124db7a9165c4281e4b7",
+    "atualizado_em": "2026-05-19T01:31:58.931Z"
   },
   "9477402": {
     "imo": "9477402",
@@ -4891,13 +4905,13 @@
     "navio_normalizado": "DELTA CARDINAL",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "TPBR - BRASCO",
     "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-15T11:30:00.000Z",
-    "ultimo_hash_evento": "b38d3a9544911c0017f884bbb5132287b5b2a7379ade96403de19282ee9a719c",
-    "atualizado_em": "2026-05-15T12:23:05.079Z"
+    "ultima_movimentacao_em": "2026-05-19T00:00:00.000Z",
+    "ultimo_hash_evento": "493cf7fc83cb0ff27b905df1f57996526a598a6abcbeb6f7a4ad0d2ece65bcc1",
+    "atualizado_em": "2026-05-19T01:31:58.931Z"
   },
   "9654464": {
     "imo": "9654464",
@@ -7839,6 +7853,20 @@
     "ultimo_hash_evento": "118dd9ad7dc2073c7a267b2af1b9383e454de5431628558ff46d76f2840b3a77",
     "atualizado_em": "2026-05-04T17:52:41.276Z"
   },
+  "9960150": {
+    "imo": "9960150",
+    "navio": "OCEAN AZURE",
+    "navio_normalizado": "OCEAN AZURE",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T00:00:00.000Z",
+    "ultimo_hash_evento": "fef5976e755faabd43eeed038efcf5c800dea90962a825e5cafaa0a905baefde",
+    "atualizado_em": "2026-05-19T01:31:58.931Z"
+  },
   "9961972": {
     "imo": "9961972",
     "navio": "LOG-IN EXPERIENCE (REB)",
@@ -8208,14 +8236,14 @@
     "navio": "TMJ 2",
     "navio_normalizado": "TMJ 2",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2N06 - Armazém 7",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2N06 - Armazém 7",
+    "destino_atual": "-",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-18T12:00:00.000Z",
-    "ultimo_hash_evento": "e790928eaa0699f63088db2b743b65bc5406946c8824cab9ce8dfe21e177f497",
-    "atualizado_em": "2026-05-18T16:13:26.029Z"
+    "ultima_movimentacao_em": "2026-05-18T21:00:00.000Z",
+    "ultimo_hash_evento": "e69955d956906beacbfbaa2b266f0ef7b4bc6429368b045675cbd75580d54918",
+    "atualizado_em": "2026-05-19T01:31:58.931Z"
   },
   "3810508756": {
     "imo": "3810508756",
@@ -8341,7 +8369,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-05-18T22:00:00.000Z",
     "ultimo_hash_evento": "a69f214ea5f3c50eece62fefcb01f2a69db2d21cad090740ccb49f08244aa79e",
-    "atualizado_em": "2026-05-18T23:32:16.649Z"
+    "atualizado_em": "2026-05-19T01:31:58.931Z"
   },
   "3813886310": {
     "imo": "3813886310",
