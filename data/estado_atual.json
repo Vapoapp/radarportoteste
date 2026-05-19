@@ -1670,14 +1670,14 @@
     "navio": "ASSO VENTISETTE",
     "navio_normalizado": "ASSO VENTISETTE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-18T18:00:00.000Z",
-    "ultimo_hash_evento": "7a5c99d2598cc14f3ec68a702d112fc653e47c79fc32ecf102b953805cb3c8bf",
-    "atualizado_em": "2026-05-18T18:11:28.664Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T22:00:00.000Z",
+    "ultimo_hash_evento": "0f4895d2a1a213912e7f33f25456504acd0e996e18e0dce8b39c504ded67e05a",
+    "atualizado_em": "2026-05-19T22:13:34.724Z"
   },
   "9357236": {
     "imo": "9357236",
@@ -2285,15 +2285,15 @@
     "imo": "9423190",
     "navio": "DEBORAH KAY",
     "navio_normalizado": "DEBORAH KAY",
-    "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "ESMC - MacLaren Ponta da Areia",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-19T10:00:00.000Z",
-    "ultimo_hash_evento": "d9a8837b3fb5230749467654b5ef0beff6d1cf385b8987b0ac6ac2f24319bac5",
-    "atualizado_em": "2026-05-19T11:48:04.768Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T21:00:00.000Z",
+    "ultimo_hash_evento": "caf8819e719ec025e0ba8db770d039995faea882f233f8378a4df59fdedb5701",
+    "atualizado_em": "2026-05-19T22:13:34.724Z"
   },
   "9423229": {
     "imo": "9423229",
@@ -2748,14 +2748,14 @@
     "navio": "MARCÍLIO DIAS",
     "navio_normalizado": "MARCILIO DIAS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - WPT 91 - AF Preferencial Gusa",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 63 - 2F6A",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-16T09:00:00.000Z",
-    "ultimo_hash_evento": "fc3ee94e717a8b5dee8c72524a5b9b8a3ed16fc2b8868300c07359ffff5313dd",
-    "atualizado_em": "2026-05-16T10:16:11.037Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T22:00:00.000Z",
+    "ultimo_hash_evento": "3af7ade6ab95c3fc652be41953a0100da293e0090755f3992a1dcbdda42d0365",
+    "atualizado_em": "2026-05-19T22:13:34.724Z"
   },
   "9453884": {
     "imo": "9453884",
@@ -4409,6 +4409,20 @@
     "ultimo_hash_evento": "1dc0685c18c45f55d08c98f2533aa4659de07e3c379c7631fff75380842617a9",
     "atualizado_em": "2026-05-01T18:10:49.886Z"
   },
+  "9623025": {
+    "imo": "9623025",
+    "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
+    "navio_normalizado": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPBR - BRASCO",
+    "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T21:30:00.000Z",
+    "ultimo_hash_evento": "efa54a4fa582c5a11369238c364a80f3070a83d96d08f3bf6c7f29ed96f82d1b",
+    "atualizado_em": "2026-05-19T22:13:34.724Z"
+  },
   "9623635": {
     "imo": "9623635",
     "navio": "CARMEN KNUTSEN",
@@ -5142,14 +5156,14 @@
     "navio": "BRAM BRASILIA",
     "navio_normalizado": "BRAM BRASILIA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-11T05:00:00.000Z",
-    "ultimo_hash_evento": "ddd14ba0ef8e8a87ee00669ae5389a0535122e731c64dfee67c495e1da41c79b",
-    "atualizado_em": "2026-05-11T07:56:46.573Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-19T21:00:00.000Z",
+    "ultimo_hash_evento": "1f7397feca0c1f607a3de3b8d662864349d510c81530096296c3c3cb8be01a60",
+    "atualizado_em": "2026-05-19T22:13:34.724Z"
   },
   "9665566": {
     "imo": "9665566",
@@ -8423,9 +8437,9 @@
     "destino_atual": "-",
     "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-19T20:00:00.000Z",
-    "ultimo_hash_evento": "99ec5f0b0fd5f72ffbc1d9101182dac552fb25f51f877eeccda0f01ec11de604",
-    "atualizado_em": "2026-05-19T20:55:40.622Z"
+    "ultima_movimentacao_em": "2026-05-19T22:00:00.000Z",
+    "ultimo_hash_evento": "f376749b0f65abdddbc445365da792d0dbb4dc07ed962fd1ab25ffc2e30a8eab",
+    "atualizado_em": "2026-05-19T22:13:34.724Z"
   },
   "3813886310": {
     "imo": "3813886310",
