@@ -1,29 +1,36 @@
 {
   "imo": "9435478",
   "navio": "AKER WAYFARER (REB)",
-  "gerado_em": "2026-05-19T17:21:42.000Z",
+  "gerado_em": "2026-05-19T19:21:40.299Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-11T19:00:00.000Z"
+    "local": "2TS2 - Terminal Siderúrgico 2",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-05-19T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
-    "entradas_30d": 3,
+    "manobras_30d": 8,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
+    "entradas_30d": 4,
     "saidas_30d": 3,
     "mudancas_30d": 1,
-    "entradas_365d": 4,
+    "entradas_365d": 5,
     "saidas_365d": 4,
-    "ultima_entrada": "2026-05-11T12:00:00.000Z",
+    "ultima_entrada": "2026-05-19T19:00:00.000Z",
     "ultima_saida": "2026-05-11T19:00:00.000Z",
     "tempo_medio_estadia_horas": 22.5,
     "tempo_medio_fundeio_horas": 14
   },
   "historico_recente": [
+    {
+      "data": "2026-05-19T19:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2TS2 - Terminal Siderúrgico 2"
+    },
     {
       "data": "2026-05-11T19:00:00.000Z",
       "tipo": "SAÍDA",

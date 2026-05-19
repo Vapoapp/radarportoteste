@@ -1,21 +1,21 @@
 {
   "imo": "9547673",
   "navio": "CASTRO ALVES",
-  "gerado_em": "2026-05-19T17:21:42.000Z",
+  "gerado_em": "2026-05-19T19:21:40.299Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPP2 - PETROBRAS PP2",
+    "local": "TPP1 - PETROBRAS PP1",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-11T15:00:00.000Z"
+    "ultima_movimentacao": "2026-05-19T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-05-10T05:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 133.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-19T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 81 - 2F08",
+      "para": "TPP1 - PETROBRAS PP1"
+    },
     {
       "data": "2026-05-11T15:00:00.000Z",
       "tipo": "MUDANÇA",

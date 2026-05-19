@@ -1,29 +1,36 @@
 {
   "imo": "9292072",
   "navio": "ILHA DO CABO FRIO",
-  "gerado_em": "2026-05-19T17:21:42.000Z",
+  "gerado_em": "2026-05-19T19:21:40.299Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-19T01:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-19T15:20:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 6,
-    "manobras_365d": 6,
+    "manobras_30d": 6,
+    "manobras_180d": 7,
+    "manobras_365d": 7,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 1,
     "entradas_365d": 3,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-05-18T13:00:00.000Z",
-    "ultima_saida": "2026-05-12T03:30:00.000Z",
-    "tempo_medio_estadia_horas": 291.9,
-    "tempo_medio_fundeio_horas": 54
+    "ultima_saida": "2026-05-19T15:20:00.000Z",
+    "tempo_medio_estadia_horas": 203.4,
+    "tempo_medio_fundeio_horas": 34.2
   },
   "historico_recente": [
+    {
+      "data": "2026-05-19T15:20:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-05-19T01:00:00.000Z",
       "tipo": "MUDANÇA",

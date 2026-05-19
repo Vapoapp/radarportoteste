@@ -1026,14 +1026,14 @@
     "navio": "ILHA DO CABO FRIO",
     "navio_normalizado": "ILHA DO CABO FRIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-19T01:00:00.000Z",
-    "ultimo_hash_evento": "436fbbab6a13d785998c3f59984badad87b03d1036088493568c02df08856002",
-    "atualizado_em": "2026-05-19T01:31:58.931Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T15:20:00.000Z",
+    "ultimo_hash_evento": "cda476bb83a52d919b42f6e840b4dd20d300b12ee4dcdd4d3c0e17b813271e4f",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "9292773": {
     "imo": "9292773",
@@ -1195,13 +1195,13 @@
     "navio_normalizado": "SAN ANDRES IV",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPS2 - PETROBRAS PS2",
+    "origem_atual": "Fundeio - 2F03 - Feiticeira",
     "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-17T18:30:00.000Z",
-    "ultimo_hash_evento": "0422552d25264a7352ca82be9a14b9528219f75101d9e8d4f00147dbeca35dc9",
-    "atualizado_em": "2026-05-17T18:43:20.537Z"
+    "ultima_movimentacao_em": "2026-05-19T16:30:00.000Z",
+    "ultimo_hash_evento": "d165902b34b87490d9e777db71b7f648bc14c7d9431321fc87e3fe0cd6adf2b9",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "9312444": {
     "imo": "9312444",
@@ -1861,6 +1861,20 @@
     "ultimo_hash_evento": "97d61859ff83ad8c7e220e0fd5bb62f99bc7ba023698b04f2d989e4381ae3a3b",
     "atualizado_em": "2026-05-16T11:27:55.731Z"
   },
+  "9372810": {
+    "imo": "9372810",
+    "navio": "POLARIS LEADER",
+    "navio_normalizado": "POLARIS LEADER",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2R12 - Terminal - MCAR 1",
+    "destino_atual": "-",
+    "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T19:00:00.000Z",
+    "ultimo_hash_evento": "55e61fb5b657e793d68cb12f17b403ab4a8b8999347bda8ee4bfb8e97db06e23",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
+  },
   "9379014": {
     "imo": "9379014",
     "navio": "A.H. GIORGIO P.",
@@ -2468,14 +2482,14 @@
     "navio": "AKER WAYFARER (REB)",
     "navio_normalizado": "AKER WAYFARER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
     "agente_atual": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-11T19:00:00.000Z",
-    "ultimo_hash_evento": "0896a51e5ab5a25e5106827313ede8e0fbbd95ad042dae95ca2bd7190db1bf84",
-    "atualizado_em": "2026-05-11T20:10:24.141Z"
+    "ultima_movimentacao_em": "2026-05-19T19:00:00.000Z",
+    "ultimo_hash_evento": "984d244b519a01fb0dd79f1007d10e89d72f4b88d28cccc0bb2dd98de7f1875f",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "9439620": {
     "imo": "9439620",
@@ -3107,6 +3121,20 @@
     "ultimo_hash_evento": "6159d1e358a516831b425295fd7ef3251dd83ae5abfd5e86cb03fcb00398c21f",
     "atualizado_em": "2026-04-12T08:01:54.042Z"
   },
+  "9492062": {
+    "imo": "9492062",
+    "navio": "RIO GRANDE",
+    "navio_normalizado": "RIO GRANDE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPP1 - PETROBRAS PP1",
+    "destino_atual": "-",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T19:00:00.000Z",
+    "ultimo_hash_evento": "20ea467cc02ccfc48446da0e2f4e59c997fb383aa5e902b43834c6de7f05ac58",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
+  },
   "9492098": {
     "imo": "9492098",
     "navio": "AVILA",
@@ -3687,13 +3715,13 @@
     "navio_normalizado": "CASTRO ALVES",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPP2 - PETROBRAS PP2",
+    "origem_atual": "Fundeio - WPT 81 - 2F08",
+    "destino_atual": "TPP1 - PETROBRAS PP1",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-11T15:00:00.000Z",
-    "ultimo_hash_evento": "b287f9c97ed89ce9da7cb50c548da5a271cc33769d090cdc4b6a1221a11b858e",
-    "atualizado_em": "2026-05-11T16:37:12.069Z"
+    "ultima_movimentacao_em": "2026-05-19T19:00:00.000Z",
+    "ultimo_hash_evento": "f37fe90cf1341c22f2cd1ba3e5737cd5432492ec08b9fcc461ce0be6767d4da7",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "9547685": {
     "imo": "9547685",
@@ -4512,14 +4540,14 @@
     "navio": "CBO IPANEMA",
     "navio_normalizado": "CBO IPANEMA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
+    "ultimo_tipo_evento": "SAÍDA",
     "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-19T09:30:00.000Z",
-    "ultimo_hash_evento": "c9cda80f119992fbd4e2d6441956d5c238fb8fde51ffa7c004a2e3d805601e35",
-    "atualizado_em": "2026-05-19T11:48:04.768Z"
+    "ultima_movimentacao_em": "2026-05-19T16:00:00.000Z",
+    "ultimo_hash_evento": "6f41944b9740463eecb4ea40abfe62e432bb48e8b7de312f4bc20b40fce32286",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "9629017": {
     "imo": "9629017",
@@ -5175,9 +5203,9 @@
     "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-16T03:00:00.000Z",
-    "ultimo_hash_evento": "a0cfd0c865509e9ef655e6ba19b8a37884067e90061b3a29f7105eb01c81441c",
-    "atualizado_em": "2026-05-16T04:42:52.477Z"
+    "ultima_movimentacao_em": "2026-05-19T18:00:00.000Z",
+    "ultimo_hash_evento": "7ff5bc29ca89018930d663da55dbc6e4882a924aa49840d9b46a834a20704d31",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "9670262": {
     "imo": "9670262",
@@ -5198,14 +5226,14 @@
     "navio": "BLUE ORCA",
     "navio_normalizado": "BLUE ORCA",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESMC - MacLaren Ponta da Areia",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "ESMC - MacLaren Ponta da Areia",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-11T04:00:00.000Z",
-    "ultimo_hash_evento": "288e649a5e7be45b685fd04af27ecb5cf96e616cf1671ae47fb0fb2618c74890",
-    "atualizado_em": "2026-05-11T04:19:17.191Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-19T18:00:00.000Z",
+    "ultimo_hash_evento": "4f3860b88e3400077073454139de20a08ce394867112b69c7e565a61bdb78c06",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "9670418": {
     "imo": "9670418",
@@ -6318,14 +6346,14 @@
     "navio": "SEACOR DEMERARA (REB)",
     "navio_normalizado": "SEACOR DEMERARA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-19T17:00:00.000Z",
-    "ultimo_hash_evento": "4f668cb360678ae70625b801a8078980ccdffc6cc242dc8b1a03c9b5a739526f",
-    "atualizado_em": "2026-05-19T17:21:42.000Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T19:00:00.000Z",
+    "ultimo_hash_evento": "402725decb288debf886a0f8752b5c522b3caf734ea95f316802d036d17b9ebd",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "9753923": {
     "imo": "9753923",
@@ -8376,14 +8404,14 @@
     "navio": "C RIO",
     "navio_normalizado": "C RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPCM - Estaleiro Camorim",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPCM - Estaleiro Camorim",
+    "destino_atual": "-",
     "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-18T22:00:00.000Z",
-    "ultimo_hash_evento": "a69f214ea5f3c50eece62fefcb01f2a69db2d21cad090740ccb49f08244aa79e",
-    "atualizado_em": "2026-05-19T01:31:58.931Z"
+    "ultima_movimentacao_em": "2026-05-19T19:00:00.000Z",
+    "ultimo_hash_evento": "90e800ba9456a6ea7fa9e3c093871ee2ba00d7750e706f201acd397458270d1e",
+    "atualizado_em": "2026-05-19T19:21:40.299Z"
   },
   "3813886310": {
     "imo": "3813886310",
