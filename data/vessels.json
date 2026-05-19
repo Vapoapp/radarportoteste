@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-19T05:45:56.002Z",
+  "updatedAt": "2026-05-19T08:48:43.007Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 30
+      "count": 33
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "itaguai": {
       "ok": true,
@@ -68,6 +68,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 03:00",
+      "imo": "9425722",
+      "navio": "SKANDI LOGGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -168,6 +178,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 06:30",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -301,6 +321,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 18:30",
+      "imo": "9623025",
+      "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 19:00",
       "imo": "3813884350",
       "navio": "C RIO",
@@ -318,6 +348,16 @@
       "de": "2N06 - Armazém 7",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "19/05/2026 05:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Niterói",
@@ -351,7 +391,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/05/2026 09:30",
+      "inicio": "19/05/2026 13:00",
       "imo": "9602875",
       "navio": "SEBASTIÃO CABOTO",
       "tipo": "SAÍDA",
