@@ -2944,14 +2944,14 @@
     "navio": "CBO ANITA",
     "navio_normalizado": "CBO ANITA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-19T12:00:00.000Z",
-    "ultimo_hash_evento": "41a96a291382bc4598129629c1d3384eef188c7b686624c3c4065c3f76419b3f",
-    "atualizado_em": "2026-05-19T14:20:11.738Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-19T15:45:00.000Z",
+    "ultimo_hash_evento": "90cde94221721f727e9b97ac7d65dc68ca07ba34e018171d97abafc91c6b6c9a",
+    "atualizado_em": "2026-05-19T17:21:42.000Z"
   },
   "9480203": {
     "imo": "9480203",
@@ -6136,14 +6136,14 @@
     "navio": "CAPE SOUNIO",
     "navio_normalizado": "CAPE SOUNIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C21 - TECON 3 - MRIO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-01T19:30:00.000Z",
-    "ultimo_hash_evento": "a291418145303793609b75c4117daa67f09ead4a9add6cb4dfc050377c3027f4",
-    "atualizado_em": "2026-05-01T19:38:08.854Z"
+    "ultima_movimentacao_em": "2026-05-19T17:00:00.000Z",
+    "ultimo_hash_evento": "93cd4604ac8bf30da7b1dd37c09f5e8a49e681f071fcf02cab3fa7349a2224cc",
+    "atualizado_em": "2026-05-19T17:21:42.000Z"
   },
   "9731468": {
     "imo": "9731468",
@@ -6248,14 +6248,14 @@
     "navio": "ACE DEFENDER (REB)",
     "navio_normalizado": "ACE DEFENDER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2N05 - Armazém 6",
     "agente_atual": "CAPITAL MARÍTIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-19T12:00:00.000Z",
-    "ultimo_hash_evento": "d3d551dd3ba87f8d93f022c656eda9a3f03fe73192fa97e224aa77252ee553f3",
-    "atualizado_em": "2026-05-19T14:20:11.738Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T16:30:00.000Z",
+    "ultimo_hash_evento": "86e2475d13937b37d14156e44224d94e09b5fa75303115e0e3b3a24cbfeb5043",
+    "atualizado_em": "2026-05-19T17:21:42.000Z"
   },
   "9745378": {
     "imo": "9745378",
@@ -6319,13 +6319,13 @@
     "navio_normalizado": "SEACOR DEMERARA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-19T05:00:00.000Z",
-    "ultimo_hash_evento": "d345172e4153cdaf83602cff932243eb6e40bb272cc97e029ac86c81f98ecc45",
-    "atualizado_em": "2026-05-19T05:45:56.002Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-19T17:00:00.000Z",
+    "ultimo_hash_evento": "4f668cb360678ae70625b801a8078980ccdffc6cc242dc8b1a03c9b5a739526f",
+    "atualizado_em": "2026-05-19T17:21:42.000Z"
   },
   "9753923": {
     "imo": "9753923",
@@ -8174,6 +8174,20 @@
     "ultima_movimentacao_em": "2026-05-07T13:30:00.000Z",
     "ultimo_hash_evento": "4e3d1c8eb5496f4d11072f304ba37aa16e58cacee18b22ef4ab9bf7ff00fe519",
     "atualizado_em": "2026-05-07T14:29:44.791Z"
+  },
+  "9996769": {
+    "imo": "9996769",
+    "navio": "CMA CGM SILVER",
+    "navio_normalizado": "CMA CGM SILVER",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-19T09:30:00.000Z",
+    "ultimo_hash_evento": "92a4d2d813e1583037667a57a5d4950e1bd10c783f025fe07b2d626d6b80ac6a",
+    "atualizado_em": "2026-05-19T17:21:42.000Z"
   },
   "9997921": {
     "imo": "9997921",

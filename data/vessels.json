@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-19T14:20:11.738Z",
+  "updatedAt": "2026-05-19T17:21:42.000Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 41
+      "count": 48
     },
     "niteroi": {
       "ok": true,
-      "count": 5
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -132,6 +132,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 06:00",
+      "imo": "9626443",
+      "navio": "BONGO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 06:00",
       "imo": "9358826",
       "navio": "SEVEN OCEANS",
       "tipo": "ENTRADA",
@@ -147,16 +157,6 @@
       "tipo": "MUDANÇA",
       "de": "TPBL - BRICLOG",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 06:00",
-      "imo": "9626443",
-      "navio": "BONGO (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBL - BRICLOG",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -181,6 +181,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 06:30",
+      "imo": "9996769",
+      "navio": "CMA CGM SILVER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 06:50",
       "imo": "9318412",
       "navio": "CBO GUANABARA",
@@ -202,6 +212,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 08:00",
+      "imo": "9379428",
+      "navio": "ASSO VENTINOVE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 08:00",
       "imo": "9702883",
       "navio": "CBO WISER (REB)",
       "tipo": "MUDANÇA",
@@ -218,16 +238,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "NIT - ATRACADO NITERÓI",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 08:00",
-      "imo": "9379428",
-      "navio": "ASSO VENTINOVE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -291,6 +301,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 12:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "MUDANÇA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 12:20",
+      "imo": "9670262",
+      "navio": "C CABEDELO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPCM - Estaleiro Camorim",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 12:45",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 13:30",
       "imo": "9741279",
       "navio": "ACE DEFENDER (REB)",
@@ -311,13 +351,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 16:00",
-      "imo": "9372810",
-      "navio": "POLARIS LEADER",
+      "inicio": "19/05/2026 14:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CMM OFFSHORE BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 15:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
       "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "agente": "CMM OFFSHORE BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -338,6 +388,16 @@
       "de": "TPP1 - PETROBRAS PP1",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 16:00",
+      "imo": "9372810",
+      "navio": "POLARIS LEADER",
+      "tipo": "SAÍDA",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -430,6 +490,16 @@
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/05/2026 13:30",
+      "imo": "9996769",
+      "navio": "CMA CGM SILVER",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "19/05/2026 05:00",
       "imo": "9762742",
@@ -478,6 +548,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "ESMC - MacLaren Ponta da Areia",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "20/05/2026 06:30",
+      "imo": "9377016",
+      "navio": "REM SALTIRE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
       "porto": "Itaguaí",
