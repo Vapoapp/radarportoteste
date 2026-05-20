@@ -79,9 +79,9 @@
     "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-18T17:30:00.000Z",
-    "ultimo_hash_evento": "fd5682bb56382bf3130e9fcaf6b9100a303aef092aa8fba6a7756bec74fce0f0",
-    "atualizado_em": "2026-05-18T18:11:28.664Z"
+    "ultima_movimentacao_em": "2026-05-20T06:00:00.000Z",
+    "ultimo_hash_evento": "6ec13733368e376a5a11271fb8a4bbcfd00ec54db49bbdf88163704744e49a9e",
+    "atualizado_em": "2026-05-20T08:45:20.585Z"
   },
   "1025124": {
     "imo": "1025124",
@@ -2987,13 +2987,13 @@
     "navio_normalizado": "MULTIPLICITY",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-18T14:00:00.000Z",
-    "ultimo_hash_evento": "3a3a8a32ed62c1bffec97e57ec0592147b9a4a6aa7e1dbafb4986a7d86aaadde",
-    "atualizado_em": "2026-05-18T16:13:26.029Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-20T05:00:00.000Z",
+    "ultimo_hash_evento": "0860213fab426f11d04d05208a8f553cf49b7c31d913114c2971b372c80729b7",
+    "atualizado_em": "2026-05-20T08:45:20.585Z"
   },
   "9482378": {
     "imo": "9482378",
@@ -5660,14 +5660,14 @@
     "navio": "BRAM BREEZE",
     "navio_normalizado": "BRAM BREEZE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-13T09:00:00.000Z",
-    "ultimo_hash_evento": "086e416ddfe0d21892b8fc26a9c5423f289e8e3ce8e290a58dbfe4448f027762",
-    "atualizado_em": "2026-05-13T10:03:19.269Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-20T08:00:00.000Z",
+    "ultimo_hash_evento": "97803a6a62bd8f0e5d4123e82c90d1747ec7e42ffe37fc785fc9ddbb0d6f71ab",
+    "atualizado_em": "2026-05-20T08:45:20.585Z"
   },
   "9701140": {
     "imo": "9701140",
@@ -7732,14 +7732,14 @@
     "navio": "MOUNT ITA",
     "navio_normalizado": "MOUNT ITA",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
-    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "-",
     "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-18T15:30:00.000Z",
-    "ultimo_hash_evento": "b7901613f70ccbc7514e1983e737ab7603887fe871d74d31ca80d8a9f7527e4e",
-    "atualizado_em": "2026-05-18T16:13:26.029Z"
+    "ultima_movimentacao_em": "2026-05-20T07:30:00.000Z",
+    "ultimo_hash_evento": "7f48f2a5091cc24ef1e758e679d235f4fe8852840e2c6e1f275d2a94eb4075b6",
+    "atualizado_em": "2026-05-20T08:45:20.585Z"
   },
   "9944417": {
     "imo": "9944417",
@@ -8006,6 +8006,20 @@
     "ultima_movimentacao_em": "2026-04-28T18:30:00.000Z",
     "ultimo_hash_evento": "b24d8dd01d3946c1be6b0150853295ce5f490882155764f19ce11e839cec7dd9",
     "atualizado_em": "2026-04-28T18:54:30.831Z"
+  },
+  "9968449": {
+    "imo": "9968449",
+    "navio": "ITHACA",
+    "navio_normalizado": "ITHACA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-20T08:00:00.000Z",
+    "ultimo_hash_evento": "e2e11b21b66879944b727452042546e98d2d2734f32cb4f58f005dae72b04b59",
+    "atualizado_em": "2026-05-20T08:45:20.585Z"
   },
   "9968853": {
     "imo": "9968853",
