@@ -1,29 +1,36 @@
 {
   "imo": "1019905",
   "navio": "BRAM RIO",
-  "gerado_em": "2026-05-20T17:30:49.153Z",
+  "gerado_em": "2026-05-20T19:41:11.935Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-20T06:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-20T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 27,
-    "manobras_365d": 27,
+    "manobras_30d": 17,
+    "manobras_180d": 28,
+    "manobras_365d": 28,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 10,
     "entradas_365d": 6,
-    "saidas_365d": 5,
+    "saidas_365d": 6,
     "ultima_entrada": "2026-05-18T11:30:00.000Z",
-    "ultima_saida": "2026-05-14T15:00:00.000Z",
-    "tempo_medio_estadia_horas": 117.2,
+    "ultima_saida": "2026-05-20T19:00:00.000Z",
+    "tempo_medio_estadia_horas": 106.9,
     "tempo_medio_fundeio_horas": 50.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-20T19:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-05-20T06:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-04-26T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
