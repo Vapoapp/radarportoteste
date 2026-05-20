@@ -1,29 +1,36 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-05-20T08:45:20.585Z",
+  "gerado_em": "2026-05-20T11:35:43.355Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-20T08:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBL - BRICLOG",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-20T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 22,
-    "manobras_180d": 26,
-    "manobras_365d": 26,
+    "manobras_30d": 23,
+    "manobras_180d": 27,
+    "manobras_365d": 27,
     "entradas_30d": 6,
     "saidas_30d": 5,
-    "mudancas_30d": 11,
+    "mudancas_30d": 12,
     "entradas_365d": 7,
     "saidas_365d": 6,
     "ultima_entrada": "2026-05-20T08:00:00.000Z",
     "ultima_saida": "2026-05-13T09:00:00.000Z",
     "tempo_medio_estadia_horas": 80.8,
-    "tempo_medio_fundeio_horas": 32.6
+    "tempo_medio_fundeio_horas": 29.9
   },
   "historico_recente": [
+    {
+      "data": "2026-05-20T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBL - BRICLOG"
+    },
     {
       "data": "2026-05-20T08:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-05-08T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
