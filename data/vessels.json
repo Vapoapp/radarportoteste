@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-19T23:33:33.274Z",
+  "updatedAt": "2026-05-20T01:32:44.779Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 63
+      "count": 67
     },
     "niteroi": {
       "ok": true,
-      "count": 7
+      "count": 9
     },
     "itaguai": {
       "ok": true,
@@ -322,22 +322,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 12:20",
-      "imo": "9670262",
-      "navio": "C CABEDELO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPCM - Estaleiro Camorim",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 12:20",
       "imo": "9292072",
       "navio": "ILHA DO CABO FRIO",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 12:20",
+      "imo": "9670262",
+      "navio": "C CABEDELO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPCM - Estaleiro Camorim",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -492,22 +492,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 17:00",
-      "imo": "9545857",
-      "navio": "COXON TIDE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBL - BRICLOG",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 17:00",
       "imo": "3813884350",
       "navio": "C RIO",
       "tipo": "SAÍDA",
       "de": "TPCM - Estaleiro Camorim",
       "para": "-",
       "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 17:00",
+      "imo": "9545857",
+      "navio": "COXON TIDE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBL - BRICLOG",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Rio de Janeiro",
@@ -522,22 +522,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 18:30",
-      "imo": "3813884350",
-      "navio": "C RIO",
-      "tipo": "SAÍDA",
-      "de": "TPCM - Estaleiro Camorim",
-      "para": "-",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/05/2026 18:30",
       "imo": "9623025",
       "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPBR - BRASCO",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 18:30",
+      "imo": "3813884350",
+      "navio": "C RIO",
+      "tipo": "SAÍDA",
+      "de": "TPCM - Estaleiro Camorim",
+      "para": "-",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -572,12 +572,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/05/2026 20:00",
+      "imo": "9545857",
+      "navio": "COXON TIDE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "TPBL - BRICLOG",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 20:00",
       "imo": "9668738",
       "navio": "STARNAV CENTAURUS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/05/2026 22:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -588,6 +608,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/05/2026 05:00",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -608,6 +638,16 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/05/2026 08:00",
+      "imo": "9782766",
+      "navio": "LENA KNUTSEN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 63 - 2F6A",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -701,6 +741,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "20/05/2026 06:00",
+      "imo": "9371385",
+      "navio": "OCEANICASUB XVII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
+      "porto": "Niterói",
       "inicio": "20/05/2026 06:30",
       "imo": "9377016",
       "navio": "REM SALTIRE",
@@ -718,6 +768,16 @@
       "de": "-",
       "para": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "20/05/2026 13:00",
+      "imo": "9514092",
+      "navio": "BJ BLUE MARLIN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
