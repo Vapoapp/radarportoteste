@@ -1,29 +1,36 @@
 {
   "imo": "9494618",
   "navio": "A.H. VALLETTA (REB)",
-  "gerado_em": "2026-05-21T18:30:43.520Z",
+  "gerado_em": "2026-05-21T20:23:20.370Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-21T18:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-21T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 8,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-05-21T18:00:00.000Z",
     "ultima_saida": "2026-04-28T20:30:00.000Z",
     "tempo_medio_estadia_horas": 184.5,
-    "tempo_medio_fundeio_horas": 36.7
+    "tempo_medio_fundeio_horas": 24.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-21T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-05-21T18:00:00.000Z",
       "tipo": "ENTRADA",

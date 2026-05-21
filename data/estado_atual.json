@@ -947,9 +947,9 @@
     "destino_atual": "-",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-21T10:00:00.000Z",
-    "ultimo_hash_evento": "c124aaa3f550950b4310ffea4e67b78f3d887cef340d5c604e0379c4b4c63d1e",
-    "atualizado_em": "2026-05-21T10:55:51.899Z"
+    "ultima_movimentacao_em": "2026-05-21T16:00:00.000Z",
+    "ultimo_hash_evento": "859b8fdb5fa436be737feb34e9e5b222ff660c52e9d8c6667149df7a555d8c52",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "9283435": {
     "imo": "9283435",
@@ -2127,6 +2127,20 @@
     "ultimo_hash_evento": "fc6da4fda1eb76f4831d967e38acd60ca07f0002f9b56ce4d6e1b86e983325d0",
     "atualizado_em": "2026-04-09T20:30:53.714Z"
   },
+  "9401788": {
+    "imo": "9401788",
+    "navio": "SAGA ODYSSEY",
+    "navio_normalizado": "SAGA ODYSSEY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01 - Visita",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-21T19:00:00.000Z",
+    "ultimo_hash_evento": "55236494a8405cf17497ccdad29ac0372679d818262f6aeabf773d4ad1f5b17c",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
+  },
   "9403786": {
     "imo": "9403786",
     "navio": "COSTA DO FUTURO (REB)",
@@ -2286,14 +2300,14 @@
     "navio": "SKANDI JUPITER",
     "navio_normalizado": "SKANDI JUPITER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-08T15:00:00.000Z",
-    "ultimo_hash_evento": "9e1e4fe275137ca68390d2b94d9a43000f9c50e013ee8561d7078009c28ed2e1",
-    "atualizado_em": "2026-05-08T15:53:59.707Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-21T20:00:00.000Z",
+    "ultimo_hash_evento": "1e96caf7d9bd1b387dc7d6d049c5d083f49a91eb93cd17c06aeac10ebefe874a",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "9418377": {
     "imo": "9418377",
@@ -3280,14 +3294,14 @@
     "navio": "A.H. VALLETTA (REB)",
     "navio_normalizado": "A.H. VALLETTA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-21T18:00:00.000Z",
-    "ultimo_hash_evento": "b8f9ae4b512ee11effb05f8371dbda16071a652411eafe7effa6b9d63ca21dc2",
-    "atualizado_em": "2026-05-21T18:30:43.520Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-21T19:00:00.000Z",
+    "ultimo_hash_evento": "0eb7bd45526d2de43ce6e45368f356ddf0d82cbd252e58a8bdff5e30a80df7f0",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "9497127": {
     "imo": "9497127",
@@ -4787,6 +4801,20 @@
     "ultimo_hash_evento": "fa5cae8c372f7843b6a1b15189b04e527fcdf5c70524730bf8832f33ae420bc1",
     "atualizado_em": "2026-05-02T07:44:55.791Z"
   },
+  "9632480": {
+    "imo": "9632480",
+    "navio": "MAERSK RUBICON",
+    "navio_normalizado": "MAERSK RUBICON",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-21T19:30:00.000Z",
+    "ultimo_hash_evento": "f45a9d7e00614f167c06aea512a897b7d0239f989ca480c7c9a84e923a7f5a2c",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
+  },
   "9636022": {
     "imo": "9636022",
     "navio": "SABLE (REB)",
@@ -4797,9 +4825,9 @@
     "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-21T08:00:00.000Z",
-    "ultimo_hash_evento": "7249e8e332cc7b2b66d2928d3229711af6a2fcc37670bcd5874c2902683a4843",
-    "atualizado_em": "2026-05-21T10:55:51.899Z"
+    "ultima_movimentacao_em": "2026-05-21T19:00:00.000Z",
+    "ultimo_hash_evento": "f42d4b30ef152609ac962622a860b9b82977df1d32a0bafe4f9b98aabc8c2053",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "9636034": {
     "imo": "9636034",
@@ -4987,15 +5015,15 @@
     "imo": "9644160",
     "navio": "BRAM BELEM",
     "navio_normalizado": "BRAM BELEM",
-    "porto_atual": "Rio de Janeiro",
+    "porto_atual": "Niterói",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "NIT - ATRACADO NITERÓI",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-05T16:10:00.000Z",
-    "ultimo_hash_evento": "eacf331e544480949f12aae1ecc2dd222556f4289c5f2058170dd9c19b3407f1",
-    "atualizado_em": "2026-05-05T16:55:06.249Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-21T19:00:00.000Z",
+    "ultimo_hash_evento": "5798f943d9f5c325157ba728a13b9d2511c4336ed35f2b951fdb270ff4bce3d2",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "9645542": {
     "imo": "9645542",
@@ -5325,13 +5353,13 @@
     "navio_normalizado": "STARNAV CENTAURUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
     "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-21T11:30:00.000Z",
-    "ultimo_hash_evento": "7a4e9e485fc7be2aaec7dbc4399c41488d5f530e4af7381b94e48899b285dce8",
-    "atualizado_em": "2026-05-21T14:13:04.330Z"
+    "ultima_movimentacao_em": "2026-05-21T20:00:00.000Z",
+    "ultimo_hash_evento": "e5ffbda6e5c49c7aad90293b8df838070f8e653764209e1583e7bcf092b5cd75",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "9668752": {
     "imo": "9668752",
@@ -6131,6 +6159,20 @@
     "ultimo_hash_evento": "71278abdf84d298a6d8024acc796f8af788c4a3e880013d7c290e38917e72a95",
     "atualizado_em": "2026-05-14T20:08:27.900Z"
   },
+  "9713076": {
+    "imo": "9713076",
+    "navio": "TRUE NORTH",
+    "navio_normalizado": "TRUE NORTH",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-21T19:30:00.000Z",
+    "ultimo_hash_evento": "05fa2f0cc07964457c9e8460ef584aa636b30dacb507089751a7cdde7e7ed6f2",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
+  },
   "9715206": {
     "imo": "9715206",
     "navio": "AFRICAN PLOVER",
@@ -6151,13 +6193,13 @@
     "navio_normalizado": "CBO OCEANA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-21T11:30:00.000Z",
-    "ultimo_hash_evento": "a387444b94f5b66c6d804f5c845e1e9d46c4573ffb4cc3314990082f20d434ef",
-    "atualizado_em": "2026-05-21T14:13:04.330Z"
+    "ultima_movimentacao_em": "2026-05-21T20:00:00.000Z",
+    "ultimo_hash_evento": "7d3b87bcc197e6b76f8f436b5dbe523d8ff0364c722f5906b32c5b4472c103d4",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "9715725": {
     "imo": "9715725",
@@ -8292,14 +8334,14 @@
     "navio": "MSC LE HAVRE",
     "navio_normalizado": "MSC LE HAVRE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C21 - TECON 3 - MRIO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-09T09:00:00.000Z",
-    "ultimo_hash_evento": "a85ff32a31e864c27128f3fab03cd12b85c909de37dca09c84ff93484e40987e",
-    "atualizado_em": "2026-05-09T09:48:23.509Z"
+    "ultima_movimentacao_em": "2026-05-21T19:00:00.000Z",
+    "ultimo_hash_evento": "ae61cf7cae9cb44b1b17c02d4d6846c28e46df3c97e38735feb4586513df9839",
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "9976408": {
     "imo": "9976408",
@@ -8663,7 +8705,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-05-21T17:00:00.000Z",
     "ultimo_hash_evento": "50bfa6e4bbaf942326973f382e24db3b8bb0e06d832dead79d775116aa081c44",
-    "atualizado_em": "2026-05-21T18:30:43.520Z"
+    "atualizado_em": "2026-05-21T20:23:20.370Z"
   },
   "3813886310": {
     "imo": "3813886310",
