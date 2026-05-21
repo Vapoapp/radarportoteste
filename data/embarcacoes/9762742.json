@@ -1,29 +1,36 @@
 {
   "imo": "9762742",
   "navio": "POSIDONIA LEOPARD (REB)",
-  "gerado_em": "2026-05-21T16:48:55.257Z",
+  "gerado_em": "2026-05-21T18:30:43.520Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-20T01:00:00.000Z"
+    "ultima_movimentacao": "2026-05-21T17:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 26,
-    "manobras_365d": 26,
+    "manobras_30d": 17,
+    "manobras_180d": 27,
+    "manobras_365d": 27,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 9,
+    "mudancas_30d": 10,
     "entradas_365d": 6,
     "saidas_365d": 5,
     "ultima_entrada": "2026-05-19T08:00:00.000Z",
     "ultima_saida": "2026-05-13T16:00:00.000Z",
     "tempo_medio_estadia_horas": 52,
-    "tempo_medio_fundeio_horas": 17.9
+    "tempo_medio_fundeio_horas": 20.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-21T17:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-05-20T01:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
-    },
-    {
-      "data": "2026-05-07T00:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }
