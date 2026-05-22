@@ -1,29 +1,36 @@
 {
   "imo": "9692636",
   "navio": "CBO ENERGY (REB)",
-  "gerado_em": "2026-05-22T11:12:27.273Z",
+  "gerado_em": "2026-05-22T13:37:11.700Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-15T00:35:00.000Z"
+    "ultima_movimentacao": "2026-05-22T11:48:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 6,
-    "manobras_365d": 6,
+    "manobras_30d": 4,
+    "manobras_180d": 7,
+    "manobras_365d": 7,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-05-14T16:50:00.000Z",
     "ultima_saida": "2026-04-25T03:25:00.000Z",
     "tempo_medio_estadia_horas": 199,
-    "tempo_medio_fundeio_horas": 199
+    "tempo_medio_fundeio_horas": 192.4
   },
   "historico_recente": [
+    {
+      "data": "2026-05-22T11:48:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-05-15T00:35:00.000Z",
       "tipo": "MUDANÇA",
