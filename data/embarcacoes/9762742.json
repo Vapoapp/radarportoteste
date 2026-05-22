@@ -1,29 +1,36 @@
 {
   "imo": "9762742",
   "navio": "POSIDONIA LEOPARD (REB)",
-  "gerado_em": "2026-05-22T22:30:32.322Z",
+  "gerado_em": "2026-05-22T23:41:18.092Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-22T09:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-22T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 28,
-    "manobras_365d": 28,
+    "manobras_30d": 19,
+    "manobras_180d": 29,
+    "manobras_365d": 29,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 11,
     "entradas_365d": 6,
-    "saidas_365d": 5,
+    "saidas_365d": 6,
     "ultima_entrada": "2026-05-19T08:00:00.000Z",
-    "ultima_saida": "2026-05-13T16:00:00.000Z",
+    "ultima_saida": "2026-05-22T23:00:00.000Z",
     "tempo_medio_estadia_horas": 52,
     "tempo_medio_fundeio_horas": 20.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-22T23:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-05-22T09:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "NIT - ATRACADO NITERÓI",
       "para": "2PAL - Terminal Petrobras AL"
-    },
-    {
-      "data": "2026-05-12T20:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
