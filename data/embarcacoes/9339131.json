@@ -1,29 +1,36 @@
 {
   "imo": "9339131",
   "navio": "SKANDI BOTAFOGO",
-  "gerado_em": "2026-05-23T21:32:56.869Z",
+  "gerado_em": "2026-05-23T22:30:18.283Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESPR - MacLaren Ilha da Conceição",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-20T11:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-23T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 2,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-05-20T11:00:00.000Z",
-    "ultima_saida": "2026-04-10T22:00:00.000Z",
-    "tempo_medio_estadia_horas": 36,
+    "ultima_saida": "2026-05-23T22:00:00.000Z",
+    "tempo_medio_estadia_horas": 59.5,
     "tempo_medio_fundeio_horas": 36
   },
   "historico_recente": [
+    {
+      "data": "2026-05-23T22:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "-"
+    },
     {
       "data": "2026-05-20T11:00:00.000Z",
       "tipo": "ENTRADA",
