@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-22T23:41:18.092Z",
+  "updatedAt": "2026-05-23T01:26:41.629Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 85
+      "count": 91
     },
     "niteroi": {
       "ok": true,
-      "count": 6
+      "count": 7
     },
     "itaguai": {
       "ok": true,
@@ -102,22 +102,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 05:00",
-      "imo": "9530204",
-      "navio": "SANTOS SOLUTION",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBL - BRICLOG",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 05:00",
       "imo": "9454008",
       "navio": "CBO ISABELLA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 05:00",
+      "imo": "9530204",
+      "navio": "SANTOS SOLUTION",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -128,6 +128,16 @@
       "de": "-",
       "para": "TPBL - BRICLOG",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 06:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -151,26 +161,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 06:00",
-      "imo": "9762742",
-      "navio": "POSIDONIA LEOPARD (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 06:30",
-      "imo": "9996769",
-      "navio": "CMA CGM SILVER",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01S - Visita Sul",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 06:30",
       "imo": "9477402",
       "navio": "CBO ANITA",
@@ -191,13 +181,23 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 06:30",
+      "imo": "9996769",
+      "navio": "CMA CGM SILVER",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01S - Visita Sul",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 07:00",
-      "imo": "9530204",
-      "navio": "SANTOS SOLUTION",
-      "tipo": "MUDANÇA",
-      "de": "TPBL - BRICLOG",
+      "imo": "9329966",
+      "navio": "NORMAND TURQUESA",
+      "tipo": "ENTRADA",
+      "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -212,12 +212,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 07:00",
-      "imo": "9329966",
-      "navio": "NORMAND TURQUESA",
-      "tipo": "ENTRADA",
-      "de": "-",
+      "imo": "9530204",
+      "navio": "SANTOS SOLUTION",
+      "tipo": "MUDANÇA",
+      "de": "TPBL - BRICLOG",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLSTAD SHIPPING LTDA."
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,32 +272,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 10:00",
-      "imo": "9664299",
-      "navio": "BRAM BRASILIA",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 10:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "ESPR - MacLaren Ilha da Conceição",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 10:00",
-      "imo": "9696802",
-      "navio": "STARNAV AQUARIUS (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "9401075",
+      "navio": "MELINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,22 +292,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 10:00",
-      "imo": "9401075",
-      "navio": "MELINA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "ZIM DO BRASIL LTDA"
+      "imo": "9664299",
+      "navio": "BRAM BRASILIA",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 11:00",
-      "imo": "9578921",
-      "navio": "SEA1 MARAGOGI",
+      "inicio": "22/05/2026 10:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 10:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -338,6 +328,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 11:00",
+      "imo": "9578921",
+      "navio": "SEA1 MARAGOGI",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -382,22 +382,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 13:00",
-      "imo": "9440681",
-      "navio": "SKUA",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 13:00",
       "imo": "9286762",
       "navio": "SEVEN SABIÁ",
       "tipo": "MUDANÇA",
       "de": "TPSS - SUBSEA",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 13:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -452,7 +452,7 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 15:30",
-      "imo": "8714205",
+      "imo": "9979022",
       "navio": "MSC SABRINA",
       "tipo": "ENTRADA",
       "de": "-",
@@ -462,7 +462,7 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 15:30",
-      "imo": "9979022",
+      "imo": "8714205",
       "navio": "MSC SABRINA",
       "tipo": "ENTRADA",
       "de": "-",
@@ -512,6 +512,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 17:00",
+      "imo": "9437385",
+      "navio": "LONCOMILLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01N - Visita Norte",
+      "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 17:00",
       "imo": "9642588",
       "navio": "LARUS",
       "tipo": "MUDANÇA",
@@ -528,16 +538,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 18:00",
-      "imo": "9358826",
-      "navio": "SEVEN OCEANS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -561,6 +561,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 18:00",
+      "imo": "9358826",
+      "navio": "SEVEN OCEANS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 19:00",
+      "imo": "9724348",
+      "navio": "PARTHENON TS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 81 - 2F08",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 19:00",
+      "imo": "9702754",
+      "navio": "SAPURA JADE",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 19:00",
       "imo": "9329942",
       "navio": "MESTRE DOS MARES (REB)",
@@ -578,26 +608,6 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 19:00",
-      "imo": "9702754",
-      "navio": "SAPURA JADE",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 19:00",
-      "imo": "9724348",
-      "navio": "PARTHENON TS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - WPT 81 - 2F08",
-      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -662,6 +672,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/05/2026 22:00",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 22:00",
       "imo": "9351799",
       "navio": "LOG-IN PANTANAL (REB)",
       "tipo": "ENTRADA",
@@ -681,13 +701,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/05/2026 22:00",
-      "imo": "9620982",
-      "navio": "CBO MISTRAL (REB)",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "inicio": "22/05/2026 22:10",
+      "imo": "9762003",
+      "navio": "C SEPETIBA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "SAM OFFSHORE ACU SERVIÇOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/05/2026 23:50",
+      "imo": "9482378",
+      "navio": "CBO MANOELLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -698,6 +728,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/05/2026 00:30",
+      "imo": "9401788",
+      "navio": "SAGA ODYSSEY",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -748,6 +788,16 @@
       "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
       "para": "Fundeio - WPT 82 - 2F08",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/05/2026 06:00",
+      "imo": "9329954",
+      "navio": "NORMAND TURMALINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -818,6 +868,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/05/2026 12:00",
+      "imo": "0011444517",
+      "navio": "DONA ISA (EX SANTA BÁRBARA XV)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -928,6 +988,16 @@
       "de": "ESMA - ESTALEIRO MAUÁ",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "22/05/2026 22:50",
+      "imo": "9668726",
+      "navio": "STARNAV PERSEUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Itaguaí",

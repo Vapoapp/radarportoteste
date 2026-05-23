@@ -1,29 +1,36 @@
 {
   "imo": "9686144",
   "navio": "HOS REMINGTON",
-  "gerado_em": "2026-05-22T23:41:18.092Z",
+  "gerado_em": "2026-05-23T01:26:41.629Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-24T15:00:00.000Z"
+    "porto": "Niterói",
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-23T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 2,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 3,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-04-24T15:00:00.000Z",
-    "ultima_saida": "2026-04-20T21:40:00.000Z",
+    "ultima_saida": "2026-05-23T00:00:00.000Z",
     "tempo_medio_estadia_horas": 71.5,
-    "tempo_medio_fundeio_horas": 71.5
+    "tempo_medio_fundeio_horas": 274.6
   },
   "historico_recente": [
+    {
+      "data": "2026-05-23T00:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "-"
+    },
     {
       "data": "2026-04-24T15:00:00.000Z",
       "tipo": "ENTRADA",
