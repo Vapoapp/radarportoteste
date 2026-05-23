@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-23T19:50:26.851Z",
+  "updatedAt": "2026-05-23T20:36:03.095Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 57
+      "count": 59
     },
     "niteroi": {
       "ok": true,
@@ -352,6 +352,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "23/05/2026 11:00",
+      "imo": "9710880",
+      "navio": "SEVEN CRUZEIRO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/05/2026 11:00",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/05/2026 11:00",
       "imo": "9329954",
       "navio": "NORMAND TURMALINA",
       "tipo": "ENTRADA",
@@ -368,26 +388,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "23/05/2026 11:00",
-      "imo": "9530187",
-      "navio": "SANTOS SCOUT",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "23/05/2026 11:00",
-      "imo": "9710880",
-      "navio": "SEVEN CRUZEIRO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -412,22 +412,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "23/05/2026 13:30",
-      "imo": "9477402",
-      "navio": "CBO ANITA",
-      "tipo": "SAÍDA",
-      "de": "TPBR - BRASCO",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "23/05/2026 13:30",
       "imo": "9407160",
       "navio": "SEASPAN EMPIRE",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/05/2026 13:30",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "SAÍDA",
+      "de": "TPBR - BRASCO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -561,6 +561,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "23/05/2026 17:30",
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/05/2026 21:00",
       "imo": "9961972",
       "navio": "LOG-IN EXPERIENCE (REB)",
@@ -588,6 +598,16 @@
       "de": "2R12 - Terminal - MCAR 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/05/2026 17:00",
+      "imo": "9724348",
+      "navio": "PARTHENON TS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 81 - 2F08",
+      "para": "-",
+      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",
