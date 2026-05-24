@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T20:43:24.489Z",
+  "updatedAt": "2026-05-24T21:39:46.508Z",
   "portos": {
     "rio": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 18
+      "count": 17
     },
     "angra": {
       "ok": true,
@@ -301,6 +301,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 18:30",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "24/05/2026 19:00",
       "imo": "9357169",
       "navio": "ASSO VENTISETTE",
@@ -308,16 +318,6 @@
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/05/2026 20:00",
-      "imo": "9573440",
-      "navio": "NORMAND CARIOCA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -617,16 +617,6 @@
       "tipo": "SAÍDA",
       "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
       "para": "-",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "25/05/2026 19:00",
-      "imo": "9855654",
-      "navio": "BETTY K",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
       "agente": "THP SHIPPING AND LOGISTICS LTDA"
     }
   ]
