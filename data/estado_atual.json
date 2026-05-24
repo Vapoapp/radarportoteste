@@ -312,14 +312,14 @@
     "navio": "MIRZAN",
     "navio_normalizado": "MIRZAN",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESCM - ESTALEIRO CAMORIM",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "ESCM - ESTALEIRO CAMORIM",
+    "destino_atual": "-",
     "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-08T11:30:00.000Z",
-    "ultimo_hash_evento": "ae31deb503ee95604fc0fafd66be2867f15120fd13d3d9aab83dff285dad0bb6",
-    "atualizado_em": "2026-05-08T12:11:52.548Z"
+    "ultima_movimentacao_em": "2026-05-24T13:00:00.000Z",
+    "ultimo_hash_evento": "eb0fb2b19ba590693e9e0481e5a5bc0948899b2121c35f19f23c66a2ea56e40d",
+    "atualizado_em": "2026-05-24T14:12:57.415Z"
   },
   "8650033": {
     "imo": "8650033",
@@ -1474,14 +1474,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-23T05:00:00.000Z",
-    "ultimo_hash_evento": "eeb037f3d00ae2edcef891ede279dd4c66f4290d4ab90a1c1489a576dde08700",
-    "atualizado_em": "2026-05-23T05:02:25.923Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-24T13:00:00.000Z",
+    "ultimo_hash_evento": "8e51351c15e107f2b22036cd7b9fb680f5ab69035efb550befc8742700133a56",
+    "atualizado_em": "2026-05-24T14:12:57.415Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -2798,6 +2798,20 @@
     "ultima_movimentacao_em": "2026-04-29T04:30:00.000Z",
     "ultimo_hash_evento": "8c528257394a8fc61484ffdc8800c60c02c65484090f38524a1d51f175281dec",
     "atualizado_em": "2026-04-29T06:31:07.286Z"
+  },
+  "9444027": {
+    "imo": "9444027",
+    "navio": "HL SINES",
+    "navio_normalizado": "HL SINES",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-24T13:00:00.000Z",
+    "ultimo_hash_evento": "dbdae034308b1bf89bae65b8542effbd8078b356d97753301f4bff1ece9f982e",
+    "atualizado_em": "2026-05-24T14:12:57.415Z"
   },
   "9444845": {
     "imo": "9444845",
@@ -6655,13 +6669,13 @@
     "navio_normalizado": "ACE DEFENDER",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "CAPITAL MARÍTIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-22T15:00:00.000Z",
-    "ultimo_hash_evento": "90a7d0b493abfd312a78e80aad68b38e81917d5662f5d44eb1ee05b17307a12f",
-    "atualizado_em": "2026-05-22T16:03:42.358Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-24T13:00:00.000Z",
+    "ultimo_hash_evento": "56283299449764f174e76f6a44d3f1685a435c6a440883efcb197a6fadf421e4",
+    "atualizado_em": "2026-05-24T14:12:57.415Z"
   },
   "9745378": {
     "imo": "9745378",
