@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-24T14:12:57.415Z",
+  "updatedAt": "2026-05-24T15:33:52.036Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 25
+      "count": 30
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 5
+      "count": 4
     },
     "angra": {
       "ok": true,
@@ -98,6 +98,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 07:00",
+      "imo": "9547673",
+      "navio": "CASTRO ALVES",
+      "tipo": "SAÍDA",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -211,6 +221,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 12:00",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 15:00",
+      "imo": "9529877",
+      "navio": "HOS FIRE SERPENT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 16:00",
+      "imo": "9326512",
+      "navio": "Aktea",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP2 - PETROBRAS PP2",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "24/05/2026 18:00",
       "imo": "9294082",
       "navio": "MAERSK VEGA",
@@ -261,6 +301,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 23:00",
+      "imo": "9387243",
+      "navio": "SKANDI NITEROI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "25/05/2026 17:00",
       "imo": "9724348",
       "navio": "PARTHENON TS",
@@ -281,17 +331,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "24/05/2026 16:30",
-      "imo": "9476288",
-      "navio": "TASSOS N",
-      "tipo": "SAÍDA",
-      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "para": "-",
-      "agente": "GEM SHIPPING LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "24/05/2026 18:00",
+      "inicio": "24/05/2026 17:30",
       "imo": "9410480",
       "navio": "HARALAMBOS",
       "tipo": "MUDANÇA",
@@ -301,7 +341,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "24/05/2026 19:00",
+      "inicio": "24/05/2026 18:30",
       "imo": "9724659",
       "navio": "MARAN LOYALTY",
       "tipo": "MUDANÇA",
