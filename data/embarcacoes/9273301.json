@@ -1,21 +1,21 @@
 {
   "imo": "9273301",
   "navio": "ASTRO CMT MATOS",
-  "gerado_em": "2026-05-24T10:05:09.264Z",
+  "gerado_em": "2026-05-24T11:38:15.572Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPUT - TPUT",
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-04-22T19:00:00.000Z"
+    "ultima_movimentacao": "2026-05-24T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 1,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-06T01:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 402
   },
   "historico_recente": [
+    {
+      "data": "2026-05-24T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPUT - TPUT",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-04-22T19:00:00.000Z",
       "tipo": "MUDANÇA",
