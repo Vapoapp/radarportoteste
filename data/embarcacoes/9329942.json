@@ -1,29 +1,36 @@
 {
   "imo": "9329942",
   "navio": "MESTRE DOS MARES (REB)",
-  "gerado_em": "2026-05-25T06:15:32.064Z",
+  "gerado_em": "2026-05-25T10:51:16.841Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-25T00:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-25T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 22,
-    "manobras_365d": 22,
+    "manobras_30d": 13,
+    "manobras_180d": 23,
+    "manobras_365d": 23,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 6,
     "entradas_365d": 6,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-05-25T00:00:00.000Z",
-    "ultima_saida": "2026-05-24T13:00:00.000Z",
-    "tempo_medio_estadia_horas": 124.5,
+    "ultima_saida": "2026-05-25T10:00:00.000Z",
+    "tempo_medio_estadia_horas": 105.4,
     "tempo_medio_fundeio_horas": 31.3
   },
   "historico_recente": [
+    {
+      "data": "2026-05-25T10:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-05-25T00:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-05-01T17:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }

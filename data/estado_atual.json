@@ -984,28 +984,28 @@
     "navio": "NORMAND TOPAZIO",
     "navio_normalizado": "NORMAND TOPAZIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2PAL - Terminal Petrobras AL",
+    "destino_atual": "-",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-22T22:30:00.000Z",
-    "ultimo_hash_evento": "509cddbc3d4674b3785ee20f7e05ac3a7bbed10a31703bbebb66bcd104e691f7",
-    "atualizado_em": "2026-05-22T22:30:32.322Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-25T07:00:00.000Z",
+    "ultimo_hash_evento": "4bbb8573771367891a660cf6bb394e45058764ea792c7bf2b04065bc35e71fa7",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
   },
   "9280627": {
     "imo": "9280627",
     "navio": "CMA CGM PUCCINI",
     "navio_normalizado": "CMA CGM PUCCINI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-24T19:30:00.000Z",
-    "ultimo_hash_evento": "772f17ad2512966f37f0a8ee899bdd67e0796a296e83c1ac7f23f9621ed0d286",
-    "atualizado_em": "2026-05-24T19:53:37.469Z"
+    "ultima_movimentacao_em": "2026-05-25T09:00:00.000Z",
+    "ultimo_hash_evento": "f40a2e3310af7a06b75dd2109493cec28b13b926216d57e875cce00034c0eaf8",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
   },
   "9283435": {
     "imo": "9283435",
@@ -1474,14 +1474,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T00:00:00.000Z",
-    "ultimo_hash_evento": "43f11fc17b93d7de7978db3c0174dcdee8cf713478f6eaf2f09bf364d9c11e6d",
-    "atualizado_em": "2026-05-25T01:52:38.881Z"
+    "ultima_movimentacao_em": "2026-05-25T10:00:00.000Z",
+    "ultimo_hash_evento": "84524427bf3705688d9b8e573f10cf89936b86ef1d3ca006e0ebd9e43aa46ce0",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -5157,13 +5157,13 @@
     "navio_normalizado": "ALCATRAZ",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-24T00:00:00.000Z",
-    "ultimo_hash_evento": "6318fe5c3a01e92fbf18dc29a72ec9be14cb827553be89713e78cd6395c89777",
-    "atualizado_em": "2026-05-24T01:31:38.861Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-25T10:00:00.000Z",
+    "ultimo_hash_evento": "0186959402e6958eca046b1dae4f09ecaa5027da6469ca4ca987986bf34a321c",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
   },
   "9644158": {
     "imo": "9644158",
@@ -5206,6 +5206,20 @@
     "ultima_movimentacao_em": "2026-05-08T05:00:00.000Z",
     "ultimo_hash_evento": "6a7ee17c2e0158016725fbe85046255cd989c764463a4ceb058640fe68a0cf7e",
     "atualizado_em": "2026-05-08T06:16:21.826Z"
+  },
+  "9646845": {
+    "imo": "9646845",
+    "navio": "HARMONIOUS",
+    "navio_normalizado": "HARMONIOUS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "GEM SHIPPING LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-25T07:00:00.000Z",
+    "ultimo_hash_evento": "3462b117158c1dfa6b44d025b853c84d297226824cee6f77faa150d070fa8ee3",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
   },
   "9647552": {
     "imo": "9647552",
@@ -6150,14 +6164,14 @@
     "navio": "NM Cherry Blossom",
     "navio_normalizado": "NM CHERRY BLOSSOM",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-    "destino_atual": "-",
-    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "agente_atual": "GEM SHIPPING LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-22T06:00:00.000Z",
-    "ultimo_hash_evento": "2c7e7ee700333c848377d8bc3da2583d7009ffe246d1fe1fafdfea4fe9516139",
-    "atualizado_em": "2026-05-22T08:00:25.001Z"
+    "ultima_movimentacao_em": "2026-05-25T08:00:00.000Z",
+    "ultimo_hash_evento": "da868d856669442def882d18af03c5c2d682e718df3f91107e482110a4554720",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
   },
   "9703667": {
     "imo": "9703667",
@@ -6701,9 +6715,9 @@
     "destino_atual": "-",
     "agente_atual": "CAPITAL MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T01:00:00.000Z",
-    "ultimo_hash_evento": "d6eef41854f7f0eefdb24d6ef802118e072ca26aabb46ea2f2e8dd424a1ddd42",
-    "atualizado_em": "2026-05-25T01:52:38.881Z"
+    "ultima_movimentacao_em": "2026-05-25T04:00:00.000Z",
+    "ultimo_hash_evento": "f477e70d42511886fadd0b517dd9cb5557b006f2abbe8b33435526ed83c7ecd5",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
   },
   "9745378": {
     "imo": "9745378",
@@ -7713,6 +7727,20 @@
     "ultimo_hash_evento": "b5feca18c4590a6ddbe800ce93f6b14d615c7c589f1cabac1ee17c27af158eec",
     "atualizado_em": "2026-04-18T17:49:51.229Z"
   },
+  "9860738": {
+    "imo": "9860738",
+    "navio": "NORD SUNDA",
+    "navio_normalizado": "NORD SUNDA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-25T09:00:00.000Z",
+    "ultimo_hash_evento": "0320d859919bff1a66b33fa9d1b60a2f9ea41f73c4de113ff6adc3f18b66ebbc",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
+  },
   "9860972": {
     "imo": "9860972",
     "navio": "TOMINI K11",
@@ -8706,6 +8734,20 @@
     "ultima_movimentacao_em": "2026-04-15T12:00:00.000Z",
     "ultimo_hash_evento": "199ab59aea374b6c12dd504045602aa7fd2be86bfa154383912c8a92a534fd63",
     "atualizado_em": "2026-04-15T12:46:21.831Z"
+  },
+  "9991264": {
+    "imo": "9991264",
+    "navio": "OMISHIMA",
+    "navio_normalizado": "OMISHIMA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01 - Visita",
+    "destino_atual": "-",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-25T10:00:00.000Z",
+    "ultimo_hash_evento": "e85507e6424f12ca151cce3486892bc368e2e28328afbcf73aaf9943d0c0ad38",
+    "atualizado_em": "2026-05-25T10:51:16.841Z"
   },
   "9996680": {
     "imo": "9996680",
