@@ -1474,14 +1474,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-24T13:00:00.000Z",
-    "ultimo_hash_evento": "8e51351c15e107f2b22036cd7b9fb680f5ab69035efb550befc8742700133a56",
-    "atualizado_em": "2026-05-24T14:12:57.415Z"
+    "ultima_movimentacao_em": "2026-05-25T00:00:00.000Z",
+    "ultimo_hash_evento": "43f11fc17b93d7de7978db3c0174dcdee8cf713478f6eaf2f09bf364d9c11e6d",
+    "atualizado_em": "2026-05-25T01:52:38.881Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -2286,14 +2286,14 @@
     "navio": "HARALAMBOS",
     "navio_normalizado": "HARALAMBOS",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
-    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "-",
     "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-24T20:30:00.000Z",
-    "ultimo_hash_evento": "0d3653c4494651635f18de9b4021b599794087eb9cf1051f7b024d698fb4e0db",
-    "atualizado_em": "2026-05-24T20:43:24.489Z"
+    "ultima_movimentacao_em": "2026-05-25T01:30:00.000Z",
+    "ultimo_hash_evento": "3e1346c2c319f27459a8606aaa2d42c8c6150fea746a4e8eaf346d5f26ce1fb1",
+    "atualizado_em": "2026-05-25T01:52:38.881Z"
   },
   "9411006": {
     "imo": "9411006",
@@ -2398,14 +2398,14 @@
     "navio": "CMA CGM VERACRUZ (REB S/L)",
     "navio_normalizado": "CMA CGM VERACRUZ (REB S/L)",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-24T03:00:00.000Z",
-    "ultimo_hash_evento": "6fb3bcd4857bda7e587513e2082f4e0b24a1181c6a20c9324a7b8672ee1e6e6b",
-    "atualizado_em": "2026-05-24T05:41:37.215Z"
+    "ultima_movimentacao_em": "2026-05-25T01:00:00.000Z",
+    "ultimo_hash_evento": "29a5486bce2a7f7f4abe1a4b4b60654181ed47c28e784ddce9d628adcee9bb79",
+    "atualizado_em": "2026-05-25T01:52:38.881Z"
   },
   "9418664": {
     "imo": "9418664",
@@ -3140,14 +3140,14 @@
     "navio": "TASSOS N",
     "navio_normalizado": "TASSOS N",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "destino_atual": "-",
     "agente_atual": "GEM SHIPPING LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-20T23:00:00.000Z",
-    "ultimo_hash_evento": "fa20b4fba8aeb4183719c3e46b71d073ad03f7171a1e11ec074485dda40bcf1c",
-    "atualizado_em": "2026-05-20T23:57:27.524Z"
+    "ultima_movimentacao_em": "2026-05-25T00:30:00.000Z",
+    "ultimo_hash_evento": "7ab347b85aabaa748432f8257b51adc5d013e1178d913fdf00dd9f2bf3e8d7c0",
+    "atualizado_em": "2026-05-25T01:52:38.881Z"
   },
   "9476886": {
     "imo": "9476886",
@@ -3610,6 +3610,20 @@
     "ultima_movimentacao_em": "2026-05-20T16:00:00.000Z",
     "ultimo_hash_evento": "562c3794b204a581062cce210af1fecd572fe4784e0756e06f722a025d101bb6",
     "atualizado_em": "2026-05-20T17:30:49.153Z"
+  },
+  "9514987": {
+    "imo": "9514987",
+    "navio": "VIKING EMERALD",
+    "navio_normalizado": "VIKING EMERALD",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01 - Visita",
+    "destino_atual": "-",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-25T00:30:00.000Z",
+    "ultimo_hash_evento": "2b3c854cc33fde06ebf6a79888a0303d2d8990baf4db0172a53d33880eb14355",
+    "atualizado_em": "2026-05-25T01:52:38.881Z"
   },
   "9519119": {
     "imo": "9519119",
@@ -4232,14 +4246,14 @@
     "navio": "SEA1 GIANT",
     "navio_normalizado": "SEA1 GIANT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPBR - BRASCO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-17T20:00:00.000Z",
-    "ultimo_hash_evento": "4e5179519e700ed38e2bd718e1b44951fb8a0a49b623baf731a79bdfe10b2ced",
-    "atualizado_em": "2026-05-17T20:36:37.884Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-25T01:00:00.000Z",
+    "ultimo_hash_evento": "7eeb7dbe135d724718aa28e345cfcd5bd63b4aab69d20bbcdcc3d3c4d55b50dc",
+    "atualizado_em": "2026-05-25T01:52:38.881Z"
   },
   "9578880": {
     "imo": "9578880",
@@ -6682,14 +6696,14 @@
     "navio": "ACE DEFENDER (REB)",
     "navio_normalizado": "ACE DEFENDER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "CAPITAL MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-24T13:00:00.000Z",
-    "ultimo_hash_evento": "56283299449764f174e76f6a44d3f1685a435c6a440883efcb197a6fadf421e4",
-    "atualizado_em": "2026-05-24T14:12:57.415Z"
+    "ultima_movimentacao_em": "2026-05-25T01:00:00.000Z",
+    "ultimo_hash_evento": "d6eef41854f7f0eefdb24d6ef802118e072ca26aabb46ea2f2e8dd424a1ddd42",
+    "atualizado_em": "2026-05-25T01:52:38.881Z"
   },
   "9745378": {
     "imo": "9745378",

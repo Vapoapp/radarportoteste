@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-24T22:39:46.787Z",
+  "updatedAt": "2026-05-25T01:52:38.881Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 41
+      "count": 44
     },
     "niteroi": {
       "ok": true,
@@ -252,32 +252,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/05/2026 18:00",
-      "imo": "9294082",
-      "navio": "MAERSK VEGA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/05/2026 18:00",
-      "imo": "9447641",
-      "navio": "ROCHEDO DE SÃO PAULO (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/05/2026 18:00",
-      "imo": "9545857",
-      "navio": "COXON TIDE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+      "imo": "9806512",
+      "navio": "STARNAV DELPHINUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -292,12 +272,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/05/2026 18:00",
-      "imo": "9806512",
-      "navio": "STARNAV DELPHINUS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "9447641",
+      "navio": "ROCHEDO DE SÃO PAULO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 18:00",
+      "imo": "9294082",
+      "navio": "MAERSK VEGA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 18:00",
+      "imo": "9545857",
+      "navio": "COXON TIDE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,13 +311,43 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "24/05/2026 22:00",
-      "imo": "9418377",
-      "navio": "CMA CGM VERACRUZ (REB S/L)",
+      "inicio": "24/05/2026 21:00",
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 21:30",
+      "imo": "9514987",
+      "navio": "VIKING EMERALD",
       "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
+      "de": "Fundeio - 2F01 - Visita",
       "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 22:00",
+      "imo": "9741279",
+      "navio": "ACE DEFENDER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "CAPITAL MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/05/2026 22:00",
+      "imo": "9756951",
+      "navio": "BS UBATUBA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -331,13 +361,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "24/05/2026 23:00",
-      "imo": "9387243",
-      "navio": "SKANDI NITEROI",
+      "inicio": "24/05/2026 22:00",
+      "imo": "9418377",
+      "navio": "CMA CGM VERACRUZ (REB S/L)",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/05/2026 00:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/05/2026 00:00",
+      "imo": "9956422",
+      "navio": "BOCHEM SHANGHAI",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -358,16 +408,6 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/05/2026 07:00",
-      "imo": "9492127",
-      "navio": "SAO SEBASTIAO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -408,16 +448,6 @@
       "de": "ESCM - ESTALEIRO CAMORIM",
       "para": "2TS2 - Terminal Siderúrgico 2",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/05/2026 14:00",
-      "imo": "9326512",
-      "navio": "Aktea",
-      "tipo": "SAÍDA",
-      "de": "TPP2 - PETROBRAS PP2",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
