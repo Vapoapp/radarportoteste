@@ -998,14 +998,14 @@
     "navio": "NORMAND TOPAZIO",
     "navio_normalizado": "NORMAND TOPAZIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2PAL - Terminal Petrobras AL",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T07:00:00.000Z",
-    "ultimo_hash_evento": "4bbb8573771367891a660cf6bb394e45058764ea792c7bf2b04065bc35e71fa7",
-    "atualizado_em": "2026-05-25T10:51:16.841Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-25T22:30:00.000Z",
+    "ultimo_hash_evento": "740b4e3250f60fd8a5cd7eea8e0d0f3a6dcbfd61ad1573f02e74bb4b5909fa1a",
+    "atualizado_em": "2026-05-25T23:18:26.303Z"
   },
   "9280627": {
     "imo": "9280627",
@@ -1502,14 +1502,14 @@
     "navio": "NORMAND TURMALINA",
     "navio_normalizado": "NORMAND TURMALINA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "-",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T15:00:00.000Z",
-    "ultimo_hash_evento": "8e5c5ec8d42198310be2e9c8dc6e8e399c79f4e0520ed36c6eb128c2d752c43c",
-    "atualizado_em": "2026-05-25T16:14:08.707Z"
+    "ultima_movimentacao_em": "2026-05-25T20:00:00.000Z",
+    "ultimo_hash_evento": "5b86d91b928183508fc0e7dcfb9ca4ac4e1f9092aac6824d06bd2c91fcd24e48",
+    "atualizado_em": "2026-05-25T23:18:26.303Z"
   },
   "9329966": {
     "imo": "9329966",
@@ -3896,14 +3896,14 @@
     "navio": "SANTOS SOLUTION",
     "navio_normalizado": "SANTOS SOLUTION",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-25T18:00:00.000Z",
-    "ultimo_hash_evento": "116bf3c685e3187369f75324f25abe0f2b00394980c9df683f2a4fe2c567216d",
-    "atualizado_em": "2026-05-25T19:51:22.646Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-25T23:00:00.000Z",
+    "ultimo_hash_evento": "fdc22c36ce5017ac2fad47dc1c350900504cbe7edbc1e4f1c60f8fdc19e98535",
+    "atualizado_em": "2026-05-25T23:18:26.303Z"
   },
   "9530216": {
     "imo": "9530216",
@@ -8987,6 +8987,20 @@
     "ultimo_hash_evento": "e69955d956906beacbfbaa2b266f0ef7b4bc6429368b045675cbd75580d54918",
     "atualizado_em": "2026-05-19T01:31:58.931Z"
   },
+  "3810317454": {
+    "imo": "3810317454",
+    "navio": "EQUIP 118",
+    "navio_normalizado": "EQUIP 118",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPCM - Estaleiro Camorim",
+    "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-25T19:00:00.000Z",
+    "ultimo_hash_evento": "867cd092afb4dc580b5b488be5a8e61b43a9067d3cd5b5adfc419abc37be42b0",
+    "atualizado_em": "2026-05-25T23:18:26.303Z"
+  },
   "3810508756": {
     "imo": "3810508756",
     "navio": "TS OURIÇADO",
@@ -9025,9 +9039,9 @@
     "destino_atual": "-",
     "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-16T09:00:00.000Z",
-    "ultimo_hash_evento": "50fd293788d965150fb89047cecbbdd3adfba0f0cb976eb5779358670d61d452",
-    "atualizado_em": "2026-05-16T10:16:11.037Z"
+    "ultima_movimentacao_em": "2026-05-25T22:30:00.000Z",
+    "ultimo_hash_evento": "c5aa1715768c093d71718afcc0e1391d1ac38e0da3506f16db581107e0b0eb9c",
+    "atualizado_em": "2026-05-25T23:18:26.303Z"
   },
   "3813879631": {
     "imo": "3813879631",
@@ -9151,9 +9165,9 @@
     "destino_atual": "-",
     "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T21:00:00.000Z",
-    "ultimo_hash_evento": "146f0208eaf569a9dad9ddbceebe63c5f82819ad19f3db291ad6ba4c55419386",
-    "atualizado_em": "2026-05-25T22:04:13.667Z"
+    "ultima_movimentacao_em": "2026-05-25T22:30:00.000Z",
+    "ultimo_hash_evento": "084af275269d9d8e1e5fa3842a7cf597cc3e559c6ef8183f855b3ebabd02c5eb",
+    "atualizado_em": "2026-05-25T23:18:26.303Z"
   },
   "3813890457": {
     "imo": "3813890457",
