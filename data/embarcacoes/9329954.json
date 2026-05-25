@@ -1,21 +1,21 @@
 {
   "imo": "9329954",
   "navio": "NORMAND TURMALINA",
-  "gerado_em": "2026-05-25T13:52:54.060Z",
+  "gerado_em": "2026-05-25T16:14:08.707Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
     "local": "TPBR - BRASCO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-05T10:00:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-25T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
+    "manobras_30d": 2,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 4,
     "saidas_365d": 4,
     "ultima_entrada": "2026-05-05T10:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 18.3
   },
   "historico_recente": [
+    {
+      "data": "2026-05-25T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-05-05T10:00:00.000Z",
       "tipo": "ENTRADA",
