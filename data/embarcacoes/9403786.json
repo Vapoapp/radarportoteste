@@ -1,21 +1,21 @@
 {
   "imo": "9403786",
   "navio": "COSTA DO FUTURO (REB)",
-  "gerado_em": "2026-05-26T14:17:54.860Z",
+  "gerado_em": "2026-05-26T17:37:23.234Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
     "local": "TPBK - BRASKEM",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-26T13:00:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-26T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 4,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-05-26T13:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 128.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-26T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F12 - SUZANO",
+      "para": "TPBK - BRASKEM"
+    },
     {
       "data": "2026-05-26T13:00:00.000Z",
       "tipo": "ENTRADA",
