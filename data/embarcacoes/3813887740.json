@@ -1,29 +1,36 @@
 {
   "imo": "3813887740",
   "navio": "C VITÓRIA",
-  "gerado_em": "2026-05-26T22:41:51.573Z",
+  "gerado_em": "2026-05-26T23:48:00.196Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPCM - Estaleiro Camorim",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-26T22:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-26T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 13,
+    "manobras_180d": 13,
+    "manobras_365d": 13,
     "entradas_30d": 6,
-    "saidas_30d": 5,
+    "saidas_30d": 7,
     "mudancas_30d": 0,
     "entradas_365d": 6,
-    "saidas_365d": 5,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-05-26T22:00:00.000Z",
-    "ultima_saida": "2026-05-26T20:00:00.000Z",
-    "tempo_medio_estadia_horas": 1.8,
+    "ultima_saida": "2026-05-26T23:00:00.000Z",
+    "tempo_medio_estadia_horas": 1.5,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-05-26T23:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPCM - Estaleiro Camorim",
+      "para": "-"
+    },
     {
       "data": "2026-05-26T22:00:00.000Z",
       "tipo": "ENTRADA",
@@ -33,6 +40,13 @@
     },
     {
       "data": "2026-05-26T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPCM - Estaleiro Camorim",
+      "para": "-"
+    },
+    {
+      "data": "2026-05-26T19:00:00.000Z",
       "tipo": "SAÍDA",
       "porto": "Rio de Janeiro",
       "de": "TPCM - Estaleiro Camorim",
@@ -75,20 +89,6 @@
     },
     {
       "data": "2026-05-26T13:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "TPCM - Estaleiro Camorim"
-    },
-    {
-      "data": "2026-05-25T22:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPCM - Estaleiro Camorim",
-      "para": "-"
-    },
-    {
-      "data": "2026-05-25T21:30:00.000Z",
       "tipo": "ENTRADA",
       "porto": "Rio de Janeiro",
       "de": "-",
