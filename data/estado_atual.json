@@ -74,14 +74,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-26T10:00:00.000Z",
-    "ultimo_hash_evento": "966cc76e7332027705306ba70d3f224a8ce59860552a9a0e04bc1073e19804fc",
-    "atualizado_em": "2026-05-26T14:17:54.860Z"
+    "ultima_movimentacao_em": "2026-05-26T21:00:00.000Z",
+    "ultimo_hash_evento": "f53273abaa2b0d96978e1ef787fc8917ae3ba8b96333a77c097983ffa65da4d2",
+    "atualizado_em": "2026-05-26T21:16:58.745Z"
   },
   "1025124": {
     "imo": "1025124",
@@ -6507,7 +6507,7 @@
     "em_fundeio": true,
     "ultima_movimentacao_em": "2026-05-26T12:00:00.000Z",
     "ultimo_hash_evento": "57cbb0874d266489c37b4db8a36241a29d7817044261f5e970e1f92277776fd7",
-    "atualizado_em": "2026-05-26T19:35:54.212Z"
+    "atualizado_em": "2026-05-26T21:16:58.745Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -7006,12 +7006,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2PAL - Terminal Petrobras AL",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-26T16:05:00.000Z",
-    "ultimo_hash_evento": "82986a5920d6f6a6e254a132472c6ff3172618d4646fba3f6068b77c64f6f95c",
-    "atualizado_em": "2026-05-26T17:37:23.234Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-26T19:15:00.000Z",
+    "ultimo_hash_evento": "8d80477a3bac8dbca15d86f2d3c58ef557d334591a518955cd384bbb160cad45",
+    "atualizado_em": "2026-05-26T21:16:58.745Z"
   },
   "9759991": {
     "imo": "9759991",
@@ -7102,14 +7102,14 @@
     "navio": "CBO ALIANÇA",
     "navio_normalizado": "CBO ALIANCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-13T20:00:00.000Z",
-    "ultimo_hash_evento": "7ef468af57be9c0e75db622b6be7d9c83fdd44a9b071d3133bced8b62f6b7ab1",
-    "atualizado_em": "2026-05-13T20:57:38.040Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-26T20:00:00.000Z",
+    "ultimo_hash_evento": "0df3935fe7b38657534abfe4b7b3b46fe62ed25ec57c6aa0eb412d5c0639552a",
+    "atualizado_em": "2026-05-26T21:16:58.745Z"
   },
   "9767807": {
     "imo": "9767807",
@@ -9062,14 +9062,14 @@
     "navio": "EQUIP 118",
     "navio_normalizado": "EQUIP 118",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPCM - Estaleiro Camorim",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "TPCM - Estaleiro Camorim",
+    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
     "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T19:00:00.000Z",
-    "ultimo_hash_evento": "867cd092afb4dc580b5b488be5a8e61b43a9067d3cd5b5adfc419abc37be42b0",
-    "atualizado_em": "2026-05-25T23:18:26.303Z"
+    "ultima_movimentacao_em": "2026-05-26T21:00:00.000Z",
+    "ultimo_hash_evento": "96e9b729fffa446256f1d4aa050f3a20af80e8a17c49ddaf74ff9cb053689a6a",
+    "atualizado_em": "2026-05-26T21:16:58.745Z"
   },
   "3810508756": {
     "imo": "3810508756",
@@ -9263,9 +9263,9 @@
     "destino_atual": "-",
     "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-26T19:00:00.000Z",
-    "ultimo_hash_evento": "0f6cf32de47bbd5e0b23889a9ff2f281d46c847decf58f9bfaeb465a5f8a2f06",
-    "atualizado_em": "2026-05-26T19:35:54.212Z"
+    "ultima_movimentacao_em": "2026-05-26T20:00:00.000Z",
+    "ultimo_hash_evento": "fe7bfbb952103c847a46ee7aa5a66236f6765ff14318c8dd2b1730fbaed97db1",
+    "atualizado_em": "2026-05-26T21:16:58.745Z"
   },
   "3813890457": {
     "imo": "3813890457",

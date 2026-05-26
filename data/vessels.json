@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-26T19:35:54.212Z",
+  "updatedAt": "2026-05-26T21:16:58.745Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 61
+      "count": 63
     },
     "niteroi": {
       "ok": true,
@@ -461,6 +461,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "26/05/2026 16:15",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "26/05/2026 17:00",
       "imo": "9766621",
       "navio": "CBO ALIANÇA",
@@ -512,6 +522,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "26/05/2026 19:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/05/2026 19:00",
       "imo": "9814961",
       "navio": "SEALOADER 1",
       "tipo": "ENTRADA",
@@ -542,22 +562,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "26/05/2026 21:00",
-      "imo": "3813887740",
-      "navio": "C VITÓRIA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPCM - Estaleiro Camorim",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "26/05/2026 21:00",
       "imo": "9703631",
       "navio": "BRAM TITAN",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/05/2026 21:00",
+      "imo": "3813887740",
+      "navio": "C VITÓRIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPCM - Estaleiro Camorim",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -721,7 +741,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "26/05/2026 21:00",
+      "inicio": "26/05/2026 22:00",
       "imo": "9679907",
       "navio": "CMA CGM MISSISSIPPI",
       "tipo": "SAÍDA",
