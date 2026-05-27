@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-27T06:14:27.613Z",
+  "updatedAt": "2026-05-27T10:31:25.458Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 22
+      "count": 28
     },
     "niteroi": {
       "ok": true,
@@ -41,16 +41,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "27/05/2026 01:30",
-      "imo": "9636034",
-      "navio": "ORYX (REB)",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "27/05/2026 03:00",
       "imo": "9489912",
       "navio": "RÔMULO ALMEIDA",
@@ -71,6 +61,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "27/05/2026 03:25",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/05/2026 03:30",
+      "imo": "9636034",
+      "navio": "ORYX (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "27/05/2026 04:30",
       "imo": "1020605",
       "navio": "GRANDE TOKYO",
@@ -82,12 +92,42 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "27/05/2026 05:00",
+      "imo": "9627629",
+      "navio": "CBO ARPOADOR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/05/2026 05:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/05/2026 05:00",
       "imo": "9715220",
       "navio": "LUENHO",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F01 - Visita",
       "para": "-",
       "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/05/2026 05:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -111,6 +151,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "27/05/2026 06:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "27/05/2026 06:30",
       "imo": "9630420",
       "navio": "XIAMEN EXPRESS",
@@ -122,22 +172,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "27/05/2026 07:00",
-      "imo": "9364253",
-      "navio": "THESEUS Z (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "PATRIA NAVAL OPERACOES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "27/05/2026 07:00",
       "imo": "9271743",
       "navio": "SINGRAR (EX DANKO TIDE)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/05/2026 07:00",
+      "imo": "9364253",
+      "navio": "THESEUS Z (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "PATRIA NAVAL OPERACOES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -152,12 +202,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "27/05/2026 08:00",
-      "imo": "9482330",
-      "navio": "MULTIPLICITY (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CMM OFFSHORE BRASIL LTDA"
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,6 +222,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "27/05/2026 10:30",
+      "imo": "9968865",
+      "navio": "KOTA EMBUN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/05/2026 10:30",
       "imo": "9726281",
       "navio": "FERNANDO DE NORONHA",
       "tipo": "ENTRADA",
@@ -181,13 +241,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "27/05/2026 10:30",
-      "imo": "9968865",
-      "navio": "KOTA EMBUN",
+      "inicio": "27/05/2026 11:00",
+      "imo": "9477397",
+      "navio": "CBO CAROLINA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
