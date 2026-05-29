@@ -1,29 +1,36 @@
 {
   "imo": "9703667",
   "navio": "BRAM HERO",
-  "gerado_em": "2026-05-29T01:48:21.223Z",
+  "gerado_em": "2026-05-29T05:58:50.746Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-27T15:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2PAL - Terminal Petrobras AL",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-29T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 27,
-    "manobras_365d": 27,
+    "manobras_30d": 14,
+    "manobras_180d": 28,
+    "manobras_365d": 28,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 6,
     "saidas_365d": 6,
     "ultima_entrada": "2026-05-27T15:00:00.000Z",
     "ultima_saida": "2026-05-23T10:00:00.000Z",
     "tempo_medio_estadia_horas": 121.6,
-    "tempo_medio_fundeio_horas": 20.5
+    "tempo_medio_fundeio_horas": 22.1
   },
   "historico_recente": [
+    {
+      "data": "2026-05-29T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL"
+    },
     {
       "data": "2026-05-27T15:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-08T19:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
