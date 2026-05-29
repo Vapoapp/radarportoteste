@@ -1,29 +1,36 @@
 {
   "imo": "9762742",
   "navio": "POSIDONIA LEOPARD (REB)",
-  "gerado_em": "2026-05-29T05:58:50.746Z",
+  "gerado_em": "2026-05-29T10:03:42.500Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-27T10:30:00.000Z"
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-29T07:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 30,
-    "manobras_365d": 30,
+    "manobras_30d": 18,
+    "manobras_180d": 31,
+    "manobras_365d": 31,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 10,
+    "mudancas_30d": 11,
     "entradas_365d": 7,
     "saidas_365d": 6,
     "ultima_entrada": "2026-05-27T10:30:00.000Z",
     "ultima_saida": "2026-05-22T23:00:00.000Z",
     "tempo_medio_estadia_horas": 52,
-    "tempo_medio_fundeio_horas": 20.8
+    "tempo_medio_fundeio_horas": 23.4
   },
   "historico_recente": [
+    {
+      "data": "2026-05-29T07:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-05-27T10:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-05-12T23:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
