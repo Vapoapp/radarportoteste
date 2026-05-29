@@ -2566,14 +2566,14 @@
     "navio": "NORMAND POSEIDON (REB)",
     "navio_normalizado": "NORMAND POSEIDON",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "SOLSTAD SHIPPING LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-02T12:00:00.000Z",
-    "ultimo_hash_evento": "f663e5c6c188dc3b62a0d11dbfe56828f2f0dad9f4a7260de594095386b1185a",
-    "atualizado_em": "2026-05-02T12:32:40.694Z"
+    "ultima_movimentacao_em": "2026-05-29T11:00:00.000Z",
+    "ultimo_hash_evento": "ff290d3a672cb542cd58063999144d0fcb54d597e6d2585c5668719e3b0549cb",
+    "atualizado_em": "2026-05-29T12:52:48.113Z"
   },
   "9423190": {
     "imo": "9423190",
@@ -5758,14 +5758,14 @@
     "navio": "STARNAV CENTAURUS",
     "navio_normalizado": "STARNAV CENTAURUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-29T05:30:00.000Z",
-    "ultimo_hash_evento": "7d56930d0d72411e3d4dce1950120b625f44d47bd2206607267ed864b2cb85a9",
-    "atualizado_em": "2026-05-29T05:58:50.746Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-29T11:00:00.000Z",
+    "ultimo_hash_evento": "9700429c5dfa48afa81c0682b8335b3cd96dda5d0d58fda19871bf37075a6de4",
+    "atualizado_em": "2026-05-29T12:52:48.113Z"
   },
   "9668752": {
     "imo": "9668752",
@@ -6542,14 +6542,14 @@
     "navio": "SEACOR NILE (REB)",
     "navio_normalizado": "SEACOR NILE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "CMM OFFSHORE BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-23T18:00:00.000Z",
-    "ultimo_hash_evento": "e7090e0d606eac4ca54e35c9b67a83813db05c98b68a314c2af7ea7e72e83ef0",
-    "atualizado_em": "2026-05-23T19:50:26.851Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-29T12:00:00.000Z",
+    "ultimo_hash_evento": "93d58f3889e4151e7dfcfba4aa83b3f215a465118fceaad3f820a6e49b7c419c",
+    "atualizado_em": "2026-05-29T12:52:48.113Z"
   },
   "9710969": {
     "imo": "9710969",
@@ -7250,6 +7250,20 @@
     "ultima_movimentacao_em": "2026-05-29T07:30:00.000Z",
     "ultimo_hash_evento": "2c621b111695189a71e04cd1a3bfe346efec297b4869266461b085b4b6c59494",
     "atualizado_em": "2026-05-29T10:03:42.500Z"
+  },
+  "9762845": {
+    "imo": "9762845",
+    "navio": "OLITA",
+    "navio_normalizado": "OLITA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-29T11:30:00.000Z",
+    "ultimo_hash_evento": "6ff63d797126c905374a669f26bf497fc6efb7988be20e1e5c50874095f1266c",
+    "atualizado_em": "2026-05-29T12:52:48.113Z"
   },
   "9763760": {
     "imo": "9763760",
@@ -9118,14 +9132,14 @@
     "navio": "MSC SABRINA",
     "navio_normalizado": "MSC SABRINA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-28T05:30:00.000Z",
-    "ultimo_hash_evento": "5fa3a5dbf8b27a02ce0d003a84acb483a8f9ead6deea069eba8e9a1b18b6f014",
-    "atualizado_em": "2026-05-28T08:04:26.170Z"
+    "ultima_movimentacao_em": "2026-05-29T12:30:00.000Z",
+    "ultimo_hash_evento": "18488505c675a108dd3224756c4b9f99a2d74963f656da9ab77167a57fb1bd12",
+    "atualizado_em": "2026-05-29T12:52:48.113Z"
   },
   "9986910": {
     "imo": "9986910",
