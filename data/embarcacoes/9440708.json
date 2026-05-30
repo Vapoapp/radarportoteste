@@ -1,21 +1,21 @@
 {
   "imo": "9440708",
   "navio": "FULMAR",
-  "gerado_em": "2026-05-29T23:54:57.603Z",
+  "gerado_em": "2026-05-30T02:39:32.183Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-29T08:00:00.000Z"
+    "porto": "Rio de Janeiro",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-30T00:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 12,
-    "manobras_365d": 12,
+    "manobras_30d": 12,
+    "manobras_180d": 13,
+    "manobras_365d": 13,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 4,
     "saidas_365d": 4,
     "ultima_entrada": "2026-05-29T08:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 23.1
   },
   "historico_recente": [
+    {
+      "data": "2026-05-30T00:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-29T08:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-05-02T07:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

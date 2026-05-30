@@ -1,7 +1,7 @@
 {
   "imo": "9466099",
   "navio": "PARCEL DO BADEJO (REB)",
-  "gerado_em": "2026-05-29T23:54:57.603Z",
+  "gerado_em": "2026-05-30T02:39:32.183Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
@@ -10,17 +10,17 @@
     "ultima_movimentacao": "2026-05-29T19:20:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 3,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-05-29T19:20:00.000Z",
-    "ultima_saida": "2026-04-30T09:30:00.000Z",
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-05-29T09:00:00.000Z",
+    "tempo_medio_estadia_horas": 717,
     "tempo_medio_fundeio_horas": 11.5
   },
   "historico_recente": [
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-05-29T09:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
     },
     {
       "data": "2026-04-30T09:30:00.000Z",
