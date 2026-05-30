@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-30T22:11:29.942Z",
+  "updatedAt": "2026-05-30T23:14:34.988Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 56
+      "count": 64
     },
     "niteroi": {
       "ok": true,
@@ -72,6 +72,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/05/2026 02:00",
+      "imo": "9636034",
+      "navio": "ORYX (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/05/2026 02:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/05/2026 02:00",
       "imo": "9351799",
       "navio": "LOG-IN PANTANAL (REB)",
       "tipo": "SAÍDA",
@@ -88,26 +108,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "30/05/2026 02:00",
-      "imo": "9630327",
-      "navio": "POSIDONIA JAGUAR",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "30/05/2026 02:00",
-      "imo": "9636034",
-      "navio": "ORYX (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -152,16 +152,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/05/2026 06:00",
-      "imo": "9715567",
-      "navio": "CBO OCEANA",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "30/05/2026 06:00",
       "imo": "9357169",
       "navio": "ASSO VENTISETTE",
       "tipo": "MUDANÇA",
@@ -181,13 +171,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "30/05/2026 06:30",
-      "imo": "9074078",
-      "navio": "SAGA WIND",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F03 - Feiticeira",
-      "para": "-",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+      "inicio": "30/05/2026 06:00",
+      "imo": "9715567",
+      "navio": "CBO OCEANA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -198,6 +188,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/05/2026 06:30",
+      "imo": "9074078",
+      "navio": "SAGA WIND",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F03 - Feiticeira",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -292,12 +292,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/05/2026 12:00",
-      "imo": "9968449",
-      "navio": "ITHACA",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,12 +312,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/05/2026 12:00",
-      "imo": "1019905",
-      "navio": "BRAM RIO",
+      "imo": "9968449",
+      "navio": "ITHACA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -332,22 +332,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/05/2026 13:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "30/05/2026 13:00",
-      "imo": "9659634",
-      "navio": "BARU TESORO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "imo": "9715567",
+      "navio": "CBO OCEANA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -362,12 +352,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/05/2026 13:00",
-      "imo": "9715567",
-      "navio": "CBO OCEANA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/05/2026 13:00",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -441,16 +441,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "30/05/2026 18:30",
-      "imo": "9426972",
-      "navio": "CBO BIANCA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "30/05/2026 19:00",
       "imo": "9636022",
       "navio": "SABLE (REB)",
@@ -471,6 +461,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "30/05/2026 19:00",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "30/05/2026 19:30",
       "imo": "9253208",
       "navio": "GRANDE SAN PAOLO",
@@ -478,6 +478,26 @@
       "de": "2R12 - Terminal - MCAR 1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/05/2026 20:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/05/2026 20:00",
+      "imo": "9426972",
+      "navio": "CBO BIANCA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -531,6 +551,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 06:00",
+      "imo": "9703631",
+      "navio": "BRAM TITAN",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 07:00",
+      "imo": "9748978",
+      "navio": "EPIC BALUAN",
+      "tipo": "SAÍDA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 08:00",
+      "imo": "9545857",
+      "navio": "COXON TIDE (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "31/05/2026 08:30",
       "imo": "9784661",
       "navio": "MERCOSUL FORTALEZA (CNC LION) (REB)",
@@ -538,6 +588,26 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 09:00",
+      "imo": "9492062",
+      "navio": "RIO GRANDE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 12:00",
+      "imo": "9547697",
+      "navio": "OLAVO BILAC",
+      "tipo": "SAÍDA",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -551,13 +621,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "31/05/2026 15:30",
-      "imo": "9506394",
-      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "inicio": "31/05/2026 15:00",
+      "imo": "9453638",
+      "navio": "MARLIN",
       "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
+      "de": "TPP1 - PETROBRAS PP1",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -571,13 +641,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "31/05/2026 19:30",
-      "imo": "9784661",
-      "navio": "MERCOSUL FORTALEZA (CNC LION) (REB)",
+      "inicio": "31/05/2026 15:30",
+      "imo": "9506394",
+      "navio": "LOG-IN DISCOVERY (REB S/L)",
       "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
+      "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 17:00",
+      "imo": "9686986",
+      "navio": "OCIOS IOANNIS",
+      "tipo": "SAÍDA",
+      "de": "TPS2 - PETROBRAS PS2",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Niterói",
