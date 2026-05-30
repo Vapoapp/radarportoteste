@@ -410,14 +410,14 @@
     "navio": "SAGA WIND",
     "navio_normalizado": "SAGA WIND",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F03 - Feiticeira",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F03 - Feiticeira",
+    "destino_atual": "-",
     "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-29T10:00:00.000Z",
-    "ultimo_hash_evento": "b6a0531d73eda4914f0bdef6680e3feed0148a175e9b9f3cbc870c5eb0cf38ea",
-    "atualizado_em": "2026-05-29T10:03:42.500Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-30T09:30:00.000Z",
+    "ultimo_hash_evento": "aa9ac65dd33b91fcbb05d62e842d0eea7a24aede16aa604294b73e09d52cbc85",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9085211": {
     "imo": "9085211",
@@ -1196,12 +1196,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
     "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T16:00:00.000Z",
-    "ultimo_hash_evento": "cb4b34371a1db4c834fc37e20006009b7e04b47d02d57b26e75559b82380d9c2",
-    "atualizado_em": "2026-05-25T16:14:08.707Z"
+    "ultima_movimentacao_em": "2026-05-30T04:00:00.000Z",
+    "ultimo_hash_evento": "127769a350ba52a777775e894b59d04bc96d124886b4a1d87668ee40bc37a761",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9292773": {
     "imo": "9292773",
@@ -1853,13 +1853,13 @@
     "navio_normalizado": "ASSO VENTISETTE",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-30T02:00:00.000Z",
-    "ultimo_hash_evento": "01a9515c7d7856a99e92ff9c3405aff78194b52a3a885631f8f9d99d64cce52c",
-    "atualizado_em": "2026-05-30T02:39:32.183Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-30T09:00:00.000Z",
+    "ultimo_hash_evento": "d8f15ec24f02989e1ad0899163ff6f10a6e5243fc32ed1824d4f05c27dd99019",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9357236": {
     "imo": "9357236",
@@ -5212,28 +5212,28 @@
     "navio": "SABLE (REB)",
     "navio_normalizado": "SABLE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-30T00:00:00.000Z",
-    "ultimo_hash_evento": "0dc114c436586472b75d142c8297ea812640a46100368dde0ccad40b00bef8a7",
-    "atualizado_em": "2026-05-30T02:39:32.183Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-05-30T09:30:00.000Z",
+    "ultimo_hash_evento": "e56cf8e7cc443c76af4fd93320a072a7702ecb412a31fa0496687631e506e9df",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9636034": {
     "imo": "9636034",
     "navio": "ORYX (REB)",
     "navio_normalizado": "ORYX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-30T05:00:00.000Z",
-    "ultimo_hash_evento": "8c3c9b21ea7ceed4217fcae5045673691e836949b2f5466072ef5f95073abf06",
-    "atualizado_em": "2026-05-30T06:02:32.161Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-30T10:00:00.000Z",
+    "ultimo_hash_evento": "70e43df8acde66de5ec9fe71cbdf56c888f9444756eb2aee18549b44eaf5f5e2",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9636888": {
     "imo": "9636888",
@@ -5660,14 +5660,14 @@
     "navio": "BARU MUCURA",
     "navio_normalizado": "BARU MUCURA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-28T06:00:00.000Z",
-    "ultimo_hash_evento": "6b1f6c56a53f59414f4264a998f5953fb912f560d25ce575722b0330c3bee9c5",
-    "atualizado_em": "2026-05-28T08:04:26.170Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-30T06:00:00.000Z",
+    "ultimo_hash_evento": "7f762e2d5b6f986dbe5e89bdc8677eb5d39b458c3484262047735aa3982cc53f",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9659634": {
     "imo": "9659634",
@@ -6463,9 +6463,9 @@
     "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-30T05:00:00.000Z",
-    "ultimo_hash_evento": "b25cc36125c6918700dc71e8035dd3bc41dbf437b3b66ce7986f4363be678571",
-    "atualizado_em": "2026-05-30T06:02:32.161Z"
+    "ultima_movimentacao_em": "2026-05-30T09:00:00.000Z",
+    "ultimo_hash_evento": "b80a28beb2b8d8913409d7a3cc14a1c650e9ec0eab1dda4532e6b363fb8105a3",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9704972": {
     "imo": "9704972",
@@ -6683,13 +6683,13 @@
     "navio_normalizado": "CBO OCEANA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-30T02:00:00.000Z",
-    "ultimo_hash_evento": "54eb728662ae41bd1e72aeab10c57f1bb4c974de0c4e51d343e47edf1ff4c874",
-    "atualizado_em": "2026-05-30T02:39:32.183Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-05-30T09:00:00.000Z",
+    "ultimo_hash_evento": "a1fb427bf9582b8e099545c65599c69aad37023faae7078a58e3979b9eca1ee9",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9715725": {
     "imo": "9715725",
@@ -9090,14 +9090,14 @@
     "navio": "MSC TOGO",
     "navio_normalizado": "MSC TOGO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-29T16:30:00.000Z",
-    "ultimo_hash_evento": "68af4a9a1756dd48cda601a41bbf1f70676e269270f3bdbac71255305e87d031",
-    "atualizado_em": "2026-05-29T16:33:52.736Z"
+    "ultima_movimentacao_em": "2026-05-30T09:00:00.000Z",
+    "ultimo_hash_evento": "b87915544f95bfb34620ea990c7a8daa4a184e27b16e3df49d5916df36bfaad4",
+    "atualizado_em": "2026-05-30T10:27:01.357Z"
   },
   "9975583": {
     "imo": "9975583",

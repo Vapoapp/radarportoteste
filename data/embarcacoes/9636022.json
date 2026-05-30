@@ -1,29 +1,36 @@
 {
   "imo": "9636022",
   "navio": "SABLE (REB)",
-  "gerado_em": "2026-05-30T08:38:30.313Z",
+  "gerado_em": "2026-05-30T10:27:01.357Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-30T00:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-30T09:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 19,
-    "manobras_365d": 19,
+    "manobras_30d": 14,
+    "manobras_180d": 20,
+    "manobras_365d": 20,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 5,
     "saidas_365d": 5,
     "ultima_entrada": "2026-05-30T00:00:00.000Z",
     "ultima_saida": "2026-05-22T17:00:00.000Z",
     "tempo_medio_estadia_horas": 48.4,
-    "tempo_medio_fundeio_horas": 40.9
+    "tempo_medio_fundeio_horas": 36.5
   },
   "historico_recente": [
+    {
+      "data": "2026-05-30T09:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-05-30T00:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
-    },
-    {
-      "data": "2026-05-05T22:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
     }
   ]
 }
