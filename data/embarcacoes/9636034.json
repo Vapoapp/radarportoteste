@@ -1,29 +1,36 @@
 {
   "imo": "9636034",
   "navio": "ORYX (REB)",
-  "gerado_em": "2026-05-30T14:27:32.192Z",
+  "gerado_em": "2026-05-30T15:46:56.364Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-30T10:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-05-30T13:15:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 27,
-    "manobras_365d": 27,
+    "manobras_30d": 12,
+    "manobras_180d": 28,
+    "manobras_365d": 28,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 4,
     "entradas_365d": 7,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-05-30T10:00:00.000Z",
-    "ultima_saida": "2026-05-30T05:00:00.000Z",
-    "tempo_medio_estadia_horas": 62.2,
-    "tempo_medio_fundeio_horas": 27.8
+    "ultima_saida": "2026-05-30T13:15:00.000Z",
+    "tempo_medio_estadia_horas": 53.8,
+    "tempo_medio_fundeio_horas": 25.1
   },
   "historico_recente": [
+    {
+      "data": "2026-05-30T13:15:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-05-30T10:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "NIT - ATRACADO NITERÓI",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-05-12T22:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }
