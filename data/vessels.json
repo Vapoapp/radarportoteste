@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-30T23:14:34.988Z",
+  "updatedAt": "2026-05-31T00:15:34.409Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 64
+      "count": 65
     },
     "niteroi": {
       "ok": true,
@@ -561,6 +561,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 06:00",
+      "imo": "9814961",
+      "navio": "SEALOADER 1",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "31/05/2026 07:00",
       "imo": "9748978",
       "navio": "EPIC BALUAN",
@@ -781,16 +791,6 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "31/05/2026 04:00",
-      "imo": "9855214",
-      "navio": "BERGE MERU",
-      "tipo": "SAÍDA",
-      "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
-      "para": "-",
-      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "31/05/2026 06:00",
       "imo": "9527051",
       "navio": "MAERSK LAMANAI",
@@ -798,16 +798,6 @@
       "de": "303 - TECON - SEPETIBA TECON S.A.",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "31/05/2026 07:30",
-      "imo": "9569774",
-      "navio": "SOLAR HOPE",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
-      "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Itaguaí",
@@ -827,6 +817,26 @@
       "tipo": "MUDANÇA",
       "de": "Fundeio - 5FA1 - Área de Fundeio A1",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "31/05/2026 16:00",
+      "imo": "9855214",
+      "navio": "BERGE MERU",
+      "tipo": "SAÍDA",
+      "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+      "para": "-",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "31/05/2026 17:30",
+      "imo": "9569774",
+      "navio": "SOLAR HOPE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
+      "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
