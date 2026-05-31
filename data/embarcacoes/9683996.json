@@ -1,18 +1,18 @@
 {
   "imo": "9683996",
   "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
-  "gerado_em": "2026-05-31T00:15:34.409Z",
+  "gerado_em": "2026-05-31T04:54:16.708Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-30T11:00:00.000Z"
+    "ultima_movimentacao": "2026-05-31T04:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 12,
-    "manobras_180d": 27,
-    "manobras_365d": 27,
+    "manobras_180d": 28,
+    "manobras_365d": 28,
     "entradas_30d": 2,
     "saidas_30d": 2,
     "mudancas_30d": 8,
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 20.4
   },
   "historico_recente": [
+    {
+      "data": "2026-05-31T04:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
+    },
     {
       "data": "2026-05-30T11:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-05-03T01:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
