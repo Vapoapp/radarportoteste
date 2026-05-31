@@ -1,29 +1,36 @@
 {
   "imo": "9426972",
   "navio": "CBO BIANCA",
-  "gerado_em": "2026-05-31T08:09:59.365Z",
+  "gerado_em": "2026-05-31T10:23:43.778Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-30T23:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2N11 - Armazém 13",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-05-31T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 2,
     "saidas_365d": 2,
     "ultima_entrada": "2026-05-30T23:00:00.000Z",
     "ultima_saida": "2026-05-30T21:00:00.000Z",
     "tempo_medio_estadia_horas": 432.5,
-    "tempo_medio_fundeio_horas": 432.5
+    "tempo_medio_fundeio_horas": 221.8
   },
   "historico_recente": [
+    {
+      "data": "2026-05-31T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N11 - Armazém 13"
+    },
     {
       "data": "2026-05-30T23:00:00.000Z",
       "tipo": "ENTRADA",
