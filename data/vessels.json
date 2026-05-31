@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-31T04:54:16.708Z",
+  "updatedAt": "2026-05-31T08:09:59.365Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 24
+      "count": 27
     },
     "niteroi": {
       "ok": true,
@@ -82,16 +82,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "31/05/2026 06:00",
-      "imo": "9703631",
-      "navio": "BRAM TITAN",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "31/05/2026 06:00",
       "imo": "9767819",
       "navio": "CBO XAVANTES",
       "tipo": "ENTRADA",
@@ -138,6 +128,26 @@
       "de": "TPIC - ILHA COMPRIDA",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 07:30",
+      "imo": "9814973",
+      "navio": "SEALOADER 2",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 08:00",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -188,6 +198,26 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 10:00",
+      "imo": "9703631",
+      "navio": "BRAM TITAN",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/05/2026 11:30",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -261,7 +291,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "31/05/2026 06:00",
+      "inicio": "31/05/2026 10:30",
       "imo": "9527051",
       "navio": "MAERSK LAMANAI",
       "tipo": "SAÍDA",
