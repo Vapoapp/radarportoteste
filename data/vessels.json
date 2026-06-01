@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-01T05:18:53.644Z",
+  "updatedAt": "2026-06-01T10:34:10.371Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 18
+      "count": 27
     },
     "niteroi": {
       "ok": true,
@@ -62,6 +62,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 03:00",
+      "imo": "9767819",
+      "navio": "CBO XAVANTES",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 03:00",
       "imo": "9767833",
       "navio": "CBO PARINTINS",
       "tipo": "ENTRADA",
@@ -71,13 +81,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "01/06/2026 04:00",
-      "imo": "9329942",
-      "navio": "MESTRE DOS MARES (REB)",
+      "inicio": "01/06/2026 03:50",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
       "tipo": "MUDANÇA",
-      "de": "2P14 - Terminal Petrobrás (Armazém 14)",
+      "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 04:00",
+      "imo": "9756951",
+      "navio": "BS UBATUBA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -91,6 +111,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 05:00",
+      "imo": "9554066",
+      "navio": "GANT FLAIR",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 05:20",
+      "imo": "9659579",
+      "navio": "BARU MUCURA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 06:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "SAÍDA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 06:00",
       "imo": "9703631",
       "navio": "BRAM TITAN",
@@ -98,6 +148,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 06:00",
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -118,6 +178,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "FINARGE APOIO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 08:00",
+      "imo": "9482378",
+      "navio": "CBO MANOELLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -151,6 +221,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 11:00",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 15:00",
       "imo": "9706190",
       "navio": "CAPE AKRITAS",
@@ -158,6 +238,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 15:00",
+      "imo": "9767819",
+      "navio": "CBO XAVANTES",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
