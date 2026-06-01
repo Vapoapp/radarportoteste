@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-06-01T20:41:57.444Z",
+  "updatedAt": "2026-06-01T22:50:41.722Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 60
+      "count": 67
     },
     "niteroi": {
       "ok": true,
-      "count": 5
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -192,6 +192,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 08:00",
+      "imo": "9838242",
+      "navio": "PIS KERINCI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 08:00",
       "imo": "9482378",
       "navio": "CBO MANOELLA",
       "tipo": "ENTRADA",
@@ -208,16 +218,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/06/2026 08:00",
-      "imo": "9838242",
-      "navio": "PIS KERINCI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,16 +312,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 13:00",
-      "imo": "9826110",
-      "navio": "DHT Nokota",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/06/2026 13:00",
       "imo": "9098309",
       "navio": "LH COMANDANTE",
       "tipo": "ENTRADA",
@@ -341,33 +331,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "01/06/2026 15:00",
-      "imo": "2412230048",
-      "navio": "SÃO TOMÉ",
-      "tipo": "SAÍDA",
-      "de": "2N16 - Armazém 16",
-      "para": "-",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/06/2026 15:00",
-      "imo": "9329942",
-      "navio": "MESTRE DOS MARES (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/06/2026 15:00",
-      "imo": "9767819",
-      "navio": "CBO XAVANTES",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "inicio": "01/06/2026 13:00",
+      "imo": "9826110",
+      "navio": "DHT Nokota",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -388,6 +358,36 @@
       "de": "Fundeio - WPT 92 - AF Preferencial Gusa",
       "para": "TPEX - EXXON SOLUTEC",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 15:00",
+      "imo": "9767819",
+      "navio": "CBO XAVANTES",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 15:00",
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 15:00",
+      "imo": "2412230048",
+      "navio": "SÃO TOMÉ",
+      "tipo": "SAÍDA",
+      "de": "2N16 - Armazém 16",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -431,6 +431,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 16:40",
+      "imo": "9447641",
+      "navio": "ROCHEDO DE SÃO PAULO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 17:00",
       "imo": "8650033",
       "navio": "C TUFÃO",
@@ -462,22 +472,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 18:00",
-      "imo": "9440681",
-      "navio": "SKUA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/06/2026 18:00",
       "imo": "",
       "navio": "MERLIM",
       "tipo": "SAÍDA",
       "de": "TPCM - Estaleiro Camorim",
       "para": "-",
       "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 18:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -492,12 +502,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 19:00",
-      "imo": "3810513041",
-      "navio": "TEMPESTADE C",
+      "imo": "9838242",
+      "navio": "PIS KERINCI",
       "tipo": "SAÍDA",
-      "de": "TPCM - Estaleiro Camorim",
+      "de": "Fundeio - 2F01 - Visita",
       "para": "-",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -512,12 +522,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/06/2026 19:00",
-      "imo": "9838242",
-      "navio": "PIS KERINCI",
+      "imo": "3810513041",
+      "navio": "TEMPESTADE C",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01 - Visita",
+      "de": "TPCM - Estaleiro Camorim",
       "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -528,6 +538,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/06/2026 22:00",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -551,6 +571,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 05:00",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/06/2026 06:00",
       "imo": "9626443",
       "navio": "BONGO (REB)",
@@ -568,6 +598,26 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 06:30",
+      "imo": "9707003",
+      "navio": "GLOVIS CRYSTAL",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 08:00",
+      "imo": "9945875",
+      "navio": "COSCO SHIPPING PERU",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -601,6 +651,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 13:30",
+      "imo": "9624299",
+      "navio": "MAERSK KARUN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/06/2026 15:30",
       "imo": "1016666",
       "navio": "MSC INSA",
@@ -617,6 +677,16 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/06/2026 12:00",
+      "imo": "9991202",
+      "navio": "MAERSK FREEPORT",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
@@ -670,6 +740,16 @@
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
+      "porto": "Niterói",
+      "inicio": "03/06/2026 18:00",
+      "imo": "9763772",
+      "navio": "STIM STAR BRASIL",
+      "tipo": "SAÍDA",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "01/06/2026 06:30",
       "imo": "9569774",
@@ -691,7 +771,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "01/06/2026 23:00",
+      "inicio": "01/06/2026 22:00",
       "imo": "9612076",
       "navio": "SAMJOHN VISION",
       "tipo": "SAÍDA",
@@ -701,7 +781,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "02/06/2026 00:30",
+      "inicio": "01/06/2026 23:30",
       "imo": "9757591",
       "navio": "MINERAL WALCOTT",
       "tipo": "MUDANÇA",
