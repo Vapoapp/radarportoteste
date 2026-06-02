@@ -27,6 +27,20 @@
     "ultimo_hash_evento": "f8b466eb347286455472d9999335a51f2c745104cb556356c01814712fb9147f",
     "atualizado_em": "2026-04-27T13:02:36.031Z"
   },
+  "1015375": {
+    "imo": "1015375",
+    "navio": "SINAR SUMATERA",
+    "navio_normalizado": "SINAR SUMATERA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-02T22:00:00.000Z",
+    "ultimo_hash_evento": "846156781db3588a52ed90c65c0d5c0ad42158a3695b70d5f86de4233d7810c6",
+    "atualizado_em": "2026-06-02T22:30:34.969Z"
+  },
   "1016654": {
     "imo": "1016654",
     "navio": "MSC LEILA",
@@ -1272,6 +1286,20 @@
     "ultima_movimentacao_em": "2026-05-17T16:00:00.000Z",
     "ultimo_hash_evento": "bc37ba501c7055bd3f2c320780d5539c5457f0b6e17c7810157900153f8e0b07",
     "atualizado_em": "2026-05-17T20:36:37.884Z"
+  },
+  "9295397": {
+    "imo": "9295397",
+    "navio": "MSC CAROLINA",
+    "navio_normalizado": "MSC CAROLINA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-02T20:30:00.000Z",
+    "ultimo_hash_evento": "368e6ad8b3e63619346e5008d5397cf2a278f881758ca0c4312522a235f34d68",
+    "atualizado_em": "2026-06-02T22:30:34.969Z"
   },
   "9296248": {
     "imo": "9296248",
@@ -3113,13 +3141,13 @@
     "navio_normalizado": "MARLIN",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPP1 - PETROBRAS PP1",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
     "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-31T18:00:00.000Z",
-    "ultimo_hash_evento": "535dbc53989684fd690e90cf3a07ab2398db01bed240fa248330059ce6d5661b",
-    "atualizado_em": "2026-05-31T18:46:53.536Z"
+    "ultima_movimentacao_em": "2026-06-02T22:30:00.000Z",
+    "ultimo_hash_evento": "dffe95b64cffa417fbfbae82ee54156793136d3e7a7c5d44a35f28a68d3b1ad9",
+    "atualizado_em": "2026-06-02T22:30:34.969Z"
   },
   "9453810": {
     "imo": "9453810",
@@ -5142,14 +5170,14 @@
     "navio": "CBO ARPOADOR",
     "navio_normalizado": "CBO ARPOADOR",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-02T03:00:00.000Z",
-    "ultimo_hash_evento": "f14aef7bd9840282ac1fd7c656f9c18f0aaec17b180a86f93eb37a765c3217f5",
-    "atualizado_em": "2026-06-02T04:54:58.271Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-02T20:30:00.000Z",
+    "ultimo_hash_evento": "d1ac0ba833d0fdf4dc182b04e848874638e63fb82bdfbb76b5989a84fc1dd7dc",
+    "atualizado_em": "2026-06-02T22:30:34.969Z"
   },
   "9627631": {
     "imo": "9627631",
@@ -7522,14 +7550,14 @@
     "navio": "BRAM BUCK",
     "navio_normalizado": "BRAM BUCK",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-02T05:00:00.000Z",
-    "ultimo_hash_evento": "78021c6c49722b74d7b1dc60f1b3e2b9babf58e967b4059d8b7afb1b185a4710",
-    "atualizado_em": "2026-06-02T09:02:53.893Z"
+    "ultima_movimentacao_em": "2026-06-02T22:00:00.000Z",
+    "ultimo_hash_evento": "ee07b311d7427d739ba4f3f06e4743b72321b73f9809fd9ef963e3f8ea884a3b",
+    "atualizado_em": "2026-06-02T22:30:34.969Z"
   },
   "9763772": {
     "imo": "9763772",
@@ -7550,14 +7578,14 @@
     "navio": "CBO ALIANÇA",
     "navio_normalizado": "CBO ALIANCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-28T21:30:00.000Z",
-    "ultimo_hash_evento": "3fb6c37ec616638064247a7bbcff31d25533925f0c7dd2fd190aac1fa583b650",
-    "atualizado_em": "2026-05-28T22:19:28.240Z"
+    "ultima_movimentacao_em": "2026-06-02T22:00:00.000Z",
+    "ultimo_hash_evento": "ae06d75a86d88a8e36fb47d3eae3dc8f3fa947ee29ba2cd162ee1343a0cae425",
+    "atualizado_em": "2026-06-02T22:30:34.969Z"
   },
   "9767807": {
     "imo": "9767807",

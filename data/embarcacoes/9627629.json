@@ -1,21 +1,21 @@
 {
   "imo": "9627629",
   "navio": "CBO ARPOADOR",
-  "gerado_em": "2026-06-02T20:18:26.769Z",
+  "gerado_em": "2026-06-02T22:30:34.969Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-02T03:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-02T20:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 21,
-    "manobras_365d": 21,
+    "manobras_30d": 14,
+    "manobras_180d": 22,
+    "manobras_365d": 22,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 5,
     "saidas_365d": 5,
     "ultima_entrada": "2026-06-02T03:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 56.5
   },
   "historico_recente": [
+    {
+      "data": "2026-06-02T20:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-06-02T03:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-06T10:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
