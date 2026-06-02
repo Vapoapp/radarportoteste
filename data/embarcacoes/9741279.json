@@ -1,29 +1,36 @@
 {
   "imo": "9741279",
   "navio": "ACE DEFENDER (REB)",
-  "gerado_em": "2026-06-01T22:50:41.722Z",
+  "gerado_em": "2026-06-02T00:01:44.499Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-01T14:30:00.000Z"
+    "em_fundeio": false,
+    "local": "2PAL - Terminal Petrobras AL",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-01T23:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 15,
-    "manobras_365d": 15,
+    "manobras_30d": 16,
+    "manobras_180d": 16,
+    "manobras_365d": 16,
     "entradas_30d": 5,
     "saidas_30d": 5,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 5,
     "saidas_365d": 5,
     "ultima_entrada": "2026-06-01T14:30:00.000Z",
     "ultima_saida": "2026-05-25T04:00:00.000Z",
     "tempo_medio_estadia_horas": 70.6,
-    "tempo_medio_fundeio_horas": 38.2
+    "tempo_medio_fundeio_horas": 33.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-01T23:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2PAL - Terminal Petrobras AL"
+    },
     {
       "data": "2026-06-01T14:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2TS2 - Terminal Siderúrgico 2"
-    },
-    {
-      "data": "2026-05-12T03:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
