@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-02T09:02:53.893Z",
+  "updatedAt": "2026-06-02T12:48:45.178Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 31
+      "count": 44
     },
     "niteroi": {
       "ok": true,
@@ -82,16 +82,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/06/2026 06:00",
-      "imo": "9255892",
-      "navio": "ATLANTIC KINGFISHER (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/06/2026 06:00",
       "imo": "9626443",
       "navio": "BONGO (REB)",
       "tipo": "ENTRADA",
@@ -101,13 +91,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "02/06/2026 06:30",
-      "imo": "9707003",
-      "navio": "GLOVIS CRYSTAL",
+      "inicio": "02/06/2026 06:00",
+      "imo": "9255892",
+      "navio": "ATLANTIC KINGFISHER (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2R12 - Terminal - MCAR 1",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -151,13 +141,33 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 06:30",
+      "imo": "9707003",
+      "navio": "GLOVIS CRYSTAL",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/06/2026 07:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
+      "imo": "9440681",
+      "navio": "SKUA",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 07:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "TPBR - BRASCO",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,12 +182,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/06/2026 07:00",
-      "imo": "9440681",
-      "navio": "SKUA",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
       "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -211,13 +221,43 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "02/06/2026 09:00",
-      "imo": "9672636",
-      "navio": "HOS BRASS RING",
-      "tipo": "ENTRADA",
-      "de": "-",
+      "inicio": "02/06/2026 08:00",
+      "imo": "9385398",
+      "navio": "A.H. CAMOGLI (REB)",
+      "tipo": "MUDANÇA",
+      "de": "ESPR - MacLaren Ilha da Conceição",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 08:00",
+      "imo": "9482378",
+      "navio": "CBO MANOELLA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 09:00",
+      "imo": "9492270",
+      "navio": "ANITA GARIBALDI",
+      "tipo": "SAÍDA",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 09:00",
+      "imo": "9838242",
+      "navio": "PIS KERINCI",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -231,6 +271,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 09:30",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 10:00",
+      "imo": "2412230323",
+      "navio": "SÃO LUIS",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "2N17 - Armazém 17",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/06/2026 10:00",
       "imo": "9290567",
       "navio": "SANTA LORETTA",
@@ -238,6 +298,26 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 10:00",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 10:00",
+      "imo": "9826110",
+      "navio": "DHT Nokota",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,12 +332,42 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/06/2026 11:00",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 11:00",
+      "imo": "3810289680",
+      "navio": "BS-8",
+      "tipo": "MUDANÇA",
+      "de": "2N17 - Armazém 17",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 11:00",
       "imo": "9387243",
       "navio": "SKANDI NITEROI",
       "tipo": "MUDANÇA",
       "de": "2N06 - Armazém 7",
       "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 13:00",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -281,6 +391,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 14:00",
+      "imo": "9492062",
+      "navio": "RIO GRANDE",
+      "tipo": "SAÍDA",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/06/2026 15:30",
       "imo": "1016666",
       "navio": "MSC INSA",
@@ -298,6 +418,16 @@
       "de": "-",
       "para": "2TS2 - Terminal Siderúrgico 2",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/06/2026 17:30",
+      "imo": "9295397",
+      "navio": "MSC CAROLINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
