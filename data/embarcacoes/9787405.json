@@ -1,21 +1,21 @@
 {
   "imo": "9787405",
   "navio": "PARDELA (REB)",
-  "gerado_em": "2026-06-03T18:54:09.916Z",
+  "gerado_em": "2026-06-03T21:43:52.375Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-03T16:00:00.000Z"
+    "ultima_movimentacao": "2026-06-03T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 6,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-06-01T12:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 16.8
   },
   "historico_recente": [
+    {
+      "data": "2026-06-03T20:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-06-03T16:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "ESMC - MacLaren Ponta da Areia"
-    },
-    {
-      "data": "2026-04-06T06:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
