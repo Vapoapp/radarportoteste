@@ -1236,14 +1236,14 @@
     "navio": "SANTA LORETTA",
     "navio_normalizado": "SANTA LORETTA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C21 - TECON 3 - MRIO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-02T13:00:00.000Z",
-    "ultimo_hash_evento": "7a534a425e1f2a0b782649c73a214654fd9cbacd86cb0acac9921c75966a1aca",
-    "atualizado_em": "2026-06-02T17:10:37.688Z"
+    "ultima_movimentacao_em": "2026-06-03T22:00:00.000Z",
+    "ultimo_hash_evento": "21417fa1c2dbe5e74061e1c16a3e718986d3edcad287ae7af410db01cb45a4a6",
+    "atualizado_em": "2026-06-03T23:23:29.219Z"
   },
   "9292072": {
     "imo": "9292072",
@@ -3252,14 +3252,14 @@
     "navio": "CBO ISABELLA",
     "navio_normalizado": "CBO ISABELLA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-31T23:00:00.000Z",
-    "ultimo_hash_evento": "7111d7954cc378fd4946e755de53d02fedc2f34ef94bd4e5d1e11388db671739",
-    "atualizado_em": "2026-06-01T00:15:48.147Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-03T23:00:00.000Z",
+    "ultimo_hash_evento": "c8de4db93cdf55a7dd3216914ce8d1de2831b28bfd617417d8949eb30d35543e",
+    "atualizado_em": "2026-06-03T23:23:29.219Z"
   },
   "9455959": {
     "imo": "9455959",
@@ -3406,14 +3406,14 @@
     "navio": "REEDBUCK (REB)",
     "navio_normalizado": "REEDBUCK",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESMC - MacLaren Ponta da Areia",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "ESMC - MacLaren Ponta da Areia",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-03T19:00:00.000Z",
-    "ultimo_hash_evento": "51084bafa2da6ad30b2a6cfad68996a4b792cccc79912cc20a3b6154c4b38a75",
-    "atualizado_em": "2026-06-03T21:43:52.375Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-03T22:30:00.000Z",
+    "ultimo_hash_evento": "dcd9f7bb6ced590c6446c8c60915b53275fd106694772da53859fda242fa2255",
+    "atualizado_em": "2026-06-03T23:23:29.219Z"
   },
   "9476915": {
     "imo": "9476915",
@@ -5479,13 +5479,13 @@
     "navio_normalizado": "LARUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-01T09:00:00.000Z",
-    "ultimo_hash_evento": "453e70489527a47c120860ea7741d89cb704d7e6f3136d86ff5e68e13a6740b4",
-    "atualizado_em": "2026-06-01T10:34:10.371Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-03T23:00:00.000Z",
+    "ultimo_hash_evento": "0421b86c6e32e390a36f778f5a861edcead3b7069375e1f75032ed1593a10419",
+    "atualizado_em": "2026-06-03T23:23:29.219Z"
   },
   "9642590": {
     "imo": "9642590",
@@ -6459,13 +6459,13 @@
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F11 - AF Boa Viagem",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "TPBL - BRICLOG",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-03T05:00:00.000Z",
-    "ultimo_hash_evento": "b2771169e1fdbd642b247996bad4e04708fc8a4406f8e20f88637c3307e8112f",
-    "atualizado_em": "2026-06-03T05:17:50.563Z"
+    "ultima_movimentacao_em": "2026-06-03T22:00:00.000Z",
+    "ultimo_hash_evento": "ef405964cc0cddd6ded45f9d551ff234b7d9e3796df0aa3d482e0ea54541230e",
+    "atualizado_em": "2026-06-03T23:23:29.219Z"
   },
   "9697002": {
     "imo": "9697002",
