@@ -3616,14 +3616,14 @@
     "navio": "JOSÉ ALENCAR",
     "navio_normalizado": "JOSE ALENCAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPS1 - PETROBRAS PS1",
-    "destino_atual": "Fundeio - WPT 82 - 2F08",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 82 - 2F08",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-04T01:00:00.000Z",
-    "ultimo_hash_evento": "fb07f5d5a59cc30f829f849601daed221d0c06d482045f05442b95e9b41907ef",
-    "atualizado_em": "2026-06-04T02:02:50.869Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-04T17:30:00.000Z",
+    "ultimo_hash_evento": "8dc477c510049914bd9f6cc956d487067e4cfb28c76f9aa19b21b54e1109b71c",
+    "atualizado_em": "2026-06-04T18:38:44.588Z"
   },
   "9490662": {
     "imo": "9490662",
@@ -6515,13 +6515,13 @@
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "TPBL - BRICLOG",
+    "origem_atual": "TPBL - BRICLOG",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-03T22:00:00.000Z",
-    "ultimo_hash_evento": "ef405964cc0cddd6ded45f9d551ff234b7d9e3796df0aa3d482e0ea54541230e",
-    "atualizado_em": "2026-06-03T23:23:29.219Z"
+    "ultima_movimentacao_em": "2026-06-04T14:00:00.000Z",
+    "ultimo_hash_evento": "a6c790464f0eeec57ca44110956ea84cf3d53926deeec372735cf62336a51a24",
+    "atualizado_em": "2026-06-04T18:38:44.588Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -6570,14 +6570,14 @@
     "navio": "BRAM BREEZE",
     "navio_normalizado": "BRAM BREEZE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-04T08:00:00.000Z",
-    "ultimo_hash_evento": "78edb170c7d473dff983d44bed38f949b314b941c1319980bcbd0ef9337971ef",
-    "atualizado_em": "2026-06-04T10:31:07.562Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-04T17:00:00.000Z",
+    "ultimo_hash_evento": "41fe1cd59ae8f3ea424a00538e152905d37a491244b6c827aaf93d6babf66f41",
+    "atualizado_em": "2026-06-04T18:38:44.588Z"
   },
   "9701140": {
     "imo": "9701140",
@@ -9756,6 +9756,20 @@
     "ultima_movimentacao_em": "2026-04-30T17:00:00.000Z",
     "ultimo_hash_evento": "baf08c5d853e5a87db0722a36e055c8cbd302635123214cdec4a51d3205fc626",
     "atualizado_em": "2026-04-30T17:59:06.111Z"
+  },
+  "9989730": {
+    "imo": "9989730",
+    "navio": "FIRST DELPHINUS",
+    "navio_normalizado": "FIRST DELPHINUS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "-",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-04T18:00:00.000Z",
+    "ultimo_hash_evento": "6e320cd8f46a5ce30e2cc10f08722d3ae1697c7e28ec7849c0d866798afd7ce0",
+    "atualizado_em": "2026-06-04T18:38:44.588Z"
   },
   "9991202": {
     "imo": "9991202",
