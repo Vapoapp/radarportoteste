@@ -1,21 +1,21 @@
 {
   "imo": "9514092",
   "navio": "BJ BLUE MARLIN",
-  "gerado_em": "2026-06-03T23:23:29.219Z",
+  "gerado_em": "2026-06-04T02:02:50.869Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-30T03:30:00.000Z"
+    "ultima_movimentacao": "2026-06-04T02:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 6,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-29T20:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 17.4
   },
   "historico_recente": [
+    {
+      "data": "2026-06-04T02:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-30T03:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "ESMC - MacLaren Ponta da Areia"
-    },
-    {
-      "data": "2026-04-12T20:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "ESMC - MacLaren Ponta da Areia",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
