@@ -1,29 +1,36 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-06-05T10:14:31.209Z",
+  "gerado_em": "2026-06-05T13:26:33.951Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-02T10:30:00.000Z"
+    "ultima_movimentacao": "2026-06-05T11:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 31,
-    "manobras_365d": 31,
+    "manobras_30d": 16,
+    "manobras_180d": 32,
+    "manobras_365d": 32,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 7,
     "saidas_365d": 7,
     "ultima_entrada": "2026-06-01T22:00:00.000Z",
     "ultima_saida": "2026-05-26T10:00:00.000Z",
     "tempo_medio_estadia_horas": 41.8,
-    "tempo_medio_fundeio_horas": 28.1
+    "tempo_medio_fundeio_horas": 33.8
   },
   "historico_recente": [
+    {
+      "data": "2026-06-05T11:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-06-02T10:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-05-12T00:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }

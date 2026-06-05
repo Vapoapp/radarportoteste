@@ -1,29 +1,36 @@
 {
   "imo": "9440681",
   "navio": "SKUA",
-  "gerado_em": "2026-06-05T10:14:31.209Z",
+  "gerado_em": "2026-06-05T13:26:33.951Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "em_fundeio": false,
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-02T10:00:00.000Z"
+    "ultima_movimentacao": "2026-06-05T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 25,
-    "manobras_365d": 25,
+    "manobras_30d": 13,
+    "manobras_180d": 26,
+    "manobras_365d": 26,
     "entradas_30d": 5,
     "saidas_30d": 3,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 8,
     "saidas_365d": 7,
     "ultima_entrada": "2026-06-01T21:00:00.000Z",
     "ultima_saida": "2026-05-29T07:00:00.000Z",
     "tempo_medio_estadia_horas": 83.3,
-    "tempo_medio_fundeio_horas": 21.3
+    "tempo_medio_fundeio_horas": 30.7
   },
   "historico_recente": [
+    {
+      "data": "2026-06-05T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-06-02T10:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-15T15:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
