@@ -1,29 +1,36 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-06-05T01:52:16.745Z",
+  "gerado_em": "2026-06-05T06:09:49.615Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-04T21:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-05T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 36,
-    "manobras_365d": 36,
+    "manobras_30d": 16,
+    "manobras_180d": 37,
+    "manobras_365d": 37,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 13,
+    "mudancas_30d": 12,
     "entradas_365d": 7,
-    "saidas_365d": 7,
+    "saidas_365d": 8,
     "ultima_entrada": "2026-06-01T13:00:00.000Z",
-    "ultima_saida": "2026-05-28T15:00:00.000Z",
-    "tempo_medio_estadia_horas": 165.9,
+    "ultima_saida": "2026-06-05T03:00:00.000Z",
+    "tempo_medio_estadia_horas": 221.2,
     "tempo_medio_fundeio_horas": 41.4
   },
   "historico_recente": [
+    {
+      "data": "2026-06-05T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-06-04T21:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "NIT - ATRACADO NITERÓI",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-05-20T03:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }
