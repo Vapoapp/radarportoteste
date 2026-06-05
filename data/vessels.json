@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-05T18:09:08.849Z",
+  "updatedAt": "2026-06-05T20:08:48.950Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 41
+      "count": 44
     },
     "niteroi": {
       "ok": true,
@@ -92,12 +92,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "05/06/2026 04:00",
-      "imo": "9787405",
-      "navio": "PARDELA (REB)",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
       "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -112,12 +112,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "05/06/2026 04:00",
-      "imo": "9292072",
-      "navio": "ILHA DO CABO FRIO",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/06/2026 05:00",
+      "imo": "9530199",
+      "navio": "SANTOS SERVICE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/06/2026 05:00",
+      "imo": "9484845",
+      "navio": "STRIL EXPLORER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -137,26 +157,6 @@
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "05/06/2026 05:00",
-      "imo": "9484845",
-      "navio": "STRIL EXPLORER",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "05/06/2026 05:00",
-      "imo": "9530199",
-      "navio": "SANTOS SERVICE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBL - BRICLOG",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -202,16 +202,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "05/06/2026 07:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "05/06/2026 07:00",
       "imo": "9996769",
       "navio": "CMA CGM SILVER",
       "tipo": "SAÍDA",
@@ -241,13 +231,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "05/06/2026 08:00",
-      "imo": "9329954",
-      "navio": "NORMAND TURMALINA",
+      "inicio": "05/06/2026 07:00",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO",
-      "agente": "SOLSTAD SHIPPING LTDA."
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +248,16 @@
       "de": "-",
       "para": "ESPR - MacLaren Ilha da Conceição",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/06/2026 08:00",
+      "imo": "9329954",
+      "navio": "NORMAND TURMALINA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -381,6 +381,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "05/06/2026 15:30",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/06/2026 16:00",
+      "imo": "9208447",
+      "navio": "C-AMBASSADOR (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "05/06/2026 16:00",
       "imo": "9416381",
       "navio": "CLARITY",
@@ -408,6 +428,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/06/2026 18:00",
+      "imo": "9683996",
+      "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -521,13 +551,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "06/06/2026 08:00",
-      "imo": "9872121",
-      "navio": "SHANDONG DE TAI",
+      "inicio": "06/06/2026 17:00",
+      "imo": "9426415",
+      "navio": "CAPTAIN PETROS H.",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 5FB4 - Área de Fundeio B4",
-      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
     },
     {
       "porto": "Itaguaí",
