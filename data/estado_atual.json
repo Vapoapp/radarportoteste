@@ -3042,14 +3042,14 @@
     "navio": "SKUA",
     "navio_normalizado": "SKUA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-05T12:00:00.000Z",
-    "ultimo_hash_evento": "7a49a643f0b0d97f6ac3af5fde004e2da875f765a5010d4ccb4d67f4729d0360",
-    "atualizado_em": "2026-06-05T13:26:33.951Z"
+    "ultima_movimentacao_em": "2026-06-06T07:00:00.000Z",
+    "ultimo_hash_evento": "b165dd19ac639b5b4f575ae977ad62fae609d7c07f386a63e658b5733b7734bf",
+    "atualizado_em": "2026-06-06T08:43:52.496Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -5478,14 +5478,14 @@
     "navio": "SABLE (REB)",
     "navio_normalizado": "SABLE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-05T17:00:00.000Z",
-    "ultimo_hash_evento": "aebe1a20af96e1c4364f70dbcb76aa81c88e094e1c98c46d4b78c0932df70134",
-    "atualizado_em": "2026-06-05T18:09:08.849Z"
+    "ultima_movimentacao_em": "2026-06-06T07:00:00.000Z",
+    "ultimo_hash_evento": "af3b88296e2d100ee489aa007d7182a671af02ca080651285be8d37a74a9c025",
+    "atualizado_em": "2026-06-06T08:43:52.496Z"
   },
   "9636034": {
     "imo": "9636034",
@@ -7075,13 +7075,13 @@
     "navio_normalizado": "STARNAV TAURUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-03T04:00:00.000Z",
-    "ultimo_hash_evento": "f6b0e6190db7dc4074c1121e43e95f964a59dc8c37cf5a75d4d1b64f26002169",
-    "atualizado_em": "2026-06-03T05:17:50.563Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-06T07:00:00.000Z",
+    "ultimo_hash_evento": "257328cc0fd6d9d6a1ac53ed94d288959721ce32cde613440e5b3f926737d04d",
+    "atualizado_em": "2026-06-06T08:43:52.496Z"
   },
   "9715737": {
     "imo": "9715737",
@@ -8384,6 +8384,20 @@
     "ultima_movimentacao_em": "2026-04-23T11:30:00.000Z",
     "ultimo_hash_evento": "d4d95e7e57861e7c23cbc41c35639a3fdf358a7236e8a9ef9d4dda2c3444860b",
     "atualizado_em": "2026-04-23T11:48:39.443Z"
+  },
+  "9831191": {
+    "imo": "9831191",
+    "navio": "ELANDRA MAPLE",
+    "navio_normalizado": "ELANDRA MAPLE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPP1 - PETROBRAS PP1",
+    "destino_atual": "-",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-06T08:00:00.000Z",
+    "ultimo_hash_evento": "3fe85084fa37d4a1d85888589b26a6d8a42d1025d8c7874e7c4e386868bac2cb",
+    "atualizado_em": "2026-06-06T08:43:52.496Z"
   },
   "9834545": {
     "imo": "9834545",
