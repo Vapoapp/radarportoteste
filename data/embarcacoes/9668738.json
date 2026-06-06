@@ -1,29 +1,36 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-06-06T10:33:43.055Z",
+  "gerado_em": "2026-06-06T11:58:26.863Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-05T09:30:00.000Z"
+    "em_fundeio": false,
+    "local": "NIT - ATRACADO NITERÓI",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-06T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 31,
-    "manobras_365d": 31,
+    "manobras_30d": 19,
+    "manobras_180d": 32,
+    "manobras_365d": 32,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 9,
+    "mudancas_30d": 10,
     "entradas_365d": 8,
     "saidas_365d": 8,
     "ultima_entrada": "2026-06-05T09:30:00.000Z",
     "ultima_saida": "2026-05-30T23:00:00.000Z",
     "tempo_medio_estadia_horas": 66.4,
-    "tempo_medio_fundeio_horas": 34.8
+    "tempo_medio_fundeio_horas": 33.7
   },
   "historico_recente": [
+    {
+      "data": "2026-06-06T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
     {
       "data": "2026-06-05T09:30:00.000Z",
       "tipo": "ENTRADA",
@@ -85,13 +92,6 @@
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
-      "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-05-21T11:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
