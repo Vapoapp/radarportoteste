@@ -1,21 +1,21 @@
 {
   "imo": "9573440",
   "navio": "NORMAND CARIOCA",
-  "gerado_em": "2026-06-06T11:58:26.863Z",
+  "gerado_em": "2026-06-06T13:52:59.981Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPBR - BRASCO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-24T21:30:00.000Z"
+    "local": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-06T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 13,
-    "manobras_365d": 13,
+    "manobras_30d": 8,
+    "manobras_180d": 14,
+    "manobras_365d": 14,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 4,
     "saidas_365d": 4,
     "ultima_entrada": "2026-05-24T21:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 39.7
   },
   "historico_recente": [
+    {
+      "data": "2026-06-06T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-05-24T21:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-27T09:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
