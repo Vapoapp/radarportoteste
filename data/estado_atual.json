@@ -88,14 +88,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-06T11:00:00.000Z",
-    "ultimo_hash_evento": "a489eb7c6cfa47cd853cd152b95ac1dc820e8ef0e2984287cc2f20725b0f210d",
-    "atualizado_em": "2026-06-06T11:58:26.863Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-07T13:30:00.000Z",
+    "ultimo_hash_evento": "408c65ca673d6b9c1719566d0041bd99d9d98ae9063b25dc994c3cca51735a88",
+    "atualizado_em": "2026-06-07T14:48:00.299Z"
   },
   "1020605": {
     "imo": "1020605",
@@ -5647,13 +5647,13 @@
     "navio_normalizado": "PINGUIM",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-07T05:00:00.000Z",
-    "ultimo_hash_evento": "8175a5ec9d3f960b8cb056f5b3aec2ee257c550c22dd75f46222ce1ae9bd5a20",
-    "atualizado_em": "2026-06-07T12:54:06.440Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-07T14:00:00.000Z",
+    "ultimo_hash_evento": "0cca3639cb55991f0e79d5eb6954dd0b57de49cc34b5384ec2bc880e23452adc",
+    "atualizado_em": "2026-06-07T14:48:00.299Z"
   },
   "9643295": {
     "imo": "9643295",
@@ -7950,6 +7950,20 @@
     "ultima_movimentacao_em": "2026-04-15T18:00:00.000Z",
     "ultimo_hash_evento": "0326e14a0bcc57e15956be37ba6bf45e9e2de7b595f3bb1b290ea68fa3f10e0e",
     "atualizado_em": "2026-04-15T18:54:16.852Z"
+  },
+  "9769817": {
+    "imo": "9769817",
+    "navio": "FRONT COSMOS",
+    "navio_normalizado": "FRONT COSMOS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-07T13:00:00.000Z",
+    "ultimo_hash_evento": "fbf62f876d1f6a46db4774e55c4086431edad6fe14cbd5bd19f93bc77de4174f",
+    "atualizado_em": "2026-06-07T14:48:00.299Z"
   },
   "9770749": {
     "imo": "9770749",
