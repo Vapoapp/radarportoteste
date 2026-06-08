@@ -1,29 +1,36 @@
 {
   "imo": "9482378",
   "navio": "CBO MANOELLA",
-  "gerado_em": "2026-06-08T15:18:02.419Z",
+  "gerado_em": "2026-06-08T18:08:52.163Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-06-02T20:00:00.000Z"
+    "local": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-06-08T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 6,
-    "manobras_365d": 6,
-    "entradas_30d": 3,
+    "manobras_30d": 7,
+    "manobras_180d": 7,
+    "manobras_365d": 7,
+    "entradas_30d": 4,
     "saidas_30d": 3,
     "mudancas_30d": 0,
-    "entradas_365d": 3,
+    "entradas_365d": 4,
     "saidas_365d": 3,
-    "ultima_entrada": "2026-06-02T18:30:00.000Z",
+    "ultima_entrada": "2026-06-08T16:00:00.000Z",
     "ultima_saida": "2026-06-02T20:00:00.000Z",
     "tempo_medio_estadia_horas": 129.7,
     "tempo_medio_fundeio_horas": 12.8
   },
   "historico_recente": [
+    {
+      "data": "2026-06-08T16:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-06-02T20:00:00.000Z",
       "tipo": "SAÍDA",
