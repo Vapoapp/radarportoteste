@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T23:40:44.003Z",
+  "updatedAt": "2026-06-08T01:59:41.084Z",
   "portos": {
     "rio": {
       "ok": true,
@@ -7,7 +7,7 @@
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "itaguai": {
       "ok": true,
@@ -431,16 +431,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "07/06/2026 20:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "07/06/2026 20:30",
       "imo": "9628659",
       "navio": "C DIAMANTE",
@@ -472,12 +462,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "07/06/2026 23:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "MUDANÇA",
-      "de": "NIT - ATRACADO NITERÓI",
+      "imo": "9767833",
+      "navio": "CBO PARINTINS",
+      "tipo": "ENTRADA",
+      "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -488,6 +478,26 @@
       "de": "2C22 - TECON 2 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/06/2026 23:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/06/2026 00:00",
+      "imo": "9683996",
+      "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -521,16 +531,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "08/06/2026 02:00",
-      "imo": "9644160",
-      "navio": "BRAM BELEM",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "08/06/2026 06:00",
       "imo": "3813885704",
       "navio": "EQUIP 220",
@@ -552,22 +552,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/06/2026 07:00",
-      "imo": "9565663",
-      "navio": "CBO RENATA",
-      "tipo": "MUDANÇA",
-      "de": "ESSM - SÃO MIGUEL",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/06/2026 07:00",
       "imo": "8408002",
       "navio": "SEWARD JOHNSON",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "ESPR - MacLaren Ilha da Conceição",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/06/2026 07:00",
+      "imo": "9565663",
+      "navio": "CBO RENATA",
+      "tipo": "MUDANÇA",
+      "de": "ESSM - SÃO MIGUEL",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -658,6 +658,16 @@
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "08/06/2026 08:30",
+      "imo": "9649029",
+      "navio": "SEVEN WAVES",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMA - ESTALEIRO MAUÁ",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",
