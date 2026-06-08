@@ -1,21 +1,21 @@
 {
   "imo": "9482330",
   "navio": "MULTIPLICITY (REB)",
-  "gerado_em": "2026-06-08T01:59:41.084Z",
+  "gerado_em": "2026-06-08T06:53:44.231Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
     "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-07T08:30:00.000Z"
+    "ultima_movimentacao": "2026-06-08T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 26,
-    "manobras_365d": 26,
+    "manobras_30d": 13,
+    "manobras_180d": 27,
+    "manobras_365d": 27,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 10,
+    "mudancas_30d": 9,
     "entradas_365d": 6,
     "saidas_365d": 6,
     "ultima_entrada": "2026-06-01T03:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 38.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-08T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-06-07T08:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-05-18T14:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
