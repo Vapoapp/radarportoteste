@@ -1,29 +1,36 @@
 {
   "imo": "9668726",
   "navio": "STARNAV PERSEUS",
-  "gerado_em": "2026-06-09T11:49:54.724Z",
+  "gerado_em": "2026-06-09T14:10:27.919Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-23T17:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2NTO - Terminal de Óleo",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-09T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 13,
-    "manobras_365d": 13,
+    "manobras_30d": 2,
+    "manobras_180d": 14,
+    "manobras_365d": 14,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-23T17:00:00.000Z",
     "ultima_saida": "2026-05-10T08:00:00.000Z",
     "tempo_medio_estadia_horas": 218.3,
-    "tempo_medio_fundeio_horas": 9.2
+    "tempo_medio_fundeio_horas": 88.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-09T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2NTO - Terminal de Óleo"
+    },
     {
       "data": "2026-05-23T17:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-04-14T23:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
