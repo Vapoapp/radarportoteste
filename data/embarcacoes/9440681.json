@@ -1,29 +1,36 @@
 {
   "imo": "9440681",
   "navio": "SKUA",
-  "gerado_em": "2026-06-09T14:10:27.919Z",
+  "gerado_em": "2026-06-09T16:46:53.394Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-06-09T05:00:00.000Z"
+    "porto": "Rio de Janeiro",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-06-09T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 27,
-    "manobras_365d": 27,
-    "entradas_30d": 4,
+    "manobras_30d": 14,
+    "manobras_180d": 28,
+    "manobras_365d": 28,
+    "entradas_30d": 5,
     "saidas_30d": 4,
     "mudancas_30d": 5,
-    "entradas_365d": 8,
+    "entradas_365d": 9,
     "saidas_365d": 8,
-    "ultima_entrada": "2026-06-01T21:00:00.000Z",
+    "ultima_entrada": "2026-06-09T15:00:00.000Z",
     "ultima_saida": "2026-06-09T05:00:00.000Z",
     "tempo_medio_estadia_horas": 83.3,
     "tempo_medio_fundeio_horas": 30.7
   },
   "historico_recente": [
+    {
+      "data": "2026-06-09T15:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-06-09T05:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-05-20T19:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
