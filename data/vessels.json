@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-09T08:51:50.131Z",
+  "updatedAt": "2026-06-09T11:49:54.724Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 28
+      "count": 34
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 8
+      "count": 7
     },
     "angra": {
       "ok": true,
@@ -91,6 +91,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 02:30",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 03:00",
       "imo": "9642590",
       "navio": "PINGUIM",
@@ -111,16 +121,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/06/2026 03:30",
-      "imo": "9292072",
-      "navio": "ILHA DO CABO FRIO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 05:00",
       "imo": "9644146",
       "navio": "ALCATRAZ",
@@ -128,6 +128,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 05:30",
+      "imo": "9748978",
+      "navio": "EPIC BALUAN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIR - ILHA REDONDA",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -141,13 +151,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/06/2026 05:30",
-      "imo": "9748978",
-      "navio": "EPIC BALUAN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPIR - ILHA REDONDA",
-      "agente": "GAC DO BRASIL LTDA."
+      "inicio": "09/06/2026 06:00",
+      "imo": "9778088",
+      "navio": "MSC MADHU B",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -162,6 +172,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 06:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 06:00",
       "imo": "9636034",
       "navio": "ORYX (REB)",
       "tipo": "MUDANÇA",
@@ -171,13 +191,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/06/2026 06:00",
-      "imo": "9778088",
-      "navio": "MSC MADHU B",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "inicio": "09/06/2026 06:30",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -191,6 +211,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 07:00",
+      "imo": "9762845",
+      "navio": "OLITA",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 07:30",
       "imo": "9911771",
       "navio": "FJ AZALEA",
@@ -198,6 +228,16 @@
       "de": "-",
       "para": "Fundeio - 2F01S - Visita Sul",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 08:00",
+      "imo": "2412230323",
+      "navio": "SÃO LUIS",
+      "tipo": "MUDANÇA",
+      "de": "2N17 - Armazém 17",
+      "para": "Fundeio - 2F09 - XAREU",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -251,6 +291,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 11:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "SAÍDA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 13:00",
       "imo": "9423437",
       "navio": "AKOFS SANTOS (REB)",
@@ -298,6 +348,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 23:30",
+      "imo": "9273301",
+      "navio": "ASTRO CMT MATOS",
+      "tipo": "MUDANÇA",
+      "de": "2N11 - Armazém 13",
+      "para": "2N05 - Armazém 6",
+      "agente": "SEASTAR BRASIL SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Niterói",
@@ -351,17 +411,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "09/06/2026 09:30",
-      "imo": "9928906",
-      "navio": "COSCO SHIPPING FAN RONG",
-      "tipo": "SAÍDA",
-      "de": "302 - TECON - SEPETIBA TECON S.A.",
-      "para": "-",
-      "agente": "ISS MARINE SERVICES LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "09/06/2026 11:00",
+      "inicio": "09/06/2026 10:30",
       "imo": "9484792",
       "navio": "SCARLETT",
       "tipo": "MUDANÇA",
@@ -371,13 +421,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "09/06/2026 14:00",
-      "imo": "9605009",
-      "navio": "CAPE SUNRISE",
+      "inicio": "09/06/2026 13:00",
+      "imo": "9928906",
+      "navio": "COSCO SHIPPING FAN RONG",
       "tipo": "SAÍDA",
-      "de": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "de": "302 - TECON - SEPETIBA TECON S.A.",
       "para": "-",
-      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",

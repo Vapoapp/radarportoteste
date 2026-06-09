@@ -88,14 +88,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-07T13:30:00.000Z",
-    "ultimo_hash_evento": "408c65ca673d6b9c1719566d0041bd99d9d98ae9063b25dc994c3cca51735a88",
-    "atualizado_em": "2026-06-07T14:48:00.299Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-09T09:00:00.000Z",
+    "ultimo_hash_evento": "61aafe67458a8b823d0c6af008d78d988440056d0f19a22396f66b7a458da5f1",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
   },
   "1020605": {
     "imo": "1020605",
@@ -1306,14 +1306,14 @@
     "navio": "ILHA DO CABO FRIO",
     "navio_normalizado": "ILHA DO CABO FRIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-09T06:30:00.000Z",
-    "ultimo_hash_evento": "5ef5c884b77cbfe5c9952f20d074750b5c3d801027a36ddc86ec2fc032e97e60",
-    "atualizado_em": "2026-06-09T08:51:50.131Z"
+    "ultima_movimentacao_em": "2026-06-09T09:30:00.000Z",
+    "ultimo_hash_evento": "55d0dd26ef8e465f5d40a10a46f58f0ff228fa912f4e21354883aca339ae865e",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
   },
   "9292773": {
     "imo": "9292773",
@@ -5717,13 +5717,13 @@
     "navio_normalizado": "ORYX",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2PAL - Terminal Petrobras AL",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-08T04:00:00.000Z",
-    "ultimo_hash_evento": "53fcdc706abfa8ac8fbee2387646833b14bbb93959a6eef0d3b6347e992359b4",
-    "atualizado_em": "2026-06-08T06:53:44.231Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-09T09:00:00.000Z",
+    "ultimo_hash_evento": "fbce250f655f4311d4859fcf2921ca148079aedb181718a23405ae07e1e67c7e",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
   },
   "9636888": {
     "imo": "9636888",
@@ -6788,6 +6788,20 @@
     "ultima_movimentacao_em": "2026-05-28T23:00:00.000Z",
     "ultimo_hash_evento": "5e2fa2a38195d9fc912ddab5c02acc5aa5a0f4d1b41532d4fa907b322b4d4e20",
     "atualizado_em": "2026-05-28T23:45:44.126Z"
+  },
+  "9693381": {
+    "imo": "9693381",
+    "navio": "CS SERENITY",
+    "navio_normalizado": "CS SERENITY",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB3 - Área de Fundeio B3",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-09T10:00:00.000Z",
+    "ultimo_hash_evento": "57b83c35079470342261c0d54a48388a1bceb1eb87386cd03584bcb252d8e492",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
   },
   "9696785": {
     "imo": "9696785",
@@ -7997,15 +8011,15 @@
     "imo": "9762845",
     "navio": "OLITA",
     "navio_normalizado": "OLITA",
-    "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-    "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-29T11:30:00.000Z",
-    "ultimo_hash_evento": "6ff63d797126c905374a669f26bf497fc6efb7988be20e1e5c50874095f1266c",
-    "atualizado_em": "2026-05-29T12:52:48.113Z"
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2N07 - Pátio 8/9",
+    "destino_atual": "Fundeio - WPT 91 - AF Preferencial Gusa",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-09T10:00:00.000Z",
+    "ultimo_hash_evento": "57b6aea649bbacc3bcc4f6d7c0bd7b14807ce08edef3589cb4be96e39ccede51",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
   },
   "9763760": {
     "imo": "9763760",
@@ -8166,14 +8180,14 @@
     "navio": "MSC MADHU B",
     "navio_normalizado": "MSC MADHU B",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-08T09:30:00.000Z",
-    "ultimo_hash_evento": "e166fc7e711140e991eb83e30d37687b8bfd426e749a5453e525f9dff58459e3",
-    "atualizado_em": "2026-06-08T11:49:37.651Z"
+    "ultima_movimentacao_em": "2026-06-09T09:00:00.000Z",
+    "ultimo_hash_evento": "3737ba7fafd0887e50a7ffe768a3ae2436d0eabf668eb8fc9f3eac65965aaebd",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
   },
   "9782209": {
     "imo": "9782209",
@@ -8992,14 +9006,14 @@
     "navio": "EAGLE PILAR",
     "navio_normalizado": "EAGLE PILAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-07T19:00:00.000Z",
-    "ultimo_hash_evento": "62c9443af0293d8948f36902cbab3c521ada18b0d0d1bb0bdc5f4a20d32de8d2",
-    "atualizado_em": "2026-06-07T20:04:59.941Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-09T09:00:00.000Z",
+    "ultimo_hash_evento": "dfa91da023bd3359c4a3ba768df7083aafae90e8be570abf68836713ad6a5f8e",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
   },
   "9865740": {
     "imo": "9865740",
@@ -9365,6 +9379,20 @@
     "ultimo_hash_evento": "a2db16e55f3b7f6a3cc25cef352353583f1a703a3af50c09c7fcb5decb971c6f",
     "atualizado_em": "2026-05-19T11:48:04.768Z"
   },
+  "9911771": {
+    "imo": "9911771",
+    "navio": "FJ AZALEA",
+    "navio_normalizado": "FJ AZALEA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01S - Visita Sul",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-09T10:30:00.000Z",
+    "ultimo_hash_evento": "7b33b60fd969204fa8a618420649806fd852f310e846ace8e86c29ce3de3cb82",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
+  },
   "9916197": {
     "imo": "9916197",
     "navio": "ASANAGI",
@@ -9552,14 +9580,14 @@
     "navio": "CHINA VENTURE",
     "navio_normalizado": "CHINA VENTURE",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 5FB3 - Área de Fundeio B3",
-    "destino_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+    "destino_atual": "-",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-06T10:00:00.000Z",
-    "ultimo_hash_evento": "d2bd37e58a140e5e1d0734f6e36f3d92046d1ca4ea54f91223c56c2de1e2da1e",
-    "atualizado_em": "2026-06-06T10:33:43.055Z"
+    "ultima_movimentacao_em": "2026-06-09T11:00:00.000Z",
+    "ultimo_hash_evento": "ce62f3deab32298dfa99333507b754102739f290715081023ff3da755a05eb79",
+    "atualizado_em": "2026-06-09T11:49:54.724Z"
   },
   "9944417": {
     "imo": "9944417",
