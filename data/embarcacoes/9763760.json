@@ -1,29 +1,36 @@
 {
   "imo": "9763760",
   "navio": "BRAM BUCK",
-  "gerado_em": "2026-06-09T21:04:42.606Z",
+  "gerado_em": "2026-06-09T22:44:49.199Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-08T03:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-09T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 37,
-    "manobras_365d": 37,
+    "manobras_30d": 15,
+    "manobras_180d": 38,
+    "manobras_365d": 38,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 7,
     "entradas_365d": 10,
-    "saidas_365d": 9,
+    "saidas_365d": 10,
     "ultima_entrada": "2026-06-07T00:00:00.000Z",
-    "ultima_saida": "2026-06-02T22:00:00.000Z",
-    "tempo_medio_estadia_horas": 69.4,
-    "tempo_medio_fundeio_horas": 30.5
+    "ultima_saida": "2026-06-09T22:00:00.000Z",
+    "tempo_medio_estadia_horas": 69.5,
+    "tempo_medio_fundeio_horas": 31.4
   },
   "historico_recente": [
+    {
+      "data": "2026-06-09T22:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-06-08T03:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-05-17T20:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
