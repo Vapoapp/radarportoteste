@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-09T19:02:25.378Z",
+  "updatedAt": "2026-06-09T21:04:42.606Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 55
+      "count": 57
     },
     "niteroi": {
       "ok": true,
@@ -282,22 +282,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 09:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/06/2026 09:00",
       "imo": "9188130",
       "navio": "BRAM NATAL (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 09:00",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -372,12 +372,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 13:00",
-      "imo": "9715567",
-      "navio": "CBO OCEANA",
+      "imo": "8301187",
+      "navio": "MARGIRIS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 13:00",
+      "imo": "9273301",
+      "navio": "ASTRO CMT MATOS",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "de": "2N05 - Armazém 6",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SEASTAR BRASIL SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -402,22 +412,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 13:00",
-      "imo": "8301187",
-      "navio": "MARGIRIS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/06/2026 13:00",
-      "imo": "9273301",
-      "navio": "ASTRO CMT MATOS",
+      "imo": "9715567",
+      "navio": "CBO OCEANA",
       "tipo": "MUDANÇA",
-      "de": "2N05 - Armazém 6",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "SEASTAR BRASIL SERVIÇOS MARÍTIMOS LTDA"
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -452,32 +452,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 15:00",
-      "imo": "9578672",
-      "navio": "SEA1 GIANT",
-      "tipo": "MUDANÇA",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/06/2026 15:00",
-      "imo": "9624770",
-      "navio": "MISTRAL EXPLORER",
-      "tipo": "SAÍDA",
-      "de": "TPEX - EXXON SOLUTEC",
-      "para": "-",
-      "agente": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/06/2026 15:00",
       "imo": "9668726",
       "navio": "STARNAV PERSEUS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2NTO - Terminal de Óleo",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 16:30",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -488,6 +478,16 @@
       "de": "2N09 - Armazém 10",
       "para": "-",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 17:30",
+      "imo": "9489912",
+      "navio": "RÔMULO ALMEIDA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 82 - 2F08",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -521,6 +521,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/06/2026 21:00",
+      "imo": "9624770",
+      "navio": "MISTRAL EXPLORER",
+      "tipo": "SAÍDA",
+      "de": "TPEX - EXXON SOLUTEC",
+      "para": "-",
+      "agente": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/06/2026 23:00",
       "imo": "9168867",
       "navio": "MSC URSULA VI",
@@ -548,6 +558,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/06/2026 06:30",
+      "imo": "9762845",
+      "navio": "OLITA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
