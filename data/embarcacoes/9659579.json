@@ -1,29 +1,43 @@
 {
   "imo": "9659579",
   "navio": "BARU MUCURA",
-  "gerado_em": "2026-06-09T01:29:59.189Z",
+  "gerado_em": "2026-06-09T05:48:45.959Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-07T10:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-09T04:30:00.000Z"
   },
   "metricas": {
     "manobras_30d": 14,
-    "manobras_180d": 37,
-    "manobras_365d": 37,
+    "manobras_180d": 39,
+    "manobras_365d": 39,
     "entradas_30d": 4,
     "saidas_30d": 4,
     "mudancas_30d": 6,
     "entradas_365d": 11,
-    "saidas_365d": 10,
+    "saidas_365d": 11,
     "ultima_entrada": "2026-06-07T10:30:00.000Z",
-    "ultima_saida": "2026-06-06T09:00:00.000Z",
-    "tempo_medio_estadia_horas": 70.9,
-    "tempo_medio_fundeio_horas": 50
+    "ultima_saida": "2026-06-09T04:30:00.000Z",
+    "tempo_medio_estadia_horas": 68.3,
+    "tempo_medio_fundeio_horas": 49.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-09T04:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
+    {
+      "data": "2026-06-09T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-06-07T10:30:00.000Z",
       "tipo": "ENTRADA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-05-16T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-05-14T05:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
