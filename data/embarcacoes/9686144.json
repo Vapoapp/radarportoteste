@@ -1,21 +1,21 @@
 {
   "imo": "9686144",
   "navio": "HOS REMINGTON",
-  "gerado_em": "2026-06-10T08:34:39.367Z",
+  "gerado_em": "2026-06-10T11:55:27.365Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "ESMA - ESTALEIRO MAUÁ",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-25T15:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-10T08:45:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 3,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-25T15:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 274.6
   },
   "historico_recente": [
+    {
+      "data": "2026-06-10T08:45:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-05-25T15:30:00.000Z",
       "tipo": "ENTRADA",
