@@ -89,13 +89,13 @@
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-09T16:30:00.000Z",
-    "ultimo_hash_evento": "847e5638db8a0d74213f2262ce0eb13ad66a4e6cc641901a89ee6237a6c518b8",
-    "atualizado_em": "2026-06-09T19:02:25.378Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-09T23:00:00.000Z",
+    "ultimo_hash_evento": "ef1dedd0273963236c8e0fdd6e7b61907a34b157c893a8c372ab16e483990f8b",
+    "atualizado_em": "2026-06-10T00:00:19.751Z"
   },
   "1020605": {
     "imo": "1020605",
@@ -1558,14 +1558,14 @@
     "navio": "PRESIDENT I",
     "navio_normalizado": "PRESIDENT I",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-08T18:00:00.000Z",
-    "ultimo_hash_evento": "a70b9ea1d07703cd3d14c3ddb404057fea1fd9db3bba3d93c534769ce9c9c1f5",
-    "atualizado_em": "2026-06-08T18:08:52.163Z"
+    "ultima_movimentacao_em": "2026-06-09T23:30:00.000Z",
+    "ultimo_hash_evento": "51997e86d79e5e8cb8785e9cb3dc4badd80b779d7beabd13c7e7b37df95f8ad4",
+    "atualizado_em": "2026-06-10T00:00:19.751Z"
   },
   "9312559": {
     "imo": "9312559",
@@ -4101,6 +4101,20 @@
     "ultimo_hash_evento": "c03a6f61c0eb640d59db82506fa191d272f5a6a0f23a239a2624491e170dbf2b",
     "atualizado_em": "2026-04-22T20:48:51.691Z"
   },
+  "9506136": {
+    "imo": "9506136",
+    "navio": "LANGEOOG",
+    "navio_normalizado": "LANGEOOG",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "GREAT OCEAN SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-09T16:30:00.000Z",
+    "ultimo_hash_evento": "e19bb544077819dd1b06a07130cc80bc19f47f53add1119816023910a6203442",
+    "atualizado_em": "2026-06-10T00:00:19.751Z"
+  },
   "9506394": {
     "imo": "9506394",
     "navio": "LOG-IN DISCOVERY (REB S/L)",
@@ -4517,9 +4531,9 @@
     "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-08T22:30:00.000Z",
-    "ultimo_hash_evento": "7e51f7b11722f80436176d9d1706c34c437360331c9065e70a2473842a10011d",
-    "atualizado_em": "2026-06-08T23:37:24.812Z"
+    "ultima_movimentacao_em": "2026-06-10T00:00:00.000Z",
+    "ultimo_hash_evento": "058e5dad9148ef33cfbd17e2bbbe0e13d9ddfd51573f47e93eddde3ed87f714b",
+    "atualizado_em": "2026-06-10T00:00:19.751Z"
   },
   "9539494": {
     "imo": "9539494",
@@ -5511,9 +5525,9 @@
     "destino_atual": "-",
     "agente_atual": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-09T18:00:00.000Z",
-    "ultimo_hash_evento": "d3d4b70bc718698cf6eee081eb0f2d2df5f324c0bb71d9ff2756a37d8c50bf28",
-    "atualizado_em": "2026-06-09T19:02:25.378Z"
+    "ultima_movimentacao_em": "2026-06-10T00:00:00.000Z",
+    "ultimo_hash_evento": "663d3cfd46514e56bd5cf633d5b7bd4667c237a7870ba41de938a66855b63212",
+    "atualizado_em": "2026-06-10T00:00:19.751Z"
   },
   "9626118": {
     "imo": "9626118",
@@ -7327,13 +7341,13 @@
     "navio_normalizado": "CBO OCEANA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-09T16:00:00.000Z",
-    "ultimo_hash_evento": "5feb57987d170fa19b4c81cd685887d4a2b92657121589a6ebdf973cf7eececf",
-    "atualizado_em": "2026-06-09T16:46:53.394Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-09T22:00:00.000Z",
+    "ultimo_hash_evento": "b1f557f487986ea59ce8064081f23cbd139fb9b072bb3d8435e86db433c9b10f",
+    "atualizado_em": "2026-06-10T00:00:19.751Z"
   },
   "9715725": {
     "imo": "9715725",
