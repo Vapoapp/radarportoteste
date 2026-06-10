@@ -3210,14 +3210,14 @@
     "navio": "SKUA",
     "navio_normalizado": "SKUA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-09T15:00:00.000Z",
-    "ultimo_hash_evento": "36ee9c7a25b866c143ac522a777e4fa4578d0760396e554eb5e153e298a50794",
-    "atualizado_em": "2026-06-09T16:46:53.394Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-10T07:20:00.000Z",
+    "ultimo_hash_evento": "b1ff808bbc65f446fbbca4dd08eba86d5d33c06962f50639bb242f766747dcff",
+    "atualizado_em": "2026-06-10T08:34:39.367Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -4190,14 +4190,14 @@
     "navio": "GERASIMOS",
     "navio_normalizado": "GERASIMOS",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "destino_atual": "-",
     "agente_atual": "GEM SHIPPING LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-03T03:00:00.000Z",
-    "ultimo_hash_evento": "ddf2eb78d627ff9ad9b5080c08889e59487af3074816e5b426965933546643b2",
-    "atualizado_em": "2026-06-03T05:17:50.563Z"
+    "ultima_movimentacao_em": "2026-06-10T05:00:00.000Z",
+    "ultimo_hash_evento": "768904dbcca3553f36ca4effedbd8a83c740b96dc3bf3eaa2c89b27c16aa531e",
+    "atualizado_em": "2026-06-10T08:34:39.367Z"
   },
   "9514092": {
     "imo": "9514092",
@@ -5795,6 +5795,20 @@
     "ultimo_hash_evento": "4938566dc9f925268dde601136efd4560f33a2f0487e801ab47cf77be3d57dcf",
     "atualizado_em": "2026-04-20T23:34:31.913Z"
   },
+  "9636905": {
+    "imo": "9636905",
+    "navio": "Yangtze Crown",
+    "navio_normalizado": "YANGTZE CROWN",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-10T07:00:00.000Z",
+    "ultimo_hash_evento": "937ff668e427f515d2131cbabb8bcc0f0596110082a25b0215c130f0a662cd88",
+    "atualizado_em": "2026-06-10T08:34:39.367Z"
+  },
   "9637777": {
     "imo": "9637777",
     "navio": "BRASIL KNUTSEN",
@@ -5940,14 +5954,14 @@
     "navio": "ALCATRAZ",
     "navio_normalizado": "ALCATRAZ",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2PAL - Terminal Petrobras AL",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-09T08:00:00.000Z",
-    "ultimo_hash_evento": "e3f497703f167f368d32ee44b6941986ccd2be2896fbf0bd53a64ac56b7e7a49",
-    "atualizado_em": "2026-06-09T08:51:50.131Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-10T08:30:00.000Z",
+    "ultimo_hash_evento": "303d2848a929d4d418f2cee6edf5a6061f2dbdaf80679938b951fef3f63024d3",
+    "atualizado_em": "2026-06-10T08:34:39.367Z"
   },
   "9644158": {
     "imo": "9644158",
@@ -6361,13 +6375,13 @@
     "navio_normalizado": "STARNAV PERSEUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2NTO - Terminal de Óleo",
+    "origem_atual": "2NTO - Terminal de Óleo",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-09T18:00:00.000Z",
-    "ultimo_hash_evento": "0d4f4cd140075e2c29c124dd4fb5b769eaacc2c4211b0b1ac6ce80977ce2e0f3",
-    "atualizado_em": "2026-06-09T19:02:25.378Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-10T07:30:00.000Z",
+    "ultimo_hash_evento": "f8ee251319443fa6a70d0316b6dbd02eda2040f27e292c2b107001566579f4a0",
+    "atualizado_em": "2026-06-10T08:34:39.367Z"
   },
   "9668738": {
     "imo": "9668738",
@@ -7359,9 +7373,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-09T22:00:00.000Z",
-    "ultimo_hash_evento": "b1f557f487986ea59ce8064081f23cbd139fb9b072bb3d8435e86db433c9b10f",
-    "atualizado_em": "2026-06-10T00:00:19.751Z"
+    "ultima_movimentacao_em": "2026-06-10T07:00:00.000Z",
+    "ultimo_hash_evento": "cd9f1ca7f707f85dfc89ee029dabac0d308815bbafbe3fb4a74407bffea57f98",
+    "atualizado_em": "2026-06-10T08:34:39.367Z"
   },
   "9715725": {
     "imo": "9715725",
@@ -8111,13 +8125,13 @@
     "navio_normalizado": "CBO ALIANCA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-03T03:00:00.000Z",
-    "ultimo_hash_evento": "857a35d51f06a7af47d42f84f1de70f78ce45d1826c6e0c66285523d676a3f17",
-    "atualizado_em": "2026-06-03T05:17:50.563Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-10T07:00:00.000Z",
+    "ultimo_hash_evento": "4807eba5cea6283035ce1238e047cf115e26100726b7e0f7cb2401542b651b55",
+    "atualizado_em": "2026-06-10T08:34:39.367Z"
   },
   "9767807": {
     "imo": "9767807",
@@ -9146,14 +9160,14 @@
     "navio": "HAGEN OLDENDORFF",
     "navio_normalizado": "HAGEN OLDENDORFF",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-05T11:00:00.000Z",
-    "ultimo_hash_evento": "f3a0fd7be17bacab5e69f3586c837c23eeb1fec4ef268eae6648b89da9f8ae2b",
-    "atualizado_em": "2026-06-05T13:26:33.951Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-10T06:30:00.000Z",
+    "ultimo_hash_evento": "0bc20cc4ec123dc1fea617f88376458a9db2868ff6939e3507a0ab4b6dc2a2c2",
+    "atualizado_em": "2026-06-10T08:34:39.367Z"
   },
   "9871098": {
     "imo": "9871098",

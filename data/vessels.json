@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-06-10T04:38:58.790Z",
+  "updatedAt": "2026-06-10T08:34:39.367Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 19
+      "count": 25
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -41,6 +41,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/06/2026 04:00",
+      "imo": "9715567",
+      "navio": "CBO OCEANA",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/06/2026 04:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/06/2026 04:20",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/06/2026 04:30",
       "imo": "9668726",
       "navio": "STARNAV PERSEUS",
@@ -71,6 +101,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/06/2026 05:30",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/06/2026 06:00",
+      "imo": "9426972",
+      "navio": "CBO BIANCA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/06/2026 06:00",
       "imo": "9525376",
       "navio": "MAERSK CHAMBAL",
@@ -88,16 +138,6 @@
       "de": "-",
       "para": "TPBL - BRICLOG",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/06/2026 06:30",
-      "imo": "9762845",
-      "navio": "OLITA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
-      "para": "-",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -121,11 +161,31 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/06/2026 06:30",
+      "imo": "9762845",
+      "navio": "OLITA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/06/2026 07:00",
       "imo": "9188130",
       "navio": "BRAM NATAL (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/06/2026 07:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
@@ -208,6 +268,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "10/06/2026 05:45",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
+      "tipo": "MUDANÇA",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Niterói",
