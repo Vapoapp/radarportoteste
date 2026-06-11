@@ -1,21 +1,21 @@
 {
   "imo": "9627629",
   "navio": "CBO ARPOADOR",
-  "gerado_em": "2026-06-11T09:05:43.833Z",
+  "gerado_em": "2026-06-11T12:52:21.367Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-11T00:00:00.000Z"
+    "ultima_movimentacao": "2026-06-11T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 26,
-    "manobras_365d": 26,
+    "manobras_30d": 13,
+    "manobras_180d": 27,
+    "manobras_365d": 27,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 6,
     "saidas_365d": 6,
     "ultima_entrada": "2026-06-09T17:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 48.6
   },
   "historico_recente": [
+    {
+      "data": "2026-06-11T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-06-11T00:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2PAL - Terminal Petrobras AL"
-    },
-    {
-      "data": "2026-05-27T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
