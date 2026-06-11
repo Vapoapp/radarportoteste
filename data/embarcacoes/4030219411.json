@@ -1,29 +1,36 @@
 {
   "imo": "4030219411",
   "navio": "OCEAN DREAM",
-  "gerado_em": "2026-06-11T04:51:08.863Z",
+  "gerado_em": "2026-06-11T09:05:43.833Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-12T19:30:00.000Z"
+    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-06-11T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 6,
-    "manobras_365d": 6,
-    "entradas_30d": 0,
+    "manobras_30d": 1,
+    "manobras_180d": 7,
+    "manobras_365d": 7,
+    "entradas_30d": 1,
     "saidas_30d": 0,
     "mudancas_30d": 0,
-    "entradas_365d": 3,
+    "entradas_365d": 4,
     "saidas_365d": 3,
-    "ultima_entrada": "2026-05-11T09:00:00.000Z",
+    "ultima_entrada": "2026-06-11T09:00:00.000Z",
     "ultima_saida": "2026-05-12T19:30:00.000Z",
     "tempo_medio_estadia_horas": 21.8,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-06-11T09:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
     {
       "data": "2026-05-12T19:30:00.000Z",
       "tipo": "SAÍDA",
