@@ -1,29 +1,36 @@
 {
   "imo": "9806495",
   "navio": "STARNAV CIRCINUS",
-  "gerado_em": "2026-06-11T19:24:42.218Z",
+  "gerado_em": "2026-06-11T21:33:14.291Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2NTO - Terminal de Óleo",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-11T15:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-11T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 8,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 4,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-06-11T06:00:00.000Z",
-    "ultima_saida": "2026-05-23T12:30:00.000Z",
-    "tempo_medio_estadia_horas": 42.5,
+    "ultima_saida": "2026-06-11T21:00:00.000Z",
+    "tempo_medio_estadia_horas": 35.6,
     "tempo_medio_fundeio_horas": 26.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-11T21:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2NTO - Terminal de Óleo",
+      "para": "-"
+    },
     {
       "data": "2026-06-11T15:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-18T18:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2N06 - Armazém 7",
-      "para": "-"
     }
   ]
 }

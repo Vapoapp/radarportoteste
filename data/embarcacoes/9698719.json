@@ -1,21 +1,21 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-06-11T19:24:42.218Z",
+  "gerado_em": "2026-06-11T21:33:14.291Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPBR - BRASCO",
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-11T10:00:00.000Z"
+    "ultima_movimentacao": "2026-06-11T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 19,
-    "manobras_180d": 42,
-    "manobras_365d": 42,
+    "manobras_30d": 20,
+    "manobras_180d": 43,
+    "manobras_365d": 43,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 13,
+    "mudancas_30d": 14,
     "entradas_365d": 9,
     "saidas_365d": 8,
     "ultima_entrada": "2026-06-04T08:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 31.1
   },
   "historico_recente": [
+    {
+      "data": "2026-06-11T21:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-06-11T10:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
-    },
-    {
-      "data": "2026-05-29T06:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Niterói",
-      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "-"
     }
   ]
 }
