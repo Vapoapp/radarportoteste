@@ -1,29 +1,36 @@
 {
   "imo": "9715725",
   "navio": "STARNAV TAURUS",
-  "gerado_em": "2026-06-12T06:16:58.299Z",
+  "gerado_em": "2026-06-12T10:41:48.650Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-10T11:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-12T10:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 36,
-    "manobras_365d": 36,
+    "manobras_30d": 15,
+    "manobras_180d": 37,
+    "manobras_365d": 37,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 9,
     "saidas_365d": 8,
     "ultima_entrada": "2026-06-10T11:00:00.000Z",
     "ultima_saida": "2026-06-06T17:00:00.000Z",
     "tempo_medio_estadia_horas": 72.7,
-    "tempo_medio_fundeio_horas": 28.1
+    "tempo_medio_fundeio_horas": 29.5
   },
   "historico_recente": [
+    {
+      "data": "2026-06-12T10:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-06-10T11:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-18T01:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
