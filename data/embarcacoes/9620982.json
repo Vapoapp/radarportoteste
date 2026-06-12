@@ -1,21 +1,21 @@
 {
   "imo": "9620982",
   "navio": "CBO MISTRAL (REB)",
-  "gerado_em": "2026-06-12T22:11:41.865Z",
+  "gerado_em": "2026-06-12T23:49:49.333Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
     "local": "2TS1 - Terminal Siderúrgico",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-11T21:00:00.000Z"
+    "ultima_movimentacao": "2026-06-12T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 25,
-    "manobras_365d": 25,
+    "manobras_30d": 13,
+    "manobras_180d": 26,
+    "manobras_365d": 26,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 10,
     "saidas_365d": 9,
     "ultima_entrada": "2026-06-11T16:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 11.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-12T23:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-06-11T21:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-05-28T10:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
