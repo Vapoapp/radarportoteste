@@ -1,29 +1,36 @@
 {
   "imo": "9642588",
   "navio": "LARUS",
-  "gerado_em": "2026-06-12T10:41:48.650Z",
+  "gerado_em": "2026-06-12T13:50:30.046Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-11T19:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-12T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 29,
-    "manobras_365d": 29,
+    "manobras_30d": 19,
+    "manobras_180d": 30,
+    "manobras_365d": 30,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 13,
     "entradas_365d": 5,
-    "saidas_365d": 5,
+    "saidas_365d": 6,
     "ultima_entrada": "2026-06-08T18:00:00.000Z",
-    "ultima_saida": "2026-06-04T09:00:00.000Z",
-    "tempo_medio_estadia_horas": 122.9,
+    "ultima_saida": "2026-06-12T07:00:00.000Z",
+    "tempo_medio_estadia_horas": 115.3,
     "tempo_medio_fundeio_horas": 30.1
   },
   "historico_recente": [
+    {
+      "data": "2026-06-12T07:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-06-11T19:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2PAL - Terminal Petrobras AL"
-    },
-    {
-      "data": "2026-05-23T07:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
