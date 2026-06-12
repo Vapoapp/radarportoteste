@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-12T20:34:36.330Z",
+  "updatedAt": "2026-06-12T22:11:41.865Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 56
+      "count": 64
     },
     "niteroi": {
       "ok": true,
@@ -172,22 +172,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 06:00",
-      "imo": "9440708",
-      "navio": "FULMAR",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2PAL - Terminal Petrobras AL",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 06:00",
       "imo": "9530187",
       "navio": "SANTOS SCOUT",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 06:00",
+      "imo": "9440708",
+      "navio": "FULMAR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -302,16 +302,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 11:00",
-      "imo": "9453860",
-      "navio": "JOSÉ DO PATROCÍNIO",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 11:00",
       "imo": "9477397",
       "navio": "CBO CAROLINA",
       "tipo": "ENTRADA",
@@ -327,6 +317,16 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPIR - ILHA REDONDA",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 11:00",
+      "imo": "9453860",
+      "navio": "JOSÉ DO PATROCÍNIO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
       "agente": "GAC DO BRASIL LTDA."
     },
     {
@@ -381,6 +381,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 14:30",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 15:00",
+      "imo": "9757711",
+      "navio": "TORDIS KNUTSEN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 81 - 2F08",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 15:00",
+      "imo": "9659579",
+      "navio": "BARU MUCURA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 15:00",
       "imo": "9578892",
       "navio": "CBO COPACABANA",
@@ -398,16 +428,6 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 15:00",
-      "imo": "9757711",
-      "navio": "TORDIS KNUTSEN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - WPT 81 - 2F08",
-      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -441,6 +461,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 16:30",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 17:00",
       "imo": "9453365",
       "navio": "SPYROS V",
@@ -448,6 +478,16 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 18:00",
+      "imo": "9748978",
+      "navio": "EPIC BALUAN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -461,13 +501,53 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 18:00",
-      "imo": "9748978",
-      "navio": "EPIC BALUAN",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "inicio": "12/06/2026 19:00",
+      "imo": "9477397",
+      "navio": "CBO CAROLINA",
+      "tipo": "MUDANÇA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 19:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 19:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 19:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 19:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",

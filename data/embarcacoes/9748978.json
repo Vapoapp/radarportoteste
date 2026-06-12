@@ -1,29 +1,36 @@
 {
   "imo": "9748978",
   "navio": "EPIC BALUAN",
-  "gerado_em": "2026-06-12T20:34:36.330Z",
+  "gerado_em": "2026-06-12T22:11:41.865Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPIR - ILHA REDONDA",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-10T12:32:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-12T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 1,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-06-09T08:30:00.000Z",
-    "ultima_saida": "2026-05-31T10:00:00.000Z",
-    "tempo_medio_estadia_horas": 72,
+    "ultima_saida": "2026-06-12T21:00:00.000Z",
+    "tempo_medio_estadia_horas": 78.3,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-06-12T21:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-06-10T12:32:00.000Z",
       "tipo": "MUDANÇA",
