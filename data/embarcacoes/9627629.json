@@ -1,29 +1,36 @@
 {
   "imo": "9627629",
   "navio": "CBO ARPOADOR",
-  "gerado_em": "2026-06-12T13:50:30.046Z",
+  "gerado_em": "2026-06-12T16:34:42.567Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-12T03:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-12T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 28,
-    "manobras_365d": 28,
+    "manobras_30d": 15,
+    "manobras_180d": 29,
+    "manobras_365d": 29,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 9,
     "entradas_365d": 6,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-06-09T17:30:00.000Z",
-    "ultima_saida": "2026-06-04T08:00:00.000Z",
-    "tempo_medio_estadia_horas": 117.9,
+    "ultima_saida": "2026-06-12T16:00:00.000Z",
+    "tempo_medio_estadia_horas": 108.4,
     "tempo_medio_fundeio_horas": 48.6
   },
   "historico_recente": [
+    {
+      "data": "2026-06-12T16:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "-"
+    },
     {
       "data": "2026-06-12T03:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "-"
-    },
-    {
-      "data": "2026-05-28T21:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "2TS2 - Terminal Siderúrgico 2"
     }
   ]
 }
