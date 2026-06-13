@@ -1,29 +1,36 @@
 {
   "imo": "9530187",
   "navio": "SANTOS SCOUT",
-  "gerado_em": "2026-06-13T13:07:45.433Z",
+  "gerado_em": "2026-06-13T15:07:01.835Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPBL - BRICLOG",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-13T04:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-13T13:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 20,
-    "manobras_365d": 20,
+    "manobras_30d": 10,
+    "manobras_180d": 21,
+    "manobras_365d": 21,
     "entradas_30d": 5,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 1,
     "entradas_365d": 10,
-    "saidas_365d": 8,
+    "saidas_365d": 9,
     "ultima_entrada": "2026-06-12T21:00:00.000Z",
-    "ultima_saida": "2026-06-12T18:15:00.000Z",
-    "tempo_medio_estadia_horas": 45.7,
+    "ultima_saida": "2026-06-13T13:30:00.000Z",
+    "tempo_medio_estadia_horas": 42.4,
     "tempo_medio_fundeio_horas": 7.4
   },
   "historico_recente": [
+    {
+      "data": "2026-06-13T13:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBL - BRICLOG",
+      "para": "-"
+    },
     {
       "data": "2026-06-13T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-05-15T04:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
