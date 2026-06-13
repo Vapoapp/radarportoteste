@@ -1,29 +1,36 @@
 {
   "imo": "9556600",
   "navio": "CORMORAN",
-  "gerado_em": "2026-06-13T19:27:57.284Z",
+  "gerado_em": "2026-06-13T20:48:29.084Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-13T18:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-13T19:50:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
+    "manobras_30d": 9,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
     "entradas_30d": 4,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 0,
     "entradas_365d": 5,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-06-13T18:00:00.000Z",
-    "ultima_saida": "2026-06-13T14:00:00.000Z",
-    "tempo_medio_estadia_horas": 38.2,
-    "tempo_medio_fundeio_horas": 13
+    "ultima_saida": "2026-06-13T19:50:00.000Z",
+    "tempo_medio_estadia_horas": 29.1,
+    "tempo_medio_fundeio_horas": 9.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-13T19:50:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-06-13T18:00:00.000Z",
       "tipo": "ENTRADA",

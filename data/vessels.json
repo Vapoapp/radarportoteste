@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-13T19:27:57.284Z",
+  "updatedAt": "2026-06-13T20:48:29.084Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 43
+      "count": 48
     },
     "niteroi": {
       "ok": true,
@@ -222,16 +222,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/06/2026 10:00",
-      "imo": "9723241",
-      "navio": "CZECH",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/06/2026 10:00",
       "imo": "9636022",
       "navio": "SABLE (REB)",
       "tipo": "SAÍDA",
@@ -241,13 +231,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "13/06/2026 10:30",
-      "imo": "9530187",
-      "navio": "SANTOS SCOUT",
-      "tipo": "SAÍDA",
-      "de": "TPBL - BRICLOG",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "inicio": "13/06/2026 10:00",
+      "imo": "9723241",
+      "navio": "CZECH",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +248,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 10:30",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
+      "tipo": "SAÍDA",
+      "de": "TPBL - BRICLOG",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,16 +342,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/06/2026 16:00",
-      "imo": "9752967",
-      "navio": "SEACOR DEMERARA (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/06/2026 16:00",
       "imo": "9477402",
       "navio": "CBO ANITA",
       "tipo": "SAÍDA",
@@ -361,12 +351,72 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 16:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "13/06/2026 16:30",
       "imo": "9715737",
       "navio": "STARNAV ANDROMEDA",
       "tipo": "MUDANÇA",
       "de": "2PAL - Terminal Petrobras AL",
       "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 16:50",
+      "imo": "9556600",
+      "navio": "CORMORAN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 17:00",
+      "imo": "9683996",
+      "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
+      "tipo": "MUDANÇA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 19:30",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 22:00",
+      "imo": "9460095",
+      "navio": "ISLAND INTERVENTION (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/06/2026 00:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
@@ -551,7 +601,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "14/06/2026 11:00",
+      "inicio": "14/06/2026 11:30",
       "imo": "9872121",
       "navio": "SHANDONG DE TAI",
       "tipo": "SAÍDA",
@@ -561,7 +611,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "14/06/2026 12:30",
+      "inicio": "14/06/2026 13:00",
       "imo": "9945655",
       "navio": "MOUNT HUA",
       "tipo": "MUDANÇA",
