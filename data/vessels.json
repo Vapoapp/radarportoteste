@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-12T23:49:49.333Z",
+  "updatedAt": "2026-06-13T01:55:12.664Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 68
+      "count": 72
     },
     "niteroi": {
       "ok": true,
@@ -112,6 +112,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 04:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 04:00",
       "imo": "9453365",
       "navio": "SPYROS V",
       "tipo": "ENTRADA",
@@ -128,16 +138,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "SEASTAR BRASIL SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 04:00",
-      "imo": "9630327",
-      "navio": "POSIDONIA JAGUAR",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,22 +172,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 06:00",
-      "imo": "9530187",
-      "navio": "SANTOS SCOUT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 06:00",
       "imo": "9440708",
       "navio": "FULMAR",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2PAL - Terminal Petrobras AL",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 06:00",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,6 +252,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 09:00",
+      "imo": "9494905",
+      "navio": "BOMAR SINGAPORE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F03 - Feiticeira",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 09:00",
       "imo": "9759496",
       "navio": "STARNAV VOLANS",
       "tipo": "ENTRADA",
@@ -268,16 +278,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 09:00",
-      "imo": "9494905",
-      "navio": "BOMAR SINGAPORE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F03 - Feiticeira",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -302,16 +302,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 11:00",
-      "imo": "9759264",
-      "navio": "BUENA CONFIANZA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPIR - ILHA REDONDA",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 11:00",
       "imo": "9453860",
       "navio": "JOSÉ DO PATROCÍNIO",
       "tipo": "SAÍDA",
@@ -328,6 +318,16 @@
       "de": "-",
       "para": "2PAL - Terminal Petrobras AL",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 11:00",
+      "imo": "9759264",
+      "navio": "BUENA CONFIANZA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIR - ILHA REDONDA",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -454,9 +454,9 @@
       "inicio": "12/06/2026 16:00",
       "imo": "9440708",
       "navio": "FULMAR",
-      "tipo": "SAÍDA",
+      "tipo": "MUDANÇA",
       "de": "2PAL - Terminal Petrobras AL",
-      "para": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
@@ -512,16 +512,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 19:00",
-      "imo": "9762742",
-      "navio": "POSIDONIA LEOPARD (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/06/2026 19:00",
       "imo": "9759496",
       "navio": "STARNAV VOLANS",
       "tipo": "MUDANÇA",
@@ -532,12 +522,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 19:00",
-      "imo": "9659634",
-      "navio": "BARU TESORO",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
       "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 19:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -552,12 +552,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 19:00",
-      "imo": "9715725",
-      "navio": "STARNAV TAURUS",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
       "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -631,6 +631,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/06/2026 22:00",
+      "imo": "9440708",
+      "navio": "FULMAR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/06/2026 23:00",
       "imo": "9494905",
       "navio": "BOMAR SINGAPORE",
@@ -648,6 +658,36 @@
       "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 00:00",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 00:30",
+      "imo": "9255098",
+      "navio": "MARLIN YARE (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/06/2026 01:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
