@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-06-14T19:51:52.115Z",
+  "updatedAt": "2026-06-14T20:55:17.241Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 37
+      "count": 38
     },
     "niteroi": {
       "ok": true,
-      "count": 0
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -342,6 +342,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/06/2026 18:00",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/06/2026 18:00",
       "imo": "9664299",
       "navio": "BRAM BRASILIA",
       "tipo": "MUDANÇA",
@@ -388,6 +398,36 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "14/06/2026 15:00",
+      "imo": "4030219411",
+      "navio": "OCEAN DREAM",
+      "tipo": "MUDANÇA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "14/06/2026 17:00",
+      "imo": "4030219411",
+      "navio": "OCEAN DREAM",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "15/06/2026 08:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "MUDANÇA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -461,7 +501,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "15/06/2026 00:00",
+      "inicio": "15/06/2026 01:00",
       "imo": "9696785",
       "navio": "BLUE AKIHABARA",
       "tipo": "SAÍDA",
