@@ -1,29 +1,36 @@
 {
   "imo": "9489912",
   "navio": "RÔMULO ALMEIDA",
-  "gerado_em": "2026-06-14T13:08:23.380Z",
+  "gerado_em": "2026-06-14T15:16:34.584Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPS1 - PETROBRAS PS1",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-11T21:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-14T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 3,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 1,
     "entradas_365d": 1,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-06-09T20:30:00.000Z",
-    "ultima_saida": "2026-04-17T07:00:00.000Z",
-    "tempo_medio_estadia_horas": null,
+    "ultima_saida": "2026-06-14T14:00:00.000Z",
+    "tempo_medio_estadia_horas": 113.5,
     "tempo_medio_fundeio_horas": 48.5
   },
   "historico_recente": [
+    {
+      "data": "2026-06-14T14:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPS1 - PETROBRAS PS1",
+      "para": "-"
+    },
     {
       "data": "2026-06-11T21:00:00.000Z",
       "tipo": "MUDANÇA",
