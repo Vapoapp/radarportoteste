@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-14T16:48:26.687Z",
+  "updatedAt": "2026-06-14T18:03:16.924Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 32
+      "count": 31
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 6
+      "count": 12
     },
     "angra": {
       "ok": true,
@@ -232,16 +232,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/06/2026 11:00",
-      "imo": "9565663",
-      "navio": "CBO RENATA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/06/2026 11:00",
       "imo": "9644146",
       "navio": "ALCATRAZ",
       "tipo": "ENTRADA",
@@ -398,6 +388,66 @@
       "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
       "para": "-",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/06/2026 21:30",
+      "imo": "9802231",
+      "navio": "J MARE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/06/2026 00:00",
+      "imo": "9696785",
+      "navio": "BLUE AKIHABARA",
+      "tipo": "SAÍDA",
+      "de": "301 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/06/2026 05:00",
+      "imo": "9347188",
+      "navio": "OTSL ATHENA",
+      "tipo": "SAÍDA",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-",
+      "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/06/2026 08:30",
+      "imo": "9346378",
+      "navio": "BERGE ROSA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FA1 - Área de Fundeio A1",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/06/2026 13:00",
+      "imo": "9683269",
+      "navio": "MINERAL JAN",
+      "tipo": "SAÍDA",
+      "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/06/2026 17:00",
+      "imo": "9346378",
+      "navio": "BERGE ROSA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FA1 - Área de Fundeio A1",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
     }
   ]
 }
