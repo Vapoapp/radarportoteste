@@ -1,21 +1,21 @@
 {
   "imo": "9777395",
   "navio": "BOW TITANIUM",
-  "gerado_em": "2026-06-15T18:05:40.709Z",
+  "gerado_em": "2026-06-15T21:17:14.900Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPS2 - PETROBRAS PS2",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-11T15:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - WPT 82 - 2F08",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-15T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-06-11T15:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-06-15T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPS2 - PETROBRAS PS2",
+      "para": "Fundeio - WPT 82 - 2F08"
+    },
     {
       "data": "2026-06-11T15:30:00.000Z",
       "tipo": "ENTRADA",
