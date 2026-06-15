@@ -1,29 +1,36 @@
 {
   "imo": "9683996",
   "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
-  "gerado_em": "2026-06-15T21:17:14.900Z",
+  "gerado_em": "2026-06-15T23:11:45.618Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-15T11:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-15T21:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 22,
-    "manobras_180d": 41,
-    "manobras_365d": 41,
+    "manobras_30d": 23,
+    "manobras_180d": 42,
+    "manobras_365d": 42,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 15,
     "entradas_365d": 6,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-06-11T17:00:00.000Z",
-    "ultima_saida": "2026-06-08T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 107.3,
+    "ultima_saida": "2026-06-15T21:30:00.000Z",
+    "tempo_medio_estadia_horas": 106.2,
     "tempo_medio_fundeio_horas": 20.9
   },
   "historico_recente": [
+    {
+      "data": "2026-06-15T21:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-06-15T11:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -82,13 +89,6 @@
     },
     {
       "data": "2026-06-07T08:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-06-07T03:00:00.000Z",
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
