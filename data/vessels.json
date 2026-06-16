@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-16T22:26:20.123Z",
+  "updatedAt": "2026-06-16T23:55:19.345Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 66
+      "count": 71
     },
     "niteroi": {
       "ok": true,
@@ -162,22 +162,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 09:00",
-      "imo": "9701267",
-      "navio": "ECO AVALON",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N10 - Terminal de Trigo",
-      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 09:00",
       "imo": "9578892",
       "navio": "CBO COPACABANA",
       "tipo": "MUDANÇA",
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 09:00",
+      "imo": "9701267",
+      "navio": "ECO AVALON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N10 - Terminal de Trigo",
+      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -242,6 +242,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 12:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 12:00",
+      "imo": "9683996",
+      "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 12:00",
       "imo": "1019905",
       "navio": "BRAM RIO",
       "tipo": "SAÍDA",
@@ -271,23 +291,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 12:00",
-      "imo": "9683996",
-      "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
+      "inicio": "16/06/2026 13:30",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
       "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
+      "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 12:00",
-      "imo": "9762742",
-      "navio": "POSIDONIA LEOPARD (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -301,13 +311,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 13:30",
-      "imo": "9715737",
-      "navio": "STARNAV ANDROMEDA",
+      "inicio": "16/06/2026 14:00",
+      "imo": "9656199",
+      "navio": "SAPURA TOPAZIO",
       "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
+      "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
       "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -318,16 +328,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 14:00",
-      "imo": "9656199",
-      "navio": "SAPURA TOPAZIO",
-      "tipo": "SAÍDA",
-      "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
-      "para": "-",
-      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -471,23 +471,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 19:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
+      "inicio": "16/06/2026 19:30",
+      "imo": "9440679",
+      "navio": "PETREL",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 20:00",
-      "imo": "9480186",
-      "navio": "MSC BARCELONA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -502,11 +492,51 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 20:00",
+      "imo": "2412230323",
+      "navio": "SÃO LUIS",
+      "tipo": "MUDANÇA",
+      "de": "2N08 - Pátio 9",
+      "para": "2N17 - Armazém 17",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 20:00",
+      "imo": "3810289680",
+      "navio": "BS-8",
+      "tipo": "MUDANÇA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "2N08 - Pátio 9",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 20:00",
+      "imo": "9480186",
+      "navio": "MSC BARCELONA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 20:00",
       "imo": "9578892",
       "navio": "CBO COPACABANA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 21:00",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
@@ -518,6 +548,16 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 02:00",
+      "imo": "9626443",
+      "navio": "BONGO (REB)",
+      "tipo": "SAÍDA",
+      "de": "TPBL - BRICLOG",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -578,6 +618,16 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 08:00",
+      "imo": "9668726",
+      "navio": "STARNAV PERSEUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
