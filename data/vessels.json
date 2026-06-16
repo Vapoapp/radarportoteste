@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-06-16T20:23:05.904Z",
+  "updatedAt": "2026-06-16T22:26:20.123Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 62
+      "count": 66
     },
     "niteroi": {
       "ok": true,
-      "count": 8
+      "count": 9
     },
     "itaguai": {
       "ok": true,
-      "count": 12
+      "count": 11
     },
     "angra": {
       "ok": true,
@@ -292,16 +292,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 13:30",
-      "imo": "9715737",
-      "navio": "STARNAV ANDROMEDA",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 13:30",
       "imo": "9492127",
       "navio": "SAO SEBASTIAO",
       "tipo": "SAÍDA",
@@ -311,13 +301,23 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 13:30",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 14:00",
-      "imo": "9426972",
-      "navio": "CBO BIANCA",
-      "tipo": "MUDANÇA",
-      "de": "2N07 - Pátio 8/9",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "imo": "9896892",
+      "navio": "LIVE KNUTSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -332,12 +332,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 14:00",
-      "imo": "9896892",
-      "navio": "LIVE KNUTSEN",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "imo": "9426972",
+      "navio": "CBO BIANCA",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -382,12 +382,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 16:00",
-      "imo": "9798832",
-      "navio": "GEMINI OCEAN",
+      "imo": "9435478",
+      "navio": "AKER WAYFARER (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F03 - Feiticeira",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -402,12 +402,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 16:00",
-      "imo": "9435478",
-      "navio": "AKER WAYFARER (REB)",
+      "imo": "9798832",
+      "navio": "GEMINI OCEAN",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+      "para": "Fundeio - 2F03 - Feiticeira",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -462,22 +462,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/06/2026 19:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/06/2026 19:00",
       "imo": "9529700",
       "navio": "POSIDONIA TIGER (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "TPBR - BRASCO",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 19:00",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -498,6 +498,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/06/2026 20:00",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -532,6 +542,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 06:30",
+      "imo": "9530216",
+      "navio": "OLIN CONQUEROR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 06:30",
       "imo": "9956915",
       "navio": "SUNBIRD",
       "tipo": "ENTRADA",
@@ -561,22 +581,32 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "17/06/2026 08:30",
-      "imo": "9612765",
-      "navio": "NC BREDA (REB S/L)",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 09:00",
       "imo": "9994711",
       "navio": "MH IBUKI",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPP2 - PETROBRAS PP2",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 09:30",
+      "imo": "9181467",
+      "navio": "ARTEMIS ANGLER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 10:00",
+      "imo": "1057206",
+      "navio": "P. TOKYO",
+      "tipo": "MUDANÇA",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
       "agente": "GAC DO BRASIL LTDA."
     },
     {
@@ -588,6 +618,16 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 11:00",
+      "imo": "9612765",
+      "navio": "NC BREDA (REB S/L)",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -701,6 +741,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "16/06/2026 19:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "16/06/2026 21:00",
       "imo": "9377016",
       "navio": "REM SALTIRE",
@@ -787,16 +837,6 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 5FB2 - Área de Fundeio B2",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "17/06/2026 09:00",
-      "imo": "9468712",
-      "navio": "PAN GOLD",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 5FA1 - Área de Fundeio A1",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
