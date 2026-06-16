@@ -1,21 +1,21 @@
 {
   "imo": "9645542",
   "navio": "MANDRIÃO (REB)",
-  "gerado_em": "2026-06-16T17:26:06.177Z",
+  "gerado_em": "2026-06-16T20:23:05.904Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "ESWS - ESTALEIRO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-08T05:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-16T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 1,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-05-08T05:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-06-16T20:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESWS - ESTALEIRO",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-08T05:00:00.000Z",
       "tipo": "ENTRADA",

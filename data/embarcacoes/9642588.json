@@ -1,29 +1,43 @@
 {
   "imo": "9642588",
   "navio": "LARUS",
-  "gerado_em": "2026-06-16T17:26:06.177Z",
+  "gerado_em": "2026-06-16T20:23:05.904Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-06-12T07:00:00.000Z"
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-16T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 30,
-    "manobras_365d": 30,
-    "entradas_30d": 2,
+    "manobras_30d": 18,
+    "manobras_180d": 32,
+    "manobras_365d": 32,
+    "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 11,
-    "entradas_365d": 5,
+    "mudancas_30d": 12,
+    "entradas_365d": 6,
     "saidas_365d": 6,
-    "ultima_entrada": "2026-06-08T18:00:00.000Z",
+    "ultima_entrada": "2026-06-16T10:00:00.000Z",
     "ultima_saida": "2026-06-12T07:00:00.000Z",
     "tempo_medio_estadia_horas": 115.3,
-    "tempo_medio_fundeio_horas": 30.1
+    "tempo_medio_fundeio_horas": 27.9
   },
   "historico_recente": [
+    {
+      "data": "2026-06-16T20:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
+    {
+      "data": "2026-06-16T10:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-06-12T07:00:00.000Z",
       "tipo": "SAÍDA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-06-01T00:10:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-05-28T17:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2PAL - Terminal Petrobras AL"
     }
   ]
 }
