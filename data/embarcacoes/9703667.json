@@ -1,21 +1,21 @@
 {
   "imo": "9703667",
   "navio": "BRAM HERO",
-  "gerado_em": "2026-06-16T01:46:12.725Z",
+  "gerado_em": "2026-06-16T07:08:31.607Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-15T23:00:00.000Z"
+    "ultima_movimentacao": "2026-06-16T07:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 20,
-    "manobras_180d": 42,
-    "manobras_365d": 42,
+    "manobras_180d": 43,
+    "manobras_365d": 43,
     "entradas_30d": 4,
-    "saidas_30d": 4,
-    "mudancas_30d": 12,
+    "saidas_30d": 3,
+    "mudancas_30d": 13,
     "entradas_365d": 8,
     "saidas_365d": 8,
     "ultima_entrada": "2026-06-15T20:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 21.8
   },
   "historico_recente": [
+    {
+      "data": "2026-06-16T07:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-06-15T23:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-06T02:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
