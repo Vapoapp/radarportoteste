@@ -1,21 +1,21 @@
 {
   "imo": "9578892",
   "navio": "CBO COPACABANA",
-  "gerado_em": "2026-06-16T07:08:31.607Z",
+  "gerado_em": "2026-06-16T12:20:52.187Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-15T21:00:00.000Z"
+    "ultima_movimentacao": "2026-06-16T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 32,
-    "manobras_365d": 32,
+    "manobras_30d": 15,
+    "manobras_180d": 33,
+    "manobras_365d": 33,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 10,
+    "mudancas_30d": 11,
     "entradas_365d": 5,
     "saidas_365d": 5,
     "ultima_entrada": "2026-06-10T19:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 29.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-16T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-06-15T21:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-05-31T14:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

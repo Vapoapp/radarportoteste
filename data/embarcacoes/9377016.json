@@ -1,29 +1,36 @@
 {
   "imo": "9377016",
   "navio": "REM SALTIRE",
-  "gerado_em": "2026-06-16T07:08:31.607Z",
+  "gerado_em": "2026-06-16T12:20:52.187Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-22T19:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-06-16T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
-    "entradas_30d": 1,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 1,
+    "entradas_365d": 2,
     "saidas_365d": 1,
-    "ultima_entrada": "2026-05-20T09:30:00.000Z",
+    "ultima_entrada": "2026-06-16T12:00:00.000Z",
     "ultima_saida": "2026-05-22T19:00:00.000Z",
     "tempo_medio_estadia_horas": 57.5,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-06-16T12:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-05-22T19:00:00.000Z",
       "tipo": "SAÍDA",
