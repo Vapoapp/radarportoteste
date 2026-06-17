@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-17T20:57:07.524Z",
+  "updatedAt": "2026-06-17T22:45:03.864Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 63
+      "count": 64
     },
     "niteroi": {
       "ok": true,
@@ -172,16 +172,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 07:00",
-      "imo": "9944417",
-      "navio": "BRAM SPIRIT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/06/2026 07:00",
       "imo": "9339131",
       "navio": "SKANDI BOTAFOGO",
       "tipo": "ENTRADA",
@@ -191,13 +181,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "17/06/2026 07:30",
-      "imo": "9348065",
-      "navio": "MAERSK MONTE ALEGRE",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "inicio": "17/06/2026 07:00",
+      "imo": "9944417",
+      "navio": "BRAM SPIRIT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -208,6 +198,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 07:30",
+      "imo": "9348065",
+      "navio": "MAERSK MONTE ALEGRE",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,22 +342,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 12:00",
-      "imo": "9636022",
-      "navio": "SABLE (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBL - BRICLOG",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/06/2026 12:00",
       "imo": "9994711",
       "navio": "MH IBUKI",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPP2 - PETROBRAS PP2",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 12:00",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -402,16 +402,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 14:30",
-      "imo": "9793961",
-      "navio": "KOTA PUSAKA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/06/2026 14:30",
       "imo": "9370070",
       "navio": "SIDDIS SAILOR (REB)",
       "tipo": "ENTRADA",
@@ -421,13 +411,23 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 14:30",
+      "imo": "9793961",
+      "navio": "KOTA PUSAKA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 15:00",
-      "imo": "9435478",
-      "navio": "AKER WAYFARER (REB)",
-      "tipo": "SAÍDA",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+      "imo": "9827255",
+      "navio": "VICTORIA HIGHWAY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -442,12 +442,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 15:00",
-      "imo": "9827255",
-      "navio": "VICTORIA HIGHWAY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2R12 - Terminal - MCAR 1",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "imo": "9435478",
+      "navio": "AKER WAYFARER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -482,12 +482,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 18:00",
-      "imo": "9703667",
-      "navio": "BRAM HERO",
+      "imo": "9353204",
+      "navio": "SKANDI RIO",
       "tipo": "SAÍDA",
-      "de": "2PAL - Terminal Petrobras AL",
+      "de": "ESPR - MacLaren Ilha da Conceição",
       "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -502,12 +502,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 18:00",
-      "imo": "9353204",
-      "navio": "SKANDI RIO",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
       "tipo": "SAÍDA",
-      "de": "ESPR - MacLaren Ilha da Conceição",
+      "de": "2PAL - Terminal Petrobras AL",
       "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -531,6 +531,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "17/06/2026 20:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "17/06/2026 21:00",
       "imo": "9271743",
       "navio": "SINGRAR (EX DANKO TIDE)",
@@ -538,16 +548,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/06/2026 22:00",
-      "imo": "9480186",
-      "navio": "MSC BARCELONA",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -598,6 +598,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/06/2026 07:00",
+      "imo": "9510307",
+      "navio": "Siem Pilot",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N05 - Armazém 6",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
