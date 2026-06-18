@@ -1,29 +1,36 @@
 {
   "imo": "9510307",
   "navio": "Siem Pilot",
-  "gerado_em": "2026-06-18T09:12:54.329Z",
+  "gerado_em": "2026-06-18T12:31:31.798Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-10T03:00:00.000Z"
+    "local": "2N05 - Armazém 6",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-06-18T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
-    "entradas_30d": 0,
+    "manobras_30d": 1,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
+    "entradas_30d": 1,
     "saidas_30d": 0,
     "mudancas_30d": 0,
-    "entradas_365d": 0,
+    "entradas_365d": 1,
     "saidas_365d": 1,
-    "ultima_entrada": null,
+    "ultima_entrada": "2026-06-18T10:00:00.000Z",
     "ultima_saida": "2026-05-10T03:00:00.000Z",
     "tempo_medio_estadia_horas": null,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-06-18T10:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2N05 - Armazém 6"
+    },
     {
       "data": "2026-05-10T03:00:00.000Z",
       "tipo": "SAÍDA",

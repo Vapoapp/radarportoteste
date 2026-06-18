@@ -1,21 +1,21 @@
 {
   "imo": "9385271",
   "navio": "HOS TAURUS (REB)",
-  "gerado_em": "2026-06-18T09:12:54.329Z",
+  "gerado_em": "2026-06-18T12:31:31.798Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
     "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-14T06:00:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-18T12:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 3,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-06-14T06:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 85
   },
   "historico_recente": [
+    {
+      "data": "2026-06-18T12:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-06-14T06:00:00.000Z",
       "tipo": "ENTRADA",

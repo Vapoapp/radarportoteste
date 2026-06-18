@@ -1,21 +1,21 @@
 {
   "imo": "9649029",
   "navio": "SEVEN WAVES",
-  "gerado_em": "2026-06-18T09:12:54.329Z",
+  "gerado_em": "2026-06-18T12:31:31.798Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
     "local": "ESMA - ESTALEIRO MAUÁ",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-08T11:30:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-18T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 2,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 2,
     "saidas_365d": 2,
     "ultima_entrada": "2026-06-08T11:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-06-18T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "ESMA - ESTALEIRO MAUÁ"
+    },
     {
       "data": "2026-06-08T11:30:00.000Z",
       "tipo": "ENTRADA",
