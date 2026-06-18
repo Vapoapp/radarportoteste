@@ -1,21 +1,21 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-06-18T12:31:31.798Z",
+  "gerado_em": "2026-06-18T16:01:56.137Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS2 - Terminal Siderúrgico 2",
+    "local": "NIT - ATRACADO NITERÓI",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-17T19:30:00.000Z"
+    "ultima_movimentacao": "2026-06-18T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 21,
-    "manobras_180d": 46,
-    "manobras_365d": 46,
+    "manobras_30d": 22,
+    "manobras_180d": 47,
+    "manobras_365d": 47,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 14,
+    "mudancas_30d": 15,
     "entradas_365d": 10,
     "saidas_365d": 9,
     "ultima_entrada": "2026-06-17T18:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 29.1
   },
   "historico_recente": [
+    {
+      "data": "2026-06-18T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
     {
       "data": "2026-06-17T19:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "TPBL - BRICLOG",
       "para": "NIT - ATRACADO NITERÓI"
-    },
-    {
-      "data": "2026-06-06T21:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "TPBL - BRICLOG"
     }
   ]
 }
