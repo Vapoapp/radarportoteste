@@ -1,29 +1,36 @@
 {
   "imo": "9426972",
   "navio": "CBO BIANCA",
-  "gerado_em": "2026-06-18T21:05:12.212Z",
+  "gerado_em": "2026-06-18T23:01:06.223Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-16T17:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-18T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 9,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 4,
     "entradas_365d": 3,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-06-10T09:00:00.000Z",
-    "ultima_saida": "2026-06-02T15:00:00.000Z",
-    "tempo_medio_estadia_horas": 248.3,
-    "tempo_medio_fundeio_horas": 158.9
+    "ultima_saida": "2026-06-18T22:00:00.000Z",
+    "tempo_medio_estadia_horas": 233.8,
+    "tempo_medio_fundeio_horas": 137.7
   },
   "historico_recente": [
+    {
+      "data": "2026-06-18T22:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-06-16T17:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-12T15:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "-"
     }
   ]
 }

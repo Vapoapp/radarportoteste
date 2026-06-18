@@ -1,29 +1,36 @@
 {
   "imo": "9630327",
   "navio": "POSIDONIA JAGUAR",
-  "gerado_em": "2026-06-18T21:05:12.212Z",
+  "gerado_em": "2026-06-18T23:01:06.223Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-06-14T17:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-06-18T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 30,
-    "manobras_365d": 30,
-    "entradas_30d": 2,
+    "manobras_30d": 12,
+    "manobras_180d": 31,
+    "manobras_365d": 31,
+    "entradas_30d": 3,
     "saidas_30d": 3,
     "mudancas_30d": 6,
-    "entradas_365d": 12,
+    "entradas_365d": 13,
     "saidas_365d": 12,
-    "ultima_entrada": "2026-06-11T21:30:00.000Z",
+    "ultima_entrada": "2026-06-18T22:00:00.000Z",
     "ultima_saida": "2026-06-14T17:00:00.000Z",
     "tempo_medio_estadia_horas": 68.3,
     "tempo_medio_fundeio_horas": 58.1
   },
   "historico_recente": [
+    {
+      "data": "2026-06-18T22:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-06-14T17:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-05-21T15:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
