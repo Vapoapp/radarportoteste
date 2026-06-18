@@ -1334,14 +1334,14 @@
     "navio": "ILHA DO CABO FRIO",
     "navio_normalizado": "ILHA DO CABO FRIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2PAL - Terminal Petrobras AL",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-16T03:00:00.000Z",
-    "ultimo_hash_evento": "4f357835325a6c65b927fb93df81d10351d4d3fadb80d71675fe7808fdc38d0e",
-    "atualizado_em": "2026-06-16T07:08:31.607Z"
+    "ultima_movimentacao_em": "2026-06-18T04:00:00.000Z",
+    "ultimo_hash_evento": "8373c3f0b922db540331039916294cc62dd777fc9f6ab4b122466d72f067bfc5",
+    "atualizado_em": "2026-06-18T04:56:54.980Z"
   },
   "9292773": {
     "imo": "9292773",
@@ -2384,14 +2384,14 @@
     "navio": "SIDDIS SAILOR (REB)",
     "navio_normalizado": "SIDDIS SAILOR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-17T17:30:00.000Z",
-    "ultimo_hash_evento": "6f78f8a26f6582ea7f4d0ab879f5ab713ae50d01ec5cdc7f9fcd4aa2ed8e3fab",
-    "atualizado_em": "2026-06-17T18:42:17.444Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-18T04:00:00.000Z",
+    "ultimo_hash_evento": "830a6e1bdac9b6fd22593dddb287c103c0d75c3f924df4784ba9109b1e5ad3c1",
+    "atualizado_em": "2026-06-18T04:56:54.980Z"
   },
   "9371218": {
     "imo": "9371218",
@@ -5142,14 +5142,14 @@
     "navio": "CBO COPACABANA",
     "navio_normalizado": "CBO COPACABANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-16T23:00:00.000Z",
-    "ultimo_hash_evento": "ab2533463fa27dbf81f4c5d1d97942bc54721189d754f45c40112a03dec9b5c3",
-    "atualizado_em": "2026-06-16T23:55:19.345Z"
+    "ultima_movimentacao_em": "2026-06-18T04:00:00.000Z",
+    "ultimo_hash_evento": "ca7859cefa8088a930704aa14f02de911b1adcbe55d8127887395f695ca2e578",
+    "atualizado_em": "2026-06-18T04:56:54.980Z"
   },
   "9578919": {
     "imo": "9578919",
@@ -5828,14 +5828,14 @@
     "navio": "CBO ARPOADOR",
     "navio_normalizado": "CBO ARPOADOR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-17T13:00:00.000Z",
-    "ultimo_hash_evento": "66a46fa694c47d364e5a72ba20ce7acc076b95cd9467adc1319f75a20a9c35c1",
-    "atualizado_em": "2026-06-17T16:27:59.123Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-18T03:00:00.000Z",
+    "ultimo_hash_evento": "12e42fdfbd81c3f8b319beb7bf3c8fbbb1a4009a1b1b38cd9a8ddc3d7ef022bd",
+    "atualizado_em": "2026-06-18T04:56:54.980Z"
   },
   "9627631": {
     "imo": "9627631",
@@ -10974,6 +10974,20 @@
     "ultima_movimentacao_em": "2026-06-17T15:00:00.000Z",
     "ultimo_hash_evento": "bd576a17c5397d5b08074af8d509f48cd3a04d3b37449bcaccc73eed3086ac98",
     "atualizado_em": "2026-06-17T16:27:59.123Z"
+  },
+  "9996018": {
+    "imo": "9996018",
+    "navio": "GREEN SANTOS",
+    "navio_normalizado": "GREEN SANTOS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "303 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-18T04:30:00.000Z",
+    "ultimo_hash_evento": "a4f95ca2cfa0928c424c5a3bafa892634c71d34e3ee1dc8172725aa8064e8637",
+    "atualizado_em": "2026-06-18T04:56:54.980Z"
   },
   "9996680": {
     "imo": "9996680",
