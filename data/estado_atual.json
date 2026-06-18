@@ -3807,6 +3807,20 @@
     "ultimo_hash_evento": "5aad288f7e4c9f69b4df5e759d2fddf0c0eeb884870d70226a5150b79c6cd35c",
     "atualizado_em": "2026-05-15T10:39:24.160Z"
   },
+  "9468712": {
+    "imo": "9468712",
+    "navio": "PAN GOLD",
+    "navio_normalizado": "PAN GOLD",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB4 - Área de Fundeio B4",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-18T17:00:00.000Z",
+    "ultimo_hash_evento": "6760fcbf66ccb8f189b9afc134457ed17d66cf5cf6189e652b8fab15ef874785",
+    "atualizado_em": "2026-06-18T18:31:42.470Z"
+  },
   "9476288": {
     "imo": "9476288",
     "navio": "TASSOS N",
@@ -3868,14 +3882,14 @@
     "navio": "CBO ANITA",
     "navio_normalizado": "CBO ANITA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-18T11:00:00.000Z",
-    "ultimo_hash_evento": "00478773d0813207018bbfcbefcf2d27610885a368fa9b56eb8f5840401b1b45",
-    "atualizado_em": "2026-06-18T12:31:31.798Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-18T16:00:00.000Z",
+    "ultimo_hash_evento": "29a3db99df1c93bcbc8be6a560659cf8d10ec2299f6113acda85e5b1459401b9",
+    "atualizado_em": "2026-06-18T18:31:42.470Z"
   },
   "9480186": {
     "imo": "9480186",
@@ -4204,14 +4218,14 @@
     "navio": "CAMPOS CONTENDER",
     "navio_normalizado": "CAMPOS CONTENDER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-16T23:00:00.000Z",
-    "ultimo_hash_evento": "ab2238c0da639a275d859ac0e8be5314a02a8d9ebb79430be2316bbe0bcd7684",
-    "atualizado_em": "2026-06-16T23:55:19.345Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-18T18:00:00.000Z",
+    "ultimo_hash_evento": "eab1926d7c5e0c91aaaa3d2673c8721fccd019532b5327d20ee85c0a6a55b7dd",
+    "atualizado_em": "2026-06-18T18:31:42.470Z"
   },
   "9497139": {
     "imo": "9497139",
@@ -4436,6 +4450,20 @@
     "ultima_movimentacao_em": "2026-05-23T05:30:00.000Z",
     "ultimo_hash_evento": "57524fcbd846e7d84ab570744831f160f016aad663eab86541189acb13accb3e",
     "atualizado_em": "2026-05-23T07:36:20.853Z"
+  },
+  "9520675": {
+    "imo": "9520675",
+    "navio": "BULK VALOR",
+    "navio_normalizado": "BULK VALOR",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N07 - Pátio 8/9",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-18T18:00:00.000Z",
+    "ultimo_hash_evento": "8025d3abda43c0fa3478a6047fc788d22aa390c54a252e8597b9f74f291261b0",
+    "atualizado_em": "2026-06-18T18:31:42.470Z"
   },
   "9521021": {
     "imo": "9521021",
@@ -7255,15 +7283,15 @@
     "imo": "9698719",
     "navio": "BRAM BREEZE",
     "navio_normalizado": "BRAM BREEZE",
-    "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
-    "destino_atual": "NIT - ATRACADO NITERÓI",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-06-18T15:00:00.000Z",
-    "ultimo_hash_evento": "b168a7ed4001a11dc35e11cec087fd5b1de04bc6720fbdc14f9469df65c9df31",
-    "atualizado_em": "2026-06-18T16:01:56.137Z"
+    "ultimo_hash_evento": "2a93b4b9f876ad7d117d0bc59b62f4dc0311ab763f6023ba3bc04ce8068b604c",
+    "atualizado_em": "2026-06-18T18:31:42.470Z"
   },
   "9701140": {
     "imo": "9701140",
@@ -8502,14 +8530,14 @@
     "navio": "POSIDONIA LEOPARD (REB)",
     "navio_normalizado": "POSIDONIA LEOPARD",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-18T07:00:00.000Z",
-    "ultimo_hash_evento": "a5a969e0fdad462f3e6588aa62d62e97fc95275b28394d5b58c5a19ebeab10e2",
-    "atualizado_em": "2026-06-18T09:12:54.329Z"
+    "ultima_movimentacao_em": "2026-06-18T18:00:00.000Z",
+    "ultimo_hash_evento": "1d6d2bac47d58eabd35d6b4eba42a5e641b753c63e7d14262b5757b673b91251",
+    "atualizado_em": "2026-06-18T18:31:42.470Z"
   },
   "9762845": {
     "imo": "9762845",
@@ -8530,14 +8558,14 @@
     "navio": "BRAM BUCK",
     "navio_normalizado": "BRAM BUCK",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-18T09:00:00.000Z",
-    "ultimo_hash_evento": "b30b637e97c664c186042feddd8a1b139caab58315e5769542ebcee2307637d4",
-    "atualizado_em": "2026-06-18T09:12:54.329Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-18T17:00:00.000Z",
+    "ultimo_hash_evento": "c1237e6ae1a9f21a49d88c348ebec296b00f0788ac830fe964ddd6c4fbcece7a",
+    "atualizado_em": "2026-06-18T18:31:42.470Z"
   },
   "9763772": {
     "imo": "9763772",
@@ -8922,14 +8950,14 @@
     "navio": "KOTA PUSAKA",
     "navio_normalizado": "KOTA PUSAKA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F01 - Visita",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F01 - Visita",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
     "agente_atual": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-17T17:30:00.000Z",
-    "ultimo_hash_evento": "c551e1db8a528791d77436e6d715b9df33fe8ab984fda7314f5c640768606488",
-    "atualizado_em": "2026-06-17T18:42:17.444Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-18T18:00:00.000Z",
+    "ultimo_hash_evento": "60512a24f3b5d016903d84a1986ad9a75e3c5710cb1a439f8c37f7d4bccafbbd",
+    "atualizado_em": "2026-06-18T18:31:42.470Z"
   },
   "9794446": {
     "imo": "9794446",
