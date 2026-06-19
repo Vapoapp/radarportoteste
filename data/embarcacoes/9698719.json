@@ -1,21 +1,21 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-06-18T23:01:06.223Z",
+  "gerado_em": "2026-06-19T01:48:01.214Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-18T15:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-19T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 22,
-    "manobras_180d": 47,
-    "manobras_365d": 47,
+    "manobras_30d": 23,
+    "manobras_180d": 48,
+    "manobras_365d": 48,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 15,
+    "mudancas_30d": 16,
     "entradas_365d": 10,
     "saidas_365d": 9,
     "ultima_entrada": "2026-06-18T15:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 31.1
   },
   "historico_recente": [
+    {
+      "data": "2026-06-19T00:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-06-18T15:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
-    },
-    {
-      "data": "2026-06-07T15:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }
