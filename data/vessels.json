@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-06-19T06:51:13.103Z",
+  "updatedAt": "2026-06-19T11:08:51.283Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 32
+      "count": 35
     },
     "niteroi": {
       "ok": true,
-      "count": 0
+      "count": 1
     },
     "itaguai": {
       "ok": true,
-      "count": 7
+      "count": 8
     },
     "angra": {
       "ok": true,
@@ -61,6 +61,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/06/2026 02:00",
+      "imo": "9494618",
+      "navio": "A.H. VALLETTA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/06/2026 02:20",
       "imo": "9752967",
       "navio": "SEACOR DEMERARA (REB)",
@@ -101,6 +111,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/06/2026 04:30",
+      "imo": "9645542",
+      "navio": "MANDRIÃO (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/06/2026 05:00",
       "imo": "9644160",
       "navio": "BRAM BELEM",
@@ -122,6 +142,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/06/2026 06:00",
+      "imo": "9426972",
+      "navio": "CBO BIANCA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/06/2026 06:00",
       "imo": "9492139",
       "navio": "SAO LUIZ",
       "tipo": "SAÍDA",
@@ -138,16 +168,6 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/06/2026 06:00",
-      "imo": "9701267",
-      "navio": "ECO AVALON",
-      "tipo": "SAÍDA",
-      "de": "2N10 - Terminal de Trigo",
-      "para": "-",
-      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -291,6 +311,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/06/2026 13:00",
+      "imo": "9613850",
+      "navio": "SAGA FRIGG",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/06/2026 15:00",
       "imo": "9865740",
       "navio": "TWEED",
@@ -340,6 +370,16 @@
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
+      "porto": "Niterói",
+      "inicio": "19/06/2026 06:00",
+      "imo": "9418664",
+      "navio": "OCEANICASUB XI (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "19/06/2026 03:00",
       "imo": "9996018",
@@ -381,7 +421,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/06/2026 14:00",
+      "inicio": "19/06/2026 13:00",
       "imo": "9696785",
       "navio": "BLUE AKIHABARA",
       "tipo": "SAÍDA",
@@ -391,13 +431,23 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/06/2026 16:30",
+      "inicio": "19/06/2026 15:30",
       "imo": "9500041",
       "navio": "RB DYLAN",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
       "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/06/2026 17:30",
+      "imo": "9719939",
+      "navio": "MINERAL NACER",
+      "tipo": "SAÍDA",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA."
     },
     {
       "porto": "Itaguaí",
