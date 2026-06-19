@@ -1,29 +1,36 @@
 {
   "imo": "9710969",
   "navio": "SEVEN SUN",
-  "gerado_em": "2026-06-19T14:20:08.554Z",
+  "gerado_em": "2026-06-19T16:43:21.379Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-05-06T19:30:00.000Z"
+    "local": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-06-19T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
-    "entradas_30d": 0,
+    "manobras_30d": 1,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
+    "entradas_30d": 1,
     "saidas_30d": 0,
     "mudancas_30d": 0,
-    "entradas_365d": 2,
+    "entradas_365d": 3,
     "saidas_365d": 2,
-    "ultima_entrada": "2026-05-06T15:00:00.000Z",
+    "ultima_entrada": "2026-06-19T15:00:00.000Z",
     "ultima_saida": "2026-05-06T19:30:00.000Z",
     "tempo_medio_estadia_horas": 75.8,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-06-19T15:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU"
+    },
     {
       "data": "2026-05-06T19:30:00.000Z",
       "tipo": "SAÍDA",
