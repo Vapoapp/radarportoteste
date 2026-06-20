@@ -88,14 +88,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-19T11:30:00.000Z",
-    "ultimo_hash_evento": "573062a1cb8cbb6c9b1a0d7270c55f0d86bcaf5d7a511e3aad6339219cfc77a9",
-    "atualizado_em": "2026-06-19T14:20:08.554Z"
+    "ultima_movimentacao_em": "2026-06-20T09:30:00.000Z",
+    "ultimo_hash_evento": "d4d02bf2031b9aad2447c7976084defa5c208188b07e4d5e9dba359520bce5b4",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
   },
   "1020605": {
     "imo": "1020605",
@@ -228,14 +228,14 @@
     "navio": "AQUAVICTORY",
     "navio_normalizado": "AQUAVICTORY",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FA1 - Área de Fundeio A1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FA1 - Área de Fundeio A1",
+    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-19T19:30:00.000Z",
-    "ultimo_hash_evento": "d9e9c3ec892b5fb462b2e9baec69bc789572ea185ffb953cbcd5d798e9a056e1",
-    "atualizado_em": "2026-06-19T20:11:17.256Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-20T07:00:00.000Z",
+    "ultimo_hash_evento": "b88b3f48aab74ebbfca91dfccc1284140bcbdfcdcd864df8ad34da7405340d1f",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
   },
   "1057206": {
     "imo": "1057206",
@@ -2356,14 +2356,14 @@
     "navio": "VIKING BRASILIA",
     "navio_normalizado": "VIKING BRASILIA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2R12 - Terminal - MCAR 1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2R12 - Terminal - MCAR 1",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-22T17:30:00.000Z",
-    "ultimo_hash_evento": "cd9ee0633696d982b9cb3afa0d59b64b9a00dc9b07404d1f99ce2e699bbaa928",
-    "atualizado_em": "2026-04-22T17:44:55.044Z"
+    "ultima_movimentacao_em": "2026-06-20T07:30:00.000Z",
+    "ultimo_hash_evento": "2347a94a45c6efd0b6ec7f8beb45e83ab417bb16d8182f07c70550956d47fddd",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
   },
   "9369071": {
     "imo": "9369071",
@@ -2524,14 +2524,14 @@
     "navio": "NORTH OCEAN 102",
     "navio_normalizado": "NORTH OCEAN 102",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2N05 - Armazém 6",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - WPT 63 - 2F6A",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-17T11:00:00.000Z",
-    "ultimo_hash_evento": "724fd37696a4b3d10f11c8dc72daa1e793e8efa202b3f83409fc3e2e8b3e3221",
-    "atualizado_em": "2026-06-17T12:41:58.546Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-20T09:00:00.000Z",
+    "ultimo_hash_evento": "bd807ccc1729caf03b2d0f52f85448fd428f971fdb49a3c6843bcc79ef49c393",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
   },
   "9382774": {
     "imo": "9382774",
@@ -4941,6 +4941,20 @@
     "ultimo_hash_evento": "df652bf33f1f37c72d03d5e95013e05c161b39fdb910920ccf74191c8245f494",
     "atualizado_em": "2026-05-05T22:39:24.327Z"
   },
+  "9552898": {
+    "imo": "9552898",
+    "navio": "PIPIT ARROW",
+    "navio_normalizado": "PIPIT ARROW",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "303 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "ALL FLAGS AGENCIAMENTO LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-20T09:00:00.000Z",
+    "ultimo_hash_evento": "5dce6c2e85047092c53b608df89fe357ca857cc2e131e4a2c54e208c88dd0bda",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
+  },
   "9552991": {
     "imo": "9552991",
     "navio": "NORD KARAS",
@@ -6766,14 +6780,14 @@
     "navio": "BLUE ORCA",
     "navio_normalizado": "BLUE ORCA",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESMC - MacLaren Ponta da Areia",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "ESMC - MacLaren Ponta da Areia",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-16T21:00:00.000Z",
-    "ultimo_hash_evento": "befb7e2c212035156c9d496fb22171f8ce756e344d5d11211d9dce711eb69f85",
-    "atualizado_em": "2026-06-16T22:26:20.123Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-20T09:00:00.000Z",
+    "ultimo_hash_evento": "411f61e5f44fbaad65ad973efc1b9fc5a095d0bbc45261779e9175422564cbea",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
   },
   "9670418": {
     "imo": "9670418",
@@ -7886,14 +7900,14 @@
     "navio": "MSC MAXINE",
     "navio_normalizado": "MSC MAXINE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C22 - TECON 2 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-19T20:30:00.000Z",
-    "ultimo_hash_evento": "340380f382e6a8375a898657737ea22f3042fa61d05d7380cd90aef99a098527",
-    "atualizado_em": "2026-06-19T21:33:55.531Z"
+    "ultima_movimentacao_em": "2026-06-20T09:30:00.000Z",
+    "ultimo_hash_evento": "73bcaad7a8276f59fcabf0f2c07ac06d317b8cc0ef84947b5c9e3a378cfc580e",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
   },
   "9720483": {
     "imo": "9720483",
@@ -8633,9 +8647,9 @@
     "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-19T23:00:00.000Z",
-    "ultimo_hash_evento": "fbc459fae29fc0b5562e85fbea91bfd590123e8ee44b1b458acb32a8ed7c6406",
-    "atualizado_em": "2026-06-19T23:42:46.416Z"
+    "ultima_movimentacao_em": "2026-06-20T07:00:00.000Z",
+    "ultimo_hash_evento": "27b0e867006b08b02a07af81e4097110e9607fff457c8290a598b12be52e5c8c",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
   },
   "9763772": {
     "imo": "9763772",
@@ -8888,6 +8902,20 @@
     "ultima_movimentacao_em": "2026-06-01T03:00:00.000Z",
     "ultimo_hash_evento": "5b353dcc43f1c1e8cfa048a8737db378cdf8874703633c8651700e4b033447fa",
     "atualizado_em": "2026-06-01T05:18:53.644Z"
+  },
+  "9785615": {
+    "imo": "9785615",
+    "navio": "ESTELA CLAIRE",
+    "navio_normalizado": "ESTELA CLAIRE",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "agente_atual": "GEM SHIPPING LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-20T08:00:00.000Z",
+    "ultimo_hash_evento": "28202faefd3c2e121e62ab18ee5600ac9e37ec8db1c3c42a7adfd4af08bc1679",
+    "atualizado_em": "2026-06-20T09:34:41.167Z"
   },
   "9786097": {
     "imo": "9786097",
