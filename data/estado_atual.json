@@ -3756,14 +3756,14 @@
     "navio": "GAZ SYNERGY",
     "navio_normalizado": "GAZ SYNERGY",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPIR - ILHA REDONDA",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPIR - ILHA REDONDA",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-20T10:00:00.000Z",
-    "ultimo_hash_evento": "93404c3f4c8dcbdff94bda378a387deed35d2f7417edd9b2eeb57c406b2a4171",
-    "atualizado_em": "2026-06-20T11:31:30.441Z"
+    "ultima_movimentacao_em": "2026-06-21T18:00:00.000Z",
+    "ultimo_hash_evento": "15fbb1e2cdd8ac26a1190275d71f0a06b4ddb9f79ab1b031b2a8f7e50e0cbc27",
+    "atualizado_em": "2026-06-21T19:50:11.241Z"
   },
   "9459383": {
     "imo": "9459383",
@@ -4218,14 +4218,14 @@
     "navio": "A.H. VALLETTA (REB)",
     "navio_normalizado": "A.H. VALLETTA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPBR - BRASCO",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-20T01:40:00.000Z",
-    "ultimo_hash_evento": "7500541465f6dd796b81824e9f8ee85144f62a5e0ba21338e7ed98ca0c2a3480",
-    "atualizado_em": "2026-06-20T01:51:56.325Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-21T17:00:00.000Z",
+    "ultimo_hash_evento": "cd3fe6b0f293050891c4ad49cccdc07820555f3598d3d3f696ead25b4a8fa9de",
+    "atualizado_em": "2026-06-21T19:50:11.241Z"
   },
   "9494905": {
     "imo": "9494905",
@@ -6010,14 +6010,14 @@
     "navio": "CARDIFF",
     "navio_normalizado": "CARDIFF",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C11 - TECON - ICTSI 1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-18T09:00:00.000Z",
-    "ultimo_hash_evento": "fc37321ce137aa2fa8ec8683b153128d82323ec6139a7f084123e2b6306e89f7",
-    "atualizado_em": "2026-04-18T09:00:53.399Z"
+    "ultima_movimentacao_em": "2026-06-21T18:00:00.000Z",
+    "ultimo_hash_evento": "360bc7fe3dbdb82175ed7c722173f2a639481accbf231c2b338d0aa98402acaa",
+    "atualizado_em": "2026-06-21T19:50:11.241Z"
   },
   "9629469": {
     "imo": "9629469",
@@ -8082,14 +8082,14 @@
     "navio": "FERNANDO DE NORONHA",
     "navio_normalizado": "FERNANDO DE NORONHA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-27T13:30:00.000Z",
-    "ultimo_hash_evento": "f33a8099b1ddf41396ae6b90aef10a92c6681f83e2b9f7bf25c6e5730b8a4b44",
-    "atualizado_em": "2026-05-27T13:59:36.237Z"
+    "ultima_movimentacao_em": "2026-06-21T19:00:00.000Z",
+    "ultimo_hash_evento": "a14b87bbc3dc9310b551d75bd95eee1dbd5ba7dcbd1b5dc7fb5f9f4e6f96b225",
+    "atualizado_em": "2026-06-21T19:50:11.241Z"
   },
   "9727352": {
     "imo": "9727352",
@@ -11534,6 +11534,20 @@
     "ultima_movimentacao_em": "2026-05-21T17:00:00.000Z",
     "ultimo_hash_evento": "50bfa6e4bbaf942326973f382e24db3b8bb0e06d832dead79d775116aa081c44",
     "atualizado_em": "2026-05-22T00:11:01.683Z"
+  },
+  "3813885305": {
+    "imo": "3813885305",
+    "navio": "C NITERÓI",
+    "navio_normalizado": "C NITEROI",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESCM - ESTALEIRO CAMORIM",
+    "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-21T16:00:00.000Z",
+    "ultimo_hash_evento": "a0879c9b16f04c9a109f7eb9c11ab1eefa1f59aa18f4edb01b510278d96a247e",
+    "atualizado_em": "2026-06-21T19:50:11.241Z"
   },
   "3813886310": {
     "imo": "3813886310",
