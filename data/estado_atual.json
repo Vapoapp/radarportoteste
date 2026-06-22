@@ -5002,14 +5002,14 @@
     "navio": "PIPIT ARROW",
     "navio_normalizado": "PIPIT ARROW",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "303 - TECON - SEPETIBA TECON S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "303 - TECON - SEPETIBA TECON S.A.",
+    "destino_atual": "Fundeio - 5FB3 - Área de Fundeio B3",
     "agente_atual": "ALL FLAGS AGENCIAMENTO LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-20T09:00:00.000Z",
-    "ultimo_hash_evento": "5dce6c2e85047092c53b608df89fe357ca857cc2e131e4a2c54e208c88dd0bda",
-    "atualizado_em": "2026-06-20T09:34:41.167Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-22T23:00:00.000Z",
+    "ultimo_hash_evento": "4d3ca650f202df59b097ff24b75967c042af18eecceb5b77695ea0f8e72d355c",
+    "atualizado_em": "2026-06-22T23:49:46.142Z"
   },
   "9552991": {
     "imo": "9552991",
@@ -8712,14 +8712,14 @@
     "navio": "POSIDONIA LEOPARD (REB)",
     "navio_normalizado": "POSIDONIA LEOPARD",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-22T13:00:00.000Z",
-    "ultimo_hash_evento": "76f0e09380f4eeab2dd3178876491eb0cbe98841514e93866a803b9ebf5d23b8",
-    "atualizado_em": "2026-06-22T13:17:54.916Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-22T23:00:00.000Z",
+    "ultimo_hash_evento": "d62dc533f93274855124f74e4a133b2c85fb0469a6dcfcc7223f96d7a4d335cf",
+    "atualizado_em": "2026-06-22T23:49:46.142Z"
   },
   "9762845": {
     "imo": "9762845",
@@ -8978,14 +8978,14 @@
     "navio": "GRANDE MIRAFIORI",
     "navio_normalizado": "GRANDE MIRAFIORI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2R12 - Terminal - MCAR 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2R12 - Terminal - MCAR 1",
+    "destino_atual": "-",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-21T22:00:00.000Z",
-    "ultimo_hash_evento": "8c40a7f948482b9f15d7ea31211c9e38279b3bfff31c45877bbfd4779d9f2c53",
-    "atualizado_em": "2026-06-21T22:19:57.283Z"
+    "ultima_movimentacao_em": "2026-06-22T23:00:00.000Z",
+    "ultimo_hash_evento": "fe0b289dabe294dfb6ca8da17a8b91b71c17f73bfa3c7d52eaa665c638b7f0d8",
+    "atualizado_em": "2026-06-22T23:49:46.142Z"
   },
   "9782699": {
     "imo": "9782699",
@@ -10722,6 +10722,20 @@
     "ultima_movimentacao_em": "2026-05-28T09:00:00.000Z",
     "ultimo_hash_evento": "4642ab8d441f557d066819bbe2831c839a73eaec388a6b246b53d79cc9ed3cd8",
     "atualizado_em": "2026-05-28T11:48:30.749Z"
+  },
+  "9953470": {
+    "imo": "9953470",
+    "navio": "RAN DF",
+    "navio_normalizado": "RAN DF",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - WPT 61 - 2F6A",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-22T23:30:00.000Z",
+    "ultimo_hash_evento": "80c2eb81fbf294e7b83e68604f4edac6f9f977f4412bc136bd4a4dd9b095da67",
+    "atualizado_em": "2026-06-22T23:49:46.142Z"
   },
   "9953482": {
     "imo": "9953482",
