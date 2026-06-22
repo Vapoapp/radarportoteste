@@ -3000,14 +3000,14 @@
     "navio": "CMA CGM VERACRUZ (REB S/L)",
     "navio_normalizado": "CMA CGM VERACRUZ (REB S/L)",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C11 - TECON - ICTSI 1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T01:00:00.000Z",
-    "ultimo_hash_evento": "29a5486bce2a7f7f4abe1a4b4b60654181ed47c28e784ddce9d628adcee9bb79",
-    "atualizado_em": "2026-05-25T01:52:38.881Z"
+    "ultima_movimentacao_em": "2026-06-22T09:00:00.000Z",
+    "ultimo_hash_evento": "8cc8cad91f6b7809371c33bbd39e6804d1a9615cd780b24e721030370619bba2",
+    "atualizado_em": "2026-06-22T13:17:54.916Z"
   },
   "9418664": {
     "imo": "9418664",
@@ -6495,6 +6495,20 @@
     "ultimo_hash_evento": "74933e58017f6f5135ab0261ec90b2adccc73544cba7b6d87bbdc20a80ce4cb3",
     "atualizado_em": "2026-05-27T19:35:53.642Z"
   },
+  "9654804": {
+    "imo": "9654804",
+    "navio": "CAPE INDIA",
+    "navio_normalizado": "CAPE INDIA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-22T13:00:00.000Z",
+    "ultimo_hash_evento": "b343e9f32830823320b5f314b11d679a282d4cd79b4cbd0070108545d4850079",
+    "atualizado_em": "2026-06-22T13:17:54.916Z"
+  },
   "9655494": {
     "imo": "9655494",
     "navio": "ILHA DO MOSQUEIRO (REB)",
@@ -6598,14 +6612,14 @@
     "navio": "BARU ANTARES",
     "navio_normalizado": "BARU ANTARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-21T05:30:00.000Z",
-    "ultimo_hash_evento": "6e728566f7fa0c7b1e7d02ec85b84d86f78447315aa87a8041666f5bc7bec7d9",
-    "atualizado_em": "2026-06-21T07:00:03.918Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-22T11:00:00.000Z",
+    "ultimo_hash_evento": "79261bcba6bdca2810153f047e89185bd02cc395f1a93dec359c5486c32ca305",
+    "atualizado_em": "2026-06-22T13:17:54.916Z"
   },
   "9659567": {
     "imo": "9659567",
@@ -7886,14 +7900,14 @@
     "navio": "STARNAV PHOENIX",
     "navio_normalizado": "STARNAV PHOENIX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-21T23:30:00.000Z",
-    "ultimo_hash_evento": "09a633c224aea7fc50f49eb0692ce580c7c14d6ca3bdf3b635717694c0b6f107",
-    "atualizado_em": "2026-06-21T23:48:17.674Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-22T08:00:00.000Z",
+    "ultimo_hash_evento": "165768f541edd5eb2bf7407e284ef47ccbcb4f70d455c10feb10ca10f171507a",
+    "atualizado_em": "2026-06-22T13:17:54.916Z"
   },
   "9718208": {
     "imo": "9718208",
@@ -8446,14 +8460,14 @@
     "navio": "SEACOR DEMERARA (REB)",
     "navio_normalizado": "SEACOR DEMERARA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-21T20:00:00.000Z",
-    "ultimo_hash_evento": "efd31b407d80606aab99d97c8b6e4c244d32a5ee0d6b271d1d07c71f3d9c7376",
-    "atualizado_em": "2026-06-21T20:59:48.278Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-22T11:00:00.000Z",
+    "ultimo_hash_evento": "eda33c44a7e39ef04ec0bb265790194fce0d347092a6c321f0ae82e30fca2ec1",
+    "atualizado_em": "2026-06-22T13:17:54.916Z"
   },
   "9753923": {
     "imo": "9753923",
@@ -8670,14 +8684,14 @@
     "navio": "POSIDONIA LEOPARD (REB)",
     "navio_normalizado": "POSIDONIA LEOPARD",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-18T18:00:00.000Z",
-    "ultimo_hash_evento": "1d6d2bac47d58eabd35d6b4eba42a5e641b753c63e7d14262b5757b673b91251",
-    "atualizado_em": "2026-06-18T18:31:42.470Z"
+    "ultima_movimentacao_em": "2026-06-22T13:00:00.000Z",
+    "ultimo_hash_evento": "76f0e09380f4eeab2dd3178876491eb0cbe98841514e93866a803b9ebf5d23b8",
+    "atualizado_em": "2026-06-22T13:17:54.916Z"
   },
   "9762845": {
     "imo": "9762845",
@@ -8720,6 +8734,20 @@
     "ultima_movimentacao_em": "2026-06-20T22:00:00.000Z",
     "ultimo_hash_evento": "8c7f3c72985b7ec28be73da2ea076b277b8400892db468ba9c946e923b72dd88",
     "atualizado_em": "2026-06-20T22:12:14.321Z"
+  },
+  "9765158": {
+    "imo": "9765158",
+    "navio": "LISBOA",
+    "navio_normalizado": "LISBOA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01 - Visita",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-22T10:00:00.000Z",
+    "ultimo_hash_evento": "9ecdc366407fae1c16d533a795d4fca480404b00d96ab719200768acde5455ca",
+    "atualizado_em": "2026-06-22T13:17:54.916Z"
   },
   "9766621": {
     "imo": "9766621",
@@ -9286,14 +9314,14 @@
     "navio": "STARNAV LIBRA",
     "navio_normalizado": "STARNAV LIBRA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-01T18:00:00.000Z",
-    "ultimo_hash_evento": "e6c6d98191e2a281e1fc217110ed695807ee856812c8fd93f7f1432d3c87e27b",
-    "atualizado_em": "2026-06-01T20:41:57.444Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-22T09:00:00.000Z",
+    "ultimo_hash_evento": "f78fd0f35710584b942d1d3a1559bc943a817085ab0af55fa192d565fea71e6d",
+    "atualizado_em": "2026-06-22T13:17:54.916Z"
   },
   "9806495": {
     "imo": "9806495",
