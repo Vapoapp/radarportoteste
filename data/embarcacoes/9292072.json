@@ -1,29 +1,36 @@
 {
   "imo": "9292072",
   "navio": "ILHA DO CABO FRIO",
-  "gerado_em": "2026-06-22T17:56:02.001Z",
+  "gerado_em": "2026-06-22T20:44:37.936Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-18T08:00:00.000Z"
+    "ultima_movimentacao": "2026-06-22T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 24,
-    "manobras_365d": 24,
+    "manobras_30d": 17,
+    "manobras_180d": 25,
+    "manobras_365d": 25,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 12,
+    "mudancas_30d": 13,
     "entradas_365d": 6,
     "saidas_365d": 5,
     "ultima_entrada": "2026-06-18T04:00:00.000Z",
     "ultima_saida": "2026-06-16T03:00:00.000Z",
     "tempo_medio_estadia_horas": 219.2,
-    "tempo_medio_fundeio_horas": 51.8
+    "tempo_medio_fundeio_horas": 58.5
   },
   "historico_recente": [
+    {
+      "data": "2026-06-22T18:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-06-18T08:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2PAL - Terminal Petrobras AL",
       "para": "-"
-    },
-    {
-      "data": "2026-06-05T13:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "2PAL - Terminal Petrobras AL"
     }
   ]
 }
