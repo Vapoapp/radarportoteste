@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-06-23T05:55:02.383Z",
+  "updatedAt": "2026-06-23T09:30:17.456Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 23
+      "count": 26
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 5
     },
     "itaguai": {
       "ok": true,
@@ -101,16 +101,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "23/06/2026 04:00",
-      "imo": "9944417",
-      "navio": "BRAM SPIRIT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "23/06/2026 05:00",
       "imo": "9349370",
       "navio": "NORMAND COMMANDER (REB)",
@@ -121,6 +111,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "23/06/2026 05:00",
+      "imo": "9627629",
+      "navio": "CBO ARPOADOR",
+      "tipo": "MUDANÇA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/06/2026 05:30",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/06/2026 07:00",
+      "imo": "9944417",
+      "navio": "BRAM SPIRIT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/06/2026 07:00",
       "imo": "9484845",
       "navio": "STRIL EXPLORER",
@@ -128,6 +148,16 @@
       "de": "-",
       "para": "2N09 - Armazém 10",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/06/2026 08:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,11 +282,41 @@
     {
       "porto": "Niterói",
       "inicio": "23/06/2026 06:00",
+      "imo": "9371385",
+      "navio": "OCEANICASUB XVII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "23/06/2026 06:00",
+      "imo": "9409651",
+      "navio": "OCEANICASUB XV (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "23/06/2026 06:00",
       "imo": "9514092",
       "navio": "BJ BLUE MARLIN",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "23/06/2026 06:00",
+      "imo": "9687368",
+      "navio": "BRAM BOA VISTA",
+      "tipo": "SAÍDA",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {

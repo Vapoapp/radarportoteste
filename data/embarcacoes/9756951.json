@@ -1,29 +1,36 @@
 {
   "imo": "9756951",
   "navio": "BS UBATUBA",
-  "gerado_em": "2026-06-23T05:55:02.383Z",
+  "gerado_em": "2026-06-23T09:30:17.456Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-23T05:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-23T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 14,
-    "manobras_365d": 14,
+    "manobras_30d": 7,
+    "manobras_180d": 15,
+    "manobras_365d": 15,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 4,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-06-22T20:00:00.000Z",
-    "ultima_saida": "2026-06-21T11:30:00.000Z",
-    "tempo_medio_estadia_horas": 52.6,
+    "ultima_saida": "2026-06-23T07:00:00.000Z",
+    "tempo_medio_estadia_horas": 38.8,
     "tempo_medio_fundeio_horas": 476.5
   },
   "historico_recente": [
+    {
+      "data": "2026-06-23T07:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-06-23T05:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-04-23T15:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
