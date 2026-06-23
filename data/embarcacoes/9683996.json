@@ -1,29 +1,36 @@
 {
   "imo": "9683996",
   "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
-  "gerado_em": "2026-06-22T23:49:46.142Z",
+  "gerado_em": "2026-06-23T01:50:45.432Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-21T22:30:00.000Z"
+    "ultima_movimentacao": "2026-06-23T01:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 20,
-    "manobras_180d": 44,
-    "manobras_365d": 44,
+    "manobras_30d": 21,
+    "manobras_180d": 45,
+    "manobras_365d": 45,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 13,
+    "mudancas_30d": 14,
     "entradas_365d": 7,
     "saidas_365d": 7,
     "ultima_entrada": "2026-06-21T16:00:00.000Z",
     "ultima_saida": "2026-06-16T15:00:00.000Z",
     "tempo_medio_estadia_horas": 109.1,
-    "tempo_medio_fundeio_horas": 20.9
+    "tempo_medio_fundeio_horas": 21.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-23T01:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-06-21T22:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2PAL - Terminal Petrobras AL"
-    },
-    {
-      "data": "2026-06-08T03:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
