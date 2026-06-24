@@ -1,29 +1,36 @@
 {
   "imo": "9636034",
   "navio": "ORYX (REB)",
-  "gerado_em": "2026-06-24T01:30:12.665Z",
+  "gerado_em": "2026-06-24T05:45:09.454Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-23T21:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-24T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 39,
-    "manobras_365d": 39,
+    "manobras_30d": 19,
+    "manobras_180d": 40,
+    "manobras_365d": 40,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 9,
     "entradas_365d": 9,
-    "saidas_365d": 8,
+    "saidas_365d": 9,
     "ultima_entrada": "2026-06-20T22:00:00.000Z",
-    "ultima_saida": "2026-06-20T10:00:00.000Z",
-    "tempo_medio_estadia_horas": 85.2,
+    "ultima_saida": "2026-06-24T03:00:00.000Z",
+    "tempo_medio_estadia_horas": 84.3,
     "tempo_medio_fundeio_horas": 25.1
   },
   "historico_recente": [
+    {
+      "data": "2026-06-24T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-06-23T21:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO"
-    },
-    {
-      "data": "2026-06-08T04:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
