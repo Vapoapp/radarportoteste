@@ -2804,14 +2804,14 @@
     "navio": "COSTA DO FUTURO (REB)",
     "navio_normalizado": "COSTA DO FUTURO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - WPT 65 - 2F6A",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - WPT 65 - 2F6A",
+    "destino_atual": "TPBK - BRASKEM",
     "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-23T12:00:00.000Z",
-    "ultimo_hash_evento": "b092419417cb1c032caa238af242e3e432368c4d435561d684fdcf71f320dfc3",
-    "atualizado_em": "2026-06-23T12:22:04.897Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-24T17:00:00.000Z",
+    "ultimo_hash_evento": "b63258bbe4e9aaa7af89bdf51aca57bfc86b5c8ebc7e7c842f539d2a437654d9",
+    "atualizado_em": "2026-06-24T18:02:57.822Z"
   },
   "9406635": {
     "imo": "9406635",
@@ -6486,14 +6486,14 @@
     "navio": "MAR LIMPO VII",
     "navio_normalizado": "MAR LIMPO VII",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-24T13:00:00.000Z",
-    "ultimo_hash_evento": "b676d3dcecce0ed9529978b94c963406f44d60be5d3efa6c1ca1f8bdb3f94477",
-    "atualizado_em": "2026-06-24T16:00:16.692Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-24T17:00:00.000Z",
+    "ultimo_hash_evento": "a3f180ca74f018314f585b30fdabf7f23368a35548196637904e030a8a21f28a",
+    "atualizado_em": "2026-06-24T18:02:57.822Z"
   },
   "9649029": {
     "imo": "9649029",
@@ -7404,6 +7404,20 @@
     "ultima_movimentacao_em": "2026-06-13T03:30:00.000Z",
     "ultimo_hash_evento": "b05163272c12c2f818af057a4262898b77a81404985a8346eaefaef8387e3e4c",
     "atualizado_em": "2026-06-13T06:12:40.630Z"
+  },
+  "9694531": {
+    "imo": "9694531",
+    "navio": "STEPHANIE C",
+    "navio_normalizado": "STEPHANIE C",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-24T17:30:00.000Z",
+    "ultimo_hash_evento": "9d7db836c82f588016f6b075bcdeebac8ee2a1a6b6888524e116a227af16a56a",
+    "atualizado_em": "2026-06-24T18:02:57.822Z"
   },
   "9695028": {
     "imo": "9695028",
@@ -9497,13 +9511,13 @@
     "navio_normalizado": "SEALOADER 1",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2N06 - Armazém 7",
+    "origem_atual": "2N06 - Armazém 7",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-23T18:00:00.000Z",
-    "ultimo_hash_evento": "ef8a0f71b894c1acfdc71d530dc6220be834a38b05edf0cdab2e48e2ffe2a17a",
-    "atualizado_em": "2026-06-23T19:25:43.201Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-24T18:00:00.000Z",
+    "ultimo_hash_evento": "a916c0b0737e497d9867c81ec440122614c109fc89d0832ffb4032ad304b3f94",
+    "atualizado_em": "2026-06-24T18:02:57.822Z"
   },
   "9814973": {
     "imo": "9814973",
@@ -11890,14 +11904,14 @@
     "navio": "AMBIPAR PLACIDO",
     "navio_normalizado": "AMBIPAR PLACIDO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESCM - ESTALEIRO CAMORIM",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "ESCM - ESTALEIRO CAMORIM",
+    "destino_atual": "2PAL - Terminal Petrobras AL",
     "agente_atual": "F.N AGENCIAMENTOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-27T16:00:00.000Z",
-    "ultimo_hash_evento": "f35afaa7f3bd6f892d1cc7329625ca0c46565fc5c66de2029277a152c0c2a63c",
-    "atualizado_em": "2026-05-27T21:24:26.610Z"
+    "ultima_movimentacao_em": "2026-06-24T16:00:00.000Z",
+    "ultimo_hash_evento": "45589ed7eadc0308f461a3443c35626dc57f87d2a21048582f68e420cb9fff84",
+    "atualizado_em": "2026-06-24T18:02:57.822Z"
   },
   "": {
     "imo": "",
