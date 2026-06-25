@@ -2370,14 +2370,14 @@
     "navio": "SEATTLE C",
     "navio_normalizado": "SEATTLE C",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-25T11:00:00.000Z",
-    "ultimo_hash_evento": "4e8351792c0d5fef58f044fa289480d44a64b478e548db51d9b66aa406f70f9f",
-    "atualizado_em": "2026-05-25T13:52:54.060Z"
+    "ultima_movimentacao_em": "2026-06-25T23:00:00.000Z",
+    "ultimo_hash_evento": "b0fabf89d07eaa35c1ac3b22a081523808d05f7e8fdd6e017a36d4246ed91d50",
+    "atualizado_em": "2026-06-25T23:59:28.043Z"
   },
   "9361770": {
     "imo": "9361770",
@@ -3084,14 +3084,14 @@
     "navio": "CBO ENDEAVOUR (REB)",
     "navio_normalizado": "CBO ENDEAVOUR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-24T11:00:00.000Z",
-    "ultimo_hash_evento": "45c4e900548cd20206358ced64fb0ceb243370b24b1b47c41736469cf6ae38f8",
-    "atualizado_em": "2026-06-24T11:31:44.803Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-25T23:00:00.000Z",
+    "ultimo_hash_evento": "1fd7491c7a91fa5ee5e8eec63ccc82a8b1f43ae7f93d934197dff7997b9f3097",
+    "atualizado_em": "2026-06-25T23:59:28.043Z"
   },
   "9418030": {
     "imo": "9418030",
@@ -5408,14 +5408,14 @@
     "navio": "SEA1 GIANT",
     "navio_normalizado": "SEA1 GIANT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-10T15:00:00.000Z",
-    "ultimo_hash_evento": "5b58d46f345b1368f73bc9e10888389db5f337c243c57727a913dbdeee3306ff",
-    "atualizado_em": "2026-06-10T15:24:50.638Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-25T23:00:00.000Z",
+    "ultimo_hash_evento": "f6ccd3a59869887ea11f7e87300c37a1c2ce70c2d3536a50ed24c610e6c40631",
+    "atualizado_em": "2026-06-25T23:59:28.043Z"
   },
   "9578880": {
     "imo": "9578880",
@@ -6457,15 +6457,15 @@
     "imo": "9642590",
     "navio": "PINGUIM",
     "navio_normalizado": "PINGUIM",
-    "porto_atual": "Niterói",
+    "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-25T09:00:00.000Z",
-    "ultimo_hash_evento": "e17dd40b57e5ab0ac092a58901bb8b16005dd0fc2457ceb48b7a4ef31c71f96c",
-    "atualizado_em": "2026-06-25T09:55:37.936Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-25T23:00:00.000Z",
+    "ultimo_hash_evento": "55269e28749ac474d4d63392de5920c27e578542bccd97af7c428664ff98f239",
+    "atualizado_em": "2026-06-25T23:59:28.043Z"
   },
   "9643295": {
     "imo": "9643295",
@@ -7285,13 +7285,13 @@
     "navio_normalizado": "SPRINGBOK (BAND. GREYLIST PARIS MOU)",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-24T03:00:00.000Z",
-    "ultimo_hash_evento": "641188a574049ff00816ed204b2e1b19b0b54fbfa30c25148db4028dea0e771a",
-    "atualizado_em": "2026-06-24T05:45:09.454Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-25T23:00:00.000Z",
+    "ultimo_hash_evento": "50f6f0fd031cf99547ba3f317d1e950ea31b80b43fb2549a80f3d19ae86e7a1a",
+    "atualizado_em": "2026-06-25T23:59:28.043Z"
   },
   "9685396": {
     "imo": "9685396",
@@ -9770,6 +9770,20 @@
     "ultima_movimentacao_em": "2026-06-06T08:00:00.000Z",
     "ultimo_hash_evento": "3fe85084fa37d4a1d85888589b26a6d8a42d1025d8c7874e7c4e386868bac2cb",
     "atualizado_em": "2026-06-06T08:43:52.496Z"
+  },
+  "9834349": {
+    "imo": "9834349",
+    "navio": "ELANDRA WILLOW",
+    "navio_normalizado": "ELANDRA WILLOW",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - WPT 63 - 2F6A",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-25T20:00:00.000Z",
+    "ultimo_hash_evento": "81f2ed47ee2effccf25873bd2b4bba0816e56265cbe871d887cc5d725886c515",
+    "atualizado_em": "2026-06-25T23:59:28.043Z"
   },
   "9834545": {
     "imo": "9834545",
