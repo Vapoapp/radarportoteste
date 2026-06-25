@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-25T15:17:42.131Z",
+  "updatedAt": "2026-06-25T17:25:29.651Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 47
+      "count": 56
     },
     "niteroi": {
       "ok": true,
@@ -122,16 +122,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 05:00",
-      "imo": "3810289680",
-      "navio": "BS-8",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F09 - XAREU",
-      "para": "2N17 - Armazém 17",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/06/2026 05:00",
       "imo": "2412230323",
       "navio": "SÃO LUIS",
       "tipo": "MUDANÇA",
@@ -141,13 +131,23 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 05:00",
+      "imo": "3810289680",
+      "navio": "BS-8",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F09 - XAREU",
+      "para": "2N17 - Armazém 17",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 06:00",
-      "imo": "1111973",
-      "navio": "SATURN 5701",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F1A - AF Gragoatá",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "MUDANÇA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -162,12 +162,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 06:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "MUDANÇA",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "1111973",
+      "navio": "SATURN 5701",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F1A - AF Gragoatá",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -292,6 +292,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 12:00",
+      "imo": "9945875",
+      "navio": "COSCO SHIPPING PERU",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 12:00",
+      "imo": "9769221",
+      "navio": "ANNA KNUTSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 81 - 2F08",
+      "para": "-",
+      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 12:00",
       "imo": "9188130",
       "navio": "BRAM NATAL (REB)",
       "tipo": "MUDANÇA",
@@ -321,26 +341,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "25/06/2026 12:00",
-      "imo": "9769221",
-      "navio": "ANNA KNUTSEN",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 81 - 2F08",
-      "para": "-",
-      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/06/2026 12:00",
-      "imo": "9945875",
-      "navio": "COSCO SHIPPING PERU",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 12:30",
       "imo": "9369734",
       "navio": "MSC BREMEN",
@@ -352,22 +352,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 13:00",
-      "imo": "9440681",
-      "navio": "SKUA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/06/2026 13:00",
-      "imo": "9382229",
-      "navio": "NORTH OCEAN 102",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 63 - 2F6A",
-      "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "imo": "8404379",
+      "navio": "AGNES 108",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -382,12 +372,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 13:00",
-      "imo": "8404379",
-      "navio": "AGNES 108",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "imo": "9382229",
+      "navio": "NORTH OCEAN 102",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 63 - 2F6A",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 13:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -408,6 +408,16 @@
       "de": "TPBR - BRASCO",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 15:00",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -488,6 +498,86 @@
       "de": "2R12 - Terminal - MCAR 1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/06/2026 06:00",
+      "imo": "1111973",
+      "navio": "SATURN 5701",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F1A - AF Gragoatá",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/06/2026 06:00",
+      "imo": "9710969",
+      "navio": "SEVEN SUN",
+      "tipo": "SAÍDA",
+      "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/06/2026 07:00",
+      "imo": "9974515",
+      "navio": "MSC UGANDA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/06/2026 10:00",
+      "imo": "9326512",
+      "navio": "Aktea",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPS1 - PETROBRAS PS1",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/06/2026 12:30",
+      "imo": "9365245",
+      "navio": "SCOT DRESDEN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/06/2026 13:00",
+      "imo": "9492062",
+      "navio": "RIO GRANDE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/06/2026 14:30",
+      "imo": "9694529",
+      "navio": "WIDE ALPHA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/06/2026 18:30",
+      "imo": "9351799",
+      "navio": "LOG-IN PANTANAL (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN"
     },
     {
       "porto": "Niterói",
