@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-06-25T06:32:49.732Z",
+  "updatedAt": "2026-06-25T09:55:37.936Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 24
+      "count": 30
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 4
     },
     "itaguai": {
       "ok": true,
-      "count": 10
+      "count": 9
     },
     "angra": {
       "ok": true,
@@ -19,6 +19,16 @@
     }
   },
   "vessels": [
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 00:00",
+      "imo": "9477397",
+      "navio": "CBO CAROLINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 00:00",
@@ -101,6 +111,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 04:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 05:00",
       "imo": "2412230323",
       "navio": "SÃO LUIS",
@@ -121,6 +141,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 06:00",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 06:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "MUDANÇA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 06:30",
       "imo": "9605279",
       "navio": "MSC AMALFI",
@@ -128,6 +168,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 07:00",
+      "imo": "9520675",
+      "navio": "BULK VALOR",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -141,13 +191,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "25/06/2026 07:00",
-      "imo": "9520675",
-      "navio": "BULK VALOR",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
-      "para": "-",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+      "inicio": "25/06/2026 07:30",
+      "imo": "9477397",
+      "navio": "CBO CAROLINA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -231,6 +281,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 20:00",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 21:00",
       "imo": "9703538",
       "navio": "CHIPOL CHANGJIANG",
@@ -261,6 +321,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "25/06/2026 02:00",
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
       "inicio": "25/06/2026 06:00",
       "imo": "9642590",
       "navio": "PINGUIM",
@@ -268,6 +338,26 @@
       "de": "-",
       "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "25/06/2026 07:00",
+      "imo": "9429936",
+      "navio": "SANCO SPIRIT",
+      "tipo": "SAÍDA",
+      "de": "ESCS - CASTRO SILVA",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "25/06/2026 08:00",
+      "imo": "9521021",
+      "navio": "CBO WAVE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -301,27 +391,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "25/06/2026 09:30",
-      "imo": "9459383",
-      "navio": "EVAGGELIA",
-      "tipo": "SAÍDA",
-      "de": "301 - TECON - SEPETIBA TECON S.A.",
-      "para": "-",
-      "agente": "GEM SHIPPING LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "25/06/2026 10:30",
-      "imo": "9402079",
-      "navio": "UAL FORTITUDE",
-      "tipo": "MUDANÇA",
-      "de": "302 - TECON - SEPETIBA TECON S.A.",
-      "para": "301 - TECON - SEPETIBA TECON S.A.",
-      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "25/06/2026 10:30",
+      "inicio": "25/06/2026 13:30",
       "imo": "9420124",
       "navio": "ZHONG MAY",
       "tipo": "SAÍDA",
@@ -331,23 +401,23 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "25/06/2026 12:00",
-      "imo": "9654804",
-      "navio": "CAPE INDIA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FB1 - Área de Fundeio B1",
-      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
-      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+      "inicio": "25/06/2026 14:30",
+      "imo": "9459383",
+      "navio": "EVAGGELIA",
+      "tipo": "SAÍDA",
+      "de": "301 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "GEM SHIPPING LTDA"
     },
     {
       "porto": "Itaguaí",
-      "inicio": "25/06/2026 14:00",
-      "imo": "9881665",
-      "navio": "COSCO SHIPPING HARMONY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "302 - TECON - SEPETIBA TECON S.A.",
-      "agente": "ISS MARINE SERVICES LTDA"
+      "inicio": "25/06/2026 15:30",
+      "imo": "9402079",
+      "navio": "UAL FORTITUDE",
+      "tipo": "MUDANÇA",
+      "de": "302 - TECON - SEPETIBA TECON S.A.",
+      "para": "301 - TECON - SEPETIBA TECON S.A.",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -358,6 +428,16 @@
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
       "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "25/06/2026 18:00",
+      "imo": "9654804",
+      "navio": "CAPE INDIA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
     },
     {
       "porto": "Itaguaí",
