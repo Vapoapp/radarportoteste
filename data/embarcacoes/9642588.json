@@ -1,29 +1,36 @@
 {
   "imo": "9642588",
   "navio": "LARUS",
-  "gerado_em": "2026-06-24T23:53:46.371Z",
+  "gerado_em": "2026-06-25T02:31:45.411Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "ESWS - ESTALEIRO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-24T08:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-25T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 36,
-    "manobras_365d": 36,
+    "manobras_30d": 17,
+    "manobras_180d": 37,
+    "manobras_365d": 37,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 9,
     "entradas_365d": 7,
-    "saidas_365d": 7,
+    "saidas_365d": 8,
     "ultima_entrada": "2026-06-24T08:00:00.000Z",
-    "ultima_saida": "2026-06-19T23:00:00.000Z",
-    "tempo_medio_estadia_horas": 110.2,
+    "ultima_saida": "2026-06-25T00:00:00.000Z",
+    "tempo_medio_estadia_horas": 96.8,
     "tempo_medio_fundeio_horas": 30.2
   },
   "historico_recente": [
+    {
+      "data": "2026-06-25T00:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESWS - ESTALEIRO",
+      "para": "-"
+    },
     {
       "data": "2026-06-24T08:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-06-08T23:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS2 - Terminal Siderúrgico 2"
     }
   ]
 }
