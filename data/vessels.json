@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-06-25T19:22:57.913Z",
+  "updatedAt": "2026-06-25T21:09:10.563Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 63
+      "count": 64
     },
     "niteroi": {
       "ok": true,
-      "count": 9
+      "count": 10
     },
     "itaguai": {
       "ok": true,
@@ -292,12 +292,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 12:00",
-      "imo": "9945875",
-      "navio": "COSCO SHIPPING PERU",
+      "imo": "9769221",
+      "navio": "ANNA KNUTSEN",
       "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "de": "Fundeio - WPT 81 - 2F08",
       "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,22 +312,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 12:00",
-      "imo": "9769221",
-      "navio": "ANNA KNUTSEN",
+      "imo": "9945875",
+      "navio": "COSCO SHIPPING PERU",
       "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 81 - 2F08",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
-      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/06/2026 12:00",
-      "imo": "9423437",
-      "navio": "AKOFS SANTOS (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 82 - 2F08",
-      "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -338,6 +328,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 12:00",
+      "imo": "9423437",
+      "navio": "AKOFS SANTOS (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 82 - 2F08",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -462,16 +462,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 18:00",
-      "imo": "9766621",
-      "navio": "CBO ALIANÇA",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/06/2026 18:00",
       "imo": "9715751",
       "navio": "STARNAV PHOENIX",
       "tipo": "SAÍDA",
@@ -482,12 +472,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/06/2026 18:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 18:00",
       "imo": "9692791",
       "navio": "WILDEBEEST (REB)",
       "tipo": "SAÍDA",
       "de": "TPBL - BRICLOG",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/06/2026 19:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -541,13 +551,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "25/06/2026 21:00",
-      "imo": "9703538",
-      "navio": "CHIPOL CHANGJIANG",
+      "inicio": "25/06/2026 22:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -740,6 +750,16 @@
       "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
+      "porto": "Niterói",
+      "inicio": "25/06/2026 19:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "MUDANÇA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "25/06/2026 06:30",
       "imo": "9851517",
@@ -846,7 +866,7 @@
       "navio": "FERNÃO DE MAGALHÃES",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "303 - TECON - SEPETIBA TECON S.A.",
+      "para": "302 - TECON - SEPETIBA TECON S.A.",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
