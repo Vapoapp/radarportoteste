@@ -1,29 +1,36 @@
 {
   "imo": "9620982",
   "navio": "CBO MISTRAL (REB)",
-  "gerado_em": "2026-06-26T13:20:16.035Z",
+  "gerado_em": "2026-06-26T15:33:26.277Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-06-21T03:00:00.000Z"
+    "local": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-06-26T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 29,
-    "manobras_365d": 29,
-    "entradas_30d": 5,
+    "manobras_30d": 15,
+    "manobras_180d": 30,
+    "manobras_365d": 30,
+    "entradas_30d": 6,
     "saidas_30d": 5,
     "mudancas_30d": 4,
-    "entradas_365d": 11,
+    "entradas_365d": 12,
     "saidas_365d": 11,
-    "ultima_entrada": "2026-06-14T19:00:00.000Z",
+    "ultima_entrada": "2026-06-26T14:00:00.000Z",
     "ultima_saida": "2026-06-21T03:00:00.000Z",
     "tempo_medio_estadia_horas": 43.6,
     "tempo_medio_fundeio_horas": 11.3
   },
   "historico_recente": [
+    {
+      "data": "2026-06-26T14:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-06-21T03:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-06-05T10:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
