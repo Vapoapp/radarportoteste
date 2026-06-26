@@ -3392,14 +3392,14 @@
     "navio": "CBO BIANCA",
     "navio_normalizado": "CBO BIANCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2N09 - Armazém 10",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-26T07:30:00.000Z",
-    "ultimo_hash_evento": "60dfb47f764838b51e9f3652a857cfb965dc3f4f7e3461027c895528789d9a38",
-    "atualizado_em": "2026-06-26T11:11:50.942Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-26T20:00:00.000Z",
+    "ultimo_hash_evento": "1d4b8f545c4db849b65b3e5f35f8669cd1efffb51c3f665917798e7ea2d7dba1",
+    "atualizado_em": "2026-06-26T20:54:26.260Z"
   },
   "9427639": {
     "imo": "9427639",
@@ -3595,7 +3595,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-06-26T10:00:00.000Z",
     "ultimo_hash_evento": "6c3dd6887f297fd855d15263378fc973bd377835fb0f5e4ea5def166504dcfe1",
-    "atualizado_em": "2026-06-26T19:10:37.215Z"
+    "atualizado_em": "2026-06-26T20:54:26.260Z"
   },
   "9442055": {
     "imo": "9442055",
@@ -4839,9 +4839,9 @@
     "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-25T12:00:00.000Z",
-    "ultimo_hash_evento": "d5f9ffa4c16f65d9ba5d2c3c6f09649dbd3869366e06ffc8c8fe7955e1b80c80",
-    "atualizado_em": "2026-06-25T15:17:42.131Z"
+    "ultima_movimentacao_em": "2026-06-26T19:30:00.000Z",
+    "ultimo_hash_evento": "384bbcdfabade29d3489e260a961c8d5fab8c8a0fe3390388a7abb45eeb58f16",
+    "atualizado_em": "2026-06-26T20:54:26.260Z"
   },
   "9528354": {
     "imo": "9528354",
@@ -5450,14 +5450,14 @@
     "navio": "SEA1 GIANT",
     "navio_normalizado": "SEA1 GIANT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-25T23:00:00.000Z",
-    "ultimo_hash_evento": "f6ccd3a59869887ea11f7e87300c37a1c2ce70c2d3536a50ed24c610e6c40631",
-    "atualizado_em": "2026-06-25T23:59:28.043Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-26T19:00:00.000Z",
+    "ultimo_hash_evento": "13ae7d842f4fde29277c6cc3aaba23b0e9962c0672347358d1167355f331f837",
+    "atualizado_em": "2026-06-26T20:54:26.260Z"
   },
   "9578880": {
     "imo": "9578880",
@@ -7621,13 +7621,13 @@
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-26T15:00:00.000Z",
-    "ultimo_hash_evento": "badae28b554207f446c94451e45db67e346e001f94fca5c5766b610699325fea",
-    "atualizado_em": "2026-06-26T15:33:26.277Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-26T20:30:00.000Z",
+    "ultimo_hash_evento": "6c1d9557a1b8c7a88ec4c53e41755a57d08ff239492f8519f9ff84fc08d06087",
+    "atualizado_em": "2026-06-26T20:54:26.260Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -11428,14 +11428,14 @@
     "navio": "MSC UGANDA",
     "navio_normalizado": "MSC UGANDA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2C22 - TECON 2 - MRIO",
     "destino_atual": "2C21 - TECON 3 - MRIO",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-25T18:30:00.000Z",
-    "ultimo_hash_evento": "5e2015a25b1945c6455cf3850e61e31d7fcb0d602092cc43c8d68d11d64fb6cf",
-    "atualizado_em": "2026-06-25T19:22:57.913Z"
+    "ultima_movimentacao_em": "2026-06-26T19:30:00.000Z",
+    "ultimo_hash_evento": "385506e901012604ba4b74b26e2e5b0a23692fae459202d457e06e2ed16da499",
+    "atualizado_em": "2026-06-26T20:54:26.260Z"
   },
   "9975583": {
     "imo": "9975583",
