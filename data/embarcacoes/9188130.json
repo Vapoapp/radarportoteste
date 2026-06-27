@@ -1,7 +1,7 @@
 {
   "imo": "9188130",
   "navio": "BRAM NATAL (REB)",
-  "gerado_em": "2026-06-26T23:20:46.823Z",
+  "gerado_em": "2026-06-27T01:25:53.072Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
@@ -10,12 +10,12 @@
     "ultima_movimentacao": "2026-06-26T22:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 26,
-    "manobras_365d": 26,
+    "manobras_30d": 18,
+    "manobras_180d": 27,
+    "manobras_365d": 27,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 8,
     "saidas_365d": 7,
     "ultima_entrada": "2026-06-16T01:00:00.000Z",
@@ -26,6 +26,13 @@
   "historico_recente": [
     {
       "data": "2026-06-26T22:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-06-26T19:00:00.000Z",
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "TPBR - BRASCO",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-10T10:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
