@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-27T19:46:09.010Z",
+  "updatedAt": "2026-06-27T20:44:18.875Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 47
+      "count": 52
     },
     "niteroi": {
       "ok": true,
@@ -102,6 +102,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "27/06/2026 05:00",
+      "imo": "9223289",
+      "navio": "KANG SHENG KOU",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F02 - Fundeio Marinha",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/06/2026 05:00",
+      "imo": "9391476",
+      "navio": "SHAMAL",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP2 - PETROBRAS PP2",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/06/2026 05:00",
       "imo": "9696802",
       "navio": "STARNAV AQUARIUS (REB)",
       "tipo": "MUDANÇA",
@@ -121,23 +141,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "27/06/2026 05:00",
-      "imo": "9223289",
-      "navio": "KANG SHENG KOU",
+      "inicio": "27/06/2026 06:00",
+      "imo": "9974515",
+      "navio": "MSC UGANDA",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F02 - Fundeio Marinha",
+      "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "27/06/2026 05:00",
-      "imo": "9391476",
-      "navio": "SHAMAL",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP2 - PETROBRAS PP2",
-      "agente": "GAC DO BRASIL LTDA."
+      "inicio": "27/06/2026 06:00",
+      "imo": "9659062",
+      "navio": "NORMAND SIGMA (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -158,26 +178,6 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "27/06/2026 06:00",
-      "imo": "9659062",
-      "navio": "NORMAND SIGMA (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "27/06/2026 06:00",
-      "imo": "9974515",
-      "navio": "MSC UGANDA",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -251,6 +251,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "27/06/2026 08:00",
+      "imo": "9763045",
+      "navio": "MANTA ANADOLU",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIC - ILHA COMPRIDA",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "27/06/2026 09:00",
       "imo": "9687526",
       "navio": "COPIAPO",
@@ -272,21 +282,21 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "27/06/2026 09:00",
-      "imo": "9329942",
-      "navio": "MESTRE DOS MARES (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "27/06/2026 09:00",
       "imo": "9630327",
       "navio": "POSIDONIA JAGUAR",
       "tipo": "SAÍDA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/06/2026 09:00",
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
@@ -401,6 +411,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "27/06/2026 14:00",
+      "imo": "9422330",
+      "navio": "NORMAND POSEIDON (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "27/06/2026 14:30",
       "imo": "9678147",
       "navio": "BRAVANTE II",
@@ -451,13 +471,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "27/06/2026 18:00",
-      "imo": "9620982",
-      "navio": "CBO MISTRAL (REB)",
+      "inicio": "27/06/2026 16:30",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
       "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
+      "de": "TPBR - BRASCO",
       "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/06/2026 16:30",
+      "imo": "9668752",
+      "navio": "STARNAV REGULUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/06/2026 17:30",
+      "imo": "9529877",
+      "navio": "HOS FIRE SERPENT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -488,6 +528,16 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "27/06/2026 22:30",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Niterói",
@@ -601,23 +651,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "28/06/2026 07:00",
-      "imo": "9738583",
-      "navio": "Winning Wisdom",
-      "tipo": "SAÍDA",
-      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "para": "-",
-      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "28/06/2026 08:30",
-      "imo": "9871787",
-      "navio": "EMPRESS ZONDA",
+      "imo": "9398694",
+      "navio": "CITIUS",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FB4 - Área de Fundeio B4",
+      "de": "Fundeio - 5FB1 - Área de Fundeio B1",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -651,13 +691,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "28/06/2026 15:30",
-      "imo": "9522673",
-      "navio": "AGHIA SOFIA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
+      "inicio": "28/06/2026 14:30",
+      "imo": "9738583",
+      "navio": "Winning Wisdom",
+      "tipo": "SAÍDA",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -668,6 +708,16 @@
       "de": "-",
       "para": "303 - TECON - SEPETIBA TECON S.A.",
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "28/06/2026 18:00",
+      "imo": "9522673",
+      "navio": "AGHIA SOFIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
 }

@@ -3280,14 +3280,14 @@
     "navio": "NORMAND POSEIDON (REB)",
     "navio_normalizado": "NORMAND POSEIDON",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
-    "agente_atual": "SOLSTAD SHIPPING LTDA.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-29T11:00:00.000Z",
-    "ultimo_hash_evento": "ff290d3a672cb542cd58063999144d0fcb54d597e6d2585c5668719e3b0549cb",
-    "atualizado_em": "2026-05-29T12:52:48.113Z"
+    "ultima_movimentacao_em": "2026-06-27T17:00:00.000Z",
+    "ultimo_hash_evento": "3e4c4f554a9b58ac3d5d9d66aba70b0d4c5932c736a30b453079a32cac9f39e6",
+    "atualizado_em": "2026-06-27T20:44:18.875Z"
   },
   "9423190": {
     "imo": "9423190",
@@ -4932,14 +4932,14 @@
     "navio": "HOS FIRE SERPENT",
     "navio_normalizado": "HOS FIRE SERPENT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPSS - SUBSEA",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-26T15:30:00.000Z",
-    "ultimo_hash_evento": "c859305e8893b872836b45418b9d4dfbafb5ed0e754ae696fc00738e5b2f5339",
-    "atualizado_em": "2026-06-26T15:33:26.277Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-27T20:30:00.000Z",
+    "ultimo_hash_evento": "0af57b265133bd20f8d137126235c3c788cb12b0ccf4cf6ead7ee33a4bd253aa",
+    "atualizado_em": "2026-06-27T20:44:18.875Z"
   },
   "9529891": {
     "imo": "9529891",
@@ -6262,14 +6262,14 @@
     "navio": "CBO IPANEMA",
     "navio_normalizado": "CBO IPANEMA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
+    "ultimo_tipo_evento": "SAÍDA",
     "origem_atual": "TPBR - BRASCO",
-    "destino_atual": "TPBR - BRASCO",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-27T15:00:00.000Z",
-    "ultimo_hash_evento": "8b6498e9a8b024d162a0ff94fb5a663c057258cab8051ca6e971e3cd43aed85d",
-    "atualizado_em": "2026-06-27T17:03:18.595Z"
+    "ultima_movimentacao_em": "2026-06-27T19:30:00.000Z",
+    "ultimo_hash_evento": "4aa73f8fa235ce2adbc44ee23596dd394859aab7881a729b197bd5ad19eec2a7",
+    "atualizado_em": "2026-06-27T20:44:18.875Z"
   },
   "9628154": {
     "imo": "9628154",
@@ -7102,14 +7102,14 @@
     "navio": "STARNAV REGULUS",
     "navio_normalizado": "STARNAV REGULUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-23T23:00:00.000Z",
-    "ultimo_hash_evento": "3204ac8e4b8aa654a40744d1ca06ea4411ad27cd3b094d2a3b5a9d683d2f23d1",
-    "atualizado_em": "2026-06-23T23:39:38.044Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-27T19:30:00.000Z",
+    "ultimo_hash_evento": "8d38ec8905a4cd5efcec674e5bf8dcdf53ed47dd5343be832fd2ee82d0bcf6a6",
+    "atualizado_em": "2026-06-27T20:44:18.875Z"
   },
   "9670262": {
     "imo": "9670262",
@@ -9056,6 +9056,20 @@
     "ultima_movimentacao_em": "2026-06-10T09:30:00.000Z",
     "ultimo_hash_evento": "225dfa250811b3270b93e640fd653763273feedfa46f5e8a3223fd9531b13ccd",
     "atualizado_em": "2026-06-10T11:55:27.365Z"
+  },
+  "9763045": {
+    "imo": "9763045",
+    "navio": "MANTA ANADOLU",
+    "navio_normalizado": "MANTA ANADOLU",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPIC - ILHA COMPRIDA",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-27T11:00:00.000Z",
+    "ultimo_hash_evento": "544e55812de188f142aaaef58a8abae308fc7d3e3a9784023d109acefe782abe",
+    "atualizado_em": "2026-06-27T20:44:18.875Z"
   },
   "9763760": {
     "imo": "9763760",
