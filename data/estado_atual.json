@@ -74,14 +74,14 @@
     "navio": "MSC ADELE",
     "navio_normalizado": "MSC ADELE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-27T14:00:00.000Z",
-    "ultimo_hash_evento": "1713c1fad1686f64083e4e7bf6ed5286e9d339e4c5c317d3909731ff624a61f8",
-    "atualizado_em": "2026-06-27T14:47:25.385Z"
+    "ultima_movimentacao_em": "2026-06-28T10:00:00.000Z",
+    "ultimo_hash_evento": "e5b8dbefc08cdf8583063eba954615154e17680ea969039f7b85f4f96bfe4ecd",
+    "atualizado_em": "2026-06-28T11:21:14.137Z"
   },
   "1019905": {
     "imo": "1019905",
@@ -2188,14 +2188,14 @@
     "navio": "ALLIE CHOUEST",
     "navio_normalizado": "ALLIE CHOUEST",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-28T05:30:00.000Z",
-    "ultimo_hash_evento": "081c65c367de5e21ca7576432676d8a6a76d63e4f01c704fe4cd9d3890ad27ac",
-    "atualizado_em": "2026-06-28T06:07:40.778Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-28T10:30:00.000Z",
+    "ultimo_hash_evento": "bd43189c8ffede47effa8cd0770262a2f1cf4882fac945c8459baf25606c8998",
+    "atualizado_em": "2026-06-28T11:21:14.137Z"
   },
   "9347827": {
     "imo": "9347827",
@@ -2888,14 +2888,14 @@
     "navio": "CITIUS",
     "navio_normalizado": "CITIUS",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-27T11:00:00.000Z",
-    "ultimo_hash_evento": "4699f865d61a6e511be0aa6135dcdc3fdcf4e0ed492fb6e8be739e34b4129edc",
-    "atualizado_em": "2026-06-27T11:48:49.784Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-28T10:00:00.000Z",
+    "ultimo_hash_evento": "9bc6b10c06e08c7014173df63d68378d8efe4b139f1527c6a3dda6bd9c383550",
+    "atualizado_em": "2026-06-28T11:21:14.137Z"
   },
   "9399595": {
     "imo": "9399595",
@@ -5486,6 +5486,20 @@
     "ultima_movimentacao_em": "2026-05-14T23:00:00.000Z",
     "ultimo_hash_evento": "8f4011013011aa41dbaa53f6fc8b7e56d80fbab4cd82dab84f48d6b07f5d29d6",
     "atualizado_em": "2026-05-14T23:32:08.091Z"
+  },
+  "9575620": {
+    "imo": "9575620",
+    "navio": "TANTALUS TIDE",
+    "navio_normalizado": "TANTALUS TIDE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-28T11:00:00.000Z",
+    "ultimo_hash_evento": "51e008dd08356c6f1bea1a6645806b4c9194f6caa86e90504618d16c666d88f7",
+    "atualizado_em": "2026-06-28T11:21:14.137Z"
   },
   "9578660": {
     "imo": "9578660",
