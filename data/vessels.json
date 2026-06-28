@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-28T14:28:45.340Z",
+  "updatedAt": "2026-06-28T15:51:06.841Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 35
+      "count": 38
     },
     "niteroi": {
       "ok": true,
@@ -172,22 +172,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 06:00",
-      "imo": "9814973",
-      "navio": "SEALOADER 2",
-      "tipo": "SAÍDA",
-      "de": "2N11 - Armazém 13",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/06/2026 06:00",
       "imo": "9629469",
       "navio": "SWANSEA",
       "tipo": "SAÍDA",
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 06:00",
+      "imo": "9814973",
+      "navio": "SEALOADER 2",
+      "tipo": "SAÍDA",
+      "de": "2N11 - Armazém 13",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -251,16 +251,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "28/06/2026 09:00",
-      "imo": "9850862",
-      "navio": "EVER FAR",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 09:30",
       "imo": "9573440",
       "navio": "NORMAND CARIOCA",
@@ -292,22 +282,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 12:00",
-      "imo": "9239446",
-      "navio": "SKANDI CARLA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/06/2026 12:00",
-      "imo": "9333503",
-      "navio": "Z MAX XXIX",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -322,12 +302,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 12:00",
-      "imo": "9626455",
-      "navio": "KUDU (REB)",
+      "imo": "9333503",
+      "navio": "Z MAX XXIX",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 12:00",
+      "imo": "9239446",
+      "navio": "SKANDI CARLA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -352,6 +342,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 19:00",
+      "imo": "9659579",
+      "navio": "BARU MUCURA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 19:00",
       "imo": "9806512",
       "navio": "STARNAV DELPHINUS",
       "tipo": "ENTRADA",
@@ -362,12 +362,42 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 20:00",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 20:00",
       "imo": "9968449",
       "navio": "ITHACA",
       "tipo": "SAÍDA",
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 21:00",
+      "imo": "9850862",
+      "navio": "EVER FAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/06/2026 00:00",
+      "imo": "9703538",
+      "navio": "CHIPOL CHANGJIANG",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Niterói",
@@ -421,7 +451,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "28/06/2026 15:30",
+      "inicio": "28/06/2026 19:00",
       "imo": "9552898",
       "navio": "PIPIT ARROW",
       "tipo": "SAÍDA",
