@@ -1,21 +1,21 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-06-28T06:07:40.778Z",
+  "gerado_em": "2026-06-28T09:30:17.096Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
+    "local": "TPBL - BRICLOG",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-27T08:00:00.000Z"
+    "ultima_movimentacao": "2026-06-28T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 23,
-    "manobras_180d": 53,
-    "manobras_365d": 53,
+    "manobras_30d": 24,
+    "manobras_180d": 54,
+    "manobras_365d": 54,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 16,
+    "mudancas_30d": 17,
     "entradas_365d": 10,
     "saidas_365d": 9,
     "ultima_entrada": "2026-06-26T10:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 26
   },
   "historico_recente": [
+    {
+      "data": "2026-06-28T07:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "TPBL - BRICLOG"
+    },
     {
       "data": "2026-06-27T08:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "-"
-    },
-    {
-      "data": "2026-06-14T08:10:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
     }
   ]
 }

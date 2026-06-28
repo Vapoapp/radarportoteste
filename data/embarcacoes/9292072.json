@@ -1,21 +1,21 @@
 {
   "imo": "9292072",
   "navio": "ILHA DO CABO FRIO",
-  "gerado_em": "2026-06-28T06:07:40.778Z",
+  "gerado_em": "2026-06-28T09:30:17.096Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "2PAL - Terminal Petrobras AL",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-22T18:00:00.000Z"
+    "ultima_movimentacao": "2026-06-28T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 25,
-    "manobras_365d": 25,
+    "manobras_30d": 17,
+    "manobras_180d": 26,
+    "manobras_365d": 26,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 12,
+    "mudancas_30d": 13,
     "entradas_365d": 6,
     "saidas_365d": 5,
     "ultima_entrada": "2026-06-18T04:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 58.5
   },
   "historico_recente": [
+    {
+      "data": "2026-06-28T07:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL"
+    },
     {
       "data": "2026-06-22T18:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-06-05T16:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "-"
     }
   ]
 }
