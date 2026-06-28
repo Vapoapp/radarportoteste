@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-28T11:21:14.137Z",
+  "updatedAt": "2026-06-28T12:49:27.218Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 28
+      "count": 35
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 6
+      "count": 4
     },
     "angra": {
       "ok": true,
@@ -102,32 +102,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 04:00",
-      "imo": "9292072",
-      "navio": "ILHA DO CABO FRIO",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2PAL - Terminal Petrobras AL",
-      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/06/2026 04:00",
-      "imo": "9497127",
-      "navio": "CAMPOS CONTENDER",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/06/2026 04:00",
-      "imo": "9659634",
-      "navio": "BARU TESORO",
-      "tipo": "SAÍDA",
       "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "para": "TPBL - BRICLOG",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -142,12 +122,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 04:00",
-      "imo": "9696802",
-      "navio": "STARNAV AQUARIUS (REB)",
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 04:00",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
       "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 04:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "SAÍDA",
       "de": "2TS1 - Terminal Siderúrgico",
-      "para": "TPBL - BRICLOG",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,22 +172,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 06:00",
-      "imo": "9629469",
-      "navio": "SWANSEA",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/06/2026 06:00",
       "imo": "9814973",
       "navio": "SEALOADER 2",
       "tipo": "SAÍDA",
       "de": "2N11 - Armazém 13",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 06:00",
+      "imo": "9629469",
+      "navio": "SWANSEA",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -198,16 +198,6 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "28/06/2026 07:00",
-      "imo": "9573440",
-      "navio": "NORMAND CARIOCA",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -228,6 +218,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 08:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -261,6 +261,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 09:30",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 10:00",
       "imo": "3810289680",
       "navio": "BS-8",
@@ -268,6 +278,36 @@
       "de": "2N07 - Pátio 8/9",
       "para": "2N17 - Armazém 17",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 11:00",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 12:00",
+      "imo": "9239446",
+      "navio": "SKANDI CARLA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 12:00",
+      "imo": "9333503",
+      "navio": "Z MAX XXIX",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -281,6 +321,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 12:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 12:30",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P14 - Terminal Petrobrás (Armazém 14)",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "28/06/2026 14:00",
       "imo": "9784661",
       "navio": "MERCOSUL FORTALEZA (CNC LION) (REB)",
@@ -288,6 +348,16 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "28/06/2026 19:00",
+      "imo": "9806512",
+      "navio": "STARNAV DELPHINUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -331,33 +401,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "28/06/2026 13:00",
+      "inicio": "28/06/2026 15:30",
       "imo": "9552898",
       "navio": "PIPIT ARROW",
       "tipo": "SAÍDA",
       "de": "303 - TECON - SEPETIBA TECON S.A.",
       "para": "-",
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "28/06/2026 14:30",
-      "imo": "9738583",
-      "navio": "Winning Wisdom",
-      "tipo": "SAÍDA",
-      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "para": "-",
-      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "28/06/2026 18:00",
-      "imo": "9522673",
-      "navio": "AGHIA SOFIA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
 }
