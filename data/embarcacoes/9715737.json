@@ -1,21 +1,21 @@
 {
   "imo": "9715737",
   "navio": "STARNAV ANDROMEDA",
-  "gerado_em": "2026-06-28T17:57:15.977Z",
+  "gerado_em": "2026-06-28T20:38:13.179Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "2TS1 - Terminal Siderúrgico",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-27T14:00:00.000Z"
+    "ultima_movimentacao": "2026-06-28T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 35,
-    "manobras_365d": 35,
+    "manobras_30d": 18,
+    "manobras_180d": 36,
+    "manobras_365d": 36,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 9,
+    "mudancas_30d": 10,
     "entradas_365d": 8,
     "saidas_365d": 8,
     "ultima_entrada": "2026-06-27T08:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 47.9
   },
   "historico_recente": [
+    {
+      "data": "2026-06-28T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-06-27T14:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-09T03:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
