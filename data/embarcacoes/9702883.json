@@ -1,29 +1,43 @@
 {
   "imo": "9702883",
   "navio": "CBO WISER (REB)",
-  "gerado_em": "2026-06-29T17:58:38.263Z",
+  "gerado_em": "2026-06-29T20:05:43.993Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-06-25T00:15:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-06-29T16:20:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 23,
-    "manobras_365d": 23,
-    "entradas_30d": 3,
+    "manobras_30d": 8,
+    "manobras_180d": 25,
+    "manobras_365d": 25,
+    "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 0,
-    "entradas_365d": 10,
+    "mudancas_30d": 1,
+    "entradas_365d": 11,
     "saidas_365d": 10,
-    "ultima_entrada": "2026-06-23T21:30:00.000Z",
+    "ultima_entrada": "2026-06-29T12:20:00.000Z",
     "ultima_saida": "2026-06-25T00:15:00.000Z",
     "tempo_medio_estadia_horas": 57.8,
     "tempo_medio_fundeio_horas": 23.2
   },
   "historico_recente": [
+    {
+      "data": "2026-06-29T16:20:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-06-29T12:20:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-06-25T00:15:00.000Z",
       "tipo": "SAÍDA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-05-25T07:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-20T03:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
