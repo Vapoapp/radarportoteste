@@ -1,29 +1,36 @@
 {
   "imo": "9644146",
   "navio": "ALCATRAZ",
-  "gerado_em": "2026-06-28T23:48:17.270Z",
+  "gerado_em": "2026-06-29T01:58:32.874Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-23T08:30:00.000Z"
+    "ultima_movimentacao": "2026-06-29T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 42,
-    "manobras_365d": 42,
+    "manobras_30d": 14,
+    "manobras_180d": 43,
+    "manobras_365d": 43,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 10,
     "saidas_365d": 8,
     "ultima_entrada": "2026-06-21T16:00:00.000Z",
     "ultima_saida": "2026-06-16T01:00:00.000Z",
     "tempo_medio_estadia_horas": 70.9,
-    "tempo_medio_fundeio_horas": 29.7
+    "tempo_medio_fundeio_horas": 38.5
   },
   "historico_recente": [
+    {
+      "data": "2026-06-29T00:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-06-23T08:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-06-10T19:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
