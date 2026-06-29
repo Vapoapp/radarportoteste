@@ -1,29 +1,36 @@
 {
   "imo": "9657698",
   "navio": "FUGRO AQUARIUS",
-  "gerado_em": "2026-06-29T11:53:44.593Z",
+  "gerado_em": "2026-06-29T15:32:06.363Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "TPMJ - Estaleiro Mauá",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-16T17:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-06-29T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 1,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 0,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-05-16T17:00:00.000Z",
-    "ultima_saida": "2026-05-12T17:00:00.000Z",
+    "ultima_saida": "2026-06-29T14:00:00.000Z",
     "tempo_medio_estadia_horas": 133,
     "tempo_medio_fundeio_horas": 50
   },
   "historico_recente": [
+    {
+      "data": "2026-06-29T14:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "TPMJ - Estaleiro Mauá",
+      "para": "-"
+    },
     {
       "data": "2026-05-16T17:00:00.000Z",
       "tipo": "ENTRADA",
