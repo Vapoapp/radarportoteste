@@ -4722,14 +4722,14 @@
     "navio": "LOG-IN DISCOVERY (REB S/L)",
     "navio_normalizado": "LOG-IN DISCOVERY (REB S/L)",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C22 - TECON 2 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C22 - TECON 2 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-29T10:30:00.000Z",
-    "ultimo_hash_evento": "67a4a87c579ab496e8fb06725f5b1bd3f139bb3061bde331110a932be9845aa5",
-    "atualizado_em": "2026-06-29T11:53:44.593Z"
+    "ultima_movimentacao_em": "2026-06-30T01:00:00.000Z",
+    "ultimo_hash_evento": "708ad9766d0158470efdf3913467b055296e6d943dac5e42fde6ce4962cd9ac0",
+    "atualizado_em": "2026-06-30T01:36:12.176Z"
   },
   "9507518": {
     "imo": "9507518",
@@ -8362,14 +8362,14 @@
     "navio": "STARNAV PHOENIX",
     "navio_normalizado": "STARNAV PHOENIX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-29T19:30:00.000Z",
-    "ultimo_hash_evento": "f3869b63262fb9dece339daea0aadf6bd31c942b07767185c624829d9dd61e41",
-    "atualizado_em": "2026-06-29T20:05:43.993Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-30T01:00:00.000Z",
+    "ultimo_hash_evento": "6d81594b0828a42099573a62e150eb1e8c7e76b24a9ee28a686d1559e5b0488e",
+    "atualizado_em": "2026-06-30T01:36:12.176Z"
   },
   "9718208": {
     "imo": "9718208",
@@ -9230,14 +9230,14 @@
     "navio": "STIM STAR BRASIL",
     "navio_normalizado": "STIM STAR BRASIL",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-29T21:00:00.000Z",
-    "ultimo_hash_evento": "b6892d0fd61c707b1728378be0efa7c7c2d583f09391c253ca7bee9c297d3a82",
-    "atualizado_em": "2026-06-29T21:42:07.818Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-30T01:00:00.000Z",
+    "ultimo_hash_evento": "019f4159d0e5a5b8d69bbafbc2c9245747fd6ecb9365e6dc3b8da75a56101e38",
+    "atualizado_em": "2026-06-30T01:36:12.176Z"
   },
   "9765158": {
     "imo": "9765158",
@@ -9594,14 +9594,14 @@
     "navio": "PARDELA (REB)",
     "navio_normalizado": "PARDELA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "NIT - ATRACADO NITERÓI",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "NIT - ATRACADO NITERÓI",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-29T10:00:00.000Z",
-    "ultimo_hash_evento": "47e8e48f49fe58935e8c84d95e1bf534e64a5a26b19c08e20c88a3af50cd470e",
-    "atualizado_em": "2026-06-29T11:53:44.593Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-29T23:30:00.000Z",
+    "ultimo_hash_evento": "c8d0bfd06d12a7081519300440b3efa38bc2e1113418d70148f29df1752a29bf",
+    "atualizado_em": "2026-06-30T01:36:12.176Z"
   },
   "9788332": {
     "imo": "9788332",
@@ -10919,6 +10919,20 @@
     "ultimo_hash_evento": "456d80a73ed29e8759ab19ba1af064f07116a0eb7299107f76547402c8cf2aa2",
     "atualizado_em": "2026-04-23T23:02:37.026Z"
   },
+  "9910234": {
+    "imo": "9910234",
+    "navio": "EAGLE VALENCE",
+    "navio_normalizado": "EAGLE VALENCE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01 - Visita",
+    "destino_atual": "-",
+    "agente_atual": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-30T01:30:00.000Z",
+    "ultimo_hash_evento": "e7023e034b50402357df75c62391ae523f581a68f261d01b9bca22f4e6f71d2e",
+    "atualizado_em": "2026-06-30T01:36:12.176Z"
+  },
   "9910741": {
     "imo": "9910741",
     "navio": "SHANDONG MISSION",
@@ -11100,6 +11114,20 @@
     "ultima_movimentacao_em": "2026-05-09T19:00:00.000Z",
     "ultimo_hash_evento": "4ea3f8afcef91373ea53695b7ff027a384d2ecf28a2af5900d648486f0cd6d6c",
     "atualizado_em": "2026-05-09T19:16:44.396Z"
+  },
+  "9933236": {
+    "imo": "9933236",
+    "navio": "MAMA SARA",
+    "navio_normalizado": "MAMA SARA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+    "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-30T00:00:00.000Z",
+    "ultimo_hash_evento": "efb279eec4aa1b0dd08e9ab07f9037304a4dcfea60be887394494dbe22a3853b",
+    "atualizado_em": "2026-06-30T01:36:12.176Z"
   },
   "9933597": {
     "imo": "9933597",
