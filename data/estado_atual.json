@@ -172,14 +172,14 @@
     "navio": "SVEND",
     "navio_normalizado": "SVEND",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "302 - TECON - SEPETIBA TECON S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "302 - TECON - SEPETIBA TECON S.A.",
+    "destino_atual": "-",
     "agente_atual": "ALL FLAGS AGENCIAMENTO LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-29T10:30:00.000Z",
-    "ultimo_hash_evento": "560f23ef5d2a6590af6f6b46da14a491402d4067a37545d4cb94fed8ca323164",
-    "atualizado_em": "2026-06-29T11:53:44.593Z"
+    "ultima_movimentacao_em": "2026-06-30T18:00:00.000Z",
+    "ultimo_hash_evento": "b41a43568e4c2a159988cd14a7093380758aab923902b5dd6b222b5feb309d47",
+    "atualizado_em": "2026-06-30T18:08:07.822Z"
   },
   "1044089": {
     "imo": "1044089",
@@ -933,9 +933,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-29T21:00:00.000Z",
-    "ultimo_hash_evento": "983737660f97165617838175ba27bf9f36b9c5e019fefbd29c4777cdc3bfb072",
-    "atualizado_em": "2026-06-29T21:42:07.818Z"
+    "ultima_movimentacao_em": "2026-06-30T18:00:00.000Z",
+    "ultimo_hash_evento": "c680a13ad1f4df83a662ec4ecb60a9b28c31ca813306e18220180df44f486b0e",
+    "atualizado_em": "2026-06-30T18:08:07.822Z"
   },
   "9246580": {
     "imo": "9246580",
@@ -2833,13 +2833,13 @@
     "navio_normalizado": "SKANDI NITEROI",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2N06 - Armazém 7",
-    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-02T14:00:00.000Z",
-    "ultimo_hash_evento": "f5b4d6c7ae0916cf3f4f348ed59f178a76f6a0d371468ec84bb3d52577897328",
-    "atualizado_em": "2026-06-02T17:10:37.688Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-06-30T17:00:00.000Z",
+    "ultimo_hash_evento": "ec2720a40cb9b13d46035320b34699db36c2b02cc229bb71913623606bb146b5",
+    "atualizado_em": "2026-06-30T18:08:07.822Z"
   },
   "9388584": {
     "imo": "9388584",
@@ -4275,13 +4275,13 @@
     "navio_normalizado": "CBO CAROLINA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-27T07:00:00.000Z",
-    "ultimo_hash_evento": "b0af66b5379f8023516f33f29701c78824a21164351e4fa806cfa205c4dd3955",
-    "atualizado_em": "2026-06-27T08:05:37.788Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-30T17:00:00.000Z",
+    "ultimo_hash_evento": "e14058e4c2182d2d863a472a4959cb70fe030860287d3f64a52e98cd9f89135a",
+    "atualizado_em": "2026-06-30T18:08:07.822Z"
   },
   "9477402": {
     "imo": "9477402",
@@ -9175,13 +9175,13 @@
     "navio_normalizado": "STARNAV VOLANS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-28T11:00:00.000Z",
-    "ultimo_hash_evento": "174c3919a36644b4619b9762403dc9884bf3eed793ec002f924405ce02a6759e",
-    "atualizado_em": "2026-06-28T12:49:27.218Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-06-30T18:00:00.000Z",
+    "ultimo_hash_evento": "5800af53f3e219e030b957ec130e67ad75fac0c1de13fd497d58e30c0055f897",
+    "atualizado_em": "2026-06-30T18:08:07.822Z"
   },
   "9759991": {
     "imo": "9759991",
@@ -9613,9 +9613,9 @@
     "destino_atual": "-",
     "agente_atual": "GEM SHIPPING LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-28T07:00:00.000Z",
-    "ultimo_hash_evento": "5f963917e4b04866016c59f7a665a127437220091c9b4f4bef4c6fdc9f3106f9",
-    "atualizado_em": "2026-06-28T09:30:17.096Z"
+    "ultima_movimentacao_em": "2026-06-30T17:00:00.000Z",
+    "ultimo_hash_evento": "7ffb5234b84ed380324950beba0ca04522e6dba7dd9f4b3f3005d742384c4192",
+    "atualizado_em": "2026-06-30T18:08:07.822Z"
   },
   "9786097": {
     "imo": "9786097",
