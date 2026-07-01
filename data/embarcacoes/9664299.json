@@ -1,29 +1,36 @@
 {
   "imo": "9664299",
   "navio": "BRAM BRASILIA",
-  "gerado_em": "2026-06-30T22:59:22.035Z",
+  "gerado_em": "2026-07-01T00:14:41.827Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-30T18:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-01T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 19,
-    "manobras_180d": 51,
-    "manobras_365d": 51,
+    "manobras_30d": 20,
+    "manobras_180d": 52,
+    "manobras_365d": 52,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 12,
     "entradas_365d": 11,
-    "saidas_365d": 9,
+    "saidas_365d": 10,
     "ultima_entrada": "2026-06-30T18:00:00.000Z",
-    "ultima_saida": "2026-06-28T07:00:00.000Z",
-    "tempo_medio_estadia_horas": 60.2,
+    "ultima_saida": "2026-07-01T00:00:00.000Z",
+    "tempo_medio_estadia_horas": 52.4,
     "tempo_medio_fundeio_horas": 20.5
   },
   "historico_recente": [
+    {
+      "data": "2026-07-01T00:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "-"
+    },
     {
       "data": "2026-06-30T18:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "-"
-    },
-    {
-      "data": "2026-06-15T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS2 - Terminal Siderúrgico 2"
     }
   ]
 }
