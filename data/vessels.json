@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-02T04:33:33.409Z",
+  "updatedAt": "2026-07-02T07:52:20.717Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 19
+      "count": 25
     },
     "niteroi": {
       "ok": true,
@@ -51,6 +51,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/07/2026 01:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/07/2026 03:00",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/07/2026 03:00",
       "imo": "9529891",
       "navio": "JOE GRIFFIN (REB)",
@@ -71,6 +91,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/07/2026 04:00",
+      "imo": "9627629",
+      "navio": "CBO ARPOADOR",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/07/2026 04:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/07/2026 04:30",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/07/2026 06:00",
       "imo": "9827281",
       "navio": "CBO TERRA BRASILIS",
@@ -78,6 +128,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/07/2026 07:00",
+      "imo": "9674127",
+      "navio": "WEST CARINA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F11 - AF Boa Viagem",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -92,22 +152,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/07/2026 07:00",
-      "imo": "9674127",
-      "navio": "WEST CARINA",
+      "imo": "9260835",
+      "navio": "SCOT BREMEN",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F11 - AF Boa Viagem",
+      "de": "2N06 - Armazém 7",
       "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/07/2026 08:30",
-      "imo": "9499888",
-      "navio": "RECIFE KNUTSEN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "GAC DO BRASIL LTDA."
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -118,6 +168,16 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/07/2026 08:30",
+      "imo": "9499888",
+      "navio": "RECIFE KNUTSEN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
