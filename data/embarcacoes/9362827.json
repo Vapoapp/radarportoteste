@@ -1,21 +1,21 @@
 {
   "imo": "9362827",
   "navio": "INDUSTRIAL HOBART",
-  "gerado_em": "2026-07-02T21:54:24.649Z",
+  "gerado_em": "2026-07-02T22:58:30.551Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2N06 - Armazém 7",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F01N - Visita Norte",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-05-23T06:30:00.000Z"
+    "ultima_movimentacao": "2026-07-02T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 1,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-05-20T22:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-07-02T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2N06 - Armazém 7",
+      "para": "Fundeio - 2F01N - Visita Norte"
+    },
     {
       "data": "2026-05-23T06:30:00.000Z",
       "tipo": "MUDANÇA",
