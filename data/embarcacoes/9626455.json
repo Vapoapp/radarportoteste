@@ -1,29 +1,36 @@
 {
   "imo": "9626455",
   "navio": "KUDU (REB)",
-  "gerado_em": "2026-07-02T16:26:01.281Z",
+  "gerado_em": "2026-07-02T18:12:34.789Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-29T01:00:00.000Z"
+    "ultima_movimentacao": "2026-07-02T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 22,
-    "manobras_365d": 22,
+    "manobras_30d": 15,
+    "manobras_180d": 23,
+    "manobras_365d": 23,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 6,
     "saidas_365d": 6,
     "ultima_entrada": "2026-06-28T15:00:00.000Z",
     "ultima_saida": "2026-06-25T03:00:00.000Z",
     "tempo_medio_estadia_horas": 77,
-    "tempo_medio_fundeio_horas": 36.4
+    "tempo_medio_fundeio_horas": 42.1
   },
   "historico_recente": [
+    {
+      "data": "2026-07-02T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-06-29T01:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-06-17T05:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
