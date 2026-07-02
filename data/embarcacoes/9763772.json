@@ -1,29 +1,36 @@
 {
   "imo": "9763772",
   "navio": "STIM STAR BRASIL",
-  "gerado_em": "2026-07-01T23:03:10.133Z",
+  "gerado_em": "2026-07-02T04:33:33.409Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-30T13:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-02T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 13,
-    "manobras_365d": 13,
+    "manobras_30d": 6,
+    "manobras_180d": 14,
+    "manobras_365d": 14,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 1,
     "entradas_365d": 5,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-06-29T21:00:00.000Z",
-    "ultima_saida": "2026-06-20T22:00:00.000Z",
-    "tempo_medio_estadia_horas": 204.3,
+    "ultima_saida": "2026-07-02T03:00:00.000Z",
+    "tempo_medio_estadia_horas": 174.2,
     "tempo_medio_fundeio_horas": 15
   },
   "historico_recente": [
+    {
+      "data": "2026-07-02T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-"
+    },
     {
       "data": "2026-06-30T13:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-05-06T19:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
