@@ -1,29 +1,36 @@
 {
   "imo": "9806512",
   "navio": "STARNAV DELPHINUS",
-  "gerado_em": "2026-07-03T04:06:19.855Z",
+  "gerado_em": "2026-07-03T07:32:38.096Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-05-26T14:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-03T05:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 15,
-    "manobras_365d": 15,
+    "manobras_30d": 1,
+    "manobras_180d": 16,
+    "manobras_365d": 16,
     "entradas_30d": 0,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 5,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-05-26T14:00:00.000Z",
-    "ultima_saida": "2026-05-24T21:00:00.000Z",
+    "ultima_saida": "2026-07-03T05:30:00.000Z",
     "tempo_medio_estadia_horas": 217.9,
     "tempo_medio_fundeio_horas": 199.1
   },
   "historico_recente": [
+    {
+      "data": "2026-07-03T05:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-05-26T14:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-05-06T18:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

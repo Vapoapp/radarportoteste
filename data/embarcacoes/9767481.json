@@ -1,21 +1,21 @@
 {
   "imo": "9767481",
   "navio": "ULTRA INFINITY",
-  "gerado_em": "2026-07-03T04:06:19.855Z",
+  "gerado_em": "2026-07-03T07:32:38.096Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2N07 - Pátio 8/9",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-29T03:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - WPT 91 - AF Preferencial Gusa",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-03T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-06-29T03:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-07-03T06:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa"
+    },
     {
       "data": "2026-06-29T03:30:00.000Z",
       "tipo": "ENTRADA",

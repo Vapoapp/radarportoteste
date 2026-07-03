@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-03T04:06:19.855Z",
+  "updatedAt": "2026-07-03T07:32:38.096Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 26
+      "count": 31
     },
     "niteroi": {
       "ok": true,
@@ -91,6 +91,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "03/07/2026 02:30",
+      "imo": "9806512",
+      "navio": "STARNAV DELPHINUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "03/07/2026 03:00",
       "imo": "2412230323",
       "navio": "SÃO LUIS",
@@ -132,12 +142,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "03/07/2026 04:00",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/07/2026 04:00",
       "imo": "9644158",
       "navio": "ZARAPITO",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/07/2026 05:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -231,6 +261,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "03/07/2026 08:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "03/07/2026 08:30",
       "imo": "9456965",
       "navio": "MSC ODESSA V",
@@ -238,6 +278,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/07/2026 09:00",
+      "imo": "9958743",
+      "navio": "Rem Wind",
+      "tipo": "SAÍDA",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
