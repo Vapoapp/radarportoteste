@@ -2244,14 +2244,14 @@
     "navio": "ALLIE CHOUEST",
     "navio_normalizado": "ALLIE CHOUEST",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T11:00:00.000Z",
-    "ultimo_hash_evento": "7f645edc944ddb8377218b1738b3ab13681ccbe6168f9f55ff1e07895d3c09d3",
-    "atualizado_em": "2026-07-03T14:35:01.601Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-03T23:00:00.000Z",
+    "ultimo_hash_evento": "93ec0d7d8a0d07bcb393dac49ea5cc917d3b8c8ad7566a70ee96d5d323d2f663",
+    "atualizado_em": "2026-07-03T23:36:34.014Z"
   },
   "9347827": {
     "imo": "9347827",
@@ -6850,14 +6850,14 @@
     "navio": "ALCATRAZ",
     "navio_normalizado": "ALCATRAZ",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-03T20:00:00.000Z",
-    "ultimo_hash_evento": "f6f1cc69ae8a0a0f4438f455c7cbf9ab76057afe969f63eb2952b7a93739d222",
-    "atualizado_em": "2026-07-03T20:08:42.805Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-03T22:00:00.000Z",
+    "ultimo_hash_evento": "2913520afa9aaf5f44d27388623888109a19fa9d855360f9077a5d46f36df6ef",
+    "atualizado_em": "2026-07-03T23:36:34.014Z"
   },
   "9644158": {
     "imo": "9644158",
@@ -8509,7 +8509,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-07-03T21:00:00.000Z",
     "ultimo_hash_evento": "3f11702587a3cca17fafd19b9f77d8268237175755aaf1ca11c1a06afad40a38",
-    "atualizado_em": "2026-07-03T22:29:26.087Z"
+    "atualizado_em": "2026-07-03T23:36:34.014Z"
   },
   "9715751": {
     "imo": "9715751",
@@ -9385,13 +9385,13 @@
     "navio_normalizado": "BRAM BUCK",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T11:00:00.000Z",
-    "ultimo_hash_evento": "4cc9a9c400dd88502a015c45b544c1ec8de5ee39352321cc9d06d11bea3b7e85",
-    "atualizado_em": "2026-07-03T12:20:07.803Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-03T23:00:00.000Z",
+    "ultimo_hash_evento": "69fadf2c011d775dea913d64a69543967fce3349d1e98bda2279dc0794930654",
+    "atualizado_em": "2026-07-03T23:36:34.014Z"
   },
   "9763772": {
     "imo": "9763772",
@@ -11540,14 +11540,14 @@
     "navio": "NS EXPLORER",
     "navio_normalizado": "NS EXPLORER",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "destino_atual": "-",
     "agente_atual": "TRIAINA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-02T12:30:00.000Z",
-    "ultimo_hash_evento": "dae126d85ff0c4ece2dcc48b7160899e581bc99a63243d9283e79c4d8fae7f52",
-    "atualizado_em": "2026-07-02T14:38:45.027Z"
+    "ultima_movimentacao_em": "2026-07-03T23:30:00.000Z",
+    "ultimo_hash_evento": "305675638cfcba46da8f8d5ee4ad263685c6d9a97c19375081267d7da722daa7",
+    "atualizado_em": "2026-07-03T23:36:34.014Z"
   },
   "9948114": {
     "imo": "9948114",
@@ -11708,14 +11708,14 @@
     "navio": "Rem Wind",
     "navio_normalizado": "REM WIND",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "ESPR - MacLaren Ilha da Conceição",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T12:00:00.000Z",
-    "ultimo_hash_evento": "d9fb2918d1a18a4e31339336208e79cae9da89a1494d6d76e38220f1f5e4c31d",
-    "atualizado_em": "2026-07-03T12:20:07.803Z"
+    "ultima_movimentacao_em": "2026-07-03T23:00:00.000Z",
+    "ultimo_hash_evento": "be03204c14680459b995161808342f29a7a8932196a8aaafb90ea8b55eeff70a",
+    "atualizado_em": "2026-07-03T23:36:34.014Z"
   },
   "9959216": {
     "imo": "9959216",
