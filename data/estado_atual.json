@@ -2637,13 +2637,13 @@
     "navio_normalizado": "SIDDIS SAILOR",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-01T14:00:00.000Z",
-    "ultimo_hash_evento": "5b87041bb24f0d68ea746c43e1a7a4f0fe1c9db44eed3f2895f7e55952963bae",
-    "atualizado_em": "2026-07-01T16:24:01.118Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-03T15:00:00.000Z",
+    "ultimo_hash_evento": "4f69ed8b8993c18a24c27c14fe2750abf2d6335b141cb682ade892beea3d50df",
+    "atualizado_em": "2026-07-03T16:09:32.869Z"
   },
   "9371218": {
     "imo": "9371218",
@@ -4633,6 +4633,20 @@
     "ultimo_hash_evento": "58c1b32a58b973a33d3ae3907b095f706cf1a0ae9a8722a82259b6f12f333230",
     "atualizado_em": "2026-06-12T13:50:30.046Z"
   },
+  "9495923": {
+    "imo": "9495923",
+    "navio": "PELICAN ARROW",
+    "navio_normalizado": "PELICAN ARROW",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01N - Visita Norte",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-03T15:00:00.000Z",
+    "ultimo_hash_evento": "2155c75458b47e8ec34635907c816fa81ccab10b3f117105195dc07aed63c599",
+    "atualizado_em": "2026-07-03T16:09:32.869Z"
+  },
   "9496173": {
     "imo": "9496173",
     "navio": "GEM STAR",
@@ -5744,14 +5758,14 @@
     "navio": "SEA1 MARATAÍZES",
     "navio_normalizado": "SEA1 MARATAIZES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-03T00:00:00.000Z",
-    "ultimo_hash_evento": "98ddc68b60a51d2802a3a54ee45c9baa71c0e6a637cbab4bbf5a3a0a37c2a6e3",
-    "atualizado_em": "2026-07-03T00:10:19.772Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-03T16:00:00.000Z",
+    "ultimo_hash_evento": "e71be1bc614613413927050169207c29f33c976446cc367c829f931b7e58def3",
+    "atualizado_em": "2026-07-03T16:09:32.869Z"
   },
   "9581423": {
     "imo": "9581423",
@@ -6843,21 +6857,21 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-07-03T09:00:00.000Z",
     "ultimo_hash_evento": "a466f680b642eeabda6c80a1783608f3d44ef9ccc3b23fe55fd5a0edefb20ca0",
-    "atualizado_em": "2026-07-03T14:35:01.601Z"
+    "atualizado_em": "2026-07-03T16:09:32.869Z"
   },
   "9644160": {
     "imo": "9644160",
     "navio": "BRAM BELEM",
     "navio_normalizado": "BRAM BELEM",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-03T09:30:00.000Z",
-    "ultimo_hash_evento": "381db816ae9c5b5f95c22627d6524488c303eff08ed9a27af55e44eac012c330",
-    "atualizado_em": "2026-07-03T10:14:55.908Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-03T16:00:00.000Z",
+    "ultimo_hash_evento": "1e3306b49db56337a000d4bd57a2632067c99eb50a7f0a05ec70a1fe54707a70",
+    "atualizado_em": "2026-07-03T16:09:32.869Z"
   },
   "9645542": {
     "imo": "9645542",
@@ -10028,14 +10042,14 @@
     "navio": "STARNAV CIRCINUS",
     "navio_normalizado": "STARNAV CIRCINUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2NTO - Terminal de Óleo",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-11T21:00:00.000Z",
-    "ultimo_hash_evento": "db4d6383b9beec5dbb8194a31f76f623a97c40194d5b48963b44cd9651c79f33",
-    "atualizado_em": "2026-06-11T21:33:14.291Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-03T15:00:00.000Z",
+    "ultimo_hash_evento": "ae1bddf54e5f18c5c4699025d57fc9f3bf5dc06061a84e747b650fb1af815f8b",
+    "atualizado_em": "2026-07-03T16:09:32.869Z"
   },
   "9806512": {
     "imo": "9806512",
@@ -12325,13 +12339,13 @@
     "navio_normalizado": "SAO TOME",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2N11 - Armazém 13",
+    "origem_atual": "2N07 - Pátio 8/9",
     "destino_atual": "2TS2 - Terminal Siderúrgico 2",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T14:00:00.000Z",
-    "ultimo_hash_evento": "125e8fe670a999045383a9918f20bd4e3c421aa71d8d1af289f6dc2589f90ed1",
-    "atualizado_em": "2026-07-03T14:35:01.601Z"
+    "ultima_movimentacao_em": "2026-07-03T16:00:00.000Z",
+    "ultimo_hash_evento": "18c3e1a569b97e571e1a663821173c84ff138cd95ff1dbedcd69f6c42cbaca95",
+    "atualizado_em": "2026-07-03T16:09:32.869Z"
   },
   "2818922518": {
     "imo": "2818922518",
