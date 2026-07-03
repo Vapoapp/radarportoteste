@@ -88,14 +88,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T05:00:00.000Z",
-    "ultimo_hash_evento": "1b72782b45013a3b6c1f080cf72a8fd1d5f96129bdc2e6cf3e532112ff8337b9",
-    "atualizado_em": "2026-07-03T07:32:38.096Z"
+    "ultima_movimentacao_em": "2026-07-03T17:00:00.000Z",
+    "ultimo_hash_evento": "ae97dd55dd67bb34b0a624321a75d71d2539d5f97ed9afe5f7b8a3d5666cbe91",
+    "atualizado_em": "2026-07-03T17:45:46.699Z"
   },
   "1020605": {
     "imo": "1020605",
@@ -1507,9 +1507,9 @@
     "destino_atual": "-",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-30T03:30:00.000Z",
-    "ultimo_hash_evento": "07b3295b1a850aec829934ee0373134da5157fd18129287700a36f5f0feb187f",
-    "atualizado_em": "2026-06-30T05:52:11.430Z"
+    "ultima_movimentacao_em": "2026-07-03T16:30:00.000Z",
+    "ultimo_hash_evento": "859db471d5fb7b35271f01bd822f9e13505b8fcde9998eafb9effe7df744f301",
+    "atualizado_em": "2026-07-03T17:45:46.699Z"
   },
   "9292175": {
     "imo": "9292175",
@@ -3392,14 +3392,14 @@
     "navio": "ELIZABETH C",
     "navio_normalizado": "ELIZABETH C",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T11:00:00.000Z",
-    "ultimo_hash_evento": "e91259000b81b00aaaa24b91bad4f653c30e0a3bbae5b26387def9d1ea9b0b0a",
-    "atualizado_em": "2026-07-03T12:20:07.803Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-03T17:00:00.000Z",
+    "ultimo_hash_evento": "7c86df1ce857e93ee51f6d03c820cd429338da71a3c726abb72b5346e5f5716f",
+    "atualizado_em": "2026-07-03T17:45:46.699Z"
   },
   "9423437": {
     "imo": "9423437",
@@ -6857,7 +6857,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-07-03T09:00:00.000Z",
     "ultimo_hash_evento": "a466f680b642eeabda6c80a1783608f3d44ef9ccc3b23fe55fd5a0edefb20ca0",
-    "atualizado_em": "2026-07-03T16:09:32.869Z"
+    "atualizado_em": "2026-07-03T17:45:46.699Z"
   },
   "9644160": {
     "imo": "9644160",
@@ -9973,13 +9973,13 @@
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T06:00:00.000Z",
-    "ultimo_hash_evento": "6d9b12f1b45a6dd88113a07c1b5b5ab2ddc2ebef63bc108ed875e567e76ae4ba",
-    "atualizado_em": "2026-07-03T07:32:38.096Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-03T17:00:00.000Z",
+    "ultimo_hash_evento": "2915343d47461d19cdd9dac0efbf3ba9c975da507d7a783af866e276aad8a47b",
+    "atualizado_em": "2026-07-03T17:45:46.699Z"
   },
   "9799628": {
     "imo": "9799628",
@@ -12339,13 +12339,13 @@
     "navio_normalizado": "SAO TOME",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2N07 - Pátio 8/9",
-    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
+    "destino_atual": "2N11 - Armazém 13",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T16:00:00.000Z",
-    "ultimo_hash_evento": "18c3e1a569b97e571e1a663821173c84ff138cd95ff1dbedcd69f6c42cbaca95",
-    "atualizado_em": "2026-07-03T16:09:32.869Z"
+    "ultima_movimentacao_em": "2026-07-03T17:00:00.000Z",
+    "ultimo_hash_evento": "ea738d8f7971c9d7e3984d04152385124fa6c7b9f65f21aa243d585f2bc4f02c",
+    "atualizado_em": "2026-07-03T17:45:46.699Z"
   },
   "2818922518": {
     "imo": "2818922518",
