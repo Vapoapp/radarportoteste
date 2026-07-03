@@ -1,21 +1,21 @@
 {
   "imo": "2412230048",
   "navio": "SÃO TOMÉ",
-  "gerado_em": "2026-07-03T12:20:07.803Z",
+  "gerado_em": "2026-07-03T14:35:01.601Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2N11 - Armazém 13",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-24T11:00:00.000Z"
+    "local": "2TS2 - Terminal Siderúrgico 2",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-03T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 2,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 2,
     "saidas_365d": 2,
     "ultima_entrada": "2026-06-24T11:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-07-03T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2N11 - Armazém 13",
+      "para": "2TS2 - Terminal Siderúrgico 2"
+    },
     {
       "data": "2026-06-24T11:00:00.000Z",
       "tipo": "ENTRADA",
