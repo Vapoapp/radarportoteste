@@ -1,21 +1,21 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-07-03T23:36:34.014Z",
+  "gerado_em": "2026-07-04T01:12:48.693Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-03T20:00:00.000Z"
+    "ultima_movimentacao": "2026-07-04T00:50:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 48,
-    "manobras_365d": 48,
+    "manobras_30d": 16,
+    "manobras_180d": 49,
+    "manobras_365d": 49,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 9,
+    "mudancas_30d": 10,
     "entradas_365d": 10,
     "saidas_365d": 10,
     "ultima_entrada": "2026-06-30T13:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 37.9
   },
   "historico_recente": [
+    {
+      "data": "2026-07-04T00:50:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESWS - ESTALEIRO",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-07-03T20:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)"
-    },
-    {
-      "data": "2026-06-14T23:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
