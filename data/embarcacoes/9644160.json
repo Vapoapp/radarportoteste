@@ -1,21 +1,21 @@
 {
   "imo": "9644160",
   "navio": "BRAM BELEM",
-  "gerado_em": "2026-07-04T09:46:26.920Z",
+  "gerado_em": "2026-07-04T11:12:03.702Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-04T00:00:00.000Z"
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-04T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 20,
-    "manobras_180d": 48,
-    "manobras_365d": 48,
+    "manobras_30d": 21,
+    "manobras_180d": 49,
+    "manobras_365d": 49,
     "entradas_30d": 7,
     "saidas_30d": 6,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 13,
     "saidas_365d": 12,
     "ultima_entrada": "2026-07-04T00:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 25.9
   },
   "historico_recente": [
+    {
+      "data": "2026-07-04T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-07-04T00:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-28T19:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "ESPR - MacLaren Ilha da Conceição",
-      "para": "-"
     }
   ]
 }

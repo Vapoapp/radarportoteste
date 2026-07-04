@@ -1,29 +1,36 @@
 {
   "imo": "9347358",
   "navio": "ALLIE CHOUEST",
-  "gerado_em": "2026-07-04T09:46:26.920Z",
+  "gerado_em": "2026-07-04T11:12:03.702Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-04T07:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-04T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 16,
-    "manobras_365d": 16,
+    "manobras_30d": 14,
+    "manobras_180d": 17,
+    "manobras_365d": 17,
     "entradas_30d": 6,
-    "saidas_30d": 6,
+    "saidas_30d": 7,
     "mudancas_30d": 1,
     "entradas_365d": 7,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-07-03T23:00:00.000Z",
-    "ultima_saida": "2026-07-03T11:00:00.000Z",
-    "tempo_medio_estadia_horas": 11.5,
+    "ultima_saida": "2026-07-04T11:00:00.000Z",
+    "tempo_medio_estadia_horas": 11.6,
     "tempo_medio_fundeio_horas": 111.4
   },
   "historico_recente": [
+    {
+      "data": "2026-07-04T11:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-07-04T07:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-29T19:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
