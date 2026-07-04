@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-04T12:17:51.302Z",
+  "updatedAt": "2026-07-04T14:02:59.629Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 48
+      "count": 52
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 12
+      "count": 10
     },
     "angra": {
       "ok": true,
@@ -122,22 +122,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/07/2026 06:00",
-      "imo": "9756951",
-      "navio": "BS UBATUBA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "04/07/2026 06:00",
       "imo": "9715751",
       "navio": "STARNAV PHOENIX",
       "tipo": "MUDANÇA",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/07/2026 06:00",
+      "imo": "9756951",
+      "navio": "BS UBATUBA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -212,32 +212,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/07/2026 08:00",
-      "imo": "9644160",
-      "navio": "BRAM BELEM",
-      "tipo": "MUDANÇA",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "04/07/2026 08:00",
-      "imo": "9477402",
-      "navio": "CBO ANITA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "04/07/2026 08:00",
-      "imo": "9629017",
-      "navio": "STARLING TIDE (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+      "imo": "9239446",
+      "navio": "SKANDI CARLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -262,12 +242,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/07/2026 08:00",
-      "imo": "9239446",
-      "navio": "SKANDI CARLA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/07/2026 08:00",
+      "imo": "9629017",
+      "navio": "STARLING TIDE (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/07/2026 08:00",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,6 +311,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "04/07/2026 09:10",
+      "imo": "9423229",
+      "navio": "ELIZABETH C",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "04/07/2026 09:30",
       "imo": "9928205",
       "navio": "MAERSK EVERGLADES",
@@ -342,6 +352,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/07/2026 10:00",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "SAÍDA",
+      "de": "TPBR - BRASCO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/07/2026 10:00",
       "imo": "9698719",
       "navio": "BRAM BREEZE",
       "tipo": "MUDANÇA",
@@ -358,6 +378,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "Fundeio - WPT 63 - 2F6A",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/07/2026 10:00",
+      "imo": "9827281",
+      "navio": "CBO TERRA BRASILIS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -398,6 +428,16 @@
       "de": "TPP1 - PETROBRAS PP1",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/07/2026 15:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -581,16 +621,6 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "04/07/2026 08:30",
-      "imo": "9600657",
-      "navio": "ANTIPAROS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA."
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "04/07/2026 11:00",
       "imo": "9612789",
       "navio": "NC BRISA (REB S/L)",
@@ -611,16 +641,6 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "04/07/2026 15:00",
-      "imo": "9714666",
-      "navio": "FLORENTIA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA."
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "04/07/2026 17:30",
       "imo": "9374040",
       "navio": "BERGE KUJU",
@@ -631,12 +651,12 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "04/07/2026 19:00",
-      "imo": "9593816",
-      "navio": "ZHENG RUN",
+      "inicio": "04/07/2026 18:00",
+      "imo": "9714666",
+      "navio": "FLORENTIA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "101 - TECAR - CSN MINERAÇÃO S.A.",
+      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA."
     }
   ]

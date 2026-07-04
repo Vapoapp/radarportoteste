@@ -1,21 +1,21 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-07-04T12:17:51.302Z",
+  "gerado_em": "2026-07-04T14:02:59.629Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-04T04:00:00.000Z"
+    "ultima_movimentacao": "2026-07-04T13:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 52,
-    "manobras_365d": 52,
+    "manobras_30d": 18,
+    "manobras_180d": 53,
+    "manobras_365d": 53,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 13,
+    "mudancas_30d": 14,
     "entradas_365d": 11,
     "saidas_365d": 10,
     "ultima_entrada": "2026-07-02T10:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 42.6
   },
   "historico_recente": [
+    {
+      "data": "2026-07-04T13:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-07-04T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "-"
-    },
-    {
-      "data": "2026-06-11T21:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
     }
   ]
 }
