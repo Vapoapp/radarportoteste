@@ -1,7 +1,7 @@
 {
   "imo": "9417359",
   "navio": "SKANDI OLYMPIA (REB)",
-  "gerado_em": "2026-07-04T21:38:06.857Z",
+  "gerado_em": "2026-07-04T22:36:59.599Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,17 +10,17 @@
     "ultima_movimentacao": "2026-07-04T21:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 12,
-    "manobras_365d": 12,
-    "entradas_30d": 1,
+    "manobras_30d": 3,
+    "manobras_180d": 13,
+    "manobras_365d": 13,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 6,
+    "entradas_365d": 7,
     "saidas_365d": 5,
-    "ultima_entrada": "2026-06-17T11:00:00.000Z",
+    "ultima_entrada": "2026-07-04T10:00:00.000Z",
     "ultima_saida": "2026-07-04T21:30:00.000Z",
-    "tempo_medio_estadia_horas": 12.1,
+    "tempo_medio_estadia_horas": 12,
     "tempo_medio_fundeio_horas": 326.5
   },
   "historico_recente": [
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "TPIM - MOCANGUE",
       "para": "-"
+    },
+    {
+      "data": "2026-07-04T10:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "TPIM - MOCANGUE"
     },
     {
       "data": "2026-06-17T11:00:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2N05 - Armazém 6",
       "para": "-"
-    },
-    {
-      "data": "2026-04-22T11:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2N05 - Armazém 6"
     }
   ]
 }
