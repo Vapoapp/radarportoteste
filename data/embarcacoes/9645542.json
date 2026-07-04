@@ -1,29 +1,36 @@
 {
   "imo": "9645542",
   "navio": "MANDRIÃO (REB)",
-  "gerado_em": "2026-07-04T07:33:30.365Z",
+  "gerado_em": "2026-07-04T09:46:26.920Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-03T14:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-04T09:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 9,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 2,
     "entradas_365d": 5,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-07-03T14:00:00.000Z",
-    "ultima_saida": "2026-07-03T09:30:00.000Z",
-    "tempo_medio_estadia_horas": 27.3,
-    "tempo_medio_fundeio_horas": 38.1
+    "ultima_saida": "2026-07-04T09:30:00.000Z",
+    "tempo_medio_estadia_horas": 24.7,
+    "tempo_medio_fundeio_horas": 33.4
   },
   "historico_recente": [
+    {
+      "data": "2026-07-04T09:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-07-03T14:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "ESWS - ESTALEIRO"
-    },
-    {
-      "data": "2026-05-07T22:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }
