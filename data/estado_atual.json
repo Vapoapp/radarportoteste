@@ -6851,13 +6851,13 @@
     "navio_normalizado": "ALCATRAZ",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T22:00:00.000Z",
-    "ultimo_hash_evento": "2913520afa9aaf5f44d27388623888109a19fa9d855360f9077a5d46f36df6ef",
-    "atualizado_em": "2026-07-03T23:36:34.014Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-04T03:30:00.000Z",
+    "ultimo_hash_evento": "d0e7a149b51edc444962485d21149b59e352a083fbc81faebf10ae9517f7ccca",
+    "atualizado_em": "2026-07-04T04:51:47.347Z"
   },
   "9644158": {
     "imo": "9644158",
@@ -7998,14 +7998,14 @@
     "navio": "BRAM BREEZE",
     "navio_normalizado": "BRAM BREEZE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-02T10:00:00.000Z",
-    "ultimo_hash_evento": "2b40f67fd3d42834a85c829cdd7fc619e36c1a5a1becb2e0d44769d85638046a",
-    "atualizado_em": "2026-07-02T10:25:27.863Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-04T04:00:00.000Z",
+    "ultimo_hash_evento": "a1c75ccd84eb8fd8bbd7ed60eed5f0d4a90e4fb9f69cec93a8a09350d02ed215",
+    "atualizado_em": "2026-07-04T04:51:47.347Z"
   },
   "9701140": {
     "imo": "9701140",
@@ -9070,6 +9070,20 @@
     "ultima_movimentacao_em": "2026-06-14T03:30:00.000Z",
     "ultimo_hash_evento": "080917192ffc6030a5b49714b37c180bfa56351ebdebc2f019868e00363a3e91",
     "atualizado_em": "2026-06-14T05:02:17.414Z"
+  },
+  "9748112": {
+    "imo": "9748112",
+    "navio": "PORT ELLEN",
+    "navio_normalizado": "PORT ELLEN",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB2 - Área de Fundeio B2",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-04T04:00:00.000Z",
+    "ultimo_hash_evento": "a1642238e9737b89bbbd6ed47f5090d3831882f5eb4fa022f832d20fc09cb1b5",
+    "atualizado_em": "2026-07-04T04:51:47.347Z"
   },
   "9748978": {
     "imo": "9748978",
