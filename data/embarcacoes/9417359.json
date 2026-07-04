@@ -1,29 +1,36 @@
 {
   "imo": "9417359",
   "navio": "SKANDI OLYMPIA (REB)",
-  "gerado_em": "2026-07-04T20:39:04.050Z",
+  "gerado_em": "2026-07-04T21:38:06.857Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-06-17T11:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-04T21:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 2,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 6,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-06-17T11:00:00.000Z",
-    "ultima_saida": "2026-06-03T21:00:00.000Z",
+    "ultima_saida": "2026-07-04T21:30:00.000Z",
     "tempo_medio_estadia_horas": 12.1,
     "tempo_medio_fundeio_horas": 326.5
   },
   "historico_recente": [
+    {
+      "data": "2026-07-04T21:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPIM - MOCANGUE",
+      "para": "-"
+    },
     {
       "data": "2026-06-17T11:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2N05 - Armazém 6"
-    },
-    {
-      "data": "2026-04-08T23:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Niterói",
-      "de": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
-      "para": "-"
     }
   ]
 }
