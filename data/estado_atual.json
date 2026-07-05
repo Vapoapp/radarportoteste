@@ -1754,14 +1754,14 @@
     "navio": "SAN ANDRES IV",
     "navio_normalizado": "SAN ANDRES IV",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPS2 - PETROBRAS PS2",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPS2 - PETROBRAS PS2",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-04T09:30:00.000Z",
-    "ultimo_hash_evento": "19425253a90527dcfa3f073d1a6689bfd59d0c5e22b437d8a53541bb8d7eac0d",
-    "atualizado_em": "2026-07-04T09:46:26.920Z"
+    "ultima_movimentacao_em": "2026-07-05T09:30:00.000Z",
+    "ultimo_hash_evento": "50ca9212908a4d3928e2b998da395a29d132711a6d8901a9769204074492d3ee",
+    "atualizado_em": "2026-07-05T10:37:06.839Z"
   },
   "9310721": {
     "imo": "9310721",
@@ -2678,14 +2678,14 @@
     "navio": "OCEANICASUB XVII",
     "navio_normalizado": "OCEANICASUB XVII",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "MUDANÇA",
+    "ultimo_tipo_evento": "SAÍDA",
     "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "OCEANICA ENGENHARIA E CONSULTORIA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-23T22:30:00.000Z",
-    "ultimo_hash_evento": "4c4dfeb3f484db65fb923a130861931957e5230975b49e6e1c803576055b3fff",
-    "atualizado_em": "2026-06-23T23:39:38.044Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-05T06:30:00.000Z",
+    "ultimo_hash_evento": "eb4c60d2871dd9d57dd31784e7e70fdc4d08b1fb126a84e23d722b2151fd37d9",
+    "atualizado_em": "2026-07-05T10:37:06.839Z"
   },
   "9371579": {
     "imo": "9371579",
@@ -5086,14 +5086,14 @@
     "navio": "HOS FIRE SERPENT",
     "navio_normalizado": "HOS FIRE SERPENT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2NTO - Terminal de Óleo",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-02T09:00:00.000Z",
-    "ultimo_hash_evento": "93de4f1e2443fd577b1686edcde53a2709f5d519a25cd9b985a92a102a243704",
-    "atualizado_em": "2026-07-02T10:25:27.863Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-05T09:00:00.000Z",
+    "ultimo_hash_evento": "152fac6d7bbf473eb25a3386132ee5a0189c3a83017789a0a07cdac8c94a3fc2",
+    "atualizado_em": "2026-07-05T10:37:06.839Z"
   },
   "9529891": {
     "imo": "9529891",
@@ -8684,14 +8684,14 @@
     "navio": "FPMC B MAJESTY",
     "navio_normalizado": "FPMC B MAJESTY",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 5FB2 - Área de Fundeio B2",
-    "destino_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+    "destino_atual": "-",
     "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T10:00:00.000Z",
-    "ultimo_hash_evento": "e9b46d220d12fa38d9c9f3e688e31ee950ca950ad1d0d0642a3a7b562848ffdb",
-    "atualizado_em": "2026-07-03T10:14:55.908Z"
+    "ultima_movimentacao_em": "2026-07-05T09:30:00.000Z",
+    "ultimo_hash_evento": "b519ed1579a581d7c4d4302e5a18fd5d9a18513a62e68006a8596bc5320c49cf",
+    "atualizado_em": "2026-07-05T10:37:06.839Z"
   },
   "9723241": {
     "imo": "9723241",
@@ -10142,12 +10142,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
     "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "Fundeio - WPT 63 - 2F6A",
+    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-04T13:00:00.000Z",
-    "ultimo_hash_evento": "4d0d4992150962592680d6a39de225229d47d129ccfa57402a3e371eba315f4c",
-    "atualizado_em": "2026-07-04T14:02:59.629Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-05T10:00:00.000Z",
+    "ultimo_hash_evento": "0951b900f29f844bfc64f855014c10d751f9f4b246a570a6f8793115fe37a4ac",
+    "atualizado_em": "2026-07-05T10:37:06.839Z"
   },
   "9806512": {
     "imo": "9806512",
@@ -11016,6 +11016,20 @@
     "ultima_movimentacao_em": "2026-05-31T23:00:00.000Z",
     "ultimo_hash_evento": "b4d29a8f5a5230a1e93e8420a3af925e081ee686e5fd832a2d6908a530cb5fef",
     "atualizado_em": "2026-05-31T23:14:00.265Z"
+  },
+  "9889265": {
+    "imo": "9889265",
+    "navio": "FRIEDRICH OLDENDORFF",
+    "navio_normalizado": "FRIEDRICH OLDENDORFF",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "-",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-05T10:30:00.000Z",
+    "ultimo_hash_evento": "90c7142b74629f4d0fbf971c65064d689d5f7cb3d3019a3ffb40c74e12cd905c",
+    "atualizado_em": "2026-07-05T10:37:06.839Z"
   },
   "9889277": {
     "imo": "9889277",
@@ -12095,6 +12109,20 @@
     "ultimo_hash_evento": "b8880fd0a93e23bf72d1856fa00a5e49f95ac3ba85ab7ba8481895521dcca0c1",
     "atualizado_em": "2026-05-23T10:48:45.788Z"
   },
+  "9975595": {
+    "imo": "9975595",
+    "navio": "MSC MARSEILLE",
+    "navio_normalizado": "MSC MARSEILLE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-05T10:30:00.000Z",
+    "ultimo_hash_evento": "43b0da75d097a2c2d49bb1d5ffbccb53e4cc89a452b3a282c1fc2a26aaadbcd1",
+    "atualizado_em": "2026-07-05T10:37:06.839Z"
+  },
   "9976408": {
     "imo": "9976408",
     "navio": "GREEN PORTOCEL",
@@ -12570,6 +12598,20 @@
     "ultima_movimentacao_em": "2026-06-01T22:00:00.000Z",
     "ultimo_hash_evento": "2ebb96998cd6914f3685311dd6d18a69cfb84587a1ffbb235fa4f7dd8eb17160",
     "atualizado_em": "2026-06-01T22:50:41.722Z"
+  },
+  "3810513059": {
+    "imo": "3810513059",
+    "navio": "M AVEIRO",
+    "navio_normalizado": "M AVEIRO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESCA - ESTALEIRO CASSINU",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-05T09:00:00.000Z",
+    "ultimo_hash_evento": "5f309535ae9200ed9b57caca3c2e2ce2dbb92a02a3708553bef30c87d4acaf31",
+    "atualizado_em": "2026-07-05T10:37:06.839Z"
   },
   "3810517208": {
     "imo": "3810517208",

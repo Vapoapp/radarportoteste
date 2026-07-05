@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-05T08:26:49.972Z",
+  "updatedAt": "2026-07-05T10:37:06.839Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 19
+      "count": 21
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "itaguai": {
       "ok": true,
-      "count": 10
+      "count": 9
     },
     "angra": {
       "ok": true,
@@ -91,6 +91,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 06:00",
+      "imo": "9529877",
+      "navio": "HOS FIRE SERPENT",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2NTO - Terminal de Óleo",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 06:30",
       "imo": "9309215",
       "navio": "SAN ANDRES IV",
@@ -111,12 +121,12 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "05/07/2026 07:00",
-      "imo": "9857157",
-      "navio": "MSC ORION",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
+      "inicio": "05/07/2026 07:30",
+      "imo": "9975595",
+      "navio": "MSC MARSEILLE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
@@ -132,22 +142,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 09:00",
-      "imo": "9323522",
-      "navio": "HMM JAKARTA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C22 - TECON 2 - MRIO",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "05/07/2026 09:00",
-      "imo": "9547714",
-      "navio": "PORTINARI",
-      "tipo": "MUDANÇA",
-      "de": "TPP2 - PETROBRAS PP2",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9857157",
+      "navio": "MSC ORION",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -161,6 +161,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 09:00",
+      "imo": "9547714",
+      "navio": "PORTINARI",
+      "tipo": "MUDANÇA",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 10:00",
       "imo": "9759496",
       "navio": "STARNAV VOLANS",
@@ -168,6 +178,26 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 11:00",
+      "imo": "9323522",
+      "navio": "HMM JAKARTA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 12:30",
+      "imo": "9519119",
+      "navio": "BRASILIA HIGHWAY",
+      "tipo": "SAÍDA",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -191,16 +221,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "05/07/2026 15:30",
-      "imo": "9519119",
-      "navio": "BRASILIA HIGHWAY",
-      "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 17:00",
       "imo": "9629017",
       "navio": "STARLING TIDE (REB)",
@@ -208,6 +228,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "05/07/2026 03:30",
+      "imo": "9371385",
+      "navio": "OCEANICASUB XVII",
+      "tipo": "SAÍDA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Niterói",
@@ -271,17 +301,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "05/07/2026 12:00",
-      "imo": "9593816",
-      "navio": "ZHENG RUN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "101 - TECAR - CSN MINERAÇÃO S.A.",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA."
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "05/07/2026 15:00",
+      "inicio": "05/07/2026 14:00",
       "imo": "9748112",
       "navio": "PORT ELLEN",
       "tipo": "MUDANÇA",
