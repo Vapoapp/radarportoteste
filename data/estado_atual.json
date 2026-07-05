@@ -1889,6 +1889,20 @@
     "ultimo_hash_evento": "488fc53b379b51b76038a79a898757bb479cca843b54795ef3d7298f658de5b6",
     "atualizado_em": "2026-05-05T06:34:36.375Z"
   },
+  "9323522": {
+    "imo": "9323522",
+    "navio": "HMM JAKARTA",
+    "navio_normalizado": "HMM JAKARTA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C22 - TECON 2 - MRIO",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-05T14:00:00.000Z",
+    "ultimo_hash_evento": "03a7a04f77ea255c0588ff14769680e4811ce3cd53e48f503137ffd6f68ed0c2",
+    "atualizado_em": "2026-07-05T14:00:02.668Z"
+  },
   "9323936": {
     "imo": "9323936",
     "navio": "PLATA SINGAPORE",
@@ -6001,9 +6015,9 @@
     "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-04T11:30:00.000Z",
-    "ultimo_hash_evento": "bea386efdba9fccdf76e4efc33e81dd8ab459571c9fccf716cfa8051948c73fa",
-    "atualizado_em": "2026-07-04T12:17:51.302Z"
+    "ultima_movimentacao_em": "2026-07-05T14:00:00.000Z",
+    "ultimo_hash_evento": "2f41cd95086e936aebda458d1a333c8a4509b7937e32e04190b77a783fd21772",
+    "atualizado_em": "2026-07-05T14:00:02.668Z"
   },
   "9602875": {
     "imo": "9602875",
@@ -6599,13 +6613,13 @@
     "navio_normalizado": "POSIDONIA JAGUAR",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-05T05:00:00.000Z",
-    "ultimo_hash_evento": "af343d4a7c4f7f9f787882e2b903bc34dad416f20da611d6fcba67fba52cf91a",
-    "atualizado_em": "2026-07-05T05:29:55.419Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-05T14:00:00.000Z",
+    "ultimo_hash_evento": "2181902bef09b10a060aa6fb012d3ad0ce6826c2605562978396c2900a994306",
+    "atualizado_em": "2026-07-05T14:00:02.668Z"
   },
   "9630420": {
     "imo": "9630420",
@@ -6827,23 +6841,23 @@
     "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-04T15:00:00.000Z",
-    "ultimo_hash_evento": "ea271f9f1ab3beb54bbe21a4c827b1621a6b9a8fec2d3a34ccb522b0629129f6",
-    "atualizado_em": "2026-07-04T15:16:36.395Z"
+    "ultima_movimentacao_em": "2026-07-05T05:30:00.000Z",
+    "ultimo_hash_evento": "6bc6279a01d7aef9b0ea17874912b6827167a48d30c1c7eda41f69628551fa6a",
+    "atualizado_em": "2026-07-05T14:00:02.668Z"
   },
   "9642590": {
     "imo": "9642590",
     "navio": "PINGUIM",
     "navio_normalizado": "PINGUIM",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-01T23:00:00.000Z",
-    "ultimo_hash_evento": "d6c2b4aca14100e6986cd836895729b09b15ca72c2bf2e5ee6fae42bfbb7d5ad",
-    "atualizado_em": "2026-07-01T23:03:10.133Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-05T13:00:00.000Z",
+    "ultimo_hash_evento": "3d0fd94750088e2d5afb836a9a28a2defdac7f6f3a3b325fae3ed3033d325ff7",
+    "atualizado_em": "2026-07-05T14:00:02.668Z"
   },
   "9643295": {
     "imo": "9643295",
@@ -9370,14 +9384,14 @@
     "navio": "STARNAV VOLANS",
     "navio_normalizado": "STARNAV VOLANS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-01T06:00:00.000Z",
-    "ultimo_hash_evento": "64a2fb20bc83ab061d34b5e272cddc1ed3f1784dc656c1ec0ea958153657a0e8",
-    "atualizado_em": "2026-07-01T08:46:47.121Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-05T13:00:00.000Z",
+    "ultimo_hash_evento": "2c8d54f6412386f2a2f58e8753052c561f57d6408c3bf206acd5ec77b6b3d41d",
+    "atualizado_em": "2026-07-05T14:00:02.668Z"
   },
   "9759991": {
     "imo": "9759991",
