@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-05T05:29:55.419Z",
+  "updatedAt": "2026-07-05T08:26:49.972Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 16
+      "count": 19
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 11
+      "count": 10
     },
     "angra": {
       "ok": true,
@@ -38,6 +38,16 @@
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 02:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -92,22 +102,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 07:00",
-      "imo": "9857157",
-      "navio": "MSC ORION",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "05/07/2026 07:00",
       "imo": "9806495",
       "navio": "STARNAV CIRCINUS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "ESPR - MacLaren Ilha da Conceição",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 07:00",
+      "imo": "9857157",
+      "navio": "MSC ORION",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -118,6 +128,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 09:00",
+      "imo": "9323522",
+      "navio": "HMM JAKARTA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -138,6 +158,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 10:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -221,17 +251,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "05/07/2026 08:30",
-      "imo": "9810355",
-      "navio": "INDUSTRIAL COLOR",
-      "tipo": "SAÍDA",
-      "de": "301 - TECON - SEPETIBA TECON S.A.",
-      "para": "-",
-      "agente": "BRAZILIAN PORT AGENTS"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "05/07/2026 10:00",
+      "inicio": "05/07/2026 09:00",
       "imo": "9864100",
       "navio": "LALARIA",
       "tipo": "MUDANÇA",
