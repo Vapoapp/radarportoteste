@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-05T19:57:53.296Z",
+  "updatedAt": "2026-07-05T21:04:22.314Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 39
+      "count": 41
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -19,6 +19,16 @@
     }
   },
   "vessels": [
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 01:00",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 02:00",
@@ -282,16 +292,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 13:00",
-      "imo": "9636022",
-      "navio": "SABLE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "05/07/2026 13:00",
       "imo": "9357169",
       "navio": "ASSO VENTISETTE",
       "tipo": "MUDANÇA",
@@ -301,11 +301,31 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 13:00",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 13:18",
       "imo": "9286762",
       "navio": "SEVEN SABIÁ",
       "tipo": "MUDANÇA",
       "de": "TPSS - SUBSEA",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 14:00",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
@@ -331,16 +351,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "05/07/2026 14:00",
-      "imo": "9482330",
-      "navio": "MULTIPLICITY (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "05/07/2026 15:00",
       "imo": "9391476",
       "navio": "SHAMAL",
@@ -361,7 +371,7 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "05/07/2026 16:00",
+      "inicio": "05/07/2026 16:10",
       "imo": "9788459",
       "navio": "MR ALDO",
       "tipo": "SAÍDA",
@@ -388,6 +398,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "05/07/2026 19:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -428,6 +448,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "05/07/2026 16:00",
+      "imo": "9644158",
+      "navio": "ZARAPITO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "ESWS - ESTALEIRO",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Itaguaí",
