@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-06T09:38:21.651Z",
+  "updatedAt": "2026-07-06T13:27:02.824Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 25
+      "count": 40
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "itaguai": {
       "ok": true,
@@ -102,6 +102,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/07/2026 06:00",
+      "imo": "9645542",
+      "navio": "MANDRIÃO (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 06:00",
       "imo": "9482378",
       "navio": "CBO MANOELLA",
       "tipo": "ENTRADA",
@@ -121,13 +131,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "06/07/2026 06:00",
-      "imo": "9645542",
-      "navio": "MANDRIÃO (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "inicio": "06/07/2026 06:30",
+      "imo": "9493145",
+      "navio": "GOLDENGATE PARK",
+      "tipo": "MUDANÇA",
+      "de": "TPEX - EXXON SOLUTEC",
+      "para": "Fundeio - WPT 64 - 2F6A",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -138,16 +148,6 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/07/2026 06:30",
-      "imo": "9493145",
-      "navio": "GOLDENGATE PARK",
-      "tipo": "MUDANÇA",
-      "de": "TPEX - EXXON SOLUTEC",
-      "para": "Fundeio - WPT 64 - 2F6A",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -191,6 +191,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 07:30",
+      "imo": "9748978",
+      "navio": "EPIC BALUAN",
+      "tipo": "SAÍDA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 08:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "06/07/2026 08:00",
       "imo": "9440681",
       "navio": "SKUA",
@@ -208,16 +228,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/07/2026 08:00",
-      "imo": "9668738",
-      "navio": "STARNAV CENTAURUS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -242,12 +252,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/07/2026 09:00",
-      "imo": "9323522",
-      "navio": "HMM JAKARTA",
-      "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "imo": "9424986",
+      "navio": "SAVEIROS ATOBÁ",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -261,13 +271,153 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 10:00",
+      "imo": "9382774",
+      "navio": "SKANDI COMMANDER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 10:00",
+      "imo": "9648154",
+      "navio": "MAR LIMPO VII",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "06/07/2026 11:00",
+      "imo": "9715567",
+      "navio": "CBO OCEANA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 11:30",
+      "imo": "9989223",
+      "navio": "BOW TIGER (BAND. GREYLIST PARIS MOU)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPEX - EXXON SOLUTEC",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 12:00",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 12:00",
+      "imo": "9323522",
+      "navio": "HMM JAKARTA",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 14:00",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 14:00",
       "imo": "9975583",
       "navio": "MSC LE HAVRE",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 16:00",
+      "imo": "0011450339",
+      "navio": "BONO III",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 16:00",
+      "imo": "9648154",
+      "navio": "MAR LIMPO VII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 16:30",
+      "imo": "9493145",
+      "navio": "GOLDENGATE PARK",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "2NTO - Terminal de Óleo",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 17:00",
+      "imo": "9629017",
+      "navio": "STARLING TIDE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/07/2026 11:00",
+      "imo": "1015375",
+      "navio": "SINAR SUMATERA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/07/2026 12:00",
+      "imo": "9975583",
+      "navio": "MSC LE HAVRE",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/07/2026 12:00",
+      "imo": "9391476",
+      "navio": "SHAMAL",
+      "tipo": "SAÍDA",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Niterói",
@@ -278,6 +428,16 @@
       "de": "-",
       "para": "ESMC - MacLaren Ponta da Areia",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "06/07/2026 06:40",
+      "imo": "9644158",
+      "navio": "ZARAPITO",
+      "tipo": "MUDANÇA",
+      "de": "ESWS - ESTALEIRO",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Itaguaí",
