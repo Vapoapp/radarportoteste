@@ -1,29 +1,36 @@
 {
   "imo": "9493145",
   "navio": "GOLDENGATE PARK",
-  "gerado_em": "2026-07-06T18:28:38.085Z",
+  "gerado_em": "2026-07-06T20:26:21.394Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 64 - 2F6A",
+    "em_fundeio": false,
+    "local": "2NTO - Terminal de Óleo",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-06T09:30:00.000Z"
+    "ultima_movimentacao": "2026-07-06T19:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-07-02T20:00:00.000Z",
     "ultima_saida": null,
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 71.5
   },
   "historico_recente": [
+    {
+      "data": "2026-07-06T19:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "2NTO - Terminal de Óleo"
+    },
     {
       "data": "2026-07-06T09:30:00.000Z",
       "tipo": "MUDANÇA",
