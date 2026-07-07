@@ -1,29 +1,36 @@
 {
   "imo": "9806495",
   "navio": "STARNAV CIRCINUS",
-  "gerado_em": "2026-07-07T00:16:02.653Z",
+  "gerado_em": "2026-07-07T04:18:21.384Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-07-06T19:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-07-07T03:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 17,
-    "manobras_365d": 17,
-    "entradas_30d": 2,
+    "manobras_30d": 9,
+    "manobras_180d": 18,
+    "manobras_365d": 18,
+    "entradas_30d": 3,
     "saidas_30d": 2,
     "mudancas_30d": 4,
-    "entradas_365d": 5,
+    "entradas_365d": 6,
     "saidas_365d": 5,
-    "ultima_entrada": "2026-07-03T15:00:00.000Z",
+    "ultima_entrada": "2026-07-07T03:30:00.000Z",
     "ultima_saida": "2026-07-06T19:30:00.000Z",
     "tempo_medio_estadia_horas": 43.8,
     "tempo_medio_fundeio_horas": 26.3
   },
   "historico_recente": [
+    {
+      "data": "2026-07-07T03:30:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-07-06T19:30:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-05-23T07:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

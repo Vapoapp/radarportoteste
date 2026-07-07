@@ -1,29 +1,36 @@
 {
   "imo": "9630327",
   "navio": "POSIDONIA JAGUAR",
-  "gerado_em": "2026-07-07T00:16:02.653Z",
+  "gerado_em": "2026-07-07T04:18:21.384Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-06T11:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-07T04:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 20,
-    "manobras_180d": 45,
-    "manobras_365d": 45,
+    "manobras_180d": 46,
+    "manobras_365d": 46,
     "entradas_30d": 4,
     "saidas_30d": 5,
     "mudancas_30d": 11,
     "entradas_365d": 15,
-    "saidas_365d": 15,
+    "saidas_365d": 16,
     "ultima_entrada": "2026-07-04T16:00:00.000Z",
-    "ultima_saida": "2026-07-04T12:00:00.000Z",
-    "tempo_medio_estadia_horas": 66.2,
+    "ultima_saida": "2026-07-07T04:00:00.000Z",
+    "tempo_medio_estadia_horas": 65.8,
     "tempo_medio_fundeio_horas": 50
   },
   "historico_recente": [
+    {
+      "data": "2026-07-07T04:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-07-06T11:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2P14 - Terminal Petrobrás (Armazém 14)"
-    },
-    {
-      "data": "2026-06-25T15:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }

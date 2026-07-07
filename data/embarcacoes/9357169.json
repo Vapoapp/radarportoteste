@@ -1,29 +1,36 @@
 {
   "imo": "9357169",
   "navio": "ASSO VENTISETTE",
-  "gerado_em": "2026-07-07T00:16:02.653Z",
+  "gerado_em": "2026-07-07T04:18:21.384Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-07-05T22:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-07-07T03:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 33,
-    "manobras_365d": 33,
-    "entradas_30d": 4,
+    "manobras_30d": 14,
+    "manobras_180d": 34,
+    "manobras_365d": 34,
+    "entradas_30d": 5,
     "saidas_30d": 4,
     "mudancas_30d": 5,
-    "entradas_365d": 10,
+    "entradas_365d": 11,
     "saidas_365d": 11,
-    "ultima_entrada": "2026-07-04T22:00:00.000Z",
+    "ultima_entrada": "2026-07-07T03:30:00.000Z",
     "ultima_saida": "2026-07-05T22:00:00.000Z",
     "tempo_medio_estadia_horas": 96.5,
     "tempo_medio_fundeio_horas": 69.3
   },
   "historico_recente": [
+    {
+      "data": "2026-07-07T03:30:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-07-05T22:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-18T13:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "-"
     }
   ]
 }
