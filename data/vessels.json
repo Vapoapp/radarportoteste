@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-06T23:00:41.563Z",
+  "updatedAt": "2026-07-07T00:16:02.653Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 64
+      "count": 65
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -482,22 +482,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/07/2026 16:30",
-      "imo": "9806495",
-      "navio": "STARNAV CIRCINUS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "06/07/2026 16:30",
       "imo": "9493145",
       "navio": "GOLDENGATE PARK",
       "tipo": "MUDANÇA",
       "de": "Fundeio - WPT 64 - 2F6A",
       "para": "2NTO - Terminal de Óleo",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 16:30",
+      "imo": "9806495",
+      "navio": "STARNAV CIRCINUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -547,6 +547,16 @@
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/07/2026 20:30",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
@@ -680,6 +690,16 @@
       "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
+      "porto": "Niterói",
+      "inicio": "07/07/2026 10:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "06/07/2026 00:00",
       "imo": "9713492",
@@ -741,7 +761,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "06/07/2026 23:00",
+      "inicio": "07/07/2026 00:30",
       "imo": "9996018",
       "navio": "GREEN SANTOS",
       "tipo": "SAÍDA",
