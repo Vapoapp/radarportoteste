@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-08T18:10:08.582Z",
+  "updatedAt": "2026-07-08T19:54:30.236Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 59
+      "count": 63
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -322,22 +322,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/07/2026 10:00",
-      "imo": "9604902",
-      "navio": "SIEM PENDOTIBA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBS - TPBS",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/07/2026 10:00",
       "imo": "9767821",
       "navio": "CBO BOSSA NOVA",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/07/2026 10:00",
+      "imo": "9604902",
+      "navio": "SIEM PENDOTIBA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBS - TPBS",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -358,6 +358,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/07/2026 10:50",
+      "imo": "9303508",
+      "navio": "ILHA DE SÃO SEBASTIÃO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -392,22 +402,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/07/2026 12:00",
-      "imo": "9482330",
-      "navio": "MULTIPLICITY (REB)",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/07/2026 12:00",
       "imo": "9698719",
       "navio": "BRAM BREEZE",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/07/2026 12:00",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -432,22 +442,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/07/2026 14:00",
-      "imo": "9702766",
-      "navio": "SEAGEMS RUBI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - WPT 81 - 2F08",
-      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "08/07/2026 14:00",
       "imo": "9645542",
       "navio": "MANDRIÃO (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/07/2026 14:00",
+      "imo": "9702766",
+      "navio": "SEAGEMS RUBI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 81 - 2F08",
+      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -462,12 +472,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "08/07/2026 15:00",
+      "imo": "9286762",
+      "navio": "SEVEN SABIÁ",
+      "tipo": "MUDANÇA",
+      "de": "TPSS - SUBSEA",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/07/2026 15:00",
       "imo": "9642590",
       "navio": "PINGUIM",
       "tipo": "MUDANÇA",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/07/2026 15:30",
+      "imo": "9653111",
+      "navio": "DELTA CARDINAL (REB)",
+      "tipo": "SAÍDA",
+      "de": "TPBR - BRASCO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -498,6 +528,16 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "08/07/2026 17:00",
+      "imo": "9347322",
+      "navio": "HOS SPRINGFIELD",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -630,6 +670,16 @@
       "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
+      "porto": "Niterói",
+      "inicio": "08/07/2026 23:00",
+      "imo": "9085211",
+      "navio": "OCEANIC CHAMPION",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "08/07/2026 03:00",
       "imo": "9714666",
@@ -676,7 +726,7 @@
       "navio": "JEWEL",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 5FB4 - Área de Fundeio B4",
+      "para": "Fundeio - 5FB2 - Área de Fundeio B2",
       "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
