@@ -1,29 +1,36 @@
 {
   "imo": "9493145",
   "navio": "GOLDENGATE PARK",
-  "gerado_em": "2026-07-08T09:12:53.418Z",
+  "gerado_em": "2026-07-08T11:17:50.963Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 64 - 2F6A",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-07T21:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-08T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 4,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-07-02T20:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": 71.5
+    "ultima_saida": "2026-07-08T11:00:00.000Z",
+    "tempo_medio_estadia_horas": 135,
+    "tempo_medio_fundeio_horas": 42.5
   },
   "historico_recente": [
+    {
+      "data": "2026-07-08T11:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "-"
+    },
     {
       "data": "2026-07-07T21:30:00.000Z",
       "tipo": "MUDANÇA",

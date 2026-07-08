@@ -1,29 +1,36 @@
 {
   "imo": "9636034",
   "navio": "ORYX (REB)",
-  "gerado_em": "2026-07-08T09:12:53.418Z",
+  "gerado_em": "2026-07-08T11:17:50.963Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-07T08:30:00.000Z"
+    "em_fundeio": false,
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-08T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 44,
-    "manobras_365d": 44,
+    "manobras_30d": 15,
+    "manobras_180d": 45,
+    "manobras_365d": 45,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 11,
     "saidas_365d": 10,
     "ultima_entrada": "2026-07-07T08:30:00.000Z",
     "ultima_saida": "2026-07-02T18:15:00.000Z",
     "tempo_medio_estadia_horas": 78.3,
-    "tempo_medio_fundeio_horas": 23.4
+    "tempo_medio_fundeio_horas": 23.6
   },
   "historico_recente": [
+    {
+      "data": "2026-07-08T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
+    },
     {
       "data": "2026-07-07T08:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-20T10:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
