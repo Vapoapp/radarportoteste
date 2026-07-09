@@ -1,21 +1,21 @@
 {
   "imo": "9529700",
   "navio": "POSIDONIA TIGER (REB)",
-  "gerado_em": "2026-07-09T05:04:59.425Z",
+  "gerado_em": "2026-07-09T11:32:02.703Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "ESPR - MacLaren Ilha da Conceição",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-02T12:00:00.000Z"
+    "ultima_movimentacao": "2026-07-09T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 33,
-    "manobras_365d": 33,
+    "manobras_30d": 12,
+    "manobras_180d": 34,
+    "manobras_365d": 34,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 8,
     "saidas_365d": 7,
     "ultima_entrada": "2026-07-01T00:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 33.4
   },
   "historico_recente": [
+    {
+      "data": "2026-07-09T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "ESPR - MacLaren Ilha da Conceição"
+    },
     {
       "data": "2026-07-02T12:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2PAL - Terminal Petrobras AL",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-06-15T20:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2PAL - Terminal Petrobras AL"
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-09T05:04:59.425Z",
+  "updatedAt": "2026-07-09T11:32:02.703Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 18
+      "count": 32
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 5
+      "count": 4
     },
     "angra": {
       "ok": true,
@@ -51,13 +51,43 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/07/2026 03:00",
-      "imo": "9351218",
-      "navio": "MSC STRAIT II",
+      "inicio": "09/07/2026 01:30",
+      "imo": "9715567",
+      "navio": "CBO OCEANA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 02:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
       "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
+      "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 02:00",
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 02:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -71,6 +101,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 03:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 05:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/07/2026 05:00",
       "imo": "9362827",
       "navio": "INDUSTRIAL HOBART",
@@ -78,6 +128,16 @@
       "de": "Fundeio - 2F01N - Visita Norte",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 06:00",
+      "imo": "2412230048",
+      "navio": "SÃO TOMÉ",
+      "tipo": "MUDANÇA",
+      "de": "2N11 - Armazém 13",
+      "para": "2N09 - Armazém 10",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -102,12 +162,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/07/2026 06:00",
-      "imo": "2412230048",
-      "navio": "SÃO TOMÉ",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
       "tipo": "MUDANÇA",
-      "de": "2N11 - Armazém 13",
-      "para": "2N09 - Armazém 10",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 08:00",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -141,13 +211,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/07/2026 09:00",
-      "imo": "9786712",
-      "navio": "KOTA PAHLAWAN",
+      "inicio": "09/07/2026 08:30",
+      "imo": "9623025",
+      "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
+      "tipo": "MUDANÇA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 10:00",
+      "imo": "9351218",
+      "navio": "MSC STRAIT II",
       "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
-      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -171,6 +251,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 11:00",
+      "imo": "9786712",
+      "navio": "KOTA PAHLAWAN",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/07/2026 11:30",
       "imo": "9989223",
       "navio": "BOW TIGER (BAND. GREYLIST PARIS MOU)",
@@ -178,6 +268,16 @@
       "de": "TPEX - EXXON SOLUTEC",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 12:00",
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "SAÍDA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -200,6 +300,46 @@
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/07/2026 21:00",
+      "imo": "9703631",
+      "navio": "BRAM TITAN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/07/2026 06:00",
+      "imo": "9786097",
+      "navio": "MAERSK PANGANI",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/07/2026 15:00",
+      "imo": "9945887",
+      "navio": "COSCO SHIPPING CHILE",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/07/2026 16:00",
+      "imo": "9362827",
+      "navio": "INDUSTRIAL HOBART",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "09/07/2026 06:16",
       "imo": "9521021",
@@ -208,16 +348,6 @@
       "de": "-",
       "para": "ESMC - MacLaren Ponta da Areia",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "09/07/2026 08:00",
-      "imo": "9567037",
-      "navio": "JEWEL",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 5FB2 - Área de Fundeio B2",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Itaguaí",
