@@ -2426,14 +2426,14 @@
     "navio": "LOG-IN PANTANAL (REB)",
     "navio_normalizado": "LOG-IN PANTANAL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-09T22:30:00.000Z",
-    "ultimo_hash_evento": "b04787c60a503dd0356bc0e19434bdca9e38d3588de2285db52e5460c62e9c82",
-    "atualizado_em": "2026-07-09T22:58:03.773Z"
+    "ultima_movimentacao_em": "2026-07-10T20:30:00.000Z",
+    "ultimo_hash_evento": "592e97bcb416eae22a2721dbc9c9053efd79fd82b5d6e761dd1ddf2272d53a9d",
+    "atualizado_em": "2026-07-10T21:20:17.564Z"
   },
   "9353204": {
     "imo": "9353204",
@@ -2580,14 +2580,14 @@
     "navio": "INDUSTRIAL HOBART",
     "navio_normalizado": "INDUSTRIAL HOBART",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F01N - Visita Norte",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "ALL FLAGS AGENCIAMENTO LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-09T08:00:00.000Z",
-    "ultimo_hash_evento": "74ae8b54497d77948bd3079b82607875a8473daf8aba88d1cd4b0c427d50a3f2",
-    "atualizado_em": "2026-07-09T11:32:02.703Z"
+    "ultima_movimentacao_em": "2026-07-10T21:00:00.000Z",
+    "ultimo_hash_evento": "2597e9fc16c7f36c6a8235eebdd651e36602e98e9cffc7efdc62a77d0ad4d05b",
+    "atualizado_em": "2026-07-10T21:20:17.564Z"
   },
   "9363132": {
     "imo": "9363132",
@@ -5828,14 +5828,14 @@
     "navio": "SEA1 GIANT",
     "navio_normalizado": "SEA1 GIANT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-10T09:00:00.000Z",
-    "ultimo_hash_evento": "a1fb96edea475e0b49865926218d8bcf967eb8a91627f0fb39570faf793de0d7",
-    "atualizado_em": "2026-07-10T20:12:38.847Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-10T20:30:00.000Z",
+    "ultimo_hash_evento": "112c6bddf22a08917e1197272d7d78dbcd569586adc8dd2cecd678ec5565d68e",
+    "atualizado_em": "2026-07-10T21:20:17.564Z"
   },
   "9578880": {
     "imo": "9578880",
@@ -10050,6 +10050,20 @@
     "ultima_movimentacao_em": "2026-05-25T14:30:00.000Z",
     "ultimo_hash_evento": "01c118a34099fe945087526008aa77efa6d633aa7fd7f781fb0c9d76a5ffdec3",
     "atualizado_em": "2026-05-25T16:14:08.707Z"
+  },
+  "9783320": {
+    "imo": "9783320",
+    "navio": "FOMENTO FOUR",
+    "navio_normalizado": "FOMENTO FOUR",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB4 - Área de Fundeio B4",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-10T20:30:00.000Z",
+    "ultimo_hash_evento": "278dff384b6bb76e4cf96e50e8b39be2dc9e58f6b6b5223aa0bf1d8782946f4d",
+    "atualizado_em": "2026-07-10T21:20:17.564Z"
   },
   "9784661": {
     "imo": "9784661",
