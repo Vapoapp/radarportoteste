@@ -2062,14 +2062,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-09T16:00:00.000Z",
-    "ultimo_hash_evento": "430c2847fa25630c73bd61ba08e4cd48b7ffe61c2c74e43ce6c5d90c58c0a663",
-    "atualizado_em": "2026-07-09T16:38:08.493Z"
+    "ultima_movimentacao_em": "2026-07-10T06:00:00.000Z",
+    "ultimo_hash_evento": "fed6f575345e37602a8e4baa18d2062f8440b1dfb32ec44389cd6093b3bbc96c",
+    "atualizado_em": "2026-07-10T07:50:41.595Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -2823,9 +2823,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "FINARGE APOIO MARITIMO LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-09T17:00:00.000Z",
-    "ultimo_hash_evento": "b2a9f55046bce1f0439ec67fe7f90d08f7f258376cb4df97bfedbb841297ccde",
-    "atualizado_em": "2026-07-09T18:24:03.518Z"
+    "ultima_movimentacao_em": "2026-07-10T05:00:00.000Z",
+    "ultimo_hash_evento": "15c58a427b7dee2a9b4722bbb7183efae29cf572d92e38e49ebfc60a3de7cf89",
+    "atualizado_em": "2026-07-10T07:50:41.595Z"
   },
   "9379428": {
     "imo": "9379428",
@@ -4386,14 +4386,14 @@
     "navio": "CBO CAROLINA",
     "navio_normalizado": "CBO CAROLINA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2PAL - Terminal Petrobras AL",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-05T00:00:00.000Z",
-    "ultimo_hash_evento": "2694c9062f29e17883419f7c671835456efccacbffa2951d1e92622e5a101cac",
-    "atualizado_em": "2026-07-05T01:23:38.711Z"
+    "ultima_movimentacao_em": "2026-07-10T06:00:00.000Z",
+    "ultimo_hash_evento": "fc0b81768a2b7dc8c833dc3304d90da05eafc9547e87f7861afa2b92faed869c",
+    "atualizado_em": "2026-07-10T07:50:41.595Z"
   },
   "9477402": {
     "imo": "9477402",
@@ -6879,13 +6879,13 @@
     "navio_normalizado": "ORYX",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
     "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-09T17:30:00.000Z",
-    "ultimo_hash_evento": "38b309b739dc5ddfa3b041ad49e33c56b85ea0be23ae89f63472eaa822f06938",
-    "atualizado_em": "2026-07-09T18:24:03.518Z"
+    "ultima_movimentacao_em": "2026-07-10T06:00:00.000Z",
+    "ultimo_hash_evento": "d63db3cc70558650d2f80809846597c457c94a99ea0b7e67fff5b02662dc0584",
+    "atualizado_em": "2026-07-10T07:50:41.595Z"
   },
   "9636888": {
     "imo": "9636888",
@@ -8433,13 +8433,13 @@
     "navio_normalizado": "BRAM HERO",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-09T21:00:00.000Z",
-    "ultimo_hash_evento": "c34410fd81df892851e59061e2853f26325576842b1d62479fcf6f5cdfb8fb23",
-    "atualizado_em": "2026-07-09T21:47:50.587Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-10T07:00:00.000Z",
+    "ultimo_hash_evento": "3d42e711833726fac91d3862d9b71d67241c3696d43532738add46f8b5c11dca",
+    "atualizado_em": "2026-07-10T07:50:41.595Z"
   },
   "9704972": {
     "imo": "9704972",
@@ -8740,14 +8740,14 @@
     "navio": "CBO OCEANA",
     "navio_normalizado": "CBO OCEANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-09T21:00:00.000Z",
-    "ultimo_hash_evento": "301dc50d5944dc7fec2e21734bade7da4b3a70368ba9b1a158993e37757a6e83",
-    "atualizado_em": "2026-07-09T21:47:50.587Z"
+    "ultima_movimentacao_em": "2026-07-10T05:00:00.000Z",
+    "ultimo_hash_evento": "232baee44fd0ce4297f4f387c288b7e4ef7656132e87d469547f2d93d9b763ea",
+    "atualizado_em": "2026-07-10T07:50:41.595Z"
   },
   "9715725": {
     "imo": "9715725",
