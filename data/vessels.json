@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-10T21:20:17.564Z",
+  "updatedAt": "2026-07-10T23:31:06.863Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 60
+      "count": 62
     },
     "niteroi": {
       "ok": true,
@@ -322,12 +322,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/07/2026 13:00",
-      "imo": "9539573",
-      "navio": "PACIFIC ZIRCON",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - WPT 63 - 2F6A",
-      "para": "TPP2 - PETROBRAS PP2",
-      "agente": "GAC DO BRASIL LTDA."
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,12 +342,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/07/2026 13:00",
-      "imo": "9529700",
-      "navio": "POSIDONIA TIGER (REB)",
+      "imo": "9539573",
+      "navio": "PACIFIC ZIRCON",
       "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "de": "Fundeio - WPT 63 - 2F6A",
+      "para": "TPP2 - PETROBRAS PP2",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -392,21 +392,11 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/07/2026 16:00",
-      "imo": "9273064",
-      "navio": "HEATHER KNUTSEN",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 81 - 2F08",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/07/2026 16:00",
-      "imo": "9497127",
-      "navio": "CAMPOS CONTENDER",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -422,22 +412,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/07/2026 16:00",
-      "imo": "9636022",
-      "navio": "SABLE (REB)",
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/07/2026 16:00",
-      "imo": "9645542",
-      "navio": "MANDRIÃO (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "imo": "9273064",
+      "navio": "HEATHER KNUTSEN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 81 - 2F08",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -446,16 +436,6 @@
       "navio": "SEVEN SABIÁ",
       "tipo": "SAÍDA",
       "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/07/2026 17:00",
-      "imo": "9958743",
-      "navio": "Rem Wind",
-      "tipo": "SAÍDA",
-      "de": "ESPR - MacLaren Ilha da Conceição",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
@@ -511,6 +491,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/07/2026 20:00",
+      "imo": "9645542",
+      "navio": "MANDRIÃO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/07/2026 21:00",
       "imo": "9477402",
       "navio": "CBO ANITA",
@@ -518,6 +508,36 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/07/2026 22:00",
+      "imo": "9958743",
+      "navio": "Rem Wind",
+      "tipo": "SAÍDA",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/07/2026 04:00",
+      "imo": "9806495",
+      "navio": "STARNAV CIRCINUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/07/2026 04:30",
+      "imo": "9715751",
+      "navio": "STARNAV PHOENIX",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -571,7 +591,7 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "11/07/2026 10:00",
+      "inicio": "11/07/2026 10:30",
       "imo": "9945887",
       "navio": "COSCO SHIPPING CHILE",
       "tipo": "SAÍDA",
@@ -711,6 +731,16 @@
     },
     {
       "porto": "Itaguaí",
+      "inicio": "10/07/2026 22:30",
+      "imo": "9861081",
+      "navio": "MINT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
       "inicio": "11/07/2026 04:00",
       "imo": "9593816",
       "navio": "ZHENG RUN",
@@ -731,17 +761,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "11/07/2026 07:00",
-      "imo": "9861081",
-      "navio": "MINT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "agente": "GEM SHIPPING LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "11/07/2026 10:00",
+      "inicio": "11/07/2026 09:30",
       "imo": "9607021",
       "navio": "SHIN SUMA",
       "tipo": "SAÍDA",
@@ -751,7 +771,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "11/07/2026 11:30",
+      "inicio": "11/07/2026 11:00",
       "imo": "9783320",
       "navio": "FOMENTO FOUR",
       "tipo": "MUDANÇA",
