@@ -1,29 +1,36 @@
 {
   "imo": "9664299",
   "navio": "BRAM BRASILIA",
-  "gerado_em": "2026-07-10T10:39:50.175Z",
+  "gerado_em": "2026-07-10T12:56:50.160Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-08T04:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-10T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 54,
-    "manobras_365d": 54,
+    "manobras_30d": 17,
+    "manobras_180d": 55,
+    "manobras_365d": 55,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 9,
     "entradas_365d": 12,
-    "saidas_365d": 10,
+    "saidas_365d": 11,
     "ultima_entrada": "2026-07-08T04:00:00.000Z",
-    "ultima_saida": "2026-07-01T00:00:00.000Z",
-    "tempo_medio_estadia_horas": 52.4,
+    "ultima_saida": "2026-07-10T11:00:00.000Z",
+    "tempo_medio_estadia_horas": 52.8,
     "tempo_medio_fundeio_horas": 20.5
   },
   "historico_recente": [
+    {
+      "data": "2026-07-10T11:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-"
+    },
     {
       "data": "2026-07-08T04:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)"
-    },
-    {
-      "data": "2026-06-26T08:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
