@@ -1,29 +1,36 @@
 {
   "imo": "9720512",
   "navio": "MSC MICHELA",
-  "gerado_em": "2026-07-11T11:49:00.667Z",
+  "gerado_em": "2026-07-11T12:42:01.437Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C21 - TECON 3 - MRIO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-10T13:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-11T12:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 4,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-07-10T13:00:00.000Z",
-    "ultima_saida": "2026-06-23T16:00:00.000Z",
-    "tempo_medio_estadia_horas": 20.5,
+    "ultima_saida": "2026-07-11T12:30:00.000Z",
+    "tempo_medio_estadia_horas": 21.3,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-07-11T12:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-"
+    },
     {
       "data": "2026-07-10T13:00:00.000Z",
       "tipo": "ENTRADA",
