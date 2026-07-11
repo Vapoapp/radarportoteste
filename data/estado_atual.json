@@ -3154,14 +3154,14 @@
     "navio": "CMA CGM RABELAIS",
     "navio_normalizado": "CMA CGM RABELAIS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C11 - TECON - ICTSI 1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-05-09T18:00:00.000Z",
-    "ultimo_hash_evento": "d8b021dfd383236210aa97810176b035761610dd817a0d835c4c324c42ecefe8",
-    "atualizado_em": "2026-05-09T18:02:24.741Z"
+    "ultima_movimentacao_em": "2026-07-11T15:30:00.000Z",
+    "ultimo_hash_evento": "92ec54518dfa42ccd3ac0575da641820a7c5de93444384d4ea172110d65a8a3b",
+    "atualizado_em": "2026-07-11T16:11:15.483Z"
   },
   "9407160": {
     "imo": "9407160",
@@ -5786,14 +5786,14 @@
     "navio": "NORMAND CARIOCA",
     "navio_normalizado": "NORMAND CARIOCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
     "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T12:30:00.000Z",
-    "ultimo_hash_evento": "0fc7443303584778550a91b23069d034896bd4533dfc8dbc63952f11d356a96c",
-    "atualizado_em": "2026-07-03T14:35:01.601Z"
+    "ultima_movimentacao_em": "2026-07-11T15:00:00.000Z",
+    "ultimo_hash_evento": "1244ae85695798750bb1a73c33b427e8c206b6f4fd6c01dc1d2982445b55274d",
+    "atualizado_em": "2026-07-11T16:11:15.483Z"
   },
   "9574107": {
     "imo": "9574107",
@@ -7158,14 +7158,14 @@
     "navio": "MANDRIÃO (REB)",
     "navio_normalizado": "MANDRIAO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-10T23:00:00.000Z",
-    "ultimo_hash_evento": "5d36f6294305071b74f0dd766023de055ea4dd6d27d808e1abadc4ef692af66d",
-    "atualizado_em": "2026-07-10T23:31:06.863Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-11T15:30:00.000Z",
+    "ultimo_hash_evento": "c88b1cd9d033f28351f4f97536aa148c1ee58bef73c902d76d241e92928b5675",
+    "atualizado_em": "2026-07-11T16:11:15.483Z"
   },
   "9646845": {
     "imo": "9646845",
@@ -8594,6 +8594,20 @@
     "ultima_movimentacao_em": "2026-05-23T17:30:00.000Z",
     "ultimo_hash_evento": "21d7809ec37103f11f0db02bb532ec482ab45a70dd3ed162fae88222b31fc916",
     "atualizado_em": "2026-05-23T17:40:11.163Z"
+  },
+  "9706968": {
+    "imo": "9706968",
+    "navio": "SKANDI RECIFE",
+    "navio_normalizado": "SKANDI RECIFE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-11T15:30:00.000Z",
+    "ultimo_hash_evento": "0a43c898bf6fedbceb9b073fc4e58e3089b78b499b44be4bf3a91b34637e17b3",
+    "atualizado_em": "2026-07-11T16:11:15.483Z"
   },
   "9707003": {
     "imo": "9707003",
@@ -11618,6 +11632,20 @@
     "ultima_movimentacao_em": "2026-05-03T07:00:00.000Z",
     "ultimo_hash_evento": "4e044ed1696a02ae2997479c3f1244ebb54443636c1151bd13d82689231b803b",
     "atualizado_em": "2026-05-03T07:32:50.017Z"
+  },
+  "9926398": {
+    "imo": "9926398",
+    "navio": "SHANDONG PROPELLANT",
+    "navio_normalizado": "SHANDONG PROPELLANT",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-11T16:00:00.000Z",
+    "ultimo_hash_evento": "b79c72df02647b4e2491b108d4ee36e47c5d7bb3bdcc719bebf1339b2517a357",
+    "atualizado_em": "2026-07-11T16:11:15.483Z"
   },
   "9926415": {
     "imo": "9926415",
