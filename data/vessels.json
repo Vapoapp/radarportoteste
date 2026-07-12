@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-12T18:10:48.686Z",
+  "updatedAt": "2026-07-12T19:30:07.212Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 40
+      "count": 41
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -391,13 +391,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/07/2026 23:30",
-      "imo": "9680176",
-      "navio": "BRUCE KAY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "inicio": "12/07/2026 20:00",
+      "imo": "9549592",
+      "navio": "BBC PERU",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "BRAZILIAN PORT AGENTS"
     },
     {
       "porto": "Rio de Janeiro",
@@ -407,6 +407,16 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/07/2026 23:30",
+      "imo": "9680176",
+      "navio": "BRUCE KAY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -448,6 +458,16 @@
       "de": "-",
       "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "12/07/2026 20:00",
+      "imo": "9667239",
+      "navio": "PARCEL DAS FEITICEIRAS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -546,7 +566,7 @@
       "navio": "CAPE GLOBE",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 5FB4 - Área de Fundeio B4",
+      "para": "Fundeio - 5FB5 - Área de Fundeio B5",
       "agente": "THP SHIPPING AND LOGISTICS LTDA"
     }
   ]
