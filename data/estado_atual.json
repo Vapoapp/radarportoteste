@@ -2483,13 +2483,13 @@
     "navio_normalizado": "ASSO VENTISETTE",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-09T08:00:00.000Z",
-    "ultimo_hash_evento": "d97dace094029890fa6da1257d74dffa20acdf23b6056dd41faf8db6fb5db7bd",
-    "atualizado_em": "2026-07-09T11:32:02.703Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-12T21:00:00.000Z",
+    "ultimo_hash_evento": "9d3c452873bc407104ef26308969b72e415b0faf949f0c58adf14cd903d1dc29",
+    "atualizado_em": "2026-07-12T21:10:29.777Z"
   },
   "9357236": {
     "imo": "9357236",
@@ -5934,6 +5934,20 @@
     "ultima_movimentacao_em": "2026-07-08T20:00:00.000Z",
     "ultimo_hash_evento": "3cefbdc6913f9b713a15daae0d15d8152fd1e6c40a82ed448d2813a2f523ad45",
     "atualizado_em": "2026-07-08T20:59:47.542Z"
+  },
+  "9580209": {
+    "imo": "9580209",
+    "navio": "AEOLIAN",
+    "navio_normalizado": "AEOLIAN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01S - Visita Sul",
+    "destino_atual": "-",
+    "agente_atual": "GEM SHIPPING LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-12T20:30:00.000Z",
+    "ultimo_hash_evento": "6597bc63b8d63484d23dd80110a576618df96b773691ea5642c00678d8065836",
+    "atualizado_em": "2026-07-12T21:10:29.777Z"
   },
   "9581423": {
     "imo": "9581423",
