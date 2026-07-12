@@ -2510,14 +2510,14 @@
     "navio": "SEVEN OCEANS",
     "navio_normalizado": "SEVEN OCEANS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F08 - NW DO TPP1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F08 - NW DO TPP1",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-11T11:00:00.000Z",
-    "ultimo_hash_evento": "8458dea16e2612f6365e1704255d5b63cb4eb1898cebb33b9da8bac165a8f184",
-    "atualizado_em": "2026-07-11T11:49:00.667Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-12T03:00:00.000Z",
+    "ultimo_hash_evento": "a1af2a64f4c1a4e03b56648b4f86c7230129234c2c8401ffe17c3b3b9012c661",
+    "atualizado_em": "2026-07-12T11:30:15.747Z"
   },
   "9360207": {
     "imo": "9360207",
@@ -5767,6 +5767,20 @@
     "ultimo_hash_evento": "10f837a0da71da48dc7dce1a6dda37e0f3412e1bed86f7bb8dd0c5b337f3790c",
     "atualizado_em": "2026-04-28T11:24:10.103Z"
   },
+  "9573244": {
+    "imo": "9573244",
+    "navio": "STERNA",
+    "navio_normalizado": "STERNA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "agente_atual": "WILSON SONS OFFSHORE S.A.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-12T11:00:00.000Z",
+    "ultimo_hash_evento": "839bf8e31691daaed72c3c0a955667c3858d77b40af46113eb35df3ae661de36",
+    "atualizado_em": "2026-07-12T11:30:15.747Z"
+  },
   "9573256": {
     "imo": "9573256",
     "navio": "BATUÍRA",
@@ -7648,14 +7662,14 @@
     "navio": "STARNAV REGULUS",
     "navio_normalizado": "STARNAV REGULUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-30T12:00:00.000Z",
-    "ultimo_hash_evento": "1b045ae1c1fcb99a1cdc127243d946900ad31082ab9cbeaf11efe821e2c753a0",
-    "atualizado_em": "2026-06-30T13:27:46.888Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-12T11:00:00.000Z",
+    "ultimo_hash_evento": "2ac2bdc604a98d7fdf3f8cdf12b9c52b59d98cb78c17af1289caddcae3edfa56",
+    "atualizado_em": "2026-07-12T11:30:15.747Z"
   },
   "9670262": {
     "imo": "9670262",
@@ -9539,13 +9553,13 @@
     "navio_normalizado": "SEACOR DEMERARA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-12T09:00:00.000Z",
-    "ultimo_hash_evento": "941f961dfdb8918d2086d2066e043c08d01ae732800a3393b5ab4c4cbde85c17",
-    "atualizado_em": "2026-07-12T10:11:53.205Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-12T11:20:00.000Z",
+    "ultimo_hash_evento": "531fddc1ae2318820cc08196958de7f9f029dd544f1f715c9d847a94e103c09e",
+    "atualizado_em": "2026-07-12T11:30:15.747Z"
   },
   "9753923": {
     "imo": "9753923",
@@ -10435,13 +10449,13 @@
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-11T03:00:00.000Z",
-    "ultimo_hash_evento": "573e30117e9b102e0dbee71235d81a1a26c4885609d89f504d9ba6e50f0e753d",
-    "atualizado_em": "2026-07-11T04:19:27.464Z"
+    "ultima_movimentacao_em": "2026-07-12T11:00:00.000Z",
+    "ultimo_hash_evento": "665c63bc2e11f3d4024375f74d05d719dc0d3b9f4c8324467680b611e384f871",
+    "atualizado_em": "2026-07-12T11:30:15.747Z"
   },
   "9799628": {
     "imo": "9799628",
