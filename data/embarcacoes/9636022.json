@@ -1,21 +1,21 @@
 {
   "imo": "9636022",
   "navio": "SABLE (REB)",
-  "gerado_em": "2026-07-12T12:29:32.084Z",
+  "gerado_em": "2026-07-12T14:06:23.836Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-11T09:30:00.000Z"
+    "ultima_movimentacao": "2026-07-12T13:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 38,
-    "manobras_365d": 38,
+    "manobras_30d": 11,
+    "manobras_180d": 39,
+    "manobras_365d": 39,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 10,
     "saidas_365d": 10,
     "ultima_entrada": "2026-07-10T19:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 36.1
   },
   "historico_recente": [
+    {
+      "data": "2026-07-12T13:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-07-11T09:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBL - BRICLOG"
-    },
-    {
-      "data": "2026-06-17T03:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
