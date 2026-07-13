@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-13T17:32:08.331Z",
+  "updatedAt": "2026-07-13T18:58:32.542Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 47
+      "count": 49
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 7
+      "count": 13
     },
     "angra": {
       "ok": true,
@@ -102,16 +102,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/07/2026 06:00",
-      "imo": "9933573",
-      "navio": "SEAWAYS ENDEAVOR",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01S - Visita Sul",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/07/2026 06:00",
       "imo": "9442055",
       "navio": "TALHA-MAR",
       "tipo": "MUDANÇA",
@@ -128,6 +118,16 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/07/2026 06:00",
+      "imo": "9933573",
+      "navio": "SEAWAYS ENDEAVOR",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01S - Visita Sul",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -218,6 +218,16 @@
       "de": "TPS1 - PETROBRAS PS1",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/07/2026 09:00",
+      "imo": "1025124",
+      "navio": "WINDEA CURIE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -408,6 +418,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/07/2026 16:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "TPBL - BRICLOG",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -618,6 +638,66 @@
       "de": "-",
       "para": "303 - TECON - SEPETIBA TECON S.A.",
       "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/07/2026 06:00",
+      "imo": "9926398",
+      "navio": "SHANDONG PROPELLANT",
+      "tipo": "SAÍDA",
+      "de": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/07/2026 07:30",
+      "imo": "9567037",
+      "navio": "JEWEL",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB3 - Área de Fundeio B3",
+      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/07/2026 09:00",
+      "imo": "9493987",
+      "navio": "MOONBEAM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "101 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/07/2026 14:00",
+      "imo": "9844564",
+      "navio": "CL PEARL RIVER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/07/2026 16:30",
+      "imo": "9846495",
+      "navio": "ZHONG YUAN HAI YUN JIN QU",
+      "tipo": "SAÍDA",
+      "de": "303 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "14/07/2026 18:00",
+      "imo": "9538749",
+      "navio": "CAPE ASTER",
+      "tipo": "SAÍDA",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
     }
   ]
 }
