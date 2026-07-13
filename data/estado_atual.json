@@ -877,9 +877,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-12T08:00:00.000Z",
-    "ultimo_hash_evento": "d1e1fc70bd6ba887874da294cd7cfff4855c2c564f684bafebd5936d94e1d74d",
-    "atualizado_em": "2026-07-12T18:10:48.686Z"
+    "ultima_movimentacao_em": "2026-07-13T10:00:00.000Z",
+    "ultimo_hash_evento": "310a4169bcbee962f9b8fab5783c2068d433c0370e7a23097d070df40cf56e80",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9231535": {
     "imo": "9231535",
@@ -1460,14 +1460,14 @@
     "navio": "SEVEN SABIÁ",
     "navio_normalizado": "SEVEN SABIA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPSS - SUBSEA",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-10T19:40:00.000Z",
-    "ultimo_hash_evento": "03c226276662871fab338101c403434b24cfafff13c3ca4c3348d83de6011741",
-    "atualizado_em": "2026-07-10T20:12:38.847Z"
+    "ultima_movimentacao_em": "2026-07-13T10:00:00.000Z",
+    "ultimo_hash_evento": "20f75ea692ae88b526cf8833ec31dfd678f244bf84b212b04c8fae7bb9730093",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9288409": {
     "imo": "9288409",
@@ -1796,14 +1796,14 @@
     "navio": "SAN ANDRES IV",
     "navio_normalizado": "SAN ANDRES IV",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPS2 - PETROBRAS PS2",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPS1 - PETROBRAS PS1",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-05T09:30:00.000Z",
-    "ultimo_hash_evento": "50ca9212908a4d3928e2b998da395a29d132711a6d8901a9769204074492d3ee",
-    "atualizado_em": "2026-07-05T10:37:06.839Z"
+    "ultima_movimentacao_em": "2026-07-13T08:00:00.000Z",
+    "ultimo_hash_evento": "3512beaefe1af82e7060e8d881b6c6d386ede8c0acd340225a3ef3549e755b47",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9310721": {
     "imo": "9310721",
@@ -2056,6 +2056,20 @@
     "ultima_movimentacao_em": "2026-04-20T23:00:00.000Z",
     "ultimo_hash_evento": "14408167b6a3cdd60f0e29dd47393c3fb79a36b7665fb86126267829795dafa7",
     "atualizado_em": "2026-04-20T23:34:31.913Z"
+  },
+  "9328819": {
+    "imo": "9328819",
+    "navio": "NORMAND INSTALLER",
+    "navio_normalizado": "NORMAND INSTALLER",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - WPT 82 - 2F08",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-13T08:00:00.000Z",
+    "ultimo_hash_evento": "c9077dea95d578044820e986d4808c294b2ca8d3fd0e4f0f32b75cc8fec2d5e9",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9329942": {
     "imo": "9329942",
@@ -3574,14 +3588,14 @@
     "navio": "MAERSK LEADER",
     "navio_normalizado": "MAERSK LEADER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-18T09:00:00.000Z",
-    "ultimo_hash_evento": "c38d734653cf85622cd2fb58b4f1a97585dcea0eee45aea93a0b67ff1bc6bdbc",
-    "atualizado_em": "2026-04-18T09:00:53.399Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-13T12:00:00.000Z",
+    "ultimo_hash_evento": "4121f35e3f8da938bd329a6b59197a9837d361d4f0615b4a70b6facfc9f6495e",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9425722": {
     "imo": "9425722",
@@ -5450,14 +5464,14 @@
     "navio": "COXON TIDE (REB)",
     "navio_normalizado": "COXON TIDE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBL - BRICLOG",
     "agente_atual": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-10T09:00:00.000Z",
-    "ultimo_hash_evento": "9555b18160f13e11f80cea6e4a83a538057517d3726ff0e9ce20dbed6a8193f2",
-    "atualizado_em": "2026-07-10T10:39:50.175Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-13T12:00:00.000Z",
+    "ultimo_hash_evento": "6d87bfe012d1a6b1021eeadf99cc0be93d49aa3b098b8e2f6cb4111ffdc44af3",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9546801": {
     "imo": "9546801",
@@ -6276,14 +6290,14 @@
     "navio": "SAAR N",
     "navio_normalizado": "SAAR N",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "destino_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
     "agente_atual": "ISS MARINE SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-11T17:00:00.000Z",
-    "ultimo_hash_evento": "ada5144c3eea80b744c306b343f320608d3c7e0fde25409da47ca4f2b31465af",
-    "atualizado_em": "2026-07-11T17:14:58.675Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-13T11:30:00.000Z",
+    "ultimo_hash_evento": "f51d87a7e3105478ed07af81ca94c1dbc29a87a6012a8b2e3afd3a26e9731dc6",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9603439": {
     "imo": "9603439",
@@ -6724,14 +6738,14 @@
     "navio": "ELKA LEBLON",
     "navio_normalizado": "ELKA LEBLON",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-10T12:00:00.000Z",
-    "ultimo_hash_evento": "1d85ddc107f2acb9693b04f85ea66d5c7d140d1f3164e429fc4eb79ed30ab1b9",
-    "atualizado_em": "2026-07-10T12:56:50.160Z"
+    "ultima_movimentacao_em": "2026-07-13T10:00:00.000Z",
+    "ultimo_hash_evento": "e7f9d23d212b8a8a987fdfa1d55cebf78ac4525395aae18c7c10f2a2b2c7b5e1",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9626118": {
     "imo": "9626118",
@@ -6962,14 +6976,14 @@
     "navio": "SABLE (REB)",
     "navio_normalizado": "SABLE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
+    "ultimo_tipo_evento": "SAÍDA",
     "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-12T13:00:00.000Z",
-    "ultimo_hash_evento": "5c9df6b129c2498a6626194dafa4f60423a4116b50a67d45ecbc98de659cecca",
-    "atualizado_em": "2026-07-12T14:06:23.836Z"
+    "ultima_movimentacao_em": "2026-07-13T10:30:00.000Z",
+    "ultimo_hash_evento": "02b5c5cd814d4fb9ed377cf17dac2dac647f93eb8b1609136af9656cadfc023d",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9636034": {
     "imo": "9636034",
@@ -8698,14 +8712,14 @@
     "navio": "SKANDI RECIFE",
     "navio_normalizado": "SKANDI RECIFE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
     "destino_atual": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-11T15:30:00.000Z",
-    "ultimo_hash_evento": "0a43c898bf6fedbceb9b073fc4e58e3089b78b499b44be4bf3a91b34637e17b3",
-    "atualizado_em": "2026-07-11T16:11:15.483Z"
+    "ultima_movimentacao_em": "2026-07-13T11:30:00.000Z",
+    "ultimo_hash_evento": "3be3c965cc9905f5673a2244f3861fb2a28759266028bea427869fba2019fe93",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9707003": {
     "imo": "9707003",
@@ -8894,14 +8908,14 @@
     "navio": "CBO OCEANA",
     "navio_normalizado": "CBO OCEANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-10T05:00:00.000Z",
-    "ultimo_hash_evento": "232baee44fd0ce4297f4f387c288b7e4ef7656132e87d469547f2d93d9b763ea",
-    "atualizado_em": "2026-07-10T07:50:41.595Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-13T09:50:00.000Z",
+    "ultimo_hash_evento": "45b346ccaaa18be6ad04582bed59bcb736d64a482a436b799219eaef4c5f6e11",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9715725": {
     "imo": "9715725",
@@ -8923,13 +8937,13 @@
     "navio_normalizado": "STARNAV ANDROMEDA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-12T13:00:00.000Z",
-    "ultimo_hash_evento": "b147a3d09fc08dc37bfa952bc65daab64849687759cdcb0d1c343cc282627349",
-    "atualizado_em": "2026-07-12T14:06:23.836Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-13T10:30:00.000Z",
+    "ultimo_hash_evento": "9150900e833c2ce0b3bdb0e865142cd9b90c72ec34e631d652313d93725567ba",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9715751": {
     "imo": "9715751",
@@ -9874,14 +9888,14 @@
     "navio": "STIM STAR BRASIL",
     "navio_normalizado": "STIM STAR BRASIL",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-02T03:00:00.000Z",
-    "ultimo_hash_evento": "d5ad1e7db537b8a368abfb71a224ad204b4ee36ad4937c47a303c0d710c34b10",
-    "atualizado_em": "2026-07-02T04:33:33.409Z"
+    "ultima_movimentacao_em": "2026-07-13T12:00:00.000Z",
+    "ultimo_hash_evento": "59ce428d21681aca939c3fd972376f8cde07841d1805200a60660232740917d7",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9765158": {
     "imo": "9765158",
@@ -10700,14 +10714,14 @@
     "navio": "ARCTOS",
     "navio_normalizado": "ARCTOS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPS1 - PETROBRAS PS1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPS1 - PETROBRAS PS1",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-11T10:00:00.000Z",
-    "ultimo_hash_evento": "3528a9d6417de5a2b537e9e5d6bc6b39668e7c2f18c4609e5701495159fd41f0",
-    "atualizado_em": "2026-07-11T10:55:11.158Z"
+    "ultima_movimentacao_em": "2026-07-13T11:30:00.000Z",
+    "ultimo_hash_evento": "b7e7d37c3b0df15eac68c7ec806b7098f6e2062d2c0f1f41f21203627bfa3b7b",
+    "atualizado_em": "2026-07-13T12:35:31.782Z"
   },
   "9829655": {
     "imo": "9829655",
