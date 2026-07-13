@@ -1,21 +1,21 @@
 {
   "imo": "9668752",
   "navio": "STARNAV REGULUS",
-  "gerado_em": "2026-07-13T03:52:35.374Z",
+  "gerado_em": "2026-07-13T06:42:59.168Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "ESPR - MacLaren Ilha da Conceição",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-12T11:00:00.000Z"
+    "ultima_movimentacao": "2026-07-13T04:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 20,
-    "manobras_365d": 20,
+    "manobras_30d": 7,
+    "manobras_180d": 21,
+    "manobras_365d": 21,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 8,
     "saidas_365d": 7,
     "ultima_entrada": "2026-06-30T12:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 214.9
   },
   "historico_recente": [
+    {
+      "data": "2026-07-13T04:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-07-12T11:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-05-14T05:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
