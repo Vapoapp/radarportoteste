@@ -1,29 +1,36 @@
 {
   "imo": "9752967",
   "navio": "SEACOR DEMERARA (REB)",
-  "gerado_em": "2026-07-13T00:05:43.276Z",
+  "gerado_em": "2026-07-13T03:52:35.374Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-12T20:00:00.000Z"
+    "ultima_movimentacao": "2026-07-13T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 24,
-    "manobras_180d": 58,
-    "manobras_365d": 58,
+    "manobras_30d": 23,
+    "manobras_180d": 59,
+    "manobras_365d": 59,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 16,
+    "mudancas_30d": 15,
     "entradas_365d": 12,
     "saidas_365d": 12,
     "ultima_entrada": "2026-07-04T16:00:00.000Z",
     "ultima_saida": "2026-07-02T03:30:00.000Z",
     "tempo_medio_estadia_horas": 71,
-    "tempo_medio_fundeio_horas": 25.1
+    "tempo_medio_fundeio_horas": 24.3
   },
   "historico_recente": [
+    {
+      "data": "2026-07-13T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-07-12T20:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2N11 - Armazém 13",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-07-01T10:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2N11 - Armazém 13"
     }
   ]
 }
