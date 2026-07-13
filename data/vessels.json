@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-13T20:18:29.455Z",
+  "updatedAt": "2026-07-13T21:15:32.946Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 50
+      "count": 47
     },
     "niteroi": {
       "ok": true,
@@ -72,16 +72,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/07/2026 05:00",
-      "imo": "9309215",
-      "navio": "SAN ANDRES IV",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPS1 - PETROBRAS PS1",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/07/2026 05:00",
       "imo": "9328819",
       "navio": "NORMAND INSTALLER",
       "tipo": "ENTRADA",
@@ -112,6 +102,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/07/2026 06:00",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/07/2026 06:00",
       "imo": "9933573",
       "navio": "SEAWAYS ENDEAVOR",
       "tipo": "SAÍDA",
@@ -122,22 +122,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/07/2026 06:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/07/2026 06:00",
       "imo": "9442055",
       "navio": "TALHA-MAR",
       "tipo": "MUDANÇA",
       "de": "2PAL - Terminal Petrobras AL",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/07/2026 06:00",
-      "imo": "9482330",
-      "navio": "MULTIPLICITY (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -361,16 +361,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "13/07/2026 13:00",
-      "imo": "9695028",
-      "navio": "MSC SOFIA PAZ",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "13/07/2026 14:00",
       "imo": "9506394",
       "navio": "LOG-IN DISCOVERY (REB S/L)",
@@ -398,16 +388,6 @@
       "de": "-",
       "para": "TPS2 - PETROBRAS PS2",
       "agente": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/07/2026 15:00",
-      "imo": "9702077",
-      "navio": "MSC MELINE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C22 - TECON 2 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -461,6 +441,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "13/07/2026 21:00",
+      "imo": "9806495",
+      "navio": "STARNAV CIRCINUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "13/07/2026 23:00",
       "imo": "9421116",
       "navio": "BBC JADE",
@@ -478,26 +468,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/07/2026 06:00",
-      "imo": "9695028",
-      "navio": "MSC SOFIA PAZ",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/07/2026 06:00",
-      "imo": "9702077",
-      "navio": "MSC MELINE",
-      "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
