@@ -1,29 +1,36 @@
 {
   "imo": "9626455",
   "navio": "KUDU (REB)",
-  "gerado_em": "2026-07-14T00:08:12.000Z",
+  "gerado_em": "2026-07-14T05:53:19.179Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-07-08T19:00:00.000Z"
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-07-14T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 29,
-    "manobras_365d": 29,
-    "entradas_30d": 4,
+    "manobras_30d": 19,
+    "manobras_180d": 30,
+    "manobras_365d": 30,
+    "entradas_30d": 5,
     "saidas_30d": 4,
     "mudancas_30d": 10,
-    "entradas_365d": 7,
+    "entradas_365d": 8,
     "saidas_365d": 8,
-    "ultima_entrada": "2026-07-08T00:00:00.000Z",
+    "ultima_entrada": "2026-07-14T05:00:00.000Z",
     "ultima_saida": "2026-07-08T19:00:00.000Z",
     "tempo_medio_estadia_horas": 73.1,
     "tempo_medio_fundeio_horas": 38.8
   },
   "historico_recente": [
+    {
+      "data": "2026-07-14T05:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-07-08T19:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-06-28T15:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
