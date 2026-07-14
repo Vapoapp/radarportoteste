@@ -5940,14 +5940,14 @@
     "navio": "CBO COPACABANA",
     "navio_normalizado": "CBO COPACABANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-01T00:00:00.000Z",
-    "ultimo_hash_evento": "73e85356c454f1e0e922ef2265ac5f8be60abae862f7237a844f3cedc3640f90",
-    "atualizado_em": "2026-07-01T00:14:41.827Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-14T04:30:00.000Z",
+    "ultimo_hash_evento": "11b3e0a785f34d78933ae22c291562abb8fa0556b50903165558fcdad55fb879",
+    "atualizado_em": "2026-07-14T07:46:19.491Z"
   },
   "9578919": {
     "imo": "9578919",
@@ -10191,6 +10191,20 @@
     "ultimo_hash_evento": "ece255897098d851e0f750e7641b0ccbc6a2eff5639d733e8e82d1b1ce03ca9d",
     "atualizado_em": "2026-06-30T20:16:16.234Z"
   },
+  "9782003": {
+    "imo": "9782003",
+    "navio": "BULK ENDURANCE",
+    "navio_normalizado": "BULK ENDURANCE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N07 - Pátio 8/9",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-14T06:00:00.000Z",
+    "ultimo_hash_evento": "dbc744e112ab69b859b5bff436744290124e31d924b277145fc7a9218ee191d5",
+    "atualizado_em": "2026-07-14T07:46:19.491Z"
+  },
   "9782209": {
     "imo": "9782209",
     "navio": "UNITY SAKURA",
@@ -11212,6 +11226,20 @@
     "ultima_movimentacao_em": "2026-04-18T10:00:00.000Z",
     "ultimo_hash_evento": "b5feca18c4590a6ddbe800ce93f6b14d615c7c589f1cabac1ee17c27af158eec",
     "atualizado_em": "2026-04-18T17:49:51.229Z"
+  },
+  "9859416": {
+    "imo": "9859416",
+    "navio": "HANG JUN 6009",
+    "navio_normalizado": "HANG JUN 6009",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - F2 - FUNDEIO F2",
+    "agente_atual": "PATRIA NAVAL OPERACOES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-14T07:00:00.000Z",
+    "ultimo_hash_evento": "dba1091fe7a81fc61fd4eaa8d6c870ab9a5dbabcc922509a9ceece0791642b3a",
+    "atualizado_em": "2026-07-14T07:46:19.491Z"
   },
   "9860738": {
     "imo": "9860738",
