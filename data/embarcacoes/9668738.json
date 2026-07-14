@@ -1,21 +1,21 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-07-14T14:26:53.320Z",
+  "gerado_em": "2026-07-14T15:56:12.796Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-08T04:00:00.000Z"
+    "ultima_movimentacao": "2026-07-14T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 41,
-    "manobras_365d": 41,
+    "manobras_30d": 6,
+    "manobras_180d": 42,
+    "manobras_365d": 42,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 9,
     "saidas_365d": 9,
     "ultima_entrada": "2026-07-06T11:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 33
   },
   "historico_recente": [
+    {
+      "data": "2026-07-14T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-07-08T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "NIT - ATRACADO NITERÓI",
       "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
-    },
-    {
-      "data": "2026-06-06T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }
