@@ -1,21 +1,21 @@
 {
   "imo": "9165970",
   "navio": "MARLIN STOLMEN (REB)",
-  "gerado_em": "2026-07-14T12:38:06.196Z",
+  "gerado_em": "2026-07-14T14:26:53.320Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-24T21:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-14T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 1,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-04-24T21:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 44
   },
   "historico_recente": [
+    {
+      "data": "2026-07-14T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-04-24T21:00:00.000Z",
       "tipo": "ENTRADA",

@@ -662,14 +662,14 @@
     "navio": "MARLIN STOLMEN (REB)",
     "navio_normalizado": "MARLIN STOLMEN",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-04-24T21:00:00.000Z",
-    "ultimo_hash_evento": "0615adfdc51925be289f7c2fd0587116f8a77d82bb927f2495a648ef0169018c",
-    "atualizado_em": "2026-04-24T21:04:24.064Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-14T14:00:00.000Z",
+    "ultimo_hash_evento": "983e1353a5cd0d150d57400f3323b2b5e38082ad3dbbc329c321fda57efcdd53",
+    "atualizado_em": "2026-07-14T14:26:53.320Z"
   },
   "9168867": {
     "imo": "9168867",
@@ -2511,13 +2511,13 @@
     "navio_normalizado": "ASSO VENTISETTE",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "destino_atual": "TPBR - BRASCO",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-13T09:00:00.000Z",
-    "ultimo_hash_evento": "b2b45368a80e67ca8024caf96136dc1b2c8c47b78786dde42f970850a25b7507",
-    "atualizado_em": "2026-07-13T21:15:32.946Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-14T13:00:00.000Z",
+    "ultimo_hash_evento": "08ed7484864554f9ac249306b0644ef6aec336f2eb3ce3aa9f9b4c44ff8504a0",
+    "atualizado_em": "2026-07-14T14:26:53.320Z"
   },
   "9357236": {
     "imo": "9357236",
@@ -7363,6 +7363,20 @@
     "ultimo_hash_evento": "3da8166dcdcc4ff212b02617b0e2e78a22904cf982abbc459f113bb49f957bc3",
     "atualizado_em": "2026-06-18T12:31:31.798Z"
   },
+  "9649562": {
+    "imo": "9649562",
+    "navio": "EVITA II",
+    "navio_normalizado": "EVITA II",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-14T14:00:00.000Z",
+    "ultimo_hash_evento": "aa63d63b3473eb88819c279df3e911889c3b7f63711855739f03195f481d1a68",
+    "atualizado_em": "2026-07-14T14:26:53.320Z"
+  },
   "9649835": {
     "imo": "9649835",
     "navio": "CMA CGM SANTOS (REB)",
@@ -8339,9 +8353,9 @@
     "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-14T11:00:00.000Z",
-    "ultimo_hash_evento": "2180747770db3d21aae75052d773c8b8dae80123b4bac5b19d3b4973829d226f",
-    "atualizado_em": "2026-07-14T11:09:22.513Z"
+    "ultima_movimentacao_em": "2026-07-14T14:00:00.000Z",
+    "ultimo_hash_evento": "9118989f5a9a7c59b34c047faa1011b22e023118804d32f5e037cdfd0c228481",
+    "atualizado_em": "2026-07-14T14:26:53.320Z"
   },
   "9696424": {
     "imo": "9696424",
