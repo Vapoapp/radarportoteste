@@ -1,29 +1,36 @@
 {
   "imo": "9542350",
   "navio": "UAL TEXAS",
-  "gerado_em": "2026-07-15T08:31:55.744Z",
+  "gerado_em": "2026-07-15T10:23:52.513Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C11 - TECON - ICTSI 1",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-13T13:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-15T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 2,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 0,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 1,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-04-22T15:00:00.000Z",
-    "ultima_saida": "2026-04-22T08:00:00.000Z",
+    "ultima_saida": "2026-07-15T10:00:00.000Z",
     "tempo_medio_estadia_horas": 41.5,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-07-15T10:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2N06 - Armazém 7",
+      "para": "-"
+    },
     {
       "data": "2026-07-13T13:00:00.000Z",
       "tipo": "MUDANÇA",
