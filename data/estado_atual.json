@@ -2890,12 +2890,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "Fundeio - WPT 64 - 2F6A",
+    "destino_atual": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
+    "em_fundeio": false,
     "ultima_movimentacao_em": "2026-07-15T09:30:00.000Z",
-    "ultimo_hash_evento": "3227d0a7a34dc5325f523e00f55c5b00edc9847d6d70ad8600fd5d460498b6ec",
-    "atualizado_em": "2026-07-15T10:23:52.513Z"
+    "ultimo_hash_evento": "30da03b1d8df4e13b4dc81d4d9f381c8e0df06c3d350667a11713959393f39df",
+    "atualizado_em": "2026-07-15T13:27:32.238Z"
   },
   "9382774": {
     "imo": "9382774",
@@ -6696,14 +6696,14 @@
     "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
     "navio_normalizado": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-09T11:30:00.000Z",
-    "ultimo_hash_evento": "9cc889ea70a0bbeed273868518e2fe94adae2afcbd5adbd74d0f7a547fdac58b",
-    "atualizado_em": "2026-07-09T11:32:02.703Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-15T12:00:00.000Z",
+    "ultimo_hash_evento": "e115818e77f851bf25cdcf2c7add0dcf08aa82bd43b6240e50b6e0e8e0b1f1be",
+    "atualizado_em": "2026-07-15T13:27:32.238Z"
   },
   "9623635": {
     "imo": "9623635",
@@ -8983,9 +8983,9 @@
     "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-14T11:00:00.000Z",
-    "ultimo_hash_evento": "e3f8156af32c6cf4ee239913edf6736846375283252ae0d796522c03d0325482",
-    "atualizado_em": "2026-07-14T11:09:22.513Z"
+    "ultima_movimentacao_em": "2026-07-15T13:00:00.000Z",
+    "ultimo_hash_evento": "cb04ec296755f6c81460898aa577c795554b361023b598ba6866944676ffab74",
+    "atualizado_em": "2026-07-15T13:27:32.238Z"
   },
   "9715725": {
     "imo": "9715725",
@@ -9182,6 +9182,20 @@
     "ultima_movimentacao_em": "2026-05-17T09:00:00.000Z",
     "ultimo_hash_evento": "eed09f27dc1b722fbee86d4021d545b480048ec186e37b583380c8351e43d9f4",
     "atualizado_em": "2026-05-17T09:47:06.425Z"
+  },
+  "9723590": {
+    "imo": "9723590",
+    "navio": "YUAN QIU HU",
+    "navio_normalizado": "YUAN QIU HU",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-15T12:00:00.000Z",
+    "ultimo_hash_evento": "454a5b0419746082cff813845d43b30ca45e4772f78234a7240ccc9401f091e2",
+    "atualizado_em": "2026-07-15T13:27:32.238Z"
   },
   "9724348": {
     "imo": "9724348",
