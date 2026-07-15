@@ -1,29 +1,36 @@
 {
   "imo": "9417359",
   "navio": "SKANDI OLYMPIA (REB)",
-  "gerado_em": "2026-07-15T10:23:52.513Z",
+  "gerado_em": "2026-07-15T11:55:22.292Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-07-04T21:30:00.000Z"
+    "local": "2N09 - Armazém 10",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-07-15T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 13,
-    "manobras_365d": 13,
-    "entradas_30d": 2,
+    "manobras_30d": 4,
+    "manobras_180d": 14,
+    "manobras_365d": 14,
+    "entradas_30d": 3,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 7,
+    "entradas_365d": 8,
     "saidas_365d": 5,
-    "ultima_entrada": "2026-07-04T10:00:00.000Z",
+    "ultima_entrada": "2026-07-15T11:00:00.000Z",
     "ultima_saida": "2026-07-04T21:30:00.000Z",
     "tempo_medio_estadia_horas": 12,
     "tempo_medio_fundeio_horas": 326.5
   },
   "historico_recente": [
+    {
+      "data": "2026-07-15T11:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2N09 - Armazém 10"
+    },
     {
       "data": "2026-07-04T21:30:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA"
-    },
-    {
-      "data": "2026-04-23T00:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2N05 - Armazém 6",
-      "para": "-"
     }
   ]
 }
