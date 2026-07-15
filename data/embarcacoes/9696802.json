@@ -1,29 +1,36 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-07-15T15:07:30.768Z",
+  "gerado_em": "2026-07-15T16:42:03.795Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-15T13:30:00.000Z"
+    "em_fundeio": false,
+    "local": "2TS2 - Terminal Siderúrgico 2",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-15T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 63,
-    "manobras_365d": 63,
+    "manobras_30d": 19,
+    "manobras_180d": 64,
+    "manobras_365d": 64,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 11,
+    "mudancas_30d": 12,
     "entradas_365d": 12,
     "saidas_365d": 11,
     "ultima_entrada": "2026-07-15T13:30:00.000Z",
     "ultima_saida": "2026-07-09T03:00:00.000Z",
     "tempo_medio_estadia_horas": 90.7,
-    "tempo_medio_fundeio_horas": 22.6
+    "tempo_medio_fundeio_horas": 21.8
   },
   "historico_recente": [
+    {
+      "data": "2026-07-15T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS2 - Terminal Siderúrgico 2"
+    },
     {
       "data": "2026-07-15T13:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "TPBL - BRICLOG",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-28T07:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "TPBL - BRICLOG"
     }
   ]
 }
