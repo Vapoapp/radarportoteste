@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-16T11:59:55.822Z",
+  "updatedAt": "2026-07-16T14:12:19.096Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 45
+      "count": 50
     },
     "niteroi": {
       "ok": true,
@@ -341,6 +341,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "16/07/2026 10:30",
+      "imo": "9339131",
+      "navio": "SKANDI BOTAFOGO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/07/2026 10:30",
+      "imo": "9656187",
+      "navio": "SAPURA DIAMANTE (BAND. GREYLIST PARIS MOU)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "16/07/2026 11:00",
       "imo": "9188130",
       "navio": "BRAM NATAL (REB)",
@@ -381,6 +401,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "16/07/2026 13:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "16/07/2026 14:00",
       "imo": "9953482",
       "navio": "CHIOS DF",
@@ -398,16 +428,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/07/2026 15:00",
-      "imo": "9313931",
-      "navio": "MSC INIYA V",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -431,13 +451,43 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "17/07/2026 03:00",
-      "imo": "9253208",
-      "navio": "GRANDE SAN PAOLO",
+      "inicio": "16/07/2026 15:00",
+      "imo": "9656187",
+      "navio": "SAPURA DIAMANTE (BAND. GREYLIST PARIS MOU)",
       "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/07/2026 15:30",
+      "imo": "9382229",
+      "navio": "NORTH OCEAN 102",
+      "tipo": "SAÍDA",
+      "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/07/2026 16:00",
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/07/2026 18:00",
+      "imo": "9313931",
+      "navio": "MSC INIYA V",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -531,7 +581,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "16/07/2026 12:00",
+      "inicio": "16/07/2026 15:00",
       "imo": "9844564",
       "navio": "CL PEARL RIVER",
       "tipo": "MUDANÇA",
