@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-16T19:24:36.315Z",
+  "updatedAt": "2026-07-16T20:24:43.223Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 61
+      "count": 62
     },
     "niteroi": {
       "ok": true,
@@ -312,22 +312,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/07/2026 10:00",
+      "imo": "9492127",
+      "navio": "SAO SEBASTIAO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/07/2026 10:00",
       "imo": "9702766",
       "navio": "SEAGEMS RUBI",
       "tipo": "SAÍDA",
       "de": "Fundeio - WPT 82 - 2F08",
       "para": "-",
       "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "16/07/2026 10:00",
-      "imo": "9968449",
-      "navio": "ITHACA",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,12 +342,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "16/07/2026 10:00",
-      "imo": "9492127",
-      "navio": "SAO SEBASTIAO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9968449",
+      "navio": "ITHACA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -471,16 +471,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/07/2026 15:30",
-      "imo": "9626455",
-      "navio": "KUDU (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "16/07/2026 16:00",
       "imo": "9642588",
       "navio": "LARUS",
@@ -537,6 +527,16 @@
       "tipo": "MUDANÇA",
       "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/07/2026 17:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
@@ -618,6 +618,16 @@
       "de": "TPG1 - GNL 1",
       "para": "Fundeio - 2F10 - PREFERENCIAL GNL",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/07/2026 10:00",
+      "imo": "9246607",
+      "navio": "GRANDE AMBURGO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
