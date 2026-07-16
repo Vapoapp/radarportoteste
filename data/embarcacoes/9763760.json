@@ -1,21 +1,21 @@
 {
   "imo": "9763760",
   "navio": "BRAM BUCK",
-  "gerado_em": "2026-07-16T21:30:51.622Z",
+  "gerado_em": "2026-07-16T22:31:29.334Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-16T12:00:00.000Z"
+    "ultima_movimentacao": "2026-07-16T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 54,
-    "manobras_365d": 54,
+    "manobras_30d": 14,
+    "manobras_180d": 55,
+    "manobras_365d": 55,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 14,
     "saidas_365d": 13,
     "ultima_entrada": "2026-07-02T18:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 29.1
   },
   "historico_recente": [
+    {
+      "data": "2026-07-16T22:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-07-16T12:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-06-19T16:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
