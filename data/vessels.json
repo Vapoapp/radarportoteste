@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-17T10:23:40.177Z",
+  "updatedAt": "2026-07-17T11:48:31.638Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 23
+      "count": 31
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -19,16 +19,6 @@
     }
   },
   "vessels": [
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/07/2026 00:00",
-      "imo": "9253208",
-      "navio": "GRANDE SAN PAOLO",
-      "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/07/2026 00:00",
@@ -62,16 +52,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/07/2026 04:00",
-      "imo": "9329942",
-      "navio": "MESTRE DOS MARES (REB)",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/07/2026 04:00",
       "imo": "9440679",
       "navio": "PETREL",
       "tipo": "MUDANÇA",
@@ -88,6 +68,16 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/07/2026 04:00",
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,6 +162,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/07/2026 08:30",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/07/2026 08:30",
       "imo": "9574107",
       "navio": "DOVER HIGHWAY",
       "tipo": "ENTRADA",
@@ -212,12 +212,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/07/2026 12:00",
-      "imo": "9435129",
-      "navio": "INDUSTRIAL KATHARINA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -228,6 +228,26 @@
       "de": "-",
       "para": "2TS2 - Terminal Siderúrgico 2",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/07/2026 12:00",
+      "imo": "9435129",
+      "navio": "INDUSTRIAL KATHARINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/07/2026 13:00",
+      "imo": "9460095",
+      "navio": "ISLAND INTERVENTION (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -250,6 +270,66 @@
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 05:00",
+      "imo": "9435129",
+      "navio": "INDUSTRIAL KATHARINA",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 05:00",
+      "imo": "9630420",
+      "navio": "XIAMEN EXPRESS",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 06:00",
+      "imo": "9143556",
+      "navio": "DUSSELDORF EXPRESS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 12:00",
+      "imo": "9574107",
+      "navio": "DOVER HIGHWAY",
+      "tipo": "SAÍDA",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 17:00",
+      "imo": "9143556",
+      "navio": "DUSSELDORF EXPRESS",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 21:00",
+      "imo": "9246607",
+      "navio": "GRANDE AMBURGO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "17/07/2026 04:00",
       "imo": "9806483",
@@ -258,6 +338,26 @@
       "de": "-",
       "para": "ESMC - MacLaren Ponta da Areia",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "17/07/2026 09:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "ESMA - ESTALEIRO MAUÁ",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "17/07/2026 09:30",
+      "imo": "9538086",
+      "navio": "OCEANICASUB XIX",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Itaguaí",
@@ -301,6 +401,16 @@
     },
     {
       "porto": "Itaguaí",
+      "inicio": "17/07/2026 07:40",
+      "imo": "9622215",
+      "navio": "SAN MARCO MAERSK",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 5FA2 - Área de Fundeio A2",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
       "inicio": "17/07/2026 08:00",
       "imo": "9723590",
       "navio": "YUAN QIU HU",
@@ -308,16 +418,6 @@
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA."
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "17/07/2026 09:30",
-      "imo": "9622215",
-      "navio": "SAN MARCO MAERSK",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FA2 - Área de Fundeio A2",
-      "para": "303 - TECON - SEPETIBA TECON S.A.",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Itaguaí",
