@@ -1,29 +1,36 @@
 {
   "imo": "9253208",
   "navio": "GRANDE SAN PAOLO",
-  "gerado_em": "2026-07-17T01:03:56.727Z",
+  "gerado_em": "2026-07-17T04:17:23.234Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2R12 - Terminal - MCAR 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-16T08:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-17T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 2,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 3,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-07-16T08:30:00.000Z",
-    "ultima_saida": "2026-05-30T22:30:00.000Z",
+    "ultima_saida": "2026-07-17T03:00:00.000Z",
     "tempo_medio_estadia_horas": 18.3,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-07-17T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-"
+    },
     {
       "data": "2026-07-16T08:30:00.000Z",
       "tipo": "ENTRADA",
