@@ -1,21 +1,21 @@
 {
   "imo": "9806483",
   "navio": "STARNAV LIBRA",
-  "gerado_em": "2026-07-17T20:14:09.967Z",
+  "gerado_em": "2026-07-17T21:09:03.196Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
+    "porto": "Niterói",
     "em_fundeio": true,
     "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-22T22:00:00.000Z"
+    "ultima_movimentacao": "2026-07-17T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
+    "manobras_30d": 3,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-06-01T18:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 259.1
   },
   "historico_recente": [
+    {
+      "data": "2026-07-17T21:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-06-22T22:00:00.000Z",
       "tipo": "MUDANÇA",
