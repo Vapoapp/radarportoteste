@@ -1,29 +1,36 @@
 {
   "imo": "9644160",
   "navio": "BRAM BELEM",
-  "gerado_em": "2026-07-18T05:37:59.919Z",
+  "gerado_em": "2026-07-18T07:16:25.501Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-17T12:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-18T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 22,
-    "manobras_180d": 56,
-    "manobras_365d": 56,
+    "manobras_30d": 23,
+    "manobras_180d": 57,
+    "manobras_365d": 57,
     "entradas_30d": 7,
-    "saidas_30d": 7,
+    "saidas_30d": 8,
     "mudancas_30d": 8,
     "entradas_365d": 15,
-    "saidas_365d": 14,
+    "saidas_365d": 15,
     "ultima_entrada": "2026-07-15T18:30:00.000Z",
-    "ultima_saida": "2026-07-12T07:00:00.000Z",
-    "tempo_medio_estadia_horas": 50.3,
+    "ultima_saida": "2026-07-18T07:00:00.000Z",
+    "tempo_medio_estadia_horas": 51.2,
     "tempo_medio_fundeio_horas": 24.6
   },
   "historico_recente": [
+    {
+      "data": "2026-07-18T07:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "-"
+    },
     {
       "data": "2026-07-17T12:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A."
-    },
-    {
-      "data": "2026-07-03T18:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
