@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-18T20:31:36.484Z",
+  "updatedAt": "2026-07-18T21:27:50.458Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 49
+      "count": 51
     },
     "niteroi": {
       "ok": true,
@@ -152,22 +152,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/07/2026 07:00",
-      "imo": "0011450339",
-      "navio": "BONO III",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/07/2026 07:00",
       "imo": "9683996",
       "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
       "tipo": "SAÍDA",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 07:00",
+      "imo": "0011450339",
+      "navio": "BONO III",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,22 +252,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/07/2026 12:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/07/2026 12:00",
       "imo": "9642588",
       "navio": "LARUS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 12:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -362,16 +362,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/07/2026 16:00",
-      "imo": "9748978",
-      "navio": "EPIC BALUAN",
-      "tipo": "SAÍDA",
-      "de": "TPIR - ILHA REDONDA",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/07/2026 16:00",
       "imo": "9429936",
       "navio": "SANCO SPIRIT",
       "tipo": "SAÍDA",
@@ -391,13 +381,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "18/07/2026 17:00",
-      "imo": "9143556",
-      "navio": "DUSSELDORF EXPRESS",
+      "inicio": "18/07/2026 16:00",
+      "imo": "9748978",
+      "navio": "EPIC BALUAN",
       "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
+      "de": "TPIR - ILHA REDONDA",
       "para": "-",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 17:00",
+      "imo": "9573244",
+      "navio": "STERNA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -412,12 +412,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/07/2026 17:00",
-      "imo": "9573244",
-      "navio": "STERNA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "imo": "9143556",
+      "navio": "DUSSELDORF EXPRESS",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -432,11 +432,31 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/07/2026 19:30",
+      "imo": "9529877",
+      "navio": "HOS FIRE SERPENT",
+      "tipo": "MUDANÇA",
+      "de": "2N09 - Armazém 10",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 19:30",
       "imo": "9636034",
       "navio": "ORYX (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 19:30",
+      "imo": "9687368",
+      "navio": "BRAM BOA VISTA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
