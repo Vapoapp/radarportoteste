@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T12:28:06.659Z",
+  "updatedAt": "2026-07-18T13:57:21.397Z",
   "portos": {
     "rio": {
       "ok": true,
@@ -7,7 +7,7 @@
     },
     "niteroi": {
       "ok": true,
-      "count": 0
+      "count": 1
     },
     "itaguai": {
       "ok": true,
@@ -202,22 +202,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/07/2026 10:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/07/2026 10:00",
       "imo": "9412464",
       "navio": "RIVERSIDE",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F01 - Visita",
       "para": "-",
       "agente": "TRIAINA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 10:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -264,6 +264,16 @@
       "inicio": "18/07/2026 12:30",
       "imo": "9687368",
       "navio": "BRAM BOA VISTA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/07/2026 14:00",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
@@ -321,16 +331,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "18/07/2026 20:00",
-      "imo": "9703667",
-      "navio": "BRAM HERO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "18/07/2026 21:00",
       "imo": "9246607",
       "navio": "GRANDE AMBURGO",
@@ -378,6 +378,16 @@
       "de": "2R12 - Terminal - MCAR 1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "18/07/2026 09:00",
+      "imo": "9644158",
+      "navio": "ZARAPITO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Itaguaí",
@@ -446,7 +456,7 @@
       "navio": "MOONBEAM",
       "tipo": "MUDANÇA",
       "de": "101 - TECAR - CSN MINERAÇÃO S.A.",
-      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "para": "301 - TECON - SEPETIBA TECON S.A.",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
