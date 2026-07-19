@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-19T10:15:19.264Z",
+  "updatedAt": "2026-07-19T11:32:31.383Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 28
+      "count": 30
     },
     "niteroi": {
       "ok": true,
@@ -121,6 +121,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/07/2026 06:45",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/07/2026 07:00",
       "imo": "9782003",
       "navio": "BULK ENDURANCE",
@@ -132,12 +142,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/07/2026 07:00",
-      "imo": "9703667",
-      "navio": "BRAM HERO",
-      "tipo": "MUDANÇA",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
+      "tipo": "SAÍDA",
       "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/07/2026 07:00",
+      "imo": "9492127",
+      "navio": "SAO SEBASTIAO",
+      "tipo": "SAÍDA",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -152,12 +172,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/07/2026 07:00",
-      "imo": "9492127",
-      "navio": "SAO SEBASTIAO",
-      "tipo": "SAÍDA",
-      "de": "TPP1 - PETROBRAS PP1",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9703667",
+      "navio": "BRAM HERO",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -202,12 +222,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/07/2026 11:00",
-      "imo": "9369734",
-      "navio": "MSC BREMEN",
+      "imo": "9972361",
+      "navio": "HL EDWARD AUSTIN",
       "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
+      "de": "Fundeio - 2F10 - PREFERENCIAL GNL",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,12 +242,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/07/2026 11:00",
-      "imo": "9972361",
-      "navio": "HL EDWARD AUSTIN",
+      "imo": "9369734",
+      "navio": "MSC BREMEN",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F10 - PREFERENCIAL GNL",
+      "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",

@@ -1,29 +1,36 @@
 {
   "imo": "9424962",
   "navio": "SAVEIROS PELICANO",
-  "gerado_em": "2026-07-19T10:15:19.264Z",
+  "gerado_em": "2026-07-19T11:32:31.383Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-18T11:30:00.000Z"
+    "ultima_movimentacao": "2026-07-19T11:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 5,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-07-15T04:00:00.000Z",
     "ultima_saida": "2026-06-27T22:00:00.000Z",
     "tempo_medio_estadia_horas": 87,
-    "tempo_medio_fundeio_horas": 75.7
+    "tempo_medio_fundeio_horas": 62.8
   },
   "historico_recente": [
+    {
+      "data": "2026-07-19T11:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-07-18T11:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-04-23T20:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
