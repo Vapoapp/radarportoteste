@@ -1,29 +1,36 @@
 {
   "imo": "9642588",
   "navio": "LARUS",
-  "gerado_em": "2026-07-18T23:24:10.930Z",
+  "gerado_em": "2026-07-19T00:13:39.469Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-13T16:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-18T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 20,
-    "manobras_180d": 53,
-    "manobras_365d": 53,
+    "manobras_30d": 21,
+    "manobras_180d": 54,
+    "manobras_365d": 54,
     "entradas_30d": 5,
-    "saidas_30d": 5,
+    "saidas_30d": 6,
     "mudancas_30d": 10,
     "entradas_365d": 11,
-    "saidas_365d": 11,
+    "saidas_365d": 12,
     "ultima_entrada": "2026-07-12T10:00:00.000Z",
-    "ultima_saida": "2026-07-09T15:00:00.000Z",
-    "tempo_medio_estadia_horas": 91.6,
+    "ultima_saida": "2026-07-18T23:00:00.000Z",
+    "tempo_medio_estadia_horas": 97.6,
     "tempo_medio_fundeio_horas": 34.6
   },
   "historico_recente": [
+    {
+      "data": "2026-07-18T23:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-07-13T16:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -82,13 +89,6 @@
     },
     {
       "data": "2026-07-05T05:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-07-04T13:00:00.000Z",
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
