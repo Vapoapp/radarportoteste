@@ -1,29 +1,43 @@
 {
   "imo": "9329954",
   "navio": "NORMAND TURMALINA",
-  "gerado_em": "2026-07-20T09:52:44.104Z",
+  "gerado_em": "2026-07-20T12:07:21.530Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-01T15:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-20T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 22,
-    "manobras_365d": 22,
+    "manobras_30d": 3,
+    "manobras_180d": 24,
+    "manobras_365d": 24,
     "entradas_30d": 1,
-    "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "saidas_30d": 1,
+    "mudancas_30d": 1,
     "entradas_365d": 8,
-    "saidas_365d": 8,
+    "saidas_365d": 9,
     "ultima_entrada": "2026-07-01T15:00:00.000Z",
-    "ultima_saida": "2026-06-19T20:10:00.000Z",
-    "tempo_medio_estadia_horas": 89.2,
-    "tempo_medio_fundeio_horas": 17.4
+    "ultima_saida": "2026-07-20T12:00:00.000Z",
+    "tempo_medio_estadia_horas": 134.7,
+    "tempo_medio_fundeio_horas": 79.3
   },
   "historico_recente": [
+    {
+      "data": "2026-07-20T12:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "-"
+    },
+    {
+      "data": "2026-07-20T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-07-01T15:00:00.000Z",
       "tipo": "ENTRADA",
@@ -75,20 +89,6 @@
     },
     {
       "data": "2026-06-05T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO"
-    },
-    {
-      "data": "2026-06-04T03:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-03T20:45:00.000Z",
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",

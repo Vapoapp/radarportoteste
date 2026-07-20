@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-07-20T09:52:44.104Z",
+  "updatedAt": "2026-07-20T12:07:21.530Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 29
+      "count": 35
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "itaguai": {
       "ok": true,
-      "count": 7
+      "count": 6
     },
     "angra": {
       "ok": true,
@@ -142,22 +142,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/07/2026 07:00",
-      "imo": "9814961",
-      "navio": "SEALOADER 1",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "20/07/2026 07:00",
-      "imo": "9696802",
-      "navio": "STARNAV AQUARIUS (REB)",
+      "imo": "9329954",
+      "navio": "NORMAND TURMALINA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBL - BRICLOG",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "para": "TPBR - BRASCO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,22 +162,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/07/2026 07:00",
-      "imo": "9329954",
-      "navio": "NORMAND TURMALINA",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "para": "TPBL - BRICLOG",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/07/2026 07:00",
-      "imo": "9545857",
-      "navio": "COXON TIDE (REB)",
+      "imo": "9814961",
+      "navio": "SEALOADER 1",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "TPBL - BRICLOG",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
       "porto": "Rio de Janeiro",
@@ -197,6 +187,16 @@
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F01 - Visita",
       "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/07/2026 08:00",
+      "imo": "9654971",
+      "navio": "BESIKTAS GH",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - WPT 62 - 2F6A",
+      "para": "TPBK - BRASKEM",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
@@ -221,6 +221,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "20/07/2026 08:30",
+      "imo": "9545857",
+      "navio": "COXON TIDE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "20/07/2026 09:00",
       "imo": "9329954",
       "navio": "NORMAND TURMALINA",
@@ -241,13 +251,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "20/07/2026 13:00",
-      "imo": "9290531",
-      "navio": "MSC PAMELA",
+      "inicio": "20/07/2026 09:00",
+      "imo": "9530216",
+      "navio": "OLIN CONQUEROR",
       "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/07/2026 11:00",
+      "imo": "9506394",
+      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/07/2026 11:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +288,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/07/2026 13:00",
+      "imo": "9290531",
+      "navio": "MSC PAMELA",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,22 +312,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/07/2026 17:00",
-      "imo": "9735206",
-      "navio": "MSC PALAK",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C22 - TECON 2 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "20/07/2026 18:30",
       "imo": "1015375",
       "navio": "SINAR SUMATERA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/07/2026 17:00",
+      "imo": "9735206",
+      "navio": "MSC PALAK",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -310,6 +350,26 @@
       "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 12:00",
+      "imo": "9506394",
+      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 12:00",
+      "imo": "9735206",
+      "navio": "MSC PALAK",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "20/07/2026 00:30",
       "imo": "9703162",
@@ -318,6 +378,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "ASGAARD NAVEGACAO S/A"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "21/07/2026 06:00",
+      "imo": "9371385",
+      "navio": "OCEANICASUB XVII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Itaguaí",
@@ -371,23 +441,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "20/07/2026 12:00",
+      "inicio": "20/07/2026 17:30",
       "imo": "9895630",
       "navio": "HUI JI HAI",
       "tipo": "SAÍDA",
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
       "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "20/07/2026 17:30",
-      "imo": "9921075",
-      "navio": "NORDIC HUNTER",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "agente": "GAC DO BRASIL LTDA."
     }
   ]
 }
