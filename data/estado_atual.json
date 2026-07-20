@@ -2762,14 +2762,14 @@
     "navio": "BARU ANDES (EX-TOISA SERENADE)",
     "navio_normalizado": "BARU ANDES (EX-TOISA SERENADE)",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-20T09:30:00.000Z",
-    "ultimo_hash_evento": "b05b7b19961d2cf462e24e7e68f16f164a3914d1364ca15edf66206ea1696790",
-    "atualizado_em": "2026-07-20T14:30:42.573Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-20T19:00:00.000Z",
+    "ultimo_hash_evento": "3a36118ca23b06affa7ff2b8a1b21dbfb032ac2e7a420044053f26fa3be5fd2a",
+    "atualizado_em": "2026-07-20T19:59:37.177Z"
   },
   "9367554": {
     "imo": "9367554",
@@ -10308,14 +10308,14 @@
     "navio": "CBO ALIANÇA",
     "navio_normalizado": "CBO ALIANCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-20T14:00:00.000Z",
-    "ultimo_hash_evento": "ad757d964f3cd25c452dcd3a64d5e20eb86a97eaca74719d166184b196ec47f2",
-    "atualizado_em": "2026-07-20T14:30:42.573Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-20T19:00:00.000Z",
+    "ultimo_hash_evento": "ad532e257926a64935d46b16b4beb35b9f159f1b255015de1a7ef7a0ed6e6e4a",
+    "atualizado_em": "2026-07-20T19:59:37.177Z"
   },
   "9767481": {
     "imo": "9767481",
@@ -11422,6 +11422,20 @@
     "ultima_movimentacao_em": "2026-04-09T19:00:00.000Z",
     "ultimo_hash_evento": "8173bfc6c65baa3efe4d3d2378a24a4baa0db9cb101dd8aab37da69252083f77",
     "atualizado_em": "2026-04-09T19:39:05.740Z"
+  },
+  "9850800": {
+    "imo": "9850800",
+    "navio": "EVER FAME",
+    "navio_normalizado": "EVER FAME",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-20T19:00:00.000Z",
+    "ultimo_hash_evento": "457d97536d7feaae664fa4b99c35f18aaf0acbc44ec3e26a8d2d5532250ee474",
+    "atualizado_em": "2026-07-20T19:59:37.177Z"
   },
   "9850836": {
     "imo": "9850836",
