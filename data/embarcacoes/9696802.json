@@ -1,21 +1,21 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-07-21T00:13:10.947Z",
+  "gerado_em": "2026-07-21T03:46:22.293Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPBL - BRICLOG",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-20T10:00:00.000Z"
+    "ultima_movimentacao": "2026-07-21T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 21,
-    "manobras_180d": 70,
-    "manobras_365d": 70,
+    "manobras_30d": 22,
+    "manobras_180d": 71,
+    "manobras_365d": 71,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 16,
+    "mudancas_30d": 17,
     "entradas_365d": 12,
     "saidas_365d": 11,
     "ultima_entrada": "2026-07-15T13:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 21.3
   },
   "historico_recente": [
+    {
+      "data": "2026-07-21T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBL - BRICLOG",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-07-20T10:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-07-09T00:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
