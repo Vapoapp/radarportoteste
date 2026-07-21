@@ -1,29 +1,36 @@
 {
   "imo": "9529700",
   "navio": "POSIDONIA TIGER (REB)",
-  "gerado_em": "2026-07-21T20:16:45.829Z",
+  "gerado_em": "2026-07-21T21:34:42.107Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-21T05:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-21T20:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 43,
-    "manobras_365d": 43,
+    "manobras_30d": 16,
+    "manobras_180d": 44,
+    "manobras_365d": 44,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 8,
     "entradas_365d": 10,
-    "saidas_365d": 9,
+    "saidas_365d": 10,
     "ultima_entrada": "2026-07-16T23:00:00.000Z",
-    "ultima_saida": "2026-07-16T19:30:00.000Z",
-    "tempo_medio_estadia_horas": 133.1,
+    "ultima_saida": "2026-07-21T20:30:00.000Z",
+    "tempo_medio_estadia_horas": 131.5,
     "tempo_medio_fundeio_horas": 36.3
   },
   "historico_recente": [
+    {
+      "data": "2026-07-21T20:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-07-21T05:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "ESPR - MacLaren Ilha da Conceição",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-07-09T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "ESPR - MacLaren Ilha da Conceição"
     }
   ]
 }
