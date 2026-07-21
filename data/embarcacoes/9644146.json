@@ -1,7 +1,7 @@
 {
   "imo": "9644146",
   "navio": "ALCATRAZ",
-  "gerado_em": "2026-07-20T23:16:27.306Z",
+  "gerado_em": "2026-07-21T00:13:10.947Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,17 +10,17 @@
     "ultima_movimentacao": "2026-07-20T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 54,
-    "manobras_365d": 54,
-    "entradas_30d": 3,
+    "manobras_30d": 17,
+    "manobras_180d": 55,
+    "manobras_365d": 55,
+    "entradas_30d": 4,
     "saidas_30d": 3,
     "mudancas_30d": 10,
-    "entradas_365d": 12,
+    "entradas_365d": 13,
     "saidas_365d": 11,
-    "ultima_entrada": "2026-07-12T23:00:00.000Z",
+    "ultima_entrada": "2026-07-20T08:00:00.000Z",
     "ultima_saida": "2026-07-20T23:00:00.000Z",
-    "tempo_medio_estadia_horas": 92,
+    "tempo_medio_estadia_horas": 74.3,
     "tempo_medio_fundeio_horas": 33
   },
   "historico_recente": [
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "TPBR - BRASCO",
       "para": "-"
+    },
+    {
+      "data": "2026-07-20T08:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "TPBR - BRASCO"
     },
     {
       "data": "2026-07-13T08:00:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-06-29T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
