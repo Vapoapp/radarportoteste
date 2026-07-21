@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-21T09:04:26.875Z",
+  "updatedAt": "2026-07-21T11:16:08.866Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 24
+      "count": 33
     },
     "niteroi": {
       "ok": true,
@@ -71,16 +71,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 05:00",
-      "imo": "9664299",
-      "navio": "BRAM BRASILIA",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 06:00",
       "imo": "9418377",
       "navio": "CMA CGM VERACRUZ (REB S/L)",
@@ -112,6 +102,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 08:00",
+      "imo": "9454008",
+      "navio": "CBO ISABELLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N11 - Armazém 13",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 08:00",
       "imo": "9573440",
       "navio": "NORMAND CARIOCA",
       "tipo": "ENTRADA",
@@ -122,22 +122,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 08:00",
-      "imo": "9454008",
-      "navio": "CBO ISABELLA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N11 - Armazém 13",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 09:00",
-      "imo": "9424962",
-      "navio": "SAVEIROS PELICANO",
+      "imo": "9664299",
+      "navio": "BRAM BRASILIA",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -158,6 +148,26 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 09:00",
+      "imo": "9424962",
+      "navio": "SAVEIROS PELICANO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 09:00",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -212,22 +222,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 14:30",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 14:30",
       "imo": "9850800",
       "navio": "EVER FAME",
       "tipo": "SAÍDA",
       "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 16:00",
-      "imo": "9423437",
-      "navio": "AKOFS SANTOS (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -241,6 +251,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 16:00",
+      "imo": "9423437",
+      "navio": "AKOFS SANTOS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 16:30",
+      "imo": "9996678",
+      "navio": "CMA CGM IRON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 21:00",
       "imo": "1015375",
       "navio": "SINAR SUMATERA",
@@ -251,6 +281,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 22:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 23:00",
       "imo": "9735206",
       "navio": "MSC PALAK",
@@ -258,6 +298,56 @@
       "de": "-",
       "para": "2C22 - TECON 2 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 07:00",
+      "imo": "9996678",
+      "navio": "CMA CGM IRON",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 10:00",
+      "imo": "9991202",
+      "navio": "MAERSK FREEPORT",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 15:00",
+      "imo": "9735206",
+      "navio": "MSC PALAK",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 19:00",
+      "imo": "9267156",
+      "navio": "TINA I",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 21:00",
+      "imo": "9416381",
+      "navio": "CLARITY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Niterói",
@@ -311,7 +401,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "21/07/2026 11:00",
+      "inicio": "21/07/2026 10:30",
       "imo": "9940095",
       "navio": "CHINA CHAMPION",
       "tipo": "SAÍDA",
@@ -321,7 +411,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "21/07/2026 12:00",
+      "inicio": "21/07/2026 11:30",
       "imo": "9756224",
       "navio": "STAR SIENNA",
       "tipo": "MUDANÇA",
