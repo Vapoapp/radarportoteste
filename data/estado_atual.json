@@ -3863,6 +3863,20 @@
     "ultimo_hash_evento": "81868246b048f3d935d07628de95860b99f174a70e5586cf733ef58ed3cc5ecf",
     "atualizado_em": "2026-06-16T12:20:52.187Z"
   },
+  "9434539": {
+    "imo": "9434539",
+    "navio": "TOKI ARROW",
+    "navio_normalizado": "TOKI ARROW",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - WPT 64 - 2F6A",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-21T13:00:00.000Z",
+    "ultimo_hash_evento": "6152d7c5338ef41508bf51b4b0d30011a65e8fb1e2317ad4de13092b80093659",
+    "atualizado_em": "2026-07-21T14:49:11.262Z"
+  },
   "9435052": {
     "imo": "9435052",
     "navio": "EASTERN XANTHINA",
@@ -5730,14 +5744,14 @@
     "navio": "COXON TIDE (REB)",
     "navio_normalizado": "COXON TIDE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBL - BRICLOG",
     "agente_atual": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-20T11:30:00.000Z",
-    "ultimo_hash_evento": "afeb9525c6592a332ec6dda2bf5aa8819ff38751485e07de3ac72c4f0b7ebfb6",
-    "atualizado_em": "2026-07-20T12:07:21.530Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-21T10:00:00.000Z",
+    "ultimo_hash_evento": "8201211904c71c6620ef14721c61b3f6dc744c7c3aec7cffeddec29ba492bd92",
+    "atualizado_em": "2026-07-21T14:49:11.262Z"
   },
   "9546801": {
     "imo": "9546801",
@@ -6169,9 +6183,9 @@
     "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-21T12:00:00.000Z",
-    "ultimo_hash_evento": "dc3ec98710256452fdd1fad8489e3ba677cfe9d568de7bf86d4227417ddfa392",
-    "atualizado_em": "2026-07-21T12:45:13.873Z"
+    "ultima_movimentacao_em": "2026-07-21T14:00:00.000Z",
+    "ultimo_hash_evento": "1df9fdb0a0d9e1a0ced61add46b4335130a9dd4fd7baba0ca8de006486239148",
+    "atualizado_em": "2026-07-21T14:49:11.262Z"
   },
   "9578880": {
     "imo": "9578880",
@@ -10056,14 +10070,14 @@
     "navio": "STAR SIENNA",
     "navio_normalizado": "STAR SIENNA",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-21T06:00:00.000Z",
-    "ultimo_hash_evento": "77923627d9586876161bb9d79af6b4942046245a1ef9d511144c29709ab6ef22",
-    "atualizado_em": "2026-07-21T06:17:19.300Z"
+    "ultima_movimentacao_em": "2026-07-21T14:30:00.000Z",
+    "ultimo_hash_evento": "0710e5d3795d32f5de2f8b7e92d0180ad8bbcfa4360a59c949b2fd350ccb941e",
+    "atualizado_em": "2026-07-21T14:49:11.262Z"
   },
   "9756731": {
     "imo": "9756731",
@@ -11022,14 +11036,14 @@
     "navio": "STARNAV DELPHINUS",
     "navio_normalizado": "STARNAV DELPHINUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-03T05:30:00.000Z",
-    "ultimo_hash_evento": "d976b3491fdc9b60c2fada06308af2ca36f0fa4b766dd4185a3948848a44b5df",
-    "atualizado_em": "2026-07-03T07:32:38.096Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-21T13:40:00.000Z",
+    "ultimo_hash_evento": "eabd9738a7730d0055ceb03c53f014ab5da1e03671cea76ebac14a8a9445f17a",
+    "atualizado_em": "2026-07-21T14:49:11.262Z"
   },
   "9810355": {
     "imo": "9810355",
@@ -12618,14 +12632,14 @@
     "navio": "CHINA CHAMPION",
     "navio_normalizado": "CHINA CHAMPION",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
-    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "-",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-20T07:30:00.000Z",
-    "ultimo_hash_evento": "0371c773ad347b478e91f6bcab8db37f5be475bfcb7d3cc3db6f4792003240a3",
-    "atualizado_em": "2026-07-20T09:52:44.104Z"
+    "ultima_movimentacao_em": "2026-07-21T13:30:00.000Z",
+    "ultimo_hash_evento": "941baee0e63fa7d2a63e172212f844bd2dd2e95580005c868035f25469515216",
+    "atualizado_em": "2026-07-21T14:49:11.262Z"
   },
   "9942811": {
     "imo": "9942811",

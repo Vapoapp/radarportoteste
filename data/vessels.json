@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-21T12:45:13.873Z",
+  "updatedAt": "2026-07-21T14:49:11.262Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 36
+      "count": 42
     },
     "niteroi": {
       "ok": true,
@@ -82,6 +82,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 07:00",
+      "imo": "9545857",
+      "navio": "COXON TIDE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBL - BRICLOG",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 07:00",
       "imo": "9843338",
       "navio": "YUAN DONG HAI",
       "tipo": "SAÍDA",
@@ -152,6 +162,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 09:00",
+      "imo": "9424962",
+      "navio": "SAVEIROS PELICANO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 09:00",
       "imo": "9627631",
       "navio": "CBO IPANEMA",
       "tipo": "ENTRADA",
@@ -168,26 +188,6 @@
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 09:00",
-      "imo": "9424962",
-      "navio": "SAVEIROS PELICANO",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 09:00",
-      "imo": "9578672",
-      "navio": "SEA1 GIANT",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -221,13 +221,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 12:00",
-      "imo": "9506394",
-      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "inicio": "21/07/2026 11:00",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
       "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 12:00",
+      "imo": "9529877",
+      "navio": "HOS FIRE SERPENT",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 12:30",
+      "imo": "9659579",
+      "navio": "BARU MUCURA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,16 +292,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 16:00",
-      "imo": "9953482",
-      "navio": "CHIOS DF",
-      "tipo": "MUDANÇA",
-      "de": "TPP2 - PETROBRAS PP2",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 16:00",
       "imo": "9423437",
       "navio": "AKOFS SANTOS (REB)",
       "tipo": "ENTRADA",
@@ -291,13 +301,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 22:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
+      "inicio": "21/07/2026 16:00",
+      "imo": "9953482",
+      "navio": "CHIOS DF",
+      "tipo": "MUDANÇA",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 16:30",
+      "imo": "9991202",
+      "navio": "MAERSK FREEPORT",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,13 +331,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 23:00",
-      "imo": "9735206",
-      "navio": "MSC PALAK",
+      "inicio": "21/07/2026 22:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C22 - TECON 2 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 04:20",
+      "imo": "9364332",
+      "navio": "SAVEIROS FRAGATA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -341,6 +371,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 08:00",
+      "imo": "9506394",
+      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 10:00",
       "imo": "9991202",
       "navio": "MAERSK FREEPORT",
@@ -351,12 +391,32 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 15:00",
+      "inicio": "22/07/2026 12:00",
       "imo": "9735206",
       "navio": "MSC PALAK",
-      "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
-      "para": "-",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 13:00",
+      "imo": "9651321",
+      "navio": "AEGIS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 14:00",
+      "imo": "9288409",
+      "navio": "MSC YAMUNA VI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
