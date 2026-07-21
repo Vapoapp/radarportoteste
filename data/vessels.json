@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-21T06:17:19.300Z",
+  "updatedAt": "2026-07-21T09:04:26.875Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 22
+      "count": 24
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -61,7 +61,17 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 03:00",
+      "inicio": "21/07/2026 04:00",
+      "imo": "9612765",
+      "navio": "NC BREDA (REB S/L)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 05:00",
       "imo": "9664299",
       "navio": "BRAM BRASILIA",
       "tipo": "SAÍDA",
@@ -71,23 +81,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 04:00",
+      "inicio": "21/07/2026 06:00",
       "imo": "9418377",
       "navio": "CMA CGM VERACRUZ (REB S/L)",
       "tipo": "SAÍDA",
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 04:00",
-      "imo": "9612765",
-      "navio": "NC BREDA (REB S/L)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -111,13 +111,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 09:00",
-      "imo": "9659579",
-      "navio": "BARU MUCURA",
+      "inicio": "21/07/2026 08:00",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 08:00",
+      "imo": "9454008",
+      "navio": "CBO ISABELLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N11 - Armazém 13",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 09:00",
+      "imo": "9424962",
+      "navio": "SAVEIROS PELICANO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -132,12 +152,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 09:00",
-      "imo": "9424962",
-      "navio": "SAVEIROS PELICANO",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "imo": "9659579",
+      "navio": "BARU MUCURA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +278,16 @@
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "21/07/2026 09:00",
+      "imo": "9385257",
+      "navio": "HOS MAVERICK",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMA - ESTALEIRO MAUÁ",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",
