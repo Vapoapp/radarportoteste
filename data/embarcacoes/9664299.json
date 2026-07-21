@@ -1,29 +1,36 @@
 {
   "imo": "9664299",
   "navio": "BRAM BRASILIA",
-  "gerado_em": "2026-07-21T03:46:22.293Z",
+  "gerado_em": "2026-07-21T06:17:19.300Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-20T11:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-21T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 59,
-    "manobras_365d": 59,
+    "manobras_30d": 17,
+    "manobras_180d": 60,
+    "manobras_365d": 60,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 7,
     "entradas_365d": 14,
-    "saidas_365d": 12,
+    "saidas_365d": 13,
     "ultima_entrada": "2026-07-19T20:00:00.000Z",
-    "ultima_saida": "2026-07-13T05:00:00.000Z",
-    "tempo_medio_estadia_horas": 48.3,
+    "ultima_saida": "2026-07-21T06:00:00.000Z",
+    "tempo_medio_estadia_horas": 46.9,
     "tempo_medio_fundeio_horas": 20.2
   },
   "historico_recente": [
+    {
+      "data": "2026-07-21T06:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-07-20T11:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "ESMC - MacLaren Ponta da Areia"
-    },
-    {
-      "data": "2026-06-30T18:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Niterói",
-      "de": "-",
-      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     }
   ]
 }

@@ -5436,14 +5436,14 @@
     "navio": "POSIDONIA TIGER (REB)",
     "navio_normalizado": "POSIDONIA TIGER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-16T23:00:00.000Z",
-    "ultimo_hash_evento": "1db6aa2264dc62ddcc2a11252d7e8390cbacd1f65fc61ca4e9b7dc211aa7197d",
-    "atualizado_em": "2026-07-16T23:29:11.306Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-21T05:00:00.000Z",
+    "ultimo_hash_evento": "fb42936463e2fd3d89271c781944db42b071cec264611b79170009a6459c8a95",
+    "atualizado_em": "2026-07-21T06:17:19.300Z"
   },
   "9529877": {
     "imo": "9529877",
@@ -7970,14 +7970,14 @@
     "navio": "BRAM BRASILIA",
     "navio_normalizado": "BRAM BRASILIA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "NIT - ATRACADO NITERÓI",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-20T11:00:00.000Z",
-    "ultimo_hash_evento": "c839f260dd0bb617939e2d0896dfb6045c83305ca5365b7a7d4b5fec6d1316e8",
-    "atualizado_em": "2026-07-20T12:07:21.530Z"
+    "ultima_movimentacao_em": "2026-07-21T06:00:00.000Z",
+    "ultimo_hash_evento": "616a5b89018e3fa73b650fe4060402b598565e522fb4ed281b5890e70216bc00",
+    "atualizado_em": "2026-07-21T06:17:19.300Z"
   },
   "9664897": {
     "imo": "9664897",
@@ -10036,6 +10036,20 @@
     "ultima_movimentacao_em": "2026-06-23T23:00:00.000Z",
     "ultimo_hash_evento": "17654b28c0739da0bb27d9e900ab807aa618e5da835258f435c01aed707a7f34",
     "atualizado_em": "2026-06-23T23:39:38.044Z"
+  },
+  "9756224": {
+    "imo": "9756224",
+    "navio": "STAR SIENNA",
+    "navio_normalizado": "STAR SIENNA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-21T06:00:00.000Z",
+    "ultimo_hash_evento": "77923627d9586876161bb9d79af6b4942046245a1ef9d511144c29709ab6ef22",
+    "atualizado_em": "2026-07-21T06:17:19.300Z"
   },
   "9756731": {
     "imo": "9756731",
