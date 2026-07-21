@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-21T18:55:48.302Z",
+  "updatedAt": "2026-07-21T20:16:45.829Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 47
+      "count": 52
     },
     "niteroi": {
       "ok": true,
@@ -132,6 +132,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 08:00",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 08:00",
       "imo": "9454008",
       "navio": "CBO ISABELLA",
       "tipo": "ENTRADA",
@@ -148,16 +158,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/07/2026 08:00",
-      "imo": "9573440",
-      "navio": "NORMAND CARIOCA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -291,6 +291,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 15:00",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 16:00",
       "imo": "9423437",
       "navio": "AKOFS SANTOS (REB)",
@@ -322,12 +332,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 17:00",
-      "imo": "9598268",
-      "navio": "EAGLE PARANA",
-      "tipo": "SAÍDA",
-      "de": "TPP1 - PETROBRAS PP1",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -341,6 +351,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 17:00",
+      "imo": "9598268",
+      "navio": "EAGLE PARANA",
+      "tipo": "SAÍDA",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 17:30",
       "imo": "9529700",
       "navio": "POSIDONIA TIGER (REB)",
@@ -351,6 +371,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 18:30",
+      "imo": "9484845",
+      "navio": "STRIL EXPLORER",
+      "tipo": "SAÍDA",
+      "de": "2N08 - Pátio 9",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "21/07/2026 19:00",
       "imo": "9850800",
       "navio": "EVER FAME",
@@ -358,6 +388,16 @@
       "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/07/2026 20:00",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -391,16 +431,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 06:00",
-      "imo": "1015375",
-      "navio": "SINAR SUMATERA",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 08:00",
       "imo": "9506394",
       "navio": "LOG-IN DISCOVERY (REB S/L)",
@@ -428,6 +458,26 @@
       "de": "-",
       "para": "2C22 - TECON 2 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 12:30",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 13:00",
+      "imo": "9434539",
+      "navio": "TOKI ARROW",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",

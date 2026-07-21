@@ -1,21 +1,21 @@
 {
   "imo": "9953482",
   "navio": "CHIOS DF",
-  "gerado_em": "2026-07-21T18:55:48.302Z",
+  "gerado_em": "2026-07-21T20:16:45.829Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPP2 - PETROBRAS PP2",
+    "local": "TPP1 - PETROBRAS PP1",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-16T17:00:00.000Z"
+    "ultima_movimentacao": "2026-07-21T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 3,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-07-08T11:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 133
   },
   "historico_recente": [
+    {
+      "data": "2026-07-21T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "TPP1 - PETROBRAS PP1"
+    },
     {
       "data": "2026-07-16T17:00:00.000Z",
       "tipo": "MUDANÇA",
