@@ -1,21 +1,21 @@
 {
   "imo": "9423437",
   "navio": "AKOFS SANTOS (REB)",
-  "gerado_em": "2026-07-22T21:17:35.604Z",
+  "gerado_em": "2026-07-22T22:27:43.802Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS2 - Terminal Siderúrgico 2",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-21T19:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - WPT 82 - 2F08",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-22T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 16,
-    "manobras_365d": 16,
+    "manobras_30d": 7,
+    "manobras_180d": 17,
+    "manobras_365d": 17,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 8,
     "saidas_365d": 7,
     "ultima_entrada": "2026-07-21T19:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 18
   },
   "historico_recente": [
+    {
+      "data": "2026-07-22T21:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "Fundeio - WPT 82 - 2F08"
+    },
     {
       "data": "2026-07-21T19:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - WPT 64 - 2F6A",
       "para": "-"
-    },
-    {
-      "data": "2026-05-26T19:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2TS2 - Terminal Siderúrgico 2"
     }
   ]
 }
