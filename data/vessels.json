@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-22T07:05:31.709Z",
+  "updatedAt": "2026-07-22T09:34:39.885Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 24
+      "count": 27
     },
     "niteroi": {
       "ok": true,
@@ -19,16 +19,6 @@
     }
   },
   "vessels": [
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 04:00",
-      "imo": "9497127",
-      "navio": "CAMPOS CONTENDER",
-      "tipo": "SAÍDA",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 04:00",
@@ -82,16 +72,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 06:00",
-      "imo": "9458157",
-      "navio": "GAZ SYNERGY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPIC - ILHA COMPRIDA",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 06:00",
       "imo": "9529891",
       "navio": "JOE GRIFFIN (REB)",
       "tipo": "ENTRADA",
@@ -108,6 +88,26 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 06:00",
+      "imo": "9458157",
+      "navio": "GAZ SYNERGY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIC - ILHA COMPRIDA",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 07:00",
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -171,6 +171,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 11:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 12:00",
+      "imo": "9339791",
+      "navio": "MY LAMA",
+      "tipo": "SAÍDA",
+      "de": "2N10 - Terminal de Trigo",
+      "para": "-",
+      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 12:00",
       "imo": "9704984",
       "navio": "MSC NAOMI",
@@ -202,6 +222,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 13:00",
+      "imo": "9703631",
+      "navio": "BRAM TITAN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 13:00",
       "imo": "9651321",
       "navio": "AEGIS (REB)",
       "tipo": "ENTRADA",
@@ -212,22 +242,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 13:00",
-      "imo": "9434539",
-      "navio": "TOKI ARROW",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 64 - 2F6A",
-      "para": "-",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 13:00",
       "imo": "9578672",
       "navio": "SEA1 GIANT",
       "tipo": "SAÍDA",
       "de": "TPBR - BRASCO",
       "para": "-",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 13:00",
+      "imo": "9434539",
+      "navio": "TOKI ARROW",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
