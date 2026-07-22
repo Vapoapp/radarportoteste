@@ -1,21 +1,21 @@
 {
   "imo": "9627631",
   "navio": "CBO IPANEMA",
-  "gerado_em": "2026-07-22T15:03:40.068Z",
+  "gerado_em": "2026-07-22T16:39:14.310Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPBR - BRASCO",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-22T14:10:00.000Z"
+    "ultima_movimentacao": "2026-07-22T15:50:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 54,
-    "manobras_365d": 54,
+    "manobras_30d": 13,
+    "manobras_180d": 55,
+    "manobras_365d": 55,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 13,
     "saidas_365d": 12,
     "ultima_entrada": "2026-07-21T12:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 23.3
   },
   "historico_recente": [
+    {
+      "data": "2026-07-22T15:50:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-07-22T14:10:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO"
-    },
-    {
-      "data": "2026-06-25T17:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

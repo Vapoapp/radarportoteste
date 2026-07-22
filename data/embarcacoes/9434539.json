@@ -1,29 +1,36 @@
 {
   "imo": "9434539",
   "navio": "TOKI ARROW",
-  "gerado_em": "2026-07-22T15:03:40.068Z",
+  "gerado_em": "2026-07-22T16:39:14.310Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 64 - 2F6A",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-21T13:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-22T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-07-21T13:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "ultima_saida": "2026-07-22T16:00:00.000Z",
+    "tempo_medio_estadia_horas": 27,
+    "tempo_medio_fundeio_horas": 27
   },
   "historico_recente": [
+    {
+      "data": "2026-07-22T16:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "-"
+    },
     {
       "data": "2026-07-21T13:00:00.000Z",
       "tipo": "ENTRADA",

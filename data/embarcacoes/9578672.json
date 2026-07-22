@@ -1,29 +1,36 @@
 {
   "imo": "9578672",
   "navio": "SEA1 GIANT",
-  "gerado_em": "2026-07-22T15:03:40.068Z",
+  "gerado_em": "2026-07-22T16:39:14.310Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPBR - BRASCO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-21T23:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-22T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 26,
-    "manobras_365d": 26,
+    "manobras_30d": 10,
+    "manobras_180d": 27,
+    "manobras_365d": 27,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 2,
     "entradas_365d": 10,
-    "saidas_365d": 9,
+    "saidas_365d": 10,
     "ultima_entrada": "2026-07-21T23:00:00.000Z",
-    "ultima_saida": "2026-07-21T14:00:00.000Z",
-    "tempo_medio_estadia_horas": 33.3,
+    "ultima_saida": "2026-07-22T16:00:00.000Z",
+    "tempo_medio_estadia_horas": 31.7,
     "tempo_medio_fundeio_horas": 23.7
   },
   "historico_recente": [
+    {
+      "data": "2026-07-22T16:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "-"
+    },
     {
       "data": "2026-07-21T23:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-10T15:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
