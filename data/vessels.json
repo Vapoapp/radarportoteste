@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-22T17:51:59.653Z",
+  "updatedAt": "2026-07-22T18:51:45.720Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 39
+      "count": 42
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 9
+      "count": 20
     },
     "angra": {
       "ok": true,
@@ -132,22 +132,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 09:00",
-      "imo": "9991202",
-      "navio": "MAERSK FREEPORT",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 09:00",
       "imo": "9953482",
       "navio": "CHIOS DF",
       "tipo": "MUDANÇA",
       "de": "TPP2 - PETROBRAS PP2",
       "para": "TPP1 - PETROBRAS PP1",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 09:00",
+      "imo": "9991202",
+      "navio": "MAERSK FREEPORT",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,6 +311,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 14:00",
+      "imo": "9417830",
+      "navio": "CBO ENDEAVOUR (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 15:50",
       "imo": "9715725",
       "navio": "STARNAV TAURUS",
@@ -341,6 +351,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 18:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 21:00",
       "imo": "9416381",
       "navio": "CLARITY",
@@ -368,6 +388,16 @@
       "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/07/2026 04:00",
+      "imo": "9651321",
+      "navio": "AEGIS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -548,6 +578,116 @@
       "de": "101 - TECAR - CSN MINERAÇÃO S.A.",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
       "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "22/07/2026 19:30",
+      "imo": "9411006",
+      "navio": "RINI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "SANT SHIPPING AGENCY LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "22/07/2026 23:00",
+      "imo": "9600657",
+      "navio": "ANTIPAROS",
+      "tipo": "SAÍDA",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA."
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 02:00",
+      "imo": "9951939",
+      "navio": "Berge Mauna Kea",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 05:30",
+      "imo": "9592795",
+      "navio": "NEW ELLY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB4 - Área de Fundeio B4",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 06:30",
+      "imo": "9345764",
+      "navio": "LILA  LESVOS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "agente": "SANT SHIPPING AGENCY LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 07:30",
+      "imo": "9410404",
+      "navio": "HT HUANG SHAN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FE1 - Área de Fundeio E1",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA."
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 10:00",
+      "imo": "9750828",
+      "navio": "TRUE CARDINAL",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
+      "para": "101 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 12:30",
+      "imo": "9421439",
+      "navio": "ALBATROSS ISLAND",
+      "tipo": "SAÍDA",
+      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "para": "-",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 13:30",
+      "imo": "9493987",
+      "navio": "MOONBEAM",
+      "tipo": "SAÍDA",
+      "de": "301 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 18:00",
+      "imo": "9603221",
+      "navio": "FERNÃO DE MAGALHÃES",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "303 - TECON - SEPETIBA TECON S.A.",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "23/07/2026 19:00",
+      "imo": "9476927",
+      "navio": "CHATHAM ISLAND",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "agente": "GEM SHIPPING LTDA"
     }
   ]
 }
