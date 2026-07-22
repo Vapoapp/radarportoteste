@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-22T11:26:48.231Z",
+  "updatedAt": "2026-07-22T12:57:02.646Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 28
+      "count": 33
     },
     "niteroi": {
       "ok": true,
@@ -151,13 +151,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 10:00",
+      "inicio": "22/07/2026 09:00",
       "imo": "9991202",
       "navio": "MAERSK FREEPORT",
       "tipo": "SAÍDA",
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 10:00",
+      "imo": "9339791",
+      "navio": "MY LAMA",
+      "tipo": "SAÍDA",
+      "de": "2N10 - Terminal de Trigo",
+      "para": "-",
+      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,26 +232,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/07/2026 13:00",
-      "imo": "9651321",
-      "navio": "AEGIS (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 13:00",
-      "imo": "9703631",
-      "navio": "BRAM TITAN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 13:00",
       "imo": "9434539",
       "navio": "TOKI ARROW",
       "tipo": "SAÍDA",
@@ -261,13 +251,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/07/2026 14:00",
-      "imo": "9267156",
-      "navio": "TINA I",
+      "inicio": "22/07/2026 13:00",
+      "imo": "9651321",
+      "navio": "AEGIS (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 13:00",
+      "imo": "9703631",
+      "navio": "BRAM TITAN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 16:30",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -291,6 +301,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/07/2026 22:30",
+      "imo": "9267156",
+      "navio": "TINA I",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/07/2026 07:00",
+      "imo": "9735206",
+      "navio": "MSC PALAK",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/07/2026 08:00",
+      "imo": "9704984",
+      "navio": "MSC NAOMI",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/07/2026 10:00",
       "imo": "9288409",
       "navio": "MSC YAMUNA VI",
@@ -298,6 +338,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/07/2026 12:00",
+      "imo": "9267156",
+      "navio": "TINA I",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Niterói",
@@ -421,7 +471,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "22/07/2026 18:00",
+      "inicio": "22/07/2026 17:00",
       "imo": "9756224",
       "navio": "STAR SIENNA",
       "tipo": "SAÍDA",
@@ -431,7 +481,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "22/07/2026 19:00",
+      "inicio": "22/07/2026 18:00",
       "imo": "9469558",
       "navio": "ANDROS PRINCESS",
       "tipo": "MUDANÇA",
