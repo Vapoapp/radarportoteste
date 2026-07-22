@@ -88,14 +88,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-09T03:00:00.000Z",
-    "ultimo_hash_evento": "a6806bdc0c909677d74556372f9aae0257d860ba9d33d32766d6f1201d78b103",
-    "atualizado_em": "2026-07-09T05:04:59.425Z"
+    "ultima_movimentacao_em": "2026-07-22T11:00:00.000Z",
+    "ultimo_hash_evento": "1deefe7b7ea8631e7aad9c73024c778d33dc2064451b31d7cb5f1271fca11f1a",
+    "atualizado_em": "2026-07-22T11:26:48.231Z"
   },
   "1020605": {
     "imo": "1020605",
@@ -2398,14 +2398,14 @@
     "navio": "HOS SPRINGFIELD",
     "navio_normalizado": "HOS SPRINGFIELD",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "ESMA - ESTALEIRO MAUÁ",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESMA - ESTALEIRO MAUÁ",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-21T23:00:00.000Z",
-    "ultimo_hash_evento": "52661b627fd60068b092279c7485ddf9909d3a315a7121000794530138830d6d",
-    "atualizado_em": "2026-07-21T23:31:32.327Z"
+    "ultima_movimentacao_em": "2026-07-22T11:00:00.000Z",
+    "ultimo_hash_evento": "4afb247cd32550515d7d348a3c551f23477239e36b12d825eea2b12b49edf503",
+    "atualizado_em": "2026-07-22T11:26:48.231Z"
   },
   "9347358": {
     "imo": "9347358",
@@ -4568,14 +4568,14 @@
     "navio": "ANDROS PRINCESS",
     "navio_normalizado": "ANDROS PRINCESS",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB2 - Área de Fundeio B2",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB2 - Área de Fundeio B2",
+    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-21T18:00:00.000Z",
-    "ultimo_hash_evento": "761346e189dc3a38a92b6a6aff1d9b29cd6565121ec3973774733635821abbc5",
-    "atualizado_em": "2026-07-21T18:55:48.302Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-22T11:00:00.000Z",
+    "ultimo_hash_evento": "23dae194b77517a7e80d55864ed038620b6d1b604217666b3b997b98977a742e",
+    "atualizado_em": "2026-07-22T11:26:48.231Z"
   },
   "9473121": {
     "imo": "9473121",
@@ -5646,14 +5646,14 @@
     "navio": "JSW SALEM",
     "navio_normalizado": "JSW SALEM",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "destino_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-21T17:00:00.000Z",
-    "ultimo_hash_evento": "2d704a5afd4734c7aac23afa02a59ecad39e77ebe12665b84a920750fe03af81",
-    "atualizado_em": "2026-07-21T17:42:49.898Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-22T10:00:00.000Z",
+    "ultimo_hash_evento": "5bcc4e8fbc786793cb471d30003144658bdcfb523bc97bddcb08a64a65451567",
+    "atualizado_em": "2026-07-22T11:26:48.231Z"
   },
   "9538086": {
     "imo": "9538086",
@@ -6928,6 +6928,20 @@
     "ultima_movimentacao_em": "2026-06-04T08:00:00.000Z",
     "ultimo_hash_evento": "fc29e96558924b51c67fea0f51d9fd620543354b1571d55e994d61a855bb2b8b",
     "atualizado_em": "2026-06-04T10:31:07.562Z"
+  },
+  "9619529": {
+    "imo": "9619529",
+    "navio": "YASA EAGLE",
+    "navio_normalizado": "YASA EAGLE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01S - Visita Sul",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-22T10:00:00.000Z",
+    "ultimo_hash_evento": "45ecdb89244ea590b5c309d963c0110b6907a762de5dc39bc132fd5b135f3733",
+    "atualizado_em": "2026-07-22T11:26:48.231Z"
   },
   "9620683": {
     "imo": "9620683",
@@ -9804,14 +9818,14 @@
     "navio": "MSC PALAK",
     "navio_normalizado": "MSC PALAK",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C21 - TECON 3 - MRIO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C22 - TECON 2 - MRIO",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-20T13:30:00.000Z",
-    "ultimo_hash_evento": "441c4655e97de5ff7976ff996f4e17802140661eca6766ab183e37a762019026",
-    "atualizado_em": "2026-06-20T15:10:50.408Z"
+    "ultima_movimentacao_em": "2026-07-22T10:00:00.000Z",
+    "ultimo_hash_evento": "7c0022a5049c99881c7e1080d99ffc4e52545a4c04bd6be83cddb8eb7e33e617",
+    "atualizado_em": "2026-07-22T11:26:48.231Z"
   },
   "9735945": {
     "imo": "9735945",
