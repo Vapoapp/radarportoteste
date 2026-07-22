@@ -10252,14 +10252,14 @@
     "navio": "STARNAV VOLANS",
     "navio_normalizado": "STARNAV VOLANS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-20T04:00:00.000Z",
-    "ultimo_hash_evento": "a9306353a1598a4f1549c913ba90aa124e25701e9b1d118bd782fab21513f2dc",
-    "atualizado_em": "2026-07-20T06:54:25.724Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-22T01:00:00.000Z",
+    "ultimo_hash_evento": "ec5484b0824a714e3f034902be619cfc791b79995687e59543659dc2e3323bb1",
+    "atualizado_em": "2026-07-22T01:00:11.957Z"
   },
   "9759991": {
     "imo": "9759991",
@@ -11078,14 +11078,14 @@
     "navio": "STARNAV DELPHINUS",
     "navio_normalizado": "STARNAV DELPHINUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-21T13:40:00.000Z",
-    "ultimo_hash_evento": "eabd9738a7730d0055ceb03c53f014ab5da1e03671cea76ebac14a8a9445f17a",
-    "atualizado_em": "2026-07-21T14:49:11.262Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-22T01:00:00.000Z",
+    "ultimo_hash_evento": "c191a546e039e2bc5d55c6a1b0aaf825f1da8277ab1460ceae659afca242eb78",
+    "atualizado_em": "2026-07-22T01:00:11.957Z"
   },
   "9810355": {
     "imo": "9810355",
@@ -13606,6 +13606,20 @@
     "ultima_movimentacao_em": "2026-07-07T03:30:00.000Z",
     "ultimo_hash_evento": "f46dd77c192593d150aff0fee93a6941b9e806c7eecbc8358af6b7db8477221a",
     "atualizado_em": "2026-07-07T04:18:21.384Z"
+  },
+  "9996678": {
+    "imo": "9996678",
+    "navio": "CMA CGM IRON",
+    "navio_normalizado": "CMA CGM IRON",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-22T00:00:00.000Z",
+    "ultimo_hash_evento": "f0e2d44d37dbbf3a67c512a9fb52b5c9bc172fd2ff8342ce56203139e0194897",
+    "atualizado_em": "2026-07-22T01:00:11.957Z"
   },
   "9996680": {
     "imo": "9996680",
