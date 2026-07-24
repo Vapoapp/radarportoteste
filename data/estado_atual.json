@@ -587,6 +587,20 @@
     "ultimo_hash_evento": "2204c37d28b69af88b99e97e7e630914297c412aa03f074a347f1bf95ea96110",
     "atualizado_em": "2026-05-17T17:40:47.324Z"
   },
+  "8656829": {
+    "imo": "8656829",
+    "navio": "SAGAMORIM II",
+    "navio_normalizado": "SAGAMORIM II",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPCM - Estaleiro Camorim",
+    "agente_atual": "CAMORIM SERVIÇOS MARÍTIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-24T05:00:00.000Z",
+    "ultimo_hash_evento": "1c8137b62d0c003e6c2afb14c11cfa5a3704fdb9e5e52542bf23cf6ba2dbea19",
+    "atualizado_em": "2026-07-24T06:45:28.794Z"
+  },
   "8704779": {
     "imo": "8704779",
     "navio": "NEW POLAR",
@@ -2188,14 +2202,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-23T15:00:00.000Z",
-    "ultimo_hash_evento": "daf48a1f53e132de02998d5dd7a00a611ce273a84f998336fe7548547b4f27df",
-    "atualizado_em": "2026-07-23T15:09:59.763Z"
+    "ultima_movimentacao_em": "2026-07-24T05:00:00.000Z",
+    "ultimo_hash_evento": "1dbdf65b26992c2201a403c73385649f7cdbe5c9daee118208b01a5cc4221141",
+    "atualizado_em": "2026-07-24T06:45:28.794Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -3462,14 +3476,14 @@
     "navio": "RINI",
     "navio_normalizado": "RINI",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "destino_atual": "-",
     "agente_atual": "SANT SHIPPING AGENCY LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-22T22:30:00.000Z",
-    "ultimo_hash_evento": "1c014f2a7a42bdf19809d0dcf1b5247ef2d3e620f8fc6549e4f423d3610eb868",
-    "atualizado_em": "2026-07-22T23:30:22.951Z"
+    "ultima_movimentacao_em": "2026-07-24T06:00:00.000Z",
+    "ultimo_hash_evento": "f45fb6bb0e2f4e11ed7558edd0c52095084634ff8dc3495d3c14faa29e70df13",
+    "atualizado_em": "2026-07-24T06:45:28.794Z"
   },
   "9412464": {
     "imo": "9412464",
@@ -4120,14 +4134,14 @@
     "navio": "FULMAR",
     "navio_normalizado": "FULMAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-09T22:15:00.000Z",
-    "ultimo_hash_evento": "d210f546393034dc03380b656aeebc941ec238df83b650cc466bd0adfc36a724",
-    "atualizado_em": "2026-07-10T00:07:36.349Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-24T05:00:00.000Z",
+    "ultimo_hash_evento": "62bf67e52e1bb41efef04a89d99026244a663aa93c4ef6b90b7794f91edb6e67",
+    "atualizado_em": "2026-07-24T06:45:28.794Z"
   },
   "9442055": {
     "imo": "9442055",
@@ -4779,13 +4793,13 @@
     "navio_normalizado": "CBO CAROLINA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-23T19:30:00.000Z",
-    "ultimo_hash_evento": "620c6a9a314a6d665c59f029944ea3caee735acaa0cf1437a65c44d19984a8c0",
-    "atualizado_em": "2026-07-23T19:38:38.702Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-24T05:00:00.000Z",
+    "ultimo_hash_evento": "37bdcaef24333da00cc8f24fae3404928d756ed98004cfaafb3fce48311b12d8",
+    "atualizado_em": "2026-07-24T06:45:28.794Z"
   },
   "9477402": {
     "imo": "9477402",
@@ -10953,13 +10967,13 @@
     "navio_normalizado": "PARDELA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-23T16:30:00.000Z",
-    "ultimo_hash_evento": "ac02ea49dbec42c23eb13d06ce9d2aae8978ac1ebe9438580ab7f5002bcb034e",
-    "atualizado_em": "2026-07-23T16:44:30.451Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-24T05:30:00.000Z",
+    "ultimo_hash_evento": "5228e720baa923ff5514bc5fec8293d7fa19b5ecd631cd5a44cc7f94ce0b01c2",
+    "atualizado_em": "2026-07-24T06:45:28.794Z"
   },
   "9788332": {
     "imo": "9788332",

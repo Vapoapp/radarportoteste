@@ -1,29 +1,36 @@
 {
   "imo": "9329942",
   "navio": "MESTRE DOS MARES (REB)",
-  "gerado_em": "2026-07-24T01:01:52.075Z",
+  "gerado_em": "2026-07-24T06:45:28.794Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-23T15:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-24T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 48,
-    "manobras_365d": 48,
+    "manobras_30d": 14,
+    "manobras_180d": 49,
+    "manobras_365d": 49,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 4,
     "entradas_365d": 14,
-    "saidas_365d": 14,
+    "saidas_365d": 15,
     "ultima_entrada": "2026-07-23T15:00:00.000Z",
-    "ultima_saida": "2026-07-18T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 73.7,
+    "ultima_saida": "2026-07-24T05:00:00.000Z",
+    "tempo_medio_estadia_horas": 69.4,
     "tempo_medio_fundeio_horas": 22.8
   },
   "historico_recente": [
+    {
+      "data": "2026-07-24T05:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-07-23T15:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-07-03T04:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
