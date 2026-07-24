@@ -1,29 +1,36 @@
 {
   "imo": "9364332",
   "navio": "SAVEIROS FRAGATA",
-  "gerado_em": "2026-07-24T09:10:12.371Z",
+  "gerado_em": "2026-07-24T11:11:06.262Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-22T07:20:00.000Z"
+    "em_fundeio": false,
+    "local": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-24T08:40:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-07-22T07:20:00.000Z",
     "ultima_saida": null,
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 49.3
   },
   "historico_recente": [
+    {
+      "data": "2026-07-24T08:40:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P14 - Terminal Petrobrás (Armazém 14)"
+    },
     {
       "data": "2026-07-22T07:20:00.000Z",
       "tipo": "ENTRADA",
