@@ -2678,14 +2678,14 @@
     "navio": "ASSO VENTISETTE",
     "navio_normalizado": "ASSO VENTISETTE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-16T07:00:00.000Z",
-    "ultimo_hash_evento": "6701a72457f2a268478c882a6e7c254ee4c5b500e1e9bee587fa5947a77de256",
-    "atualizado_em": "2026-07-16T08:26:53.984Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-24T10:00:00.000Z",
+    "ultimo_hash_evento": "0cde5038e200ef5389ecad85566c99020574e861afa75fa02c23f0126d4b218a",
+    "atualizado_em": "2026-07-25T01:05:54.882Z"
   },
   "9357236": {
     "imo": "9357236",
@@ -4155,7 +4155,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-07-24T10:40:00.000Z",
     "ultimo_hash_evento": "f8b5f65bfbed1b417871d8fb62c0e8b8291a82d4e96714711c469026b8215dbe",
-    "atualizado_em": "2026-07-24T23:34:51.210Z"
+    "atualizado_em": "2026-07-25T01:05:54.882Z"
   },
   "9442055": {
     "imo": "9442055",
@@ -7144,14 +7144,14 @@
     "navio": "CBO MISTRAL (REB)",
     "navio_normalizado": "CBO MISTRAL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-17T20:00:00.000Z",
-    "ultimo_hash_evento": "b4254a6ef732da2a40347c700dd8ff0218e2a90250729136f2e30c42d4f684a2",
-    "atualizado_em": "2026-07-17T20:14:09.967Z"
+    "ultima_movimentacao_em": "2026-07-24T19:30:00.000Z",
+    "ultimo_hash_evento": "21134792129ac0898a7c091de532e6b78121e5a044c8e3f99df69fae16678079",
+    "atualizado_em": "2026-07-25T01:05:54.882Z"
   },
   "9621546": {
     "imo": "9621546",
@@ -7200,14 +7200,14 @@
     "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
     "navio_normalizado": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
-    "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-15T12:00:00.000Z",
-    "ultimo_hash_evento": "e115818e77f851bf25cdcf2c7add0dcf08aa82bd43b6240e50b6e0e8e0b1f1be",
-    "atualizado_em": "2026-07-15T13:27:32.238Z"
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-24T08:00:00.000Z",
+    "ultimo_hash_evento": "34b5ad5ca937d69afa19fdce12356198e972d05b38e2bc300dc4ff9af1b221d6",
+    "atualizado_em": "2026-07-25T01:05:54.882Z"
   },
   "9623635": {
     "imo": "9623635",
@@ -7494,14 +7494,14 @@
     "navio": "LORI",
     "navio_normalizado": "LORI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C11 - TECON - ICTSI 1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-07T01:00:00.000Z",
-    "ultimo_hash_evento": "41a630462e471e7c46dd692a91baa9f0476287f286ad7d298019b473407a2d20",
-    "atualizado_em": "2026-06-07T01:38:45.150Z"
+    "ultima_movimentacao_em": "2026-07-25T00:00:00.000Z",
+    "ultimo_hash_evento": "96803910c50231815ff45261d756139b2ab7308a86f74585d649d9e33e06a530",
+    "atualizado_em": "2026-07-25T01:05:54.882Z"
   },
   "9632313": {
     "imo": "9632313",
@@ -11233,13 +11233,13 @@
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-24T08:00:00.000Z",
-    "ultimo_hash_evento": "d6f8f75b55d3f3abd32738934997a8734536efd6b52881c95443bbeede838ea2",
-    "atualizado_em": "2026-07-24T09:10:12.371Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-24T23:30:00.000Z",
+    "ultimo_hash_evento": "a0fd636d93214c2b6dd2383ad9ce484f79b32edfa9ed79ed9e15e0990ae61f2a",
+    "atualizado_em": "2026-07-25T01:05:54.882Z"
   },
   "9799628": {
     "imo": "9799628",

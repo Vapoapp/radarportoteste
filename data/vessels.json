@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-24T23:34:51.210Z",
+  "updatedAt": "2026-07-25T01:05:54.882Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 66
+      "count": 80
     },
     "niteroi": {
       "ok": true,
@@ -112,12 +112,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 05:00",
-      "imo": "9273349",
-      "navio": "MARLIN LEBLON",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "imo": "9799070",
+      "navio": "STARNAV SCORPIUS",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -132,10 +132,20 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 05:00",
-      "imo": "9799070",
-      "navio": "STARNAV SCORPIUS",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
+      "imo": "9273349",
+      "navio": "MARLIN LEBLON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 05:00",
+      "imo": "9623025",
+      "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
+      "tipo": "ENTRADA",
+      "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
@@ -162,26 +172,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 06:00",
-      "imo": "9715725",
-      "navio": "STARNAV TAURUS",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 06:00",
-      "imo": "9659062",
-      "navio": "NORMAND SIGMA (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 06:00",
       "imo": "9521021",
       "navio": "CBO WAVE (REB)",
       "tipo": "MUDANÇA",
@@ -201,13 +191,33 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 06:00",
+      "imo": "9659062",
+      "navio": "NORMAND SIGMA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 06:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 07:00",
-      "imo": "1031032",
-      "navio": "MERCURY MOON",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01N - Visita Norte",
-      "para": "-",
-      "agente": "MONTSERRAT TRANSPORTE AGÊNCIA MARÍTIMA LTDA - EPP"
+      "imo": "9665566",
+      "navio": "A.H. VARAZZE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,12 +232,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 07:00",
-      "imo": "9665566",
-      "navio": "A.H. VARAZZE (REB)",
+      "imo": "1031032",
+      "navio": "MERCURY MOON",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01N - Visita Norte",
+      "para": "-",
+      "agente": "MONTSERRAT TRANSPORTE AGÊNCIA MARÍTIMA LTDA - EPP"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 07:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,22 +332,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 10:00",
-      "imo": "9627629",
-      "navio": "CBO ARPOADOR",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 10:00",
       "imo": "9683996",
       "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
       "tipo": "MUDANÇA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 10:00",
+      "imo": "9627629",
+      "navio": "CBO ARPOADOR",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -338,6 +358,16 @@
       "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 12:00",
+      "imo": "9208447",
+      "navio": "C-AMBASSADOR (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -361,43 +391,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 12:00",
-      "imo": "9208447",
-      "navio": "C-AMBASSADOR (REB)",
+      "inicio": "24/07/2026 13:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 13:00",
-      "imo": "9288409",
-      "navio": "MSC YAMUNA VI",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 13:00",
-      "imo": "9417828",
-      "navio": "NORMAND SAGARIS (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 13:00",
-      "imo": "9425722",
-      "navio": "SKANDI LOGGER (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPIM - MOCANGUE",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -422,12 +422,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 13:00",
-      "imo": "9630327",
-      "navio": "POSIDONIA JAGUAR",
+      "imo": "9417828",
+      "navio": "NORMAND SAGARIS (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 13:00",
+      "imo": "9425722",
+      "navio": "SKANDI LOGGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIM - MOCANGUE",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 13:00",
+      "imo": "9288409",
+      "navio": "MSC YAMUNA VI",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -442,22 +462,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 14:00",
-      "imo": "9956410",
-      "navio": "BOCHEM CASABLANCA",
-      "tipo": "SAÍDA",
-      "de": "TPEX - EXXON SOLUTEC",
-      "para": "-",
-      "agente": "TRANSATLANTICA AGENCIAMENTO DE SERVICOS MARITIMOS"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 14:00",
       "imo": "9545857",
       "navio": "COXON TIDE (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 14:00",
+      "imo": "9956410",
+      "navio": "BOCHEM CASABLANCA",
+      "tipo": "SAÍDA",
+      "de": "TPEX - EXXON SOLUTEC",
+      "para": "-",
+      "agente": "TRANSATLANTICA AGENCIAMENTO DE SERVICOS MARITIMOS"
     },
     {
       "porto": "Rio de Janeiro",
@@ -472,22 +492,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 15:00",
-      "imo": "3813887740",
-      "navio": "C VITÓRIA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPCM - Estaleiro Camorim",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "24/07/2026 15:00",
       "imo": "9763045",
       "navio": "MANTA ANADOLU",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPIC - ILHA COMPRIDA",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 15:00",
+      "imo": "3813887740",
+      "navio": "C VITÓRIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPCM - Estaleiro Camorim",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -502,12 +522,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 16:00",
-      "imo": "9741279",
-      "navio": "ACE DEFENDER (REB)",
+      "imo": "9478494",
+      "navio": "NAVIOS DOMINO",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "CAPITAL MARÍTIMA LTDA"
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -522,12 +542,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 16:00",
-      "imo": "9478494",
-      "navio": "NAVIOS DOMINO",
+      "imo": "9741279",
+      "navio": "ACE DEFENDER (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "CAPITAL MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 16:30",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -621,6 +651,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 20:30",
+      "imo": "9799070",
+      "navio": "STARNAV SCORPIUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "24/07/2026 21:00",
       "imo": "9631125",
       "navio": "LORI",
@@ -628,6 +668,26 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 23:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/07/2026 23:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -641,6 +701,46 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 00:00",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 00:00",
+      "imo": "9329954",
+      "navio": "NORMAND TURMALINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 00:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 00:01",
+      "imo": "9407392",
+      "navio": "HORIZON THEANO",
+      "tipo": "MUDANÇA",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "25/07/2026 06:00",
       "imo": "9631125",
       "navio": "LORI",
@@ -651,6 +751,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 07:00",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 07:00",
+      "imo": "9976886",
+      "navio": "NAVIG8 EXCELLENCE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01N - Visita Norte",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 08:00",
+      "imo": "9623025",
+      "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "25/07/2026 08:00",
       "imo": "9678135",
       "navio": "BRAVANTE I",
@@ -658,6 +788,16 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 10:00",
+      "imo": "9280627",
+      "navio": "CMA CGM PUCCINI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
