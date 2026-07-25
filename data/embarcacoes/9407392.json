@@ -1,21 +1,21 @@
 {
   "imo": "9407392",
   "navio": "HORIZON THEANO",
-  "gerado_em": "2026-07-25T01:05:54.882Z",
+  "gerado_em": "2026-07-25T04:22:33.599Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
     "local": "Fundeio - WPT 91 - AF Preferencial Gusa",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-24T01:00:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-25T03:01:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 2,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 1,
     "ultima_entrada": "2026-07-24T01:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-07-25T03:01:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa"
+    },
     {
       "data": "2026-07-24T01:00:00.000Z",
       "tipo": "ENTRADA",
