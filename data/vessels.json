@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-25T19:45:08.144Z",
+  "updatedAt": "2026-07-25T20:33:57.917Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 44
+      "count": 45
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 19
+      "count": 17
     },
     "angra": {
       "ok": true,
@@ -412,6 +412,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/07/2026 18:00",
+      "imo": "9968449",
+      "navio": "ITHACA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/07/2026 18:00",
       "imo": "0011450339",
       "navio": "BONO III",
       "tipo": "MUDANÇA",
@@ -431,13 +441,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "25/07/2026 18:00",
-      "imo": "9968449",
-      "navio": "ITHACA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "inicio": "25/07/2026 19:00",
+      "imo": "9976886",
+      "navio": "NAVIG8 EXCELLENCE",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01N - Visita Norte",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -601,32 +611,12 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "25/07/2026 19:30",
-      "imo": "9861081",
-      "navio": "MINT",
-      "tipo": "SAÍDA",
-      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "para": "-",
-      "agente": "GEM SHIPPING LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "25/07/2026 21:00",
+      "inicio": "25/07/2026 20:30",
       "imo": "9939981",
       "navio": "MOUNTBLANC",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 5FB3 - Área de Fundeio B3",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "25/07/2026 21:30",
-      "imo": "1026532",
-      "navio": "SHANDONG XIN TAI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
       "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
