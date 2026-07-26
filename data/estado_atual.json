@@ -1572,14 +1572,14 @@
     "navio": "CMA CGM PUCCINI",
     "navio_normalizado": "CMA CGM PUCCINI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-25T09:30:00.000Z",
-    "ultimo_hash_evento": "6add01e74d93ebc8c9127062426f560176d58cd5e9c212d4447f95311800bb39",
-    "atualizado_em": "2026-07-25T10:12:21.678Z"
+    "ultima_movimentacao_em": "2026-07-26T20:00:00.000Z",
+    "ultimo_hash_evento": "31ac8f34534aab17faca3fb5d705015b5327590a5642e89293881ab1259bb3a5",
+    "atualizado_em": "2026-07-26T20:26:48.948Z"
   },
   "9283435": {
     "imo": "9283435",
@@ -3834,6 +3834,20 @@
     "ultima_movimentacao_em": "2026-07-04T12:10:00.000Z",
     "ultimo_hash_evento": "6a9542ed846914ca6216b4a199c492fb6a9dcbf88620e387c7ccd41ded6a15a1",
     "atualizado_em": "2026-07-04T14:02:59.629Z"
+  },
+  "9423334": {
+    "imo": "9423334",
+    "navio": "FPMC B IMAGE",
+    "navio_normalizado": "FPMC B IMAGE",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-26T20:00:00.000Z",
+    "ultimo_hash_evento": "494f8f8f86088d3494629cb4312b53230dd386cf23d0bd21d9122338152155d0",
+    "atualizado_em": "2026-07-26T20:26:48.948Z"
   },
   "9423437": {
     "imo": "9423437",
@@ -9089,15 +9103,15 @@
     "imo": "9698719",
     "navio": "BRAM BREEZE",
     "navio_normalizado": "BRAM BREEZE",
-    "porto_atual": "Rio de Janeiro",
+    "porto_atual": "Niterói",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-25T16:30:00.000Z",
-    "ultimo_hash_evento": "5d93aecdd1173494c3e22064c8eecc4a731d9223dbf523fb44c7f98f1e6ce51d",
-    "atualizado_em": "2026-07-25T17:29:58.522Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-26T20:10:00.000Z",
+    "ultimo_hash_evento": "74e8b9e0db10bb1923d7fc517c2009ebcc86e2808fd7fdefa1fc8538c5c0ec41",
+    "atualizado_em": "2026-07-26T20:26:48.948Z"
   },
   "9701140": {
     "imo": "9701140",
@@ -10644,14 +10658,14 @@
     "navio": "POSIDONIA LEOPARD (REB)",
     "navio_normalizado": "POSIDONIA LEOPARD",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-22T21:00:00.000Z",
-    "ultimo_hash_evento": "200e6b32a471273638473ff0ebcdeba3c864a93aaa1a2f509246ffc7e0f536d5",
-    "atualizado_em": "2026-07-22T21:17:35.604Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-26T19:30:00.000Z",
+    "ultimo_hash_evento": "94a5e6f24b0cc510118a2c6a7ed975010b39f4b49d09b11441549c8b9b25404d",
+    "atualizado_em": "2026-07-26T20:26:48.948Z"
   },
   "9762845": {
     "imo": "9762845",
@@ -11163,13 +11177,13 @@
     "navio_normalizado": "MR ALDO",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-26T09:00:00.000Z",
-    "ultimo_hash_evento": "154953319ae74f5c200dfaa68584024ad69451482ed7f74cfc22e49df5a3f040",
-    "atualizado_em": "2026-07-26T10:58:20.163Z"
+    "ultima_movimentacao_em": "2026-07-26T19:20:00.000Z",
+    "ultimo_hash_evento": "cb54ccc41ce9a048b154c63f74778397237fdce35961da2903c09ae5d5e5b9c0",
+    "atualizado_em": "2026-07-26T20:26:48.948Z"
   },
   "9788461": {
     "imo": "9788461",
