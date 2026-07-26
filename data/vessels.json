@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-07-26T10:58:20.163Z",
+  "updatedAt": "2026-07-26T12:06:05.888Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 26
+      "count": 24
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -212,32 +212,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "26/07/2026 09:00",
-      "imo": "9351799",
-      "navio": "LOG-IN PANTANAL (REB)",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "26/07/2026 09:00",
       "imo": "9407392",
       "navio": "HORIZON THEANO",
       "tipo": "SAÍDA",
       "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "26/07/2026 10:00",
-      "imo": "9975583",
-      "navio": "MSC LE HAVRE",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -281,12 +261,22 @@
     },
     {
       "porto": "Niterói",
-      "inicio": "26/07/2026 07:00",
+      "inicio": "26/07/2026 12:00",
       "imo": "9739446",
       "navio": "BGP DRAGON",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "26/07/2026 23:00",
+      "imo": "9739446",
+      "navio": "BGP DRAGON",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
       "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {

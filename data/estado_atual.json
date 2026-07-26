@@ -3448,14 +3448,14 @@
     "navio": "HORIZON THEANO",
     "navio_normalizado": "HORIZON THEANO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPP1 - PETROBRAS PP1",
-    "destino_atual": "Fundeio - WPT 91 - AF Preferencial Gusa",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 91 - AF Preferencial Gusa",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-25T03:01:00.000Z",
-    "ultimo_hash_evento": "774c38b9b8a452871b096d0cd7c9879f4cccbff0d43a9aa6f656a4794801b5de",
-    "atualizado_em": "2026-07-25T04:22:33.599Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-26T12:00:00.000Z",
+    "ultimo_hash_evento": "abd309de1eb7d68672e7ee58849c2020c93e4dd1c04a7e404ca0bdcd65da4d70",
+    "atualizado_em": "2026-07-26T12:06:05.888Z"
   },
   "9409651": {
     "imo": "9409651",
@@ -12640,6 +12640,20 @@
     "ultima_movimentacao_em": "2026-04-23T23:00:00.000Z",
     "ultimo_hash_evento": "456d80a73ed29e8759ab19ba1af064f07116a0eb7299107f76547402c8cf2aa2",
     "atualizado_em": "2026-04-23T23:02:37.026Z"
+  },
+  "9907940": {
+    "imo": "9907940",
+    "navio": "SHANDONG SOAR",
+    "navio_normalizado": "SHANDONG SOAR",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-26T11:30:00.000Z",
+    "ultimo_hash_evento": "fd3576da75b8e209fc062afc16e38522d3cc84c1cec03de955363d6eac2debb9",
+    "atualizado_em": "2026-07-26T12:06:05.888Z"
   },
   "9910234": {
     "imo": "9910234",
