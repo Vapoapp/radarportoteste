@@ -732,14 +732,14 @@
     "navio": "BALTIYSKIY - 202",
     "navio_normalizado": "BALTIYSKIY - 202",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "RELIANCE AGENCIAMENTO E SERVIÇOS PORTUÁRIOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-27T09:00:00.000Z",
-    "ultimo_hash_evento": "5c0a3ba0ab78d6a7d6f51e66c1fd27acd04382e5d66d3998ae377d87581eb005",
-    "atualizado_em": "2026-07-27T11:44:32.191Z"
+    "ultima_movimentacao_em": "2026-07-27T21:00:00.000Z",
+    "ultimo_hash_evento": "6d46017ece957c03f6e6347c2b168fc6c34e57a6eee1c5f81e8a9ffb0e0b9680",
+    "atualizado_em": "2026-07-27T22:02:06.095Z"
   },
   "9074078": {
     "imo": "9074078",
@@ -4232,14 +4232,14 @@
     "navio": "SKUA",
     "navio_normalizado": "SKUA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-19T18:00:00.000Z",
-    "ultimo_hash_evento": "154127340f61ac19ec945ff5b41a585cb0f852f239bd16ece614e2f92ab26fbd",
-    "atualizado_em": "2026-07-19T18:07:53.004Z"
+    "ultima_movimentacao_em": "2026-07-27T03:00:00.000Z",
+    "ultimo_hash_evento": "3875714a79ff70ab2b18b7ed943f50e6bf36a1035d6b651793450e8b37c253b5",
+    "atualizado_em": "2026-07-27T22:02:06.095Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -4919,13 +4919,13 @@
     "navio_normalizado": "CBO CAROLINA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
     "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-26T21:30:00.000Z",
-    "ultimo_hash_evento": "f4e66c2a299bfcb61ecc805a70eefd613eacbf3aad9ce19449e2a278c3230722",
-    "atualizado_em": "2026-07-26T22:28:56.481Z"
+    "ultima_movimentacao_em": "2026-07-27T21:00:00.000Z",
+    "ultimo_hash_evento": "345a492531db2f993716f4407912e635852f3acb2b11a4b7b631aa145fe80f8a",
+    "atualizado_em": "2026-07-27T22:02:06.095Z"
   },
   "9477402": {
     "imo": "9477402",
@@ -9707,13 +9707,13 @@
     "navio_normalizado": "STARNAV ANDROMEDA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-27T15:00:00.000Z",
-    "ultimo_hash_evento": "388e66d9c9f2019d81eb0cd75d0c67878fb969ce264faf1205148b660120fdb2",
-    "atualizado_em": "2026-07-27T16:25:38.956Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-27T22:00:00.000Z",
+    "ultimo_hash_evento": "029a2e9ed8415ca2325788a1968d84e5158c4dda96e117436dfd268b77d4a450",
+    "atualizado_em": "2026-07-27T22:02:06.095Z"
   },
   "9715751": {
     "imo": "9715751",
@@ -14194,6 +14194,20 @@
     "ultima_movimentacao_em": "2026-07-27T04:30:00.000Z",
     "ultimo_hash_evento": "634166605ae14bf50b2091548692a414afa302edff614094c8ab2b8a4fa51dc4",
     "atualizado_em": "2026-07-27T04:51:18.441Z"
+  },
+  "9998133": {
+    "imo": "9998133",
+    "navio": "RUI  FU",
+    "navio_normalizado": "RUI FU",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "303 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "GREAT OCEAN SERVIÇOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-27T21:30:00.000Z",
+    "ultimo_hash_evento": "0318ca76c37737becc83e16f26c82cb5a37df437c21b9655f1dd8239108f2ab7",
+    "atualizado_em": "2026-07-27T22:02:06.095Z"
   },
   "2412227829": {
     "imo": "2412227829",
