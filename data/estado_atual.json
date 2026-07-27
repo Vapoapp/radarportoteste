@@ -6430,14 +6430,14 @@
     "navio": "NORMAND CARIOCA",
     "navio_normalizado": "NORMAND CARIOCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "SOLSTAD NAVEGAÇÃO MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-27T13:30:00.000Z",
-    "ultimo_hash_evento": "59b3122c76ecbb7fdaf1ad253d09b98740c0e18939aff23cdd59182da22023f6",
-    "atualizado_em": "2026-07-27T13:59:18.128Z"
+    "ultima_movimentacao_em": "2026-07-27T19:30:00.000Z",
+    "ultimo_hash_evento": "7d6294ede97e01bd59a2eae17da269e107cbaa90840284733465d722580b91f2",
+    "atualizado_em": "2026-07-27T19:47:24.185Z"
   },
   "9574107": {
     "imo": "9574107",
@@ -7597,9 +7597,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "PATRIA NAVAL OPERACOES LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-27T16:00:00.000Z",
-    "ultimo_hash_evento": "ac0e486629ead074c2abb16a51a92aef5cd23ae824a44828334d2e1d9b844c07",
-    "atualizado_em": "2026-07-27T16:25:38.956Z"
+    "ultima_movimentacao_em": "2026-07-27T19:00:00.000Z",
+    "ultimo_hash_evento": "92227313d64ec32afe4435f2f3ec850df0889072ece3212199ddb137bad2acb0",
+    "atualizado_em": "2026-07-27T19:47:24.185Z"
   },
   "9631125": {
     "imo": "9631125",
@@ -7802,14 +7802,14 @@
     "navio": "LARUS",
     "navio_normalizado": "LARUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-24T01:00:00.000Z",
-    "ultimo_hash_evento": "648c6f4d6080b2852b7579749411e9563740e46dbddb79bd7312a351d9af2c1c",
-    "atualizado_em": "2026-07-24T01:01:52.075Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-07-27T19:30:00.000Z",
+    "ultimo_hash_evento": "13b4103e33ff2d5f48bd6cdcb5ae29f07b0dcc44639731c4d898db8ccab3aff9",
+    "atualizado_em": "2026-07-27T19:47:24.185Z"
   },
   "9642590": {
     "imo": "9642590",
@@ -13746,6 +13746,20 @@
     "ultima_movimentacao_em": "2026-06-27T09:00:00.000Z",
     "ultimo_hash_evento": "8402da9efb2f720275ae75df984b5b093bf0573bc3a6581f077365bd894b146b",
     "atualizado_em": "2026-06-27T10:19:49.879Z"
+  },
+  "9975428": {
+    "imo": "9975428",
+    "navio": "FEDERAL MINNESOTA",
+    "navio_normalizado": "FEDERAL MINNESOTA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N08 - Pátio 9",
+    "agente_atual": "WORLD SHIPPING AGENCIAMENTOS",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-07-27T19:00:00.000Z",
+    "ultimo_hash_evento": "3a73abbaa7c92fb49f45a8aee0de84d8bbef5b0003160f6ca1a692bd14d574ce",
+    "atualizado_em": "2026-07-27T19:47:24.185Z"
   },
   "9975583": {
     "imo": "9975583",
