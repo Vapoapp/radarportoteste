@@ -1,29 +1,36 @@
 {
   "imo": "9370070",
   "navio": "SIDDIS SAILOR (REB)",
-  "gerado_em": "2026-07-29T15:22:51.640Z",
+  "gerado_em": "2026-07-29T16:44:08.443Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-29T10:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-07-29T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 39,
-    "manobras_365d": 39,
+    "manobras_30d": 13,
+    "manobras_180d": 40,
+    "manobras_365d": 40,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 15,
     "saidas_365d": 14,
     "ultima_entrada": "2026-07-29T10:00:00.000Z",
     "ultima_saida": "2026-07-24T01:00:00.000Z",
     "tempo_medio_estadia_horas": 48.6,
-    "tempo_medio_fundeio_horas": 18.1
+    "tempo_medio_fundeio_horas": 16.4
   },
   "historico_recente": [
+    {
+      "data": "2026-07-29T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-07-29T10:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-07-03T15:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
