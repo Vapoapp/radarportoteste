@@ -1,29 +1,36 @@
 {
   "imo": "9645542",
   "navio": "MANDRIÃO (REB)",
-  "gerado_em": "2026-07-29T19:15:45.016Z",
+  "gerado_em": "2026-07-29T20:17:58.112Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-07-29T15:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-07-29T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 19,
-    "manobras_180d": 27,
-    "manobras_365d": 27,
+    "manobras_30d": 20,
+    "manobras_180d": 28,
+    "manobras_365d": 28,
     "entradas_30d": 8,
-    "saidas_30d": 7,
+    "saidas_30d": 8,
     "mudancas_30d": 4,
     "entradas_365d": 11,
-    "saidas_365d": 10,
+    "saidas_365d": 11,
     "ultima_entrada": "2026-07-11T22:00:00.000Z",
-    "ultima_saida": "2026-07-11T15:30:00.000Z",
-    "tempo_medio_estadia_horas": 26,
-    "tempo_medio_fundeio_horas": 61.9
+    "ultima_saida": "2026-07-29T20:00:00.000Z",
+    "tempo_medio_estadia_horas": 70.9,
+    "tempo_medio_fundeio_horas": 57.1
   },
   "historico_recente": [
+    {
+      "data": "2026-07-29T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-07-29T15:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-07-09T16:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }
