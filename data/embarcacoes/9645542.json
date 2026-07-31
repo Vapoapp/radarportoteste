@@ -1,29 +1,36 @@
 {
   "imo": "9645542",
   "navio": "MANDRIÃO (REB)",
-  "gerado_em": "2026-07-31T12:16:17.404Z",
+  "gerado_em": "2026-07-31T14:39:34.396Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-07-29T20:00:00.000Z"
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-07-31T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 20,
-    "manobras_180d": 28,
-    "manobras_365d": 28,
-    "entradas_30d": 8,
+    "manobras_30d": 21,
+    "manobras_180d": 29,
+    "manobras_365d": 29,
+    "entradas_30d": 9,
     "saidas_30d": 8,
     "mudancas_30d": 4,
-    "entradas_365d": 11,
+    "entradas_365d": 12,
     "saidas_365d": 11,
-    "ultima_entrada": "2026-07-11T22:00:00.000Z",
+    "ultima_entrada": "2026-07-31T14:00:00.000Z",
     "ultima_saida": "2026-07-29T20:00:00.000Z",
     "tempo_medio_estadia_horas": 70.9,
     "tempo_medio_fundeio_horas": 57.1
   },
   "historico_recente": [
+    {
+      "data": "2026-07-31T14:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-07-29T20:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-07-09T21:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
