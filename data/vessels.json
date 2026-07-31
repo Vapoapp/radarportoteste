@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-31T21:47:36.592Z",
+  "updatedAt": "2026-07-31T22:44:11.817Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 77
+      "count": 78
     },
     "niteroi": {
       "ok": true,
@@ -19,6 +19,16 @@
     }
   },
   "vessels": [
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/07/2026 00:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "31/07/2026 00:00",
@@ -242,16 +252,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "31/07/2026 08:00",
-      "imo": "9806495",
-      "navio": "STARNAV CIRCINUS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "31/07/2026 08:00",
       "imo": "9147710",
       "navio": "ANNEGRET",
       "tipo": "SAÍDA",
@@ -298,6 +298,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/07/2026 08:00",
+      "imo": "9806495",
+      "navio": "STARNAV CIRCINUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -661,6 +671,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "31/07/2026 21:00",
+      "imo": "9865740",
+      "navio": "TWEED",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPP2 - PETROBRAS PP2",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "31/07/2026 23:00",
       "imo": "9943085",
       "navio": "MAERSK REDWOOD",
@@ -668,16 +688,6 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 00:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -1025,7 +1035,7 @@
       "imo": "9959216",
       "navio": "PROTEUS",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FA2 - Área de Fundeio A2",
+      "de": "Fundeio - 5FB1 - Área de Fundeio B1",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     },
