@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-01T21:31:59.209Z",
+  "updatedAt": "2026-08-01T22:30:57.316Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 49
+      "count": 50
     },
     "niteroi": {
       "ok": true,
@@ -142,22 +142,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/08/2026 04:00",
-      "imo": "9357169",
-      "navio": "ASSO VENTISETTE",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 04:00",
       "imo": "9477397",
       "navio": "CBO CAROLINA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 04:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -262,22 +262,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/08/2026 10:30",
-      "imo": "9678135",
-      "navio": "BRAVANTE I",
-      "tipo": "SAÍDA",
-      "de": "2P14 - Terminal Petrobrás (Armazém 14)",
-      "para": "-",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 10:30",
       "imo": "9295969",
       "navio": "CMA CGM SAMBHAR",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 10:30",
+      "imo": "9678135",
+      "navio": "BRAVANTE I",
+      "tipo": "SAÍDA",
+      "de": "2P14 - Terminal Petrobrás (Armazém 14)",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -438,6 +438,16 @@
       "de": "2N08 - Pátio 9",
       "para": "-",
       "agente": "WORLD SHIPPING AGENCIAMENTOS"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 20:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -641,7 +651,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "02/08/2026 02:00",
+      "inicio": "02/08/2026 03:00",
       "imo": "1048372",
       "navio": "CSPC RUBY",
       "tipo": "ENTRADA",
