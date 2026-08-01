@@ -1847,6 +1847,20 @@
     "ultimo_hash_evento": "3256858d4c5a321ce97184c608a0706f5bd263d0c3c423af4b8c20611234c921",
     "atualizado_em": "2026-06-04T10:31:07.562Z"
   },
+  "9295969": {
+    "imo": "9295969",
+    "navio": "CMA CGM SAMBHAR",
+    "navio_normalizado": "CMA CGM SAMBHAR",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-01T13:30:00.000Z",
+    "ultimo_hash_evento": "a1f062bf10e7e050ade4976094346ad708f973b3c36322e8ac3096d9b2423404",
+    "atualizado_em": "2026-08-01T14:38:37.427Z"
+  },
   "9296248": {
     "imo": "9296248",
     "navio": "OCEAN LION",
@@ -5926,14 +5940,14 @@
     "navio": "SANTOS SERVICE",
     "navio_normalizado": "SANTOS SERVICE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPBL - BRICLOG",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "TPBL - BRICLOG",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-31T08:30:00.000Z",
-    "ultimo_hash_evento": "3998ae86294004293e801d45573c76f43953354cfc4c67ce0ad07e0b4aec0094",
-    "atualizado_em": "2026-07-31T10:11:51.416Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-01T11:00:00.000Z",
+    "ultimo_hash_evento": "e87cd738b789a6d1dbca0c74272b0ed28d5e5ba07103ff0407c8c1e6af21c180",
+    "atualizado_em": "2026-08-01T14:38:37.427Z"
   },
   "9530204": {
     "imo": "9530204",
@@ -8740,14 +8754,14 @@
     "navio": "BRAVANTE I",
     "navio_normalizado": "BRAVANTE I",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-01T07:00:00.000Z",
-    "ultimo_hash_evento": "10bb8e07803b3390aab4ffd8187e73b0907e69be73f3bb073c64fb7fa73c437b",
-    "atualizado_em": "2026-08-01T07:13:45.842Z"
+    "ultima_movimentacao_em": "2026-08-01T13:30:00.000Z",
+    "ultimo_hash_evento": "135d18d5ce623566b5b9e09a678be78dc00999444cd0c7cd0d9f93bdf59a7427",
+    "atualizado_em": "2026-08-01T14:38:37.427Z"
   },
   "9678147": {
     "imo": "9678147",
@@ -9525,13 +9539,13 @@
     "navio_normalizado": "BRAM HERO",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-31T11:00:00.000Z",
-    "ultimo_hash_evento": "da2ee3e87c1a0c6348e95499444f4a16bd09a0ca49c0c7a409dcf169c2082571",
-    "atualizado_em": "2026-07-31T12:16:17.404Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-01T14:20:00.000Z",
+    "ultimo_hash_evento": "bb49a4d48c6664cbf634d06b08d34343ce8a6aab146a8aebc8f96e22d5ce737f",
+    "atualizado_em": "2026-08-01T14:38:37.427Z"
   },
   "9704972": {
     "imo": "9704972",
