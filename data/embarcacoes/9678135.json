@@ -1,29 +1,36 @@
 {
   "imo": "9678135",
   "navio": "BRAVANTE I",
-  "gerado_em": "2026-08-01T04:40:18.317Z",
+  "gerado_em": "2026-08-01T07:13:45.842Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-31T19:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-01T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 7,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-07-31T19:00:00.000Z",
     "ultima_saida": "2026-07-31T12:30:00.000Z",
     "tempo_medio_estadia_horas": 65,
-    "tempo_medio_fundeio_horas": 65
+    "tempo_medio_fundeio_horas": 47.3
   },
   "historico_recente": [
+    {
+      "data": "2026-08-01T07:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P14 - Terminal Petrobrás (Armazém 14)"
+    },
     {
       "data": "2026-07-31T19:00:00.000Z",
       "tipo": "ENTRADA",
