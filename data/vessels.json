@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-01T18:38:25.927Z",
+  "updatedAt": "2026-08-01T21:31:59.209Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 43
+      "count": 49
     },
     "niteroi": {
       "ok": true,
@@ -92,6 +92,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/08/2026 03:00",
+      "imo": "9349370",
+      "navio": "NORMAND COMMANDER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 03:00",
       "imo": "9628154",
       "navio": "VALOR",
       "tipo": "SAÍDA",
@@ -101,13 +111,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 03:00",
-      "imo": "9349370",
-      "navio": "NORMAND COMMANDER (REB)",
+      "inicio": "01/08/2026 04:00",
+      "imo": "9806495",
+      "navio": "STARNAV CIRCINUS",
       "tipo": "SAÍDA",
-      "de": "2TS2 - Terminal Siderúrgico 2",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 04:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 04:00",
+      "imo": "9678135",
+      "navio": "BRAVANTE I",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P14 - Terminal Petrobrás (Armazém 14)",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -138,36 +168,6 @@
       "de": "TPBR - BRASCO",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 04:00",
-      "imo": "9678135",
-      "navio": "BRAVANTE I",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P14 - Terminal Petrobrás (Armazém 14)",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 04:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "TPBR - BRASCO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 04:00",
-      "imo": "9806495",
-      "navio": "STARNAV CIRCINUS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -262,22 +262,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/08/2026 10:30",
-      "imo": "9295969",
-      "navio": "CMA CGM SAMBHAR",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 10:30",
       "imo": "9678135",
       "navio": "BRAVANTE I",
       "tipo": "SAÍDA",
       "de": "2P14 - Terminal Petrobrás (Armazém 14)",
       "para": "-",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 10:30",
+      "imo": "9295969",
+      "navio": "CMA CGM SAMBHAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,6 +342,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "01/08/2026 14:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 14:00",
       "imo": "9715751",
       "navio": "STARNAV PHOENIX",
       "tipo": "ENTRADA",
@@ -358,16 +368,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 14:00",
-      "imo": "9630327",
-      "navio": "POSIDONIA JAGUAR",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -388,6 +388,26 @@
       "de": "TPIC - ILHA COMPRIDA",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 16:40",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 17:10",
+      "imo": "9530199",
+      "navio": "SANTOS SERVICE",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -421,11 +441,11 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "01/08/2026 20:00",
-      "imo": "9968449",
-      "navio": "ITHACA",
+      "inicio": "01/08/2026 21:00",
+      "imo": "9295969",
+      "navio": "CMA CGM SAMBHAR",
       "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
+      "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
@@ -438,6 +458,46 @@
       "de": "-",
       "para": "TPS1 - PETROBRAS PS1",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 22:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 22:00",
+      "imo": "9968449",
+      "navio": "ITHACA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "01/08/2026 23:00",
+      "imo": "9453860",
+      "navio": "JOSÉ DO PATROCÍNIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F10 - PREFERENCIAL GNL",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/08/2026 00:00",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
