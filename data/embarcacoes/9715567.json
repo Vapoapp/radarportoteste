@@ -1,21 +1,21 @@
 {
   "imo": "9715567",
   "navio": "CBO OCEANA",
-  "gerado_em": "2026-08-01T14:38:37.427Z",
+  "gerado_em": "2026-08-01T15:41:58.521Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-01T05:00:00.000Z"
+    "ultima_movimentacao": "2026-08-01T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 20,
-    "manobras_180d": 48,
-    "manobras_365d": 48,
+    "manobras_30d": 21,
+    "manobras_180d": 49,
+    "manobras_365d": 49,
     "entradas_30d": 5,
     "saidas_30d": 5,
-    "mudancas_30d": 10,
+    "mudancas_30d": 11,
     "entradas_365d": 11,
     "saidas_365d": 12,
     "ultima_entrada": "2026-07-30T11:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 49.8
   },
   "historico_recente": [
+    {
+      "data": "2026-08-01T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P14 - Terminal Petrobrás (Armazém 14)",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-01T05:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-07-14T05:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
