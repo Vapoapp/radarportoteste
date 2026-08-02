@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-02T14:43:41.272Z",
+  "updatedAt": "2026-08-02T15:45:29.949Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 30
+      "count": 33
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -162,22 +162,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/08/2026 07:00",
-      "imo": "9365582",
-      "navio": "SKANDI FLUMINENSE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/08/2026 07:00",
       "imo": "9715737",
       "navio": "STARNAV ANDROMEDA",
       "tipo": "MUDANÇA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/08/2026 07:00",
+      "imo": "9365582",
+      "navio": "SKANDI FLUMINENSE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,21 +222,21 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/08/2026 10:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "02/08/2026 10:00",
       "imo": "9762742",
       "navio": "POSIDONIA LEOPARD (REB)",
       "tipo": "MUDANÇA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/08/2026 10:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
@@ -252,12 +252,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "02/08/2026 10:00",
-      "imo": "9630327",
-      "navio": "POSIDONIA JAGUAR",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -281,6 +281,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "02/08/2026 14:00",
+      "imo": "9477397",
+      "navio": "CBO CAROLINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/08/2026 15:00",
+      "imo": "1015375",
+      "navio": "SINAR SUMATERA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "02/08/2026 15:00",
       "imo": "9277802",
       "navio": "RCC AMERICA",
@@ -288,6 +308,16 @@
       "de": "-",
       "para": "2R12 - Terminal - MCAR 1",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/08/2026 15:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -348,6 +378,26 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "02/08/2026 13:00",
+      "imo": "9085211",
+      "navio": "OCEANIC CHAMPION",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "02/08/2026 13:00",
+      "imo": "9529877",
+      "navio": "HOS FIRE SERPENT",
+      "tipo": "SAÍDA",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Niterói",
