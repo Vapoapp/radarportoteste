@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-02T07:12:46.483Z",
+  "updatedAt": "2026-08-02T09:21:46.344Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 23
+      "count": 25
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -161,7 +161,17 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "02/08/2026 06:00",
+      "inicio": "02/08/2026 06:30",
+      "imo": "9294082",
+      "navio": "MAERSK VEGA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/08/2026 07:00",
       "imo": "9365582",
       "navio": "SKANDI FLUMINENSE",
       "tipo": "ENTRADA",
@@ -171,7 +181,17 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "02/08/2026 06:30",
+      "inicio": "02/08/2026 07:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "02/08/2026 08:00",
       "imo": "9702077",
       "navio": "MSC MELINE",
       "tipo": "SAÍDA",
@@ -258,6 +278,16 @@
       "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "02/08/2026 03:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "SAÍDA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Niterói",
