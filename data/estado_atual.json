@@ -941,15 +941,15 @@
     "imo": "9188130",
     "navio": "BRAM NATAL (REB)",
     "navio_normalizado": "BRAM NATAL",
-    "porto_atual": "Rio de Janeiro",
+    "porto_atual": "Niterói",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-03T10:00:00.000Z",
-    "ultimo_hash_evento": "97eccd7f470caa56a24e9e1c9d1274cf0a61d78515b6a9ab2cfc3782a868bdca",
-    "atualizado_em": "2026-08-03T11:44:57.125Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-03T15:00:00.000Z",
+    "ultimo_hash_evento": "b63238bba4146b46367f1273d2a9cd44480cafb099627cb96cf4c8fa57e52b5c",
+    "atualizado_em": "2026-08-03T16:34:25.303Z"
   },
   "9191448": {
     "imo": "9191448",
@@ -1628,14 +1628,14 @@
     "navio": "NORMAND TOPAZIO",
     "navio_normalizado": "NORMAND TOPAZIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-31T08:00:00.000Z",
-    "ultimo_hash_evento": "d9a62f6fda96f0ed1c659985ae2859f8e9bb1f11ce2608f46fd1f3e52895e6d7",
-    "atualizado_em": "2026-07-31T10:11:51.416Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-03T15:00:00.000Z",
+    "ultimo_hash_evento": "072283afd1c6651ffadf9d5e711cb484c710c557b1dc47a85f4adade9a503718",
+    "atualizado_em": "2026-08-03T16:34:25.303Z"
   },
   "9277802": {
     "imo": "9277802",
@@ -4351,7 +4351,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-08-03T12:30:00.000Z",
     "ultimo_hash_evento": "8e18dc6630291dd2cc2652d8b64af9c5f35d3993d605b96247f18e4f9132e444",
-    "atualizado_em": "2026-08-03T14:03:27.978Z"
+    "atualizado_em": "2026-08-03T16:34:25.303Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -5115,13 +5115,13 @@
     "navio_normalizado": "MULTIPLICITY",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-31T03:30:00.000Z",
-    "ultimo_hash_evento": "e195b9dad368781a8573a40b1e3e605355cda859e1365389951dc3d32db0cec8",
-    "atualizado_em": "2026-07-31T04:44:34.156Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-03T16:00:00.000Z",
+    "ultimo_hash_evento": "ff7a94c1b678c6d362baa42b4cf725d6828391ff9d2982a5318af0f6226ff6c8",
+    "atualizado_em": "2026-08-03T16:34:25.303Z"
   },
   "9482378": {
     "imo": "9482378",
@@ -7635,13 +7635,13 @@
     "navio_normalizado": "KUDU",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "2TS2 - Terminal Siderúrgico 2",
     "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-02T22:30:00.000Z",
-    "ultimo_hash_evento": "9eecbe3fd6634d1d7c1fbed436351cc451b0f40ed59b9c533bc1c1df3fe75d91",
-    "atualizado_em": "2026-08-02T23:35:59.850Z"
+    "ultima_movimentacao_em": "2026-08-03T16:00:00.000Z",
+    "ultimo_hash_evento": "757a1ce3ab7f03f138496a51dad750f0c3385ae96832e9a0828e5fd8d2ff87ee",
+    "atualizado_em": "2026-08-03T16:34:25.303Z"
   },
   "9627629": {
     "imo": "9627629",
@@ -9315,13 +9315,13 @@
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-02T21:00:00.000Z",
-    "ultimo_hash_evento": "ffa310eaa9f72483d5cd4f026c957e21c02c4b7b595a9416586b31f51e56ae4a",
-    "atualizado_em": "2026-08-02T22:35:51.271Z"
+    "ultima_movimentacao_em": "2026-08-03T15:00:00.000Z",
+    "ultimo_hash_evento": "2f922df52e49d8029e25e1033c70b698428b5cd49062f14d9a0821a5cda37c2a",
+    "atualizado_em": "2026-08-03T16:34:25.303Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -11036,14 +11036,14 @@
     "navio": "BRAM BUCK",
     "navio_normalizado": "BRAM BUCK",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-03T09:00:00.000Z",
-    "ultimo_hash_evento": "52ca5710a401bd1a363a03ce44be11254f8342a4d1d9e93b4bb01c8db22d32e7",
-    "atualizado_em": "2026-08-03T11:44:57.125Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-03T16:00:00.000Z",
+    "ultimo_hash_evento": "a1e78ff9d4bd329aa7bc105d19e7ae440e10be2b031de2736ff5c3d1d8f9ee30",
+    "atualizado_em": "2026-08-03T16:34:25.303Z"
   },
   "9763772": {
     "imo": "9763772",
@@ -15118,5 +15118,19 @@
     "ultima_movimentacao_em": "2026-06-25T14:30:00.000Z",
     "ultimo_hash_evento": "751d2c2356b326ca744723a9baa3c443e0dc906360edb181d69377b0c595cdc9",
     "atualizado_em": "2026-06-25T19:22:57.913Z"
+  },
+  "MILITAR": {
+    "imo": "MILITAR",
+    "navio": "VITAL DE OLIVEIRA",
+    "navio_normalizado": "VITAL DE OLIVEIRA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N04 - Armazém 4",
+    "agente_atual": "MARINHA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-03T15:00:00.000Z",
+    "ultimo_hash_evento": "b8813fdb51d6b6f839586b63d319188dc3060bd8342391f4387eb7577559dadd",
+    "atualizado_em": "2026-08-03T16:34:25.303Z"
   }
 }
