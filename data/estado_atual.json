@@ -942,14 +942,14 @@
     "navio": "BRAM NATAL (REB)",
     "navio_normalizado": "BRAM NATAL",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-03T15:00:00.000Z",
-    "ultimo_hash_evento": "b63238bba4146b46367f1273d2a9cd44480cafb099627cb96cf4c8fa57e52b5c",
-    "atualizado_em": "2026-08-03T16:34:25.303Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-03T15:40:00.000Z",
+    "ultimo_hash_evento": "362b2731da27c8e1c72c12e54d09c9000f6d7df4347826d9cb815eaceb8f39bb",
+    "atualizado_em": "2026-08-03T18:21:51.886Z"
   },
   "9191448": {
     "imo": "9191448",
@@ -1502,14 +1502,14 @@
     "navio": "HAROLDO RAMOS",
     "navio_normalizado": "HAROLDO RAMOS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "ASGAARD NAVEGACAO S/A",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-05-26T10:00:00.000Z",
-    "ultimo_hash_evento": "32cfefa2576006bb86204f102637e02de2cdab4f2a2b644928657ba5975496b1",
-    "atualizado_em": "2026-05-26T14:17:54.860Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-03T06:00:00.000Z",
+    "ultimo_hash_evento": "8b13eaa301c747b3b2ddb2fd322f31f1f58d8da21988956faa8402ed4bdf89aa",
+    "atualizado_em": "2026-08-03T18:21:51.886Z"
   },
   "9271743": {
     "imo": "9271743",
@@ -4351,7 +4351,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-08-03T12:30:00.000Z",
     "ultimo_hash_evento": "8e18dc6630291dd2cc2652d8b64af9c5f35d3993d605b96247f18e4f9132e444",
-    "atualizado_em": "2026-08-03T16:34:25.303Z"
+    "atualizado_em": "2026-08-03T18:21:51.886Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -5884,14 +5884,14 @@
     "navio": "POSIDONIA TIGER (REB)",
     "navio_normalizado": "POSIDONIA TIGER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2PAL - Terminal Petrobras AL",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-31T06:00:00.000Z",
-    "ultimo_hash_evento": "d7afeb67ebf338d54b6a12268f2154890eaab294ccf12a071f24b735b05347e5",
-    "atualizado_em": "2026-07-31T07:36:39.763Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-03T14:00:00.000Z",
+    "ultimo_hash_evento": "402e1de59cf5f379fbae5f2c063b25612dd637d389bc64b51d2235f338a5b7de",
+    "atualizado_em": "2026-08-03T18:21:51.886Z"
   },
   "9529877": {
     "imo": "9529877",
@@ -10471,6 +10471,20 @@
     "ultimo_hash_evento": "a0d013fbfef429f415b7155120d29a9c015bdbcdf28c00e2024df69d679ef724",
     "atualizado_em": "2026-07-23T11:26:19.391Z"
   },
+  "9735842": {
+    "imo": "9735842",
+    "navio": "BBG FOREVER",
+    "navio_normalizado": "BBG FOREVER",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01S - Visita Sul",
+    "agente_atual": "SANT SHIPPING AGENCY LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-03T17:30:00.000Z",
+    "ultimo_hash_evento": "a2b88c2a91d7755041d5d680b7b5a2225ae9ca1407ecf3170f25b89637b2af37",
+    "atualizado_em": "2026-08-03T18:21:51.886Z"
+  },
   "9735945": {
     "imo": "9735945",
     "navio": "ORION",
@@ -10680,6 +10694,20 @@
     "ultima_movimentacao_em": "2026-07-09T15:30:00.000Z",
     "ultimo_hash_evento": "fd0bd4a7dd7abcbb9ffd5d128c0af246a699cfff4eee602468a36fe3c64b2618",
     "atualizado_em": "2026-07-09T16:38:08.493Z"
+  },
+  "9750048": {
+    "imo": "9750048",
+    "navio": "EL MATADOR",
+    "navio_normalizado": "EL MATADOR",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "301 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-03T17:00:00.000Z",
+    "ultimo_hash_evento": "33001baf1b0ff002ea5ff8c732e02641d80e1294a347ef472504771fc6b4c48b",
+    "atualizado_em": "2026-08-03T18:21:51.886Z"
   },
   "9750464": {
     "imo": "9750464",
