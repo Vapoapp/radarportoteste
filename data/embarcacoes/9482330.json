@@ -1,29 +1,36 @@
 {
   "imo": "9482330",
   "navio": "MULTIPLICITY (REB)",
-  "gerado_em": "2026-08-04T15:55:09.209Z",
+  "gerado_em": "2026-08-04T17:40:45.666Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-04T05:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-04T17:20:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 49,
-    "manobras_365d": 49,
+    "manobras_30d": 13,
+    "manobras_180d": 50,
+    "manobras_365d": 50,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 8,
     "entradas_365d": 11,
-    "saidas_365d": 11,
+    "saidas_365d": 12,
     "ultima_entrada": "2026-07-30T15:00:00.000Z",
-    "ultima_saida": "2026-07-26T10:00:00.000Z",
-    "tempo_medio_estadia_horas": 127.2,
-    "tempo_medio_fundeio_horas": 38.5
+    "ultima_saida": "2026-08-04T17:20:00.000Z",
+    "tempo_medio_estadia_horas": 126.8,
+    "tempo_medio_fundeio_horas": 36.9
   },
   "historico_recente": [
+    {
+      "data": "2026-08-04T17:20:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-08-04T05:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-07-08T07:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
