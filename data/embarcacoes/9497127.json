@@ -1,7 +1,7 @@
 {
   "imo": "9497127",
   "navio": "CAMPOS CONTENDER",
-  "gerado_em": "2026-08-05T11:07:53.470Z",
+  "gerado_em": "2026-08-05T13:00:22.615Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
@@ -10,16 +10,16 @@
     "ultima_movimentacao": "2026-08-05T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 47,
-    "manobras_365d": 47,
+    "manobras_30d": 12,
+    "manobras_180d": 48,
+    "manobras_365d": 48,
     "entradas_30d": 5,
-    "saidas_30d": 5,
+    "saidas_30d": 6,
     "mudancas_30d": 1,
     "entradas_365d": 23,
-    "saidas_365d": 22,
+    "saidas_365d": 23,
     "ultima_entrada": "2026-08-05T11:00:00.000Z",
-    "ultima_saida": "2026-07-31T13:00:00.000Z",
+    "ultima_saida": "2026-08-05T03:00:00.000Z",
     "tempo_medio_estadia_horas": 47.4,
     "tempo_medio_fundeio_horas": 42.9
   },
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-08-05T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
     },
     {
       "data": "2026-07-31T13:00:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
-    },
-    {
-      "data": "2026-07-17T16:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
