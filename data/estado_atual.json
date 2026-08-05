@@ -3350,14 +3350,14 @@
     "navio": "HOS MAVERICK",
     "navio_normalizado": "HOS MAVERICK",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "ESMA - ESTALEIRO MAUÁ",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "ESMA - ESTALEIRO MAUÁ",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-04-27T09:00:00.000Z",
-    "ultimo_hash_evento": "7d0364df9ceb1b41b16a616f5395f8e525b00fb19e64a78cc86305f35f8fe11f",
-    "atualizado_em": "2026-04-27T09:38:14.715Z"
+    "ultima_movimentacao_em": "2026-08-05T16:45:00.000Z",
+    "ultimo_hash_evento": "0e15c2d23bc9decc641288ac69705b78628cb90fc62f7dfd2e10b2a09306931d",
+    "atualizado_em": "2026-08-05T18:18:41.263Z"
   },
   "9385271": {
     "imo": "9385271",
@@ -4429,13 +4429,13 @@
     "navio_normalizado": "SKUA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-05T12:00:00.000Z",
-    "ultimo_hash_evento": "5873812bd03bf217be375edc44b8345f7fa9dd20eb438c66238fbc730e8efb3e",
-    "atualizado_em": "2026-08-05T13:00:22.615Z"
+    "ultima_movimentacao_em": "2026-08-05T17:00:00.000Z",
+    "ultimo_hash_evento": "9620452ecc88e3bd8ab7905889b38e5eef0dd691c250fd238da871d1d942cd0b",
+    "atualizado_em": "2026-08-05T18:18:41.263Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -8754,14 +8754,14 @@
     "navio": "STARNAV REGULUS",
     "navio_normalizado": "STARNAV REGULUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-07-28T22:00:00.000Z",
-    "ultimo_hash_evento": "13862f88fe4a926fa2f1d8956880e31ee17fb293052522c084ca4258537b9b07",
-    "atualizado_em": "2026-07-28T22:13:56.015Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-05T18:00:00.000Z",
+    "ultimo_hash_evento": "b5f921919094b2f74daa2a09a7787f75f9fe014c1ff81915efc7dc38affa588f",
+    "atualizado_em": "2026-08-05T18:18:41.263Z"
   },
   "9670262": {
     "imo": "9670262",
@@ -10042,14 +10042,14 @@
     "navio": "CBO OCEANA",
     "navio_normalizado": "CBO OCEANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-05T06:30:00.000Z",
-    "ultimo_hash_evento": "679ef0c7895f29baef3af80b3d4a84651bd0e6df8fbf99b62885d6f6e4642864",
-    "atualizado_em": "2026-08-05T08:49:15.175Z"
+    "ultima_movimentacao_em": "2026-08-05T17:00:00.000Z",
+    "ultimo_hash_evento": "45b402b6ae9835eaba169616c863975a7985c2245ed57cb79656976847e15d10",
+    "atualizado_em": "2026-08-05T18:18:41.263Z"
   },
   "9715579": {
     "imo": "9715579",
@@ -13424,6 +13424,20 @@
     "ultima_movimentacao_em": "2026-07-20T10:00:00.000Z",
     "ultimo_hash_evento": "e4cbc7cf474a56595f106aab98da9ac96024af3cd0df7f360b0b08a7367d54f7",
     "atualizado_em": "2026-07-20T14:30:42.573Z"
+  },
+  "9926245": {
+    "imo": "9926245",
+    "navio": "GREENHOUSE",
+    "navio_normalizado": "GREENHOUSE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-05T17:00:00.000Z",
+    "ultimo_hash_evento": "bf2bb4c46c7d4d5a39d8566c7d529e81eb9a1a2950113e15a09403b5e63ea089",
+    "atualizado_em": "2026-08-05T18:18:41.263Z"
   },
   "9926398": {
     "imo": "9926398",
