@@ -88,14 +88,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-04T17:00:00.000Z",
-    "ultimo_hash_evento": "8599a132482a430641568ef45efa28835188aeec0482cb66ce9fdb26c10f623b",
-    "atualizado_em": "2026-08-04T17:40:45.666Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-04T23:00:00.000Z",
+    "ultimo_hash_evento": "6f5448d61354fde0d67fd397b79b7e0ffbb5c12639b5b3f495afad60703220da",
+    "atualizado_em": "2026-08-05T00:11:07.845Z"
   },
   "1020605": {
     "imo": "1020605",
@@ -4932,14 +4932,14 @@
     "navio": "GNL 1015",
     "navio_normalizado": "GNL 1015",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "COASTAL OFFSHORE LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-04T19:00:00.000Z",
-    "ultimo_hash_evento": "3f4bdab541ae680ff2e7ee2a442d0c941f8e983f24b8b2c67a654d4a71160959",
-    "atualizado_em": "2026-08-04T19:11:08.863Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-04T23:00:00.000Z",
+    "ultimo_hash_evento": "889016fbca7c508279d629d07a6a57084b9be288e1dbcafbd2c476dcb80c8fb8",
+    "atualizado_em": "2026-08-05T00:11:07.845Z"
   },
   "9468712": {
     "imo": "9468712",
@@ -5072,14 +5072,14 @@
     "navio": "CBO CAROLINA",
     "navio_normalizado": "CBO CAROLINA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-04T03:00:00.000Z",
-    "ultimo_hash_evento": "f496f44307c3a9d3aa11550b70c6e24f950ba6a798f380b01eef6952fcad7f11",
-    "atualizado_em": "2026-08-04T04:22:54.977Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-04T23:00:00.000Z",
+    "ultimo_hash_evento": "8303077ae7699e9c296adbfdba25496fb8234cb32eb1f9ee246683bcae288dcd",
+    "atualizado_em": "2026-08-05T00:11:07.845Z"
   },
   "9477402": {
     "imo": "9477402",
@@ -7068,6 +7068,20 @@
     "ultima_movimentacao_em": "2026-07-05T14:00:00.000Z",
     "ultimo_hash_evento": "2f41cd95086e936aebda458d1a333c8a4509b7937e32e04190b77a783fd21772",
     "atualizado_em": "2026-07-05T14:00:02.668Z"
+  },
+  "9602693": {
+    "imo": "9602693",
+    "navio": "AGIA PISTI",
+    "navio_normalizado": "AGIA PISTI",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F03 - Feiticeira",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-04T20:00:00.000Z",
+    "ultimo_hash_evento": "314633fdf520f72d5b2e09fb82f3af98fc9fb63d8bfa95d86dcbb1912048fa86",
+    "atualizado_em": "2026-08-05T00:11:07.845Z"
   },
   "9602875": {
     "imo": "9602875",
@@ -9117,15 +9131,15 @@
     "imo": "9687368",
     "navio": "BRAM BOA VISTA",
     "navio_normalizado": "BRAM BOA VISTA",
-    "porto_atual": "Rio de Janeiro",
+    "porto_atual": "Niterói",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "TPBR - BRASCO",
+    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-04T10:30:00.000Z",
-    "ultimo_hash_evento": "fb339b0626a811c652cc9c82b1a9cecdc8be6d874e3aab531d354dc8a39497f6",
-    "atualizado_em": "2026-08-04T11:50:21.673Z"
+    "ultima_movimentacao_em": "2026-08-04T23:00:00.000Z",
+    "ultimo_hash_evento": "7652cecf7e9a40ae0e6d02fbc22fa840192ee9b604df8b08fe7f9305ae71b6fe",
+    "atualizado_em": "2026-08-05T00:11:07.845Z"
   },
   "9687526": {
     "imo": "9687526",
