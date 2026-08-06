@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-06T09:29:26.748Z",
+  "updatedAt": "2026-08-06T11:42:02.732Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 23
+      "count": 29
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -121,16 +121,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "06/08/2026 06:30",
-      "imo": "1081831",
-      "navio": "KOTA ELOK",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "06/08/2026 07:00",
       "imo": "9710945",
       "navio": "SEACOR NILE (REB)",
@@ -141,17 +131,27 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "06/08/2026 08:00",
-      "imo": "9437385",
-      "navio": "LONCOMILLA",
+      "inicio": "06/08/2026 07:00",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
       "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
+      "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
-      "agente": "ZIM DO BRASIL LTDA"
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "06/08/2026 08:30",
+      "inicio": "06/08/2026 08:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/08/2026 08:00",
       "imo": "9362827",
       "navio": "INDUSTRIAL HOBART",
       "tipo": "ENTRADA",
@@ -182,12 +182,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "06/08/2026 12:00",
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/08/2026 12:00",
       "imo": "9926245",
       "navio": "GREENHOUSE",
       "tipo": "SAÍDA",
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "06/08/2026 13:00",
+      "imo": "9437385",
+      "navio": "LONCOMILLA",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -221,6 +241,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "06/08/2026 16:00",
+      "imo": "1081831",
+      "navio": "KOTA ELOK",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "06/08/2026 20:00",
       "imo": "9370070",
       "navio": "SIDDIS SAILOR (REB)",
@@ -250,6 +280,36 @@
       "agente": "SOLSTAD SHIPPING LTDA."
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/08/2026 07:00",
+      "imo": "9290543",
+      "navio": "MSC SUSANNA",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/08/2026 08:00",
+      "imo": "9422330",
+      "navio": "NORMAND POSEIDON (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "07/08/2026 22:30",
+      "imo": "9168867",
+      "navio": "MSC URSULA VI",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "06/08/2026 03:00",
       "imo": "9644160",
@@ -268,6 +328,16 @@
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "-",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "07/08/2026 06:00",
+      "imo": "9538086",
+      "navio": "OCEANICASUB XIX",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Itaguaí",
@@ -291,6 +361,16 @@
     },
     {
       "porto": "Itaguaí",
+      "inicio": "06/08/2026 11:00",
+      "imo": "9546904",
+      "navio": "NATTY",
+      "tipo": "SAÍDA",
+      "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
       "inicio": "06/08/2026 12:00",
       "imo": "9997945",
       "navio": "GREEN SEPETIBA",
@@ -302,16 +382,6 @@
     {
       "porto": "Itaguaí",
       "inicio": "06/08/2026 13:30",
-      "imo": "9546904",
-      "navio": "NATTY",
-      "tipo": "SAÍDA",
-      "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
-      "para": "-",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "06/08/2026 15:00",
       "imo": "9738789",
       "navio": "SANTA IRINI",
       "tipo": "MUDANÇA",
