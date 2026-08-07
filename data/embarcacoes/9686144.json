@@ -1,29 +1,36 @@
 {
   "imo": "9686144",
   "navio": "HOS REMINGTON",
-  "gerado_em": "2026-08-07T12:09:35.675Z",
+  "gerado_em": "2026-08-07T13:36:17.292Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-06T18:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-07T12:15:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
+    "manobras_30d": 2,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
     "entradas_30d": 0,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 1,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-05-25T15:30:00.000Z",
-    "ultima_saida": "2026-05-23T00:00:00.000Z",
+    "ultima_saida": "2026-08-07T12:15:00.000Z",
     "tempo_medio_estadia_horas": 71.5,
     "tempo_medio_fundeio_horas": 274.6
   },
   "historico_recente": [
+    {
+      "data": "2026-08-07T12:15:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-08-06T18:30:00.000Z",
       "tipo": "MUDANÇA",
