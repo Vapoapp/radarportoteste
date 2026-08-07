@@ -1,21 +1,21 @@
 {
   "imo": "9686144",
   "navio": "HOS REMINGTON",
-  "gerado_em": "2026-08-06T15:33:32.499Z",
+  "gerado_em": "2026-08-07T00:30:22.982Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": true,
     "local": "Fundeio - 2F06 - LARGO OESTE",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-06-10T08:45:00.000Z"
+    "ultima_movimentacao": "2026-08-06T18:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 1,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-05-25T15:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 274.6
   },
   "historico_recente": [
+    {
+      "data": "2026-08-06T18:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-06-10T08:45:00.000Z",
       "tipo": "MUDANÇA",
