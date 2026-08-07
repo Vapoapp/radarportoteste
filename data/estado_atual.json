@@ -89,13 +89,13 @@
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-04T23:00:00.000Z",
-    "ultimo_hash_evento": "6f5448d61354fde0d67fd397b79b7e0ffbb5c12639b5b3f495afad60703220da",
-    "atualizado_em": "2026-08-05T00:11:07.845Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-07T18:30:00.000Z",
+    "ultimo_hash_evento": "39f01d3eaebef53c1c36457ddccf0ea6d4cd92598942db0057b194095fb26bdf",
+    "atualizado_em": "2026-08-07T19:11:25.265Z"
   },
   "1020045": {
     "imo": "1020045",
@@ -8292,14 +8292,14 @@
     "navio": "ALCATRAZ",
     "navio_normalizado": "ALCATRAZ",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-04T08:00:00.000Z",
-    "ultimo_hash_evento": "337353abc135a7581c1a6aa72dfd6d03ed4a999093fecf958cae7fd9f5521c39",
-    "atualizado_em": "2026-08-04T09:46:26.275Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-07T19:00:00.000Z",
+    "ultimo_hash_evento": "ac9231c4f3434e4146ffb3b32d73b035b3dc3b486d037643d196a041d3babcae",
+    "atualizado_em": "2026-08-07T19:11:25.265Z"
   },
   "9644158": {
     "imo": "9644158",
@@ -10932,6 +10932,20 @@
     "ultima_movimentacao_em": "2026-06-14T03:30:00.000Z",
     "ultimo_hash_evento": "080917192ffc6030a5b49714b37c180bfa56351ebdebc2f019868e00363a3e91",
     "atualizado_em": "2026-06-14T05:02:17.414Z"
+  },
+  "9747950": {
+    "imo": "9747950",
+    "navio": "NAVIOS MARS",
+    "navio_normalizado": "NAVIOS MARS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-07T19:00:00.000Z",
+    "ultimo_hash_evento": "4f3dcce3a2f86b29c341172ab1cea17a6864e98a9d5fb0025d6611553bc54d71",
+    "atualizado_em": "2026-08-07T19:11:25.265Z"
   },
   "9748112": {
     "imo": "9748112",
