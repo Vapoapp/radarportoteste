@@ -1,21 +1,21 @@
 {
   "imo": "9641259",
   "navio": "MAR LIMPO IV",
-  "gerado_em": "2026-08-08T10:40:11.725Z",
+  "gerado_em": "2026-08-08T11:04:36.297Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-04-19T12:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-08T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 1,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-04-19T12:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-08-08T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-04-19T12:00:00.000Z",
       "tipo": "ENTRADA",
