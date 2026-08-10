@@ -2230,14 +2230,14 @@
     "navio": "XIN WEI HAI",
     "navio_normalizado": "XIN WEI HAI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-08T21:00:00.000Z",
-    "ultimo_hash_evento": "f86b30972aa915deab19e5cd48a9a3408ab2f60357dfecfadde495c8286c5b7c",
-    "atualizado_em": "2026-06-08T22:13:09.160Z"
+    "ultima_movimentacao_em": "2026-08-10T16:00:00.000Z",
+    "ultimo_hash_evento": "58835fa533f8d338c292963e8b30206d64617bf00eafbbbdc92aa1fcc3de139e",
+    "atualizado_em": "2026-08-10T17:30:40.164Z"
   },
   "9313931": {
     "imo": "9313931",
@@ -6257,6 +6257,20 @@
     "ultimo_hash_evento": "79379d56c6e0a56df1420196510677d7a4fc159d1554926d7b8a17fd5ad5bdd8",
     "atualizado_em": "2026-08-01T07:13:45.842Z"
   },
+  "9531868": {
+    "imo": "9531868",
+    "navio": "CAPE MIDORI",
+    "navio_normalizado": "CAPE MIDORI",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB3 - Área de Fundeio B3",
+    "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-10T17:00:00.000Z",
+    "ultimo_hash_evento": "dd5f0e39e6310469bd3977e5a371f28c43827dcbc0cc5915d547b68c4ab5cd99",
+    "atualizado_em": "2026-08-10T17:30:40.164Z"
+  },
   "9534432": {
     "imo": "9534432",
     "navio": "INDUSTRIAL MOMENTUM",
@@ -8363,13 +8377,13 @@
     "navio_normalizado": "ALCATRAZ",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-08T16:00:00.000Z",
-    "ultimo_hash_evento": "0ace8e904316e4b1c25ab854e14a920ff2cafa82090d6bb356a911bcf0791b69",
-    "atualizado_em": "2026-08-08T16:14:45.987Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-10T17:00:00.000Z",
+    "ultimo_hash_evento": "cfbf2deaff86af162d02513faa30a14bcb13c535b338236f7d3beb25b612ec06",
+    "atualizado_em": "2026-08-10T17:30:40.164Z"
   },
   "9644158": {
     "imo": "9644158",
@@ -8642,14 +8656,14 @@
     "navio": "SAPURA TOPAZIO",
     "navio_normalizado": "SAPURA TOPAZIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-16T17:00:00.000Z",
-    "ultimo_hash_evento": "add6a7e232f918edfe12031fcfe8384afd96a881a698ef6e9cdcd12df71d1d33",
-    "atualizado_em": "2026-06-16T17:26:06.177Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-10T17:30:00.000Z",
+    "ultimo_hash_evento": "1dcd3aedd083c75a1d1aa1bbb8b12f929b7a62f0a1ce11c1860315c34c33c1aa",
+    "atualizado_em": "2026-08-10T17:30:40.164Z"
   },
   "9656204": {
     "imo": "9656204",
@@ -8936,14 +8950,14 @@
     "navio": "STARNAV CENTAURUS",
     "navio_normalizado": "STARNAV CENTAURUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-09T05:00:00.000Z",
-    "ultimo_hash_evento": "88e1d7da838c49077750190865b8df1e18175d44575cf05c8db175419eaf0e0b",
-    "atualizado_em": "2026-08-09T05:47:07.426Z"
+    "ultima_movimentacao_em": "2026-08-10T17:00:00.000Z",
+    "ultimo_hash_evento": "f8847088cf085eb26563fc2e9e6fc009f1be182a1c46bf14de73c3943377831c",
+    "atualizado_em": "2026-08-10T17:30:40.164Z"
   },
   "9668752": {
     "imo": "9668752",
@@ -10252,14 +10266,14 @@
     "navio": "CBO OCEANA",
     "navio_normalizado": "CBO OCEANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-10T04:00:00.000Z",
-    "ultimo_hash_evento": "df203c9524c7b96bb097bf9c91fd0d470116c44b34a5780324de2d7264e27ca1",
-    "atualizado_em": "2026-08-10T09:17:19.006Z"
+    "ultima_movimentacao_em": "2026-08-10T17:00:00.000Z",
+    "ultimo_hash_evento": "beb60806ef10d7d20f2f19b4dfb6e2254ee615de0a220073a11626949a341d8a",
+    "atualizado_em": "2026-08-10T17:30:40.164Z"
   },
   "9715579": {
     "imo": "9715579",
