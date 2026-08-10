@@ -1,29 +1,36 @@
 {
   "imo": "9388584",
   "navio": "MAERSK TOPPER (REB)",
-  "gerado_em": "2026-08-10T12:25:27.104Z",
+  "gerado_em": "2026-08-10T13:53:17.534Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-07T12:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-10T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 21,
-    "manobras_365d": 21,
+    "manobras_30d": 8,
+    "manobras_180d": 22,
+    "manobras_365d": 22,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 1,
     "entradas_365d": 9,
-    "saidas_365d": 8,
+    "saidas_365d": 9,
     "ultima_entrada": "2026-08-07T12:00:00.000Z",
-    "ultima_saida": "2026-07-30T21:00:00.000Z",
-    "tempo_medio_estadia_horas": 130.8,
-    "tempo_medio_fundeio_horas": 46.9
+    "ultima_saida": "2026-08-10T12:00:00.000Z",
+    "tempo_medio_estadia_horas": 124.3,
+    "tempo_medio_fundeio_horas": 50.5
   },
   "historico_recente": [
+    {
+      "data": "2026-08-10T12:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "-"
+    },
     {
       "data": "2026-08-07T12:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-06-03T20:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
