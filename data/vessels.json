@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-10T13:53:17.534Z",
+  "updatedAt": "2026-08-10T14:49:36.759Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 34
+      "count": 36
     },
     "niteroi": {
       "ok": true,
-      "count": 5
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -172,22 +172,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 08:30",
-      "imo": "MILITAR",
-      "navio": "VITAL DE OLIVEIRA",
-      "tipo": "SAÍDA",
-      "de": "2N04 - Armazém 4",
-      "para": "-",
-      "agente": "MARINHA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/08/2026 08:30",
       "imo": "9799070",
       "navio": "STARNAV SCORPIUS",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2TS2 - Terminal Siderúrgico 2",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 08:30",
+      "imo": "MILITAR",
+      "navio": "VITAL DE OLIVEIRA",
+      "tipo": "SAÍDA",
+      "de": "2N04 - Armazém 4",
+      "para": "-",
+      "agente": "MARINHA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -221,6 +221,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 12:30",
+      "imo": "9339131",
+      "navio": "SKANDI BOTAFOGO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 13:00",
       "imo": "9506394",
       "navio": "LOG-IN DISCOVERY (REB S/L)",
@@ -238,6 +248,16 @@
       "de": "Fundeio - WPT 92 - AF Preferencial Gusa",
       "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 14:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -398,6 +418,16 @@
       "de": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "10/08/2026 12:30",
+      "imo": "9339131",
+      "navio": "SKANDI BOTAFOGO",
+      "tipo": "MUDANÇA",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Niterói",
