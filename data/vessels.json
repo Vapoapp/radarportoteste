@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-10T18:25:33.130Z",
+  "updatedAt": "2026-08-10T19:29:00.402Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 44
+      "count": 51
     },
     "niteroi": {
       "ok": true,
@@ -102,16 +102,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 07:00",
-      "imo": "9686144",
-      "navio": "HOS REMINGTON",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/08/2026 07:00",
       "imo": "9656187",
       "navio": "SAPURA DIAMANTE (BAND. GREYLIST PARIS MOU)",
       "tipo": "SAÍDA",
@@ -122,12 +112,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 07:00",
-      "imo": "9642590",
-      "navio": "PINGUIM",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
       "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -138,6 +128,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 07:00",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,6 +252,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 14:00",
+      "imo": "9715567",
+      "navio": "CBO OCEANA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 14:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "NIT - ATRACADO NITERÓI",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 14:00",
       "imo": "9644146",
       "navio": "ALCATRAZ",
       "tipo": "MUDANÇA",
@@ -268,26 +288,6 @@
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "-",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/08/2026 14:00",
-      "imo": "9668738",
-      "navio": "STARNAV CENTAURUS",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "NIT - ATRACADO NITERÓI",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/08/2026 14:00",
-      "imo": "9715567",
-      "navio": "CBO OCEANA",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,12 +312,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 15:00",
+      "imo": "9664299",
+      "navio": "BRAM BRASILIA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 15:00",
       "imo": "9975595",
       "navio": "MSC MARSEILLE",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 16:00",
+      "imo": "9283435",
+      "navio": "MARLIN COPACABANA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -331,13 +351,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "10/08/2026 16:00",
-      "imo": "9283435",
-      "navio": "MARLIN COPACABANA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "inicio": "10/08/2026 16:30",
+      "imo": "9703629",
+      "navio": "BRAM ATLAS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 16:30",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -352,12 +382,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 16:30",
-      "imo": "9703629",
-      "navio": "BRAM ATLAS",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 17:00",
+      "imo": "9618757",
+      "navio": "MAR LIMPO II",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -381,6 +421,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 18:00",
+      "imo": "9767833",
+      "navio": "CBO PARINTINS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 19:00",
       "imo": "9077082",
       "navio": "KITE ARROW",
@@ -391,6 +441,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 19:30",
+      "imo": "9656199",
+      "navio": "SAPURA TOPAZIO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/08/2026 20:00",
       "imo": "9644213",
       "navio": "BRAM BUZIOS",
@@ -398,6 +458,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/08/2026 21:30",
+      "imo": "9806495",
+      "navio": "STARNAV CIRCINUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
