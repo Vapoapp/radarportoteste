@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-11T14:34:36.070Z",
+  "updatedAt": "2026-08-11T15:31:59.880Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 46
+      "count": 47
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 6
+      "count": 5
     },
     "angra": {
       "ok": true,
@@ -242,22 +242,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "11/08/2026 08:00",
-      "imo": "9694531",
-      "navio": "STEPHANIE C",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "11/08/2026 08:00",
       "imo": "9645542",
       "navio": "MANDRIÃO (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "11/08/2026 08:00",
+      "imo": "9694531",
+      "navio": "STEPHANIE C",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -471,6 +471,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 11:00",
+      "imo": "9660011",
+      "navio": "YM MOVEMENT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 19:00",
       "imo": "9453365",
       "navio": "SPYROS V",
@@ -551,7 +561,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "11/08/2026 14:30",
+      "inicio": "11/08/2026 16:00",
       "imo": "9439644",
       "navio": "YASA SPRING",
       "tipo": "MUDANÇA",
@@ -561,7 +571,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "11/08/2026 14:30",
+      "inicio": "11/08/2026 16:00",
       "imo": "9783318",
       "navio": "FOMENTO THREE",
       "tipo": "MUDANÇA",
@@ -578,16 +588,6 @@
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "11/08/2026 19:30",
-      "imo": "9750048",
-      "navio": "EL MATADOR",
-      "tipo": "SAÍDA",
-      "de": "301 - TECON - SEPETIBA TECON S.A.",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA."
     }
   ]
 }
