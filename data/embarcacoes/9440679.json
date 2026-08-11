@@ -1,21 +1,21 @@
 {
   "imo": "9440679",
   "navio": "PETREL",
-  "gerado_em": "2026-08-11T11:20:37.931Z",
+  "gerado_em": "2026-08-11T12:02:15.056Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-10T08:00:00.000Z"
+    "porto": "Rio de Janeiro",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-11T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 27,
-    "manobras_365d": 27,
+    "manobras_30d": 8,
+    "manobras_180d": 28,
+    "manobras_365d": 28,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 8,
     "saidas_365d": 7,
     "ultima_entrada": "2026-08-10T08:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 15.4
   },
   "historico_recente": [
+    {
+      "data": "2026-08-11T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-08-10T08:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-06-23T16:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
