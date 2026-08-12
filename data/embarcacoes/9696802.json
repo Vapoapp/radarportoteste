@@ -1,21 +1,21 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-08-12T21:10:34.348Z",
+  "gerado_em": "2026-08-12T22:01:03.929Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-12T13:00:00.000Z"
+    "ultima_movimentacao": "2026-08-12T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 80,
-    "manobras_365d": 80,
+    "manobras_30d": 19,
+    "manobras_180d": 81,
+    "manobras_365d": 81,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 13,
+    "mudancas_30d": 14,
     "entradas_365d": 14,
     "saidas_365d": 13,
     "ultima_entrada": "2026-08-11T17:40:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 20.5
   },
   "historico_recente": [
+    {
+      "data": "2026-08-12T22:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-12T13:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-07-21T03:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
