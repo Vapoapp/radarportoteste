@@ -1,21 +1,21 @@
 {
   "imo": "9329942",
   "navio": "MESTRE DOS MARES (REB)",
-  "gerado_em": "2026-08-12T13:55:53.576Z",
+  "gerado_em": "2026-08-12T14:53:52.830Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "2P14 - Terminal Petrobrás (Armazém 14)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-06T08:00:00.000Z"
+    "ultima_movimentacao": "2026-08-12T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 54,
-    "manobras_365d": 54,
+    "manobras_30d": 13,
+    "manobras_180d": 55,
+    "manobras_365d": 55,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 16,
     "saidas_365d": 16,
     "ultima_entrada": "2026-08-02T15:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 27.1
   },
   "historico_recente": [
+    {
+      "data": "2026-08-12T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "2P14 - Terminal Petrobrás (Armazém 14)"
+    },
     {
       "data": "2026-08-06T08:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-07-17T07:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
