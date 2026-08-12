@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-12T16:42:16.717Z",
+  "updatedAt": "2026-08-12T17:42:31.907Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 32
+      "count": 36
     },
     "niteroi": {
       "ok": true,
-      "count": 7
+      "count": 8
     },
     "itaguai": {
       "ok": true,
@@ -52,12 +52,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 06:00",
-      "imo": "9710945",
-      "navio": "SEACOR NILE (REB)",
+      "imo": "9181467",
+      "navio": "ARTEMIS ANGLER",
       "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -72,22 +72,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 06:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 06:00",
       "imo": "9944417",
       "navio": "BRAM SPIRIT",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPBR - BRASCO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 06:00",
-      "imo": "9181467",
-      "navio": "ARTEMIS ANGLER",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -182,22 +182,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 10:00",
-      "imo": "9477402",
-      "navio": "CBO ANITA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBR - BRASCO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 10:00",
       "imo": "9692210",
       "navio": "SEVEN MERLIN",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 10:00",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,16 +252,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 13:00",
-      "imo": "9435478",
-      "navio": "AKER WAYFARER (REB)",
-      "tipo": "SAÍDA",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 13:00",
       "imo": "9329942",
       "navio": "MESTRE DOS MARES (REB)",
       "tipo": "MUDANÇA",
@@ -271,13 +261,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 16:00",
-      "imo": "9814961",
-      "navio": "SEALOADER 1",
+      "inicio": "12/08/2026 13:00",
+      "imo": "9435478",
+      "navio": "AKER WAYFARER (REB)",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
+      "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "-",
-      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 13:30",
+      "imo": "9385257",
+      "navio": "HOS MAVERICK",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 15:00",
+      "imo": "9368194",
+      "navio": "KAMILLA KOSAN",
+      "tipo": "SAÍDA",
+      "de": "TPIR - ILHA REDONDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,6 +321,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 18:00",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 19:00",
+      "imo": "9814961",
+      "navio": "SEALOADER 1",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 23:00",
+      "imo": "9453846",
+      "navio": "ANDRÉ REBOUÇAS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 07:00",
       "imo": "9605279",
       "navio": "MSC AMALFI",
@@ -331,13 +371,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 11:00",
-      "imo": "9660011",
-      "navio": "YM MOVEMENT",
+      "inicio": "13/08/2026 14:00",
+      "imo": "9453365",
+      "navio": "SPYROS V",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C22 - TECON 2 - MRIO",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Niterói",
@@ -388,6 +428,16 @@
       "de": "TPMJ - Estaleiro Mauá",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "12/08/2026 13:00",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
+      "tipo": "MUDANÇA",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Niterói",
