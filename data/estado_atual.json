@@ -999,13 +999,13 @@
     "navio_normalizado": "ARTEMIS ANGLER",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "NIT - ATRACADO NITERÓI",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS2 - Terminal Siderúrgico 2",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-06T20:00:00.000Z",
-    "ultimo_hash_evento": "126796dd223464bfb31b2f4e61b3e8cd1f6b00620c103312b8363f106f9b35dd",
-    "atualizado_em": "2026-08-07T00:30:22.982Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-12T09:00:00.000Z",
+    "ultimo_hash_evento": "dc3118546807432702824383a617dfb627de9c722ccb193f6f241cb21894c834",
+    "atualizado_em": "2026-08-12T09:45:43.069Z"
   },
   "9186209": {
     "imo": "9186209",
@@ -5492,14 +5492,14 @@
     "navio": "MADRE DE DEUS",
     "navio_normalizado": "MADRE DE DEUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPP2 - PETROBRAS PP2",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPP2 - PETROBRAS PP2",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-10T08:30:00.000Z",
-    "ultimo_hash_evento": "ed178bcbd7d5899316c431133fe2e786b348c20552bcbce2a3d08c5bbabff735",
-    "atualizado_em": "2026-08-10T09:17:19.006Z"
+    "ultima_movimentacao_em": "2026-08-12T09:30:00.000Z",
+    "ultimo_hash_evento": "ab9ee2d308eeb0580dba352bdf4ba8b368bff3d4f071708c5090efd9a4f23d26",
+    "atualizado_em": "2026-08-12T09:45:43.069Z"
   },
   "9492062": {
     "imo": "9492062",
@@ -9006,14 +9006,14 @@
     "navio": "STARNAV REGULUS",
     "navio_normalizado": "STARNAV REGULUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-06T00:00:00.000Z",
-    "ultimo_hash_evento": "41aec8c452ed671c9f95c7c6f130353dcf1cab8b7c274b5ac5ea8ac748d27f86",
-    "atualizado_em": "2026-08-06T00:54:32.672Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-12T09:00:00.000Z",
+    "ultimo_hash_evento": "b3fd9f7576b36e262252ab4d493d2590cca90a5b841817a5def6c435cdf5bb8e",
+    "atualizado_em": "2026-08-12T09:45:43.069Z"
   },
   "9670262": {
     "imo": "9670262",
@@ -9679,13 +9679,13 @@
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Niterói",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "ESMC - MacLaren Ponta da Areia",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-12T03:00:00.000Z",
-    "ultimo_hash_evento": "c09a4da5b174dceff3812e7343e2ac33988b2aff00d1eb94bdb6a579d0cd7e71",
-    "atualizado_em": "2026-08-12T04:27:05.151Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-12T09:00:00.000Z",
+    "ultimo_hash_evento": "9ebb275e063072e1335eed3d1309d26a1fd55774e10046e8052e0ad541e60f81",
+    "atualizado_em": "2026-08-12T09:45:43.069Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -10778,6 +10778,20 @@
     "ultima_movimentacao_em": "2026-04-30T15:00:00.000Z",
     "ultimo_hash_evento": "b37baa42fd441c0b2bbb592094bd9947b8e5266c5699faf52352611b437de859",
     "atualizado_em": "2026-04-30T15:09:46.825Z"
+  },
+  "9731781": {
+    "imo": "9731781",
+    "navio": "CHEM SAIPH",
+    "navio_normalizado": "CHEM SAIPH",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPT - NEOLUBES",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-12T09:00:00.000Z",
+    "ultimo_hash_evento": "9da35b9f75cf1572de882a23b0e32b116ae812d7df40e52b9c03df62d8a712f4",
+    "atualizado_em": "2026-08-12T09:45:43.069Z"
   },
   "9731913": {
     "imo": "9731913",
@@ -14074,14 +14088,14 @@
     "navio": "BRAM SPIRIT",
     "navio_normalizado": "BRAM SPIRIT",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-30T05:00:00.000Z",
-    "ultimo_hash_evento": "5ab8f144b07b57808ba492f905be7c3d12e9fe88475417c707a98d3043e3a4fb",
-    "atualizado_em": "2026-07-30T06:08:14.293Z"
+    "ultima_movimentacao_em": "2026-08-12T09:00:00.000Z",
+    "ultimo_hash_evento": "a3f6e7d28526da77f4a08ab4233cb4f250d51e889dd36a9e1f44f6693336e01b",
+    "atualizado_em": "2026-08-12T09:45:43.069Z"
   },
   "9945655": {
     "imo": "9945655",
