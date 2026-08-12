@@ -1,29 +1,43 @@
 {
   "imo": "9710945",
   "navio": "SEACOR NILE (REB)",
-  "gerado_em": "2026-08-12T10:43:51.518Z",
+  "gerado_em": "2026-08-12T11:31:36.915Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-11T10:30:00.000Z"
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-12T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 39,
-    "manobras_365d": 39,
+    "manobras_30d": 9,
+    "manobras_180d": 41,
+    "manobras_365d": 41,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 1,
+    "mudancas_30d": 3,
     "entradas_365d": 12,
     "saidas_365d": 13,
     "ultima_entrada": "2026-08-11T10:30:00.000Z",
     "ultima_saida": "2026-08-06T15:00:00.000Z",
     "tempo_medio_estadia_horas": 78.9,
-    "tempo_medio_fundeio_horas": 56.1
+    "tempo_medio_fundeio_horas": 52.8
   },
   "historico_recente": [
+    {
+      "data": "2026-08-12T09:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
+    {
+      "data": "2026-08-12T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-08-11T10:30:00.000Z",
       "tipo": "ENTRADA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-06-12T20:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "ESMA - ESTALEIRO MAUÁ",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-05-29T19:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }

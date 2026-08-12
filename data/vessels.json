@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-12T10:43:51.518Z",
+  "updatedAt": "2026-08-12T11:31:36.915Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 16
+      "count": 20
     },
     "niteroi": {
       "ok": true,
@@ -19,6 +19,16 @@
     }
   },
   "vessels": [
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 00:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 05:00",
@@ -62,6 +72,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 06:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 06:00",
       "imo": "9731781",
       "navio": "CHEM SAIPH",
       "tipo": "ENTRADA",
@@ -101,12 +121,12 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 07:30",
+      "inicio": "12/08/2026 08:00",
       "imo": "9329942",
       "navio": "MESTRE DOS MARES (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
@@ -128,6 +148,26 @@
       "de": "2N02 - TERMINAL DE PASSAGEIROS 1",
       "para": "-",
       "agente": "MARINHA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 09:00",
+      "imo": "9565651",
+      "navio": "CBO ALESSANDRA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 10:00",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -231,7 +271,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "12/08/2026 11:00",
+      "inicio": "12/08/2026 13:00",
       "imo": "9750048",
       "navio": "EL MATADOR",
       "tipo": "SAÍDA",
