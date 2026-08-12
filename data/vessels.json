@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-12T12:26:35.671Z",
+  "updatedAt": "2026-08-12T13:55:53.576Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 22
+      "count": 27
     },
     "niteroi": {
       "ok": true,
@@ -31,6 +31,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 02:30",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 05:00",
       "imo": "9362827",
       "navio": "INDUSTRIAL HOBART",
@@ -38,16 +48,6 @@
       "de": "2N06 - Armazém 7",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "ALL FLAGS AGENCIAMENTO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 05:30",
-      "imo": "9339131",
-      "navio": "SKANDI BOTAFOGO",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -98,6 +98,16 @@
       "de": "TPP2 - PETROBRAS PP2",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 07:00",
+      "imo": "9339131",
+      "navio": "SKANDI BOTAFOGO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N11 - Armazém 13",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -191,6 +201,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 10:24",
+      "imo": "9318412",
+      "navio": "CBO GUANABARA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 11:00",
       "imo": "9329942",
       "navio": "MESTRE DOS MARES (REB)",
@@ -201,6 +221,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 12:00",
+      "imo": "9283966",
+      "navio": "BBC WISCONSIN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N08 - Pátio 9",
+      "agente": "OCEAN WORLD SHIPPING AG. MAR. E OP. PORTUÁRIA LTDA-EPP"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 12:30",
       "imo": "9630420",
       "navio": "XIAMEN EXPRESS",
@@ -208,6 +238,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 13:00",
+      "imo": "9435478",
+      "navio": "AKER WAYFARER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -231,13 +271,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 19:00",
-      "imo": "9453365",
-      "navio": "SPYROS V",
+      "inicio": "13/08/2026 07:00",
+      "imo": "9605279",
+      "navio": "MSC AMALFI",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 11:00",
+      "imo": "9660011",
+      "navio": "YM MOVEMENT",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "ZIM DO BRASIL LTDA"
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Niterói",
@@ -251,7 +301,7 @@
     },
     {
       "porto": "Niterói",
-      "inicio": "12/08/2026 06:00",
+      "inicio": "12/08/2026 10:00",
       "imo": "9696802",
       "navio": "STARNAV AQUARIUS (REB)",
       "tipo": "MUDANÇA",
