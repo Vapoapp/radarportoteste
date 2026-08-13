@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-13T18:27:20.673Z",
+  "updatedAt": "2026-08-13T19:34:19.233Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 53
+      "count": 62
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 5
     },
     "itaguai": {
       "ok": true,
@@ -112,6 +112,26 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 07:00",
+      "imo": "9510307",
+      "navio": "Siem Pilot",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N06 - Armazém 7",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 07:00",
+      "imo": "9623025",
+      "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "PATRIA NAVAL OPERACOES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 07:00",
       "imo": "9627631",
       "navio": "CBO IPANEMA",
       "tipo": "ENTRADA",
@@ -131,23 +151,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 07:00",
-      "imo": "9510307",
-      "navio": "Siem Pilot",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N06 - Armazém 7",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+      "inicio": "13/08/2026 08:00",
+      "imo": "9645542",
+      "navio": "MANDRIÃO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "TPBR - BRASCO",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 07:00",
-      "imo": "9623025",
-      "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "PATRIA NAVAL OPERACOES LTDA"
+      "inicio": "13/08/2026 08:00",
+      "imo": "9454008",
+      "navio": "CBO ISABELLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -168,26 +188,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 08:00",
-      "imo": "9454008",
-      "navio": "CBO ISABELLA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 08:00",
-      "imo": "9645542",
-      "navio": "MANDRIÃO (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "TPBR - BRASCO",
-      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -212,22 +212,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 10:00",
-      "imo": "1060514",
-      "navio": "BBC VAASA",
-      "tipo": "SAÍDA",
-      "de": "2N08 - Pátio 9",
-      "para": "-",
-      "agente": "BRAZILIAN PORT AGENTS"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 10:00",
       "imo": "9578892",
       "navio": "CBO COPACABANA",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 10:00",
+      "imo": "1060514",
+      "navio": "BBC VAASA",
+      "tipo": "SAÍDA",
+      "de": "2N08 - Pátio 9",
+      "para": "-",
+      "agente": "BRAZILIAN PORT AGENTS"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,16 +252,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 11:00",
-      "imo": "9710945",
-      "navio": "SEACOR NILE (REB)",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 11:00",
       "imo": "9165970",
       "navio": "MARLIN STOLMEN (REB)",
       "tipo": "SAÍDA",
@@ -271,13 +261,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 12:00",
-      "imo": "9453846",
-      "navio": "ANDRÉ REBOUÇAS",
+      "inicio": "13/08/2026 11:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
       "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 64 - 2F6A",
+      "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -288,6 +278,16 @@
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 12:00",
+      "imo": "9453846",
+      "navio": "ANDRÉ REBOUÇAS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -382,6 +382,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 15:00",
+      "imo": "9944417",
+      "navio": "BRAM SPIRIT",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 15:00",
       "imo": "9698719",
       "navio": "BRAM BREEZE",
       "tipo": "SAÍDA",
@@ -392,22 +402,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 15:00",
-      "imo": "9510307",
-      "navio": "Siem Pilot",
-      "tipo": "SAÍDA",
-      "de": "2N06 - Armazém 7",
-      "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/08/2026 15:00",
       "imo": "9453638",
       "navio": "MARLIN",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPS2 - PETROBRAS PS2",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 15:00",
+      "imo": "9510307",
+      "navio": "Siem Pilot",
+      "tipo": "SAÍDA",
+      "de": "2N06 - Armazém 7",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -452,12 +462,42 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 18:00",
+      "imo": "9944417",
+      "navio": "BRAM SPIRIT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 18:00",
       "imo": "9845180",
       "navio": "FPMC 36",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPS1 - PETROBRAS PS1",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 21:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 23:00",
+      "imo": "9385271",
+      "navio": "HOS TAURUS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -512,12 +552,52 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 09:00",
+      "imo": "3813884350",
+      "navio": "C RIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESCM - ESTALEIRO CAMORIM",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 09:00",
       "imo": "9575620",
       "navio": "TANTALUS TIDE",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 10:00",
+      "imo": "9368895",
+      "navio": "VIKING BRASILIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - Terminal - MCAR 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 12:00",
+      "imo": "9690884",
+      "navio": "AFRICAN CROW",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 14:00",
+      "imo": "9605279",
+      "navio": "MSC AMALFI",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -548,6 +628,16 @@
       "de": "2C22 - TECON 2 - MRIO",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 19:00",
+      "imo": "9448578",
+      "navio": "JOKER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Niterói",
@@ -588,6 +678,16 @@
       "de": "ESMA - ESTALEIRO MAUÁ",
       "para": "-",
       "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "13/08/2026 18:00",
+      "imo": "3840167159",
+      "navio": "OCEAN ROUTE",
+      "tipo": "SAÍDA",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
       "porto": "Itaguaí",
