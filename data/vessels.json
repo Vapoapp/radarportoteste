@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-13T00:07:20.648Z",
+  "updatedAt": "2026-08-13T02:42:53.107Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 56
+      "count": 59
     },
     "niteroi": {
       "ok": true,
-      "count": 10
+      "count": 12
     },
     "itaguai": {
       "ok": true,
@@ -62,12 +62,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 06:00",
-      "imo": "9181467",
-      "navio": "ARTEMIS ANGLER",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "imo": "9944417",
+      "navio": "BRAM SPIRIT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -92,12 +92,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 06:00",
-      "imo": "9944417",
-      "navio": "BRAM SPIRIT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBR - BRASCO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9181467",
+      "navio": "ARTEMIS ANGLER",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -142,22 +142,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 08:00",
-      "imo": "9644213",
-      "navio": "BRAM BUZIOS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 08:00",
       "imo": "9329942",
       "navio": "MESTRE DOS MARES (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 08:00",
+      "imo": "9644213",
+      "navio": "BRAM BUZIOS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -232,12 +232,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 12:00",
-      "imo": "9283966",
-      "navio": "BBC WISCONSIN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N08 - Pátio 9",
-      "agente": "OCEAN WORLD SHIPPING AG. MAR. E OP. PORTUÁRIA LTDA-EPP"
+      "imo": "9806483",
+      "navio": "STARNAV LIBRA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,12 +252,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 12:00",
-      "imo": "9806483",
-      "navio": "STARNAV LIBRA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "9283966",
+      "navio": "BBC WISCONSIN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N08 - Pátio 9",
+      "agente": "OCEAN WORLD SHIPPING AG. MAR. E OP. PORTUÁRIA LTDA-EPP"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,6 +312,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 16:00",
+      "imo": "3810289680",
+      "navio": "BS-8",
+      "tipo": "MUDANÇA",
+      "de": "2N08 - Pátio 9",
+      "para": "2N17 - Armazém 17",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 16:00",
       "imo": "9645542",
       "navio": "MANDRIÃO (REB)",
       "tipo": "MUDANÇA",
@@ -348,16 +358,6 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 18:00",
-      "imo": "9702883",
-      "navio": "CBO WISER (REB)",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -412,16 +412,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/08/2026 20:00",
-      "imo": "9492270",
-      "navio": "ANITA GARIBALDI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - WPT 62 - 2F6A",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/08/2026 20:00",
       "imo": "9423190",
       "navio": "DEBORAH KAY",
       "tipo": "SAÍDA",
@@ -438,6 +428,16 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/08/2026 20:00",
+      "imo": "9492270",
+      "navio": "ANITA GARIBALDI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 62 - 2F6A",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -471,6 +471,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 04:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 06:30",
       "imo": "9630420",
       "navio": "XIAMEN EXPRESS",
@@ -478,6 +488,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 07:00",
+      "imo": "9510307",
+      "navio": "Siem Pilot",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N06 - Armazém 7",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -492,12 +512,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 08:00",
-      "imo": "9453846",
-      "navio": "ANDRÉ REBOUÇAS",
+      "imo": "9165970",
+      "navio": "MARLIN STOLMEN (REB)",
       "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 64 - 2F6A",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -508,6 +528,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 08:00",
+      "imo": "9453846",
+      "navio": "ANDRÉ REBOUÇAS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -601,6 +631,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "12/08/2026 06:00",
+      "imo": "9417359",
+      "navio": "SKANDI OLYMPIA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "12/08/2026 10:00",
       "imo": "9696802",
       "navio": "STARNAV AQUARIUS (REB)",
@@ -658,6 +698,16 @@
       "de": "ESMC - MacLaren Ponta da Areia",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "12/08/2026 20:00",
+      "imo": "9417359",
+      "navio": "SKANDI OLYMPIA (REB)",
+      "tipo": "SAÍDA",
+      "de": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Niterói",
