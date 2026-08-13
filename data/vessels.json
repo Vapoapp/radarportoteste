@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-13T07:45:25.228Z",
+  "updatedAt": "2026-08-13T08:55:24.806Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 26
+      "count": 30
     },
     "niteroi": {
       "ok": true,
@@ -72,12 +72,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 04:00",
+      "imo": "9423190",
+      "navio": "DEBORAH KAY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 04:00",
       "imo": "9710945",
       "navio": "SEACOR NILE (REB)",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2TS1 - Terminal Siderúrgico",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 05:20",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -152,12 +172,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/08/2026 08:00",
-      "imo": "9453846",
-      "navio": "ANDRÉ REBOUÇAS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 64 - 2F6A",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9454008",
+      "navio": "CBO ISABELLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -178,6 +198,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBR - BRASCO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 08:00",
+      "imo": "9453846",
+      "navio": "ANDRÉ REBOUÇAS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -218,6 +248,16 @@
       "de": "TPPT - NEOLUBES",
       "para": "Fundeio - WPT 64 - 2F6A",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/08/2026 10:00",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
