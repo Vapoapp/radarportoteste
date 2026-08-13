@@ -1,7 +1,7 @@
 {
   "imo": "3840167159",
   "navio": "OCEAN ROUTE",
-  "gerado_em": "2026-08-13T21:53:09.108Z",
+  "gerado_em": "2026-08-13T22:30:10.782Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
@@ -10,17 +10,17 @@
     "ultima_movimentacao": "2026-08-13T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
-    "entradas_30d": 1,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 1,
+    "entradas_365d": 2,
     "saidas_365d": 1,
-    "ultima_entrada": "2026-07-27T09:00:00.000Z",
+    "ultima_entrada": "2026-08-13T09:00:00.000Z",
     "ultima_saida": "2026-08-13T21:00:00.000Z",
-    "tempo_medio_estadia_horas": 420,
+    "tempo_medio_estadia_horas": 12,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
@@ -30,6 +30,13 @@
       "porto": "Niterói",
       "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "-"
+    },
+    {
+      "data": "2026-08-13T09:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     },
     {
       "data": "2026-07-27T09:00:00.000Z",
