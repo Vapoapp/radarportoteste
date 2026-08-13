@@ -1,29 +1,36 @@
 {
   "imo": "9188130",
   "navio": "BRAM NATAL (REB)",
-  "gerado_em": "2026-08-13T09:59:29.521Z",
+  "gerado_em": "2026-08-13T11:04:16.918Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-11T09:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-13T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 38,
-    "manobras_365d": 38,
+    "manobras_30d": 7,
+    "manobras_180d": 39,
+    "manobras_365d": 39,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 12,
     "saidas_365d": 11,
     "ultima_entrada": "2026-08-11T09:00:00.000Z",
     "ultima_saida": "2026-08-06T12:40:00.000Z",
     "tempo_medio_estadia_horas": 124.7,
-    "tempo_medio_fundeio_horas": 48.8
+    "tempo_medio_fundeio_horas": 48.9
   },
   "historico_recente": [
+    {
+      "data": "2026-08-13T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-08-11T09:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "TPBR - BRASCO"
-    },
-    {
-      "data": "2026-06-30T14:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "-"
     }
   ]
 }
