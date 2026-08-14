@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-14T12:05:35.891Z",
+  "updatedAt": "2026-08-14T13:34:57.271Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 36
+      "count": 37
     },
     "niteroi": {
       "ok": true,
@@ -21,13 +21,23 @@
   "vessels": [
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 00:30",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 01:00",
-      "imo": "9440681",
-      "navio": "SKUA",
+      "imo": "9440679",
+      "navio": "PETREL",
       "tipo": "SAÍDA",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -48,6 +58,16 @@
       "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 04:00",
+      "imo": "9659567",
+      "navio": "BARU ÁTRIA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -92,16 +112,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 06:00",
-      "imo": "9188130",
-      "navio": "BRAM NATAL (REB)",
-      "tipo": "MUDANÇA",
-      "de": "ESPR - MacLaren Ilha da Conceição",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 06:00",
       "imo": "9239446",
       "navio": "SKANDI CARLA",
       "tipo": "ENTRADA",
@@ -111,23 +121,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 07:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
+      "inicio": "14/08/2026 06:00",
+      "imo": "9188130",
+      "navio": "BRAM NATAL (REB)",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 07:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -148,6 +148,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "PATRIA NAVAL OPERACOES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 07:00",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -201,16 +211,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 09:00",
-      "imo": "9426972",
-      "navio": "CBO BIANCA",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 10:00",
       "imo": "9368895",
       "navio": "VIKING BRASILIA",
@@ -256,7 +256,7 @@
       "navio": "AFRICAN CROW",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
+      "para": "Fundeio - 2F03 - Feiticeira",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
@@ -272,16 +272,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 14:00",
-      "imo": "9605279",
-      "navio": "MSC AMALFI",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 14:00",
       "imo": "9329942",
       "navio": "MESTRE DOS MARES (REB)",
       "tipo": "MUDANÇA",
@@ -292,6 +282,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 14:00",
+      "imo": "9605279",
+      "navio": "MSC AMALFI",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 15:00",
       "imo": "9996680",
       "navio": "CMA CGM COBALT",
       "tipo": "SAÍDA",
@@ -311,26 +311,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 17:00",
-      "imo": "9660011",
-      "navio": "YM MOVEMENT",
-      "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 19:00",
-      "imo": "9448578",
-      "navio": "JOKER",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N07 - Pátio 8/9",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 20:30",
       "imo": "9453365",
       "navio": "SPYROS V",
@@ -338,6 +318,16 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 21:30",
+      "imo": "9448578",
+      "navio": "JOKER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -361,6 +351,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 07:00",
+      "imo": "9660011",
+      "navio": "YM MOVEMENT",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/08/2026 09:00",
       "imo": "9453365",
       "navio": "SPYROS V",
@@ -378,6 +378,16 @@
       "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 22:00",
+      "imo": "9360764",
+      "navio": "MSC BASEL V",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Niterói",
@@ -411,7 +421,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "14/08/2026 16:00",
+      "inicio": "14/08/2026 15:00",
       "imo": "9851282",
       "navio": "BERGE DACHSTEIN",
       "tipo": "SAÍDA",
@@ -441,7 +451,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "14/08/2026 19:00",
+      "inicio": "14/08/2026 19:30",
       "imo": "9420588",
       "navio": "HEBEI POWER",
       "tipo": "ENTRADA",
