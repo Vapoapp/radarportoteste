@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T17:11:59.448Z",
+  "updatedAt": "2026-08-14T18:06:09.765Z",
   "portos": {
     "rio": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 5
+      "count": 12
     },
     "angra": {
       "ok": true,
@@ -341,6 +341,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 14:30",
+      "imo": "9595462",
+      "navio": "EVER LEADING",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 16:00",
       "imo": "9426972",
       "navio": "CBO BIANCA",
@@ -348,16 +358,6 @@
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 16:00",
-      "imo": "9595462",
-      "navio": "EVER LEADING",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -391,6 +391,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 18:30",
+      "imo": "9360764",
+      "navio": "MSC BASEL V",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 21:00",
       "imo": "9663776",
       "navio": "BABITONGA BAY",
@@ -408,16 +418,6 @@
       "de": "-",
       "para": "2N07 - Pátio 8/9",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 22:00",
-      "imo": "9360764",
-      "navio": "MSC BASEL V",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -548,6 +548,76 @@
       "de": "-",
       "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/08/2026 01:00",
+      "imo": "9603219",
+      "navio": "PEDRO ÁLVARES CABRAL",
+      "tipo": "SAÍDA",
+      "de": "303 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/08/2026 03:30",
+      "imo": "9681534",
+      "navio": "UAL COLOGNE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "303 - TECON - SEPETIBA TECON S.A.",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/08/2026 07:00",
+      "imo": "9928877",
+      "navio": "COSCO SHIPPING SINCERE",
+      "tipo": "SAÍDA",
+      "de": "302 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/08/2026 09:30",
+      "imo": "9928891",
+      "navio": "COSCO SHIPPING FOUNTAIN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "302 - TECON - SEPETIBA TECON S.A.",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/08/2026 14:30",
+      "imo": "9585596",
+      "navio": "VALENTINE",
+      "tipo": "SAÍDA",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-",
+      "agente": "SANT SHIPPING AGENCY LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/08/2026 17:30",
+      "imo": "9641900",
+      "navio": "MOUNT LOGAN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "15/08/2026 19:00",
+      "imo": "1020045",
+      "navio": "UM KANDA",
+      "tipo": "SAÍDA",
+      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "para": "-",
+      "agente": "GEM SHIPPING LTDA"
     }
   ]
 }
