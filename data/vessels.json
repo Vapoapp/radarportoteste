@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-14T20:22:44.854Z",
+  "updatedAt": "2026-08-14T20:51:48.135Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 52
+      "count": 54
     },
     "niteroi": {
       "ok": true,
@@ -132,12 +132,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 07:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
-      "tipo": "MUDANÇA",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "para": "-",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -152,12 +152,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 07:00",
-      "imo": "9292072",
-      "navio": "ILHA DO CABO FRIO",
-      "tipo": "SAÍDA",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+      "para": "TPBR - BRASCO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -262,16 +262,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 12:00",
-      "imo": "9690884",
-      "navio": "AFRICAN CROW",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F03 - Feiticeira",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 12:00",
       "imo": "9362827",
       "navio": "INDUSTRIAL HOBART",
       "tipo": "SAÍDA",
@@ -281,13 +271,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 13:00",
-      "imo": "9476915",
-      "navio": "BUSHBUCK (REB)",
-      "tipo": "SAÍDA",
-      "de": "TPBR - BRASCO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "inicio": "14/08/2026 12:00",
+      "imo": "9690884",
+      "navio": "AFRICAN CROW",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F03 - Feiticeira",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -298,6 +288,16 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 13:00",
+      "imo": "9476915",
+      "navio": "BUSHBUCK (REB)",
+      "tipo": "SAÍDA",
+      "de": "TPBR - BRASCO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -401,6 +401,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 17:30",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 18:30",
       "imo": "9360764",
       "navio": "MSC BASEL V",
@@ -458,6 +468,16 @@
       "de": "Fundeio - 2F01 - Visita",
       "para": "-",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 22:00",
+      "imo": "9424986",
+      "navio": "SAVEIROS ATOBÁ",
+      "tipo": "SAÍDA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
