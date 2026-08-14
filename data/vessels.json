@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-14T16:13:12.109Z",
+  "updatedAt": "2026-08-14T17:11:59.448Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 43
+      "count": 47
     },
     "niteroi": {
       "ok": true,
@@ -112,16 +112,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 06:00",
-      "imo": "9239446",
-      "navio": "SKANDI CARLA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 06:00",
       "imo": "9188130",
       "navio": "BRAM NATAL (REB)",
       "tipo": "MUDANÇA",
@@ -131,13 +121,23 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 06:00",
+      "imo": "9239446",
+      "navio": "SKANDI CARLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 07:00",
-      "imo": "9292072",
-      "navio": "ILHA DO CABO FRIO",
-      "tipo": "SAÍDA",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+      "para": "TPBR - BRASCO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -152,12 +152,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 07:00",
-      "imo": "9627631",
-      "navio": "CBO IPANEMA",
-      "tipo": "MUDANÇA",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "para": "-",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -192,16 +192,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 09:00",
-      "imo": "9575620",
-      "navio": "TANTALUS TIDE",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 09:00",
       "imo": "3813884350",
       "navio": "C RIO",
       "tipo": "ENTRADA",
@@ -211,13 +201,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 10:00",
-      "imo": "9440681",
-      "navio": "SKUA",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "inicio": "14/08/2026 09:00",
+      "imo": "9575620",
+      "navio": "TANTALUS TIDE",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Rio de Janeiro",
@@ -228,6 +218,16 @@
       "de": "-",
       "para": "2R12 - Terminal - MCAR 1",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 10:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -302,16 +302,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 14:00",
-      "imo": "9623025",
-      "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "PATRIA NAVAL OPERACOES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/08/2026 14:00",
       "imo": "9292072",
       "navio": "ILHA DO CABO FRIO",
       "tipo": "ENTRADA",
@@ -341,6 +331,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 14:00",
+      "imo": "9623025",
+      "navio": "DELTA COMMANDER (BAND. GREYLIST PARIS/TOKYO MOU) (",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "PATRIA NAVAL OPERACOES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 16:00",
       "imo": "9426972",
       "navio": "CBO BIANCA",
@@ -361,6 +361,46 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 16:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 16:30",
+      "imo": "9453365",
+      "navio": "SPYROS V",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 17:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/08/2026 21:00",
+      "imo": "9663776",
+      "navio": "BABITONGA BAY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 63 - 2F6A",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/08/2026 21:30",
       "imo": "9448578",
       "navio": "JOKER",
@@ -378,16 +418,6 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/08/2026 06:00",
-      "imo": "9368895",
-      "navio": "VIKING BRASILIA",
-      "tipo": "SAÍDA",
-      "de": "2R12 - Terminal - MCAR 1",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -441,6 +471,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 17:00",
+      "imo": "9368895",
+      "navio": "VIKING BRASILIA",
+      "tipo": "SAÍDA",
+      "de": "2R12 - Terminal - MCAR 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/08/2026 22:00",
       "imo": "9360764",
       "navio": "MSC BASEL V",
@@ -476,7 +516,7 @@
       "navio": "STAR MAGNANIMUS",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 5FB5 - Área de Fundeio B5",
+      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
       "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
