@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-15T12:16:56.822Z",
+  "updatedAt": "2026-08-15T13:01:45.433Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 43
+      "count": 47
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 7
+      "count": 4
     },
     "angra": {
       "ok": true,
@@ -112,26 +112,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/08/2026 05:00",
-      "imo": "9752967",
-      "navio": "SEACOR DEMERARA (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/08/2026 05:00",
-      "imo": "9715737",
-      "navio": "STARNAV ANDROMEDA",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "2P14 - Terminal Petrobrás (Armazém 14)",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/08/2026 05:00",
       "imo": "9649029",
       "navio": "SEVEN WAVES",
       "tipo": "ENTRADA",
@@ -151,13 +131,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/08/2026 05:30",
-      "imo": "9497127",
-      "navio": "CAMPOS CONTENDER",
+      "inicio": "15/08/2026 05:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P14 - Terminal Petrobrás (Armazém 14)",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 05:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -168,6 +158,16 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 05:30",
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,16 +222,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/08/2026 08:30",
-      "imo": "9659634",
-      "navio": "BARU TESORO",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS1 - Terminal Siderúrgico",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/08/2026 08:30",
       "imo": "9605279",
       "navio": "MSC AMALFI",
       "tipo": "SAÍDA",
@@ -241,23 +231,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/08/2026 09:00",
-      "imo": "9370070",
-      "navio": "SIDDIS SAILOR (REB)",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "inicio": "15/08/2026 08:30",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/08/2026 09:00",
-      "imo": "9453365",
-      "navio": "SPYROS V",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "ZIM DO BRASIL LTDA"
+      "imo": "9703162",
+      "navio": "ASGAARD SOPHIA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ASGAARD NAVEGACAO S/A"
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,12 +262,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/08/2026 09:00",
-      "imo": "9703162",
-      "navio": "ASGAARD SOPHIA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "ASGAARD NAVEGACAO S/A"
+      "imo": "9453365",
+      "navio": "SPYROS V",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 09:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -351,13 +351,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/08/2026 11:00",
+      "inicio": "15/08/2026 11:30",
       "imo": "9636022",
       "navio": "SABLE (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 12:00",
+      "imo": "9644146",
+      "navio": "ALCATRAZ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -372,12 +382,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/08/2026 13:00",
+      "imo": "9381495",
+      "navio": "A.H. LIGURIA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "FINARGE APOIO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 13:00",
       "imo": "9292072",
       "navio": "ILHA DO CABO FRIO",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 14:00",
+      "imo": "9687368",
+      "navio": "BRAM BOA VISTA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -411,13 +441,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/08/2026 20:00",
-      "imo": "9356696",
-      "navio": "CMA CGM FRANCOISE SAGAN",
+      "inicio": "15/08/2026 16:00",
+      "imo": "9636034",
+      "navio": "ORYX (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/08/2026 16:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -491,27 +531,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "15/08/2026 07:00",
-      "imo": "9928877",
-      "navio": "COSCO SHIPPING SINCERE",
-      "tipo": "SAÍDA",
-      "de": "302 - TECON - SEPETIBA TECON S.A.",
-      "para": "-",
-      "agente": "ISS MARINE SERVICES LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "15/08/2026 09:30",
-      "imo": "9928891",
-      "navio": "COSCO SHIPPING FOUNTAIN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "302 - TECON - SEPETIBA TECON S.A.",
-      "agente": "ISS MARINE SERVICES LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "15/08/2026 15:00",
+      "inicio": "15/08/2026 15:30",
       "imo": "9585596",
       "navio": "VALENTINE",
       "tipo": "SAÍDA",
@@ -521,23 +541,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "15/08/2026 18:00",
+      "inicio": "15/08/2026 18:30",
       "imo": "9641900",
       "navio": "MOUNT LOGAN",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "15/08/2026 19:30",
-      "imo": "1020045",
-      "navio": "UM KANDA",
-      "tipo": "SAÍDA",
-      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "para": "-",
-      "agente": "GEM SHIPPING LTDA"
     }
   ]
 }
