@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-17T10:14:24.735Z",
+  "updatedAt": "2026-08-17T11:39:06.740Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 22
+      "count": 25
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -142,6 +142,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/08/2026 07:00",
+      "imo": "9715751",
+      "navio": "STARNAV PHOENIX",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/08/2026 07:00",
       "imo": "9575632",
       "navio": "TITUS TIDE (REB)",
       "tipo": "ENTRADA",
@@ -152,12 +162,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/08/2026 07:00",
-      "imo": "9715751",
-      "navio": "STARNAV PHOENIX",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -211,6 +221,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "17/08/2026 14:00",
+      "imo": "9565651",
+      "navio": "CBO ALESSANDRA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/08/2026 14:30",
+      "imo": "9458157",
+      "navio": "GAZ SYNERGY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIC - ILHA COMPRIDA",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "17/08/2026 15:00",
       "imo": "9720287",
       "navio": "MSC MAXINE",
@@ -251,6 +281,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "17/08/2026 04:00",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
+      "tipo": "MUDANÇA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "17/08/2026 05:30",
       "imo": "9644160",
       "navio": "BRAM BELEM",
@@ -267,6 +307,26 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "17/08/2026 07:40",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "18/08/2026 16:00",
+      "imo": "4030219411",
+      "navio": "OCEAN DREAM",
+      "tipo": "SAÍDA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
       "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
