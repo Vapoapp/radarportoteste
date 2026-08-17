@@ -1,21 +1,21 @@
 {
   "imo": "9670341",
   "navio": "BLUE ORCA",
-  "gerado_em": "2026-08-17T01:17:40.109Z",
+  "gerado_em": "2026-08-17T02:34:46.081Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": true,
     "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-04T17:30:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-17T02:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 16,
-    "manobras_365d": 16,
+    "manobras_30d": 4,
+    "manobras_180d": 17,
+    "manobras_365d": 17,
     "entradas_30d": 1,
     "saidas_30d": 2,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 6,
     "saidas_365d": 7,
     "ultima_entrada": "2026-08-04T17:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 67
   },
   "historico_recente": [
+    {
+      "data": "2026-08-17T02:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-04T17:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "ESMC - MacLaren Ponta da Areia",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-11T04:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Niterói",
-      "de": "-",
-      "para": "ESMC - MacLaren Ponta da Areia"
     }
   ]
 }
