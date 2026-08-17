@@ -4344,14 +4344,14 @@
     "navio": "CBO BIANCA",
     "navio_normalizado": "CBO BIANCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-14T19:00:00.000Z",
-    "ultimo_hash_evento": "e547a20217a56f49c54e0fb793345eb31d7001e1d38d3d792c699b48268c80d1",
-    "atualizado_em": "2026-08-14T19:08:57.313Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-17T15:00:00.000Z",
+    "ultimo_hash_evento": "bc0e104cb295adceaad5d4e7db2da632c119bcd41f76316670b672b47c266570",
+    "atualizado_em": "2026-08-17T15:26:07.330Z"
   },
   "9427639": {
     "imo": "9427639",
@@ -6220,14 +6220,14 @@
     "navio": "POSIDONIA TIGER (REB)",
     "navio_normalizado": "POSIDONIA TIGER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-16T21:40:00.000Z",
-    "ultimo_hash_evento": "e9c3674b5e08402993a2b3b6bdde2b65239126fd41b2c08428abaea361ae9929",
-    "atualizado_em": "2026-08-16T22:26:00.328Z"
+    "ultima_movimentacao_em": "2026-08-17T15:00:00.000Z",
+    "ultimo_hash_evento": "e8deb6b68aa7ee314adb1ff973f3653cf666fa7a5c3d99bce1c6fffa318b8734",
+    "atualizado_em": "2026-08-17T15:26:07.330Z"
   },
   "9529877": {
     "imo": "9529877",
@@ -10904,6 +10904,20 @@
     "ultima_movimentacao_em": "2026-05-14T11:30:00.000Z",
     "ultimo_hash_evento": "59bc6967d1d0fab0b2b2d1c0a947736cf82071c868b89bc44ad00191bbbe1d98",
     "atualizado_em": "2026-05-14T12:11:21.240Z"
+  },
+  "9725823": {
+    "imo": "9725823",
+    "navio": "CAIFU CHAO",
+    "navio_normalizado": "CAIFU CHAO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2NTO - Terminal de Óleo",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-17T15:00:00.000Z",
+    "ultimo_hash_evento": "4ffa17a9d8141bb899eb08b067dee7311552a26f0d15395f27ab6398fb013939",
+    "atualizado_em": "2026-08-17T15:26:07.330Z"
   },
   "9726279": {
     "imo": "9726279",
