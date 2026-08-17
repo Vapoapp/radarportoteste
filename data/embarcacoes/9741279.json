@@ -1,29 +1,36 @@
 {
   "imo": "9741279",
   "navio": "ACE DEFENDER (REB)",
-  "gerado_em": "2026-08-17T22:09:25.591Z",
+  "gerado_em": "2026-08-17T22:38:04.141Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-17T05:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-17T22:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 28,
-    "manobras_365d": 28,
+    "manobras_30d": 12,
+    "manobras_180d": 29,
+    "manobras_365d": 29,
     "entradas_30d": 4,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 3,
     "entradas_365d": 9,
-    "saidas_365d": 9,
+    "saidas_365d": 10,
     "ultima_entrada": "2026-08-13T13:00:00.000Z",
-    "ultima_saida": "2026-08-08T03:10:00.000Z",
-    "tempo_medio_estadia_horas": 80.6,
+    "ultima_saida": "2026-08-17T22:30:00.000Z",
+    "tempo_medio_estadia_horas": 83.7,
     "tempo_medio_fundeio_horas": 54.2
   },
   "historico_recente": [
+    {
+      "data": "2026-08-17T22:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-08-17T05:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-07-24T19:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
