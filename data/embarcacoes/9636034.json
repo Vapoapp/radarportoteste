@@ -1,29 +1,36 @@
 {
   "imo": "9636034",
   "navio": "ORYX (REB)",
-  "gerado_em": "2026-08-17T17:38:26.378Z",
+  "gerado_em": "2026-08-17T18:01:03.784Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-17T08:40:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-17T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 67,
-    "manobras_365d": 67,
+    "manobras_30d": 18,
+    "manobras_180d": 68,
+    "manobras_365d": 68,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 11,
     "entradas_365d": 15,
-    "saidas_365d": 14,
+    "saidas_365d": 15,
     "ultima_entrada": "2026-08-15T19:30:00.000Z",
-    "ultima_saida": "2026-08-08T01:30:00.000Z",
-    "tempo_medio_estadia_horas": 73.7,
-    "tempo_medio_fundeio_horas": 23.7
+    "ultima_saida": "2026-08-17T18:00:00.000Z",
+    "tempo_medio_estadia_horas": 71.9,
+    "tempo_medio_fundeio_horas": 23.1
   },
   "historico_recente": [
+    {
+      "data": "2026-08-17T18:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-08-17T08:40:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-07-31T04:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
