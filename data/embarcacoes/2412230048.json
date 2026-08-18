@@ -1,29 +1,36 @@
 {
   "imo": "2412230048",
   "navio": "SÃO TOMÉ",
-  "gerado_em": "2026-08-18T10:59:11.474Z",
+  "gerado_em": "2026-08-18T11:30:16.163Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2N11 - Armazém 13",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-18T09:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-18T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 12,
-    "manobras_365d": 12,
+    "manobras_30d": 2,
+    "manobras_180d": 13,
+    "manobras_365d": 13,
     "entradas_30d": 0,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 1,
     "entradas_365d": 2,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-06-24T11:00:00.000Z",
-    "ultima_saida": "2026-06-02T09:30:00.000Z",
+    "ultima_saida": "2026-08-18T11:00:00.000Z",
     "tempo_medio_estadia_horas": null,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-08-18T11:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2N11 - Armazém 13",
+      "para": "-"
+    },
     {
       "data": "2026-08-18T09:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2N11 - Armazém 13"
-    },
-    {
-      "data": "2026-06-02T09:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2N16 - Armazém 16",
-      "para": "-"
     }
   ]
 }
