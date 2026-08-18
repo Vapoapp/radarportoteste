@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-18T19:17:50.244Z",
+  "updatedAt": "2026-08-18T19:44:01.928Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 50
+      "count": 57
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 10
+      "count": 11
     },
     "angra": {
       "ok": true,
@@ -132,32 +132,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/08/2026 06:00",
-      "imo": "2412230048",
-      "navio": "SÃO TOMÉ",
-      "tipo": "MUDANÇA",
-      "de": "2N17 - Armazém 17",
-      "para": "2N11 - Armazém 13",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/08/2026 06:00",
-      "imo": "9356696",
-      "navio": "CMA CGM FRANCOISE SAGAN",
+      "imo": "9440681",
+      "navio": "SKUA",
       "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/08/2026 06:00",
-      "imo": "9385398",
-      "navio": "A.H. CAMOGLI (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,12 +152,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/08/2026 06:00",
-      "imo": "9440681",
-      "navio": "SKUA",
+      "imo": "9356696",
+      "navio": "CMA CGM FRANCOISE SAGAN",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
-      "agente": "WILSON SONS OFFSHORE S.A."
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 06:00",
+      "imo": "2412230048",
+      "navio": "SÃO TOMÉ",
+      "tipo": "MUDANÇA",
+      "de": "2N17 - Armazém 17",
+      "para": "2N11 - Armazém 13",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 06:00",
+      "imo": "9385398",
+      "navio": "A.H. CAMOGLI (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -222,22 +222,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/08/2026 08:00",
-      "imo": "9484845",
-      "navio": "STRIL EXPLORER",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2N08 - Pátio 9",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/08/2026 08:00",
       "imo": "2412230048",
       "navio": "SÃO TOMÉ",
       "tipo": "SAÍDA",
       "de": "2N11 - Armazém 13",
       "para": "-",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 08:00",
+      "imo": "9484845",
+      "navio": "STRIL EXPLORER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N08 - Pátio 9",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -251,13 +251,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "18/08/2026 09:00",
-      "imo": "9945863",
-      "navio": "COSCO SHIPPING MEXICO",
+      "inicio": "18/08/2026 08:30",
+      "imo": "9748978",
+      "navio": "EPIC BALUAN",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "para": "Fundeio - WPT 65 - 2F6A",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -268,6 +268,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 09:00",
+      "imo": "9945863",
+      "navio": "COSCO SHIPPING MEXICO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -372,22 +382,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/08/2026 15:30",
-      "imo": "9720287",
-      "navio": "MSC MAXINE",
-      "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/08/2026 15:30",
       "imo": "9687526",
       "navio": "COPIAPO",
       "tipo": "SAÍDA",
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 15:30",
+      "imo": "9720287",
+      "navio": "MSC MAXINE",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -471,6 +481,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 20:00",
+      "imo": "9578672",
+      "navio": "SEA1 GIANT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 22:00",
+      "imo": "9484845",
+      "navio": "STRIL EXPLORER",
+      "tipo": "MUDANÇA",
+      "de": "2N08 - Pátio 9",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 01:00",
+      "imo": "9484845",
+      "navio": "STRIL EXPLORER",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/08/2026 05:30",
       "imo": "9250751",
       "navio": "BOW FIRDA",
@@ -508,6 +548,36 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 12:00",
+      "imo": "9302102",
+      "navio": "RDO ENDEAVOUR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 15:30",
+      "imo": "9480186",
+      "navio": "MSC BARCELONA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "para": "Fundeio - 2F01N - Visita Norte",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 17:30",
+      "imo": "9448578",
+      "navio": "JOKER",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -658,6 +728,16 @@
       "de": "-",
       "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/08/2026 07:30",
+      "imo": "9851816",
+      "navio": "MINERAL GUINEA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Itaguaí",
