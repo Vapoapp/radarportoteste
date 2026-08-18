@@ -1068,14 +1068,14 @@
     "navio": "CS RECORDER",
     "navio_normalizado": "CS RECORDER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "ISS MARINE SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-06-17T17:00:00.000Z",
-    "ultimo_hash_evento": "866e784d03fb90f3f66cf5ca4fa72cb27822d2b083dbe3d1141663dafd254165",
-    "atualizado_em": "2026-06-17T18:42:17.444Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-18T10:00:00.000Z",
+    "ultimo_hash_evento": "b57e1ac32d664208d57535c68d4dbd2bf708007a695c548008e2c1f976e1b10b",
+    "atualizado_em": "2026-08-18T10:36:31.710Z"
   },
   "9208447": {
     "imo": "9208447",
@@ -5100,14 +5100,14 @@
     "navio": "MALIAKOS",
     "navio_normalizado": "MALIAKOS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-28T00:00:00.000Z",
-    "ultimo_hash_evento": "2910b1f436521cd82019f48b990366638d08c4f404fbb211ea70c829f518c7e4",
-    "atualizado_em": "2026-06-28T01:53:06.852Z"
+    "ultima_movimentacao_em": "2026-08-18T10:00:00.000Z",
+    "ultimo_hash_evento": "d8e90fa3265b032e251c6f27fd02dc6f9549a527469b0c4c4ae6d3652f436761",
+    "atualizado_em": "2026-08-18T10:36:31.710Z"
   },
   "9466099": {
     "imo": "9466099",
@@ -15301,6 +15301,20 @@
     "ultimo_hash_evento": "3155c65456130b289dd4ef1ded283ca98f8a82da48dd99d40fb06f856552bda5",
     "atualizado_em": "2026-06-30T16:05:56.020Z"
   },
+  "9981477": {
+    "imo": "9981477",
+    "navio": "TOUBKAL PARK",
+    "navio_normalizado": "TOUBKAL PARK",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPT - NEOLUBES",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-18T10:00:00.000Z",
+    "ultimo_hash_evento": "0c832682bef964a12b518af192eb8ce5c09260939e15082de04a88f0cddefb55",
+    "atualizado_em": "2026-08-18T10:36:31.710Z"
+  },
   "9986910": {
     "imo": "9986910",
     "navio": "GREAT BLOSSOM",
@@ -15790,6 +15804,20 @@
     "ultima_movimentacao_em": "2026-04-20T15:00:00.000Z",
     "ultimo_hash_evento": "22fe6ef159ac146ba612d7dc31ab958dfb56f80df8c482d6b0747e86849f4c23",
     "atualizado_em": "2026-04-20T15:57:57.913Z"
+  },
+  "3813880044": {
+    "imo": "3813880044",
+    "navio": "LOCAR X",
+    "navio_normalizado": "LOCAR X",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2N16 - Armazém 16",
+    "destino_atual": "-",
+    "agente_atual": "LOCAR GUINDASTES E TRANSP. INTERMODAIS",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-18T10:00:00.000Z",
+    "ultimo_hash_evento": "4ad0f916023820dd659f68508e863fd539e0083d3037d4cf2d63279437511b37",
+    "atualizado_em": "2026-08-18T10:36:31.710Z"
   },
   "3813881113": {
     "imo": "3813881113",
