@@ -1,21 +1,21 @@
 {
   "imo": "9636022",
   "navio": "SABLE (REB)",
-  "gerado_em": "2026-08-18T11:53:17.086Z",
+  "gerado_em": "2026-08-18T12:23:52.336Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-17T22:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-18T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 52,
-    "manobras_365d": 52,
+    "manobras_30d": 13,
+    "manobras_180d": 53,
+    "manobras_365d": 53,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 13,
     "saidas_365d": 13,
     "ultima_entrada": "2026-08-17T22:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 35.8
   },
   "historico_recente": [
+    {
+      "data": "2026-08-18T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-17T22:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-07-28T15:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Niterói",
-      "de": "-",
-      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     }
   ]
 }
