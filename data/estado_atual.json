@@ -4358,14 +4358,14 @@
     "navio": "CBO BIANCA",
     "navio_normalizado": "CBO BIANCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "-",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-18T09:00:00.000Z",
-    "ultimo_hash_evento": "42a354c4eac8347c040bbb62d52111679a26d37c599153c784e764c4dcc8f8ab",
-    "atualizado_em": "2026-08-18T09:31:09.710Z"
+    "ultima_movimentacao_em": "2026-08-18T20:00:00.000Z",
+    "ultimo_hash_evento": "a1384f9da1ecbe4bf38dc9d9d83c73cf25425f97ffe3fc34be0ecadc1f8016ca",
+    "atualizado_em": "2026-08-18T20:29:11.822Z"
   },
   "9427639": {
     "imo": "9427639",
@@ -9001,6 +9001,20 @@
     "ultimo_hash_evento": "afabcb19d1fff23d066a4aa305689a840e8adc052390d921455eeeae6ecf3e14",
     "atualizado_em": "2026-05-12T01:22:22.870Z"
   },
+  "9659220": {
+    "imo": "9659220",
+    "navio": "GEMSBOK (REB)",
+    "navio_normalizado": "GEMSBOK",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-18T20:00:00.000Z",
+    "ultimo_hash_evento": "2787ece2a85a68e30f53ccfe7ff9fc093f810d34add8bcb7ee2a3c3b6763811f",
+    "atualizado_em": "2026-08-18T20:29:11.822Z"
+  },
   "9659543": {
     "imo": "9659543",
     "navio": "BARU ANTARES",
@@ -9126,6 +9140,20 @@
     "ultima_movimentacao_em": "2026-06-12T19:00:00.000Z",
     "ultimo_hash_evento": "2bc3b4b08bfd5e8a42edc4776158f8325067cb860785d4078c5edbd6a471416f",
     "atualizado_em": "2026-06-12T20:34:36.330Z"
+  },
+  "9660542": {
+    "imo": "9660542",
+    "navio": "BAHRI WAFI",
+    "navio_normalizado": "BAHRI WAFI",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01S - Visita Sul",
+    "destino_atual": "-",
+    "agente_atual": "AMART SERVICES CONSULTORIA, AGENCIAMENTO MARITIMO",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-18T20:00:00.000Z",
+    "ultimo_hash_evento": "e5f255a2de8726d6cd62ba577520072f0a26286b9804232cb1e01c52e328a3da",
+    "atualizado_em": "2026-08-18T20:29:11.822Z"
   },
   "9662370": {
     "imo": "9662370",
