@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-18T10:36:31.710Z",
+  "updatedAt": "2026-08-18T10:59:11.474Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 32
+      "count": 34
     },
     "niteroi": {
       "ok": true,
@@ -141,6 +141,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 05:00",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "18/08/2026 06:00",
       "imo": "9440681",
       "navio": "SKUA",
@@ -241,13 +251,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "18/08/2026 08:00",
-      "imo": "9785615",
-      "navio": "ESTELA CLAIRE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01S - Visita Sul",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+      "inicio": "18/08/2026 07:30",
+      "imo": "9292072",
+      "navio": "ILHA DO CABO FRIO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +268,16 @@
       "de": "-",
       "para": "2N08 - Pátio 9",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/08/2026 08:00",
+      "imo": "9785615",
+      "navio": "ESTELA CLAIRE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01S - Visita Sul",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
