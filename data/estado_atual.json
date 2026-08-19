@@ -3980,14 +3980,14 @@
     "navio": "NORMAND SAGARIS (REB)",
     "navio_normalizado": "NORMAND SAGARIS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-28T23:00:00.000Z",
-    "ultimo_hash_evento": "ef5df4b0b988c7048cb645a73541ce88ae2b2868614b8ec1daefcc0d439aab68",
-    "atualizado_em": "2026-07-29T00:11:27.809Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-19T09:00:00.000Z",
+    "ultimo_hash_evento": "8fbaa979501d67bc213ed6e1b40b01f11d82070320e35543cdfcdf14d4ab4b01",
+    "atualizado_em": "2026-08-19T09:39:18.351Z"
   },
   "9417830": {
     "imo": "9417830",
@@ -4903,15 +4903,15 @@
     "imo": "9453846",
     "navio": "ANDRÉ REBOUÇAS",
     "navio_normalizado": "ANDRE REBOUCAS",
-    "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - WPT 64 - 2F6A",
-    "destino_atual": "-",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-13T15:00:00.000Z",
-    "ultimo_hash_evento": "0efb73fe77f103981ece87a03684d8767f09c16e35693d0a5676c106828d9d4d",
-    "atualizado_em": "2026-08-13T15:29:01.463Z"
+    "ultima_movimentacao_em": "2026-08-19T09:30:00.000Z",
+    "ultimo_hash_evento": "c48793542f6f4c57ec03f133e1cb4a106af954ce6c682a46753437f5a2a313b1",
+    "atualizado_em": "2026-08-19T09:39:18.351Z"
   },
   "9453858": {
     "imo": "9453858",
@@ -6808,14 +6808,14 @@
     "navio": "BERGE NYANGANI",
     "navio_normalizado": "BERGE NYANGANI",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FA1 - Área de Fundeio A1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FA1 - Área de Fundeio A1",
+    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-16T10:30:00.000Z",
-    "ultimo_hash_evento": "24d0d55b5da3cbe429da41f736067272fac779a5a959a03c8e289f747814209c",
-    "atualizado_em": "2026-08-16T10:37:00.683Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-19T09:00:00.000Z",
+    "ultimo_hash_evento": "80e97bb2d48f64a9e63b84e5ec4cf84dd684fa50e4352240c6f0c45cc227035d",
+    "atualizado_em": "2026-08-19T09:39:18.351Z"
   },
   "9559975": {
     "imo": "9559975",
@@ -8236,14 +8236,14 @@
     "navio": "VALOR",
     "navio_normalizado": "VALOR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-18T20:00:00.000Z",
-    "ultimo_hash_evento": "e2c8f60557969a3af67402100b7cd3e3e5cca9181c800493e3486048377f1e8a",
-    "atualizado_em": "2026-08-18T21:10:00.990Z"
+    "ultima_movimentacao_em": "2026-08-19T09:00:00.000Z",
+    "ultimo_hash_evento": "bd8c5a5c0ec27f7faf9e2b6b872692ca84ef542838d1470a389cf739021f8d71",
+    "atualizado_em": "2026-08-19T09:39:18.351Z"
   },
   "9628659": {
     "imo": "9628659",
@@ -9973,13 +9973,13 @@
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "origem_atual": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-18T03:00:00.000Z",
-    "ultimo_hash_evento": "fc5df9d430a92c6725f1dcb4de8a0236c51b9fbb1908d3d282d3720f1ea8630e",
-    "atualizado_em": "2026-08-18T03:27:06.511Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-19T09:00:00.000Z",
+    "ultimo_hash_evento": "c303cfdef6af1b478bb7fa4b084ef951ffbca374c9815c19dc87558ded08edd6",
+    "atualizado_em": "2026-08-19T09:39:18.351Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -11755,9 +11755,9 @@
     "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-19T07:00:00.000Z",
-    "ultimo_hash_evento": "86221f38a10c05ca3f6c5a47c06ad52d46094d8f6e725ddac145e810365f3880",
-    "atualizado_em": "2026-08-19T07:09:27.005Z"
+    "ultima_movimentacao_em": "2026-08-19T09:00:00.000Z",
+    "ultimo_hash_evento": "91400c3bc5438948966950d3f3a415ed48ba9c36cec646a9c69b78051af43914",
+    "atualizado_em": "2026-08-19T09:39:18.351Z"
   },
   "9759991": {
     "imo": "9759991",
