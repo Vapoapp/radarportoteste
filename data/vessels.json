@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-19T18:36:01.724Z",
+  "updatedAt": "2026-08-19T19:05:18.636Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 50
+      "count": 53
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -172,32 +172,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/08/2026 09:00",
-      "imo": "9303508",
-      "navio": "ILHA DE SÃO SEBASTIÃO (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO",
-      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/08/2026 09:00",
-      "imo": "9423437",
-      "navio": "AKOFS SANTOS (REB)",
+      "imo": "9785615",
+      "navio": "ESTELA CLAIRE",
       "tipo": "SAÍDA",
-      "de": "2TS2 - Terminal Siderúrgico 2",
+      "de": "Fundeio - 2F01 - Visita",
       "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/08/2026 09:00",
-      "imo": "9595503",
-      "navio": "EVER LEADER",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -212,12 +192,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/08/2026 09:00",
-      "imo": "9785615",
-      "navio": "ESTELA CLAIRE",
+      "imo": "9423437",
+      "navio": "AKOFS SANTOS (REB)",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01 - Visita",
+      "de": "2TS2 - Terminal Siderúrgico 2",
       "para": "-",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 09:00",
+      "imo": "9303508",
+      "navio": "ILHA DE SÃO SEBASTIÃO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 09:00",
+      "imo": "9595503",
+      "navio": "EVER LEADER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "BERGESEN DO BRASIL PARTICIPAÇÕES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -228,16 +228,6 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/08/2026 10:00",
-      "imo": "9703667",
-      "navio": "BRAM HERO",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -258,6 +248,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 10:00",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -352,26 +352,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/08/2026 16:00",
-      "imo": "9476874",
-      "navio": "WATERBUCK (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/08/2026 16:00",
-      "imo": "9670808",
-      "navio": "ZHONG CHANG ZHOU SHAN",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/08/2026 16:00",
       "imo": "9286762",
       "navio": "SEVEN SABIÁ",
       "tipo": "SAÍDA",
@@ -391,13 +371,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "19/08/2026 17:30",
-      "imo": "3813872998",
-      "navio": "TS MARRENTO",
+      "inicio": "19/08/2026 16:00",
+      "imo": "9476874",
+      "navio": "WATERBUCK (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "BOIA TSHP - Boia Tranship",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 16:00",
+      "imo": "9670808",
+      "navio": "ZHONG CHANG ZHOU SHAN",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 17:30",
+      "imo": "9448578",
+      "navio": "JOKER",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -412,12 +412,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/08/2026 17:30",
-      "imo": "9448578",
-      "navio": "JOKER",
-      "tipo": "MUDANÇA",
-      "de": "2N07 - Pátio 8/9",
-      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+      "imo": "3813872998",
+      "navio": "TS MARRENTO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "BOIA TSHP - Boia Tranship",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -442,12 +442,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/08/2026 18:00",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 18:00",
       "imo": "9659579",
       "navio": "BARU MUCURA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/08/2026 19:30",
+      "imo": "9528249",
+      "navio": "SKANDI IPANEMA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -511,6 +531,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "20/08/2026 11:00",
+      "imo": "9852133",
+      "navio": "WINNIPEG",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIC - ILHA COMPRIDA",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "20/08/2026 12:00",
       "imo": "9692791",
       "navio": "WILDEBEEST (REB)",
@@ -551,6 +581,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "19/08/2026 10:30",
+      "imo": "9528249",
+      "navio": "SKANDI IPANEMA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "19/08/2026 17:00",
       "imo": "9575620",
       "navio": "TANTALUS TIDE (REB)",
@@ -558,6 +598,16 @@
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "-",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "19/08/2026 19:00",
+      "imo": "9528249",
+      "navio": "SKANDI IPANEMA",
+      "tipo": "MUDANÇA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Itaguaí",

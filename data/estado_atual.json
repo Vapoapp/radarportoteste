@@ -1852,14 +1852,14 @@
     "navio": "SEVEN SABIÁ",
     "navio_normalizado": "SEVEN SABIA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPSS - SUBSEA",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPSS - SUBSEA",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-01T00:00:00.000Z",
-    "ultimo_hash_evento": "2aab78ffc89da8d32f610bc063fab39b53e3ab3cde0571a1a45eb4f8128f307f",
-    "atualizado_em": "2026-08-01T01:16:34.885Z"
+    "ultima_movimentacao_em": "2026-08-19T19:00:00.000Z",
+    "ultimo_hash_evento": "ff4bed3c26a6650ac292631ef83058d4484e451e00aaf98f0523a833f18400c2",
+    "atualizado_em": "2026-08-19T19:05:18.636Z"
   },
   "9288409": {
     "imo": "9288409",
@@ -2174,14 +2174,14 @@
     "navio": "ILHA DE SÃO SEBASTIÃO (REB)",
     "navio_normalizado": "ILHA DE SAO SEBASTIAO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "-",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-19T12:00:00.000Z",
-    "ultimo_hash_evento": "f44efd25231bb6f536adb23986306cf0759b6e0ba124735a187d832a1e23fe5e",
-    "atualizado_em": "2026-08-19T16:13:01.456Z"
+    "ultima_movimentacao_em": "2026-08-19T19:00:00.000Z",
+    "ultimo_hash_evento": "01f799e34d74261ef0c63544f54b44fcdda7fffb1e1cbeb768b1e7b2b1b737ff",
+    "atualizado_em": "2026-08-19T19:05:18.636Z"
   },
   "9303651": {
     "imo": "9303651",
@@ -5310,14 +5310,14 @@
     "navio": "WATERBUCK (REB)",
     "navio_normalizado": "WATERBUCK",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-19T11:00:00.000Z",
-    "ultimo_hash_evento": "f8fe6ab665cce97bb0053fa30a214df15f0ed86dc8c7293e63bebe6ca33ee8e7",
-    "atualizado_em": "2026-08-19T11:32:21.850Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-19T19:00:00.000Z",
+    "ultimo_hash_evento": "c76e5fe01cbffa0c8130ad2410185ff239aababa96c4c2396765e1758a589047",
+    "atualizado_em": "2026-08-19T19:05:18.636Z"
   },
   "9476886": {
     "imo": "9476886",
@@ -9406,6 +9406,20 @@
     "ultima_movimentacao_em": "2026-04-19T10:00:00.000Z",
     "ultimo_hash_evento": "b8a57dd10299df867e48a7f82a002abe49f8f1d1e2d35243c1b747c8bcfad02b",
     "atualizado_em": "2026-04-19T12:57:18.542Z"
+  },
+  "9670808": {
+    "imo": "9670808",
+    "navio": "ZHONG CHANG ZHOU SHAN",
+    "navio_normalizado": "ZHONG CHANG ZHOU SHAN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01 - Visita",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-19T19:00:00.000Z",
+    "ultimo_hash_evento": "5aa296a7e0749e7d5da0c9ab0f002c9cac3dbf80cd5b4ca1b717c7047934983f",
+    "atualizado_em": "2026-08-19T19:05:18.636Z"
   },
   "9671450": {
     "imo": "9671450",

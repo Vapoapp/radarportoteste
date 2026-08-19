@@ -1,29 +1,36 @@
 {
   "imo": "9286762",
   "navio": "SEVEN SABIÁ",
-  "gerado_em": "2026-08-19T18:36:01.724Z",
+  "gerado_em": "2026-08-19T19:05:18.636Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPSS - SUBSEA",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-01T00:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-19T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 20,
-    "manobras_365d": 20,
+    "manobras_30d": 3,
+    "manobras_180d": 21,
+    "manobras_365d": 21,
     "entradas_30d": 0,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 2,
     "entradas_365d": 4,
-    "saidas_365d": 5,
+    "saidas_365d": 6,
     "ultima_entrada": "2026-07-13T10:00:00.000Z",
-    "ultima_saida": "2026-07-10T19:40:00.000Z",
+    "ultima_saida": "2026-08-19T19:00:00.000Z",
     "tempo_medio_estadia_horas": 278.7,
     "tempo_medio_fundeio_horas": 117.5
   },
   "historico_recente": [
+    {
+      "data": "2026-08-19T19:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPSS - SUBSEA",
+      "para": "-"
+    },
     {
       "data": "2026-08-01T00:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -85,13 +92,6 @@
       "tipo": "SAÍDA",
       "porto": "Rio de Janeiro",
       "de": "TPSS - SUBSEA",
-      "para": "-"
-    },
-    {
-      "data": "2026-05-05T20:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
     }
   ]
