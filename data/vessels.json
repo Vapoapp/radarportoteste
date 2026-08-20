@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-20T03:14:08.936Z",
+  "updatedAt": "2026-08-20T05:15:41.771Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 16
+      "count": 17
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -91,6 +91,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "20/08/2026 06:30",
+      "imo": "1016692",
+      "navio": "MSC ADELE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "20/08/2026 07:00",
       "imo": "9656199",
       "navio": "SAPURA TOPAZIO",
@@ -142,16 +152,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/08/2026 12:00",
-      "imo": "9692791",
-      "navio": "WILDEBEEST (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "ESPR - MacLaren Ilha da Conceição",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "20/08/2026 12:00",
       "imo": "9370070",
       "navio": "SIDDIS SAILOR (REB)",
       "tipo": "ENTRADA",
@@ -168,6 +168,16 @@
       "de": "2R12 - Terminal - MCAR 1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/08/2026 12:00",
+      "imo": "9692791",
+      "navio": "WILDEBEEST (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -191,6 +201,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "20/08/2026 04:30",
+      "imo": "9521021",
+      "navio": "CBO WAVE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "20/08/2026 07:00",
       "imo": "0011450339",
       "navio": "BONO III",
@@ -201,7 +221,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "20/08/2026 04:30",
+      "inicio": "20/08/2026 05:30",
       "imo": "9872171",
       "navio": "COSCO SHIPPING CHANG QING",
       "tipo": "SAÍDA",
@@ -211,7 +231,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "20/08/2026 05:30",
+      "inicio": "20/08/2026 06:30",
       "imo": "9681534",
       "navio": "UAL COLOGNE",
       "tipo": "SAÍDA",
