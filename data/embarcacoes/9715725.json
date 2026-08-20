@@ -1,29 +1,36 @@
 {
   "imo": "9715725",
   "navio": "STARNAV TAURUS",
-  "gerado_em": "2026-08-20T08:33:48.562Z",
+  "gerado_em": "2026-08-20T09:07:32.915Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-19T16:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-20T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 57,
-    "manobras_365d": 57,
+    "manobras_30d": 9,
+    "manobras_180d": 58,
+    "manobras_365d": 58,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 1,
     "entradas_365d": 15,
-    "saidas_365d": 14,
+    "saidas_365d": 15,
     "ultima_entrada": "2026-08-19T16:00:00.000Z",
-    "ultima_saida": "2026-08-15T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 86.9,
-    "tempo_medio_fundeio_horas": 38.3
+    "ultima_saida": "2026-08-20T09:00:00.000Z",
+    "tempo_medio_estadia_horas": 81.9,
+    "tempo_medio_fundeio_horas": 37.3
   },
   "historico_recente": [
+    {
+      "data": "2026-08-20T09:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-08-19T16:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-07-12T04:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
