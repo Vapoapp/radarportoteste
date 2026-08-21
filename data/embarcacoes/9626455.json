@@ -1,29 +1,36 @@
 {
   "imo": "9626455",
   "navio": "KUDU (REB)",
-  "gerado_em": "2026-08-21T09:03:03.874Z",
+  "gerado_em": "2026-08-21T10:13:53.945Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-08-12T23:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-08-21T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 44,
-    "manobras_365d": 44,
-    "entradas_30d": 2,
+    "manobras_30d": 10,
+    "manobras_180d": 45,
+    "manobras_365d": 45,
+    "entradas_30d": 3,
     "saidas_30d": 3,
     "mudancas_30d": 4,
-    "entradas_365d": 11,
+    "entradas_365d": 12,
     "saidas_365d": 12,
-    "ultima_entrada": "2026-08-11T08:30:00.000Z",
+    "ultima_entrada": "2026-08-21T10:00:00.000Z",
     "ultima_saida": "2026-08-12T23:00:00.000Z",
     "tempo_medio_estadia_horas": 69,
     "tempo_medio_fundeio_horas": 35.1
   },
   "historico_recente": [
+    {
+      "data": "2026-08-21T10:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-12T23:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-07-23T01:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
