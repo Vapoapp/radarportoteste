@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-21T17:13:27.384Z",
+  "updatedAt": "2026-08-21T17:46:08.308Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 42
+      "count": 43
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 5
     },
     "itaguai": {
       "ok": true,
@@ -172,8 +172,8 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/08/2026 08:00",
-      "imo": "3810289680",
-      "navio": "BS-8",
+      "imo": "2412230323",
+      "navio": "SÃO LUIS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F09 - XAREU",
       "para": "2N17 - Armazém 17",
@@ -182,8 +182,8 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/08/2026 08:00",
-      "imo": "2412230323",
-      "navio": "SÃO LUIS",
+      "imo": "3810289680",
+      "navio": "BS-8",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F09 - XAREU",
       "para": "2N17 - Armazém 17",
@@ -202,16 +202,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/08/2026 08:30",
-      "imo": "9996745",
-      "navio": "CMA CGM THORIUM",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 08:30",
       "imo": "9250751",
       "navio": "BOW FIRDA",
       "tipo": "SAÍDA",
@@ -221,13 +211,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 09:00",
-      "imo": "9659579",
-      "navio": "BARU MUCURA",
+      "inicio": "21/08/2026 08:30",
+      "imo": "9996745",
+      "navio": "CMA CGM THORIUM",
       "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico",
+      "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
-      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/08/2026 09:00",
+      "imo": "9720287",
+      "navio": "MSC MAXINE",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -238,6 +238,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/08/2026 09:00",
+      "imo": "9659579",
+      "navio": "BARU MUCURA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -271,26 +281,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 11:00",
-      "imo": "9683996",
-      "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 12:00",
-      "imo": "9713909",
-      "navio": "GLORY FIRST",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01 - Visita",
-      "para": "-",
-      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "21/08/2026 12:00",
       "imo": "9477397",
       "navio": "CBO CAROLINA",
@@ -308,6 +298,26 @@
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/08/2026 12:00",
+      "imo": "9713909",
+      "navio": "GLORY FIRST",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/08/2026 13:00",
+      "imo": "9626455",
+      "navio": "KUDU (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -341,16 +351,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 13:00",
-      "imo": "9626455",
-      "navio": "KUDU (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "21/08/2026 14:00",
       "imo": "9659634",
       "navio": "BARU TESORO",
@@ -378,6 +378,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/08/2026 15:00",
+      "imo": "9683996",
+      "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -411,13 +421,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 20:00",
-      "imo": "9720287",
-      "navio": "MSC MAXINE",
+      "inicio": "21/08/2026 17:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
       "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
+      "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -467,6 +477,16 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "21/08/2026 17:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "SAÍDA",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -521,7 +541,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "21/08/2026 19:00",
+      "inicio": "21/08/2026 18:00",
       "imo": "9565326",
       "navio": "PACIFIC RESOURCE",
       "tipo": "SAÍDA",
