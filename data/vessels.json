@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-21T18:57:52.805Z",
+  "updatedAt": "2026-08-21T19:27:05.997Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 45
+      "count": 46
     },
     "niteroi": {
       "ok": true,
-      "count": 5
+      "count": 6
     },
     "itaguai": {
       "ok": true,
@@ -202,16 +202,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/08/2026 08:30",
-      "imo": "9250751",
-      "navio": "BOW FIRDA",
-      "tipo": "SAÍDA",
-      "de": "TPEX - EXXON SOLUTEC",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 08:30",
       "imo": "9996745",
       "navio": "CMA CGM THORIUM",
       "tipo": "SAÍDA",
@@ -221,13 +211,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 09:00",
-      "imo": "9720287",
-      "navio": "MSC MAXINE",
+      "inicio": "21/08/2026 08:30",
+      "imo": "9250751",
+      "navio": "BOW FIRDA",
       "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
+      "de": "TPEX - EXXON SOLUTEC",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -281,6 +271,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "21/08/2026 11:00",
+      "imo": "9720287",
+      "navio": "MSC MAXINE",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "21/08/2026 12:00",
       "imo": "9477397",
       "navio": "CBO CAROLINA",
@@ -312,6 +312,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "21/08/2026 13:00",
+      "imo": "9725823",
+      "navio": "CAIFU CHAO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - WPT 92 - AF Preferencial Gusa",
+      "para": "TPEX - EXXON SOLUTEC",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/08/2026 13:00",
       "imo": "9814973",
       "navio": "SEALOADER 2",
       "tipo": "SAÍDA",
@@ -325,19 +335,9 @@
       "imo": "9626455",
       "navio": "KUDU (REB)",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 13:00",
-      "imo": "9725823",
-      "navio": "CAIFU CHAO",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - WPT 92 - AF Preferencial Gusa",
-      "para": "TPEX - EXXON SOLUTEC",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -388,16 +388,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "21/08/2026 15:30",
-      "imo": "1016692",
-      "navio": "MSC ADELE",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -461,7 +451,27 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/08/2026 08:00",
+      "inicio": "22/08/2026 09:00",
+      "imo": "9213959",
+      "navio": "INDUSTRIAL CHARGER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/08/2026 09:00",
+      "imo": "1016692",
+      "navio": "MSC ADELE",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/08/2026 12:00",
       "imo": "9723253",
       "navio": "BREMERHAVEN EXPRESS",
       "tipo": "ENTRADA",
@@ -508,6 +518,16 @@
       "de": "ESMC - MacLaren Ponta da Areia",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "21/08/2026 19:00",
+      "imo": "9239446",
+      "navio": "SKANDI CARLA",
+      "tipo": "SAÍDA",
+      "de": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
+      "para": "-",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Niterói",
