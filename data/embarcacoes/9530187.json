@@ -1,29 +1,36 @@
 {
   "imo": "9530187",
   "navio": "SANTOS SCOUT",
-  "gerado_em": "2026-08-22T05:04:17.231Z",
+  "gerado_em": "2026-08-22T06:44:37.642Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-22T04:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-22T06:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 34,
-    "manobras_365d": 34,
+    "manobras_30d": 8,
+    "manobras_180d": 35,
+    "manobras_365d": 35,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 2,
     "entradas_365d": 16,
-    "saidas_365d": 13,
+    "saidas_365d": 14,
     "ultima_entrada": "2026-08-21T14:00:00.000Z",
-    "ultima_saida": "2026-08-08T08:45:00.000Z",
-    "tempo_medio_estadia_horas": 32.3,
-    "tempo_medio_fundeio_horas": 70.1
+    "ultima_saida": "2026-08-22T06:30:00.000Z",
+    "tempo_medio_estadia_horas": 31.2,
+    "tempo_medio_fundeio_horas": 64
   },
   "historico_recente": [
+    {
+      "data": "2026-08-22T06:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-08-22T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-07-03T08:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
