@@ -1,29 +1,36 @@
 {
   "imo": "9286762",
   "navio": "SEVEN SABIÁ",
-  "gerado_em": "2026-08-22T01:24:23.575Z",
+  "gerado_em": "2026-08-22T02:32:21.484Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-19T21:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-22T02:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 22,
-    "manobras_365d": 22,
+    "manobras_30d": 5,
+    "manobras_180d": 23,
+    "manobras_365d": 23,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 2,
     "entradas_365d": 5,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-08-19T21:00:00.000Z",
-    "ultima_saida": "2026-08-19T19:00:00.000Z",
-    "tempo_medio_estadia_horas": 278.7,
-    "tempo_medio_fundeio_horas": 117.5
+    "ultima_saida": "2026-08-22T02:30:00.000Z",
+    "tempo_medio_estadia_horas": 222.4,
+    "tempo_medio_fundeio_horas": 101.5
   },
   "historico_recente": [
+    {
+      "data": "2026-08-22T02:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-08-19T21:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2N05 - Armazém 6",
       "para": "TPSS - SUBSEA"
-    },
-    {
-      "data": "2026-06-20T12:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2N05 - Armazém 6"
     }
   ]
 }
