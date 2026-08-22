@@ -1,29 +1,36 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-08-22T15:43:13.189Z",
+  "gerado_em": "2026-08-22T16:25:36.906Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-21T18:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-22T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 66,
-    "manobras_365d": 66,
+    "manobras_30d": 15,
+    "manobras_180d": 67,
+    "manobras_365d": 67,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 5,
     "entradas_365d": 15,
-    "saidas_365d": 15,
+    "saidas_365d": 16,
     "ultima_entrada": "2026-08-21T18:00:00.000Z",
-    "ultima_saida": "2026-08-13T04:00:00.000Z",
-    "tempo_medio_estadia_horas": 117.9,
+    "ultima_saida": "2026-08-22T16:00:00.000Z",
+    "tempo_medio_estadia_horas": 109.9,
     "tempo_medio_fundeio_horas": 32.1
   },
   "historico_recente": [
+    {
+      "data": "2026-08-22T16:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-08-21T18:00:00.000Z",
       "tipo": "ENTRADA",
@@ -85,13 +92,6 @@
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-08-02T01:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
