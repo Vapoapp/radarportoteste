@@ -1,29 +1,36 @@
 {
   "imo": "9710945",
   "navio": "SEACOR NILE (REB)",
-  "gerado_em": "2026-08-23T06:15:39.676Z",
+  "gerado_em": "2026-08-23T08:40:33.437Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-20T09:00:00.000Z"
+    "ultima_movimentacao": "2026-08-23T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 46,
-    "manobras_365d": 46,
+    "manobras_30d": 15,
+    "manobras_180d": 47,
+    "manobras_365d": 47,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 13,
     "saidas_365d": 14,
     "ultima_entrada": "2026-08-19T17:00:00.000Z",
     "ultima_saida": "2026-08-13T14:00:00.000Z",
     "tempo_medio_estadia_horas": 76.2,
-    "tempo_medio_fundeio_horas": 47.6
+    "tempo_medio_fundeio_horas": 49
   },
   "historico_recente": [
+    {
+      "data": "2026-08-23T06:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico"
+    },
     {
       "data": "2026-08-20T09:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-08-06T10:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
