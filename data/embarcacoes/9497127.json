@@ -1,29 +1,36 @@
 {
   "imo": "9497127",
   "navio": "CAMPOS CONTENDER",
-  "gerado_em": "2026-08-23T19:46:25.188Z",
+  "gerado_em": "2026-08-23T20:30:18.724Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-21T19:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-23T20:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 57,
-    "manobras_365d": 57,
+    "manobras_30d": 15,
+    "manobras_180d": 58,
+    "manobras_365d": 58,
     "entradas_30d": 6,
-    "saidas_30d": 6,
+    "saidas_30d": 7,
     "mudancas_30d": 2,
     "entradas_365d": 27,
-    "saidas_365d": 27,
+    "saidas_365d": 28,
     "ultima_entrada": "2026-08-21T19:00:00.000Z",
-    "ultima_saida": "2026-08-16T19:15:00.000Z",
-    "tempo_medio_estadia_horas": 45.1,
-    "tempo_medio_fundeio_horas": 41.3
+    "ultima_saida": "2026-08-23T20:30:00.000Z",
+    "tempo_medio_estadia_horas": 45.2,
+    "tempo_medio_fundeio_horas": 41.6
   },
   "historico_recente": [
+    {
+      "data": "2026-08-23T20:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-08-21T19:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-08-05T11:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
