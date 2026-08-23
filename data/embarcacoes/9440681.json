@@ -1,29 +1,36 @@
 {
   "imo": "9440681",
   "navio": "SKUA",
-  "gerado_em": "2026-08-23T11:01:30.804Z",
+  "gerado_em": "2026-08-23T13:28:12.343Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-23T09:00:00.000Z"
+    "ultima_movimentacao": "2026-08-23T13:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 57,
-    "manobras_365d": 57,
+    "manobras_30d": 15,
+    "manobras_180d": 58,
+    "manobras_365d": 58,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 16,
     "saidas_365d": 15,
     "ultima_entrada": "2026-08-23T04:00:00.000Z",
     "ultima_saida": "2026-08-14T04:00:00.000Z",
     "tempo_medio_estadia_horas": 77.3,
-    "tempo_medio_fundeio_horas": 22.5
+    "tempo_medio_fundeio_horas": 21.2
   },
   "historico_recente": [
+    {
+      "data": "2026-08-23T13:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-08-23T09:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "ESPR - MacLaren Ilha da Conceição"
-    },
-    {
-      "data": "2026-07-28T19:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }
