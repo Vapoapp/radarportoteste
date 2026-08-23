@@ -32,14 +32,14 @@
     "navio": "SINAR SUMATERA",
     "navio_normalizado": "SINAR SUMATERA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C21 - TECON 3 - MRIO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C21 - TECON 3 - MRIO",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-10T05:30:00.000Z",
-    "ultimo_hash_evento": "5d79961b79dc3ecc829e54f7bd0ba466b35629cdb867c7fc07da1cd7deb8b2fe",
-    "atualizado_em": "2026-08-10T15:43:48.051Z"
+    "ultima_movimentacao_em": "2026-08-23T00:30:00.000Z",
+    "ultimo_hash_evento": "cc329b47e772207cb8d9826d88bd7eb0c404b7d89e504d51817daa1c8a4143f2",
+    "atualizado_em": "2026-08-23T00:47:01.034Z"
   },
   "1016654": {
     "imo": "1016654",
@@ -95,7 +95,7 @@
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-08-22T21:30:00.000Z",
     "ultimo_hash_evento": "2055214b786579a4a6340ffeef7c34f27e377a2ed5ab583b26cc5a25a5a05770",
-    "atualizado_em": "2026-08-22T23:53:45.181Z"
+    "atualizado_em": "2026-08-23T00:47:01.034Z"
   },
   "1020045": {
     "imo": "1020045",
@@ -1810,14 +1810,14 @@
     "navio": "MARLIN COPACABANA",
     "navio_normalizado": "MARLIN COPACABANA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-15T16:00:00.000Z",
-    "ultimo_hash_evento": "9d494d3f86986317766982fbb5a924863127f24e48170b5696b58b7547ec0709",
-    "atualizado_em": "2026-08-15T16:26:32.639Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-22T06:30:00.000Z",
+    "ultimo_hash_evento": "51857ed80b58bfcfd4bce398e483c1761b081c318fac0c5250cfe0262f433163",
+    "atualizado_em": "2026-08-23T00:47:01.034Z"
   },
   "9283966": {
     "imo": "9283966",
@@ -6313,6 +6313,20 @@
     "ultimo_hash_evento": "73ef4dba3b1f34e37835591b3dc7f9d8eb23207601bf35fb5643f4f2ad7801a3",
     "atualizado_em": "2026-07-22T09:34:39.885Z"
   },
+  "9529592": {
+    "imo": "9529592",
+    "navio": "EAGLE ARROW",
+    "navio_normalizado": "EAGLE ARROW",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F03 - Feiticeira",
+    "destino_atual": "-",
+    "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-23T00:00:00.000Z",
+    "ultimo_hash_evento": "5f99eac8eb8ceb046e240567dacad89951cf8999fa0c4c4e2e14cc615a2d99e7",
+    "atualizado_em": "2026-08-23T00:47:01.034Z"
+  },
   "9529700": {
     "imo": "9529700",
     "navio": "POSIDONIA TIGER (REB)",
@@ -7158,14 +7172,14 @@
     "navio": "TANTALUS TIDE (REB)",
     "navio_normalizado": "TANTALUS TIDE",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-22T02:30:00.000Z",
-    "ultimo_hash_evento": "1962ebc36d6b65bcacd38488020dd031221a35b634964b213a2711e8ed26ee1d",
-    "atualizado_em": "2026-08-22T02:32:21.484Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-22T16:00:00.000Z",
+    "ultimo_hash_evento": "f9270a421aa241e1f4ca71766cd216d338401e19e44ff05d0405c36fc8f7502f",
+    "atualizado_em": "2026-08-23T00:47:01.034Z"
   },
   "9575632": {
     "imo": "9575632",

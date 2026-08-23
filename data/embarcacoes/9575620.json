@@ -1,21 +1,21 @@
 {
   "imo": "9575620",
   "navio": "TANTALUS TIDE (REB)",
-  "gerado_em": "2026-08-22T23:53:45.181Z",
+  "gerado_em": "2026-08-23T00:47:01.034Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-22T02:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-22T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 20,
-    "manobras_365d": 20,
+    "manobras_30d": 13,
+    "manobras_180d": 21,
+    "manobras_365d": 21,
     "entradas_30d": 6,
     "saidas_30d": 6,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 10,
     "saidas_365d": 10,
     "ultima_entrada": "2026-08-22T02:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 155
   },
   "historico_recente": [
+    {
+      "data": "2026-08-22T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-22T02:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-07T11:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
