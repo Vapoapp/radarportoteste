@@ -1,29 +1,36 @@
 {
   "imo": "9188130",
   "navio": "BRAM NATAL (REB)",
-  "gerado_em": "2026-08-24T12:03:12.310Z",
+  "gerado_em": "2026-08-24T13:07:13.629Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPBR - BRASCO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-24T10:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-24T13:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 45,
-    "manobras_365d": 45,
+    "manobras_30d": 13,
+    "manobras_180d": 46,
+    "manobras_365d": 46,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 7,
     "entradas_365d": 13,
-    "saidas_365d": 12,
+    "saidas_365d": 13,
     "ultima_entrada": "2026-08-22T15:00:00.000Z",
-    "ultima_saida": "2026-08-15T15:00:00.000Z",
-    "tempo_medio_estadia_horas": 122.7,
+    "ultima_saida": "2026-08-24T13:00:00.000Z",
+    "tempo_medio_estadia_horas": 116.3,
     "tempo_medio_fundeio_horas": 47.3
   },
   "historico_recente": [
+    {
+      "data": "2026-08-24T13:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "-"
+    },
     {
       "data": "2026-08-24T10:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "NIT - ATRACADO NITERÓI",
       "para": "-"
-    },
-    {
-      "data": "2026-08-03T15:40:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
