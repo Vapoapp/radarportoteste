@@ -1,29 +1,36 @@
 {
   "imo": "9545857",
   "navio": "COXON TIDE (REB)",
-  "gerado_em": "2026-08-24T09:09:57.529Z",
+  "gerado_em": "2026-08-24T10:01:53.992Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-07-30T11:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-24T09:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 24,
-    "manobras_365d": 24,
+    "manobras_30d": 2,
+    "manobras_180d": 25,
+    "manobras_365d": 25,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 7,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-07-30T11:00:00.000Z",
-    "ultima_saida": "2026-07-24T17:00:00.000Z",
-    "tempo_medio_estadia_horas": 244.7,
-    "tempo_medio_fundeio_horas": 126
+    "ultima_saida": "2026-08-24T09:30:00.000Z",
+    "tempo_medio_estadia_horas": 295.2,
+    "tempo_medio_fundeio_horas": 168.9
   },
   "historico_recente": [
+    {
+      "data": "2026-08-24T09:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-07-30T11:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-06-03T20:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
