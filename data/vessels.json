@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-25T19:39:12.368Z",
+  "updatedAt": "2026-08-25T19:59:39.431Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 57
+      "count": 58
     },
     "niteroi": {
       "ok": true,
@@ -382,16 +382,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/08/2026 16:00",
-      "imo": "9738090",
-      "navio": "HU PO HAI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01S - Visita Sul",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/08/2026 16:00",
       "imo": "9273064",
       "navio": "HEATHER KNUTSEN",
       "tipo": "SAÍDA",
@@ -431,6 +421,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "25/08/2026 16:00",
+      "imo": "9738090",
+      "navio": "HU PO HAI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01S - Visita Sul",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "25/08/2026 16:30",
       "imo": "9385271",
       "navio": "HOS TAURUS (REB)",
@@ -442,22 +442,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/08/2026 17:00",
-      "imo": "9411082",
-      "navio": "NEW LIBERTY",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/08/2026 17:00",
       "imo": "9788459",
       "navio": "MR ALDO",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/08/2026 17:00",
+      "imo": "9411082",
+      "navio": "NEW LIBERTY",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -497,6 +497,16 @@
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/08/2026 20:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
