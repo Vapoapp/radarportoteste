@@ -1,29 +1,36 @@
 {
   "imo": "9644146",
   "navio": "ALCATRAZ",
-  "gerado_em": "2026-08-25T19:02:15.463Z",
+  "gerado_em": "2026-08-25T19:39:12.368Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-08-25T12:00:00.000Z"
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-08-25T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 71,
-    "manobras_365d": 71,
-    "entradas_30d": 3,
+    "manobras_30d": 14,
+    "manobras_180d": 72,
+    "manobras_365d": 72,
+    "entradas_30d": 4,
     "saidas_30d": 3,
     "mudancas_30d": 7,
-    "entradas_365d": 17,
+    "entradas_365d": 18,
     "saidas_365d": 15,
-    "ultima_entrada": "2026-08-18T15:30:00.000Z",
+    "ultima_entrada": "2026-08-25T19:00:00.000Z",
     "ultima_saida": "2026-08-25T12:00:00.000Z",
     "tempo_medio_estadia_horas": 87,
     "tempo_medio_fundeio_horas": 36.1
   },
   "historico_recente": [
+    {
+      "data": "2026-08-25T19:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-08-25T12:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-08T05:40:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
