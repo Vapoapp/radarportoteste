@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-25T11:00:19.242Z",
+  "updatedAt": "2026-08-25T11:35:10.758Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 32
+      "count": 35
     },
     "niteroi": {
       "ok": true,
@@ -172,16 +172,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "25/08/2026 07:30",
-      "imo": "9364253",
-      "navio": "THESEUS Z (REB)",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "PATRIA NAVAL OPERACOES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "25/08/2026 07:30",
       "imo": "9698719",
       "navio": "BRAM BREEZE",
       "tipo": "MUDANÇA",
@@ -191,13 +181,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "25/08/2026 08:00",
-      "imo": "9969065",
-      "navio": "MAERSK FRANKFURT",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "inicio": "25/08/2026 07:30",
+      "imo": "9364253",
+      "navio": "THESEUS Z (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "PATRIA NAVAL OPERACOES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -208,6 +198,16 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/08/2026 08:00",
+      "imo": "9440679",
+      "navio": "PETREL",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -238,6 +238,16 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "PATRIA NAVAL OPERACOES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "25/08/2026 08:00",
+      "imo": "9969065",
+      "navio": "MAERSK FRANKFURT",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -340,6 +350,26 @@
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/08/2026 06:00",
+      "imo": "9969065",
+      "navio": "MAERSK FRANKFURT",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "26/08/2026 07:00",
+      "imo": "9252541",
+      "navio": "MSC MAGNUM VII",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "25/08/2026 07:00",
       "imo": "9664299",
@@ -361,7 +391,7 @@
     },
     {
       "porto": "Niterói",
-      "inicio": "25/08/2026 10:00",
+      "inicio": "25/08/2026 13:00",
       "imo": "9763772",
       "navio": "STIM STAR BRASIL",
       "tipo": "ENTRADA",
