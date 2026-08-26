@@ -1,21 +1,21 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-08-25T23:39:38.344Z",
+  "gerado_em": "2026-08-26T01:34:58.693Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-25T21:00:00.000Z"
+    "local": "NIT - ATRACADO NITERÓI",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-26T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 77,
-    "manobras_365d": 77,
+    "manobras_30d": 17,
+    "manobras_180d": 78,
+    "manobras_365d": 78,
     "entradas_30d": 5,
     "saidas_30d": 5,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 18,
     "saidas_365d": 17,
     "ultima_entrada": "2026-08-25T21:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 34
   },
   "historico_recente": [
+    {
+      "data": "2026-08-26T00:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
     {
       "data": "2026-08-25T21:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-15T12:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
