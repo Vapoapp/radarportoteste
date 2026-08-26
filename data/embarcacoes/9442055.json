@@ -1,21 +1,21 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-08-26T14:11:17.000Z",
+  "gerado_em": "2026-08-26T15:52:23.010Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-25T21:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-26T14:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 68,
-    "manobras_365d": 68,
+    "manobras_30d": 17,
+    "manobras_180d": 69,
+    "manobras_365d": 69,
     "entradas_30d": 6,
     "saidas_30d": 5,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 16,
     "saidas_365d": 16,
     "ultima_entrada": "2026-08-25T21:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 32.1
   },
   "historico_recente": [
+    {
+      "data": "2026-08-26T14:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-08-25T21:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-08-02T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
