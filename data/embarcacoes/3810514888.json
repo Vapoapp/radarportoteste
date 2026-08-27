@@ -1,21 +1,21 @@
 {
   "imo": "3810514888",
   "navio": "LOCAR III",
-  "gerado_em": "2026-08-27T05:06:54.571Z",
+  "gerado_em": "2026-08-27T16:27:41.769Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESLO - ESTALEIRO LOCAR",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-24T13:00:00.000Z"
+    "local": "2R12 - Terminal - MCAR 1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-27T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-08-24T13:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-08-27T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESLO - ESTALEIRO LOCAR",
+      "para": "2R12 - Terminal - MCAR 1"
+    },
     {
       "data": "2026-08-24T13:00:00.000Z",
       "tipo": "ENTRADA",
