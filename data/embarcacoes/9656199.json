@@ -1,21 +1,21 @@
 {
   "imo": "9656199",
   "navio": "SAPURA TOPAZIO",
-  "gerado_em": "2026-08-28T01:03:31.931Z",
+  "gerado_em": "2026-08-28T12:41:06.365Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
     "local": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-27T17:30:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-28T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 13,
-    "manobras_365d": 13,
+    "manobras_30d": 6,
+    "manobras_180d": 14,
+    "manobras_365d": 14,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 7,
     "saidas_365d": 6,
     "ultima_entrada": "2026-08-27T17:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 6
   },
   "historico_recente": [
+    {
+      "data": "2026-08-28T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 64 - 2F6A",
+      "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU"
+    },
     {
       "data": "2026-08-27T17:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - WPT 82 - 2F08"
-    },
-    {
-      "data": "2026-05-05T16:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
