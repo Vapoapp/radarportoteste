@@ -1,29 +1,36 @@
 {
   "imo": "9382229",
   "navio": "NORTH OCEAN 102",
-  "gerado_em": "2026-08-27T16:27:41.769Z",
+  "gerado_em": "2026-08-28T01:03:31.931Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-23T15:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-27T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 13,
-    "manobras_365d": 13,
+    "manobras_30d": 6,
+    "manobras_180d": 14,
+    "manobras_365d": 14,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 1,
     "entradas_365d": 6,
-    "saidas_365d": 5,
+    "saidas_365d": 6,
     "ultima_entrada": "2026-08-23T15:00:00.000Z",
-    "ultima_saida": "2026-08-17T19:00:00.000Z",
-    "tempo_medio_estadia_horas": 182.3,
+    "ultima_saida": "2026-08-27T17:00:00.000Z",
+    "tempo_medio_estadia_horas": 165.4,
     "tempo_medio_fundeio_horas": 161.8
   },
   "historico_recente": [
+    {
+      "data": "2026-08-27T17:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+      "para": "-"
+    },
     {
       "data": "2026-08-23T15:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - WPT 91 - AF Preferencial Gusa"
-    },
-    {
-      "data": "2026-06-25T16:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - WPT 63 - 2F6A",
-      "para": "-"
     }
   ]
 }

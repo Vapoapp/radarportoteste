@@ -1,29 +1,36 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-08-27T16:27:41.769Z",
+  "gerado_em": "2026-08-28T01:03:31.931Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-26T22:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-27T22:15:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 79,
-    "manobras_365d": 79,
+    "manobras_30d": 17,
+    "manobras_180d": 80,
+    "manobras_365d": 80,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 7,
     "entradas_365d": 18,
-    "saidas_365d": 17,
+    "saidas_365d": 18,
     "ultima_entrada": "2026-08-25T21:00:00.000Z",
-    "ultima_saida": "2026-08-18T22:00:00.000Z",
+    "ultima_saida": "2026-08-27T22:15:00.000Z",
     "tempo_medio_estadia_horas": 92.5,
-    "tempo_medio_fundeio_horas": 34
+    "tempo_medio_fundeio_horas": 33.5
   },
   "historico_recente": [
+    {
+      "data": "2026-08-27T22:15:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-08-26T22:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
-    },
-    {
-      "data": "2026-08-16T12:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
