@@ -1,21 +1,21 @@
 {
   "imo": "9292072",
   "navio": "ILHA DO CABO FRIO",
-  "gerado_em": "2026-08-28T12:41:06.365Z",
+  "gerado_em": "2026-08-28T22:40:14.403Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
+    "porto": "Niterói",
     "em_fundeio": true,
     "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-18T16:15:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-28T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 43,
-    "manobras_365d": 43,
+    "manobras_30d": 13,
+    "manobras_180d": 44,
+    "manobras_365d": 44,
     "entradas_30d": 6,
     "saidas_30d": 6,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 13,
     "saidas_365d": 13,
     "ultima_entrada": "2026-08-18T16:15:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 39.3
   },
   "historico_recente": [
+    {
+      "data": "2026-08-28T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-18T16:15:00.000Z",
       "tipo": "ENTRADA",
@@ -79,13 +86,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-15T10:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     },
     {
       "data": "2026-08-15T10:00:00.000Z",

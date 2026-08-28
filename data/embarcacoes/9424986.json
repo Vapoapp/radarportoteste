@@ -1,29 +1,43 @@
 {
   "imo": "9424986",
   "navio": "SAVEIROS ATOBÁ",
-  "gerado_em": "2026-08-28T12:41:06.365Z",
+  "gerado_em": "2026-08-28T22:40:14.403Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
     "local": "ESWS - ESTALEIRO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-28T10:00:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-28T16:15:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 13,
-    "manobras_365d": 13,
+    "manobras_30d": 9,
+    "manobras_180d": 15,
+    "manobras_365d": 15,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 2,
+    "mudancas_30d": 4,
     "entradas_365d": 5,
     "saidas_365d": 4,
     "ultima_entrada": "2026-08-28T10:00:00.000Z",
     "ultima_saida": "2026-08-15T02:00:00.000Z",
     "tempo_medio_estadia_horas": 16.8,
-    "tempo_medio_fundeio_horas": 23.5
+    "tempo_medio_fundeio_horas": 18.1
   },
   "historico_recente": [
+    {
+      "data": "2026-08-28T16:15:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "ESWS - ESTALEIRO"
+    },
+    {
+      "data": "2026-08-28T14:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESWS - ESTALEIRO",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-08-28T10:00:00.000Z",
       "tipo": "ENTRADA",
@@ -78,20 +92,6 @@
       "tipo": "SAÍDA",
       "porto": "Rio de Janeiro",
       "de": "TPBR - BRASCO",
-      "para": "-"
-    },
-    {
-      "data": "2026-07-18T09:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "TPBR - BRASCO"
-    },
-    {
-      "data": "2026-07-09T00:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
     }
   ]
