@@ -2622,14 +2622,14 @@
     "navio": "ASSO VENTISEI",
     "navio_normalizado": "ASSO VENTISEI",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-31T23:00:00.000Z",
-    "ultimo_hash_evento": "6811a72bcb2f617e1215eed589a39ae537d23bf1d2a766bfd2b61d14cdb8ee73",
-    "atualizado_em": "2026-07-31T23:44:18.250Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-29T06:00:00.000Z",
+    "ultimo_hash_evento": "ab66c26268e7aea42504082dde79672447d9b74a2ef538ca9d0bcbd1f6c51c4a",
+    "atualizado_em": "2026-08-29T21:10:06.326Z"
   },
   "9326017": {
     "imo": "9326017",
@@ -3699,15 +3699,15 @@
     "imo": "9385271",
     "navio": "HOS TAURUS (REB)",
     "navio_normalizado": "HOS TAURUS",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-26T12:00:00.000Z",
-    "ultimo_hash_evento": "620ac147a2f7e611845203a8493b21770422da7bb440e863d6f173019f0d792c",
-    "atualizado_em": "2026-08-26T13:27:07.492Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-29T21:00:00.000Z",
+    "ultimo_hash_evento": "bfe9328eb685cc53c13ab6fe3e9f21a1bbc413ead91de111fb5e5ae6b6b722d2",
+    "atualizado_em": "2026-08-29T21:10:06.326Z"
   },
   "9385398": {
     "imo": "9385398",
@@ -12367,13 +12367,13 @@
     "navio_normalizado": "STARNAV VOLANS",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-28T18:55:00.000Z",
-    "ultimo_hash_evento": "7c4f66c9237c69d0d5e1b528efcdab53eb27b23b6edd4553843c4aaf273c3409",
-    "atualizado_em": "2026-08-28T22:40:14.403Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-29T20:00:00.000Z",
+    "ultimo_hash_evento": "ea5d90a20a8f9328fe37d8caa123c463d08a07358ab4e487310b3ee893e943a5",
+    "atualizado_em": "2026-08-29T21:10:06.326Z"
   },
   "9759991": {
     "imo": "9759991",
@@ -12892,6 +12892,20 @@
     "ultima_movimentacao_em": "2026-08-23T19:00:00.000Z",
     "ultimo_hash_evento": "85d9d0723c627bc7cadd8777616ec9bafeed8360db247675b5df11ded3dc6147",
     "atualizado_em": "2026-08-23T19:00:43.930Z"
+  },
+  "9785457": {
+    "imo": "9785457",
+    "navio": "MSC RAYSHMI",
+    "navio_normalizado": "MSC RAYSHMI",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C22 - TECON 2 - MRIO",
+    "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-29T19:00:00.000Z",
+    "ultimo_hash_evento": "645fd79f50fc52f296bc8a20f8894740571df9a78afa34675058275c4bd39c39",
+    "atualizado_em": "2026-08-29T21:10:06.326Z"
   },
   "9785615": {
     "imo": "9785615",
@@ -13724,14 +13738,14 @@
     "navio": "SU MAY",
     "navio_normalizado": "SU MAY",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
-    "destino_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "101 - TECAR - CSN MINERAÇÃO S.A.",
+    "destino_atual": "-",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-29T14:00:00.000Z",
-    "ultimo_hash_evento": "53e9f34b5c5a5053bd43cdcb6e4b87fd040a04bb9a492493685a8f0e074228da",
-    "atualizado_em": "2026-08-29T15:15:59.961Z"
+    "ultima_movimentacao_em": "2026-08-29T21:00:00.000Z",
+    "ultimo_hash_evento": "b1b6e81ee15b2f65dcfbe087dd1564575694effc97b0d3c3e89ecd0034c543ab",
+    "atualizado_em": "2026-08-29T21:10:06.326Z"
   },
   "9847205": {
     "imo": "9847205",
