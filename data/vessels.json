@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-08-29T03:52:12.018Z",
+  "updatedAt": "2026-08-29T10:30:39.776Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 22
+      "count": 28
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -54,9 +54,29 @@
       "inicio": "29/08/2026 02:00",
       "imo": "9627629",
       "navio": "CBO ARPOADOR",
-      "tipo": "SAÍDA",
+      "tipo": "MUDANÇA",
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/08/2026 03:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/08/2026 05:30",
+      "imo": "9627629",
+      "navio": "CBO ARPOADOR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
@@ -78,6 +98,16 @@
       "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/08/2026 06:30",
+      "imo": "9636034",
+      "navio": "ORYX (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -121,6 +151,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "29/08/2026 07:30",
+      "imo": "9798856",
+      "navio": "PYXIS OCEAN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "29/08/2026 08:00",
       "imo": "9246592",
       "navio": "GRANDE FRANCIA",
@@ -152,6 +192,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "29/08/2026 10:00",
+      "imo": "9424039",
+      "navio": "CASTILLO DE HERRERA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 64 - 2F6A",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/08/2026 10:00",
       "imo": "9814961",
       "navio": "SEALOADER 1",
       "tipo": "ENTRADA",
@@ -168,6 +218,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "29/08/2026 11:00",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -270,6 +330,16 @@
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
+      "porto": "Niterói",
+      "inicio": "29/08/2026 23:00",
+      "imo": "9687368",
+      "navio": "BRAM BOA VISTA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "29/08/2026 01:00",
       "imo": "9738741",
@@ -291,13 +361,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "29/08/2026 08:30",
-      "imo": "9872183",
-      "navio": "COSCO SHIPPING XING WANG",
+      "inicio": "29/08/2026 06:30",
+      "imo": "9446439",
+      "navio": "CHANG SHOU STAR",
       "tipo": "SAÍDA",
-      "de": "302 - TECON - SEPETIBA TECON S.A.",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
-      "agente": "ISS MARINE SERVICES LTDA"
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Itaguaí",
@@ -341,27 +411,27 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "29/08/2026 15:30",
-      "imo": "9976496",
-      "navio": "GREEN MUNGUBA",
+      "inicio": "29/08/2026 13:30",
+      "imo": "9519078",
+      "navio": "STAR MARIANNE",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "302 - TECON - SEPETIBA TECON S.A.",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "29/08/2026 16:00",
+      "imo": "9872183",
+      "navio": "COSCO SHIPPING XING WANG",
+      "tipo": "SAÍDA",
+      "de": "302 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
       "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",
       "inicio": "29/08/2026 18:00",
-      "imo": "9446439",
-      "navio": "CHANG SHOU STAR",
-      "tipo": "SAÍDA",
-      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-      "para": "-",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "29/08/2026 19:00",
       "imo": "9847097",
       "navio": "SU MAY",
       "tipo": "SAÍDA",
