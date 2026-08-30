@@ -2594,14 +2594,14 @@
     "navio": "NAVIOS AMARILLO",
     "navio_normalizado": "NAVIOS AMARILLO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "ZIM DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-30T13:00:00.000Z",
-    "ultimo_hash_evento": "74b400de429e8aee1970e007c4f5c1e9247cfd67d68ed044be9f85437d94c2fc",
-    "atualizado_em": "2026-08-30T16:46:44.994Z"
+    "ultima_movimentacao_em": "2026-08-30T22:00:00.000Z",
+    "ultimo_hash_evento": "8a8947bb61ea19d556b9e796169b6c0798ab2bb4d08b81296a2cb292d3d67fa8",
+    "atualizado_em": "2026-08-30T22:00:04.803Z"
   },
   "9325300": {
     "imo": "9325300",
@@ -4022,14 +4022,14 @@
     "navio": "SEASPAN EMPIRE",
     "navio_normalizado": "SEASPAN EMPIRE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C11 - TECON - ICTSI 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-11T08:00:00.000Z",
-    "ultimo_hash_evento": "9b685a2c572bcca70a1174a6c8970f303ceddbbc45796df31ca442e3419ddbbb",
-    "atualizado_em": "2026-07-11T08:21:58.412Z"
+    "ultima_movimentacao_em": "2026-08-30T19:30:00.000Z",
+    "ultimo_hash_evento": "8f60c446e746422b12acb880bf652f531a80a1267c1bd24ac82b4dd4d80b04f7",
+    "atualizado_em": "2026-08-30T22:00:04.803Z"
   },
   "9407392": {
     "imo": "9407392",
@@ -7447,6 +7447,20 @@
     "ultimo_hash_evento": "680709d780877ce091b9f253e60127ff5472f38b1d2da3ee158694e56142c1a4",
     "atualizado_em": "2026-08-07T05:17:39.292Z"
   },
+  "9573115": {
+    "imo": "9573115",
+    "navio": "CANAL",
+    "navio_normalizado": "CANAL",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-30T22:00:00.000Z",
+    "ultimo_hash_evento": "7fd142df560098f8b9a3c302c853b9282692a90045421b259f3c996311b54afb",
+    "atualizado_em": "2026-08-30T22:00:04.803Z"
+  },
   "9573244": {
     "imo": "9573244",
     "navio": "STERNA",
@@ -7760,14 +7774,14 @@
     "navio": "CHINA PROSPERITY",
     "navio_normalizado": "CHINA PROSPERITY",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-30T10:00:00.000Z",
-    "ultimo_hash_evento": "2911e62226a11ca92a7f1001fb4bd22d310e14663d4a993830e8ea51b9c275f1",
-    "atualizado_em": "2026-08-30T12:17:34.548Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-08-30T20:30:00.000Z",
+    "ultimo_hash_evento": "3d27a03dca0403733780d0787c81a34831d490892cacb571745fe407018c3d3e",
+    "atualizado_em": "2026-08-30T22:00:04.803Z"
   },
   "9592446": {
     "imo": "9592446",
@@ -10168,14 +10182,14 @@
     "navio": "HOS REMINGTON",
     "navio_normalizado": "HOS REMINGTON",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-30T13:00:00.000Z",
-    "ultimo_hash_evento": "a5cbd0a4ca5c279f248e8b5073c46605ba32c3b45ed1479485c7f3ebe5acfde3",
-    "atualizado_em": "2026-08-30T16:46:44.994Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-30T21:30:00.000Z",
+    "ultimo_hash_evento": "328b1822a42f4d0f3937a70d00599514200835d2209d5d64a88682408fc2ed88",
+    "atualizado_em": "2026-08-30T22:00:04.803Z"
   },
   "9686326": {
     "imo": "9686326",
@@ -10520,12 +10534,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
     "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "NIT - ATRACADO NITERÓI",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-30T19:00:00.000Z",
-    "ultimo_hash_evento": "136586489907cc324e07c10b0d39d1c4a7e09ebef49b6dc0a621be1edb11491c",
-    "atualizado_em": "2026-08-30T19:29:33.318Z"
+    "ultima_movimentacao_em": "2026-08-30T20:00:00.000Z",
+    "ultimo_hash_evento": "1d6ea23b95df8ec4face5de73e8bf0450d948619a7ca7a669d301263a8ad72eb",
+    "atualizado_em": "2026-08-30T22:00:04.803Z"
   },
   "9697002": {
     "imo": "9697002",
