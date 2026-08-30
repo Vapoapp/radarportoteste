@@ -1,21 +1,21 @@
 {
   "imo": "9687368",
   "navio": "BRAM BOA VISTA",
-  "gerado_em": "2026-08-30T16:46:44.994Z",
+  "gerado_em": "2026-08-30T19:29:33.318Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-08-30T00:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-08-30T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 28,
-    "manobras_365d": 28,
+    "manobras_30d": 11,
+    "manobras_180d": 29,
+    "manobras_365d": 29,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 12,
     "saidas_365d": 11,
     "ultima_entrada": "2026-08-30T00:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 21.3
   },
   "historico_recente": [
+    {
+      "data": "2026-08-30T18:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-30T00:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-08-05T20:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
