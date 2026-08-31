@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-30T22:00:04.803Z",
+  "updatedAt": "2026-08-31T00:22:59.512Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 36
+      "count": 41
     },
     "niteroi": {
       "ok": true,
@@ -112,22 +112,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/08/2026 06:00",
-      "imo": "9423231",
-      "navio": "CAMPOS CHALLENGER",
-      "tipo": "MUDANÇA",
-      "de": "TPBR - BRASCO",
-      "para": "TPBL - BRICLOG",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "30/08/2026 06:00",
       "imo": "9785457",
       "navio": "MSC RAYSHMI",
       "tipo": "SAÍDA",
       "de": "2C22 - TECON 2 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/08/2026 06:00",
+      "imo": "9423231",
+      "navio": "CAMPOS CHALLENGER",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "TPBL - BRICLOG",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -182,6 +182,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/08/2026 10:00",
+      "imo": "9324849",
+      "navio": "NAVIOS AMARILLO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/08/2026 10:00",
       "imo": "9492062",
       "navio": "RIO GRANDE",
       "tipo": "ENTRADA",
@@ -198,16 +208,6 @@
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "30/08/2026 10:00",
-      "imo": "9324849",
-      "navio": "NAVIOS AMARILLO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "ZIM DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -302,12 +302,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/08/2026 16:00",
-      "imo": "3813885305",
-      "navio": "C NITERÓI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "ESCM - ESTALEIRO CAMORIM",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "NIT - ATRACADO NITERÓI",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -322,12 +322,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/08/2026 16:00",
-      "imo": "9696802",
-      "navio": "STARNAV AQUARIUS (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "NIT - ATRACADO NITERÓI",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+      "imo": "3813885305",
+      "navio": "C NITERÓI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESCM - ESTALEIRO CAMORIM",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -362,6 +362,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/08/2026 19:30",
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/08/2026 19:30",
       "imo": "9710945",
       "navio": "SEACOR NILE (REB)",
       "tipo": "MUDANÇA",
@@ -372,12 +382,52 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "30/08/2026 20:00",
+      "imo": "9273349",
+      "navio": "MARLIN LEBLON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/08/2026 20:00",
       "imo": "9482330",
       "navio": "MULTIPLICITY (REB)",
       "tipo": "SAÍDA",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/08/2026 20:00",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/08/2026 22:00",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/08/2026 08:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Niterói",
@@ -536,7 +586,7 @@
       "navio": "CANAL",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "para": "Fundeio - 5FA2 - Área de Fundeio A2",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
@@ -551,7 +601,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "30/08/2026 22:00",
+      "inicio": "31/08/2026 02:00",
       "imo": "9581174",
       "navio": "HL GLADSTONE",
       "tipo": "SAÍDA",
@@ -571,11 +621,11 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "31/08/2026 06:30",
+      "inicio": "31/08/2026 07:30",
       "imo": "9573115",
       "navio": "CANAL",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "de": "Fundeio - 5FA2 - Área de Fundeio A2",
       "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     },

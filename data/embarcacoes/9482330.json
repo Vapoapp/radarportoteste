@@ -1,29 +1,36 @@
 {
   "imo": "9482330",
   "navio": "MULTIPLICITY (REB)",
-  "gerado_em": "2026-08-30T22:00:04.803Z",
+  "gerado_em": "2026-08-31T00:22:59.512Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-30T05:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-08-30T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 62,
-    "manobras_365d": 62,
+    "manobras_30d": 16,
+    "manobras_180d": 63,
+    "manobras_365d": 63,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 9,
     "entradas_365d": 14,
-    "saidas_365d": 14,
+    "saidas_365d": 15,
     "ultima_entrada": "2026-08-29T14:00:00.000Z",
-    "ultima_saida": "2026-08-23T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 118,
+    "ultima_saida": "2026-08-30T23:00:00.000Z",
+    "tempo_medio_estadia_horas": 112,
     "tempo_medio_fundeio_horas": 34.5
   },
   "historico_recente": [
+    {
+      "data": "2026-08-30T23:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-08-30T05:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "2P14 - Terminal Petrobrás (Armazém 14)"
-    },
-    {
-      "data": "2026-08-10T19:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
