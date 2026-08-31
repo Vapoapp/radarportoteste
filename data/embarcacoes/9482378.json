@@ -1,21 +1,21 @@
 {
   "imo": "9482378",
   "navio": "CBO MANOELLA",
-  "gerado_em": "2026-08-31T18:19:28.245Z",
+  "gerado_em": "2026-08-31T22:55:34.871Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "NIT - ATRACADO NITERÓI",
+    "local": "2N11 - Armazém 13",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-03T11:30:00.000Z"
+    "ultima_movimentacao": "2026-08-31T13:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 2,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-06-08T16:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 12.8
   },
   "historico_recente": [
+    {
+      "data": "2026-08-31T13:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N11 - Armazém 13"
+    },
     {
       "data": "2026-08-03T11:30:00.000Z",
       "tipo": "MUDANÇA",

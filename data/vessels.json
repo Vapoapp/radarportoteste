@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-31T18:19:28.245Z",
+  "updatedAt": "2026-08-31T22:55:34.871Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 34
+      "count": 37
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 6
     },
     "itaguai": {
       "ok": true,
-      "count": 15
+      "count": 16
     },
     "angra": {
       "ok": true,
@@ -172,6 +172,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "31/08/2026 10:00",
+      "imo": "9255098",
+      "navio": "MARLIN YARE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/08/2026 10:00",
       "imo": "9656199",
       "navio": "SAPURA TOPAZIO",
       "tipo": "SAÍDA",
@@ -181,13 +191,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "31/08/2026 10:00",
-      "imo": "9255098",
-      "navio": "MARLIN YARE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+      "inicio": "31/08/2026 10:30",
+      "imo": "9482378",
+      "navio": "CBO MANOELLA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N11 - Armazém 13",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -231,16 +241,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "31/08/2026 13:00",
-      "imo": "9680774",
-      "navio": "VEGA CHASER (REB)",
-      "tipo": "SAÍDA",
-      "de": "ESSM - SÃO MIGUEL",
-      "para": "-",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "31/08/2026 14:00",
       "imo": "9702883",
       "navio": "CBO WISER (REB)",
@@ -281,6 +281,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "31/08/2026 18:00",
+      "imo": "9680774",
+      "navio": "VEGA CHASER (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/08/2026 18:00",
+      "imo": "9477397",
+      "navio": "CBO CAROLINA",
+      "tipo": "SAÍDA",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "31/08/2026 19:00",
       "imo": "9654464",
       "navio": "WIELAND",
@@ -288,6 +308,16 @@
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/08/2026 21:00",
+      "imo": "9565651",
+      "navio": "CBO ALESSANDRA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -400,6 +430,26 @@
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
     },
     {
+      "porto": "Niterói",
+      "inicio": "31/08/2026 16:00",
+      "imo": "4030219411",
+      "navio": "OCEAN DREAM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "31/08/2026 18:00",
+      "imo": "9559975",
+      "navio": "STIM STAR ARABIAN GULF (REB)",
+      "tipo": "SAÍDA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "31/08/2026 02:00",
       "imo": "9581174",
@@ -452,12 +502,12 @@
     {
       "porto": "Itaguaí",
       "inicio": "31/08/2026 22:00",
-      "imo": "9735177",
-      "navio": "STAR GINA 2GR",
+      "imo": "9731444",
+      "navio": "STAR LIBRA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 5FB5 - Área de Fundeio B5",
-      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+      "para": "Fundeio - 5FA1 - Área de Fundeio A1",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -492,12 +542,12 @@
     {
       "porto": "Itaguaí",
       "inicio": "01/09/2026 06:00",
-      "imo": "9735177",
-      "navio": "STAR GINA 2GR",
+      "imo": "9731444",
+      "navio": "STAR LIBRA",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
+      "de": "Fundeio - 5FA1 - Área de Fundeio A1",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
-      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -522,12 +572,12 @@
     {
       "porto": "Itaguaí",
       "inicio": "01/09/2026 11:00",
-      "imo": "9731444",
-      "navio": "STAR LIBRA",
+      "imo": "9735177",
+      "navio": "STAR GINA 2GR",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 5FB4 - Área de Fundeio B4",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+      "para": "Fundeio - 5FB5 - Área de Fundeio B5",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
     },
     {
       "porto": "Itaguaí",
@@ -548,6 +598,16 @@
       "de": "-",
       "para": "302 - TECON - SEPETIBA TECON S.A.",
       "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "01/09/2026 18:30",
+      "imo": "9855214",
+      "navio": "BERGE MERU",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FE1 - Área de Fundeio E1",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
     }
   ]
 }
