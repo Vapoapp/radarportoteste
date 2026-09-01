@@ -8502,14 +8502,14 @@
     "navio": "CBO MISTRAL (REB)",
     "navio_normalizado": "CBO MISTRAL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-28T03:00:00.000Z",
-    "ultimo_hash_evento": "0b4849434da398c5fe03674ea12a8c8d0d0498d216c29bc3a0d654495e297afd",
-    "atualizado_em": "2026-08-28T12:41:06.365Z"
+    "ultima_movimentacao_em": "2026-09-01T00:00:00.000Z",
+    "ultimo_hash_evento": "2d8ff4c25637aa48d9411d62860756331436715bec01ae8180d9007b144b01ad",
+    "atualizado_em": "2026-09-01T01:35:33.266Z"
   },
   "9621259": {
     "imo": "9621259",
@@ -10112,14 +10112,14 @@
     "navio": "VEGA CHASER (REB)",
     "navio_normalizado": "VEGA CHASER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-31T21:00:00.000Z",
-    "ultimo_hash_evento": "6914ae8bc34501acffcd0314e30e1627e93b882298b785e19c4b3b713d15bd82",
-    "atualizado_em": "2026-08-31T22:55:34.871Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-31T23:00:00.000Z",
+    "ultimo_hash_evento": "ff659671a952388c91ef95f7674118c79b6d2b318fd415384ecdbd7500054228",
+    "atualizado_em": "2026-09-01T01:35:33.266Z"
   },
   "9680786": {
     "imo": "9680786",
@@ -10195,15 +10195,15 @@
     "imo": "9685396",
     "navio": "RAQUEL KNUTSEN",
     "navio_normalizado": "RAQUEL KNUTSEN",
-    "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
-    "destino_atual": "-",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01S - Visita Sul",
     "agente_atual": "TRIAINA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-05T15:00:00.000Z",
-    "ultimo_hash_evento": "90879c291f42c2b6905ae843067c7dac56dc2d2b5245609cb697e65288d6550e",
-    "atualizado_em": "2026-08-05T15:21:24.019Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-08-31T21:00:00.000Z",
+    "ultimo_hash_evento": "15c8cf7d75dac8564efda4a393edc3f1038c3a6966c6b5719dbdf76ba9b0cb8e",
+    "atualizado_em": "2026-09-01T01:35:33.266Z"
   },
   "9686144": {
     "imo": "9686144",
@@ -10770,14 +10770,14 @@
     "navio": "CBO WISER (REB)",
     "navio_normalizado": "CBO WISER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
     "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-31T17:00:00.000Z",
-    "ultimo_hash_evento": "865bcefe980bdd310a0de6b4b360a9490386262325bb233dacf7969afd8c9378",
-    "atualizado_em": "2026-08-31T18:19:28.245Z"
+    "ultima_movimentacao_em": "2026-09-01T00:00:00.000Z",
+    "ultimo_hash_evento": "9117d12c9de1397bfcbb31d6fadee538fc80be6341b7b6f04a01f9e538913b68",
+    "atualizado_em": "2026-09-01T01:35:33.266Z"
   },
   "9703162": {
     "imo": "9703162",
@@ -11716,6 +11716,20 @@
     "ultima_movimentacao_em": "2026-06-06T01:00:00.000Z",
     "ultimo_hash_evento": "defc581f19e57a0c60f0e8c9f018adb72e657773b62728509f74aea2be04d53c",
     "atualizado_em": "2026-06-06T02:06:25.748Z"
+  },
+  "9731444": {
+    "imo": "9731444",
+    "navio": "STAR LIBRA",
+    "navio_normalizado": "STAR LIBRA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FA1 - Área de Fundeio A1",
+    "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-01T01:00:00.000Z",
+    "ultimo_hash_evento": "870f025bce18a31beac6351a6c9d4a0fcd86924624931af936c1b232fd2502d3",
+    "atualizado_em": "2026-09-01T01:35:33.266Z"
   },
   "9731468": {
     "imo": "9731468",
