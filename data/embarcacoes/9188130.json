@@ -1,21 +1,21 @@
 {
   "imo": "9188130",
   "navio": "BRAM NATAL (REB)",
-  "gerado_em": "2026-09-01T12:03:33.380Z",
+  "gerado_em": "2026-09-01T16:31:50.962Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESPR - MacLaren Ilha da Conceição",
+    "local": "NIT - ATRACADO NITERÓI",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-01T10:00:00.000Z"
+    "ultima_movimentacao": "2026-09-01T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 48,
-    "manobras_365d": 48,
+    "manobras_30d": 16,
+    "manobras_180d": 49,
+    "manobras_365d": 49,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 14,
     "saidas_365d": 13,
     "ultima_entrada": "2026-08-28T14:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 49.8
   },
   "historico_recente": [
+    {
+      "data": "2026-09-01T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
     {
       "data": "2026-09-01T10:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "ESPR - MacLaren Ilha da Conceição"
-    },
-    {
-      "data": "2026-08-13T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBR - BRASCO"
     }
   ]
 }
