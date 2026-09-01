@@ -3515,17 +3515,17 @@
   },
   "9371385": {
     "imo": "9371385",
-    "navio": "OCEANICASUB XVII",
+    "navio": "OCEANICASUB XVII (REB)",
     "navio_normalizado": "OCEANICASUB XVII",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "-",
     "agente_atual": "OCEANICA ENGENHARIA E CONSULTORIA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-01T09:00:00.000Z",
-    "ultimo_hash_evento": "8d60f279fca6f4904316c8c5b9223ba387161e3f781a330d875dacf14ebdd096",
-    "atualizado_em": "2026-09-01T12:03:33.380Z"
+    "ultima_movimentacao_em": "2026-09-01T23:00:00.000Z",
+    "ultimo_hash_evento": "a109e2551a8f3d1efe2913ce031560e3b8bcca2f88eb4d218a3071baa315f874",
+    "atualizado_em": "2026-09-01T23:48:39.129Z"
   },
   "9371579": {
     "imo": "9371579",
@@ -4890,28 +4890,28 @@
     "navio": "PETREL",
     "navio_normalizado": "PETREL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-26T03:00:00.000Z",
-    "ultimo_hash_evento": "0a5fd0652df022dd07b7fbcfe0e5c46142dcb8acf4de6dc91a87dccedc8558e2",
-    "atualizado_em": "2026-08-26T03:40:34.838Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-01T23:00:00.000Z",
+    "ultimo_hash_evento": "516bbc304c750f92447cb8ad82a7f6dfc80c42d94eb05806a29a809a4c926bcc",
+    "atualizado_em": "2026-09-01T23:48:39.129Z"
   },
   "9440681": {
     "imo": "9440681",
     "navio": "SKUA",
     "navio_normalizado": "SKUA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-01T21:00:00.000Z",
-    "ultimo_hash_evento": "be23074dad5a252731dbb0693783873b0fece46f1ad304c74afb090f53820f88",
-    "atualizado_em": "2026-09-01T21:56:42.068Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-01T23:15:00.000Z",
+    "ultimo_hash_evento": "5567375425c5022cea76fc8036f510ef1bb8682650b6a82a96e64993270fcc40",
+    "atualizado_em": "2026-09-01T23:48:39.129Z"
   },
   "9440708": {
     "imo": "9440708",
@@ -4931,15 +4931,15 @@
     "imo": "9442055",
     "navio": "TALHA-MAR",
     "navio_normalizado": "TALHA-MAR",
-    "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-31T10:00:00.000Z",
-    "ultimo_hash_evento": "6af22a1d6955820b4658adfef8ca8b9898849cc1008b8c11766baf53bb4fc676",
-    "atualizado_em": "2026-08-31T11:52:38.075Z"
+    "ultima_movimentacao_em": "2026-09-01T22:20:00.000Z",
+    "ultimo_hash_evento": "94f6ae4eab004586965e097afaf6d68578427e262620dc3f13004f68fa05b74d",
+    "atualizado_em": "2026-09-01T23:48:39.129Z"
   },
   "9442067": {
     "imo": "9442067",
@@ -6494,6 +6494,20 @@
     "ultima_movimentacao_em": "2026-07-24T09:00:00.000Z",
     "ultimo_hash_evento": "890fa4c01f6cdc646e17a003ad323152d1a88f901fdd3fe052a4a364b1da2260",
     "atualizado_em": "2026-07-24T09:10:12.371Z"
+  },
+  "9522635": {
+    "imo": "9522635",
+    "navio": "CAPTAIN J.PAPADAKIS",
+    "navio_normalizado": "CAPTAIN J.PAPADAKIS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB3 - Área de Fundeio B3",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-01T23:30:00.000Z",
+    "ultimo_hash_evento": "9c01a199d71f6214d0c2aab0ecbc8ddb53bfdcdf87ef26974c6aed8ac27b7b07",
+    "atualizado_em": "2026-09-01T23:48:39.129Z"
   },
   "9522673": {
     "imo": "9522673",
@@ -9853,7 +9867,7 @@
     "em_fundeio": true,
     "ultima_movimentacao_em": "2026-09-01T12:00:00.000Z",
     "ultimo_hash_evento": "b68659dc518399cfb0b03ece04ff4777b438f87a4a3f29b46ffd2e7571bfbd4b",
-    "atualizado_em": "2026-09-01T16:31:50.962Z"
+    "atualizado_em": "2026-09-01T23:48:39.129Z"
   },
   "9668752": {
     "imo": "9668752",
@@ -11918,14 +11932,14 @@
     "navio": "STAR GINA 2GR",
     "navio_normalizado": "STAR GINA 2GR",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB5 - Área de Fundeio B5",
+    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "WILHELMSEN PORT SERVICES BRASIL LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-01T16:00:00.000Z",
-    "ultimo_hash_evento": "745771a03b8e10b9be3a721fce85bc6c702ca88f03a1e8f99aa011f988184e27",
-    "atualizado_em": "2026-09-01T16:31:50.962Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-01T22:00:00.000Z",
+    "ultimo_hash_evento": "1fdb05e4960ab3b4aea3510a0436782661a2c87dd8061f92da60d13edc6c7ad3",
+    "atualizado_em": "2026-09-01T23:48:39.129Z"
   },
   "9735206": {
     "imo": "9735206",
@@ -15908,14 +15922,14 @@
     "navio": "ITHACA",
     "navio_normalizado": "ITHACA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C21 - TECON 3 - MRIO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C21 - TECON 3 - MRIO",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-30T05:00:00.000Z",
-    "ultimo_hash_evento": "0826ad9bf596e7c354eca18e32c475298001430f0afcb354f558cb6a94e3dd7f",
-    "atualizado_em": "2026-08-30T06:47:20.637Z"
+    "ultima_movimentacao_em": "2026-09-01T22:30:00.000Z",
+    "ultimo_hash_evento": "09b5228923868b46498adf36fe307f39e51df949fe6d9b738c3f764bcb27d037",
+    "atualizado_em": "2026-09-01T23:48:39.129Z"
   },
   "9968853": {
     "imo": "9968853",
