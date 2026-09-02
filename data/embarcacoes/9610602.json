@@ -1,27 +1,27 @@
 {
   "imo": "9610602",
   "navio": "BRAM BRASIL",
-  "gerado_em": "2026-09-02T21:16:54.625Z",
+  "gerado_em": "2026-09-02T23:21:29.516Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "ESPR - MacLaren Ilha da Conceição",
     "ultimo_tipo_evento": "MUDANÇA",
     "ultima_movimentacao": "2026-09-02T09:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 3,
-    "manobras_365d": 3,
+    "manobras_30d": 4,
+    "manobras_180d": 4,
+    "manobras_365d": 4,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-09-01T13:00:00.000Z",
     "ultima_saida": null,
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 20.5
   },
   "historico_recente": [
     {
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-09-02T09:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESPR - MacLaren Ilha da Conceição"
     },
     {
       "data": "2026-09-01T13:13:00.000Z",
