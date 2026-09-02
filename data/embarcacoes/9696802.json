@@ -1,29 +1,36 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-09-02T15:09:29.252Z",
+  "gerado_em": "2026-09-02T18:39:50.475Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "porto": "Rio de Janeiro",
+    "em_fundeio": false,
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-02T04:00:00.000Z"
+    "ultima_movimentacao": "2026-09-02T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 20,
-    "manobras_180d": 96,
-    "manobras_365d": 96,
+    "manobras_30d": 21,
+    "manobras_180d": 97,
+    "manobras_365d": 97,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 14,
+    "mudancas_30d": 15,
     "entradas_365d": 16,
     "saidas_365d": 15,
     "ultima_entrada": "2026-08-28T05:00:00.000Z",
     "ultima_saida": "2026-08-19T13:00:00.000Z",
     "tempo_medio_estadia_horas": 86.2,
-    "tempo_medio_fundeio_horas": 18.8
+    "tempo_medio_fundeio_horas": 18.6
   },
   "historico_recente": [
+    {
+      "data": "2026-09-02T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-09-02T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P14 - Terminal Petrobrás (Armazém 14)",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-18T03:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "2P14 - Terminal Petrobrás (Armazém 14)"
     }
   ]
 }

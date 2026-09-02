@@ -2707,13 +2707,13 @@
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-02T06:00:00.000Z",
-    "ultimo_hash_evento": "afffe0219faedfc41dbe0dd55095ec89161c656ef58eb00433f1a1d06b8c2110",
-    "atualizado_em": "2026-09-02T06:14:28.766Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-02T16:00:00.000Z",
+    "ultimo_hash_evento": "10b8ede175a80f396404025cadfc3216bd016dc3c06f12c82de5969a2a175489",
+    "atualizado_em": "2026-09-02T18:39:50.475Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -6500,14 +6500,14 @@
     "navio": "CAPTAIN J.PAPADAKIS",
     "navio_normalizado": "CAPTAIN J.PAPADAKIS",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB3 - Área de Fundeio B3",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB3 - Área de Fundeio B3",
+    "destino_atual": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-01T23:30:00.000Z",
-    "ultimo_hash_evento": "9c01a199d71f6214d0c2aab0ecbc8ddb53bfdcdf87ef26974c6aed8ac27b7b07",
-    "atualizado_em": "2026-09-01T23:48:39.129Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-02T16:00:00.000Z",
+    "ultimo_hash_evento": "3b1143b5263129845c5b995411f22472134888711f620e6df46b747cd759383b",
+    "atualizado_em": "2026-09-02T18:39:50.475Z"
   },
   "9522673": {
     "imo": "9522673",
@@ -10629,15 +10629,15 @@
     "imo": "9696802",
     "navio": "STARNAV AQUARIUS (REB)",
     "navio_normalizado": "STARNAV AQUARIUS",
-    "porto_atual": "Niterói",
+    "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "NIT - ATRACADO NITERÓI",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-02T04:00:00.000Z",
-    "ultimo_hash_evento": "7b732eb4cb7bcd68b6dbb81dd091abac1ee21b2b0b124acfe794af026c31fab5",
-    "atualizado_em": "2026-09-02T06:14:28.766Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-02T16:00:00.000Z",
+    "ultimo_hash_evento": "2cb8246f7965c99c203b9f9bb83f05497135cc66120c7d37ed170dcddcb504b1",
+    "atualizado_em": "2026-09-02T18:39:50.475Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -10792,6 +10792,20 @@
     "ultima_movimentacao_em": "2026-08-02T11:00:00.000Z",
     "ultimo_hash_evento": "6f49eb24dd1b193f4c62a448e3585229faffb8e9f6a661c2cce4a199f91ddae6",
     "atualizado_em": "2026-08-02T11:56:35.327Z"
+  },
+  "9702417": {
+    "imo": "9702417",
+    "navio": "GLOVIS SUMMIT",
+    "navio_normalizado": "GLOVIS SUMMIT",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2R12 - Terminal - MCAR 1",
+    "destino_atual": "-",
+    "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-02T17:00:00.000Z",
+    "ultimo_hash_evento": "449aa9d000c437f7886d42db2ab73f952697c5c35bcafddb658095f2f1da9116",
+    "atualizado_em": "2026-09-02T18:39:50.475Z"
   },
   "9702742": {
     "imo": "9702742",
@@ -15180,14 +15194,14 @@
     "navio": "COSCO SHIPPING GRACE",
     "navio_normalizado": "COSCO SHIPPING GRACE",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "302 - TECON - SEPETIBA TECON S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "302 - TECON - SEPETIBA TECON S.A.",
+    "destino_atual": "-",
     "agente_atual": "ISS MARINE SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-01T17:00:00.000Z",
-    "ultimo_hash_evento": "f782ba6551efeb69d855038d0505d731b1147a74cc8035cbb5bf6bff8af15dc4",
-    "atualizado_em": "2026-09-01T19:30:43.640Z"
+    "ultima_movimentacao_em": "2026-09-02T18:30:00.000Z",
+    "ultimo_hash_evento": "c8eafdd3ee8b9a403eb58308fe7be31d77c7fa4e359bba06ea45ebe2cf58753f",
+    "atualizado_em": "2026-09-02T18:39:50.475Z"
   },
   "9928877": {
     "imo": "9928877",
@@ -15314,6 +15328,20 @@
     "ultima_movimentacao_em": "2026-05-10T05:00:00.000Z",
     "ultimo_hash_evento": "5c537b166330a9e79177055e652b48e1866edb45bf3062a128a51391b8ba46de",
     "atualizado_em": "2026-05-10T23:06:25.164Z"
+  },
+  "9936666": {
+    "imo": "9936666",
+    "navio": "UBUNTU HARMONY",
+    "navio_normalizado": "UBUNTU HARMONY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01 - Visita",
+    "destino_atual": "-",
+    "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-02T17:00:00.000Z",
+    "ultimo_hash_evento": "94682a29aeaa7798c01657d16bdfffe88f8745b1c3d708a6bcb317e91cbdbf4b",
+    "atualizado_em": "2026-09-02T18:39:50.475Z"
   },
   "9938248": {
     "imo": "9938248",
