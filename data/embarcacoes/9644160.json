@@ -1,21 +1,21 @@
 {
   "imo": "9644160",
   "navio": "BRAM BELEM",
-  "gerado_em": "2026-09-02T01:27:58.420Z",
+  "gerado_em": "2026-09-02T06:14:28.766Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-01T19:30:00.000Z"
+    "ultima_movimentacao": "2026-09-02T04:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 71,
-    "manobras_365d": 71,
+    "manobras_30d": 11,
+    "manobras_180d": 72,
+    "manobras_365d": 72,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 18,
     "saidas_365d": 17,
     "ultima_entrada": "2026-08-30T15:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 25.9
   },
   "historico_recente": [
+    {
+      "data": "2026-09-02T04:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-09-01T19:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-06T06:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Niterói",
-      "de": "-",
-      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     }
   ]
 }
