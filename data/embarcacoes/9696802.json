@@ -1,29 +1,36 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-09-03T14:31:08.018Z",
+  "gerado_em": "2026-09-03T17:59:43.792Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-02T16:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-03T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 20,
-    "manobras_180d": 97,
-    "manobras_365d": 97,
+    "manobras_30d": 21,
+    "manobras_180d": 98,
+    "manobras_365d": 98,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 15,
     "entradas_365d": 16,
-    "saidas_365d": 15,
+    "saidas_365d": 16,
     "ultima_entrada": "2026-08-28T05:00:00.000Z",
-    "ultima_saida": "2026-08-19T13:00:00.000Z",
-    "tempo_medio_estadia_horas": 86.2,
+    "ultima_saida": "2026-09-03T17:00:00.000Z",
+    "tempo_medio_estadia_horas": 91.2,
     "tempo_medio_fundeio_horas": 18.6
   },
   "historico_recente": [
+    {
+      "data": "2026-09-03T17:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "-"
+    },
     {
       "data": "2026-09-02T16:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-08-19T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P14 - Terminal Petrobrás (Armazém 14)",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

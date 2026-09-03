@@ -1,21 +1,21 @@
 {
   "imo": "9686144",
   "navio": "HOS REMINGTON",
-  "gerado_em": "2026-09-03T14:31:08.018Z",
+  "gerado_em": "2026-09-03T17:59:43.792Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-03T08:30:00.000Z"
+    "porto": "Rio de Janeiro",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-09-03T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 29,
-    "manobras_180d": 37,
-    "manobras_365d": 37,
+    "manobras_30d": 30,
+    "manobras_180d": 38,
+    "manobras_365d": 38,
     "entradas_30d": 11,
     "saidas_30d": 11,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 15,
     "saidas_365d": 14,
     "ultima_entrada": "2026-09-03T08:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 95
   },
   "historico_recente": [
+    {
+      "data": "2026-09-03T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-09-03T08:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "TPBR - BRASCO"
-    },
-    {
-      "data": "2026-08-21T01:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Niterói",
-      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "-"
     }
   ]
 }

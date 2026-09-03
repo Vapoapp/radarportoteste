@@ -1810,14 +1810,14 @@
     "navio": "SEASTAR VIRTUS (EX ASTRO CMT MATOS)",
     "navio_normalizado": "SEASTAR VIRTUS (EX ASTRO CMT MATOS)",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2N07 - Pátio 8/9",
     "agente_atual": "SEASTAR BRASIL SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-15T13:00:00.000Z",
-    "ultimo_hash_evento": "0a76fafd00102d7bed6302f02e6d493852a065bf52d5b3cd865a33146f3ae299",
-    "atualizado_em": "2026-08-15T13:01:45.433Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-03T17:00:00.000Z",
+    "ultimo_hash_evento": "9b4cfb7f0748fea699f57c8975b54e5d73639488a4ffd1f4cdca7a658d2d360f",
+    "atualizado_em": "2026-09-03T17:59:43.792Z"
   },
   "9273349": {
     "imo": "9273349",
@@ -2048,14 +2048,14 @@
     "navio": "ILHA DO CABO FRIO",
     "navio_normalizado": "ILHA DO CABO FRIO",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "SYNERGY OFFSHORE DO BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-31T16:00:00.000Z",
-    "ultimo_hash_evento": "d293eda9e418c69dbfc88e2d5d859473d15ececb2d07a98eeb9783d2ac8554dc",
-    "atualizado_em": "2026-08-31T18:19:28.245Z"
+    "ultima_movimentacao_em": "2026-09-03T16:00:00.000Z",
+    "ultimo_hash_evento": "0b4ddbb18d22f8e6c307c1dfd201c866b97fe2990b94b89ceb87b59c66804eaf",
+    "atualizado_em": "2026-09-03T17:59:43.792Z"
   },
   "9292175": {
     "imo": "9292175",
@@ -6712,12 +6712,12 @@
     "porto_atual": "Itaguaí",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FC2 - Área de Fundeio C2",
+    "destino_atual": "Fundeio - 5FC1 - Área de Fundeio C1",
     "agente_atual": "ORION RODOS MARITIMA E PORTUARIA LTDA",
     "em_fundeio": true,
     "ultima_movimentacao_em": "2026-09-03T14:30:00.000Z",
-    "ultimo_hash_evento": "083a70e02c1439665bb0e38f3601cae07c284f1398e6e53b24fe0142b84275a2",
-    "atualizado_em": "2026-09-03T14:31:08.018Z"
+    "ultimo_hash_evento": "195f30759622dd1113a40e908322c72879c2bb6249c48066b8a6b5d5a72189a8",
+    "atualizado_em": "2026-09-03T17:59:43.792Z"
   },
   "9528653": {
     "imo": "9528653",
@@ -8367,9 +8367,9 @@
     "destino_atual": "2C21 - TECON 3 - MRIO",
     "agente_atual": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-02T20:00:00.000Z",
-    "ultimo_hash_evento": "9fbbb5569a14e0e5c249bf1a3539037c4a822adfb7fc9e1acf146f63fe969c9c",
-    "atualizado_em": "2026-09-02T21:16:54.625Z"
+    "ultima_movimentacao_em": "2026-09-03T15:00:00.000Z",
+    "ultimo_hash_evento": "255a3daa8ce47165926e34edb4412695f617bcad18e245482c931c1355722880",
+    "atualizado_em": "2026-09-03T17:59:43.792Z"
   },
   "9607021": {
     "imo": "9607021",
@@ -9911,6 +9911,20 @@
     "ultimo_hash_evento": "8d5f2957c3fabc0e90bd5e50dfdc2223273a2b1a86d21d2e77cad9ed2927c7d2",
     "atualizado_em": "2026-08-26T23:45:01.741Z"
   },
+  "9664885": {
+    "imo": "9664885",
+    "navio": "YM MODESTY",
+    "navio_normalizado": "YM MODESTY",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C22 - TECON 2 - MRIO",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-03T16:30:00.000Z",
+    "ultimo_hash_evento": "8e3569b687a04afce1be2f605829c91d0e0341be627829963488caf64163e573",
+    "atualizado_em": "2026-09-03T17:59:43.792Z"
+  },
   "9664897": {
     "imo": "9664897",
     "navio": "YM MODERATION",
@@ -10377,15 +10391,15 @@
     "imo": "9686144",
     "navio": "HOS REMINGTON",
     "navio_normalizado": "HOS REMINGTON",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "NIT - ATRACADO NITERÓI",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-03T08:30:00.000Z",
-    "ultimo_hash_evento": "72fa87352d12b99a7feafd6d42fc6c18824743175936c06c221ae18aa398c2ac",
-    "atualizado_em": "2026-09-03T14:31:08.018Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-03T15:00:00.000Z",
+    "ultimo_hash_evento": "1b5d0bc414d9eff2bd4281f53b17264b47598166cc2a465726f9cbd3e1cd804e",
+    "atualizado_em": "2026-09-03T17:59:43.792Z"
   },
   "9686326": {
     "imo": "9686326",
@@ -10728,14 +10742,14 @@
     "navio": "STARNAV AQUARIUS (REB)",
     "navio_normalizado": "STARNAV AQUARIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "NIT - ATRACADO NITERÓI",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-02T16:00:00.000Z",
-    "ultimo_hash_evento": "2cb8246f7965c99c203b9f9bb83f05497135cc66120c7d37ed170dcddcb504b1",
-    "atualizado_em": "2026-09-02T18:39:50.475Z"
+    "ultima_movimentacao_em": "2026-09-03T17:00:00.000Z",
+    "ultimo_hash_evento": "e632aaea73d0956d3a9bab87038c705d3f87974d1af26a7edf2a1b4bb6da4cde",
+    "atualizado_em": "2026-09-03T17:59:43.792Z"
   },
   "9697002": {
     "imo": "9697002",
@@ -13542,14 +13556,14 @@
     "navio": "STARNAV SCORPIUS",
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-27T10:00:00.000Z",
-    "ultimo_hash_evento": "709980fcd59c0a1cf99ddab2b49a6bc82f19a4764a72beed1f0de12d4e128ce4",
-    "atualizado_em": "2026-08-27T16:27:41.769Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-03T17:00:00.000Z",
+    "ultimo_hash_evento": "a05156a26d9bf220bccba4a7710fea272cd0553d122edeba22356d6f60add88e",
+    "atualizado_em": "2026-09-03T17:59:43.792Z"
   },
   "9799214": {
     "imo": "9799214",
