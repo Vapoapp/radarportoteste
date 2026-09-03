@@ -1,29 +1,36 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-09-03T01:13:01.604Z",
+  "gerado_em": "2026-09-03T05:49:15.781Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-01T12:00:00.000Z"
+    "em_fundeio": false,
+    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-09-03T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 70,
-    "manobras_365d": 70,
+    "manobras_30d": 16,
+    "manobras_180d": 71,
+    "manobras_365d": 71,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 16,
     "saidas_365d": 16,
     "ultima_entrada": "2026-09-01T12:00:00.000Z",
     "ultima_saida": "2026-08-27T07:00:00.000Z",
     "tempo_medio_estadia_horas": 71,
-    "tempo_medio_fundeio_horas": 21
+    "tempo_medio_fundeio_horas": 21.9
   },
   "historico_recente": [
+    {
+      "data": "2026-09-03T05:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
     {
       "data": "2026-09-01T12:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-08-11T08:05:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
