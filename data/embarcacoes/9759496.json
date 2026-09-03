@@ -1,21 +1,21 @@
 {
   "imo": "9759496",
   "navio": "STARNAV VOLANS",
-  "gerado_em": "2026-09-03T17:59:43.792Z",
+  "gerado_em": "2026-09-03T20:53:54.427Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-29T20:00:00.000Z"
+    "ultima_movimentacao": "2026-09-03T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 81,
-    "manobras_365d": 81,
+    "manobras_30d": 12,
+    "manobras_180d": 82,
+    "manobras_365d": 82,
     "entradas_30d": 2,
     "saidas_30d": 2,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 22,
     "saidas_365d": 21,
     "ultima_entrada": "2026-08-28T08:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 47.5
   },
   "historico_recente": [
+    {
+      "data": "2026-09-03T20:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-08-29T20:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-08T15:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "-"
     }
   ]
 }
