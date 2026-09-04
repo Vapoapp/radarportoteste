@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-04T05:02:33.767Z",
+  "updatedAt": "2026-09-04T09:31:12.310Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 19
+      "count": 25
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -71,16 +71,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "04/09/2026 03:00",
-      "imo": "9357169",
-      "navio": "ASSO VENTISETTE",
-      "tipo": "MUDANÇA",
-      "de": "TPBR - BRASCO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "04/09/2026 04:00",
       "imo": "9506394",
       "navio": "LOG-IN DISCOVERY (REB S/L)",
@@ -91,13 +81,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "04/09/2026 04:15",
-      "imo": "9659062",
-      "navio": "NORMAND SIGMA (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPBR - BRASCO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "inicio": "04/09/2026 04:00",
+      "imo": "9521021",
+      "navio": "CBO WAVE (REB)",
+      "tipo": "MUDANÇA",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -112,12 +102,62 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "04/09/2026 06:00",
+      "imo": "9806495",
+      "navio": "STARNAV CIRCINUS",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/09/2026 06:00",
+      "imo": "9659062",
+      "navio": "NORMAND SIGMA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/09/2026 06:00",
+      "imo": "9715751",
+      "navio": "STARNAV PHOENIX",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/09/2026 06:00",
       "imo": "3813887740",
       "navio": "C VITÓRIA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "ESCM - ESTALEIRO CAMORIM",
       "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/09/2026 06:00",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/09/2026 06:30",
+      "imo": "9426972",
+      "navio": "CBO BIANCA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N11 - Armazém 13",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -138,6 +178,16 @@
       "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "04/09/2026 07:30",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -201,6 +251,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "04/09/2026 19:00",
+      "imo": "9388584",
+      "navio": "MAERSK TOPPER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "04/09/2026 20:00",
       "imo": "1070662",
       "navio": "STAR NORDKAPP",
@@ -228,6 +288,16 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "04/09/2026 23:00",
+      "imo": "9778179",
+      "navio": "OCEANICASUB IV",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Itaguaí",
