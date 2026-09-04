@@ -1,21 +1,21 @@
 {
   "imo": "9273301",
   "navio": "SEASTAR VIRTUS (EX ASTRO CMT MATOS)",
-  "gerado_em": "2026-09-04T09:31:12.310Z",
+  "gerado_em": "2026-09-04T13:42:35.518Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS2 - Terminal Siderúrgico 2",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-03T20:00:00.000Z"
+    "ultima_movimentacao": "2026-09-04T13:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 4,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-08-15T13:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 238.6
   },
   "historico_recente": [
+    {
+      "data": "2026-09-04T13:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico 2",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-09-03T20:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "TPUT - TPUT",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-04-22T19:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "TPUT - TPUT"
     }
   ]
 }
