@@ -125,6 +125,20 @@
     "ultimo_hash_evento": "cfa2dc6404b7885811d1a2ee4ef5110e0315f45afb0041ce73dfa20c98d7d92a",
     "atualizado_em": "2026-05-28T11:48:30.749Z"
   },
+  "1020930": {
+    "imo": "1020930",
+    "navio": "ATLANTIC PEARL",
+    "navio_normalizado": "ATLANTIC PEARL",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 82 - 2F08",
+    "destino_atual": "-",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-04T20:00:00.000Z",
+    "ultimo_hash_evento": "3a6109a2946f2b7553ce7b7a69a1ade91a87eeb493d3124fcdf48d651ff1067f",
+    "atualizado_em": "2026-09-04T21:44:23.622Z"
+  },
   "1025124": {
     "imo": "1025124",
     "navio": "WINDEA CURIE",
@@ -984,14 +998,14 @@
     "navio": "DUSSELDORF EXPRESS",
     "navio_normalizado": "DUSSELDORF EXPRESS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C11 - TECON - ICTSI 1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-07-19T13:00:00.000Z",
-    "ultimo_hash_evento": "3d521e16e211a8e8a38913cba927f320f25981e019191ec2d520aafcbb9d3c42",
-    "atualizado_em": "2026-07-19T14:03:37.286Z"
+    "ultima_movimentacao_em": "2026-09-04T21:00:00.000Z",
+    "ultimo_hash_evento": "ab2192498f85ae6dfd0c8c108b7b62a5ddf123e61c1c0f75be527e163165fbf4",
+    "atualizado_em": "2026-09-04T21:44:23.622Z"
   },
   "9145451": {
     "imo": "9145451",
@@ -1101,9 +1115,9 @@
     "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-04T00:00:00.000Z",
-    "ultimo_hash_evento": "1b06fa0b53f308b3c7d839974a2c80b3535b323dbd20dc70a900110bb13c9031",
-    "atualizado_em": "2026-09-04T00:35:04.184Z"
+    "ultima_movimentacao_em": "2026-09-04T21:00:00.000Z",
+    "ultimo_hash_evento": "c9e57bba3bc37518a24b5823d51a6d2aaf35f7535c492929e7eba89d878d032c",
+    "atualizado_em": "2026-09-04T21:44:23.622Z"
   },
   "9182966": {
     "imo": "9182966",
@@ -2750,12 +2764,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-01T09:00:00.000Z",
-    "ultimo_hash_evento": "b1fef7cbd86a0198a0048606132dbf1bd71e48bb7a6b0c96b67967d5f8999c14",
-    "atualizado_em": "2026-09-01T12:03:33.380Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-04T21:00:00.000Z",
+    "ultimo_hash_evento": "5b5660b24770f27f899720d194e873e46dfe9a826e346ebeaa19fb98ad53fdfc",
+    "atualizado_em": "2026-09-04T21:44:23.622Z"
   },
   "9329966": {
     "imo": "9329966",
@@ -3239,13 +3253,13 @@
     "navio_normalizado": "ASSO VENTISETTE",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-04T16:00:00.000Z",
-    "ultimo_hash_evento": "58586f6f7528e0310400e67ca9a0ad745f43d017e17662b584cf33859906a1cc",
-    "atualizado_em": "2026-09-04T17:06:15.874Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-04T20:30:00.000Z",
+    "ultimo_hash_evento": "70f3ba961764494adf92c511a749676e36c640a2fb62b4d34ae3ba95b5098fdf",
+    "atualizado_em": "2026-09-04T21:44:23.622Z"
   },
   "9357236": {
     "imo": "9357236",
@@ -7748,12 +7762,12 @@
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
     "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-04T12:00:00.000Z",
-    "ultimo_hash_evento": "ff0d495cc0c6e1389b0ca30fb3abdbf80bd4dbef7c294eb5dcfb3ddb17b0b506",
-    "atualizado_em": "2026-09-04T13:42:35.518Z"
+    "ultima_movimentacao_em": "2026-09-04T20:00:00.000Z",
+    "ultimo_hash_evento": "7ac06fbf744d76d1c725ae7e336b087eb60822090835799981c8254352b860a9",
+    "atualizado_em": "2026-09-04T21:44:23.622Z"
   },
   "9578919": {
     "imo": "9578919",
@@ -8922,14 +8936,14 @@
     "navio": "CBO IPANEMA",
     "navio_normalizado": "CBO IPANEMA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "TPBR - BRASCO",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-04T14:00:00.000Z",
-    "ultimo_hash_evento": "0d54c0ee931ee8abfbcdee3ac1bbe8606b5c35a9432c24db0bba7da76c55f21f",
-    "atualizado_em": "2026-09-04T19:30:55.884Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-04T20:00:00.000Z",
+    "ultimo_hash_evento": "0cb223efe5feb9b12fab165cc7aa90eff55c88b1f2d4975df300b4571e8e4cb3",
+    "atualizado_em": "2026-09-04T21:44:23.622Z"
   },
   "9628154": {
     "imo": "9628154",
@@ -10405,15 +10419,15 @@
     "imo": "9686144",
     "navio": "HOS REMINGTON",
     "navio_normalizado": "HOS REMINGTON",
-    "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "NIT - ATRACADO NITERÓI",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-03T15:00:00.000Z",
-    "ultimo_hash_evento": "1b5d0bc414d9eff2bd4281f53b17264b47598166cc2a465726f9cbd3e1cd804e",
-    "atualizado_em": "2026-09-03T17:59:43.792Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-04T19:45:00.000Z",
+    "ultimo_hash_evento": "5c3b4f1fb872104ed9d9cfa82d3e8aa7b68804fc2ddbdc8b182e9848582d973e",
+    "atualizado_em": "2026-09-04T21:44:23.622Z"
   },
   "9686326": {
     "imo": "9686326",
