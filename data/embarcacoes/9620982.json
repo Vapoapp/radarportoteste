@@ -1,29 +1,43 @@
 {
   "imo": "9620982",
   "navio": "CBO MISTRAL (REB)",
-  "gerado_em": "2026-09-06T18:18:55.447Z",
+  "gerado_em": "2026-09-06T20:30:30.980Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
     "local": "-",
     "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-09-01T10:00:00.000Z"
+    "ultima_movimentacao": "2026-09-06T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 49,
-    "manobras_365d": 49,
-    "entradas_30d": 1,
-    "saidas_30d": 2,
+    "manobras_30d": 9,
+    "manobras_180d": 51,
+    "manobras_365d": 51,
+    "entradas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 4,
-    "entradas_365d": 18,
-    "saidas_365d": 18,
-    "ultima_entrada": "2026-08-28T03:00:00.000Z",
-    "ultima_saida": "2026-09-01T10:00:00.000Z",
-    "tempo_medio_estadia_horas": 68.5,
-    "tempo_medio_fundeio_horas": 12.6
+    "entradas_365d": 19,
+    "saidas_365d": 19,
+    "ultima_entrada": "2026-09-06T09:00:00.000Z",
+    "ultima_saida": "2026-09-06T20:00:00.000Z",
+    "tempo_medio_estadia_horas": 65.5,
+    "tempo_medio_fundeio_horas": 12.4
   },
   "historico_recente": [
+    {
+      "data": "2026-09-06T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
+    {
+      "data": "2026-09-06T09:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-09-01T10:00:00.000Z",
       "tipo": "SAÍDA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "ESPR - MacLaren Ilha da Conceição"
-    },
-    {
-      "data": "2026-08-06T03:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-08-02T03:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
