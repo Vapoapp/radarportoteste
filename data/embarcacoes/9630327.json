@@ -1,29 +1,36 @@
 {
   "imo": "9630327",
   "navio": "POSIDONIA JAGUAR",
-  "gerado_em": "2026-09-08T11:33:18.662Z",
+  "gerado_em": "2026-09-08T15:16:53.830Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-08T00:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-08T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 64,
-    "manobras_365d": 64,
+    "manobras_30d": 7,
+    "manobras_180d": 65,
+    "manobras_365d": 65,
     "entradas_30d": 2,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 3,
     "entradas_365d": 20,
-    "saidas_365d": 20,
+    "saidas_365d": 21,
     "ultima_entrada": "2026-09-06T18:00:00.000Z",
-    "ultima_saida": "2026-08-23T19:00:00.000Z",
-    "tempo_medio_estadia_horas": 67.9,
+    "ultima_saida": "2026-09-08T15:00:00.000Z",
+    "tempo_medio_estadia_horas": 66.8,
     "tempo_medio_fundeio_horas": 42.7
   },
   "historico_recente": [
+    {
+      "data": "2026-09-08T15:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico",
+      "para": "-"
+    },
     {
       "data": "2026-09-08T00:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-08-08T13:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
