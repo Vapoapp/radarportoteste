@@ -1,29 +1,36 @@
 {
   "imo": "9423190",
   "navio": "DEBORAH KAY",
-  "gerado_em": "2026-09-09T15:19:31.358Z",
+  "gerado_em": "2026-09-09T18:42:27.424Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-09T12:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-09-09T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 19,
-    "manobras_365d": 19,
+    "manobras_30d": 8,
+    "manobras_180d": 20,
+    "manobras_365d": 20,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 9,
     "saidas_365d": 8,
     "ultima_entrada": "2026-09-09T12:00:00.000Z",
     "ultima_saida": "2026-08-27T05:00:00.000Z",
     "tempo_medio_estadia_horas": 30.8,
-    "tempo_medio_fundeio_horas": 9.3
+    "tempo_medio_fundeio_horas": 8
   },
   "historico_recente": [
+    {
+      "data": "2026-09-09T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-09-09T12:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "TPBL - BRICLOG"
-    },
-    {
-      "data": "2026-05-24T09:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "-"
     }
   ]
 }
