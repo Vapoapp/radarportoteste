@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-10T05:56:10.508Z",
+  "updatedAt": "2026-09-10T10:37:35.577Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 31
+      "count": 36
     },
     "niteroi": {
       "ok": true,
@@ -101,6 +101,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/09/2026 02:15",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/09/2026 03:00",
       "imo": "9456965",
       "navio": "MSC ODESSA V",
@@ -152,12 +162,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "10/09/2026 06:00",
-      "imo": "9562582",
-      "navio": "CAROLINA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F11 - AF Boa Viagem",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -181,6 +191,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/09/2026 06:00",
+      "imo": "9562582",
+      "navio": "CAROLINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F11 - AF Boa Viagem",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/09/2026 07:00",
       "imo": "9188130",
       "navio": "BRAM NATAL (REB)",
@@ -191,6 +211,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "10/09/2026 07:00",
+      "imo": "9476915",
+      "navio": "BUSHBUCK (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/09/2026 07:00",
+      "imo": "9645542",
+      "navio": "MANDRIÃO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "10/09/2026 07:30",
       "imo": "9738210",
       "navio": "EPOS",
@@ -198,16 +238,6 @@
       "de": "-",
       "para": "Fundeio - 2F01N - Visita Norte",
       "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "10/09/2026 08:00",
-      "imo": "9388352",
-      "navio": "ONE CONTINUITY",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -231,13 +261,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "10/09/2026 09:00",
-      "imo": "9273301",
-      "navio": "SEASTAR VIRTUS",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS2 - Terminal Siderúrgico 2",
-      "agente": "SEASTAR BRASIL SERVIÇOS MARÍTIMOS LTDA"
+      "inicio": "10/09/2026 08:00",
+      "imo": "9388352",
+      "navio": "ONE CONTINUITY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -248,6 +278,26 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/09/2026 09:00",
+      "imo": "9273301",
+      "navio": "SEASTAR VIRTUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS2 - Terminal Siderúrgico 2",
+      "agente": "SEASTAR BRASIL SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/09/2026 10:00",
+      "imo": "9476915",
+      "navio": "BUSHBUCK (REB)",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
