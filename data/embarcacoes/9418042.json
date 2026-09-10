@@ -1,29 +1,36 @@
 {
   "imo": "9418042",
   "navio": "SKANDI JUPITER",
-  "gerado_em": "2026-09-09T23:16:12.001Z",
+  "gerado_em": "2026-09-10T01:08:31.137Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-09T01:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-10T01:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 2,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-09-09T01:00:00.000Z",
-    "ultima_saida": "2026-08-05T13:00:00.000Z",
-    "tempo_medio_estadia_horas": 32.7,
-    "tempo_medio_fundeio_horas": 62
+    "ultima_saida": "2026-09-10T01:00:00.000Z",
+    "tempo_medio_estadia_horas": 30.5,
+    "tempo_medio_fundeio_horas": 43
   },
   "historico_recente": [
+    {
+      "data": "2026-09-10T01:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-09-09T01:00:00.000Z",
       "tipo": "ENTRADA",
