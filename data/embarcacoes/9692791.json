@@ -1,29 +1,36 @@
 {
   "imo": "9692791",
   "navio": "WILDEBEEST (REB)",
-  "gerado_em": "2026-09-12T08:46:36.614Z",
+  "gerado_em": "2026-09-12T12:23:34.110Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-12T04:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-12T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 19,
-    "manobras_365d": 19,
+    "manobras_30d": 6,
+    "manobras_180d": 20,
+    "manobras_365d": 20,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 0,
     "entradas_365d": 10,
-    "saidas_365d": 9,
+    "saidas_365d": 10,
     "ultima_entrada": "2026-09-12T04:00:00.000Z",
-    "ultima_saida": "2026-09-10T17:00:00.000Z",
-    "tempo_medio_estadia_horas": 70.2,
-    "tempo_medio_fundeio_horas": 1
+    "ultima_saida": "2026-09-12T11:00:00.000Z",
+    "tempo_medio_estadia_horas": 63.9,
+    "tempo_medio_fundeio_horas": 4
   },
   "historico_recente": [
+    {
+      "data": "2026-09-12T11:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-09-12T04:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "TPBL - BRICLOG"
-    },
-    {
-      "data": "2026-06-25T21:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "-"
     }
   ]
 }
