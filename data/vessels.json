@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:40:54.486Z",
+  "updatedAt": "2026-09-12T21:39:49.104Z",
   "portos": {
     "rio": {
       "ok": true,
@@ -7,11 +7,11 @@
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 3
     },
     "itaguai": {
       "ok": true,
-      "count": 10
+      "count": 11
     },
     "angra": {
       "ok": true,
@@ -282,16 +282,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/09/2026 12:00",
-      "imo": "9692791",
-      "navio": "WILDEBEEST (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/09/2026 12:00",
       "imo": "9995997",
       "navio": "ATHENIAN STAR",
       "tipo": "ENTRADA",
@@ -308,26 +298,6 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/09/2026 13:00",
-      "imo": "9687368",
-      "navio": "BRAM BOA VISTA",
-      "tipo": "MUDANÇA",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/09/2026 13:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -351,12 +321,22 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/09/2026 14:00",
-      "imo": "9644160",
-      "navio": "BRAM BELEM",
+      "inicio": "12/09/2026 13:00",
+      "imo": "9687368",
+      "navio": "BRAM BOA VISTA",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 13:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "NIT - ATRACADO NITERÓI",
+      "para": "2P19 - Terminal Petrobrás SC",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -368,6 +348,16 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 14:00",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "NIT - ATRACADO NITERÓI",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -431,6 +421,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 19:00",
+      "imo": "9692791",
+      "navio": "WILDEBEEST (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/09/2026 19:30",
       "imo": "9620982",
       "navio": "CBO MISTRAL (REB)",
@@ -447,6 +447,16 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "12/09/2026 14:10",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
@@ -558,6 +568,16 @@
       "de": "Fundeio - 5FB4 - Área de Fundeio B4",
       "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
       "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "13/09/2026 19:30",
+      "imo": "9446453",
+      "navio": "CAPE HORN",
+      "tipo": "SAÍDA",
+      "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
 }
