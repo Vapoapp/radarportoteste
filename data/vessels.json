@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-12T15:39:50.363Z",
+  "updatedAt": "2026-09-12T17:50:00.286Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 33
+      "count": 41
     },
     "niteroi": {
       "ok": true,
@@ -112,6 +112,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/09/2026 06:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 06:00",
       "imo": "9738210",
       "navio": "EPOS",
       "tipo": "SAÍDA",
@@ -182,16 +192,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/09/2026 09:00",
-      "imo": "9458157",
-      "navio": "GAZ SYNERGY",
-      "tipo": "SAÍDA",
-      "de": "TPIC - ILHA COMPRIDA",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/09/2026 09:00",
       "imo": "9407380",
       "navio": "HORIZON THETIS",
       "tipo": "ENTRADA",
@@ -208,6 +208,26 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 09:00",
+      "imo": "9458157",
+      "navio": "GAZ SYNERGY",
+      "tipo": "SAÍDA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 09:30",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,6 +272,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/09/2026 12:00",
+      "imo": "9370070",
+      "navio": "SIDDIS SAILOR (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 12:00",
       "imo": "9692791",
       "navio": "WILDEBEEST (REB)",
       "tipo": "SAÍDA",
@@ -271,16 +301,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/09/2026 12:00",
-      "imo": "9370070",
-      "navio": "SIDDIS SAILOR (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "12/09/2026 12:30",
       "imo": "9605267",
       "navio": "MSC AJACCIO",
@@ -288,6 +308,26 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 13:00",
+      "imo": "9477397",
+      "navio": "CBO CAROLINA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 13:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -301,6 +341,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 13:00",
+      "imo": "9687368",
+      "navio": "BRAM BOA VISTA",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/09/2026 14:00",
       "imo": "9644160",
       "navio": "BRAM BELEM",
@@ -311,6 +361,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 14:00",
+      "imo": "9672636",
+      "navio": "HOS BRASS RING",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/09/2026 15:00",
       "imo": "1031159",
       "navio": "MSC MARIA LAURA",
@@ -318,6 +378,16 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 15:00",
+      "imo": "9388352",
+      "navio": "ONE CONTINUITY",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -348,6 +418,16 @@
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/09/2026 19:00",
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Niterói",

@@ -1,21 +1,21 @@
 {
   "imo": "9687368",
   "navio": "BRAM BOA VISTA",
-  "gerado_em": "2026-09-12T15:39:50.363Z",
+  "gerado_em": "2026-09-12T17:50:00.286Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-12T14:00:00.000Z"
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-09-12T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 31,
-    "manobras_365d": 31,
+    "manobras_30d": 11,
+    "manobras_180d": 32,
+    "manobras_365d": 32,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 13,
     "saidas_365d": 12,
     "ultima_entrada": "2026-09-12T14:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 18.5
   },
   "historico_recente": [
+    {
+      "data": "2026-09-12T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
+    },
     {
       "data": "2026-09-12T14:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-08-15T19:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
