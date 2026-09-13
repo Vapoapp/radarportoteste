@@ -1,21 +1,21 @@
 {
   "imo": "9477397",
   "navio": "CBO CAROLINA",
-  "gerado_em": "2026-09-13T15:05:15.262Z",
+  "gerado_em": "2026-09-13T18:07:24.389Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-12T16:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-09-13T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 65,
-    "manobras_365d": 65,
+    "manobras_30d": 7,
+    "manobras_180d": 66,
+    "manobras_365d": 66,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 17,
     "saidas_365d": 16,
     "ultima_entrada": "2026-09-12T16:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 51.3
   },
   "historico_recente": [
+    {
+      "data": "2026-09-13T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-09-12T16:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-10T23:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
