@@ -103,13 +103,13 @@
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS2 - Terminal Siderúrgico parte 2 a 6",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-11T20:00:00.000Z",
-    "ultimo_hash_evento": "2862b46c3629282966a36a7bebf938947b11b5056203364d63ae373f54aa6f14",
-    "atualizado_em": "2026-09-11T22:01:43.963Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-13T07:00:00.000Z",
+    "ultimo_hash_evento": "0016583e7541f81ac31dac6e7969009a3d9f669c63ca55cefd0ab87c199e44be",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "1020045": {
     "imo": "1020045",
@@ -2846,14 +2846,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-12T22:00:00.000Z",
-    "ultimo_hash_evento": "dd8339ae5ed36536d5d15cfc039e07d6a83d43feaf2498524689931fd0192d9e",
-    "atualizado_em": "2026-09-12T23:21:55.589Z"
+    "ultima_movimentacao_em": "2026-09-13T07:00:00.000Z",
+    "ultimo_hash_evento": "8ca0f74114374243ebe5afa37ffa96c5d852095afdb8830515ef9ee282ca0cfb",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -4058,6 +4058,20 @@
     "ultima_movimentacao_em": "2026-04-09T20:00:00.000Z",
     "ultimo_hash_evento": "fc6da4fda1eb76f4831d967e38acd60ca07f0002f9b56ce4d6e1b86e983325d0",
     "atualizado_em": "2026-04-09T20:30:53.714Z"
+  },
+  "9400069": {
+    "imo": "9400069",
+    "navio": "CMA CGM XIAMEN",
+    "navio_normalizado": "CMA CGM XIAMEN",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-13T11:00:00.000Z",
+    "ultimo_hash_evento": "39d0b2e0bb287262e5555ba1775cce39e9c5c8779bfdfad9cfb1caa79f9b47f5",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9400289": {
     "imo": "9400289",
@@ -6668,14 +6682,14 @@
     "navio": "BJ BLUE MARLIN",
     "navio_normalizado": "BJ BLUE MARLIN",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESPR - MacLaren Ilha da Conceição",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-09T16:00:00.000Z",
-    "ultimo_hash_evento": "7c556109b0ed401650680255cd95934a4f8122c690e4749eab369cc44d75c029",
-    "atualizado_em": "2026-09-09T18:42:27.424Z"
+    "ultima_movimentacao_em": "2026-09-13T09:00:00.000Z",
+    "ultimo_hash_evento": "5fc84a862b8f9f56f1a815d7404ad7e1f110a93904ab4614247d60bb7796cdef",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9514987": {
     "imo": "9514987",
@@ -9580,14 +9594,14 @@
     "navio": "PINGUIM",
     "navio_normalizado": "PINGUIM",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-28T16:00:00.000Z",
-    "ultimo_hash_evento": "16cb847ecb5249a70ddb4dfa016a27578ef8223fa71b7d9a7599870594bfeae1",
-    "atualizado_em": "2026-08-28T22:40:14.403Z"
+    "ultima_movimentacao_em": "2026-09-13T08:00:00.000Z",
+    "ultimo_hash_evento": "a18d6e240ce20df635d0eeae2dd13c275f231ca89e2b99b6d955a28b7aadcee9",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9643295": {
     "imo": "9643295",
@@ -9664,14 +9678,14 @@
     "navio": "BRAM BELEM",
     "navio_normalizado": "BRAM BELEM",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-12T17:10:00.000Z",
-    "ultimo_hash_evento": "41d2f77d8da2f5de540d2f80d02974c8aeccc6d1f3f3f0ad4bad164e4b8d9c09",
-    "atualizado_em": "2026-09-13T01:11:13.261Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-13T08:30:00.000Z",
+    "ultimo_hash_evento": "924d4151dfbd7a258e921f0e18042710cdba7adf50258e297aa3b1978c57b163",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9644213": {
     "imo": "9644213",
@@ -10084,14 +10098,14 @@
     "navio": "BARU MUCURA",
     "navio_normalizado": "BARU MUCURA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
+    "ultimo_tipo_evento": "SAÍDA",
     "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-10T17:35:00.000Z",
-    "ultimo_hash_evento": "bff7de9063e5e3845d42621a542abd688dc0e6698bc80334fd19ae19341f2041",
-    "atualizado_em": "2026-09-10T17:51:13.855Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-13T06:00:00.000Z",
+    "ultimo_hash_evento": "0e314d6f02a4382d523980eed7480df673928c4c1693f173ae880bc27ff87039",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9659634": {
     "imo": "9659634",
@@ -10307,15 +10321,15 @@
     "imo": "9668738",
     "navio": "STARNAV CENTAURUS",
     "navio_normalizado": "STARNAV CENTAURUS",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "-",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-04T05:00:00.000Z",
-    "ultimo_hash_evento": "a85a2bea373213b779811a724a930cf341bcc570100fe6d3e0cba6b7d45eae88",
-    "atualizado_em": "2026-09-04T05:02:33.767Z"
+    "ultima_movimentacao_em": "2026-09-13T09:30:00.000Z",
+    "ultimo_hash_evento": "ec92657f9d979da653211f3f360ad472c1812849944ae524c58a2257b4c679bf",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9668752": {
     "imo": "9668752",
@@ -13127,9 +13141,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-10T14:00:00.000Z",
-    "ultimo_hash_evento": "656160b472ff777fe86a884348c46a01fe58447ac047e9dbc352bcf842fdbf69",
-    "atualizado_em": "2026-09-10T14:37:37.897Z"
+    "ultima_movimentacao_em": "2026-09-13T09:30:00.000Z",
+    "ultimo_hash_evento": "b00dbdc4c83a31bc71efea2e459729aefcd96e74bdabd086e4ff400c9227fb59",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9759991": {
     "imo": "9759991",
@@ -14046,14 +14060,14 @@
     "navio": "STARNAV SCORPIUS",
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-08T06:00:00.000Z",
-    "ultimo_hash_evento": "869af3e22e007bac0da2370eb767b63e2c6c31879cbbc8b6cfb75d132d287860",
-    "atualizado_em": "2026-09-08T11:33:18.662Z"
+    "ultima_movimentacao_em": "2026-09-13T11:00:00.000Z",
+    "ultimo_hash_evento": "b5d91a2845946dddc891433ca4bb29a2cc973c093502ed664b4b2f9dead3e00b",
+    "atualizado_em": "2026-09-13T11:45:56.626Z"
   },
   "9799214": {
     "imo": "9799214",
