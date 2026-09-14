@@ -1,29 +1,36 @@
 {
   "imo": "9477397",
   "navio": "CBO CAROLINA",
-  "gerado_em": "2026-09-14T05:15:35.604Z",
+  "gerado_em": "2026-09-14T10:44:26.930Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "NIT - ATRACADO NITERÓI",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-13T22:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-14T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 8,
-    "manobras_180d": 67,
-    "manobras_365d": 67,
+    "manobras_30d": 9,
+    "manobras_180d": 68,
+    "manobras_365d": 68,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 3,
     "entradas_365d": 17,
-    "saidas_365d": 16,
+    "saidas_365d": 17,
     "ultima_entrada": "2026-09-12T16:00:00.000Z",
-    "ultima_saida": "2026-09-03T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 96.2,
+    "ultima_saida": "2026-09-14T07:00:00.000Z",
+    "tempo_medio_estadia_horas": 92.8,
     "tempo_medio_fundeio_horas": 49.2
   },
   "historico_recente": [
+    {
+      "data": "2026-09-14T07:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "-"
+    },
     {
       "data": "2026-09-13T22:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-08-14T01:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
