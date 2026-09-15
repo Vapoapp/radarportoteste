@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-09-15T06:38:51.386Z",
+  "updatedAt": "2026-09-15T12:06:39.001Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 27
+      "count": 36
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "itaguai": {
       "ok": true,
-      "count": 8
+      "count": 7
     },
     "angra": {
       "ok": true,
@@ -111,16 +111,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/09/2026 05:00",
-      "imo": "9482330",
-      "navio": "MULTIPLICITY (REB)",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "15/09/2026 06:00",
       "imo": "1031783",
       "navio": "BURAN",
@@ -131,13 +121,23 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/09/2026 06:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/09/2026 07:00",
-      "imo": "9977830",
-      "navio": "YM DELIGHT",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F01 - Visita",
-      "para": "-",
-      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+      "imo": "9418030",
+      "navio": "SKANDI MERCURY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N07 - Pátio 8/9",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -151,6 +151,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/09/2026 07:00",
+      "imo": "9977830",
+      "navio": "YM DELIGHT",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/09/2026 08:00",
       "imo": "9197002",
       "navio": "SAGA ANDORINHA",
@@ -161,6 +171,56 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/09/2026 08:00",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/09/2026 08:00",
+      "imo": "9659634",
+      "navio": "BARU TESORO",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/09/2026 08:30",
+      "imo": "9579509",
+      "navio": "Almi Galaxy",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/09/2026 08:30",
+      "imo": "9440679",
+      "navio": "PETREL",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/09/2026 09:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/09/2026 09:30",
       "imo": "9610717",
       "navio": "JAMAICA BAY",
@@ -168,16 +228,6 @@
       "de": "-",
       "para": "Fundeio - WPT 62 - 2F6A",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/09/2026 09:30",
-      "imo": "9702077",
-      "navio": "MSC MELINE",
-      "tipo": "SAÍDA",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -201,13 +251,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/09/2026 12:00",
-      "imo": "9753301",
-      "navio": "BEIRA",
+      "inicio": "15/09/2026 14:00",
+      "imo": "9702077",
+      "navio": "MSC MELINE",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F03 - Feiticeira",
+      "de": "2C22 - TECON 2 - MRIO",
       "para": "-",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -228,6 +278,16 @@
       "de": "-",
       "para": "2TS2 - Terminal Siderúrgico parte 2 a 6",
       "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/09/2026 17:00",
+      "imo": "9753301",
+      "navio": "BEIRA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F03 - Feiticeira",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Rio de Janeiro",
@@ -261,13 +321,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "16/09/2026 11:00",
-      "imo": "9814961",
-      "navio": "SEALOADER 1",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+      "inicio": "16/09/2026 06:00",
+      "imo": "9348053",
+      "navio": "MAERSK MONTE AZUL",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -281,6 +341,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "16/09/2026 11:00",
+      "imo": "9814961",
+      "navio": "SEALOADER 1",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/09/2026 14:00",
+      "imo": "9702754",
+      "navio": "SAPURA JADE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - WPT 63 - 2F6A",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/09/2026 16:00",
+      "imo": "9782687",
+      "navio": "GRANDE MIRAFIORI",
+      "tipo": "SAÍDA",
+      "de": "2R12 - TECON 4 - MCAR",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "16/09/2026 17:00",
       "imo": "9348053",
       "navio": "MAERSK MONTE AZUL",
@@ -288,6 +378,16 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "15/09/2026 06:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "MUDANÇA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Niterói",
@@ -361,23 +461,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "15/09/2026 14:00",
-      "imo": "1034149",
-      "navio": "NAXOS",
-      "tipo": "SAÍDA",
-      "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
-      "para": "-",
-      "agente": "ISS MARINE SERVICES LTDA"
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "15/09/2026 15:30",
-      "imo": "9757838",
-      "navio": "GH HOPPER",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FE1 - Área de Fundeio E1",
-      "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
-      "agente": "ISS MARINE SERVICES LTDA"
+      "imo": "9439797",
+      "navio": "ST MARY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Itaguaí",
