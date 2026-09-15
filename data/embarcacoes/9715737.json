@@ -1,29 +1,36 @@
 {
   "imo": "9715737",
   "navio": "STARNAV ANDROMEDA",
-  "gerado_em": "2026-09-14T23:22:40.942Z",
+  "gerado_em": "2026-09-15T01:36:04.774Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-14T06:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-15T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 71,
-    "manobras_365d": 71,
+    "manobras_30d": 11,
+    "manobras_180d": 72,
+    "manobras_365d": 72,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 6,
     "entradas_365d": 15,
-    "saidas_365d": 15,
+    "saidas_365d": 16,
     "ultima_entrada": "2026-09-13T17:00:00.000Z",
-    "ultima_saida": "2026-09-02T06:00:00.000Z",
-    "tempo_medio_estadia_horas": 118.3,
-    "tempo_medio_fundeio_horas": 38.5
+    "ultima_saida": "2026-09-15T00:00:00.000Z",
+    "tempo_medio_estadia_horas": 112.5,
+    "tempo_medio_fundeio_horas": 37.6
   },
   "historico_recente": [
+    {
+      "data": "2026-09-15T00:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-"
+    },
     {
       "data": "2026-09-14T06:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-08-16T15:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
