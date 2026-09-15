@@ -4526,14 +4526,14 @@
     "navio": "CMA CGM VERACRUZ (REB S/L)",
     "navio_normalizado": "CMA CGM VERACRUZ (REB S/L)",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-14T09:00:00.000Z",
-    "ultimo_hash_evento": "8e75a2074ac16c6a90a1c1e710b9284a86bc9cc16e175608add15f1bf67b3abd",
-    "atualizado_em": "2026-09-14T16:37:08.071Z"
+    "ultima_movimentacao_em": "2026-09-15T03:00:00.000Z",
+    "ultimo_hash_evento": "fa3eb9d98fab34729da9cc9058106725086a5edded4150b5e3dddcf312f449c5",
+    "atualizado_em": "2026-09-15T06:38:51.386Z"
   },
   "9418664": {
     "imo": "9418664",
@@ -5114,14 +5114,14 @@
     "navio": "PETREL",
     "navio_normalizado": "PETREL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-15T00:30:00.000Z",
-    "ultimo_hash_evento": "d175b5258d0d870c01aa004385ce03f67f286c8b35ff7fe620d8a64a36780d24",
-    "atualizado_em": "2026-09-15T01:36:04.774Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-15T06:00:00.000Z",
+    "ultimo_hash_evento": "7463bc110f8bb728f6e4b592eb616fa9b3e112a91a64e31604a5cb4c679146c4",
+    "atualizado_em": "2026-09-15T06:38:51.386Z"
   },
   "9440681": {
     "imo": "9440681",
@@ -6990,14 +6990,14 @@
     "navio": "POSIDONIA TIGER (REB)",
     "navio_normalizado": "POSIDONIA TIGER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-11T03:00:00.000Z",
-    "ultimo_hash_evento": "c84e32324c4804f87ca8beabb8d8febce1364102d1331a7364027b80f8105a0d",
-    "atualizado_em": "2026-09-11T05:02:17.814Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-15T06:00:00.000Z",
+    "ultimo_hash_evento": "e21861dc9e2fa21d04dbc98d6fd452cb6df38c3a370b5c11d4da87c93bb53195",
+    "atualizado_em": "2026-09-15T06:38:51.386Z"
   },
   "9529877": {
     "imo": "9529877",
@@ -9216,14 +9216,14 @@
     "navio": "CBO ARPOADOR",
     "navio_normalizado": "CBO ARPOADOR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
-    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-08T12:00:00.000Z",
-    "ultimo_hash_evento": "bbbc38b1581bded4f36977d6788609e2be58e7e7350415c9b42e953c31423bc6",
-    "atualizado_em": "2026-09-08T15:16:53.830Z"
+    "ultima_movimentacao_em": "2026-09-15T04:30:00.000Z",
+    "ultimo_hash_evento": "41433d31a31394c33f7237658d52fc14c5b75c63cce10915e37ff40197a9e985",
+    "atualizado_em": "2026-09-15T06:38:51.386Z"
   },
   "9627631": {
     "imo": "9627631",
@@ -9328,14 +9328,14 @@
     "navio": "POSIDONIA JAGUAR",
     "navio_normalizado": "POSIDONIA JAGUAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-14T15:30:00.000Z",
-    "ultimo_hash_evento": "c270ab05f223cda5ff92e8525219db925ce22a0ac78dbfdeceacd0b379fb89f4",
-    "atualizado_em": "2026-09-14T16:37:08.071Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-15T06:00:00.000Z",
+    "ultimo_hash_evento": "21fc04e0e75daeddcc1310af0b439768c9e0bea49064f1dd192cfa29672ce46a",
+    "atualizado_em": "2026-09-15T06:38:51.386Z"
   },
   "9630420": {
     "imo": "9630420",
@@ -9711,9 +9711,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-12T11:00:00.000Z",
-    "ultimo_hash_evento": "e42e80ba72a38f29402bf9b2be625ee447bcd0df656183486d6ed8cdd628e2fe",
-    "atualizado_em": "2026-09-12T15:39:50.363Z"
+    "ultima_movimentacao_em": "2026-09-15T06:30:00.000Z",
+    "ultimo_hash_evento": "c0e09e0ae4a2f19fb3de069ce69d2330af7b7fa99d57300b648aefaad178b7be",
+    "atualizado_em": "2026-09-15T06:38:51.386Z"
   },
   "9645542": {
     "imo": "9645542",
@@ -10999,9 +10999,9 @@
     "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-12T22:00:00.000Z",
-    "ultimo_hash_evento": "de3460c9ab263f504cf2398abfd05e7c49e476085da4648b39ba126f6c9c9d87",
-    "atualizado_em": "2026-09-12T23:21:55.589Z"
+    "ultima_movimentacao_em": "2026-09-15T03:00:00.000Z",
+    "ultimo_hash_evento": "fae9ce85d8b62c0c1191c8ffbc4a80dbdaf4ea2c69b94246334ce1dedfbe5639",
+    "atualizado_em": "2026-09-15T06:38:51.386Z"
   },
   "9693381": {
     "imo": "9693381",
@@ -14102,14 +14102,14 @@
     "navio": "STARNAV SCORPIUS",
     "navio_normalizado": "STARNAV SCORPIUS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-13T11:00:00.000Z",
-    "ultimo_hash_evento": "b5d91a2845946dddc891433ca4bb29a2cc973c093502ed664b4b2f9dead3e00b",
-    "atualizado_em": "2026-09-13T11:45:56.626Z"
+    "ultima_movimentacao_em": "2026-09-15T05:00:00.000Z",
+    "ultimo_hash_evento": "23fa1ad12a0ebbbf9b48d0631e7ad34de1be4acdcd200d4b0109429aea7bd579",
+    "atualizado_em": "2026-09-15T06:38:51.386Z"
   },
   "9799214": {
     "imo": "9799214",
