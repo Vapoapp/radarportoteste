@@ -1,21 +1,21 @@
 {
   "imo": "9702754",
   "navio": "SAPURA JADE",
-  "gerado_em": "2026-09-16T23:49:17.142Z",
+  "gerado_em": "2026-09-17T06:45:24.262Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-16T17:00:00.000Z"
+    "ultima_movimentacao": "2026-09-17T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 5,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 5,
     "saidas_365d": 4,
     "ultima_entrada": "2026-09-15T17:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 73.6
   },
   "historico_recente": [
+    {
+      "data": "2026-09-17T05:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-09-16T17:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-04-30T19:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - WPT 82 - 2F08"
     }
   ]
 }
