@@ -1,21 +1,21 @@
 {
   "imo": "9492062",
   "navio": "RIO GRANDE",
-  "gerado_em": "2026-09-18T13:57:02.165Z",
+  "gerado_em": "2026-09-18T17:31:51.196Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPP1 - PETROBRAS PP1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-11T18:30:00.000Z"
+    "local": "TPP2 - PETROBRAS PP2",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-09-18T14:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 14,
-    "manobras_365d": 14,
+    "manobras_30d": 6,
+    "manobras_180d": 15,
+    "manobras_365d": 15,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 7,
     "saidas_365d": 7,
     "ultima_entrada": "2026-09-11T18:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-09-18T14:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "TPP2 - PETROBRAS PP2"
+    },
     {
       "data": "2026-09-11T18:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "TPP1 - PETROBRAS PP1"
-    },
-    {
-      "data": "2026-06-23T13:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPP1 - PETROBRAS PP1",
-      "para": "-"
     }
   ]
 }
