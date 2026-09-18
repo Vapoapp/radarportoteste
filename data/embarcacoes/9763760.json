@@ -1,29 +1,36 @@
 {
   "imo": "9763760",
   "navio": "BRAM BUCK",
-  "gerado_em": "2026-09-17T22:49:31.946Z",
+  "gerado_em": "2026-09-18T00:49:35.886Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-17T09:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-17T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 68,
-    "manobras_365d": 68,
+    "manobras_30d": 7,
+    "manobras_180d": 69,
+    "manobras_365d": 69,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 5,
     "entradas_365d": 17,
-    "saidas_365d": 16,
+    "saidas_365d": 17,
     "ultima_entrada": "2026-09-02T10:00:00.000Z",
-    "ultima_saida": "2026-08-04T20:00:00.000Z",
-    "tempo_medio_estadia_horas": 81.8,
+    "ultima_saida": "2026-09-17T23:00:00.000Z",
+    "tempo_medio_estadia_horas": 98.9,
     "tempo_medio_fundeio_horas": 34.4
   },
   "historico_recente": [
+    {
+      "data": "2026-09-17T23:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-09-17T09:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-07-29T00:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
