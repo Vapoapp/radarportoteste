@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-18T19:55:20.592Z",
+  "updatedAt": "2026-09-18T22:13:29.870Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 63
+      "count": 67
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 20
+      "count": 21
     },
     "angra": {
       "ok": true,
@@ -202,6 +202,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/09/2026 07:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBL - BRICLOG",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/09/2026 07:00",
       "imo": "9271743",
       "navio": "SINGRAR (EX DANKO TIDE)",
       "tipo": "ENTRADA",
@@ -231,16 +241,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "18/09/2026 07:00",
-      "imo": "9696802",
-      "navio": "STARNAV AQUARIUS (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBL - BRICLOG",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "18/09/2026 07:30",
       "imo": "9440679",
       "navio": "PETREL",
@@ -252,22 +252,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/09/2026 08:00",
-      "imo": "9477402",
-      "navio": "CBO ANITA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/09/2026 08:00",
       "imo": "9752967",
       "navio": "SEACOR DEMERARA (REB)",
       "tipo": "SAÍDA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/09/2026 08:00",
+      "imo": "9477402",
+      "navio": "CBO ANITA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -302,12 +302,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/09/2026 10:00",
-      "imo": "9620982",
-      "navio": "CBO MISTRAL (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico parte 1",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "imo": "9561875",
+      "navio": "APOGEE SPIRIT",
+      "tipo": "SAÍDA",
+      "de": "2N10 - Terminal de Trigo",
+      "para": "-",
+      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -322,12 +322,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/09/2026 10:00",
-      "imo": "9561875",
-      "navio": "APOGEE SPIRIT",
-      "tipo": "SAÍDA",
-      "de": "2N10 - Terminal de Trigo",
-      "para": "-",
-      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
+      "imo": "9620982",
+      "navio": "CBO MISTRAL (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -392,22 +392,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/09/2026 13:30",
-      "imo": "9877626",
-      "navio": "SOLAR NESRIN",
-      "tipo": "MUDANÇA",
-      "de": "TPEX - EXXON SOLUTEC",
-      "para": "Fundeio - WPT 63 - 2F6A",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/09/2026 13:30",
       "imo": "9715725",
       "navio": "STARNAV TAURUS",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2PAL - Terminal Petrobras AL",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/09/2026 13:30",
+      "imo": "9877626",
+      "navio": "SOLAR NESRIN",
+      "tipo": "MUDANÇA",
+      "de": "TPEX - EXXON SOLUTEC",
+      "para": "Fundeio - WPT 63 - 2F6A",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Rio de Janeiro",
@@ -461,13 +461,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "18/09/2026 16:00",
-      "imo": "9703667",
-      "navio": "BRAM HERO",
-      "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "inicio": "18/09/2026 17:30",
+      "imo": "9246607",
+      "navio": "GRANDE AMBURGO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2R12 - TECON 4 - MCAR",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -481,13 +481,33 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "18/09/2026 17:30",
-      "imo": "9246607",
-      "navio": "GRANDE AMBURGO",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2R12 - TECON 4 - MCAR",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+      "inicio": "18/09/2026 20:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/09/2026 20:00",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/09/2026 21:00",
+      "imo": "9422330",
+      "navio": "NORMAND POSEIDON (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -498,6 +518,16 @@
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 01:00",
+      "imo": "9788552",
+      "navio": "PACIFIC JASPER",
+      "tipo": "SAÍDA",
+      "de": "TPS1 - PETROBRAS PS1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -558,6 +588,16 @@
       "de": "TPBK - BRASKEM",
       "para": "-",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 08:00",
+      "imo": "1031783",
+      "navio": "BURAN",
+      "tipo": "SAÍDA",
+      "de": "TPS1 - PETROBRAS PS1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -831,6 +871,16 @@
     },
     {
       "porto": "Itaguaí",
+      "inicio": "18/09/2026 22:00",
+      "imo": "9659866",
+      "navio": "WINNING NATURE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+    },
+    {
+      "porto": "Itaguaí",
       "inicio": "19/09/2026 07:00",
       "imo": "9612430",
       "navio": "CAPE LILY",
@@ -881,6 +931,16 @@
     },
     {
       "porto": "Itaguaí",
+      "inicio": "19/09/2026 14:30",
+      "imo": "9659866",
+      "navio": "WINNING NATURE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB1 - Área de Fundeio B1",
+      "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+    },
+    {
+      "porto": "Itaguaí",
       "inicio": "19/09/2026 15:30",
       "imo": "9613068",
       "navio": "TAI SHAN",
@@ -891,7 +951,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/09/2026 16:30",
+      "inicio": "19/09/2026 17:00",
       "imo": "9603221",
       "navio": "FERNÃO DE MAGALHÃES",
       "tipo": "SAÍDA",
@@ -901,23 +961,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/09/2026 18:00",
+      "inicio": "19/09/2026 18:30",
       "imo": "9734173",
       "navio": "CHIPOL TAIHU",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 5FA2 - Área de Fundeio A2",
       "para": "302 - TECON - SEPETIBA TECON S.A.",
       "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "19/09/2026 19:00",
-      "imo": "9659866",
-      "navio": "WINNING NATURE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 5FB1 - Área de Fundeio B1",
-      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
     }
   ]
 }
