@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-19T16:22:40.815Z",
+  "updatedAt": "2026-09-19T18:39:43.383Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 51
+      "count": 54
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 5
+      "count": 10
     },
     "angra": {
       "ok": true,
@@ -122,16 +122,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/09/2026 06:00",
-      "imo": "9627629",
-      "navio": "CBO ARPOADOR",
-      "tipo": "MUDANÇA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/09/2026 06:00",
       "imo": "9484780",
       "navio": "ISLAND ENFORCER (REB)",
       "tipo": "SAÍDA",
@@ -142,12 +132,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/09/2026 06:00",
-      "imo": "9406635",
-      "navio": "CMA CGM RABELAIS",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "imo": "9410882",
+      "navio": "KALAHARI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01 - Visita",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 06:00",
+      "imo": "9627629",
+      "navio": "CBO ARPOADOR",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,12 +172,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/09/2026 06:00",
-      "imo": "9410882",
-      "navio": "KALAHARI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F01 - Visita",
-      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+      "imo": "9406635",
+      "navio": "CMA CGM RABELAIS",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -242,26 +242,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/09/2026 08:00",
-      "imo": "9381495",
-      "navio": "A.H. LIGURIA (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "FINARGE APOIO MARITIMO LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/09/2026 08:00",
-      "imo": "9578880",
-      "navio": "CBO FLAMENGO",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/09/2026 08:00",
       "imo": "1031783",
       "navio": "BURAN",
       "tipo": "SAÍDA",
@@ -281,6 +261,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 08:00",
+      "imo": "9381495",
+      "navio": "A.H. LIGURIA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "FINARGE APOIO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 08:00",
+      "imo": "9578880",
+      "navio": "CBO FLAMENGO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "19/09/2026 08:30",
       "imo": "9659579",
       "navio": "BARU MUCURA",
@@ -292,22 +292,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/09/2026 09:00",
-      "imo": "9703631",
-      "navio": "BRAM TITAN",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "19/09/2026 09:00",
       "imo": "9727625",
       "navio": "CAPE SOUNIO",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C21 - TECON 3 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 09:00",
+      "imo": "9703631",
+      "navio": "BRAM TITAN",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -352,6 +352,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/09/2026 12:00",
+      "imo": "9357169",
+      "navio": "ASSO VENTISETTE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 12:00",
       "imo": "9644213",
       "navio": "BRAM BUZIOS",
       "tipo": "SAÍDA",
@@ -382,6 +392,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "19/09/2026 13:00",
+      "imo": "9424508",
+      "navio": "SEA1 DORADO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 13:00",
       "imo": "9687368",
       "navio": "BRAM BOA VISTA",
       "tipo": "ENTRADA",
@@ -401,13 +421,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "19/09/2026 13:00",
-      "imo": "9424508",
-      "navio": "SEA1 DORADO",
+      "inicio": "19/09/2026 14:00",
+      "imo": "9945851",
+      "navio": "COSCO SHIPPING URUGUAY",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -421,13 +441,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "19/09/2026 14:00",
-      "imo": "9945851",
-      "navio": "COSCO SHIPPING URUGUAY",
+      "inicio": "19/09/2026 15:00",
+      "imo": "9497127",
+      "navio": "CAMPOS CONTENDER",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -498,6 +518,16 @@
       "de": "2R12 - TECON 4 - MCAR",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "19/09/2026 22:00",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "SAÍDA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -608,6 +638,56 @@
       "de": "Fundeio - 5FB1 - Área de Fundeio B1",
       "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
       "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "20/09/2026 00:00",
+      "imo": "9603221",
+      "navio": "FERNÃO DE MAGALHÃES",
+      "tipo": "SAÍDA",
+      "de": "302 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "20/09/2026 02:30",
+      "imo": "9734173",
+      "navio": "CHIPOL TAIHU",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FA2 - Área de Fundeio A2",
+      "para": "302 - TECON - SEPETIBA TECON S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "20/09/2026 06:00",
+      "imo": "9402079",
+      "navio": "UAL FORTITUDE",
+      "tipo": "SAÍDA",
+      "de": "301 - TECON - SEPETIBA TECON S.A.",
+      "para": "-",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "20/09/2026 08:30",
+      "imo": "9620669",
+      "navio": "SLOMAN DISCOVERER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "301 - TECON - SEPETIBA TECON S.A.",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "20/09/2026 17:00",
+      "imo": "1032347",
+      "navio": "MOUNT KITA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
 }
