@@ -4694,14 +4694,14 @@
     "navio": "NORMAND POSEIDON (REB)",
     "navio_normalizado": "NORMAND POSEIDON",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-18T09:30:00.000Z",
-    "ultimo_hash_evento": "f93fd0001e4eb907e6504dd2bbeedbe6786b08ea0957bdf22531dd8795403560",
-    "atualizado_em": "2026-09-18T09:52:44.440Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-19T00:00:00.000Z",
+    "ultimo_hash_evento": "3046241abcbef6148c403db49d6784617eb06f40f746a8413a7eed59538aacac",
+    "atualizado_em": "2026-09-19T00:22:32.257Z"
   },
   "9423190": {
     "imo": "9423190",
@@ -11806,14 +11806,14 @@
     "navio": "SEACOR NILE (REB)",
     "navio_normalizado": "SEACOR NILE",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-18T08:00:00.000Z",
-    "ultimo_hash_evento": "458ee3479fc5f05fdcf631f614e837b9afff92758c552435983341d21aa92954",
-    "atualizado_em": "2026-09-18T09:52:44.440Z"
+    "ultima_movimentacao_em": "2026-09-18T23:00:00.000Z",
+    "ultimo_hash_evento": "d35af0b22c1ba83ddb68179ef7ae39fe3092c32a5b17e469f1a6b07895b7094c",
+    "atualizado_em": "2026-09-19T00:22:32.257Z"
   },
   "9710969": {
     "imo": "9710969",
@@ -14698,6 +14698,20 @@
     "ultima_movimentacao_em": "2026-06-30T19:00:00.000Z",
     "ultimo_hash_evento": "1237fc4071606feffa1fba17df6471500b220c1164217b5ef6c95b6ad6285d39",
     "atualizado_em": "2026-06-30T20:16:16.234Z"
+  },
+  "9838228": {
+    "imo": "9838228",
+    "navio": "BANIYAS",
+    "navio_normalizado": "BANIYAS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-19T00:00:00.000Z",
+    "ultimo_hash_evento": "869b236c2c1468b9b8031c8d0c0a8cbb5c956a3470b7c7b55dd53472b0f78b26",
+    "atualizado_em": "2026-09-19T00:22:32.257Z"
   },
   "9838242": {
     "imo": "9838242",
