@@ -1,29 +1,36 @@
 {
   "imo": "9656204",
   "navio": "SAPURA ESMERALDA",
-  "gerado_em": "2026-09-19T04:46:43.185Z",
+  "gerado_em": "2026-09-19T09:00:17.853Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-09-09T21:00:00.000Z"
+    "local": "2NTO - Terminal de Óleo",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-09-19T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
-    "entradas_30d": 1,
+    "manobras_30d": 3,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
+    "entradas_30d": 2,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 3,
+    "entradas_365d": 4,
     "saidas_365d": 3,
-    "ultima_entrada": "2026-09-09T14:00:00.000Z",
+    "ultima_entrada": "2026-09-19T06:00:00.000Z",
     "ultima_saida": "2026-09-09T21:00:00.000Z",
     "tempo_medio_estadia_horas": 81,
     "tempo_medio_fundeio_horas": 40.7
   },
   "historico_recente": [
+    {
+      "data": "2026-09-19T06:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2NTO - Terminal de Óleo"
+    },
     {
       "data": "2026-09-09T21:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2NTO - Terminal de Óleo",
       "para": "2N05 - Armazém 6"
-    },
-    {
-      "data": "2026-04-20T03:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2NTO - Terminal de Óleo"
     }
   ]
 }
