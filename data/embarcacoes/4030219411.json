@@ -1,29 +1,36 @@
 {
   "imo": "4030219411",
   "navio": "OCEAN DREAM",
-  "gerado_em": "2026-09-19T18:39:43.383Z",
+  "gerado_em": "2026-09-19T21:00:19.290Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "ESCD - ESTALEIRO CODEPE",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-18T10:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-19T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 16,
-    "manobras_365d": 16,
+    "manobras_30d": 4,
+    "manobras_180d": 17,
+    "manobras_365d": 17,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 1,
     "entradas_365d": 7,
-    "saidas_365d": 7,
+    "saidas_365d": 8,
     "ultima_entrada": "2026-08-31T19:00:00.000Z",
-    "ultima_saida": "2026-08-31T13:00:00.000Z",
-    "tempo_medio_estadia_horas": 35.6,
+    "ultima_saida": "2026-09-19T20:00:00.000Z",
+    "tempo_medio_estadia_horas": 95.8,
     "tempo_medio_fundeio_horas": 423
   },
   "historico_recente": [
+    {
+      "data": "2026-09-19T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESCD - ESTALEIRO CODEPE",
+      "para": "-"
+    },
     {
       "data": "2026-09-18T10:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-06-11T09:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Niterói",
-      "de": "-",
-      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     }
   ]
 }

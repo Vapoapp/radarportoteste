@@ -1,29 +1,36 @@
 {
   "imo": "9440708",
   "navio": "FULMAR",
-  "gerado_em": "2026-09-19T18:39:43.383Z",
+  "gerado_em": "2026-09-19T21:00:19.290Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2PAL - Terminal Petrobras AL",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-19T13:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-19T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 49,
-    "manobras_365d": 49,
+    "manobras_30d": 15,
+    "manobras_180d": 50,
+    "manobras_365d": 50,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 5,
     "entradas_365d": 14,
-    "saidas_365d": 14,
+    "saidas_365d": 15,
     "ultima_entrada": "2026-09-19T13:00:00.000Z",
-    "ultima_saida": "2026-09-14T07:30:00.000Z",
-    "tempo_medio_estadia_horas": 26.2,
+    "ultima_saida": "2026-09-19T20:00:00.000Z",
+    "tempo_medio_estadia_horas": 24.3,
     "tempo_medio_fundeio_horas": 20.9
   },
   "historico_recente": [
+    {
+      "data": "2026-09-19T20:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "-"
+    },
     {
       "data": "2026-09-19T13:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-08-23T16:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }

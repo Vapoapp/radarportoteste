@@ -1,29 +1,36 @@
 {
   "imo": "9683996",
   "navio": "SPRINGBOK (BAND. GREYLIST PARIS MOU) (REB)",
-  "gerado_em": "2026-09-19T18:39:43.383Z",
+  "gerado_em": "2026-09-19T21:00:19.290Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-17T08:00:00.000Z"
+    "ultima_movimentacao": "2026-09-19T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 81,
-    "manobras_365d": 81,
+    "manobras_30d": 17,
+    "manobras_180d": 82,
+    "manobras_365d": 82,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 10,
+    "mudancas_30d": 11,
     "entradas_365d": 14,
     "saidas_365d": 14,
     "ultima_entrada": "2026-09-14T10:30:00.000Z",
     "ultima_saida": "2026-09-08T21:00:00.000Z",
     "tempo_medio_estadia_horas": 115.2,
-    "tempo_medio_fundeio_horas": 22.5
+    "tempo_medio_fundeio_horas": 24
   },
   "historico_recente": [
+    {
+      "data": "2026-09-19T21:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-09-17T08:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)"
-    },
-    {
-      "data": "2026-08-28T16:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
