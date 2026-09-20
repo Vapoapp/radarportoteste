@@ -1,7 +1,7 @@
 {
   "imo": "9253208",
   "navio": "GRANDE SAN PAOLO",
-  "gerado_em": "2026-09-20T21:38:45.612Z",
+  "gerado_em": "2026-09-20T23:30:34.777Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,16 +10,16 @@
     "ultima_movimentacao": "2026-09-20T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 9,
-    "manobras_365d": 9,
+    "manobras_30d": 2,
+    "manobras_180d": 10,
+    "manobras_365d": 10,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 5,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-09-20T21:00:00.000Z",
-    "ultima_saida": "2026-08-07T05:30:00.000Z",
+    "ultima_saida": "2026-09-20T19:00:00.000Z",
     "tempo_medio_estadia_horas": 20.1,
     "tempo_medio_fundeio_horas": null
   },
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2R12 - TECON 4 - MCAR"
+    },
+    {
+      "data": "2026-09-20T19:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2R12 - TECON 4 - MCAR",
+      "para": "-"
     },
     {
       "data": "2026-08-07T05:30:00.000Z",
