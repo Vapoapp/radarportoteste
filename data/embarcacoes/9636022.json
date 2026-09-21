@@ -1,35 +1,49 @@
 {
   "imo": "9636022",
   "navio": "SABLE (REB)",
-  "gerado_em": "2026-09-21T06:59:37.081Z",
+  "gerado_em": "2026-09-21T13:52:36.293Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "porto": "Niterói",
+    "em_fundeio": false,
+    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-20T19:00:00.000Z"
+    "ultima_movimentacao": "2026-09-21T12:15:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 62,
-    "manobras_365d": 62,
+    "manobras_30d": 8,
+    "manobras_180d": 64,
+    "manobras_365d": 64,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 3,
+    "mudancas_30d": 5,
     "entradas_365d": 15,
     "saidas_365d": 15,
-    "ultima_entrada": "2026-09-20T19:00:00.000Z",
+    "ultima_entrada": "2026-09-21T12:15:00.000Z",
     "ultima_saida": "2026-09-10T04:00:00.000Z",
     "tempo_medio_estadia_horas": 74.3,
     "tempo_medio_fundeio_horas": 34.8
   },
   "historico_recente": [
     {
-      "data": "2026-09-20T19:00:00.000Z",
+      "data": "2026-09-21T12:15:00.000Z",
       "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
+      "porto": "Niterói",
       "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
+      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
+    {
+      "data": "2026-09-21T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
+    {
+      "data": "2026-09-21T07:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL"
     },
     {
       "data": "2026-09-10T04:00:00.000Z",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "ESPR - MacLaren Ilha da Conceição"
-    },
-    {
-      "data": "2026-08-18T19:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
-    },
-    {
-      "data": "2026-08-18T12:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
