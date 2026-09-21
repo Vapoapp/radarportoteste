@@ -1,29 +1,36 @@
 {
   "imo": "9440679",
   "navio": "PETREL",
-  "gerado_em": "2026-09-21T13:52:36.293Z",
+  "gerado_em": "2026-09-21T18:57:20.207Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPBR - BRASCO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-21T13:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-21T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 45,
-    "manobras_365d": 45,
+    "manobras_30d": 15,
+    "manobras_180d": 46,
+    "manobras_365d": 46,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 7,
     "entradas_365d": 12,
-    "saidas_365d": 11,
+    "saidas_365d": 12,
     "ultima_entrada": "2026-09-18T10:00:00.000Z",
-    "ultima_saida": "2026-09-18T04:00:00.000Z",
-    "tempo_medio_estadia_horas": 53.3,
+    "ultima_saida": "2026-09-21T18:00:00.000Z",
+    "tempo_medio_estadia_horas": 56.3,
     "tempo_medio_fundeio_horas": 39.1
   },
   "historico_recente": [
+    {
+      "data": "2026-09-21T18:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "-"
+    },
     {
       "data": "2026-09-21T13:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-09-05T06:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
