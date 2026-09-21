@@ -1,29 +1,36 @@
 {
   "imo": "9610602",
   "navio": "BRAM BRASIL",
-  "gerado_em": "2026-09-20T23:30:34.777Z",
+  "gerado_em": "2026-09-21T01:31:00.140Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESPR - MacLaren Ilha da Conceição",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-02T09:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-21T01:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 5,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 3,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-09-01T13:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": 20.5
+    "ultima_saida": "2026-09-21T01:00:00.000Z",
+    "tempo_medio_estadia_horas": 468,
+    "tempo_medio_fundeio_horas": 234
   },
   "historico_recente": [
+    {
+      "data": "2026-09-21T01:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "-"
+    },
     {
       "data": "2026-09-02T09:30:00.000Z",
       "tipo": "MUDANÇA",
