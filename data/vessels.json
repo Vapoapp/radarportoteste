@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-22T11:27:12.077Z",
+  "updatedAt": "2026-09-22T15:35:42.948Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 37
+      "count": 46
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 8
     },
     "itaguai": {
       "ok": true,
@@ -82,6 +82,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/09/2026 05:00",
+      "imo": "9680786",
+      "navio": "VEGA CHALLENGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "TRANSHIP TRANSPORTES MARÍTIMOS LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 05:00",
       "imo": "9788459",
       "navio": "MR ALDO",
       "tipo": "ENTRADA",
@@ -91,13 +101,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/09/2026 05:00",
-      "imo": "9680786",
-      "navio": "VEGA CHALLENGER (REB)",
+      "inicio": "22/09/2026 06:00",
+      "imo": "9600578",
+      "navio": "SKANDI URCA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "TRANSHIP TRANSPORTES MARÍTIMOS LTDA."
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -121,16 +131,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/09/2026 06:00",
-      "imo": "9600578",
-      "navio": "SKANDI URCA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "22/09/2026 06:15",
       "imo": "9703629",
       "navio": "BRAM ATLAS",
@@ -151,13 +151,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/09/2026 07:00",
-      "imo": "9731951",
-      "navio": "COSCO SHIPPING RHINE",
-      "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-      "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "inicio": "22/09/2026 07:30",
+      "imo": "9318412",
+      "navio": "CBO GUANABARA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2N05 - Armazém 6",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -202,16 +202,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/09/2026 09:00",
-      "imo": "9578880",
-      "navio": "CBO FLAMENGO",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "22/09/2026 09:00",
       "imo": "9423231",
       "navio": "CAMPOS CHALLENGER",
       "tipo": "SAÍDA",
@@ -226,8 +216,18 @@
       "navio": "NAVIOS DOMINO",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "2C11 - TECON - ICTSI 1",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 09:00",
+      "imo": "9578880",
+      "navio": "CBO FLAMENGO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -252,6 +252,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "22/09/2026 10:30",
+      "imo": "9440679",
+      "navio": "PETREL",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 10:30",
       "imo": "9624299",
       "navio": "MAERSK KARUN",
       "tipo": "ENTRADA",
@@ -271,6 +281,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 11:00",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 11:00",
+      "imo": "9766621",
+      "navio": "CBO ALIANÇA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESAL - ESTALEIRO ALIANÇA",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "22/09/2026 12:00",
       "imo": "9326512",
       "navio": "Aktea",
@@ -278,6 +308,46 @@
       "de": "-",
       "para": "TPP2 - PETROBRAS PP2",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 12:00",
+      "imo": "9696802",
+      "navio": "STARNAV AQUARIUS (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 12:00",
+      "imo": "9702883",
+      "navio": "CBO WISER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 12:30",
+      "imo": "9731951",
+      "navio": "COSCO SHIPPING RHINE",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 13:00",
+      "imo": "9575632",
+      "navio": "TITUS TIDE (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Rio de Janeiro",
@@ -291,13 +361,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "22/09/2026 15:00",
-      "imo": "9656204",
-      "navio": "SAPURA ESMERALDA",
+      "inicio": "22/09/2026 14:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
       "tipo": "SAÍDA",
-      "de": "2NTO - Terminal de Óleo",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,13 +381,33 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 15:00",
+      "imo": "9656204",
+      "navio": "SAPURA ESMERALDA",
+      "tipo": "SAÍDA",
+      "de": "2NTO - Terminal de Óleo",
+      "para": "-",
+      "agente": "LOTUS AGENCIA MARITIMA E OPERADORA PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "22/09/2026 16:00",
       "imo": "9348065",
       "navio": "MAERSK MONTE ALEGRE",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "22/09/2026 16:30",
+      "imo": "9435478",
+      "navio": "AKER WAYFARER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -325,7 +415,7 @@
       "imo": "9372810",
       "navio": "POLARIS LEADER",
       "tipo": "SAÍDA",
-      "de": "2R12 - TECON 4 - MCAR",
+      "de": "2R11 - Terminal - MCAR - TECON 5 - MULTI-RIO OPERAÇÕES PORTUÁRIAS S.A.",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
@@ -335,7 +425,7 @@
       "imo": "9478494",
       "navio": "NAVIOS DOMINO",
       "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
@@ -355,7 +445,7 @@
       "imo": "9348065",
       "navio": "MAERSK MONTE ALEGRE",
       "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
@@ -428,6 +518,46 @@
       "de": "-",
       "para": "ESWS - ESTALEIRO",
       "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "22/09/2026 08:00",
+      "imo": "9442055",
+      "navio": "TALHA-MAR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "22/09/2026 08:50",
+      "imo": "9424986",
+      "navio": "SAVEIROS ATOBÁ",
+      "tipo": "MUDANÇA",
+      "de": "ESWS - ESTALEIRO",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "22/09/2026 10:00",
+      "imo": "9424986",
+      "navio": "SAVEIROS ATOBÁ",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "22/09/2026 11:15",
+      "imo": "9680786",
+      "navio": "VEGA CHALLENGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
+      "agente": "TRANSHIP TRANSPORTES MARÍTIMOS LTDA."
     },
     {
       "porto": "Itaguaí",
