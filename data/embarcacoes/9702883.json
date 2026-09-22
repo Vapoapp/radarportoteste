@@ -1,7 +1,7 @@
 {
   "imo": "9702883",
   "navio": "CBO WISER (REB)",
-  "gerado_em": "2026-09-21T22:28:06.516Z",
+  "gerado_em": "2026-09-22T01:02:19.190Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,16 +10,16 @@
     "ultima_movimentacao": "2026-09-21T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 49,
-    "manobras_365d": 49,
+    "manobras_30d": 11,
+    "manobras_180d": 50,
+    "manobras_365d": 50,
     "entradas_30d": 4,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 2,
     "entradas_365d": 21,
-    "saidas_365d": 20,
+    "saidas_365d": 21,
     "ultima_entrada": "2026-09-21T18:00:00.000Z",
-    "ultima_saida": "2026-09-16T11:45:00.000Z",
+    "ultima_saida": "2026-09-21T09:00:00.000Z",
     "tempo_medio_estadia_horas": 52.2,
     "tempo_medio_fundeio_horas": 19.6
   },
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
+    {
+      "data": "2026-09-21T09:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
     },
     {
       "data": "2026-09-16T11:45:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-08-25T04:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "-"
     }
   ]
 }
