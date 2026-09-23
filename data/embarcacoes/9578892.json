@@ -1,21 +1,21 @@
 {
   "imo": "9578892",
   "navio": "CBO COPACABANA",
-  "gerado_em": "2026-09-23T09:38:49.353Z",
+  "gerado_em": "2026-09-23T14:25:24.972Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-22T19:30:00.000Z"
+    "ultima_movimentacao": "2026-09-23T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 70,
-    "manobras_365d": 70,
+    "manobras_30d": 14,
+    "manobras_180d": 71,
+    "manobras_365d": 71,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 14,
     "saidas_365d": 14,
     "ultima_entrada": "2026-09-22T18:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 21.1
   },
   "historico_recente": [
+    {
+      "data": "2026-09-23T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-09-22T19:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "para": "-"
-    },
-    {
-      "data": "2026-09-04T20:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
     }
   ]
 }
