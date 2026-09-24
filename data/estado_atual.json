@@ -649,13 +649,13 @@
     "navio_normalizado": "STARNAV ELEKTRA (CADASTRO PROVISORIO - PSP)",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "NIT - ATRACADO NITERÓI",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-23T09:00:00.000Z",
-    "ultimo_hash_evento": "8c0a07493db9aa1733e2d30264b08971ea0e04c7f4dc9ae5aa2c42fa9e593ae6",
-    "atualizado_em": "2026-09-23T09:38:49.353Z"
+    "ultima_movimentacao_em": "2026-09-24T08:30:00.000Z",
+    "ultimo_hash_evento": "343ad23c61f561840915926e023ca0a422b87f6e84c5d4f722e668f788a1bc20",
+    "atualizado_em": "2026-09-24T09:13:46.587Z"
   },
   "1094993": {
     "imo": "1094993",
@@ -2049,13 +2049,13 @@
     "navio_normalizado": "STOLT VISION",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - WPT 63 - 2F6A",
-    "destino_atual": "TPPT - NEOLUBES",
+    "origem_atual": "TPPT - NEOLUBES",
+    "destino_atual": "TPEX - EXXON SOLUTEC",
     "agente_atual": "TRANSATLANTICA AGENCIAMENTO DE SERVICOS MARITIMOS",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-22T14:00:00.000Z",
-    "ultimo_hash_evento": "20cace0a050d578b7bce5a0e71c0f26bc68aeb418d621c188c12f2e4f9ef265c",
-    "atualizado_em": "2026-09-22T19:06:11.914Z"
+    "ultima_movimentacao_em": "2026-09-24T09:00:00.000Z",
+    "ultimo_hash_evento": "49aabf232dac7aba29040622f93330e1df2bd89affc8782bf71d64930062cdda",
+    "atualizado_em": "2026-09-24T09:13:46.587Z"
   },
   "9274862": {
     "imo": "9274862",
@@ -4680,14 +4680,14 @@
     "navio": "OCEANICASUB XI (REB)",
     "navio_normalizado": "OCEANICASUB XI",
     "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "agente_atual": "OCEANICA ENGENHARIA E CONSULTORIA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-15T08:30:00.000Z",
-    "ultimo_hash_evento": "6062088100ee22373cc7e15447a0671390f9744027966c126b5abe2515d96eb3",
-    "atualizado_em": "2026-09-15T19:54:10.783Z"
+    "ultima_movimentacao_em": "2026-09-24T09:00:00.000Z",
+    "ultimo_hash_evento": "f377b537c8f0aa561b181491354862646451ed5303980ee180a4694280900f94",
+    "atualizado_em": "2026-09-24T09:13:46.587Z"
   },
   "9418705": {
     "imo": "9418705",
@@ -5220,6 +5220,20 @@
     "ultima_movimentacao_em": "2026-08-06T16:00:00.000Z",
     "ultimo_hash_evento": "d70c6a48ea5b2cc0cc15d1e44d1efcd6ce57635c6cc5b06d96bf1305662a79ba",
     "atualizado_em": "2026-08-07T00:30:22.982Z"
+  },
+  "9437696": {
+    "imo": "9437696",
+    "navio": "CAPE PYLOS",
+    "navio_normalizado": "CAPE PYLOS",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 5FB4 - Área de Fundeio B4",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-24T06:00:00.000Z",
+    "ultimo_hash_evento": "03bcfcbc77d356029e6a53ef4e4583ca39f968001187f27bc4fd68ecb3c3ee4f",
+    "atualizado_em": "2026-09-24T09:13:46.587Z"
   },
   "9437919": {
     "imo": "9437919",
@@ -6192,14 +6206,14 @@
     "navio": "REEDBUCK (REB)",
     "navio_normalizado": "REEDBUCK",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-20T11:30:00.000Z",
-    "ultimo_hash_evento": "8ad14763afd0f9bffcd54dcb82ad689aa4567e481e708b0e33c30a44dde158be",
-    "atualizado_em": "2026-09-20T13:45:05.178Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-24T06:00:00.000Z",
+    "ultimo_hash_evento": "17f554d12d0003017ec8d785b144cd768cd61574565cabcc16b982df8132b823",
+    "atualizado_em": "2026-09-24T09:13:46.587Z"
   },
   "9476915": {
     "imo": "9476915",
@@ -7191,9 +7205,9 @@
     "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-23T19:30:00.000Z",
-    "ultimo_hash_evento": "63001f9d7405b97c355261a7db469cd2b8359f224684580ebd0da668770096be",
-    "atualizado_em": "2026-09-23T21:42:32.990Z"
+    "ultima_movimentacao_em": "2026-09-24T04:00:00.000Z",
+    "ultimo_hash_evento": "4c7c6eb82fe593115857ac7b5b0ee96fdd3e51845e11a47f9cf04018ef7b8d0b",
+    "atualizado_em": "2026-09-24T09:13:46.587Z"
   },
   "9528328": {
     "imo": "9528328",
@@ -14970,14 +14984,14 @@
     "navio": "BANIYAS",
     "navio_normalizado": "BANIYAS",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-19T00:00:00.000Z",
-    "ultimo_hash_evento": "869b236c2c1468b9b8031c8d0c0a8cbb5c956a3470b7c7b55dd53472b0f78b26",
-    "atualizado_em": "2026-09-19T00:22:32.257Z"
+    "ultima_movimentacao_em": "2026-09-24T09:00:00.000Z",
+    "ultimo_hash_evento": "a20ced28f08f2c5a0a912bca46fd9d6a42fdeff85e808dbabf49f8dcf78bae91",
+    "atualizado_em": "2026-09-24T09:13:46.587Z"
   },
   "9838242": {
     "imo": "9838242",

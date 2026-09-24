@@ -1,21 +1,21 @@
 {
   "imo": "1094979",
   "navio": "STARNAV ELEKTRA (CADASTRO PROVISÓRIO - PSP)",
-  "gerado_em": "2026-09-24T04:02:29.603Z",
+  "gerado_em": "2026-09-24T09:13:46.587Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "NIT - ATRACADO NITERÓI",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-23T09:00:00.000Z"
+    "ultima_movimentacao": "2026-09-24T08:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 6,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-09-15T14:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 70
   },
   "historico_recente": [
+    {
+      "data": "2026-09-24T08:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
     {
       "data": "2026-09-23T09:00:00.000Z",
       "tipo": "MUDANÇA",
