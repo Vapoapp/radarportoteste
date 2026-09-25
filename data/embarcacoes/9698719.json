@@ -1,29 +1,36 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-09-25T18:56:00.601Z",
+  "gerado_em": "2026-09-25T21:58:16.838Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-09-22T17:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-09-25T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 91,
-    "manobras_365d": 91,
-    "entradas_30d": 3,
+    "manobras_30d": 13,
+    "manobras_180d": 92,
+    "manobras_365d": 92,
+    "entradas_30d": 4,
     "saidas_30d": 4,
     "mudancas_30d": 5,
-    "entradas_365d": 21,
+    "entradas_365d": 22,
     "saidas_365d": 21,
-    "ultima_entrada": "2026-09-21T14:00:00.000Z",
+    "ultima_entrada": "2026-09-25T17:00:00.000Z",
     "ultima_saida": "2026-09-22T17:00:00.000Z",
     "tempo_medio_estadia_horas": 85.8,
     "tempo_medio_fundeio_horas": 31
   },
   "historico_recente": [
+    {
+      "data": "2026-09-25T17:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-09-22T17:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "NIT - ATRACADO NITERÓI",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-09-06T01:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }
