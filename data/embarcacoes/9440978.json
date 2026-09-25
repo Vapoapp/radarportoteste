@@ -1,29 +1,36 @@
 {
   "imo": "9440978",
   "navio": "THOR COURAGE",
-  "gerado_em": "2026-09-25T04:42:48.907Z",
+  "gerado_em": "2026-09-25T09:48:45.869Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 81 - 2F08",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-24T15:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-25T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 3,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 1,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-09-20T10:00:00.000Z",
-    "ultima_saida": null,
-    "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": null
+    "ultima_saida": "2026-09-25T09:00:00.000Z",
+    "tempo_medio_estadia_horas": 119,
+    "tempo_medio_fundeio_horas": 17.5
   },
   "historico_recente": [
+    {
+      "data": "2026-09-25T09:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "para": "-"
+    },
     {
       "data": "2026-09-24T15:30:00.000Z",
       "tipo": "MUDANÇA",
