@@ -1,29 +1,36 @@
 {
   "imo": "9351799",
   "navio": "LOG-IN PANTANAL (REB)",
-  "gerado_em": "2026-09-26T14:07:33.845Z",
+  "gerado_em": "2026-09-26T17:44:02.044Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C11 - TECON - ICTSI 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-25T21:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-26T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 48,
-    "manobras_365d": 48,
+    "manobras_30d": 7,
+    "manobras_180d": 49,
+    "manobras_365d": 49,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 0,
     "entradas_365d": 20,
-    "saidas_365d": 19,
+    "saidas_365d": 20,
     "ultima_entrada": "2026-09-25T21:00:00.000Z",
-    "ultima_saida": "2026-09-19T15:30:00.000Z",
+    "ultima_saida": "2026-09-26T17:00:00.000Z",
     "tempo_medio_estadia_horas": 20.3,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-09-26T17:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-"
+    },
     {
       "data": "2026-09-25T21:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A"
-    },
-    {
-      "data": "2026-08-15T05:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1"
     }
   ]
 }

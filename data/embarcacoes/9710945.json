@@ -1,21 +1,21 @@
 {
   "imo": "9710945",
   "navio": "SEACOR NILE (REB)",
-  "gerado_em": "2026-09-26T14:07:33.845Z",
+  "gerado_em": "2026-09-26T17:44:02.044Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-26T05:00:00.000Z"
+    "ultima_movimentacao": "2026-09-26T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 66,
-    "manobras_365d": 66,
+    "manobras_30d": 19,
+    "manobras_180d": 67,
+    "manobras_365d": 67,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 11,
+    "mudancas_30d": 12,
     "entradas_365d": 17,
     "saidas_365d": 18,
     "ultima_entrada": "2026-09-23T23:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 45.9
   },
   "historico_recente": [
+    {
+      "data": "2026-09-26T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-09-26T05:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-09-09T00:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
