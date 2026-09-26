@@ -1,29 +1,36 @@
 {
   "imo": "9578892",
   "navio": "CBO COPACABANA",
-  "gerado_em": "2026-09-25T21:58:16.838Z",
+  "gerado_em": "2026-09-26T00:26:01.939Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-23T12:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-26T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 71,
-    "manobras_365d": 71,
+    "manobras_30d": 15,
+    "manobras_180d": 72,
+    "manobras_365d": 72,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 7,
     "entradas_365d": 14,
-    "saidas_365d": 14,
+    "saidas_365d": 15,
     "ultima_entrada": "2026-09-22T18:30:00.000Z",
-    "ultima_saida": "2026-09-14T17:00:00.000Z",
-    "tempo_medio_estadia_horas": 108.2,
+    "ultima_saida": "2026-09-26T00:00:00.000Z",
+    "tempo_medio_estadia_horas": 105.9,
     "tempo_medio_fundeio_horas": 21.1
   },
   "historico_recente": [
+    {
+      "data": "2026-09-26T00:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-09-23T12:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-09-05T15:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "-"
     }
   ]
 }
