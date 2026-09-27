@@ -1,29 +1,36 @@
 {
   "imo": "9610602",
   "navio": "BRAM BRASIL",
-  "gerado_em": "2026-09-27T06:19:13.089Z",
+  "gerado_em": "2026-09-27T12:12:57.608Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P14 - Terminal Petrobrás (Armazém 14)",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-09-27T03:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-27T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 12,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 6,
     "entradas_365d": 3,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-09-24T20:00:00.000Z",
-    "ultima_saida": "2026-09-24T12:00:00.000Z",
-    "tempo_medio_estadia_horas": 270.3,
+    "ultima_saida": "2026-09-27T09:00:00.000Z",
+    "tempo_medio_estadia_horas": 200.5,
     "tempo_medio_fundeio_horas": 117
   },
   "historico_recente": [
+    {
+      "data": "2026-09-27T09:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P14 - Terminal Petrobrás (Armazém 14)",
+      "para": "-"
+    },
     {
       "data": "2026-09-27T03:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "ESPR - MacLaren Ilha da Conceição"
-    },
-    {
-      "data": "2026-09-01T13:13:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
