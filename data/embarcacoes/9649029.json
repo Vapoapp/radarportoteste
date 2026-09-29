@@ -1,29 +1,36 @@
 {
   "imo": "9649029",
   "navio": "SEVEN WAVES",
-  "gerado_em": "2026-09-29T18:45:21.663Z",
+  "gerado_em": "2026-09-29T22:40:12.928Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS2 - Terminal Siderúrgico parte 2 a 6",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-28T13:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-29T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 12,
-    "manobras_365d": 12,
+    "manobras_30d": 2,
+    "manobras_180d": 13,
+    "manobras_365d": 13,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 5,
-    "saidas_365d": 5,
+    "saidas_365d": 6,
     "ultima_entrada": "2026-09-28T13:00:00.000Z",
-    "ultima_saida": "2026-08-16T21:00:00.000Z",
-    "tempo_medio_estadia_horas": 55,
+    "ultima_saida": "2026-09-29T21:00:00.000Z",
+    "tempo_medio_estadia_horas": 49.3,
     "tempo_medio_fundeio_horas": 46.5
   },
   "historico_recente": [
+    {
+      "data": "2026-09-29T21:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+      "para": "-"
+    },
     {
       "data": "2026-09-28T13:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "ESMA - ESTALEIRO MAUÁ"
-    },
-    {
-      "data": "2026-04-20T23:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS2 - Terminal Siderúrgico 2",
-      "para": "-"
     }
   ]
 }
