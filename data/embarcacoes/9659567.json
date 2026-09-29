@@ -1,29 +1,36 @@
 {
   "imo": "9659567",
   "navio": "BARU ÁTRIA",
-  "gerado_em": "2026-09-29T01:04:01.021Z",
+  "gerado_em": "2026-09-29T06:48:41.678Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-28T18:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-29T03:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 14,
-    "manobras_180d": 44,
-    "manobras_365d": 44,
+    "manobras_180d": 45,
+    "manobras_365d": 45,
     "entradas_30d": 4,
     "saidas_30d": 4,
     "mudancas_30d": 6,
     "entradas_365d": 14,
-    "saidas_365d": 15,
+    "saidas_365d": 16,
     "ultima_entrada": "2026-09-28T18:30:00.000Z",
-    "ultima_saida": "2026-09-27T05:00:00.000Z",
-    "tempo_medio_estadia_horas": 135.1,
+    "ultima_saida": "2026-09-29T03:00:00.000Z",
+    "tempo_medio_estadia_horas": 125.3,
     "tempo_medio_fundeio_horas": 51.4
   },
   "historico_recente": [
+    {
+      "data": "2026-09-29T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-"
+    },
     {
       "data": "2026-09-28T18:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-09-05T19:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
