@@ -1,29 +1,36 @@
 {
   "imo": "9333503",
   "navio": "Z MAX XXIX",
-  "gerado_em": "2026-09-30T13:56:05.165Z",
+  "gerado_em": "2026-09-30T18:48:58.416Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESWS - ESTALEIRO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-08-19T11:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-09-30T16:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 2,
-    "manobras_365d": 2,
+    "manobras_30d": 1,
+    "manobras_180d": 3,
+    "manobras_365d": 3,
     "entradas_30d": 0,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 1,
-    "saidas_365d": 0,
+    "saidas_365d": 1,
     "ultima_entrada": "2026-06-28T15:00:00.000Z",
-    "ultima_saida": null,
+    "ultima_saida": "2026-09-30T16:30:00.000Z",
     "tempo_medio_estadia_horas": null,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-09-30T16:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPCM - Estaleiro Camorim",
+      "para": "-"
+    },
     {
       "data": "2026-08-19T11:30:00.000Z",
       "tipo": "MUDANÇA",
