@@ -103,13 +103,13 @@
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-30T14:00:00.000Z",
-    "ultimo_hash_evento": "d3cd721106f444d7a4e80819967b2b530dcdfa164241b0947b65bfa2a63b726b",
-    "atualizado_em": "2026-09-30T18:48:58.416Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-30T23:00:00.000Z",
+    "ultimo_hash_evento": "846e18ebbd3f2f407e8ca84a3841e1693d74464976f219685a624c204c329551",
+    "atualizado_em": "2026-10-01T01:33:50.104Z"
   },
   "1020045": {
     "imo": "1020045",
@@ -1377,13 +1377,13 @@
     "navio_normalizado": "BRAM NATAL",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPBR - BRASCO",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "TPBR - BRASCO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-28T15:10:00.000Z",
-    "ultimo_hash_evento": "5795cbac1dcc4340c175de233ba9790fc0403c328b2138aeac2da46b5428b61c",
-    "atualizado_em": "2026-09-28T21:21:52.754Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-09-30T22:50:00.000Z",
+    "ultimo_hash_evento": "e3ef2cfc36f6ff87ecb579a6f20a9c63726bb0bae06cca18124c1633669176b9",
+    "atualizado_em": "2026-10-01T01:33:50.104Z"
   },
   "9191448": {
     "imo": "9191448",
@@ -4974,14 +4974,14 @@
     "navio": "AKOFS SANTOS (REB)",
     "navio_normalizado": "AKOFS SANTOS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+    "destino_atual": "Fundeio - 2F03 - Feiticeira",
     "agente_atual": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-29T14:00:00.000Z",
-    "ultimo_hash_evento": "28f797976f4128b8caa1a844d40ed43764704d0e61c59cb2b581e149ae3c2d8d",
-    "atualizado_em": "2026-09-29T18:45:21.663Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-09-30T21:30:00.000Z",
+    "ultimo_hash_evento": "151a7bbb73b80429a1d0368565086f4a505e4313a29647a40aaca4a8a30ed3ac",
+    "atualizado_em": "2026-10-01T01:33:50.104Z"
   },
   "9423774": {
     "imo": "9423774",
@@ -14900,14 +14900,14 @@
     "navio": "STARNAV LIBRA",
     "navio_normalizado": "STARNAV LIBRA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-08-12T15:00:00.000Z",
-    "ultimo_hash_evento": "388fa5aff3b5238a13ec01e3679beab2c91e78018b865b39b42baaa1f5c4946a",
-    "atualizado_em": "2026-08-12T15:52:07.132Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-01T01:00:00.000Z",
+    "ultimo_hash_evento": "34c08ca4c0ec4751989a5bfa6f24c0fe28b55d83f5e011a786aab6ce93e07e71",
+    "atualizado_em": "2026-10-01T01:33:50.104Z"
   },
   "9806495": {
     "imo": "9806495",
@@ -15637,6 +15637,20 @@
     "ultimo_hash_evento": "f7a37684f9211f42e773b55e73894b268c1ab6a7e005aae42d6cc027c9ac50af",
     "atualizado_em": "2026-09-01T12:03:33.380Z"
   },
+  "9852212": {
+    "imo": "9852212",
+    "navio": "IZUMO HERMES",
+    "navio_normalizado": "IZUMO HERMES",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N06 - Armazém 7",
+    "agente_atual": "GEM SHIPPING LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-01T01:30:00.000Z",
+    "ultimo_hash_evento": "4b2a5c03c245286a5afaf8b0ce901a442f0ee83145c47ef6388ac924a0d6e403",
+    "atualizado_em": "2026-10-01T01:33:50.104Z"
+  },
   "9852676": {
     "imo": "9852676",
     "navio": "AMIS QUEEN",
@@ -16350,6 +16364,20 @@
     "ultima_movimentacao_em": "2026-05-13T20:00:00.000Z",
     "ultimo_hash_evento": "2a4833203a5ad61d06f99a665dad21f0a8cbaf89d96224e35f467c1137e951bc",
     "atualizado_em": "2026-05-13T20:57:38.040Z"
+  },
+  "9890587": {
+    "imo": "9890587",
+    "navio": "IOANNIS ZAFIRAKIS",
+    "navio_normalizado": "IOANNIS ZAFIRAKIS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPP2 - PETROBRAS PP2",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-01T00:00:00.000Z",
+    "ultimo_hash_evento": "cb800d002b99068b49b85d5723f96a1e34134ff156ac770fc40b660ae39b47c0",
+    "atualizado_em": "2026-10-01T01:33:50.104Z"
   },
   "9893113": {
     "imo": "9893113",
