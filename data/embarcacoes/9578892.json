@@ -1,29 +1,36 @@
 {
   "imo": "9578892",
   "navio": "CBO COPACABANA",
-  "gerado_em": "2026-10-01T14:46:52.185Z",
+  "gerado_em": "2026-10-01T19:53:16.548Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-09-26T04:00:00.000Z"
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-10-01T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 72,
-    "manobras_365d": 72,
-    "entradas_30d": 4,
+    "manobras_30d": 16,
+    "manobras_180d": 73,
+    "manobras_365d": 73,
+    "entradas_30d": 5,
     "saidas_30d": 4,
     "mudancas_30d": 7,
-    "entradas_365d": 14,
+    "entradas_365d": 15,
     "saidas_365d": 15,
-    "ultima_entrada": "2026-09-22T18:30:00.000Z",
+    "ultima_entrada": "2026-10-01T19:00:00.000Z",
     "ultima_saida": "2026-09-26T04:00:00.000Z",
     "tempo_medio_estadia_horas": 106.2,
     "tempo_medio_fundeio_horas": 21.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-01T19:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-09-26T04:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico"
-    },
-    {
-      "data": "2026-09-08T09:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
