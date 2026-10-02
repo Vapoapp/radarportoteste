@@ -1,29 +1,36 @@
 {
   "imo": "9208447",
   "navio": "C-AMBASSADOR (REB)",
-  "gerado_em": "2026-10-02T15:16:22.655Z",
+  "gerado_em": "2026-10-02T19:58:26.226Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-23T10:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-02T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 2,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-09-23T10:00:00.000Z",
-    "ultima_saida": "2026-09-02T01:00:00.000Z",
-    "tempo_medio_estadia_horas": 178.5,
+    "ultima_saida": "2026-10-02T19:00:00.000Z",
+    "tempo_medio_estadia_horas": 190.1,
     "tempo_medio_fundeio_horas": 178.5
   },
   "historico_recente": [
+    {
+      "data": "2026-10-02T19:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "-"
+    },
     {
       "data": "2026-09-23T10:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-05T19:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
