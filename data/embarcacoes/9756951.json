@@ -1,29 +1,36 @@
 {
   "imo": "9756951",
   "navio": "BS UBATUBA",
-  "gerado_em": "2026-10-03T17:33:08.969Z",
+  "gerado_em": "2026-10-03T20:08:37.711Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-01T17:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-03T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 26,
-    "manobras_365d": 26,
+    "manobras_30d": 7,
+    "manobras_180d": 27,
+    "manobras_365d": 27,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 2,
     "entradas_365d": 8,
-    "saidas_365d": 7,
+    "saidas_365d": 8,
     "ultima_entrada": "2026-10-01T17:30:00.000Z",
-    "ultima_saida": "2026-09-29T06:30:00.000Z",
-    "tempo_medio_estadia_horas": 88.7,
+    "ultima_saida": "2026-10-03T19:00:00.000Z",
+    "tempo_medio_estadia_horas": 82.1,
     "tempo_medio_fundeio_horas": 265.5
   },
   "historico_recente": [
+    {
+      "data": "2026-10-03T19:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-10-01T17:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-07-04T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
