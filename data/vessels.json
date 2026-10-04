@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-03T22:54:29.374Z",
+  "updatedAt": "2026-10-04T02:18:28.810Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 55
+      "count": 57
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 16
+      "count": 15
     },
     "angra": {
       "ok": true,
@@ -332,20 +332,20 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "03/10/2026 12:00",
-      "imo": "9763760",
-      "navio": "BRAM BUCK",
+      "imo": "9670365",
+      "navio": "JUAN C (BAND. GREYLIST TOKYO MOU)",
       "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
       "inicio": "03/10/2026 12:00",
-      "imo": "9670365",
-      "navio": "JUAN C (BAND. GREYLIST TOKYO MOU)",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
@@ -432,22 +432,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "03/10/2026 17:00",
-      "imo": "9573440",
-      "navio": "NORMAND CARIOCA",
-      "tipo": "MUDANÇA",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "03/10/2026 17:00",
       "imo": "9953482",
       "navio": "CHIOS DF",
       "tipo": "SAÍDA",
       "de": "Fundeio - WPT 63 - 2F6A",
       "para": "-",
       "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/10/2026 17:00",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -511,6 +511,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "03/10/2026 22:00",
+      "imo": "9763760",
+      "navio": "BRAM BUCK",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "03/10/2026 22:30",
       "imo": "9670341",
       "navio": "BLUE ORCA",
@@ -518,6 +528,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "03/10/2026 23:00",
+      "imo": "9165970",
+      "navio": "MARLIN STOLMEN (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -711,16 +731,6 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "04/10/2026 07:00",
-      "imo": "9480708",
-      "navio": "MDS APHRODITE",
-      "tipo": "SAÍDA",
-      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "para": "-",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "04/10/2026 09:30",
       "imo": "9625724",
       "navio": "ELKA PARANA",
@@ -731,16 +741,6 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "04/10/2026 10:30",
-      "imo": "9460514",
-      "navio": "APHROS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Itaguaí",
       "inicio": "04/10/2026 11:00",
       "imo": "9853723",
       "navio": "EMPRESS MISTRAL",
@@ -748,6 +748,16 @@
       "de": "-",
       "para": "Fundeio - 5FB1 - Área de Fundeio B1",
       "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "04/10/2026 13:00",
+      "imo": "9480708",
+      "navio": "MDS APHRODITE",
+      "tipo": "SAÍDA",
+      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "para": "-",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     },
     {
       "porto": "Itaguaí",
