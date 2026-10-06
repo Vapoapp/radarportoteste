@@ -1334,14 +1334,14 @@
     "navio": "ARTEMIS ANGLER",
     "navio_normalizado": "ARTEMIS ANGLER",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2NTO - Terminal de Óleo",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2NTO - Terminal de Óleo",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-03T13:00:00.000Z",
-    "ultimo_hash_evento": "0000e2b194eca1d183b380d441954068c696e7b123f374b108ed57c2b34948f2",
-    "atualizado_em": "2026-10-03T13:28:50.887Z"
+    "ultima_movimentacao_em": "2026-10-06T20:00:00.000Z",
+    "ultimo_hash_evento": "c21dea6e0860bb94c2e06762afbce1e495084a202f2b6127cd4772bf5b251586",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9182966": {
     "imo": "9182966",
@@ -3603,13 +3603,13 @@
     "navio_normalizado": "ASSO VENTISETTE",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2PAL - Terminal Petrobras AL",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-06T07:00:00.000Z",
-    "ultimo_hash_evento": "5abb8b9e463f9fae0224e23051c27c777dc81d38109d7b4fa53174db7e4fddc7",
-    "atualizado_em": "2026-10-06T07:56:46.954Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-06T20:00:00.000Z",
+    "ultimo_hash_evento": "d197c0a7c84b5fd39f4d4ba13dd0024ebfcb102368df4be898a51c872ecd5455",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9357236": {
     "imo": "9357236",
@@ -7535,15 +7535,15 @@
     "imo": "9529700",
     "navio": "POSIDONIA TIGER (REB)",
     "navio_normalizado": "POSIDONIA TIGER",
-    "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
-    "destino_atual": "NIT - ATRACADO NITERÓI",
+    "porto_atual": "Niterói",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESMC - MacLaren Ponta da Areia",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
     "ultima_movimentacao_em": "2026-10-06T17:00:00.000Z",
-    "ultimo_hash_evento": "0d89218ea1829d39c91136870878f12c491ef020e4ed883273826e84eb6fffd5",
-    "atualizado_em": "2026-10-06T19:51:39.450Z"
+    "ultimo_hash_evento": "8ef0123b201a5e601e848b4da643883ccffe1ba7e46951406910705bb01a7cda",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9529877": {
     "imo": "9529877",
@@ -8987,6 +8987,20 @@
     "ultimo_hash_evento": "ccdb29ab33ce3d20bfb61a9f7abed0689579c4d3fd445f37c767a44d487e0d3a",
     "atualizado_em": "2026-09-26T22:47:00.248Z"
   },
+  "9596868": {
+    "imo": "9596868",
+    "navio": "GILBERTO FREYRE",
+    "navio_normalizado": "GILBERTO FREYRE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - WPT 65 - 2F6A",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-06T22:30:00.000Z",
+    "ultimo_hash_evento": "1e8c6ea1f685a356239bab5cad47a0d53fe2a36f83c6ae8fedb0b78f5eea1bff",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
+  },
   "9597381": {
     "imo": "9597381",
     "navio": "ODYSSEAS L",
@@ -9048,14 +9062,14 @@
     "navio": "SKANDI URCA",
     "navio_normalizado": "SKANDI URCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2N05 - Armazém 6",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-22T09:00:00.000Z",
-    "ultimo_hash_evento": "42b0d1096d4907b0156267460f3d56572c0ce42432fbd0c1169e19ec3776bf1e",
-    "atualizado_em": "2026-09-22T11:27:12.077Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-06T21:00:00.000Z",
+    "ultimo_hash_evento": "76e6278bfcc457cae1cc4ddbd81886d38e358b2a865adbaf6188f2946dffc9f1",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9600580": {
     "imo": "9600580",
@@ -9454,14 +9468,14 @@
     "navio": "NC BREDA (REB S/L)",
     "navio_normalizado": "NC BREDA (REB S/L)",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C11 - TECON - ICTSI 1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-08-26T22:00:00.000Z",
-    "ultimo_hash_evento": "ffe2804706a405264d1c818fd6cc57d58963c7f771b7fcb6423e54d6e95ae8bd",
-    "atualizado_em": "2026-08-26T23:45:01.741Z"
+    "ultima_movimentacao_em": "2026-10-06T23:00:00.000Z",
+    "ultimo_hash_evento": "bc8b35ec9cc86d1f32a6ec593a049281e4f19e251fee53799d335c2996f8ecd4",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9612777": {
     "imo": "9612777",
@@ -10014,14 +10028,14 @@
     "navio": "RAMFORM TITAN",
     "navio_normalizado": "RAMFORM TITAN",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - WPT 61 - 2F6A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 61 - 2F6A",
+    "destino_atual": "-",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-09-30T09:00:00.000Z",
-    "ultimo_hash_evento": "5c1949f62bd56f9ffa1fc95040ed98adb52545316e2d9db26466adde7cd2ff64",
-    "atualizado_em": "2026-09-30T13:56:05.165Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-06T23:00:00.000Z",
+    "ultimo_hash_evento": "13eb653d5cfa0e666b465d35f7f148d1646bad61eb1f43572c330840c1947f62",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9630327": {
     "imo": "9630327",
@@ -10448,14 +10462,14 @@
     "navio": "MANDRIÃO (REB)",
     "navio_normalizado": "MANDRIAO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPBR - BRASCO",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "WILSON SONS OFFSHORE S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-10-06T15:00:00.000Z",
-    "ultimo_hash_evento": "8a94ae572895bfa852a307054c85f7957925d4ffd4c94ab2115aef3f76f32ca6",
-    "atualizado_em": "2026-10-06T19:51:39.450Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-06T21:00:00.000Z",
+    "ultimo_hash_evento": "f2368e24d8c16f456a5069642b361a65c265c68060879ebab467f9646611e2cb",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9646845": {
     "imo": "9646845",
@@ -12198,14 +12212,14 @@
     "navio": "BRAM HERO",
     "navio_normalizado": "BRAM HERO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2N06 - Armazém 7",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-06T13:00:00.000Z",
-    "ultimo_hash_evento": "b389900ad26edc4ff105b5f4c8bcc3c10356de729aa8e1db797fb5d1d539018b",
-    "atualizado_em": "2026-10-06T14:45:57.159Z"
+    "ultima_movimentacao_em": "2026-10-06T22:00:00.000Z",
+    "ultimo_hash_evento": "704e17522fb2cb44629965f9c573568828ecaf609a527bec1ac1cf0a5f3e48f4",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9704972": {
     "imo": "9704972",
@@ -12934,6 +12948,20 @@
     "ultima_movimentacao_em": "2026-05-25T20:00:00.000Z",
     "ultimo_hash_evento": "d4e18829e5ea724d25af41c7e2433c0d584967e10fccc49739e14f002e1f86fb",
     "atualizado_em": "2026-05-25T20:55:20.851Z"
+  },
+  "9724453": {
+    "imo": "9724453",
+    "navio": "DAMSGAARD",
+    "navio_normalizado": "DAMSGAARD",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F01N - Visita Norte",
+    "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-06T21:00:00.000Z",
+    "ultimo_hash_evento": "4910c504418ab49194a13649934500dc7fac3c3f640d12dd7e5a7f67a98dbf86",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9724659": {
     "imo": "9724659",
@@ -15160,6 +15188,20 @@
     "ultima_movimentacao_em": "2026-09-17T20:00:00.000Z",
     "ultimo_hash_evento": "4291adb85e3b455aeacd6f265d9bf0264699eb71e0bd3ca813948ef0bc7f379d",
     "atualizado_em": "2026-09-17T20:05:05.480Z"
+  },
+  "9818216": {
+    "imo": "9818216",
+    "navio": "NORDIC AQUARIUS",
+    "navio_normalizado": "NORDIC AQUARIUS",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F01S - Visita Sul",
+    "destino_atual": "-",
+    "agente_atual": "ISS MARINE SERVICES LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-06T06:00:00.000Z",
+    "ultimo_hash_evento": "c668fefd24487b76a8bc0064a31dcd8e45c1c10ffbb33176c5c1defb9dbca307",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9822683": {
     "imo": "9822683",
@@ -18414,14 +18456,14 @@
     "navio": "MAERSK FORTALEZA",
     "navio_normalizado": "MAERSK FORTALEZA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C11 - TECON - ICTSI 1",
+    "destino_atual": "-",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-06-30T13:30:00.000Z",
-    "ultimo_hash_evento": "3155c65456130b289dd4ef1ded283ca98f8a82da48dd99d40fb06f856552bda5",
-    "atualizado_em": "2026-06-30T16:05:56.020Z"
+    "ultima_movimentacao_em": "2026-10-06T21:00:00.000Z",
+    "ultimo_hash_evento": "f2380540785e1f9b5cf146608a4921a1a6089f135011fd4dbe2002a707ce8d9b",
+    "atualizado_em": "2026-10-06T23:21:49.765Z"
   },
   "9981477": {
     "imo": "9981477",
