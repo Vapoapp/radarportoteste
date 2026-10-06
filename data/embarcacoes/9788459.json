@@ -1,29 +1,43 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-10-05T12:30:36.274Z",
+  "gerado_em": "2026-10-06T01:27:53.455Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P14 - Terminal Petrobrás (Armazém 14)",
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-05T12:30:00.000Z"
+    "ultima_movimentacao": "2026-10-05T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 87,
-    "manobras_365d": 90,
+    "manobras_30d": 19,
+    "manobras_180d": 89,
+    "manobras_365d": 92,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 10,
+    "mudancas_30d": 12,
     "entradas_365d": 21,
     "saidas_365d": 21,
     "ultima_entrada": "2026-10-03T08:00:00.000Z",
     "ultima_saida": "2026-09-27T04:00:00.000Z",
     "tempo_medio_estadia_horas": 53.7,
-    "tempo_medio_fundeio_horas": 32.2
+    "tempo_medio_fundeio_horas": 31.3
   },
   "historico_recente": [
+    {
+      "data": "2026-10-05T23:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
+    {
+      "data": "2026-10-05T16:10:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P14 - Terminal Petrobrás (Armazém 14)",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-10-05T12:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-09-21T22:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
-    },
-    {
-      "data": "2026-09-20T17:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
     }
   ]
 }
