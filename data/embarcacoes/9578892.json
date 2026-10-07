@@ -1,29 +1,36 @@
 {
   "imo": "9578892",
   "navio": "CBO COPACABANA",
-  "gerado_em": "2026-10-07T02:29:37.922Z",
+  "gerado_em": "2026-10-07T09:09:12.540Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-06T11:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-07T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
+    "manobras_30d": 14,
     "manobras_180d": 72,
-    "manobras_365d": 75,
+    "manobras_365d": 76,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 4,
     "entradas_365d": 16,
-    "saidas_365d": 16,
+    "saidas_365d": 17,
     "ultima_entrada": "2026-10-06T11:00:00.000Z",
-    "ultima_saida": "2026-10-02T15:00:00.000Z",
-    "tempo_medio_estadia_horas": 100,
-    "tempo_medio_fundeio_horas": 21.1
+    "ultima_saida": "2026-10-07T03:00:00.000Z",
+    "tempo_medio_estadia_horas": 94.4,
+    "tempo_medio_fundeio_horas": 20.9
   },
   "historico_recente": [
+    {
+      "data": "2026-10-07T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-10-06T11:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-09-09T05:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
