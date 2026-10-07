@@ -1,21 +1,21 @@
 {
   "imo": "9626443",
   "navio": "BONGO (REB)",
-  "gerado_em": "2026-10-06T23:21:49.765Z",
+  "gerado_em": "2026-10-07T02:29:37.922Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPBL - BRICLOG",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-06T08:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-07T00:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 15,
-    "manobras_365d": 15,
+    "manobras_30d": 2,
+    "manobras_180d": 16,
+    "manobras_365d": 16,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 7,
     "saidas_365d": 6,
     "ultima_entrada": "2026-10-06T08:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 21.5
   },
   "historico_recente": [
+    {
+      "data": "2026-10-07T00:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBL - BRICLOG",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-10-06T08:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-17T05:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "-"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "imo": "9600578",
   "navio": "SKANDI URCA",
-  "gerado_em": "2026-10-06T23:21:49.765Z",
+  "gerado_em": "2026-10-07T02:29:37.922Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,18 +10,18 @@
     "ultima_movimentacao": "2026-10-06T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 10,
-    "manobras_365d": 12,
-    "entradas_30d": 2,
+    "manobras_30d": 5,
+    "manobras_180d": 11,
+    "manobras_365d": 13,
+    "entradas_30d": 3,
     "saidas_30d": 2,
     "mudancas_30d": 0,
-    "entradas_365d": 6,
+    "entradas_365d": 7,
     "saidas_365d": 6,
-    "ultima_entrada": "2026-09-22T09:00:00.000Z",
+    "ultima_entrada": "2026-10-06T11:00:00.000Z",
     "ultima_saida": "2026-10-06T21:00:00.000Z",
-    "tempo_medio_estadia_horas": 199,
-    "tempo_medio_fundeio_horas": 286.9
+    "tempo_medio_estadia_horas": 142.7,
+    "tempo_medio_fundeio_horas": 284.4
   },
   "historico_recente": [
     {
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "2N05 - Armazém 6",
       "para": "-"
+    },
+    {
+      "data": "2026-10-06T11:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2N05 - Armazém 6"
     },
     {
       "data": "2026-09-22T09:00:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "-"
-    },
-    {
-      "data": "2026-04-24T06:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
