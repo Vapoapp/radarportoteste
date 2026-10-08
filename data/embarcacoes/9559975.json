@@ -1,21 +1,21 @@
 {
   "imo": "9559975",
   "navio": "STIM STAR ARABIAN GULF (REB)",
-  "gerado_em": "2026-10-07T21:26:09.176Z",
+  "gerado_em": "2026-10-08T01:10:00.689Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "ESSM - SÃO MIGUEL",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-09-02T07:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-07T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 22,
-    "manobras_365d": 22,
+    "manobras_30d": 1,
+    "manobras_180d": 23,
+    "manobras_365d": 23,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 10,
     "saidas_365d": 9,
     "ultima_entrada": "2026-09-02T07:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 48
   },
   "historico_recente": [
+    {
+      "data": "2026-10-07T23:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESSM - SÃO MIGUEL",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-09-02T07:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "NIT - ATRACADO NITERÓI",
       "para": "-"
-    },
-    {
-      "data": "2026-06-23T17:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }

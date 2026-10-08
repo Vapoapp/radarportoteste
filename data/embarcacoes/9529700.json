@@ -1,21 +1,21 @@
 {
   "imo": "9529700",
   "navio": "POSIDONIA TIGER (REB)",
-  "gerado_em": "2026-10-07T21:26:09.176Z",
+  "gerado_em": "2026-10-08T01:10:00.689Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "2PAL - Terminal Petrobras AL",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-07T08:00:00.000Z"
+    "ultima_movimentacao": "2026-10-07T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 72,
-    "manobras_365d": 75,
+    "manobras_30d": 12,
+    "manobras_180d": 73,
+    "manobras_365d": 76,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 18,
     "saidas_365d": 17,
     "ultima_entrada": "2026-10-06T17:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 39.2
   },
   "historico_recente": [
+    {
+      "data": "2026-10-07T23:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2PAL - Terminal Petrobras AL"
+    },
     {
       "data": "2026-10-07T08:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-09-11T03:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "-"
     }
   ]
 }
