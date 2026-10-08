@@ -1,29 +1,36 @@
 {
   "imo": "9417359",
   "navio": "SKANDI OLYMPIA (REB)",
-  "gerado_em": "2026-10-08T01:10:00.689Z",
+  "gerado_em": "2026-10-08T07:21:43.221Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-07T23:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-08T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 27,
-    "manobras_365d": 29,
+    "manobras_30d": 8,
+    "manobras_180d": 28,
+    "manobras_365d": 30,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 2,
     "entradas_365d": 14,
-    "saidas_365d": 11,
+    "saidas_365d": 12,
     "ultima_entrada": "2026-10-07T11:00:00.000Z",
-    "ultima_saida": "2026-09-25T11:00:00.000Z",
-    "tempo_medio_estadia_horas": 18.2,
-    "tempo_medio_fundeio_horas": 121.7
+    "ultima_saida": "2026-10-08T03:00:00.000Z",
+    "tempo_medio_estadia_horas": 18,
+    "tempo_medio_fundeio_horas": 92.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-08T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-10-07T23:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2N07 - Pátio 8/9",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-26T11:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "2N07 - Pátio 8/9"
     }
   ]
 }

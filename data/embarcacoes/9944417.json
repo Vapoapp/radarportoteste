@@ -1,29 +1,36 @@
 {
   "imo": "9944417",
   "navio": "BRAM SPIRIT",
-  "gerado_em": "2026-10-08T01:10:00.689Z",
+  "gerado_em": "2026-10-08T07:21:43.221Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "TPBL - BRICLOG",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-07T11:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-08T05:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 34,
-    "manobras_365d": 39,
+    "manobras_30d": 7,
+    "manobras_180d": 35,
+    "manobras_365d": 40,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 1,
     "entradas_365d": 17,
-    "saidas_365d": 16,
+    "saidas_365d": 17,
     "ultima_entrada": "2026-10-07T11:30:00.000Z",
-    "ultima_saida": "2026-09-24T20:30:00.000Z",
-    "tempo_medio_estadia_horas": 29.5,
+    "ultima_saida": "2026-10-08T05:30:00.000Z",
+    "tempo_medio_estadia_horas": 28.8,
     "tempo_medio_fundeio_horas": 23.4
   },
   "historico_recente": [
+    {
+      "data": "2026-10-08T05:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBL - BRICLOG",
+      "para": "-"
+    },
     {
       "data": "2026-10-07T11:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-08-13T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

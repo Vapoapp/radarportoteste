@@ -1,29 +1,36 @@
 {
   "imo": "9741279",
   "navio": "ACE DEFENDER (REB)",
-  "gerado_em": "2026-10-08T01:10:00.689Z",
+  "gerado_em": "2026-10-08T07:21:43.221Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-07T07:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-08T04:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 43,
-    "manobras_365d": 43,
+    "manobras_30d": 7,
+    "manobras_180d": 44,
+    "manobras_365d": 44,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 14,
     "saidas_365d": 14,
     "ultima_entrada": "2026-10-07T07:00:00.000Z",
     "ultima_saida": "2026-10-02T03:00:00.000Z",
     "tempo_medio_estadia_horas": 72.5,
-    "tempo_medio_fundeio_horas": 47.9
+    "tempo_medio_fundeio_horas": 46.2
   },
   "historico_recente": [
+    {
+      "data": "2026-10-08T04:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-10-07T07:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-08-28T05:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
