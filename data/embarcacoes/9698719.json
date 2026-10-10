@@ -1,29 +1,36 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-10-10T02:15:04.201Z",
+  "gerado_em": "2026-10-10T08:33:54.238Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-08T21:40:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-10T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 97,
-    "manobras_365d": 99,
+    "manobras_30d": 16,
+    "manobras_180d": 98,
+    "manobras_365d": 100,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 6,
     "entradas_365d": 24,
-    "saidas_365d": 23,
+    "saidas_365d": 24,
     "ultima_entrada": "2026-10-08T18:00:00.000Z",
-    "ultima_saida": "2026-10-03T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 80.5,
+    "ultima_saida": "2026-10-10T03:00:00.000Z",
+    "tempo_medio_estadia_horas": 77.7,
     "tempo_medio_fundeio_horas": 30.3
   },
   "historico_recente": [
+    {
+      "data": "2026-10-10T03:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-10-08T21:40:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-09-22T05:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
