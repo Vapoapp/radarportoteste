@@ -1,21 +1,21 @@
 {
   "imo": "9762742",
   "navio": "POSIDONIA LEOPARD (REB)",
-  "gerado_em": "2026-10-10T18:52:00.672Z",
+  "gerado_em": "2026-10-10T22:03:26.534Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-10T18:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-10T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 91,
-    "manobras_365d": 97,
+    "manobras_30d": 16,
+    "manobras_180d": 92,
+    "manobras_365d": 98,
     "entradas_30d": 6,
     "saidas_30d": 5,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 26,
     "saidas_365d": 25,
     "ultima_entrada": "2026-10-10T18:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 34
   },
   "historico_recente": [
+    {
+      "data": "2026-10-10T22:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-10-10T18:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-09-28T22:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }

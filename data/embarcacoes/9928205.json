@@ -1,29 +1,36 @@
 {
   "imo": "9928205",
   "navio": "MAERSK EVERGLADES",
-  "gerado_em": "2026-10-10T18:52:00.672Z",
+  "gerado_em": "2026-10-10T22:03:26.534Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C11 - TECON - ICTSI 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-10T07:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-10T19:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 2,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-10-10T07:30:00.000Z",
-    "ultima_saida": "2026-08-23T11:00:00.000Z",
-    "tempo_medio_estadia_horas": 15.8,
+    "ultima_saida": "2026-10-10T19:30:00.000Z",
+    "tempo_medio_estadia_horas": 14.9,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-10-10T19:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-"
+    },
     {
       "data": "2026-10-10T07:30:00.000Z",
       "tipo": "ENTRADA",
