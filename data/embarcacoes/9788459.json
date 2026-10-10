@@ -1,21 +1,21 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-10-10T14:41:04.417Z",
+  "gerado_em": "2026-10-10T18:52:00.672Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-10T00:30:00.000Z"
+    "ultima_movimentacao": "2026-10-10T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 21,
-    "manobras_180d": 89,
-    "manobras_365d": 96,
+    "manobras_30d": 22,
+    "manobras_180d": 90,
+    "manobras_365d": 97,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 14,
+    "mudancas_30d": 15,
     "entradas_365d": 22,
     "saidas_365d": 22,
     "ultima_entrada": "2026-10-09T20:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 29.6
   },
   "historico_recente": [
+    {
+      "data": "2026-10-10T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-10-10T00:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico parte 1",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-04T12:50:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico parte 1"
     }
   ]
 }
