@@ -1572,14 +1572,14 @@
     "navio": "ALESSIA",
     "navio_normalizado": "ALESSIA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "destino_atual": "-",
     "agente_atual": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-10T12:00:00.000Z",
-    "ultimo_hash_evento": "3bb6dbe1f7cd4c4a58b6cebfd5e32c089227785d105158d847ea67d99e103449",
-    "atualizado_em": "2026-10-10T14:41:04.417Z"
+    "ultima_movimentacao_em": "2026-10-11T00:30:00.000Z",
+    "ultimo_hash_evento": "e5a2ad3d05c89f076d1562a8956dda2d1bb9ca87918c749119ad4d29b3c5bdc6",
+    "atualizado_em": "2026-10-11T00:52:46.008Z"
   },
   "9227027": {
     "imo": "9227027",
@@ -3126,14 +3126,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
-    "destino_atual": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-10T12:30:00.000Z",
-    "ultimo_hash_evento": "685ceea1d199b2ac71997e86ea74a9336fbe22b1221d7a4faf20af5d52a74460",
-    "atualizado_em": "2026-10-10T14:41:04.417Z"
+    "ultima_movimentacao_em": "2026-10-10T23:00:00.000Z",
+    "ultimo_hash_evento": "36f2a82eb49d9fc75bd94acae806999cf9f49690f3f054ba71022e553ee86423",
+    "atualizado_em": "2026-10-11T00:52:46.008Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -5226,14 +5226,14 @@
     "navio": "CBO BIANCA",
     "navio_normalizado": "CBO BIANCA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "CBO SERVIÇOS MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-10T15:00:00.000Z",
-    "ultimo_hash_evento": "4590d2c7d1b847d3f3d9c94221b22191d2eb9f660a67ee506d92b3603a3c5295",
-    "atualizado_em": "2026-10-10T18:52:00.672Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-10T23:00:00.000Z",
+    "ultimo_hash_evento": "1701cbc8e58143bf073485e73f3d6f0e4893e53a5c8c515007a6b7c5ee2da055",
+    "atualizado_em": "2026-10-11T00:52:46.008Z"
   },
   "9427639": {
     "imo": "9427639",
@@ -8305,15 +8305,15 @@
     "imo": "9559975",
     "navio": "STIM STAR ARABIAN GULF (REB)",
     "navio_normalizado": "STIM STAR ARABIAN GULF",
-    "porto_atual": "Niterói",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "-",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-10-10T05:00:00.000Z",
-    "ultimo_hash_evento": "2fe40e5f5721a66d97d8a603155585c873601c7fd79e621e36116c3c3533361a",
-    "atualizado_em": "2026-10-10T08:33:54.238Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-10T23:00:00.000Z",
+    "ultimo_hash_evento": "351d2691d405e0a16709b3c7f14230e174f51548ee411e051a3ede663942e0cf",
+    "atualizado_em": "2026-10-11T00:52:46.008Z"
   },
   "9560352": {
     "imo": "9560352",
@@ -10587,15 +10587,15 @@
     "imo": "9644160",
     "navio": "BRAM BELEM",
     "navio_normalizado": "BRAM BELEM",
-    "porto_atual": "Niterói",
+    "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "ENTRADA",
     "origem_atual": "-",
-    "destino_atual": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "destino_atual": "2P19 - Terminal Petrobrás SC",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-10T12:30:00.000Z",
-    "ultimo_hash_evento": "3a6bb0e67ab3dc1c09b5092e09d24b4bd9e08b66900da2656036481300ac5559",
-    "atualizado_em": "2026-10-10T14:41:04.417Z"
+    "ultima_movimentacao_em": "2026-10-10T21:40:00.000Z",
+    "ultimo_hash_evento": "fee305739fca04ad0814b35897aaeb64d7ab05b2e6e78455e79b692dc11deb29",
+    "atualizado_em": "2026-10-11T00:52:46.008Z"
   },
   "9644213": {
     "imo": "9644213",
@@ -14905,9 +14905,9 @@
     "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
     "agente_atual": "GAC DO BRASIL LTDA.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-09T16:00:00.000Z",
-    "ultimo_hash_evento": "08a7c5f2a52b13ad3335e5485d0519cc43e20e2de3274c3768aa12ea9cdaee8d",
-    "atualizado_em": "2026-10-09T18:56:51.835Z"
+    "ultima_movimentacao_em": "2026-10-10T22:30:00.000Z",
+    "ultimo_hash_evento": "d317dd706f050b915fd2f12327aa4336cfa9e024a08e887cd2df5ef36e1ce869",
+    "atualizado_em": "2026-10-11T00:52:46.008Z"
   },
   "9786712": {
     "imo": "9786712",
