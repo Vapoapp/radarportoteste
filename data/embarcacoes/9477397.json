@@ -1,21 +1,21 @@
 {
   "imo": "9477397",
   "navio": "CBO CAROLINA",
-  "gerado_em": "2026-10-12T01:18:10.165Z",
+  "gerado_em": "2026-10-12T07:27:26.481Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "NIT - ATRACADO NITERÓI",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-11T12:30:00.000Z"
+    "ultima_movimentacao": "2026-10-12T05:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 21,
-    "manobras_180d": 80,
-    "manobras_365d": 85,
-    "entradas_30d": 7,
+    "manobras_180d": 81,
+    "manobras_365d": 86,
+    "entradas_30d": 6,
     "saidas_30d": 6,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 23,
     "saidas_365d": 22,
     "ultima_entrada": "2026-10-11T06:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 42.9
   },
   "historico_recente": [
+    {
+      "data": "2026-10-12T05:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-10-11T12:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-09-29T23:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
