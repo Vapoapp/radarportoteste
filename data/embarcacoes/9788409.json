@@ -1,29 +1,36 @@
 {
   "imo": "9788409",
   "navio": "BRAM FORCE",
-  "gerado_em": "2026-10-13T18:14:27.474Z",
+  "gerado_em": "2026-10-13T22:48:15.032Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-13T10:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-13T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 11,
-    "manobras_365d": 11,
+    "manobras_30d": 8,
+    "manobras_180d": 12,
+    "manobras_365d": 12,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 2,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-10-13T10:00:00.000Z",
-    "ultima_saida": "2026-10-08T09:00:00.000Z",
-    "tempo_medio_estadia_horas": 38.7,
+    "ultima_saida": "2026-10-13T22:00:00.000Z",
+    "tempo_medio_estadia_horas": 32,
     "tempo_medio_fundeio_horas": 20.8
   },
   "historico_recente": [
+    {
+      "data": "2026-10-13T22:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-"
+    },
     {
       "data": "2026-10-13T10:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-24T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico"
     }
   ]
 }
