@@ -1,21 +1,21 @@
 {
   "imo": "9627629",
   "navio": "CBO ARPOADOR",
-  "gerado_em": "2026-10-14T12:14:57.033Z",
+  "gerado_em": "2026-10-14T17:16:00.296Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "NIT - ATRACADO NITERÓI",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-13T03:00:00.000Z"
+    "ultima_movimentacao": "2026-10-14T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 74,
-    "manobras_365d": 77,
+    "manobras_30d": 15,
+    "manobras_180d": 75,
+    "manobras_365d": 78,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 9,
+    "mudancas_30d": 10,
     "entradas_365d": 15,
     "saidas_365d": 15,
     "ultima_entrada": "2026-10-12T08:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 34.8
   },
   "historico_recente": [
+    {
+      "data": "2026-10-14T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
     {
       "data": "2026-10-13T03:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-09-17T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
