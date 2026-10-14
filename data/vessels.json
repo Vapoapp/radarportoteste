@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-13T22:48:15.032Z",
+  "updatedAt": "2026-10-14T01:26:15.391Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 53
+      "count": 56
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -122,12 +122,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/10/2026 06:00",
-      "imo": "9757723",
-      "navio": "AMETISTA BRASIL (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9371385",
+      "navio": "OCEANICASUB XVII (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -142,12 +142,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/10/2026 06:00",
-      "imo": "9371385",
-      "navio": "OCEANICASUB XVII (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "ESPR - MacLaren Ilha da Conceição",
-      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+      "imo": "9757723",
+      "navio": "AMETISTA BRASIL (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -292,22 +292,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/10/2026 14:30",
-      "imo": "9715725",
-      "navio": "STARNAV TAURUS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "13/10/2026 14:30",
       "imo": "9814973",
       "navio": "SEALOADER 2",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/10/2026 14:30",
+      "imo": "9715725",
+      "navio": "STARNAV TAURUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -392,12 +392,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/10/2026 18:00",
-      "imo": "9573440",
-      "navio": "NORMAND CARIOCA",
+      "imo": "3813887740",
+      "navio": "C VITÓRIA",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
+      "de": "TPCM - Estaleiro Camorim",
       "para": "-",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -412,12 +412,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/10/2026 18:00",
-      "imo": "3813887740",
-      "navio": "C VITÓRIA",
+      "imo": "9573440",
+      "navio": "NORMAND CARIOCA",
       "tipo": "SAÍDA",
-      "de": "TPCM - Estaleiro Camorim",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -432,20 +432,20 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/10/2026 19:00",
-      "imo": "9703631",
-      "navio": "BRAM TITAN",
+      "imo": "9788409",
+      "navio": "BRAM FORCE",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
       "inicio": "13/10/2026 19:00",
-      "imo": "9788409",
-      "navio": "BRAM FORCE",
+      "imo": "9703631",
+      "navio": "BRAM TITAN",
       "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
@@ -491,6 +491,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "13/10/2026 22:30",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/10/2026 05:00",
       "imo": "9644158",
       "navio": "ZARAPITO",
@@ -518,6 +528,26 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "FINARGE APOIO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/10/2026 08:00",
+      "imo": "9379014",
+      "navio": "A.H. GIORGIO P.",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "FINARGE APOIO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/10/2026 10:00",
+      "imo": "1042354",
+      "navio": "SEAWAYS BALBOA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "AMART SERVICES CONSULTORIA, AGENCIAMENTO MARITIMO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -558,6 +588,26 @@
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "13/10/2026 20:00",
+      "imo": "9787429",
+      "navio": "OSTREIRO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "ESWS - ESTALEIRO",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "14/10/2026 07:00",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
+      "tipo": "MUDANÇA",
+      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",
