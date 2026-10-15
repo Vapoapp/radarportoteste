@@ -1,29 +1,36 @@
 {
   "imo": "9521021",
   "navio": "CBO WAVE (REB)",
-  "gerado_em": "2026-10-15T16:17:49.113Z",
+  "gerado_em": "2026-10-15T19:55:22.978Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "ESPR - MacLaren Ilha da Conceição",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-02T11:00:00.000Z"
+    "ultima_movimentacao": "2026-10-15T17:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 8,
-    "manobras_365d": 9,
+    "manobras_30d": 5,
+    "manobras_180d": 9,
+    "manobras_365d": 10,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-09-17T08:00:00.000Z",
     "ultima_saida": "2026-09-04T15:00:00.000Z",
     "tempo_medio_estadia_horas": null,
-    "tempo_medio_fundeio_horas": 5
+    "tempo_medio_fundeio_horas": 161.8
   },
   "historico_recente": [
+    {
+      "data": "2026-10-15T17:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESPR - MacLaren Ilha da Conceição"
+    },
     {
       "data": "2026-10-02T11:00:00.000Z",
       "tipo": "MUDANÇA",
