@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-15T11:56:02.499Z",
+  "updatedAt": "2026-10-15T16:17:49.113Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 43
+      "count": 57
     },
     "niteroi": {
       "ok": true,
-      "count": 4
+      "count": 7
     },
     "itaguai": {
       "ok": true,
@@ -112,6 +112,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 05:30",
+      "imo": "9309215",
+      "navio": "SAN ANDRES IV",
+      "tipo": "SAÍDA",
+      "de": "TPS2 - PETROBRAS PS2",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 05:30",
       "imo": "9382229",
       "navio": "NORTH OCEAN 102",
       "tipo": "ENTRADA",
@@ -131,16 +141,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/10/2026 05:30",
-      "imo": "9309215",
-      "navio": "SAN ANDRES IV",
-      "tipo": "SAÍDA",
-      "de": "TPS2 - PETROBRAS PS2",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 06:00",
       "imo": "9453365",
       "navio": "SPYROS V",
@@ -151,6 +151,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 06:00",
+      "imo": "9902237",
+      "navio": "EAGLE CANOAS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 06:00",
+      "imo": "9300491",
+      "navio": "AQUITANIA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01 - Visita",
+      "para": "-",
+      "agente": "SEASHORE SOLUTIONS COMÉRCIO E SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 07:00",
       "imo": "9477402",
       "navio": "CBO ANITA",
@@ -158,16 +178,6 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/10/2026 07:00",
-      "imo": "9600580",
-      "navio": "SKANDI ANGRA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -202,16 +212,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 08:00",
-      "imo": "9715737",
-      "navio": "STARNAV ANDROMEDA",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/10/2026 08:00",
       "imo": "9637777",
       "navio": "BRASIL KNUTSEN",
       "tipo": "ENTRADA",
@@ -232,16 +232,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 08:00",
-      "imo": "9521021",
-      "navio": "CBO WAVE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "ESPR - MacLaren Ilha da Conceição",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "15/10/2026 08:00",
       "imo": "9423229",
       "navio": "ELIZABETH C",
       "tipo": "ENTRADA",
@@ -252,12 +242,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 08:00",
+      "imo": "9521021",
+      "navio": "CBO WAVE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 08:00",
       "imo": "9357169",
       "navio": "ASSO VENTISETTE",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 08:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "SAÍDA",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -291,13 +301,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/10/2026 09:00",
-      "imo": "9545857",
-      "navio": "COXON TIDE (REB)",
-      "tipo": "SAÍDA",
+      "inicio": "15/10/2026 10:00",
+      "imo": "9382229",
+      "navio": "NORTH OCEAN 102",
+      "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+      "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 10:30",
+      "imo": "9423229",
+      "navio": "ELIZABETH C",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2NTO - Terminal de Óleo",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -312,12 +332,52 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 11:00",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 11:00",
       "imo": "9642590",
       "navio": "PINGUIM",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPBR - BRASCO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 11:00",
+      "imo": "9644158",
+      "navio": "ZARAPITO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 11:00",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 11:30",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -331,11 +391,61 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 12:00",
+      "imo": "9458157",
+      "navio": "GAZ SYNERGY",
+      "tipo": "SAÍDA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 12:00",
+      "imo": "9600580",
+      "navio": "SKANDI ANGRA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 12:00",
+      "imo": "9762003",
+      "navio": "C SEPETIBA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESCM - ESTALEIRO CAMORIM",
+      "agente": "SAM OFFSHORE ACU SERVIÇOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 13:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 14:00",
       "imo": "9703667",
       "navio": "BRAM HERO",
       "tipo": "ENTRADA",
       "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 14:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
@@ -351,11 +461,21 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "15/10/2026 16:00",
-      "imo": "9458157",
-      "navio": "GAZ SYNERGY",
+      "inicio": "15/10/2026 15:00",
+      "imo": "9545857",
+      "navio": "COXON TIDE (REB)",
       "tipo": "SAÍDA",
-      "de": "TPIC - ILHA COMPRIDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 15:00",
+      "imo": "9788552",
+      "navio": "PACIFIC JASPER",
+      "tipo": "SAÍDA",
+      "de": "TPS1 - PETROBRAS PS1",
       "para": "-",
       "agente": "GAC DO BRASIL LTDA."
     },
@@ -392,12 +512,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "15/10/2026 18:00",
-      "imo": "9788552",
-      "navio": "PACIFIC JASPER",
-      "tipo": "SAÍDA",
-      "de": "TPS1 - PETROBRAS PS1",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -408,6 +528,16 @@
       "de": "-",
       "para": "2N08 - Pátio 9",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/10/2026 19:00",
+      "imo": "9573256",
+      "navio": "BATUÍRA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -450,6 +580,16 @@
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/10/2026 10:00",
+      "imo": "9706528",
+      "navio": "SKANDI BUZIOS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
       "porto": "Niterói",
       "inicio": "15/10/2026 00:00",
       "imo": "9686144",
@@ -488,6 +628,36 @@
       "de": "ESMA - ESTALEIRO MAUÁ",
       "para": "-",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "15/10/2026 12:00",
+      "imo": "9466099",
+      "navio": "PARCEL DO BADEJO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "ESCS - CASTRO SILVA",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "15/10/2026 14:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "15/10/2026 23:30",
+      "imo": "9575620",
+      "navio": "TANTALUS TIDE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Itaguaí",
@@ -552,21 +722,21 @@
     {
       "porto": "Itaguaí",
       "inicio": "15/10/2026 15:30",
-      "imo": "9723502",
-      "navio": "MINERAL TOBY",
+      "imo": "9479242",
+      "navio": "HYUNDAI ATLANTIC",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FA2 - Área de Fundeio A2",
+      "de": "Fundeio - 5FB2 - Área de Fundeio B2",
       "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
+      "agente": "ISS MARINE SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",
-      "inicio": "15/10/2026 18:30",
-      "imo": "9493872",
-      "navio": "ELOS",
-      "tipo": "SAÍDA",
-      "de": "102 - TECAR - CSN MINERAÇÃO S.A.",
-      "para": "-",
+      "inicio": "15/10/2026 17:00",
+      "imo": "9516492",
+      "navio": "HENG MAO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
