@@ -1,21 +1,21 @@
 {
   "imo": "9423437",
   "navio": "AKOFS SANTOS (REB)",
-  "gerado_em": "2026-10-15T06:27:46.803Z",
+  "gerado_em": "2026-10-15T11:56:02.499Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS2 - Terminal Siderúrgico parte 2 a 6",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-14T14:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - WPT 92 - AF Preferencial Gusa",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-15T08:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 37,
-    "manobras_365d": 39,
+    "manobras_30d": 10,
+    "manobras_180d": 38,
+    "manobras_365d": 40,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 18,
     "saidas_365d": 17,
     "ultima_entrada": "2026-10-14T14:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 11.9
   },
   "historico_recente": [
+    {
+      "data": "2026-10-15T08:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+      "para": "Fundeio - WPT 92 - AF Preferencial Gusa"
+    },
     {
       "data": "2026-10-14T14:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS2 - Terminal Siderúrgico parte 2 a 6",
       "para": "-"
-    },
-    {
-      "data": "2026-09-15T19:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - WPT 82 - 2F08",
-      "para": "2TS2 - Terminal Siderúrgico parte 2 a 6"
     }
   ]
 }
