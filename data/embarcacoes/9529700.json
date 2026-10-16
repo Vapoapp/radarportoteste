@@ -1,29 +1,36 @@
 {
   "imo": "9529700",
   "navio": "POSIDONIA TIGER (REB)",
-  "gerado_em": "2026-10-16T21:06:22.721Z",
+  "gerado_em": "2026-10-16T23:31:35.149Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-15T14:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-16T22:10:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 74,
-    "manobras_365d": 79,
+    "manobras_30d": 13,
+    "manobras_180d": 75,
+    "manobras_365d": 80,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 6,
     "entradas_365d": 19,
-    "saidas_365d": 18,
+    "saidas_365d": 19,
     "ultima_entrada": "2026-10-15T00:00:00.000Z",
-    "ultima_saida": "2026-10-08T19:00:00.000Z",
-    "tempo_medio_estadia_horas": 118.7,
+    "ultima_saida": "2026-10-16T22:10:00.000Z",
+    "tempo_medio_estadia_horas": 114.6,
     "tempo_medio_fundeio_horas": 38.2
   },
   "historico_recente": [
+    {
+      "data": "2026-10-16T22:10:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "-"
+    },
     {
       "data": "2026-10-15T14:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-09-24T14:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "-"
     }
   ]
 }
