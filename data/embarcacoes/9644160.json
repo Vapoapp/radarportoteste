@@ -1,29 +1,36 @@
 {
   "imo": "9644160",
   "navio": "BRAM BELEM",
-  "gerado_em": "2026-10-16T00:49:41.131Z",
+  "gerado_em": "2026-10-16T05:10:02.604Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-15T21:00:00.000Z"
+    "em_fundeio": false,
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-16T04:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 85,
-    "manobras_365d": 92,
+    "manobras_30d": 15,
+    "manobras_180d": 86,
+    "manobras_365d": 93,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 8,
+    "mudancas_30d": 7,
     "entradas_365d": 23,
     "saidas_365d": 22,
     "ultima_entrada": "2026-10-15T21:00:00.000Z",
     "ultima_saida": "2026-10-15T14:00:00.000Z",
     "tempo_medio_estadia_horas": 49.2,
-    "tempo_medio_fundeio_horas": 29
+    "tempo_medio_fundeio_horas": 28.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-16T04:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
+    },
     {
       "data": "2026-10-15T21:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico parte 1",
       "para": "-"
-    },
-    {
-      "data": "2026-10-03T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico parte 1"
     }
   ]
 }
