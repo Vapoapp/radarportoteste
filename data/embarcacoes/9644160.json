@@ -1,21 +1,21 @@
 {
   "imo": "9644160",
   "navio": "BRAM BELEM",
-  "gerado_em": "2026-10-16T09:46:08.765Z",
+  "gerado_em": "2026-10-16T14:19:59.085Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-16T04:00:00.000Z"
+    "ultima_movimentacao": "2026-10-16T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 86,
-    "manobras_365d": 93,
+    "manobras_30d": 16,
+    "manobras_180d": 87,
+    "manobras_365d": 94,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 23,
     "saidas_365d": 22,
     "ultima_entrada": "2026-10-15T21:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 28.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-16T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-10-16T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-04T14:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "-"
     }
   ]
 }
