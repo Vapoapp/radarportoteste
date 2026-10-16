@@ -1,29 +1,36 @@
 {
   "imo": "9806483",
   "navio": "STARNAV LIBRA",
-  "gerado_em": "2026-10-16T05:10:02.604Z",
+  "gerado_em": "2026-10-16T09:46:08.765Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-12T15:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-16T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 16,
-    "manobras_365d": 17,
+    "manobras_30d": 3,
+    "manobras_180d": 17,
+    "manobras_365d": 18,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 6,
-    "saidas_365d": 5,
+    "saidas_365d": 6,
     "ultima_entrada": "2026-10-12T15:00:00.000Z",
-    "ultima_saida": "2026-10-01T01:00:00.000Z",
-    "tempo_medio_estadia_horas": 180.4,
-    "tempo_medio_fundeio_horas": 259.1
+    "ultima_saida": "2026-10-16T07:00:00.000Z",
+    "tempo_medio_estadia_horas": 157.3,
+    "tempo_medio_fundeio_horas": 224.9
   },
   "historico_recente": [
+    {
+      "data": "2026-10-16T07:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-10-12T15:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-06-22T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
