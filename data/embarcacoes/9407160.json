@@ -1,29 +1,36 @@
 {
   "imo": "9407160",
   "navio": "SEASPAN EMPIRE",
-  "gerado_em": "2026-10-17T16:42:23.065Z",
+  "gerado_em": "2026-10-17T18:50:45.823Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C11 - TECON - ICTSI 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-17T00:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-17T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 6,
-    "manobras_365d": 7,
+    "manobras_30d": 2,
+    "manobras_180d": 7,
+    "manobras_365d": 8,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-10-17T00:00:00.000Z",
-    "ultima_saida": "2026-08-30T19:30:00.000Z",
-    "tempo_medio_estadia_horas": 10.5,
+    "ultima_saida": "2026-10-17T17:00:00.000Z",
+    "tempo_medio_estadia_horas": 12.7,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-10-17T17:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-"
+    },
     {
       "data": "2026-10-17T00:00:00.000Z",
       "tipo": "ENTRADA",
