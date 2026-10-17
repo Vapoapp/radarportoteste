@@ -1,29 +1,36 @@
 {
   "imo": "9440708",
   "navio": "FULMAR",
-  "gerado_em": "2026-10-17T05:59:24.759Z",
+  "gerado_em": "2026-10-17T10:28:36.381Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-17T05:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-17T08:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 65,
-    "manobras_365d": 66,
+    "manobras_30d": 19,
+    "manobras_180d": 66,
+    "manobras_365d": 67,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 9,
     "entradas_365d": 18,
-    "saidas_365d": 18,
+    "saidas_365d": 19,
     "ultima_entrada": "2026-10-17T00:00:00.000Z",
-    "ultima_saida": "2026-10-13T07:00:00.000Z",
-    "tempo_medio_estadia_horas": 38.8,
+    "ultima_saida": "2026-10-17T08:00:00.000Z",
+    "tempo_medio_estadia_horas": 36.6,
     "tempo_medio_fundeio_horas": 22.5
   },
   "historico_recente": [
+    {
+      "data": "2026-10-17T08:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-"
+    },
     {
       "data": "2026-10-17T05:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-10-06T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

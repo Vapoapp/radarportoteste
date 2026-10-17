@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-17T05:59:24.759Z",
+  "updatedAt": "2026-10-17T10:28:36.381Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 26
+      "count": 33
     },
     "niteroi": {
       "ok": true,
@@ -101,6 +101,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "17/10/2026 05:00",
+      "imo": "9440708",
+      "navio": "FULMAR",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/10/2026 05:00",
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "17/10/2026 06:00",
       "imo": "9345893",
       "navio": "FLUMAR MACEIO (REB)",
@@ -121,13 +141,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "17/10/2026 07:00",
-      "imo": "9605231",
-      "navio": "MSC DAKAR X",
-      "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
-      "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "inicio": "17/10/2026 06:30",
+      "imo": "9798868",
+      "navio": "NICOPOLIS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01N - Visita Norte",
+      "agente": "AMART SERVICES CONSULTORIA, AGENCIAMENTO MARITIMO"
     },
     {
       "porto": "Rio de Janeiro",
@@ -142,12 +162,42 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "17/10/2026 07:00",
+      "imo": "9630327",
+      "navio": "POSIDONIA JAGUAR",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/10/2026 07:00",
       "imo": "9506394",
       "navio": "LOG-IN DISCOVERY (REB S/L)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2C22 - TECON 2 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/10/2026 07:00",
+      "imo": "9605231",
+      "navio": "MSC DAKAR X",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/10/2026 08:00",
+      "imo": "1094979",
+      "navio": "STARNAV ELEKTRA (CADASTRO PROVISÓRIO - PSP)",
+      "tipo": "MUDANÇA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "TPBR - BRASCO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -181,6 +231,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "17/10/2026 08:10",
+      "imo": "9799070",
+      "navio": "STARNAV SCORPIUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/10/2026 08:30",
+      "imo": "1042354",
+      "navio": "SEAWAYS BALBOA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F01S - Visita Sul",
+      "agente": "AMART SERVICES CONSULTORIA, AGENCIAMENTO MARITIMO"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "17/10/2026 10:00",
       "imo": "9389576",
       "navio": "SKANDI SALVADOR",
@@ -188,6 +258,16 @@
       "de": "2N05 - Armazém 6",
       "para": "2TS2 - Terminal Siderúrgico parte 2 a 6",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "17/10/2026 12:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "MUDANÇA",
+      "de": "DOCKBRASIL - DOCKBRASIL",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -208,16 +288,6 @@
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico parte 1",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "17/10/2026 12:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "MUDANÇA",
-      "de": "DOCKBRASIL - DOCKBRASIL",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -311,32 +381,22 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "17/10/2026 11:00",
-      "imo": "9719939",
-      "navio": "MINERAL NACER",
-      "tipo": "SAÍDA",
-      "de": "102 - TECAR - CSN MINERAÇÃO S.A.",
-      "para": "-",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "17/10/2026 12:30",
-      "imo": "9849241",
-      "navio": "China Steel Prestige",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
-      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
-      "agente": "THP SHIPPING AND LOGISTICS LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "17/10/2026 14:30",
+      "inicio": "17/10/2026 12:00",
       "imo": "9701358",
       "navio": "MINERAL SUMIRE",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 5FB4 - Área de Fundeio B4",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "17/10/2026 14:00",
+      "imo": "9719939",
+      "navio": "MINERAL NACER",
+      "tipo": "SAÍDA",
+      "de": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "para": "-",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
@@ -358,6 +418,16 @@
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
       "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "17/10/2026 18:30",
+      "imo": "9849241",
+      "navio": "China Steel Prestige",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FB5 - Área de Fundeio B5",
+      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
     }
   ]
 }
