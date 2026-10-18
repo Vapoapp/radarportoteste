@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-18T16:48:01.965Z",
+  "updatedAt": "2026-10-18T18:59:58.120Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 44
+      "count": 47
     },
     "niteroi": {
       "ok": true,
@@ -11,7 +11,7 @@
     },
     "itaguai": {
       "ok": true,
-      "count": 4
+      "count": 13
     },
     "angra": {
       "ok": true,
@@ -102,16 +102,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/10/2026 02:00",
-      "imo": "9642588",
-      "navio": "LARUS",
-      "tipo": "SAÍDA",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "-",
-      "agente": "WILSON SONS OFFSHORE S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/10/2026 02:00",
       "imo": "9442055",
       "navio": "TALHA-MAR",
       "tipo": "MUDANÇA",
@@ -127,6 +117,16 @@
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/10/2026 02:00",
+      "imo": "9642588",
+      "navio": "LARUS",
+      "tipo": "SAÍDA",
+      "de": "2PAL - Terminal Petrobras AL",
+      "para": "-",
       "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
@@ -222,16 +222,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/10/2026 06:00",
-      "imo": "9867619",
-      "navio": "AITOLOS",
-      "tipo": "MUDANÇA",
-      "de": "TPP2 - PETROBRAS PP2",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/10/2026 06:00",
       "imo": "1094979",
       "navio": "STARNAV ELEKTRA (CADASTRO PROVISÓRIO - PSP)",
       "tipo": "MUDANÇA",
@@ -248,6 +238,16 @@
       "de": "TPBR - BRASCO",
       "para": "-",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/10/2026 06:00",
+      "imo": "9867619",
+      "navio": "AITOLOS",
+      "tipo": "MUDANÇA",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -431,6 +431,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "18/10/2026 14:00",
+      "imo": "9648154",
+      "navio": "MAR LIMPO VII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "18/10/2026 15:00",
       "imo": "9575632",
       "navio": "TITUS TIDE (REB)",
@@ -438,6 +448,26 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/10/2026 16:00",
+      "imo": "9440681",
+      "navio": "SKUA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/10/2026 17:00",
+      "imo": "9710878",
+      "navio": "SEVEN RIO",
+      "tipo": "MUDANÇA",
+      "de": "2N09 - Armazém 10",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -508,6 +538,96 @@
       "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
       "para": "-",
       "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "18/10/2026 20:30",
+      "imo": "9508304",
+      "navio": "BBC GANGES",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "303 - TECON - SEPETIBA TECON S.A.",
+      "agente": "BRAZILIAN PORT AGENTS"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/10/2026 04:00",
+      "imo": "9708928",
+      "navio": "ES VANQUISH",
+      "tipo": "SAÍDA",
+      "de": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "para": "-",
+      "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/10/2026 05:30",
+      "imo": "9723502",
+      "navio": "MINERAL TOBY",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - F1 - FUNDEIO F1",
+      "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/10/2026 09:00",
+      "imo": "9946312",
+      "navio": "NS EXPLORER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
+      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/10/2026 12:30",
+      "imo": "9849241",
+      "navio": "China Steel Prestige",
+      "tipo": "SAÍDA",
+      "de": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "para": "-",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/10/2026 14:00",
+      "imo": "9654804",
+      "navio": "CAPE INDIA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 5FA1 - Área de Fundeio A1",
+      "para": "102 - TECAR - CSN MINERAÇÃO S.A.",
+      "agente": "WILHELMSEN PORT SERVICES BRASIL LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/10/2026 15:30",
+      "imo": "9503225",
+      "navio": "CELEBES CLOVER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 5FB2 - Área de Fundeio B2",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/10/2026 17:00",
+      "imo": "9726047",
+      "navio": "UNITY DISCOVERY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPTE - TERNIUM - THYSSENKRUPP CSA SIDERURGICA DO ATLANTICO",
+      "agente": "GEM SHIPPING LTDA"
+    },
+    {
+      "porto": "Itaguaí",
+      "inicio": "19/10/2026 19:30",
+      "imo": "9593361",
+      "navio": "SC MADISON",
+      "tipo": "SAÍDA",
+      "de": "101 - TECAR - CSN MINERAÇÃO S.A.",
+      "para": "-",
+      "agente": "GEM SHIPPING LTDA"
     }
   ]
 }
