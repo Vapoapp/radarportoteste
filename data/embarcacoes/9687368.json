@@ -1,21 +1,21 @@
 {
   "imo": "9687368",
   "navio": "BRAM BOA VISTA",
-  "gerado_em": "2026-10-18T05:12:48.781Z",
+  "gerado_em": "2026-10-18T09:38:31.099Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "NIT - ATRACADO NITERÓI",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-16T22:00:00.000Z"
+    "ultima_movimentacao": "2026-10-18T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 47,
-    "manobras_365d": 47,
+    "manobras_30d": 13,
+    "manobras_180d": 48,
+    "manobras_365d": 48,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 16,
     "saidas_365d": 15,
     "ultima_entrada": "2026-10-16T05:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 29.4
   },
   "historico_recente": [
+    {
+      "data": "2026-10-18T06:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-10-16T22:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A."
-    },
-    {
-      "data": "2026-09-20T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
