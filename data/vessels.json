@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-18T18:59:58.120Z",
+  "updatedAt": "2026-10-18T21:22:38.486Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 47
+      "count": 49
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 2
     },
     "itaguai": {
       "ok": true,
-      "count": 13
+      "count": 12
     },
     "angra": {
       "ok": true,
@@ -212,12 +212,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/10/2026 06:00",
-      "imo": "9644213",
-      "navio": "BRAM BUZIOS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9867619",
+      "navio": "AITOLOS",
+      "tipo": "MUDANÇA",
+      "de": "TPP2 - PETROBRAS PP2",
+      "para": "TPP1 - PETROBRAS PP1",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -242,12 +242,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/10/2026 06:00",
-      "imo": "9867619",
-      "navio": "AITOLOS",
-      "tipo": "MUDANÇA",
-      "de": "TPP2 - PETROBRAS PP2",
-      "para": "TPP1 - PETROBRAS PP1",
-      "agente": "GAC DO BRASIL LTDA."
+      "imo": "9644213",
+      "navio": "BRAM BUZIOS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -402,22 +402,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "18/10/2026 12:30",
-      "imo": "9710945",
-      "navio": "SEACOR NILE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "18/10/2026 12:30",
       "imo": "9715751",
       "navio": "STARNAV PHOENIX",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC",
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/10/2026 12:30",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -471,6 +471,26 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "18/10/2026 17:41",
+      "imo": "9690432",
+      "navio": "BRAM BUCCANEER",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "18/10/2026 18:00",
+      "imo": "9659543",
+      "navio": "BARU ANTARES",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "BARU OFSSHORE NAVEGAÇÃO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "18/10/2026 21:00",
       "imo": "9575632",
       "navio": "TITUS TIDE (REB)",
@@ -500,6 +520,16 @@
       "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
+      "porto": "Niterói",
+      "inicio": "18/10/2026 11:00",
+      "imo": "9284324",
+      "navio": "OCEANICASUB XVIII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "OCEANICA ENGENHARIA E CONSULTORIA S.A."
+    },
+    {
       "porto": "Itaguaí",
       "inicio": "18/10/2026 02:00",
       "imo": "9603221",
@@ -517,16 +547,6 @@
       "tipo": "SAÍDA",
       "de": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "para": "-",
-      "agente": "TRIAINA AGENCIA MARITIMA LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "18/10/2026 15:00",
-      "imo": "9933602",
-      "navio": "EAGLE VELLORE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
       "agente": "TRIAINA AGENCIA MARITIMA LTDA"
     },
     {
@@ -565,15 +585,15 @@
       "imo": "9723502",
       "navio": "MINERAL TOBY",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - F1 - FUNDEIO F1",
+      "de": "Fundeio - 5FA2 - Área de Fundeio A2",
       "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Itaguaí",
       "inicio": "19/10/2026 09:00",
-      "imo": "9946312",
-      "navio": "NS EXPLORER",
+      "imo": "9933602",
+      "navio": "EAGLE VELLORE",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
@@ -581,7 +601,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/10/2026 12:30",
+      "inicio": "19/10/2026 11:30",
       "imo": "9849241",
       "navio": "China Steel Prestige",
       "tipo": "SAÍDA",
@@ -591,7 +611,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/10/2026 14:00",
+      "inicio": "19/10/2026 13:00",
       "imo": "9654804",
       "navio": "CAPE INDIA",
       "tipo": "MUDANÇA",
@@ -601,7 +621,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "19/10/2026 15:30",
+      "inicio": "19/10/2026 14:30",
       "imo": "9503225",
       "navio": "CELEBES CLOVER",
       "tipo": "ENTRADA",
