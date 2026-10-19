@@ -1,25 +1,25 @@
 {
   "imo": "9179751",
   "navio": "NORMAND PIONEER",
-  "gerado_em": "2026-10-19T13:53:36.856Z",
+  "gerado_em": "2026-10-19T19:33:40.697Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
     "ultima_movimentacao": "2026-10-19T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 6,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 7,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 4,
     "entradas_365d": 2,
-    "saidas_365d": 1,
+    "saidas_365d": 2,
     "ultima_entrada": "2026-10-19T05:00:00.000Z",
-    "ultima_saida": "2026-10-18T13:30:00.000Z",
+    "ultima_saida": "2026-10-19T05:00:00.000Z",
     "tempo_medio_estadia_horas": null,
     "tempo_medio_fundeio_horas": 200.3
   },
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-10-19T05:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
     },
     {
       "data": "2026-10-18T13:30:00.000Z",
