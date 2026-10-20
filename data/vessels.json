@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-20T06:38:05.806Z",
+  "updatedAt": "2026-10-20T12:08:36.650Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 27
+      "count": 32
     },
     "niteroi": {
       "ok": true,
@@ -92,12 +92,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/10/2026 06:00",
-      "imo": "9710878",
-      "navio": "SEVEN RIO",
-      "tipo": "SAÍDA",
-      "de": "2C11 - TECON - ICTSI 1",
-      "para": "-",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "imo": "9318412",
+      "navio": "CBO GUANABARA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -107,6 +107,16 @@
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "TPBR - BRASCO",
+      "agente": "WILSON SONS OFFSHORE S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/10/2026 07:00",
+      "imo": "9644158",
+      "navio": "ZARAPITO",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
       "agente": "WILSON SONS OFFSHORE S.A."
     },
     {
@@ -132,16 +142,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "20/10/2026 08:00",
-      "imo": "9759496",
-      "navio": "STARNAV VOLANS",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "20/10/2026 08:00",
       "imo": "9626443",
       "navio": "BONGO (REB)",
       "tipo": "ENTRADA",
@@ -156,8 +156,28 @@
       "navio": "WINDEA CURIE",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "2C11 - TECON - ICTSI 1",
       "agente": "SYNERGY OFFSHORE DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/10/2026 08:00",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/10/2026 08:30",
+      "imo": "9668752",
+      "navio": "STARNAV REGULUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -221,6 +241,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "20/10/2026 11:00",
+      "imo": "9710878",
+      "navio": "SEVEN RIO",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "20/10/2026 12:00",
       "imo": "2412230323",
       "navio": "SÃO LUIS",
@@ -228,16 +258,6 @@
       "de": "2N16 - Armazém 16",
       "para": "2N17 - Armazém 17",
       "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "20/10/2026 12:30",
-      "imo": "9758090",
-      "navio": "BOW SUCCESS",
-      "tipo": "SAÍDA",
-      "de": "TPEX - EXXON SOLUTEC",
-      "para": "-",
-      "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -271,12 +291,22 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "20/10/2026 15:00",
+      "inicio": "20/10/2026 15:30",
+      "imo": "3813884350",
+      "navio": "C RIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESCM - ESTALEIRO CAMORIM",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "20/10/2026 16:00",
       "imo": "9785445",
       "navio": "MSC CAROLE",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
+      "para": "2C22 - TECON 2 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
@@ -288,6 +318,26 @@
       "de": "-",
       "para": "2TS2 - Terminal Siderúrgico parte 2 a 6",
       "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/10/2026 05:00",
+      "imo": "9628154",
+      "navio": "VALOR",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "21/10/2026 09:00",
+      "imo": "9785445",
+      "navio": "MSC CAROLE",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Itaguaí",
