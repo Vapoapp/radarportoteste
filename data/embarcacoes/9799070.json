@@ -1,29 +1,36 @@
 {
   "imo": "9799070",
   "navio": "STARNAV SCORPIUS",
-  "gerado_em": "2026-10-20T01:42:04.597Z",
+  "gerado_em": "2026-10-20T06:38:05.806Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-19T23:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-20T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 67,
-    "manobras_365d": 76,
+    "manobras_30d": 18,
+    "manobras_180d": 68,
+    "manobras_365d": 77,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 8,
     "entradas_365d": 20,
-    "saidas_365d": 19,
+    "saidas_365d": 20,
     "ultima_entrada": "2026-10-17T11:10:00.000Z",
-    "ultima_saida": "2026-10-12T20:00:00.000Z",
+    "ultima_saida": "2026-10-20T05:00:00.000Z",
     "tempo_medio_estadia_horas": 64.5,
-    "tempo_medio_fundeio_horas": 29.9
+    "tempo_medio_fundeio_horas": 31.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-20T05:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-10-19T23:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-05T20:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Niterói",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
