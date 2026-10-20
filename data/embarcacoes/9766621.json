@@ -1,29 +1,36 @@
 {
   "imo": "9766621",
   "navio": "CBO ALIANÇA",
-  "gerado_em": "2026-10-20T12:08:36.650Z",
+  "gerado_em": "2026-10-20T16:58:00.550Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-18T04:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-20T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 54,
-    "manobras_365d": 66,
+    "manobras_30d": 10,
+    "manobras_180d": 55,
+    "manobras_365d": 67,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 4,
     "entradas_365d": 16,
-    "saidas_365d": 15,
+    "saidas_365d": 16,
     "ultima_entrada": "2026-10-18T04:00:00.000Z",
-    "ultima_saida": "2026-10-17T19:00:00.000Z",
-    "tempo_medio_estadia_horas": 106.2,
-    "tempo_medio_fundeio_horas": 35.4
+    "ultima_saida": "2026-10-20T12:00:00.000Z",
+    "tempo_medio_estadia_horas": 103,
+    "tempo_medio_fundeio_horas": 36.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-20T12:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-10-18T04:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-09-15T17:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "-"
     }
   ]
 }
