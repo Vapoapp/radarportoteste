@@ -1,21 +1,21 @@
 {
   "imo": "9573256",
   "navio": "BATUÍRA",
-  "gerado_em": "2026-10-21T01:37:23.845Z",
+  "gerado_em": "2026-10-21T06:32:55.436Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-15T22:00:00.000Z"
+    "ultima_movimentacao": "2026-10-21T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 5,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-10-08T23:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 85.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-21T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-10-15T22:00:00.000Z",
       "tipo": "MUDANÇA",
