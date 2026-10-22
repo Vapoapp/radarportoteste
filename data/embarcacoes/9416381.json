@@ -1,29 +1,36 @@
 {
   "imo": "9416381",
   "navio": "CLARITY",
-  "gerado_em": "2026-10-22T12:25:57.593Z",
+  "gerado_em": "2026-10-22T17:27:44.681Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 63 - 2F6A",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-19T21:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPS1 - PETROBRAS PS1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-22T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 2,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 3,
     "saidas_365d": 2,
     "ultima_entrada": "2026-10-19T21:00:00.000Z",
     "ultima_saida": "2026-07-24T14:00:00.000Z",
     "tempo_medio_estadia_horas": 33.5,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 67
   },
   "historico_recente": [
+    {
+      "data": "2026-10-22T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - WPT 63 - 2F6A",
+      "para": "TPS1 - PETROBRAS PS1"
+    },
     {
       "data": "2026-10-19T21:00:00.000Z",
       "tipo": "ENTRADA",
