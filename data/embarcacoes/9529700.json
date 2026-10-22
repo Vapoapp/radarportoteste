@@ -1,21 +1,21 @@
 {
   "imo": "9529700",
   "navio": "POSIDONIA TIGER (REB)",
-  "gerado_em": "2026-10-22T20:42:39.549Z",
+  "gerado_em": "2026-10-22T23:37:01.368Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "local": "2TS2 - Terminal Siderúrgico parte 2 a 6",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-21T23:00:00.000Z"
+    "ultima_movimentacao": "2026-10-22T22:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 77,
-    "manobras_365d": 85,
+    "manobras_30d": 17,
+    "manobras_180d": 78,
+    "manobras_365d": 86,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 20,
     "saidas_365d": 19,
     "ultima_entrada": "2026-10-20T15:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 36.9
   },
   "historico_recente": [
+    {
+      "data": "2026-10-22T22:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "2TS2 - Terminal Siderúrgico parte 2 a 6"
+    },
     {
       "data": "2026-10-21T23:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2PAL - Terminal Petrobras AL",
       "para": "-"
-    },
-    {
-      "data": "2026-10-07T23:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "2PAL - Terminal Petrobras AL"
     }
   ]
 }
