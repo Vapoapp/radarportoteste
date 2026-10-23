@@ -1,29 +1,36 @@
 {
   "imo": "9510307",
   "navio": "Siem Pilot",
-  "gerado_em": "2026-10-23T01:54:41.057Z",
+  "gerado_em": "2026-10-23T06:49:55.721Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-22T10:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-23T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 10,
-    "manobras_365d": 10,
+    "manobras_30d": 2,
+    "manobras_180d": 11,
+    "manobras_365d": 11,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 5,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-10-22T10:00:00.000Z",
-    "ultima_saida": "2026-09-10T13:00:00.000Z",
-    "tempo_medio_estadia_horas": 120.5,
+    "ultima_saida": "2026-10-23T05:00:00.000Z",
+    "tempo_medio_estadia_horas": 95.1,
     "tempo_medio_fundeio_horas": 19
   },
   "historico_recente": [
+    {
+      "data": "2026-10-23T05:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
+      "para": "-"
+    },
     {
       "data": "2026-10-22T10:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2N05 - Armazém 6"
-    },
-    {
-      "data": "2026-05-10T03:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
