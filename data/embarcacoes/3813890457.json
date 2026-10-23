@@ -1,21 +1,21 @@
 {
   "imo": "3813890457",
   "navio": "COSTA NOVA",
-  "gerado_em": "2026-10-23T12:12:03.577Z",
+  "gerado_em": "2026-10-23T17:07:08.591Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2N06 - Armazém 7",
+    "local": "ESCA - ESTALEIRO CASSINU",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-23T12:00:00.000Z"
+    "ultima_movimentacao": "2026-10-23T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 4,
-    "manobras_365d": 7,
+    "manobras_30d": 2,
+    "manobras_180d": 5,
+    "manobras_365d": 8,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 3,
     "saidas_365d": 3,
     "ultima_entrada": "2026-06-07T20:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 14.5
   },
   "historico_recente": [
+    {
+      "data": "2026-10-23T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2N06 - Armazém 7",
+      "para": "ESCA - ESTALEIRO CASSINU"
+    },
     {
       "data": "2026-10-23T12:00:00.000Z",
       "tipo": "MUDANÇA",
