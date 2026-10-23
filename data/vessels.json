@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-23T06:49:55.721Z",
+  "updatedAt": "2026-10-23T12:12:03.577Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 25
+      "count": 40
     },
     "niteroi": {
       "ok": true,
-      "count": 2
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -81,6 +81,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 04:00",
+      "imo": "9715737",
+      "navio": "STARNAV ANDROMEDA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 05:00",
       "imo": "9530199",
       "navio": "SANTOS SERVICE",
@@ -101,6 +111,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 06:00",
+      "imo": "9423190",
+      "navio": "DEBORAH KAY",
+      "tipo": "MUDANÇA",
+      "de": "TPBL - BRICLOG",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 06:30",
       "imo": "9413810",
       "navio": "SKANDI ACHIEVER (REB)",
@@ -111,23 +131,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "23/10/2026 07:00",
-      "imo": "9473418",
-      "navio": "CLEANTEC",
+      "inicio": "23/10/2026 06:30",
+      "imo": "9476886",
+      "navio": "REEDBUCK (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F03 - Feiticeira",
-      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "23/10/2026 07:00",
-      "imo": "9710945",
-      "navio": "SEACOR NILE (REB)",
+      "inicio": "23/10/2026 06:40",
+      "imo": "9361770",
+      "navio": "NORMAND FERKING (REB)",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -151,13 +171,43 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 07:00",
+      "imo": "9473418",
+      "navio": "CLEANTEC",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F03 - Feiticeira",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 07:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 07:30",
       "imo": "9468205",
       "navio": "SEVEN OCEANIC",
       "tipo": "MUDANÇA",
       "de": "2NTO - Terminal de Óleo",
-      "para": "Fundeio - 2F09 - XAREU",
+      "para": "Fundeio - WPT 92 - AF Preferencial Gusa",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 08:00",
+      "imo": "9814961",
+      "navio": "SEALOADER 1",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,12 +222,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 08:00",
-      "imo": "9814961",
-      "navio": "SEALOADER 1",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
-      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 08:00",
+      "imo": "9329942",
+      "navio": "MESTRE DOS MARES (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -221,6 +281,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 10:00",
+      "imo": "9429936",
+      "navio": "SANCO SPIRIT",
+      "tipo": "MUDANÇA",
+      "de": "2N06 - Armazém 7",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 10:30",
       "imo": "1037701",
       "navio": "GOLDEN THETIS",
@@ -228,6 +298,26 @@
       "de": "-",
       "para": "2NTO - Terminal de Óleo",
       "agente": "TRANSATLANTICA AGENCIAMENTO DE SERVICOS MARITIMOS"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 11:00",
+      "imo": "9867619",
+      "navio": "AITOLOS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F01S - Visita Sul",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 12:00",
+      "imo": "9578892",
+      "navio": "CBO COPACABANA",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -270,6 +360,66 @@
       "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 05:00",
+      "imo": "9351799",
+      "navio": "LOG-IN PANTANAL (REB)",
+      "tipo": "MUDANÇA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 07:00",
+      "imo": "9293818",
+      "navio": "CONTI CONQUEST",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 09:00",
+      "imo": "9506394",
+      "navio": "LOG-IN DISCOVERY (REB S/L)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 10:30",
+      "imo": "9143556",
+      "navio": "DUSSELDORF EXPRESS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 14:00",
+      "imo": "9351799",
+      "navio": "LOG-IN PANTANAL (REB)",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 20:00",
+      "imo": "9143556",
+      "navio": "DUSSELDORF EXPRESS",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
       "porto": "Niterói",
       "inicio": "23/10/2026 02:00",
       "imo": "9510307",
@@ -281,11 +431,31 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "23/10/2026 05:45",
+      "imo": "9385271",
+      "navio": "HOS TAURUS (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESMC - MacLaren Ponta da Areia",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "23/10/2026 07:00",
       "imo": "9424986",
       "navio": "SAVEIROS ATOBÁ",
       "tipo": "ENTRADA",
       "de": "-",
+      "para": "ESWS - ESTALEIRO",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "23/10/2026 10:00",
+      "imo": "9424986",
+      "navio": "SAVEIROS ATOBÁ",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "ESWS - ESTALEIRO",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
@@ -321,7 +491,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "23/10/2026 13:30",
+      "inicio": "23/10/2026 15:30",
       "imo": "9911240",
       "navio": "SHANDONG DEVELOPMENT",
       "tipo": "SAÍDA",
