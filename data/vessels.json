@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-23T23:16:14.801Z",
+  "updatedAt": "2026-10-24T01:39:24.449Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 64
+      "count": 77
     },
     "niteroi": {
       "ok": true,
-      "count": 9
+      "count": 10
     },
     "itaguai": {
       "ok": true,
@@ -102,6 +102,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 06:00",
+      "imo": "9639452",
+      "navio": "ZHI YUAN KOU",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F03 - Feiticeira",
+      "para": "-",
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 06:00",
       "imo": "9423190",
       "navio": "DEBORAH KAY",
       "tipo": "MUDANÇA",
@@ -118,16 +128,6 @@
       "de": "TPBR - BRASCO",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "23/10/2026 06:00",
-      "imo": "9639452",
-      "navio": "ZHI YUAN KOU",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F03 - Feiticeira",
-      "para": "-",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
       "porto": "Rio de Janeiro",
@@ -162,16 +162,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 07:00",
-      "imo": "9710945",
-      "navio": "SEACOR NILE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE",
-      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "23/10/2026 07:00",
       "imo": "9473418",
       "navio": "CLEANTEC",
       "tipo": "ENTRADA",
@@ -198,6 +188,16 @@
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 07:00",
+      "imo": "9710945",
+      "navio": "SEACOR NILE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,22 +342,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 12:00",
-      "imo": "9787405",
-      "navio": "PARDELA (REB)",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "23/10/2026 12:00",
       "imo": "9578892",
       "navio": "CBO COPACABANA",
       "tipo": "SAÍDA",
       "de": "2TS1 - Terminal Siderúrgico parte 1",
       "para": "-",
       "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 12:00",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -561,6 +561,46 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 21:00",
+      "imo": "9273349",
+      "navio": "MARLIN LEBLON",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 22:00",
+      "imo": "9361770",
+      "navio": "NORMAND FERKING (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 22:00",
+      "imo": "9274874",
+      "navio": "NORMAND TOPAZIO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "23/10/2026 22:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "23/10/2026 23:50",
       "imo": "9482378",
       "navio": "CBO MANOELLA",
@@ -574,6 +614,26 @@
       "inicio": "24/10/2026 00:00",
       "imo": "9788411",
       "navio": "BRAM POWER",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 02:00",
+      "imo": "9273349",
+      "navio": "MARLIN LEBLON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 02:00",
+      "imo": "9530010",
+      "navio": "ROBERT ADAMS (REB)",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
@@ -612,12 +672,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "24/10/2026 07:00",
+      "imo": "9724336",
+      "navio": "LEONTIOS H",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - WPT 63 - 2F6A",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 07:00",
       "imo": "9293818",
       "navio": "CONTI CONQUEST",
       "tipo": "SAÍDA",
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 08:00",
+      "imo": "9329954",
+      "navio": "NORMAND TURMALINA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -641,6 +721,36 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 11:00",
+      "imo": "2412230323",
+      "navio": "SÃO LUIS",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F09 - XAREU",
+      "para": "2N17 - Armazém 17",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 11:00",
+      "imo": "8637926",
+      "navio": "RIOPORT II",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F09 - XAREU",
+      "para": "2N16 - Armazém 16",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 12:00",
+      "imo": "9861017",
+      "navio": "ULTRAMARINE",
+      "tipo": "SAÍDA",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "-",
+      "agente": "SHIPLOG SERVIÇOS DE AGENCIAMENTO MARÍTIMO E LOGÍSTICA LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "24/10/2026 14:00",
       "imo": "9351799",
       "navio": "LOG-IN PANTANAL (REB)",
@@ -648,6 +758,26 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 15:00",
+      "imo": "9255098",
+      "navio": "MARLIN YARE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "24/10/2026 17:00",
+      "imo": "9789726",
+      "navio": "MANTA BEYOGLU",
+      "tipo": "SAÍDA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -741,6 +871,16 @@
     },
     {
       "porto": "Niterói",
+      "inicio": "23/10/2026 19:00",
+      "imo": "9424986",
+      "navio": "SAVEIROS ATOBÁ",
+      "tipo": "SAÍDA",
+      "de": "ESWS - ESTALEIRO",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
       "inicio": "23/10/2026 20:00",
       "imo": "9559975",
       "navio": "STIM STAR ARABIAN GULF (REB)",
@@ -826,7 +966,7 @@
       "navio": "JOHANNA",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "Fundeio - F1 - FUNDEIO F1",
+      "para": "Fundeio - 5FA1 - Área de Fundeio A1",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     },
     {
@@ -845,7 +985,7 @@
       "imo": "9730397",
       "navio": "JOHANNA",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - F1 - FUNDEIO F1",
+      "de": "Fundeio - 5FA1 - Área de Fundeio A1",
       "para": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
       "agente": "L.M.A. SHIPPING  CONSULTING"
     },
