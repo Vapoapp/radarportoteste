@@ -1,29 +1,36 @@
 {
   "imo": "9642590",
   "navio": "PINGUIM",
-  "gerado_em": "2026-10-24T01:39:24.449Z",
+  "gerado_em": "2026-10-24T06:27:33.324Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-22T15:00:00.000Z"
+    "ultima_movimentacao": "2026-10-24T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 78,
-    "manobras_365d": 85,
+    "manobras_30d": 17,
+    "manobras_180d": 79,
+    "manobras_365d": 86,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 11,
+    "mudancas_30d": 12,
     "entradas_365d": 20,
     "saidas_365d": 19,
     "ultima_entrada": "2026-10-15T14:00:00.000Z",
     "ultima_saida": "2026-10-12T09:00:00.000Z",
     "tempo_medio_estadia_horas": 116.6,
-    "tempo_medio_fundeio_horas": 32.2
+    "tempo_medio_fundeio_horas": 32.4
   },
   "historico_recente": [
+    {
+      "data": "2026-10-24T06:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-10-22T15:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-10T02:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
