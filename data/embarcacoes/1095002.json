@@ -1,29 +1,36 @@
 {
   "imo": "1095002",
   "navio": "GREEN TAICANG",
-  "gerado_em": "2026-10-24T17:36:55.047Z",
+  "gerado_em": "2026-10-24T19:45:25.318Z",
   "estado_atual": {
     "porto": "Itaguaí",
-    "em_fundeio": true,
-    "local": "Fundeio - 5FA2 - Área de Fundeio A2",
+    "em_fundeio": false,
+    "local": "302 - TECON - SEPETIBA TECON S.A.",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-22T23:00:00.000Z"
+    "ultima_movimentacao": "2026-10-24T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 4,
-    "manobras_365d": 4,
+    "manobras_30d": 3,
+    "manobras_180d": 5,
+    "manobras_365d": 5,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 2,
     "saidas_365d": 1,
     "ultima_entrada": "2026-10-21T15:30:00.000Z",
     "ultima_saida": "2026-05-28T14:00:00.000Z",
     "tempo_medio_estadia_horas": 22.5,
-    "tempo_medio_fundeio_horas": null
+    "tempo_medio_fundeio_horas": 44
   },
   "historico_recente": [
+    {
+      "data": "2026-10-24T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Itaguaí",
+      "de": "Fundeio - 5FA2 - Área de Fundeio A2",
+      "para": "302 - TECON - SEPETIBA TECON S.A."
+    },
     {
       "data": "2026-10-22T23:00:00.000Z",
       "tipo": "MUDANÇA",
