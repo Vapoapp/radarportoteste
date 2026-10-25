@@ -1,7 +1,7 @@
 {
   "imo": "9752967",
   "navio": "SEACOR DEMERARA (REB)",
-  "gerado_em": "2026-10-25T13:45:32.271Z",
+  "gerado_em": "2026-10-25T19:40:19.645Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
@@ -10,12 +10,12 @@
     "ultima_movimentacao": "2026-10-25T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 94,
-    "manobras_365d": 105,
+    "manobras_30d": 14,
+    "manobras_180d": 95,
+    "manobras_365d": 106,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 24,
     "saidas_365d": 24,
     "ultima_entrada": "2026-10-21T20:00:00.000Z",
@@ -26,6 +26,13 @@
   "historico_recente": [
     {
       "data": "2026-10-25T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
+    {
+      "data": "2026-10-25T06:00:00.000Z",
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico parte 1",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-04T15:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico parte 1"
     }
   ]
 }
