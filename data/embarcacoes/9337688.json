@@ -1,29 +1,36 @@
 {
   "imo": "9337688",
   "navio": "NYK DIANA",
-  "gerado_em": "2026-10-26T04:41:43.620Z",
+  "gerado_em": "2026-10-26T10:31:57.578Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-25T16:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-26T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 5,
-    "manobras_365d": 7,
+    "manobras_30d": 2,
+    "manobras_180d": 6,
+    "manobras_365d": 8,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-10-25T16:00:00.000Z",
-    "ultima_saida": "2026-08-16T14:00:00.000Z",
-    "tempo_medio_estadia_horas": 11.7,
+    "ultima_saida": "2026-10-26T09:00:00.000Z",
+    "tempo_medio_estadia_horas": 13,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-10-26T09:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-"
+    },
     {
       "data": "2026-10-25T16:00:00.000Z",
       "tipo": "ENTRADA",

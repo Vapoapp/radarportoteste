@@ -1,29 +1,36 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-10-26T04:41:43.620Z",
+  "gerado_em": "2026-10-26T10:31:57.578Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-26T04:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-26T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 101,
-    "manobras_365d": 109,
+    "manobras_30d": 17,
+    "manobras_180d": 102,
+    "manobras_365d": 110,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 9,
     "entradas_365d": 26,
-    "saidas_365d": 25,
+    "saidas_365d": 26,
     "ultima_entrada": "2026-10-23T11:00:00.000Z",
-    "ultima_saida": "2026-10-18T13:00:00.000Z",
-    "tempo_medio_estadia_horas": 77.7,
+    "ultima_saida": "2026-10-26T07:00:00.000Z",
+    "tempo_medio_estadia_horas": 77.2,
     "tempo_medio_fundeio_horas": 30.3
   },
   "historico_recente": [
+    {
+      "data": "2026-10-26T07:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-"
+    },
     {
       "data": "2026-10-26T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "NIT - ATRACADO NITERÓI"
-    },
-    {
-      "data": "2026-10-10T03:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
