@@ -1,29 +1,36 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-10-26T16:55:51.143Z",
+  "gerado_em": "2026-10-26T21:19:23.808Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-26T03:00:00.000Z"
+    "ultima_movimentacao": "2026-10-26T20:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 21,
-    "manobras_180d": 90,
-    "manobras_365d": 105,
+    "manobras_30d": 22,
+    "manobras_180d": 91,
+    "manobras_365d": 106,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 13,
+    "mudancas_30d": 14,
     "entradas_365d": 24,
     "saidas_365d": 24,
     "ultima_entrada": "2026-10-25T17:00:00.000Z",
     "ultima_saida": "2026-10-25T09:00:00.000Z",
     "tempo_medio_estadia_horas": 54.2,
-    "tempo_medio_fundeio_horas": 30.5
+    "tempo_medio_fundeio_horas": 30.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-26T20:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-10-26T03:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-10-10T00:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "4103 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     }
   ]
 }
