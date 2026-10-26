@@ -1,29 +1,36 @@
 {
   "imo": "9659579",
   "navio": "BARU MUCURA",
-  "gerado_em": "2026-10-26T10:31:57.578Z",
+  "gerado_em": "2026-10-26T16:55:51.143Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-15T20:20:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-26T12:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 69,
-    "manobras_365d": 77,
+    "manobras_30d": 13,
+    "manobras_180d": 70,
+    "manobras_365d": 78,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 6,
     "entradas_365d": 23,
-    "saidas_365d": 21,
+    "saidas_365d": 22,
     "ultima_entrada": "2026-10-12T00:30:00.000Z",
-    "ultima_saida": "2026-10-10T06:30:00.000Z",
-    "tempo_medio_estadia_horas": 109.8,
+    "ultima_saida": "2026-10-26T12:30:00.000Z",
+    "tempo_medio_estadia_horas": 120.6,
     "tempo_medio_fundeio_horas": 91.5
   },
   "historico_recente": [
+    {
+      "data": "2026-10-26T12:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-"
+    },
     {
       "data": "2026-10-15T20:20:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-10-01T05:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "-"
     }
   ]
 }
