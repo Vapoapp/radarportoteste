@@ -1,29 +1,36 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-10-27T20:37:46.700Z",
+  "gerado_em": "2026-10-27T23:59:25.314Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
+    "porto": "Niterói",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-10-21T17:00:00.000Z"
+    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-10-27T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 13,
-    "manobras_180d": 91,
-    "manobras_365d": 99,
-    "entradas_30d": 4,
+    "manobras_30d": 14,
+    "manobras_180d": 92,
+    "manobras_365d": 100,
+    "entradas_30d": 5,
     "saidas_30d": 4,
     "mudancas_30d": 5,
-    "entradas_365d": 23,
+    "entradas_365d": 24,
     "saidas_365d": 23,
-    "ultima_entrada": "2026-10-21T15:00:00.000Z",
+    "ultima_entrada": "2026-10-27T21:00:00.000Z",
     "ultima_saida": "2026-10-21T17:00:00.000Z",
     "tempo_medio_estadia_horas": 71.2,
     "tempo_medio_fundeio_horas": 23.7
   },
   "historico_recente": [
+    {
+      "data": "2026-10-27T21:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
     {
       "data": "2026-10-21T17:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "para": "-"
-    },
-    {
-      "data": "2026-10-06T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
     }
   ]
 }
