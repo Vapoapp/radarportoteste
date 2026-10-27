@@ -1,29 +1,36 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-10-27T16:04:29.190Z",
+  "gerado_em": "2026-10-27T20:37:46.700Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-10-20T23:00:00.000Z"
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-10-27T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 100,
-    "manobras_365d": 117,
-    "entradas_30d": 2,
+    "manobras_30d": 12,
+    "manobras_180d": 101,
+    "manobras_365d": 118,
+    "entradas_30d": 3,
     "saidas_30d": 2,
     "mudancas_30d": 7,
-    "entradas_365d": 19,
+    "entradas_365d": 20,
     "saidas_365d": 19,
-    "ultima_entrada": "2026-10-19T20:00:00.000Z",
+    "ultima_entrada": "2026-10-27T20:00:00.000Z",
     "ultima_saida": "2026-10-20T23:00:00.000Z",
     "tempo_medio_estadia_horas": 108.6,
     "tempo_medio_fundeio_horas": 26.2
   },
   "historico_recente": [
+    {
+      "data": "2026-10-27T20:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-10-20T23:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "TPBL - BRICLOG",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-06T13:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "TPBL - BRICLOG"
     }
   ]
 }
