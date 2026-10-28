@@ -1,21 +1,21 @@
 {
   "imo": "9696802",
   "navio": "STARNAV AQUARIUS (REB)",
-  "gerado_em": "2026-10-28T17:12:40.510Z",
+  "gerado_em": "2026-10-28T21:39:12.585Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-27T20:00:00.000Z"
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-28T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 100,
-    "manobras_365d": 118,
+    "manobras_30d": 13,
+    "manobras_180d": 101,
+    "manobras_365d": 119,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 20,
     "saidas_365d": 19,
     "ultima_entrada": "2026-10-27T20:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 26.2
   },
   "historico_recente": [
+    {
+      "data": "2026-10-28T18:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
+    },
     {
       "data": "2026-10-27T20:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
-    },
-    {
-      "data": "2026-10-07T08:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBL - BRICLOG",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
