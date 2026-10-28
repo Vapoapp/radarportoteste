@@ -1,29 +1,36 @@
 {
   "imo": "9806483",
   "navio": "STARNAV LIBRA",
-  "gerado_em": "2026-10-27T23:59:25.314Z",
+  "gerado_em": "2026-10-28T05:14:29.791Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-27T18:30:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-28T04:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 15,
-    "manobras_365d": 20,
+    "manobras_30d": 6,
+    "manobras_180d": 16,
+    "manobras_365d": 21,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 1,
     "entradas_365d": 7,
-    "saidas_365d": 6,
+    "saidas_365d": 7,
     "ultima_entrada": "2026-10-27T18:30:00.000Z",
-    "ultima_saida": "2026-10-16T07:00:00.000Z",
+    "ultima_saida": "2026-10-28T04:00:00.000Z",
     "tempo_medio_estadia_horas": 157.3,
     "tempo_medio_fundeio_horas": 224.9
   },
   "historico_recente": [
+    {
+      "data": "2026-10-28T04:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBL - BRICLOG",
+      "para": "-"
+    },
     {
       "data": "2026-10-27T18:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-08-03T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
