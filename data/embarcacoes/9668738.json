@@ -1,7 +1,7 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-10-29T19:38:12.020Z",
+  "gerado_em": "2026-10-29T23:34:00.173Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,17 +10,17 @@
     "ultima_movimentacao": "2026-10-29T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 91,
-    "manobras_365d": 103,
-    "entradas_30d": 5,
+    "manobras_30d": 16,
+    "manobras_180d": 92,
+    "manobras_365d": 104,
+    "entradas_30d": 6,
     "saidas_30d": 4,
     "mudancas_30d": 6,
-    "entradas_365d": 24,
+    "entradas_365d": 25,
     "saidas_365d": 24,
-    "ultima_entrada": "2026-10-27T21:00:00.000Z",
+    "ultima_entrada": "2026-10-29T16:00:00.000Z",
     "ultima_saida": "2026-10-29T19:00:00.000Z",
-    "tempo_medio_estadia_horas": 71.2,
+    "tempo_medio_estadia_horas": 67.8,
     "tempo_medio_fundeio_horas": 23.4
   },
   "historico_recente": [
@@ -37,6 +37,13 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
+    },
+    {
+      "data": "2026-10-29T16:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
     },
     {
       "data": "2026-10-29T00:00:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-10-12T08:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
