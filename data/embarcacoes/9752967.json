@@ -1,29 +1,36 @@
 {
   "imo": "9752967",
   "navio": "SEACOR DEMERARA (REB)",
-  "gerado_em": "2026-10-29T07:07:37.210Z",
+  "gerado_em": "2026-10-29T14:12:15.844Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-28T09:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-29T11:40:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 97,
-    "manobras_365d": 108,
+    "manobras_30d": 15,
+    "manobras_180d": 98,
+    "manobras_365d": 109,
     "entradas_30d": 4,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 7,
     "entradas_365d": 25,
-    "saidas_365d": 25,
+    "saidas_365d": 26,
     "ultima_entrada": "2026-10-28T09:30:00.000Z",
-    "ultima_saida": "2026-10-26T06:00:00.000Z",
-    "tempo_medio_estadia_horas": 73.1,
+    "ultima_saida": "2026-10-29T11:40:00.000Z",
+    "tempo_medio_estadia_horas": 71.3,
     "tempo_medio_fundeio_horas": 27.4
   },
   "historico_recente": [
+    {
+      "data": "2026-10-29T11:40:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-10-28T09:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "2TS1 - Terminal Siderúrgico parte 1"
-    },
-    {
-      "data": "2026-10-11T11:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }

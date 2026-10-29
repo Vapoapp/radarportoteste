@@ -1,29 +1,36 @@
 {
   "imo": "9440708",
   "navio": "FULMAR",
-  "gerado_em": "2026-10-29T07:07:37.210Z",
+  "gerado_em": "2026-10-29T14:12:15.844Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-28T08:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-29T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 21,
-    "manobras_180d": 70,
-    "manobras_365d": 73,
+    "manobras_30d": 22,
+    "manobras_180d": 71,
+    "manobras_365d": 74,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 12,
+    "mudancas_30d": 13,
     "entradas_365d": 20,
     "saidas_365d": 20,
     "ultima_entrada": "2026-10-28T08:00:00.000Z",
     "ultima_saida": "2026-10-22T20:00:00.000Z",
     "tempo_medio_estadia_horas": 37.8,
-    "tempo_medio_fundeio_horas": 22.2
+    "tempo_medio_fundeio_horas": 22.3
   },
   "historico_recente": [
+    {
+      "data": "2026-10-29T09:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-10-28T08:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-10-13T07:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "-"
     }
   ]
 }
