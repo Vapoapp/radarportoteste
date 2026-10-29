@@ -1,29 +1,36 @@
 {
   "imo": "9389576",
   "navio": "SKANDI SALVADOR",
-  "gerado_em": "2026-10-29T01:13:06.942Z",
+  "gerado_em": "2026-10-29T07:07:37.210Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-28T09:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-29T05:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 25,
-    "manobras_365d": 25,
+    "manobras_30d": 17,
+    "manobras_180d": 26,
+    "manobras_365d": 26,
     "entradas_30d": 6,
-    "saidas_30d": 5,
+    "saidas_30d": 6,
     "mudancas_30d": 5,
     "entradas_365d": 10,
-    "saidas_365d": 9,
+    "saidas_365d": 10,
     "ultima_entrada": "2026-10-28T09:00:00.000Z",
-    "ultima_saida": "2026-10-22T21:00:00.000Z",
-    "tempo_medio_estadia_horas": 32.9,
+    "ultima_saida": "2026-10-29T05:00:00.000Z",
+    "tempo_medio_estadia_horas": 31.4,
     "tempo_medio_fundeio_horas": 6.3
   },
   "historico_recente": [
+    {
+      "data": "2026-10-29T05:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
+      "para": "-"
+    },
     {
       "data": "2026-10-28T09:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2N05 - Armazém 6"
-    },
-    {
-      "data": "2026-10-05T17:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
