@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-10-30T09:13:33.768Z",
+  "updatedAt": "2026-10-30T15:57:00.142Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 24
+      "count": 34
     },
     "niteroi": {
       "ok": true,
-      "count": 3
+      "count": 4
     },
     "itaguai": {
       "ok": true,
-      "count": 5
+      "count": 4
     },
     "angra": {
       "ok": true,
@@ -28,16 +28,6 @@
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
       "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "30/10/2026 02:00",
-      "imo": "9703667",
-      "navio": "BRAM HERO",
-      "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico parte 1",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -135,8 +125,18 @@
       "imo": "9725859",
       "navio": "BOCHEM WALVIS BAY",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - WPT 64 - 2F6A",
+      "de": "Fundeio - WPT 61 - 2F6A",
       "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/10/2026 08:00",
+      "imo": "9573256",
+      "navio": "BATUÍRA",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "Fundeio - 2F6A - LARGO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
@@ -151,13 +151,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "30/10/2026 08:30",
-      "imo": "1016666",
-      "navio": "MSC INSA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "inicio": "30/10/2026 09:00",
+      "imo": "9703667",
+      "navio": "BRAM HERO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -181,9 +181,9 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "30/10/2026 09:00",
-      "imo": "9703667",
-      "navio": "BRAM HERO",
+      "inicio": "30/10/2026 10:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
       "tipo": "MUDANÇA",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2TS1 - Terminal Siderúrgico parte 1",
@@ -191,13 +191,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "30/10/2026 11:00",
-      "imo": "9339832",
-      "navio": "MICHIGAN HIGHWAY",
+      "inicio": "30/10/2026 12:00",
+      "imo": "9571416",
+      "navio": "LADY KATERINA",
       "tipo": "SAÍDA",
-      "de": "2R11 - Terminal - MCAR - TECON 5 - MULTI-RIO OPERAÇÕES PORTUÁRIAS S.A.",
+      "de": "Fundeio - 2F03 - Feiticeira",
       "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+      "agente": "L.M.A. SHIPPING  CONSULTING"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/10/2026 12:00",
+      "imo": "9636022",
+      "navio": "SABLE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -221,12 +231,42 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "30/10/2026 14:20",
+      "imo": "9642590",
+      "navio": "PINGUIM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/10/2026 15:00",
+      "imo": "1016666",
+      "navio": "MSC INSA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "30/10/2026 16:00",
       "imo": "9701140",
       "navio": "GOODWOOD",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "2R11 - Terminal - MCAR - TECON 5 - MULTI-RIO OPERAÇÕES PORTUÁRIAS S.A.",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "30/10/2026 17:00",
+      "imo": "9339832",
+      "navio": "MICHIGAN HIGHWAY",
+      "tipo": "SAÍDA",
+      "de": "2R11 - Terminal - MCAR - TECON 5 - MULTI-RIO OPERAÇÕES PORTUÁRIAS S.A.",
+      "para": "-",
       "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
@@ -241,6 +281,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "30/10/2026 18:30",
+      "imo": "9788459",
+      "navio": "MR ALDO",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "30/10/2026 22:00",
       "imo": "1015375",
       "navio": "SINAR SUMATERA",
@@ -251,13 +301,63 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "30/10/2026 23:00",
+      "inicio": "31/10/2026 05:00",
       "imo": "1016666",
       "navio": "MSC INSA",
       "tipo": "SAÍDA",
       "de": "2C22 - TECON 2 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/10/2026 09:30",
+      "imo": "9631125",
+      "navio": "LORI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/10/2026 12:00",
+      "imo": "9701140",
+      "navio": "GOODWOOD",
+      "tipo": "SAÍDA",
+      "de": "2R11 - Terminal - MCAR - TECON 5 - MULTI-RIO OPERAÇÕES PORTUÁRIAS S.A.",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/10/2026 14:30",
+      "imo": "9629457",
+      "navio": "CARDIFF",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/10/2026 16:30",
+      "imo": "1031197",
+      "navio": "MSC LETICIA X",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "31/10/2026 22:30",
+      "imo": "9631125",
+      "navio": "LORI",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Niterói",
@@ -271,16 +371,6 @@
     },
     {
       "porto": "Niterói",
-      "inicio": "30/10/2026 07:30",
-      "imo": "9330692",
-      "navio": "SKANDI CHIEFTAIN",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
-    },
-    {
-      "porto": "Niterói",
       "inicio": "30/10/2026 13:00",
       "imo": "9462689",
       "navio": "SARONIC BAY",
@@ -288,6 +378,26 @@
       "de": "ESMA - ESTALEIRO MAUÁ",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "ANDROS SHIPPING AGÊNCIA MARÍTIMA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "31/10/2026 06:00",
+      "imo": "3840167159",
+      "navio": "OCEAN ROUTE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESCD - ESTALEIRO CODEPE",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "31/10/2026 18:00",
+      "imo": "3840167159",
+      "navio": "OCEAN ROUTE",
+      "tipo": "SAÍDA",
+      "de": "ESCD - ESTALEIRO CODEPE",
+      "para": "-",
+      "agente": "INTEREXPRESS SERVIÇOS ADUANEIRO EIRELI"
     },
     {
       "porto": "Itaguaí",
@@ -321,23 +431,13 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "30/10/2026 17:00",
+      "inicio": "30/10/2026 19:00",
       "imo": "9602875",
       "navio": "SEBASTIÃO CABOTO",
       "tipo": "SAÍDA",
       "de": "302 - TECON - SEPETIBA TECON S.A.",
       "para": "-",
       "agente": "LACHMANN AGÊNCIA MARÍTIMA LTDA"
-    },
-    {
-      "porto": "Itaguaí",
-      "inicio": "30/10/2026 18:00",
-      "imo": "9490882",
-      "navio": "SM NEWCASTLE",
-      "tipo": "SAÍDA",
-      "de": "401 - CPBS - COMPANHIA PORTUARIA BAIA DE SEPETIBA",
-      "para": "-",
-      "agente": "L.M.A. SHIPPING  CONSULTING"
     }
   ]
 }

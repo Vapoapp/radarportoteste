@@ -1,29 +1,36 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-10-30T09:13:33.768Z",
+  "gerado_em": "2026-10-30T15:57:00.142Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-29T18:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-10-30T11:15:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 77,
-    "manobras_365d": 94,
+    "manobras_30d": 15,
+    "manobras_180d": 78,
+    "manobras_365d": 95,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 8,
     "entradas_365d": 23,
-    "saidas_365d": 22,
+    "saidas_365d": 23,
     "ultima_entrada": "2026-10-10T21:00:00.000Z",
-    "ultima_saida": "2026-10-10T17:00:00.000Z",
-    "tempo_medio_estadia_horas": 113.2,
+    "ultima_saida": "2026-10-30T11:15:00.000Z",
+    "tempo_medio_estadia_horas": 135.5,
     "tempo_medio_fundeio_horas": 39.7
   },
   "historico_recente": [
+    {
+      "data": "2026-10-30T11:15:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
+      "para": "-"
+    },
     {
       "data": "2026-10-29T18:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
-    },
-    {
-      "data": "2026-10-08T23:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }

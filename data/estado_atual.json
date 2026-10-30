@@ -116,14 +116,14 @@
     "navio": "BRAM RIO",
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-10-27T13:00:00.000Z",
-    "ultimo_hash_evento": "f22ffe161d28c9012b6fe6fa644d372241ceff54c7e8dd39987a2da5ea3fd3c0",
-    "atualizado_em": "2026-10-27T16:04:29.190Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-30T13:00:00.000Z",
+    "ultimo_hash_evento": "16b8c8fe63f581c878a26aebda2ac4754a9f1b51a70fb46497f6d6ff4c9fb7fd",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "1020045": {
     "imo": "1020045",
@@ -4750,14 +4750,14 @@
     "navio": "HORIZON THETIS",
     "navio_normalizado": "HORIZON THETIS",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "TPP1 - PETROBRAS PP1",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - WPT 61 - 2F6A",
     "agente_atual": "GAC DO BRASIL LTDA.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-17T07:00:00.000Z",
-    "ultimo_hash_evento": "828db8eaeba413bf0638d7310dcd1f5909532d3e57ac3a9318375d3e4327a94e",
-    "atualizado_em": "2026-09-17T12:10:22.255Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-30T12:00:00.000Z",
+    "ultimo_hash_evento": "e29e90288f46aab7149f6865ddd21191de16958703595d734f5aed2e0798e57d",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9407392": {
     "imo": "9407392",
@@ -5814,14 +5814,14 @@
     "navio": "PETREL",
     "navio_normalizado": "PETREL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2PAL - Terminal Petrobras AL",
-    "destino_atual": "-",
-    "agente_atual": "TIDEWATER NAVEGAÇÃO BRASILEIRA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-28T13:00:00.000Z",
-    "ultimo_hash_evento": "4cfa329cafa54a62740b261f4a172fa5bb26b5734c3da34b9275b1ac42781483",
-    "atualizado_em": "2026-10-28T17:12:40.510Z"
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "agente_atual": "TIDEWATER DO BRASIL S.A.",
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-30T12:00:00.000Z",
+    "ultimo_hash_evento": "2ad9445392dd216fe2956851142d1f176cf018a5deb0b40891a938098241f22a",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9440681": {
     "imo": "9440681",
@@ -5870,14 +5870,14 @@
     "navio": "TALHA-MAR",
     "navio_normalizado": "TALHA-MAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
-    "agente_atual": "TIDEWATER NAVEGAÇÃO BRASILEIRA S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "destino_atual": "-",
+    "agente_atual": "TIDEWATER DO BRASIL S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-29T18:00:00.000Z",
-    "ultimo_hash_evento": "9ac0d083df3893a486ab45c4958f26552037201759c841e4dc81587c5e42b480",
-    "atualizado_em": "2026-10-29T19:38:12.020Z"
+    "ultima_movimentacao_em": "2026-10-30T11:15:00.000Z",
+    "ultimo_hash_evento": "e63a2439fb1f283a79be59a809fc280e5db27196945cba7d979930da4c727746",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9442067": {
     "imo": "9442067",
@@ -9006,14 +9006,14 @@
     "navio": "LADY KATERINA",
     "navio_normalizado": "LADY KATERINA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F03 - Feiticeira",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F03 - Feiticeira",
+    "destino_atual": "-",
     "agente_atual": "L.M.A. SHIPPING  CONSULTING",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-10-28T21:30:00.000Z",
-    "ultimo_hash_evento": "006c9eed4fce7e69b39863eda0a97ecd5e7d0f86208e385a9285358dbc6254cd",
-    "atualizado_em": "2026-10-28T21:39:12.585Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-30T15:00:00.000Z",
+    "ultimo_hash_evento": "3a23ccd518dd4dd2d66eeb163f10a70d10eb72e40f66bd5c6d49873649b13fde",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9571595": {
     "imo": "9571595",
@@ -9091,13 +9091,13 @@
     "navio_normalizado": "BATUIRA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-29T16:00:00.000Z",
-    "ultimo_hash_evento": "7b609f942bdfbcedc4d4814fd0ae177ac1277a8f5738cc7f84820d5e3ad3c5b9",
-    "atualizado_em": "2026-10-29T19:38:12.020Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-30T11:00:00.000Z",
+    "ultimo_hash_evento": "f74920ec7171aeb37ab027af455f78d686c4d37ef4ca0e7a5a10cf75731d11b1",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9573440": {
     "imo": "9573440",
@@ -11657,9 +11657,9 @@
     "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
     "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-10-29T14:00:00.000Z",
-    "ultimo_hash_evento": "614e4ab4af507c0b6aeab49c3c5556955bb9beb6ecdad3e7f7e911bc02da0c6d",
-    "atualizado_em": "2026-10-29T14:12:15.844Z"
+    "ultima_movimentacao_em": "2026-10-30T10:00:00.000Z",
+    "ultimo_hash_evento": "2b85ee82fef49c55944b87b21c046eb4ab7b3bd1a610d0e4cd339dc53a915a55",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9659074": {
     "imo": "9659074",
@@ -12407,15 +12407,15 @@
     "imo": "9685396",
     "navio": "RAQUEL KNUTSEN",
     "navio_normalizado": "RAQUEL KNUTSEN",
-    "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "Fundeio - 2F01 - Visita",
-    "destino_atual": "-",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPPS - PORTO SUDESTE - PORTO SUDESTE DO BRASIL S.A.",
     "agente_atual": "TRIAINA AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-09-02T03:00:00.000Z",
-    "ultimo_hash_evento": "dd2686ae5d89388d09fb7534d0d1d1e8f9d1e3a1875dcd738a8a68cad8ab7c6e",
-    "atualizado_em": "2026-09-02T11:22:46.399Z"
+    "ultima_movimentacao_em": "2026-10-30T10:00:00.000Z",
+    "ultimo_hash_evento": "e221cc4e230b4907214a529eb1009f787f566bcf47a744fc7ee4826f935fd1e4",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9686144": {
     "imo": "9686144",
@@ -13155,9 +13155,9 @@
     "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-30T05:00:00.000Z",
-    "ultimo_hash_evento": "5a2f895c959b72f64a9f4c3b6eea19941eebd3a819851cb20fdea156515f2f07",
-    "atualizado_em": "2026-10-30T09:13:33.768Z"
+    "ultima_movimentacao_em": "2026-10-30T12:00:00.000Z",
+    "ultimo_hash_evento": "653d8b3827d9d72ffa09bdc8a83994b41b83320ee6dc8963f2bdbbbcdede6ca8",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9704087": {
     "imo": "9704087",
@@ -13991,13 +13991,13 @@
     "navio_normalizado": "BOCHEM WALVIS BAY",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPPT - NEOLUBES",
-    "destino_atual": "Fundeio - WPT 61 - 2F6A",
+    "origem_atual": "Fundeio - WPT 61 - 2F6A",
+    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-10-27T13:00:00.000Z",
-    "ultimo_hash_evento": "cb544319bd69a27ffeabd8c18a25e3895c7417a02fb694ae577b91125f729702",
-    "atualizado_em": "2026-10-27T16:04:29.190Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-30T10:00:00.000Z",
+    "ultimo_hash_evento": "7c51e8a90aa1c56e75e37e96d2e1c23d1d6bbce01f0b3c8b0453af2ec81fd9f8",
+    "atualizado_em": "2026-10-30T15:57:00.142Z"
   },
   "9726047": {
     "imo": "9726047",
