@@ -1,29 +1,36 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-10-30T20:27:02.960Z",
+  "gerado_em": "2026-10-30T23:57:03.049Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-10-27T15:00:00.000Z"
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-10-30T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 22,
-    "manobras_180d": 92,
-    "manobras_365d": 107,
-    "entradas_30d": 4,
+    "manobras_30d": 23,
+    "manobras_180d": 93,
+    "manobras_365d": 108,
+    "entradas_30d": 5,
     "saidas_30d": 4,
     "mudancas_30d": 14,
-    "entradas_365d": 24,
+    "entradas_365d": 25,
     "saidas_365d": 25,
-    "ultima_entrada": "2026-10-25T17:00:00.000Z",
+    "ultima_entrada": "2026-10-30T21:00:00.000Z",
     "ultima_saida": "2026-10-27T15:00:00.000Z",
     "tempo_medio_estadia_horas": 53.8,
     "tempo_medio_fundeio_horas": 30.1
   },
   "historico_recente": [
+    {
+      "data": "2026-10-30T21:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
+    },
     {
       "data": "2026-10-27T15:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-11T13:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }

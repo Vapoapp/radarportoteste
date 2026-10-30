@@ -117,13 +117,13 @@
     "navio_normalizado": "BRAM RIO",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-30T13:00:00.000Z",
-    "ultimo_hash_evento": "16b8c8fe63f581c878a26aebda2ac4754a9f1b51a70fb46497f6d6ff4c9fb7fd",
-    "atualizado_em": "2026-10-30T15:57:00.142Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-30T19:00:00.000Z",
+    "ultimo_hash_evento": "2048db68e5f3c39a17ed1f3f00078b0783282d3c74a5048418c30062ad46031b",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "1020045": {
     "imo": "1020045",
@@ -3289,6 +3289,20 @@
     "ultimo_hash_evento": "14408167b6a3cdd60f0e29dd47393c3fb79a36b7665fb86126267829795dafa7",
     "atualizado_em": "2026-04-20T23:34:31.913Z"
   },
+  "9328687": {
+    "imo": "9328687",
+    "navio": "C OURO (EX-SUPERPESA XI)",
+    "navio_normalizado": "C OURO (EX-SUPERPESA XI)",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESCM - ESTALEIRO CAMORIM",
+    "agente_atual": "SAM OFFSHORE ACU SERVIÇOS LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-30T22:00:00.000Z",
+    "ultimo_hash_evento": "990e27a3976d6cdcf86664b429b4e4bcf42887ca74adbba37117ea695cdc49f3",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
+  },
   "9328819": {
     "imo": "9328819",
     "navio": "NORMAND INSTALLER",
@@ -3322,14 +3336,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P19 - Terminal Petrobrás SC",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-24T20:00:00.000Z",
-    "ultimo_hash_evento": "38b7468bbbf95271a8ada9fb5b158e11bd4a1f1ef6d3bec37b6eaf49d186eb0f",
-    "atualizado_em": "2026-10-24T21:57:17.442Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-10-30T22:00:00.000Z",
+    "ultimo_hash_evento": "2853230534d56d6ea958d4644eb4633db271beb04551d9a0c4c413063e86ec35",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -3798,14 +3812,14 @@
     "navio": "LOG-IN PANTANAL (REB)",
     "navio_normalizado": "LOG-IN PANTANAL",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2C21 - TECON 3 - MRIO",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2C11 - TECON - ICTSI 1",
     "agente_atual": "MSC MEDITERRANEAN",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-24T17:00:00.000Z",
-    "ultimo_hash_evento": "1301d621edac5315238233cd0e32fd3cfd9b6a34b201cfbb9b4695edeed36f12",
-    "atualizado_em": "2026-10-24T17:36:55.047Z"
+    "ultima_movimentacao_em": "2026-10-30T23:00:00.000Z",
+    "ultimo_hash_evento": "1b3c39ac4d4be2c0b5c89b5ac076f7e78e9b3aba1e84a52450fe89604365cd83",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9353204": {
     "imo": "9353204",
@@ -5856,14 +5870,14 @@
     "navio": "FULMAR",
     "navio_normalizado": "FULMAR",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
+    "ultimo_tipo_evento": "SAÍDA",
     "origem_atual": "2TS2 - Terminal Siderúrgico parte 2 a 6",
-    "destino_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "agente_atual": "TIDEWATER NAVEGAÇÃO BRASILEIRA S.A.",
+    "destino_atual": "-",
+    "agente_atual": "TIDEWATER DO BRASIL S.A.",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-29T09:00:00.000Z",
-    "ultimo_hash_evento": "66dfcef3222f3583469d1c8d23ffb2b526505a1eeb7bfe5bc210f4f52d5b0c3a",
-    "atualizado_em": "2026-10-29T14:12:15.844Z"
+    "ultima_movimentacao_em": "2026-10-30T23:00:00.000Z",
+    "ultimo_hash_evento": "ec0dc68daa4b599c12c8dd96100de4f912854d37bed12f43b3b98aeaec2417b7",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9440978": {
     "imo": "9440978",
@@ -6438,6 +6452,20 @@
     "ultima_movimentacao_em": "2026-09-10T06:00:00.000Z",
     "ultimo_hash_evento": "62e3ec86d44b52915a0dd78d085d155060829e8f7e16f1bf855cfb0ad6c9346a",
     "atualizado_em": "2026-09-10T10:37:35.577Z"
+  },
+  "9457713": {
+    "imo": "9457713",
+    "navio": "PINE OLIA",
+    "navio_normalizado": "PINE OLIA",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "TPS1 - PETROBRAS PS1",
+    "agente_atual": "GAC DO BRASIL LTDA.",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-30T20:00:00.000Z",
+    "ultimo_hash_evento": "b473bdb59a78af76ebfb3fe235ee8fe131c65580fc5fe6776aebad9eabe215e8",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9458157": {
     "imo": "9458157",
@@ -9104,14 +9132,14 @@
     "navio": "BATUÍRA",
     "navio_normalizado": "BATUIRA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
-    "destino_atual": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "NIT - ATRACADO NITERÓI",
+    "destino_atual": "-",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-10-30T11:00:00.000Z",
-    "ultimo_hash_evento": "f74920ec7171aeb37ab027af455f78d686c4d37ef4ca0e7a5a10cf75731d11b1",
-    "atualizado_em": "2026-10-30T15:57:00.142Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-30T22:00:00.000Z",
+    "ultimo_hash_evento": "7920cb7b75ef78a583582967d8c7f9b52ae34aa92fc7a1d53bbc0e0cb47fbec3",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9573440": {
     "imo": "9573440",
@@ -9860,14 +9888,14 @@
     "navio": "SEBASTIÃO CABOTO",
     "navio_normalizado": "SEBASTIAO CABOTO",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "302 - TECON - SEPETIBA TECON S.A.",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "302 - TECON - SEPETIBA TECON S.A.",
+    "destino_atual": "-",
     "agente_atual": "LACHMANN AGÊNCIA MARÍTIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-29T08:00:00.000Z",
-    "ultimo_hash_evento": "8f4ecdad4289e811bc3007f1d9d364320d290fe4e6adf742acd14a42f0a31517",
-    "atualizado_em": "2026-10-29T14:12:15.844Z"
+    "ultima_movimentacao_em": "2026-10-30T22:00:00.000Z",
+    "ultimo_hash_evento": "e7f023edca1c3083edb4c6e60dab10e5008c87a31f79974dd13590a03682db6e",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9603219": {
     "imo": "9603219",
@@ -12338,14 +12366,14 @@
     "navio": "KOTA SINGA",
     "navio_normalizado": "KOTA SINGA",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+    "destino_atual": "-",
     "agente_atual": "PACIFIC INTERNATIONAL LINES AGENCIA MARITIMA LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-29T16:00:00.000Z",
-    "ultimo_hash_evento": "87a1569141144ecefbe5e7639f12409ea94d2073000a4de05ac5ace89a422517",
-    "atualizado_em": "2026-10-29T19:38:12.020Z"
+    "ultima_movimentacao_em": "2026-10-30T21:00:00.000Z",
+    "ultimo_hash_evento": "0fc9da9af1b4929c806def7b46f13d49a8414867e886a13c99e093d368d84bed",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9681534": {
     "imo": "9681534",
@@ -13402,14 +13430,14 @@
     "navio": "SEVEN CRUZEIRO",
     "navio_normalizado": "SEVEN CRUZEIRO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2N06 - Armazém 7",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "2N06 - Armazém 7",
     "agente_atual": "WILSON SONS SHIPPING SERVICES LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-27T10:00:00.000Z",
-    "ultimo_hash_evento": "d46502acb1c538387930210436758fe78a390b6c78c7d5b7f1c1f73f6a271c19",
-    "atualizado_em": "2026-10-27T10:51:56.790Z"
+    "ultima_movimentacao_em": "2026-10-30T22:00:00.000Z",
+    "ultimo_hash_evento": "a1bb2439cac5038657ee81c8dd2ca26ffdc2dc3d3a69316f033845e170279cc3",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9710945": {
     "imo": "9710945",
@@ -14957,13 +14985,13 @@
     "navio_normalizado": "BS UBATUBA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
     "agente_atual": "BARU OFSSHORE NAVEGAÇÃO LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-10-29T09:30:00.000Z",
-    "ultimo_hash_evento": "92aa36d534513a0956daa573f5d0d325ff7c882ea6e9f2c2563437710674b2b0",
-    "atualizado_em": "2026-10-29T14:12:15.844Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-10-30T23:00:00.000Z",
+    "ultimo_hash_evento": "7a95de1ccdf89d4314e13c0e1ad34f7c8bd569e5a0ff5d5dba586f745fa746fb",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9757175": {
     "imo": "9757175",
@@ -15950,14 +15978,14 @@
     "navio": "MR ALDO",
     "navio_normalizado": "MR ALDO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2P15 - Terminal Petrobrás (Armazém 15)",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "ESEN - ESTALEIRO ENAVE / RENAVE",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
     "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-10-27T15:00:00.000Z",
-    "ultimo_hash_evento": "5ea7150e0c9dc947add8de533037c06c5ebe9a9e37dfafc9ab05eeb28044e02b",
-    "atualizado_em": "2026-10-27T16:04:29.190Z"
+    "ultima_movimentacao_em": "2026-10-30T21:00:00.000Z",
+    "ultimo_hash_evento": "5122cb2abb75f01cc77f0231db18a6b74b92c13f8eb513f9ec0b6daabf8df37c",
+    "atualizado_em": "2026-10-30T23:57:03.049Z"
   },
   "9788461": {
     "imo": "9788461",
