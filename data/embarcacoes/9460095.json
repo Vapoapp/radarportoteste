@@ -1,21 +1,21 @@
 {
   "imo": "9460095",
   "navio": "ISLAND INTERVENTION (REB)",
-  "gerado_em": "2026-10-30T15:57:00.142Z",
+  "gerado_em": "2026-10-30T20:27:02.960Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "TPMJ - Estaleiro Mauá",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-26T08:30:00.000Z"
+    "local": "ESMA - ESTALEIRO MAUÁ",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-10-30T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 14,
-    "manobras_365d": 16,
+    "manobras_30d": 2,
+    "manobras_180d": 15,
+    "manobras_365d": 17,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 8,
     "saidas_365d": 7,
     "ultima_entrada": "2026-10-26T08:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 218.5
   },
   "historico_recente": [
+    {
+      "data": "2026-10-30T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "ESMA - ESTALEIRO MAUÁ"
+    },
     {
       "data": "2026-10-26T08:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "-"
-    },
-    {
-      "data": "2026-07-17T16:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
