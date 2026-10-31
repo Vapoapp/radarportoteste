@@ -1,26 +1,26 @@
 {
   "imo": "9274874",
   "navio": "NORMAND TOPAZIO",
-  "gerado_em": "2026-10-31T19:34:52.311Z",
+  "gerado_em": "2026-10-31T22:47:24.997Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "ENTRADA",
     "ultima_movimentacao": "2026-10-31T15:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 21,
-    "manobras_365d": 23,
-    "entradas_30d": 2,
+    "manobras_30d": 5,
+    "manobras_180d": 22,
+    "manobras_365d": 24,
+    "entradas_30d": 3,
     "saidas_30d": 2,
     "mudancas_30d": 0,
-    "entradas_365d": 10,
+    "entradas_365d": 11,
     "saidas_365d": 10,
-    "ultima_entrada": "2026-10-30T02:00:00.000Z",
+    "ultima_entrada": "2026-10-31T15:00:00.000Z",
     "ultima_saida": "2026-10-31T15:00:00.000Z",
-    "tempo_medio_estadia_horas": 51.8,
+    "tempo_medio_estadia_horas": 53.4,
     "tempo_medio_fundeio_horas": 48.7
   },
   "historico_recente": [
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
+    },
+    {
+      "data": "2026-10-31T15:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
     },
     {
       "data": "2026-10-30T02:00:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "TPBR - BRASCO",
       "para": "-"
-    },
-    {
-      "data": "2026-06-05T10:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "TPBR - BRASCO"
     }
   ]
 }
