@@ -1,21 +1,21 @@
 {
   "imo": "9710880",
   "navio": "SEVEN CRUZEIRO",
-  "gerado_em": "2026-11-01T08:01:02.147Z",
+  "gerado_em": "2026-11-01T14:57:23.427Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2N06 - Armazém 7",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-30T22:00:00.000Z"
+    "local": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-01T10:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 7,
-    "manobras_365d": 8,
+    "manobras_30d": 4,
+    "manobras_180d": 8,
+    "manobras_365d": 9,
     "entradas_30d": 2,
     "saidas_30d": 1,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 4,
     "saidas_365d": 4,
     "ultima_entrada": "2026-10-30T22:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-11-01T10:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2N06 - Armazém 7",
+      "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU"
+    },
     {
       "data": "2026-10-30T22:00:00.000Z",
       "tipo": "ENTRADA",
