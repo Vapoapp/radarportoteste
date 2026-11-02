@@ -1,29 +1,36 @@
 {
   "imo": "9799070",
   "navio": "STARNAV SCORPIUS",
-  "gerado_em": "2026-11-01T22:55:56.233Z",
+  "gerado_em": "2026-11-02T02:04:47.349Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2PAL - Terminal Petrobras AL",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-01T13:00:00.000Z"
+    "ultima_movimentacao": "2026-11-02T02:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 65,
-    "manobras_365d": 82,
+    "manobras_30d": 18,
+    "manobras_180d": 66,
+    "manobras_365d": 83,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 8,
+    "mudancas_30d": 9,
     "entradas_365d": 22,
     "saidas_365d": 21,
     "ultima_entrada": "2026-11-01T10:30:00.000Z",
     "ultima_saida": "2026-10-27T00:00:00.000Z",
     "tempo_medio_estadia_horas": 62.6,
-    "tempo_medio_fundeio_horas": 30
+    "tempo_medio_fundeio_horas": 29.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-02T02:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2PAL - Terminal Petrobras AL"
+    },
     {
       "data": "2026-11-01T13:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-10-17T11:10:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
