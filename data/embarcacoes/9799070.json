@@ -1,21 +1,21 @@
 {
   "imo": "9799070",
   "navio": "STARNAV SCORPIUS",
-  "gerado_em": "2026-11-04T08:07:12.554Z",
+  "gerado_em": "2026-11-04T16:13:16.220Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "ESPR - MacLaren Ilha da Conceição",
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-02T13:00:00.000Z"
+    "ultima_movimentacao": "2026-11-04T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 67,
-    "manobras_365d": 84,
+    "manobras_30d": 18,
+    "manobras_180d": 68,
+    "manobras_365d": 85,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 10,
+    "mudancas_30d": 11,
     "entradas_365d": 22,
     "saidas_365d": 21,
     "ultima_entrada": "2026-11-01T10:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 29.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-04T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "ESPR - MacLaren Ilha da Conceição",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-11-02T13:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -85,13 +92,6 @@
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-17T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F6A - LARGO"
     }
   ]
