@@ -1,7 +1,7 @@
 {
   "imo": "9530175",
   "navio": "SANTOS SUPPORTER",
-  "gerado_em": "2026-11-03T21:54:18.862Z",
+  "gerado_em": "2026-11-04T01:46:59.427Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
@@ -10,12 +10,12 @@
     "ultima_movimentacao": "2026-11-03T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 3,
-    "manobras_365d": 11,
+    "manobras_30d": 2,
+    "manobras_180d": 4,
+    "manobras_365d": 12,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-08-28T15:00:00.000Z",
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "NIT - ATRACADO NITERÓI",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
+    {
+      "data": "2026-11-03T15:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "NIT - ATRACADO NITERÓI"
     },
     {
       "data": "2026-08-28T15:10:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-30T21:40:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
