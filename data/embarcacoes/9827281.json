@@ -1,29 +1,36 @@
 {
   "imo": "9827281",
   "navio": "CBO TERRA BRASILIS",
-  "gerado_em": "2026-11-05T16:59:01.091Z",
+  "gerado_em": "2026-11-05T22:37:21.585Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-08T10:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-05T22:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 5,
-    "manobras_365d": 5,
+    "manobras_30d": 2,
+    "manobras_180d": 6,
+    "manobras_365d": 6,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 3,
-    "saidas_365d": 2,
+    "saidas_365d": 3,
     "ultima_entrada": "2026-10-08T10:00:00.000Z",
-    "ultima_saida": "2026-07-04T13:00:00.000Z",
-    "tempo_medio_estadia_horas": 21.8,
-    "tempo_medio_fundeio_horas": 21.8
+    "ultima_saida": "2026-11-05T22:30:00.000Z",
+    "tempo_medio_estadia_horas": 242.7,
+    "tempo_medio_fundeio_horas": 242.7
   },
   "historico_recente": [
+    {
+      "data": "2026-11-05T22:30:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-10-08T10:00:00.000Z",
       "tipo": "ENTRADA",
