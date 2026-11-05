@@ -1,18 +1,18 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-11-05T01:55:22.157Z",
+  "gerado_em": "2026-11-05T08:54:11.228Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "NIT - ATRACADO NITERÓI",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-04T17:00:00.000Z"
+    "local": "ESEN - ESTALEIRO ENAVE / RENAVE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-05T08:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 16,
-    "manobras_180d": 92,
-    "manobras_365d": 105,
+    "manobras_180d": 93,
+    "manobras_365d": 106,
     "entradas_30d": 6,
     "saidas_30d": 4,
     "mudancas_30d": 6,
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 23.4
   },
   "historico_recente": [
+    {
+      "data": "2026-11-05T08:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
+    },
     {
       "data": "2026-11-04T17:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "NIT - ATRACADO NITERÓI"
-    },
-    {
-      "data": "2026-10-16T08:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
