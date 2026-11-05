@@ -1,29 +1,36 @@
 {
   "imo": "9377016",
   "navio": "REM SALTIRE",
-  "gerado_em": "2026-11-04T21:54:13.190Z",
+  "gerado_em": "2026-11-05T01:55:22.157Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - WPT 92 - AF Preferencial Gusa",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-03T20:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-04T23:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 7,
-    "manobras_365d": 7,
+    "manobras_30d": 2,
+    "manobras_180d": 8,
+    "manobras_365d": 8,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 3,
+    "saidas_365d": 4,
     "ultima_entrada": "2026-11-03T20:00:00.000Z",
-    "ultima_saida": "2026-09-30T21:00:00.000Z",
-    "tempo_medio_estadia_horas": 40.3,
-    "tempo_medio_fundeio_horas": 23
+    "ultima_saida": "2026-11-04T23:00:00.000Z",
+    "tempo_medio_estadia_horas": 35.8,
+    "tempo_medio_fundeio_horas": 25
   },
   "historico_recente": [
+    {
+      "data": "2026-11-04T23:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-11-03T20:00:00.000Z",
       "tipo": "ENTRADA",
