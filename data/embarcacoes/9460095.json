@@ -1,29 +1,36 @@
 {
   "imo": "9460095",
   "navio": "ISLAND INTERVENTION (REB)",
-  "gerado_em": "2026-11-07T14:24:47.208Z",
+  "gerado_em": "2026-11-07T18:57:30.500Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
-    "local": "ESMA - ESTALEIRO MAUÁ",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-10-30T16:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-07T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 14,
-    "manobras_365d": 17,
+    "manobras_30d": 3,
+    "manobras_180d": 15,
+    "manobras_365d": 18,
     "entradas_30d": 1,
-    "saidas_30d": 0,
+    "saidas_30d": 1,
     "mudancas_30d": 1,
     "entradas_365d": 8,
-    "saidas_365d": 7,
+    "saidas_365d": 8,
     "ultima_entrada": "2026-10-26T08:30:00.000Z",
-    "ultima_saida": "2026-09-26T07:00:00.000Z",
-    "tempo_medio_estadia_horas": 221.5,
+    "ultima_saida": "2026-11-07T17:00:00.000Z",
+    "tempo_medio_estadia_horas": 232.2,
     "tempo_medio_fundeio_horas": 218.5
   },
   "historico_recente": [
+    {
+      "data": "2026-11-07T17:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "ESMA - ESTALEIRO MAUÁ",
+      "para": "-"
+    },
     {
       "data": "2026-10-30T16:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-12T23:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-"
     }
   ]
 }
