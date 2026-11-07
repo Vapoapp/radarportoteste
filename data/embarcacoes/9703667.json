@@ -1,29 +1,36 @@
 {
   "imo": "9703667",
   "navio": "BRAM HERO",
-  "gerado_em": "2026-11-07T07:51:08.838Z",
+  "gerado_em": "2026-11-07T14:24:47.208Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-04T23:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-07T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 96,
-    "manobras_365d": 114,
+    "manobras_30d": 13,
+    "manobras_180d": 97,
+    "manobras_365d": 115,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 5,
+    "mudancas_30d": 6,
     "entradas_365d": 28,
     "saidas_365d": 28,
     "ultima_entrada": "2026-11-04T23:00:00.000Z",
     "ultima_saida": "2026-10-31T06:00:00.000Z",
     "tempo_medio_estadia_horas": 79,
-    "tempo_medio_fundeio_horas": 23.7
+    "tempo_medio_fundeio_horas": 24.5
   },
   "historico_recente": [
+    {
+      "data": "2026-11-07T10:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-11-04T23:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-10-17T14:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
