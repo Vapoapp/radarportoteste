@@ -1,21 +1,21 @@
 {
   "imo": "9627631",
   "navio": "CBO IPANEMA",
-  "gerado_em": "2026-11-08T14:58:50.864Z",
+  "gerado_em": "2026-11-08T19:26:29.893Z",
   "estado_atual": {
-    "porto": "Rio de Janeiro",
+    "porto": "Niterói",
     "em_fundeio": false,
-    "local": "TPBR - BRASCO",
+    "local": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-07T15:00:00.000Z"
+    "ultima_movimentacao": "2026-11-08T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 3,
-    "manobras_180d": 70,
-    "manobras_365d": 86,
+    "manobras_30d": 4,
+    "manobras_180d": 71,
+    "manobras_365d": 87,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 3,
+    "mudancas_30d": 4,
     "entradas_365d": 19,
     "saidas_365d": 18,
     "ultima_entrada": "2026-09-27T15:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 38.6
   },
   "historico_recente": [
+    {
+      "data": "2026-11-08T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
+    },
     {
       "data": "2026-11-07T15:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "TPBR - BRASCO"
-    },
-    {
-      "data": "2026-09-17T21:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "-"
     }
   ]
 }
