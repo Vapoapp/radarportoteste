@@ -1,29 +1,36 @@
 {
   "imo": "9762742",
   "navio": "POSIDONIA LEOPARD (REB)",
-  "gerado_em": "2026-11-09T10:12:04.421Z",
+  "gerado_em": "2026-11-09T20:43:35.017Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-08T08:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2PAL - Terminal Petrobras AL",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-09T14:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 89,
-    "manobras_365d": 112,
+    "manobras_30d": 15,
+    "manobras_180d": 90,
+    "manobras_365d": 113,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 30,
     "saidas_365d": 29,
     "ultima_entrada": "2026-11-08T08:00:00.000Z",
     "ultima_saida": "2026-11-03T08:00:00.000Z",
     "tempo_medio_estadia_horas": 63.5,
-    "tempo_medio_fundeio_horas": 36.8
+    "tempo_medio_fundeio_horas": 36.6
   },
   "historico_recente": [
+    {
+      "data": "2026-11-09T14:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2PAL - Terminal Petrobras AL"
+    },
     {
       "data": "2026-11-08T08:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-10-20T06:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }

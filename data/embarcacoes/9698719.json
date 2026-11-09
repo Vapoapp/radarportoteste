@@ -1,29 +1,43 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-11-09T10:12:04.421Z",
+  "gerado_em": "2026-11-09T20:43:35.017Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-08T13:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-09T20:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 93,
-    "manobras_365d": 118,
+    "manobras_30d": 20,
+    "manobras_180d": 95,
+    "manobras_365d": 120,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 11,
+    "mudancas_30d": 13,
     "entradas_365d": 28,
     "saidas_365d": 27,
     "ultima_entrada": "2026-11-08T13:00:00.000Z",
     "ultima_saida": "2026-11-03T18:00:00.000Z",
     "tempo_medio_estadia_horas": 77.4,
-    "tempo_medio_fundeio_horas": 29.5
+    "tempo_medio_fundeio_horas": 29.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-09T20:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "TPBR - BRASCO"
+    },
+    {
+      "data": "2026-11-09T13:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-11-08T13:00:00.000Z",
       "tipo": "ENTRADA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-26T07:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "-"
-    },
-    {
-      "data": "2026-10-26T04:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P15 - Terminal Petrobrás (Armazém 15)",
-      "para": "2TS1 - Terminal Siderúrgico parte 1"
     }
   ]
 }

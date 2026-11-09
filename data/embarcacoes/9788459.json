@@ -1,29 +1,36 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-11-09T10:12:04.421Z",
+  "gerado_em": "2026-11-09T20:43:35.017Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-09T04:00:00.000Z"
+    "ultima_movimentacao": "2026-11-09T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 93,
-    "manobras_365d": 115,
+    "manobras_30d": 19,
+    "manobras_180d": 94,
+    "manobras_365d": 116,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 10,
+    "mudancas_30d": 11,
     "entradas_365d": 26,
     "saidas_365d": 26,
     "ultima_entrada": "2026-11-07T11:00:00.000Z",
     "ultima_saida": "2026-11-02T13:00:00.000Z",
     "tempo_medio_estadia_horas": 54.3,
-    "tempo_medio_fundeio_horas": 29.5
+    "tempo_medio_fundeio_horas": 29.1
   },
   "historico_recente": [
+    {
+      "data": "2026-11-09T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-11-09T04:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "-"
-    },
-    {
-      "data": "2026-10-26T20:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
     }
   ]
 }
