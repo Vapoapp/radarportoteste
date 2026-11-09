@@ -3434,14 +3434,14 @@
     "navio": "MESTRE DOS MARES (REB)",
     "navio_normalizado": "MESTRE DOS MARES",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 2F06 - LARGO OESTE",
+    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
     "agente_atual": "HOSKEN SERVICOS MARITIMOS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-11-06T11:00:00.000Z",
-    "ultimo_hash_evento": "a362445474ae2f217c28313f9d4df11252c2b1781b79d609986dfe3397ad7995",
-    "atualizado_em": "2026-11-06T17:09:54.323Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-11-09T01:00:00.000Z",
+    "ultimo_hash_evento": "c0083cd53cbd572d27b9e15da38234ce47d372ee4c2d195cf8084fbfc45f456e",
+    "atualizado_em": "2026-11-09T02:31:22.339Z"
   },
   "9329954": {
     "imo": "9329954",
@@ -9967,6 +9967,20 @@
     "ultimo_hash_evento": "7b6e35932609de97229488be20cdc3dc281463983050c66a5b97a08c40e01098",
     "atualizado_em": "2026-08-07T00:30:22.982Z"
   },
+  "9596753": {
+    "imo": "9596753",
+    "navio": "ASSO TRENTUNO (REB)",
+    "navio_normalizado": "ASSO TRENTUNO",
+    "porto_atual": "Rio de Janeiro",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - 2F6A - LARGO",
+    "destino_atual": "-",
+    "agente_atual": "SOLANA AGENCIA MARITIMA LTDA",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-11-08T23:00:00.000Z",
+    "ultimo_hash_evento": "012740d2fedcf4e6778118e49d6b0571278436370bf7c322efe7b5b9b9287cd4",
+    "atualizado_em": "2026-11-09T02:31:22.339Z"
+  },
   "9596832": {
     "imo": "9596832",
     "navio": "DARCY RIBEIRO",
@@ -10000,14 +10014,14 @@
     "navio": "JORGE AMADO",
     "navio_normalizado": "JORGE AMADO",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "TPIR - ILHA REDONDA",
-    "destino_atual": "Fundeio - WPT 65 - 2F6A",
+    "ultimo_tipo_evento": "SAÍDA",
+    "origem_atual": "Fundeio - WPT 65 - 2F6A",
+    "destino_atual": "-",
     "agente_atual": "GAC DO BRASIL LTDA.",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-11-07T23:00:00.000Z",
-    "ultimo_hash_evento": "689baf6d6282ab56336ccd6f3afc429b9dc621c8f775d5d6eb2a87f4437aaf94",
-    "atualizado_em": "2026-11-08T01:45:03.884Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-11-08T23:00:00.000Z",
+    "ultimo_hash_evento": "c13791a2402722e7d86a1d7211e332fdfab451842b183e67ddd1ccdb6629cb6a",
+    "atualizado_em": "2026-11-09T02:31:22.339Z"
   },
   "9597381": {
     "imo": "9597381",
@@ -14004,14 +14018,14 @@
     "navio": "STARNAV PHOENIX",
     "navio_normalizado": "STARNAV PHOENIX",
     "porto_atual": "Rio de Janeiro",
-    "ultimo_tipo_evento": "SAÍDA",
-    "origem_atual": "2TS2 - Terminal Siderúrgico parte 2 a 6",
-    "destino_atual": "-",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "STARNAV SERVIÇOS MARITIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-11-02T23:00:00.000Z",
-    "ultimo_hash_evento": "6a52c608ae91e7900b397a437472175bf230c7de1cd8828d9e06313163d19f3d",
-    "atualizado_em": "2026-11-03T01:45:52.445Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-11-09T00:30:00.000Z",
+    "ultimo_hash_evento": "64afa4b5490c166d134495337943645fc9c375eaf60a2366d6956c77a5e05d0a",
+    "atualizado_em": "2026-11-09T02:31:22.339Z"
   },
   "9718208": {
     "imo": "9718208",
@@ -16259,13 +16273,13 @@
     "navio_normalizado": "PARDELA",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2P19 - Terminal Petrobrás SC",
+    "origem_atual": "2P19 - Terminal Petrobrás SC",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "ROCHAMAR AGÊNCIA MARÍTIMA S.A.",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-11-08T10:00:00.000Z",
-    "ultimo_hash_evento": "0caa95bc4d5da5dbfb424a88fc6c5d8214212bb29be15a1bcdabf1235e8448ef",
-    "atualizado_em": "2026-11-08T14:58:50.864Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-11-08T23:30:00.000Z",
+    "ultimo_hash_evento": "2aeabad94c57078046684b454ceebff9999c3fabaa3b4ef203b40c14e8d448b3",
+    "atualizado_em": "2026-11-09T02:31:22.339Z"
   },
   "9787429": {
     "imo": "9787429",
@@ -16301,13 +16315,13 @@
     "navio_normalizado": "BRAM FORCE",
     "porto_atual": "Rio de Janeiro",
     "ultimo_tipo_evento": "MUDANÇA",
-    "origem_atual": "Fundeio - 2F6A - LARGO",
-    "destino_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "origem_atual": "2TS1 - Terminal Siderúrgico parte 1",
+    "destino_atual": "Fundeio - 2F6A - LARGO",
     "agente_atual": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA",
-    "em_fundeio": false,
-    "ultima_movimentacao_em": "2026-11-07T17:00:00.000Z",
-    "ultimo_hash_evento": "3979f79bbad579cee837d3e2b388c3a5ee7544a959cfc8a7c4aff8251134ee2f",
-    "atualizado_em": "2026-11-07T18:57:30.500Z"
+    "em_fundeio": true,
+    "ultima_movimentacao_em": "2026-11-09T00:00:00.000Z",
+    "ultimo_hash_evento": "73cc079be9a37c10b9e08d63498f6dbbc96aa367200020ee885634b49be73bf0",
+    "atualizado_em": "2026-11-09T02:31:22.339Z"
   },
   "9788411": {
     "imo": "9788411",
@@ -17616,14 +17630,14 @@
     "navio": "MINERAL MOZAMBIQUE",
     "navio_normalizado": "MINERAL MOZAMBIQUE",
     "porto_atual": "Itaguaí",
-    "ultimo_tipo_evento": "ENTRADA",
-    "origem_atual": "-",
-    "destino_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "origem_atual": "Fundeio - 5FB1 - Área de Fundeio B1",
+    "destino_atual": "102 - TECAR - CSN MINERAÇÃO S.A.",
     "agente_atual": "THP SHIPPING AND LOGISTICS LTDA",
-    "em_fundeio": true,
-    "ultima_movimentacao_em": "2026-11-04T20:30:00.000Z",
-    "ultimo_hash_evento": "a6c65a898cea40582c8d9bc1b0d6f5a2d24f33be221c6d756e377718dde65c9b",
-    "atualizado_em": "2026-11-04T21:54:13.190Z"
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-11-08T23:30:00.000Z",
+    "ultimo_hash_evento": "89289081729ef7e851f196a25ef6dcbe321ddf8d329185a659f480380686686c",
+    "atualizado_em": "2026-11-09T02:31:22.339Z"
   },
   "9857157": {
     "imo": "9857157",
@@ -18268,6 +18282,20 @@
     "ultima_movimentacao_em": "2026-10-03T09:30:00.000Z",
     "ultimo_hash_evento": "e4ac747a6297a4384305104b3e7439218e8a30734bfe05f618e206add29b4b2e",
     "atualizado_em": "2026-10-03T13:28:50.887Z"
+  },
+  "9888015": {
+    "imo": "9888015",
+    "navio": "HSL YOKOHAMA",
+    "navio_normalizado": "HSL YOKOHAMA",
+    "porto_atual": "Itaguaí",
+    "ultimo_tipo_evento": "ENTRADA",
+    "origem_atual": "-",
+    "destino_atual": "303 - TECON - SEPETIBA TECON S.A.",
+    "agente_atual": "L.M.A. SHIPPING  CONSULTING",
+    "em_fundeio": false,
+    "ultima_movimentacao_em": "2026-11-09T01:30:00.000Z",
+    "ultimo_hash_evento": "b4b55c717b64145c8305819f68cc7598d386488dc5588eb3e5ca1bfd910ef510",
+    "atualizado_em": "2026-11-09T02:31:22.339Z"
   },
   "9888601": {
     "imo": "9888601",
