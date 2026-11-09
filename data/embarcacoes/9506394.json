@@ -1,29 +1,36 @@
 {
   "imo": "9506394",
   "navio": "LOG-IN DISCOVERY (REB S/L)",
-  "gerado_em": "2026-11-09T02:31:22.339Z",
+  "gerado_em": "2026-11-09T10:12:04.421Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C21 - TECON 3 - MRIO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-07T07:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-09T08:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 35,
-    "manobras_365d": 41,
+    "manobras_30d": 6,
+    "manobras_180d": 36,
+    "manobras_365d": 42,
     "entradas_30d": 3,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 0,
     "entradas_365d": 21,
-    "saidas_365d": 20,
+    "saidas_365d": 21,
     "ultima_entrada": "2026-11-07T07:00:00.000Z",
-    "ultima_saida": "2026-10-25T19:00:00.000Z",
-    "tempo_medio_estadia_horas": 45.4,
+    "ultima_saida": "2026-11-09T08:00:00.000Z",
+    "tempo_medio_estadia_horas": 45.6,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-11-09T08:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-"
+    },
     {
       "data": "2026-11-07T07:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2R12 - TECON 4 - MCAR"
-    },
-    {
-      "data": "2026-09-21T10:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-"
     }
   ]
 }
