@@ -1,29 +1,36 @@
 {
   "imo": "9759496",
   "navio": "STARNAV VOLANS",
-  "gerado_em": "2026-11-09T20:43:35.017Z",
+  "gerado_em": "2026-11-10T02:56:54.595Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-11-06T03:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-11-10T00:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 14,
-    "manobras_180d": 91,
-    "manobras_365d": 109,
-    "entradas_30d": 5,
+    "manobras_30d": 15,
+    "manobras_180d": 92,
+    "manobras_365d": 110,
+    "entradas_30d": 6,
     "saidas_30d": 6,
     "mudancas_30d": 3,
-    "entradas_365d": 29,
+    "entradas_365d": 30,
     "saidas_365d": 29,
-    "ultima_entrada": "2026-10-29T15:00:00.000Z",
+    "ultima_entrada": "2026-11-10T00:30:00.000Z",
     "ultima_saida": "2026-11-06T03:00:00.000Z",
     "tempo_medio_estadia_horas": 72.7,
     "tempo_medio_fundeio_horas": 48.2
   },
   "historico_recente": [
+    {
+      "data": "2026-11-10T00:30:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-11-06T03:00:00.000Z",
       "tipo": "SAÍDA",
@@ -85,13 +92,6 @@
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-21T13:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
     }
   ]

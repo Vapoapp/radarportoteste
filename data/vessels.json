@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-09T20:43:35.017Z",
+  "updatedAt": "2026-11-10T02:56:54.595Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 50
+      "count": 65
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 4
     },
     "itaguai": {
       "ok": true,
@@ -102,12 +102,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/11/2026 08:00",
-      "imo": "9865740",
-      "navio": "TWEED",
+      "imo": "9289087",
+      "navio": "MSC BUSAN VIII",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 08:00",
+      "imo": "9440681",
+      "navio": "SKUA",
       "tipo": "MUDANÇA",
-      "de": "TPS1 - PETROBRAS PS1",
-      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
-      "agente": "GAC DO BRASIL LTDA."
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "TIDEWATER DO BRASIL S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -132,22 +142,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/11/2026 08:00",
-      "imo": "9289087",
-      "navio": "MSC BUSAN VIII",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/11/2026 08:00",
-      "imo": "9440681",
-      "navio": "SKUA",
+      "imo": "9865740",
+      "navio": "TWEED",
       "tipo": "MUDANÇA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC",
-      "agente": "TIDEWATER DO BRASIL S.A."
+      "de": "TPS1 - PETROBRAS PS1",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -172,32 +172,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/11/2026 10:00",
-      "imo": "9262118",
-      "navio": "XIN CHONG QING",
+      "imo": "9642588",
+      "navio": "LARUS",
       "tipo": "SAÍDA",
-      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "de": "2PAL - Terminal Petrobras AL",
       "para": "-",
-      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/11/2026 10:00",
-      "imo": "9283435",
-      "navio": "MARLIN COPACABANA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-",
-      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/11/2026 10:00",
-      "imo": "9431290",
-      "navio": "MAERSK KATARINA",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - WPT 81 - 2F08",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
+      "agente": "TIDEWATER DO BRASIL S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -212,12 +192,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/11/2026 10:00",
-      "imo": "9642588",
-      "navio": "LARUS",
+      "imo": "9283435",
+      "navio": "MARLIN COPACABANA",
       "tipo": "SAÍDA",
-      "de": "2PAL - Terminal Petrobras AL",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
-      "agente": "TIDEWATER DO BRASIL S.A."
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 10:00",
+      "imo": "9262118",
+      "navio": "XIN CHONG QING",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 10:00",
+      "imo": "9431290",
+      "navio": "MAERSK KATARINA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - WPT 81 - 2F08",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -272,16 +272,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/11/2026 12:00",
-      "imo": "9908504",
-      "navio": "PS IMABARI",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPS1 - PETROBRAS PS1",
-      "agente": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/11/2026 12:00",
       "imo": "9605267",
       "navio": "MSC AJACCIO",
       "tipo": "ENTRADA",
@@ -298,6 +288,16 @@
       "de": "-",
       "para": "TPGE - WELLSTREAM BHGE BARDELA CAXIMBAU",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 12:00",
+      "imo": "9908504",
+      "navio": "PS IMABARI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPS1 - PETROBRAS PS1",
+      "agente": "NORTH STAR SUDESTE SERVICOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -352,22 +352,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "09/11/2026 15:00",
-      "imo": "1057206",
-      "navio": "P. TOKYO",
-      "tipo": "SAÍDA",
-      "de": "TPP1 - PETROBRAS PP1",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/11/2026 15:00",
       "imo": "9333503",
       "navio": "Z MAX XXIX",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 15:00",
+      "imo": "1057206",
+      "navio": "P. TOKYO",
+      "tipo": "SAÍDA",
+      "de": "TPP1 - PETROBRAS PP1",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
     },
     {
       "porto": "Rio de Janeiro",
@@ -391,26 +391,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/11/2026 16:00",
-      "imo": "9575632",
-      "navio": "TITUS TIDE (REB)",
-      "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-",
-      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "09/11/2026 17:00",
-      "imo": "9698719",
-      "navio": "BRAM BREEZE",
-      "tipo": "MUDANÇA",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "TPBR - BRASCO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "09/11/2026 17:00",
       "imo": "9098309",
       "navio": "LH COMANDANTE",
@@ -431,13 +411,13 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "09/11/2026 18:00",
-      "imo": "9440681",
-      "navio": "SKUA",
-      "tipo": "SAÍDA",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "-",
-      "agente": "TIDEWATER DO BRASIL S.A."
+      "inicio": "09/11/2026 17:00",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "MUDANÇA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "TPBR - BRASCO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -471,6 +451,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 19:30",
+      "imo": "9806495",
+      "navio": "STARNAV CIRCINUS",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "09/11/2026 20:00",
       "imo": "9424730",
       "navio": "SKANDI HERA",
@@ -478,6 +468,26 @@
       "de": "2N05 - Armazém 6",
       "para": "Fundeio - 2F06 - LARGO OESTE",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 20:40",
+      "imo": "9645542",
+      "navio": "MANDRIÃO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "NIT - ATRACADO NITERÓI",
+      "agente": "TIDEWATER DO BRASIL S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 21:30",
+      "imo": "9759496",
+      "navio": "STARNAV VOLANS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -491,13 +501,83 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "10/11/2026 08:30",
-      "imo": "9422330",
-      "navio": "NORMAND POSEIDON (REB)",
+      "inicio": "09/11/2026 22:00",
+      "imo": "9482330",
+      "navio": "MULTIPLICITY (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 22:00",
+      "imo": "1094979",
+      "navio": "STARNAV ELEKTRA (CADASTRO PROVISÓRIO - PSP)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "09/11/2026 22:00",
+      "imo": "9440681",
+      "navio": "SKUA",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
+      "de": "2P19 - Terminal Petrobrás SC",
       "para": "-",
-      "agente": "SOLSTAD SHIPPING LTDA."
+      "agente": "TIDEWATER DO BRASIL S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 01:50",
+      "imo": "9627631",
+      "navio": "CBO IPANEMA",
+      "tipo": "MUDANÇA",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "TPBR - BRASCO",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 03:00",
+      "imo": "9448528",
+      "navio": "CBO SUPPORTER (REB)",
+      "tipo": "SAÍDA",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 05:30",
+      "imo": "9852133",
+      "navio": "WINNIPEG",
+      "tipo": "SAÍDA",
+      "de": "TPIC - ILHA COMPRIDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 06:00",
+      "imo": "9454008",
+      "navio": "CBO ISABELLA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESPR - MacLaren Ilha da Conceição",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 06:00",
+      "imo": "9799070",
+      "navio": "STARNAV SCORPIUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -508,6 +588,76 @@
       "de": "2C21 - TECON 3 - MRIO",
       "para": "-",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 08:30",
+      "imo": "9422330",
+      "navio": "NORMAND POSEIDON (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "SOLSTAD SHIPPING LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 10:00",
+      "imo": "9575632",
+      "navio": "TITUS TIDE (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 10:30",
+      "imo": "9647540",
+      "navio": "CORAL DO ATLANTICO (REB)",
+      "tipo": "SAÍDA",
+      "de": "2N10 - Terminal de Trigo",
+      "para": "-",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 12:00",
+      "imo": "9762144",
+      "navio": "C SALVADOR",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESCM - ESTALEIRO CAMORIM",
+      "agente": "SAM OFFSHORE ACU SERVIÇOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 13:00",
+      "imo": "9423102",
+      "navio": "KIRT CHOUEST (BAND. GREYLIST TOKYO MOU)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 13:30",
+      "imo": "9767821",
+      "navio": "CBO BOSSA NOVA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "10/11/2026 14:00",
+      "imo": "1053573",
+      "navio": "PATMOS EXPRESS",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -528,6 +678,36 @@
       "de": "ESMC - MacLaren Ponta da Areia",
       "para": "-",
       "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "09/11/2026 20:40",
+      "imo": "9645542",
+      "navio": "MANDRIÃO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESWS - ESTALEIRO",
+      "agente": "TIDEWATER DO BRASIL S.A."
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "10/11/2026 08:00",
+      "imo": "9484845",
+      "navio": "STRIL EXPLORER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA",
+      "agente": "SMART OFFSHORE AGÊNCIA MARÍTIMA DO BRASIL LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "10/11/2026 11:00",
+      "imo": "9686144",
+      "navio": "HOS REMINGTON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
     },
     {
       "porto": "Itaguaí",
