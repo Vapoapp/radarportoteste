@@ -1,29 +1,36 @@
 {
   "imo": "9799070",
   "navio": "STARNAV SCORPIUS",
-  "gerado_em": "2026-11-10T02:56:54.595Z",
+  "gerado_em": "2026-11-10T10:48:39.037Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-11-05T17:20:00.000Z"
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-11-10T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 18,
-    "manobras_180d": 69,
-    "manobras_365d": 86,
-    "entradas_30d": 3,
+    "manobras_30d": 16,
+    "manobras_180d": 70,
+    "manobras_365d": 87,
+    "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 11,
-    "entradas_365d": 22,
+    "mudancas_30d": 8,
+    "entradas_365d": 23,
     "saidas_365d": 22,
-    "ultima_entrada": "2026-11-01T10:30:00.000Z",
+    "ultima_entrada": "2026-11-10T09:00:00.000Z",
     "ultima_saida": "2026-11-05T17:20:00.000Z",
     "tempo_medio_estadia_horas": 64.5,
     "tempo_medio_fundeio_horas": 29.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-10T09:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-11-05T17:20:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-10-20T05:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }
