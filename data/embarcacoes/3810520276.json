@@ -1,21 +1,21 @@
 {
   "imo": "3810520276",
   "navio": "MULICEIRO X",
-  "gerado_em": "2026-11-10T18:18:21.196Z",
+  "gerado_em": "2026-11-10T23:31:22.602Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C11 - TECON - ICTSI 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-05T11:00:00.000Z"
+    "local": "ESPR - MacLaren Ilha da Conceição",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-10T19:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 1,
-    "manobras_365d": 1,
+    "manobras_30d": 2,
+    "manobras_180d": 2,
+    "manobras_365d": 2,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 1,
     "saidas_365d": 0,
     "ultima_entrada": "2026-11-05T11:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-11-10T19:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "ESPR - MacLaren Ilha da Conceição"
+    },
     {
       "data": "2026-11-05T11:00:00.000Z",
       "tipo": "ENTRADA",

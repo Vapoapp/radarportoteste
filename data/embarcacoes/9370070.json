@@ -1,29 +1,36 @@
 {
   "imo": "9370070",
   "navio": "SIDDIS SAILOR (REB)",
-  "gerado_em": "2026-11-10T18:18:21.196Z",
+  "gerado_em": "2026-11-10T23:31:22.602Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-04T12:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-10T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 55,
-    "manobras_365d": 71,
+    "manobras_30d": 8,
+    "manobras_180d": 56,
+    "manobras_365d": 72,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 3,
     "entradas_365d": 28,
-    "saidas_365d": 27,
+    "saidas_365d": 28,
     "ultima_entrada": "2026-11-03T11:00:00.000Z",
-    "ultima_saida": "2026-10-29T17:00:00.000Z",
-    "tempo_medio_estadia_horas": 44.7,
+    "ultima_saida": "2026-11-10T21:00:00.000Z",
+    "tempo_medio_estadia_horas": 49.5,
     "tempo_medio_fundeio_horas": 17.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-10T21:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-"
+    },
     {
       "data": "2026-11-04T12:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "TPBR - BRASCO",
       "para": "-"
-    },
-    {
-      "data": "2026-10-02T10:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "TPBR - BRASCO"
     }
   ]
 }
