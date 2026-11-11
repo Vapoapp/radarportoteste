@@ -1,29 +1,36 @@
 {
   "imo": "9715725",
   "navio": "STARNAV TAURUS",
-  "gerado_em": "2026-11-11T02:57:10.863Z",
+  "gerado_em": "2026-11-11T10:25:43.409Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-11-08T00:00:00.000Z"
+    "local": "TPBL - BRICLOG",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-11-11T10:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 62,
-    "manobras_365d": 84,
-    "entradas_30d": 3,
+    "manobras_30d": 11,
+    "manobras_180d": 61,
+    "manobras_365d": 85,
+    "entradas_30d": 4,
     "saidas_30d": 3,
     "mudancas_30d": 4,
-    "entradas_365d": 22,
+    "entradas_365d": 23,
     "saidas_365d": 22,
-    "ultima_entrada": "2026-11-04T20:00:00.000Z",
+    "ultima_entrada": "2026-11-11T10:00:00.000Z",
     "ultima_saida": "2026-11-08T00:00:00.000Z",
     "tempo_medio_estadia_horas": 80.6,
     "tempo_medio_fundeio_horas": 35.4
   },
   "historico_recente": [
+    {
+      "data": "2026-11-11T10:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "TPBL - BRICLOG"
+    },
     {
       "data": "2026-11-08T00:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)"
-    },
-    {
-      "data": "2026-10-13T17:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
