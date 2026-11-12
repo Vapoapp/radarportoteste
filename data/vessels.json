@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-12T07:17:18.011Z",
+  "updatedAt": "2026-11-12T16:01:24.381Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 22
+      "count": 52
     },
     "niteroi": {
       "ok": true,
-      "count": 1
+      "count": 3
     },
     "itaguai": {
       "ok": true,
@@ -72,22 +72,32 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/11/2026 06:00",
-      "imo": "9521021",
-      "navio": "CBO WAVE (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/11/2026 06:00",
       "imo": "9573256",
       "navio": "BATUÍRA",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO",
       "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 06:00",
+      "imo": "9645542",
+      "navio": "MANDRIÃO (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "TIDEWATER DO BRASIL S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 06:00",
+      "imo": "9690432",
+      "navio": "BRAM BUCCANEER",
+      "tipo": "MUDANÇA",
+      "de": "TPBL - BRICLOG",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -102,6 +112,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/11/2026 06:30",
+      "imo": "9573256",
+      "navio": "BATUÍRA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 06:30",
       "imo": "9578672",
       "navio": "SEA1 GIANT",
       "tipo": "ENTRADA",
@@ -112,22 +132,62 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/11/2026 07:00",
-      "imo": "9785471",
-      "navio": "MSC CASSANDRE",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/11/2026 07:00",
       "imo": "9663776",
       "navio": "BABITONGA BAY",
       "tipo": "ENTRADA",
       "de": "-",
       "para": "Fundeio - 2F01N - Visita Norte",
       "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 07:30",
+      "imo": "9703382",
+      "navio": "OCEANIC",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 07:30",
+      "imo": "9490040",
+      "navio": "AIDASOL",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N04 - Armazém 4 e 5",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 07:30",
+      "imo": "9698719",
+      "navio": "BRAM BREEZE",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 08:00",
+      "imo": "1019905",
+      "navio": "BRAM RIO",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 08:00",
+      "imo": "9289087",
+      "navio": "MSC BUSAN VIII",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -151,6 +211,46 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 08:00",
+      "imo": "9426972",
+      "navio": "CBO BIANCA",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 08:00",
+      "imo": "9521021",
+      "navio": "CBO WAVE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2N05 - Armazém 6",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 08:00",
+      "imo": "9752967",
+      "navio": "SEACOR DEMERARA (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC",
+      "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 08:00",
+      "imo": "9762742",
+      "navio": "POSIDONIA LEOPARD (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/11/2026 09:00",
       "imo": "9598256",
       "navio": "EAGLE PARAIBA",
@@ -158,6 +258,36 @@
       "de": "-",
       "para": "TPP1 - PETROBRAS PP1",
       "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 10:00",
+      "imo": "9785471",
+      "navio": "MSC CASSANDRE",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 10:00",
+      "imo": "9600580",
+      "navio": "SKANDI ANGRA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 10:00",
+      "imo": "9403786",
+      "navio": "COSTA DO FUTURO (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F12 - SUZANO",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -171,22 +301,22 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/11/2026 10:00",
-      "imo": "8916229",
-      "navio": "FRIO MARATHON",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2C11 - TECON - ICTSI 1",
-      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+      "inicio": "12/11/2026 10:15",
+      "imo": "9417830",
+      "navio": "CBO ENDEAVOUR (REB)",
+      "tipo": "SAÍDA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-",
+      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "12/11/2026 10:00",
-      "imo": "9600580",
-      "navio": "SKANDI ANGRA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
+      "inicio": "12/11/2026 10:30",
+      "imo": "9382229",
+      "navio": "NORTH OCEAN 102",
+      "tipo": "MUDANÇA",
+      "de": "2N10 - Terminal de Trigo",
+      "para": "Fundeio - 2F08 - NW DO TPP1",
       "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
@@ -202,16 +332,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "12/11/2026 12:00",
-      "imo": "9759264",
-      "navio": "BUENA CONFIANZA",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "TPIC - ILHA COMPRIDA",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "12/11/2026 13:00",
       "imo": "9323510",
       "navio": "HMM BANGKOK",
       "tipo": "SAÍDA",
@@ -221,13 +341,103 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 12:00",
+      "imo": "9759264",
+      "navio": "BUENA CONFIANZA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPIC - ILHA COMPRIDA",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "12/11/2026 14:00",
+      "imo": "8916229",
+      "navio": "FRIO MARATHON",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C11 - TECON - ICTSI 1",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 14:00",
+      "imo": "9749350",
+      "navio": "LINUS P",
+      "tipo": "MUDANÇA",
+      "de": "TPEX - EXXON SOLUTEC",
+      "para": "Fundeio - WPT 61 - 2F6A",
+      "agente": "LBH BRASIL AGENCIAMENTO MARITIMO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 15:30",
+      "imo": "9529700",
+      "navio": "POSIDONIA TIGER (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2PAL - Terminal Petrobras AL",
+      "agente": "HOSKEN SERVICOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 15:30",
+      "imo": "9956903",
+      "navio": "SPARROWHAWK",
+      "tipo": "MUDANÇA",
+      "de": "TPEX - EXXON SOLUTEC",
+      "para": "Fundeio - 2F10 - PREFERENCIAL GNL",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 16:00",
+      "imo": "9309215",
+      "navio": "SAN ANDRES IV",
+      "tipo": "MUDANÇA",
+      "de": "TPS2 - PETROBRAS PS2",
+      "para": "Fundeio - WPT 92 - AF Preferencial Gusa",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 18:00",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 18:00",
+      "imo": "1053585",
+      "navio": "TINOS EXPRESS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 19:30",
       "imo": "9369734",
       "navio": "MSC BREMEN",
       "tipo": "ENTRADA",
       "de": "-",
-      "para": "2C21 - TECON 3 - MRIO",
+      "para": "2C22 - TECON 2 - MRIO",
       "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "12/11/2026 19:30",
+      "imo": "9644160",
+      "navio": "BRAM BELEM",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -240,6 +450,96 @@
       "agente": "SAM OFFSHORE ACU SERVIÇOS LTDA"
     },
     {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 03:00",
+      "imo": "3813885372",
+      "navio": "C ARRAIAL",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "TPCM - Estaleiro Camorim",
+      "agente": "CAMORIM SERVIÇOS MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 07:30",
+      "imo": "9785471",
+      "navio": "MSC CASSANDRE",
+      "tipo": "SAÍDA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 08:00",
+      "imo": "9403786",
+      "navio": "COSTA DO FUTURO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F12 - SUZANO",
+      "para": "TPBK - BRASKEM",
+      "agente": "ORION RODOS MARITIMA E PORTUARIA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 10:30",
+      "imo": "1015375",
+      "navio": "SINAR SUMATERA",
+      "tipo": "MUDANÇA",
+      "de": "2C21 - TECON 3 - MRIO",
+      "para": "Fundeio - 2F03 - Feiticeira",
+      "agente": "ISS MARINE SERVICES LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 12:30",
+      "imo": "9288409",
+      "navio": "MSC YAMUNA VI",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C21 - TECON 3 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 14:30",
+      "imo": "9369734",
+      "navio": "MSC BREMEN",
+      "tipo": "SAÍDA",
+      "de": "2C22 - TECON 2 - MRIO",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 16:30",
+      "imo": "1031159",
+      "navio": "MSC MARIA LAURA",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 18:30",
+      "imo": "9490040",
+      "navio": "AIDASOL",
+      "tipo": "SAÍDA",
+      "de": "2N02 - TERMINAL DE PASSAGEIROS 1",
+      "para": "-",
+      "agente": "ALL FLAGS AGENCIAMENTO LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "13/11/2026 23:00",
+      "imo": "1053585",
+      "navio": "TINOS EXPRESS",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
       "porto": "Niterói",
       "inicio": "12/11/2026 01:00",
       "imo": "9686144",
@@ -248,6 +548,26 @@
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-",
       "agente": "WILSON SONS SHIPPING SERVICES LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "12/11/2026 07:00",
+      "imo": "9668738",
+      "navio": "STARNAV CENTAURUS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "STARNAV SERVIÇOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Niterói",
+      "inicio": "13/11/2026 08:00",
+      "imo": "9575620",
+      "navio": "TANTALUS TIDE (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
+      "agente": "HMS BRASIL AGENCIAMENTOS MARITIMOS LTDA ME"
     },
     {
       "porto": "Itaguaí",
@@ -321,7 +641,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "12/11/2026 13:00",
+      "inicio": "12/11/2026 17:00",
       "imo": "9856270",
       "navio": "UMA NAREE",
       "tipo": "ENTRADA",
