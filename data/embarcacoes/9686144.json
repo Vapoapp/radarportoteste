@@ -1,29 +1,36 @@
 {
   "imo": "9686144",
   "navio": "HOS REMINGTON",
-  "gerado_em": "2026-11-12T00:14:37.877Z",
+  "gerado_em": "2026-11-12T07:17:18.011Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-10T16:35:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-12T04:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 57,
-    "manobras_365d": 62,
+    "manobras_30d": 13,
+    "manobras_180d": 58,
+    "manobras_365d": 63,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 6,
     "entradas_365d": 21,
-    "saidas_365d": 20,
+    "saidas_365d": 21,
     "ultima_entrada": "2026-11-01T10:00:00.000Z",
-    "ultima_saida": "2026-10-28T03:00:00.000Z",
-    "tempo_medio_estadia_horas": 61.8,
-    "tempo_medio_fundeio_horas": 74.1
+    "ultima_saida": "2026-11-12T04:00:00.000Z",
+    "tempo_medio_estadia_horas": 74,
+    "tempo_medio_fundeio_horas": 72.1
   },
   "historico_recente": [
+    {
+      "data": "2026-11-12T04:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-11-10T16:35:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "-"
-    },
-    {
-      "data": "2026-10-15T09:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     }
   ]
 }
