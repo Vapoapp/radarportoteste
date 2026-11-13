@@ -1,29 +1,36 @@
 {
   "imo": "9417828",
   "navio": "NORMAND SAGARIS (REB)",
-  "gerado_em": "2026-11-13T02:37:01.386Z",
+  "gerado_em": "2026-11-13T09:57:05.406Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-05T10:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-13T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 7,
-    "manobras_365d": 14,
+    "manobras_30d": 3,
+    "manobras_180d": 8,
+    "manobras_365d": 15,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 7,
-    "saidas_365d": 7,
+    "saidas_365d": 8,
     "ultima_entrada": "2026-11-05T10:00:00.000Z",
-    "ultima_saida": "2026-10-31T18:00:00.000Z",
-    "tempo_medio_estadia_horas": 78.9,
-    "tempo_medio_fundeio_horas": 97.3
+    "ultima_saida": "2026-11-13T06:00:00.000Z",
+    "tempo_medio_estadia_horas": 97,
+    "tempo_medio_fundeio_horas": 115.5
   },
   "historico_recente": [
+    {
+      "data": "2026-11-13T06:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
     {
       "data": "2026-11-05T10:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-05-02T12:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "-"
     }
   ]
 }

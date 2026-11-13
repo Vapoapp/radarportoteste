@@ -1,29 +1,36 @@
 {
   "imo": "9497127",
   "navio": "CAMPOS CONTENDER",
-  "gerado_em": "2026-11-13T02:37:01.386Z",
+  "gerado_em": "2026-11-13T09:57:05.406Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-12T09:30:00.000Z"
+    "em_fundeio": false,
+    "local": "NIT - ATRACADO NITERÓI",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-13T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 77,
-    "manobras_365d": 90,
+    "manobras_30d": 13,
+    "manobras_180d": 78,
+    "manobras_365d": 91,
     "entradas_30d": 6,
     "saidas_30d": 5,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 42,
     "saidas_365d": 42,
     "ultima_entrada": "2026-11-12T09:30:00.000Z",
     "ultima_saida": "2026-11-09T08:30:00.000Z",
     "tempo_medio_estadia_horas": 46.8,
-    "tempo_medio_fundeio_horas": 44.3
+    "tempo_medio_fundeio_horas": 43.7
   },
   "historico_recente": [
+    {
+      "data": "2026-11-13T07:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
     {
       "data": "2026-11-12T09:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "-"
-    },
-    {
-      "data": "2026-10-22T10:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
