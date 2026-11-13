@@ -1,29 +1,36 @@
 {
   "imo": "9529700",
   "navio": "POSIDONIA TIGER (REB)",
-  "gerado_em": "2026-11-13T09:57:05.406Z",
+  "gerado_em": "2026-11-13T17:31:03.786Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-12T20:00:00.000Z"
+    "ultima_movimentacao": "2026-11-13T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 81,
-    "manobras_365d": 95,
+    "manobras_30d": 18,
+    "manobras_180d": 82,
+    "manobras_365d": 96,
     "entradas_30d": 4,
     "saidas_30d": 4,
-    "mudancas_30d": 9,
+    "mudancas_30d": 10,
     "entradas_365d": 23,
     "saidas_365d": 22,
     "ultima_entrada": "2026-11-12T18:30:00.000Z",
     "ultima_saida": "2026-11-09T09:00:00.000Z",
     "tempo_medio_estadia_horas": 106.5,
-    "tempo_medio_fundeio_horas": 37
+    "tempo_medio_fundeio_horas": 36.2
   },
   "historico_recente": [
+    {
+      "data": "2026-11-13T11:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-11-12T20:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS2 - Terminal Siderúrgico parte 2 a 6",
       "para": "-"
-    },
-    {
-      "data": "2026-10-22T22:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "2TS2 - Terminal Siderúrgico parte 2 a 6"
     }
   ]
 }

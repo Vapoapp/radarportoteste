@@ -1,29 +1,36 @@
 {
   "imo": "9710945",
   "navio": "SEACOR NILE (REB)",
-  "gerado_em": "2026-11-13T09:57:05.406Z",
+  "gerado_em": "2026-11-13T17:31:03.786Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-11T23:00:00.000Z"
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-13T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 17,
-    "manobras_180d": 68,
-    "manobras_365d": 91,
+    "manobras_30d": 18,
+    "manobras_180d": 69,
+    "manobras_365d": 92,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 11,
+    "mudancas_30d": 12,
     "entradas_365d": 23,
     "saidas_365d": 24,
     "ultima_entrada": "2026-11-11T23:00:00.000Z",
     "ultima_saida": "2026-11-11T19:00:00.000Z",
     "tempo_medio_estadia_horas": 104.4,
-    "tempo_medio_fundeio_horas": 45.5
+    "tempo_medio_fundeio_horas": 45.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-13T12:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-11-11T23:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P19 - Terminal Petrobrás SC",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-10-26T11:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P19 - Terminal Petrobrás SC"
     }
   ]
 }
