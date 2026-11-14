@@ -1,29 +1,36 @@
 {
   "imo": "9787429",
   "navio": "OSTREIRO (REB)",
-  "gerado_em": "2026-11-14T09:26:48.106Z",
+  "gerado_em": "2026-11-14T15:56:33.925Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-14T09:00:00.000Z"
+    "em_fundeio": false,
+    "local": "TPBR - BRASCO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-14T09:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 19,
-    "manobras_365d": 19,
+    "manobras_30d": 16,
+    "manobras_180d": 20,
+    "manobras_365d": 20,
     "entradas_30d": 7,
     "saidas_30d": 6,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 9,
     "saidas_365d": 7,
     "ultima_entrada": "2026-11-14T09:00:00.000Z",
     "ultima_saida": "2026-11-08T15:00:00.000Z",
     "tempo_medio_estadia_horas": 44.3,
-    "tempo_medio_fundeio_horas": 52.8
+    "tempo_medio_fundeio_horas": 42.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-14T09:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-11-14T09:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-10-26T09:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }
