@@ -1,21 +1,21 @@
 {
   "imo": "9357169",
   "navio": "ASSO VENTISETTE",
-  "gerado_em": "2026-11-14T02:43:20.385Z",
+  "gerado_em": "2026-11-14T09:26:48.106Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPBR - BRASCO",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-14T02:00:00.000Z"
+    "ultima_movimentacao": "2026-11-14T09:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 21,
-    "manobras_180d": 86,
-    "manobras_365d": 98,
+    "manobras_30d": 20,
+    "manobras_180d": 85,
+    "manobras_365d": 99,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 15,
+    "mudancas_30d": 14,
     "entradas_365d": 21,
     "saidas_365d": 21,
     "ultima_entrada": "2026-11-13T07:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 43.8
   },
   "historico_recente": [
+    {
+      "data": "2026-11-14T09:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-11-14T02:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P15 - Terminal Petrobrás (Armazém 15)"
-    },
-    {
-      "data": "2026-10-31T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS2 - Terminal Siderúrgico parte 2 a 6",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
