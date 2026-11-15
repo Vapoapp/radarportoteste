@@ -1,29 +1,36 @@
 {
   "imo": "9668738",
   "navio": "STARNAV CENTAURUS",
-  "gerado_em": "2026-11-15T00:03:09.968Z",
+  "gerado_em": "2026-11-15T06:13:24.541Z",
   "estado_atual": {
-    "porto": "Niterói",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F6A - LARGO",
+    "porto": "Rio de Janeiro",
+    "em_fundeio": false,
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-13T03:00:00.000Z"
+    "ultima_movimentacao": "2026-11-15T06:00:00.000Z"
   },
   "metricas": {
     "manobras_30d": 13,
     "manobras_180d": 88,
-    "manobras_365d": 108,
-    "entradas_30d": 5,
+    "manobras_365d": 109,
+    "entradas_30d": 4,
     "saidas_30d": 2,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 26,
     "saidas_365d": 24,
     "ultima_entrada": "2026-11-04T17:00:00.000Z",
     "ultima_saida": "2026-10-29T19:00:00.000Z",
     "tempo_medio_estadia_horas": 67.8,
-    "tempo_medio_fundeio_horas": 23.4
+    "tempo_medio_fundeio_horas": 24.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-15T06:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-11-13T03:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
-    },
-    {
-      "data": "2026-10-21T17:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "NIT - ATRACADO NITERÓI",
-      "para": "-"
     }
   ]
 }
