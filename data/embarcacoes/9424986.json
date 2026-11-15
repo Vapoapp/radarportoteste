@@ -1,21 +1,21 @@
 {
   "imo": "9424986",
   "navio": "SAVEIROS ATOBÁ",
-  "gerado_em": "2026-11-15T19:36:51.924Z",
+  "gerado_em": "2026-11-15T23:30:05.484Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPAM - ARSENAL DA MARINHA",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-12T09:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-15T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 5,
-    "manobras_180d": 29,
-    "manobras_365d": 29,
+    "manobras_30d": 6,
+    "manobras_180d": 30,
+    "manobras_365d": 30,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 12,
     "saidas_365d": 10,
     "ultima_entrada": "2026-11-12T09:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 26.1
   },
   "historico_recente": [
+    {
+      "data": "2026-11-15T21:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPAM - ARSENAL DA MARINHA",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-11-12T09:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-09-25T03:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Niterói",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }
