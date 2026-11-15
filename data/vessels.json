@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-14T20:25:52.562Z",
+  "updatedAt": "2026-11-15T00:03:09.968Z",
   "portos": {
     "rio": {
       "ok": true,
-      "count": 53
+      "count": 62
     },
     "niteroi": {
       "ok": true,
@@ -292,16 +292,6 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/11/2026 09:00",
-      "imo": "9644213",
-      "navio": "BRAM BUZIOS",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
-    },
-    {
-      "porto": "Rio de Janeiro",
-      "inicio": "14/11/2026 09:00",
       "imo": "9514092",
       "navio": "BJ BLUE MARLIN",
       "tipo": "MUDANÇA",
@@ -321,13 +311,23 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/11/2026 09:00",
+      "imo": "9644213",
+      "navio": "BRAM BUZIOS",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/11/2026 10:00",
-      "imo": "9369734",
-      "navio": "MSC BREMEN",
+      "imo": "9703629",
+      "navio": "BRAM ATLAS",
       "tipo": "SAÍDA",
-      "de": "2C22 - TECON 2 - MRIO",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -342,12 +342,22 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/11/2026 10:00",
-      "imo": "9703629",
-      "navio": "BRAM ATLAS",
+      "imo": "9369734",
+      "navio": "MSC BREMEN",
       "tipo": "SAÍDA",
-      "de": "Fundeio - 2F6A - LARGO",
+      "de": "2C22 - TECON 2 - MRIO",
       "para": "-",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/11/2026 10:00",
+      "imo": "9329954",
+      "navio": "NORMAND TURMALINA",
+      "tipo": "MUDANÇA",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -401,6 +411,16 @@
     },
     {
       "porto": "Rio de Janeiro",
+      "inicio": "14/11/2026 13:00",
+      "imo": "9329954",
+      "navio": "NORMAND TURMALINA",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "SOLANA AGENCIA MARITIMA LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
       "inicio": "14/11/2026 13:30",
       "imo": "9457713",
       "navio": "PINE OLIA",
@@ -412,12 +432,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/11/2026 14:00",
-      "imo": "9423229",
-      "navio": "ELIZABETH C",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO",
-      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
+      "imo": "9335886",
+      "navio": "PORT ALBERNI",
+      "tipo": "SAÍDA",
+      "de": "2N09 - Armazém 10",
+      "para": "-",
+      "agente": "WORLD SHIPPING AGENCIAMENTOS"
     },
     {
       "porto": "Rio de Janeiro",
@@ -432,12 +452,12 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/11/2026 14:00",
-      "imo": "9335886",
-      "navio": "PORT ALBERNI",
-      "tipo": "SAÍDA",
-      "de": "2N09 - Armazém 10",
-      "para": "-",
-      "agente": "WORLD SHIPPING AGENCIAMENTOS"
+      "imo": "9423229",
+      "navio": "ELIZABETH C",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
@@ -482,6 +502,16 @@
     {
       "porto": "Rio de Janeiro",
       "inicio": "14/11/2026 17:00",
+      "imo": "9763045",
+      "navio": "MANTA ANADOLU",
+      "tipo": "SAÍDA",
+      "de": "TPIR - ILHA REDONDA",
+      "para": "-",
+      "agente": "GAC DO BRASIL LTDA."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "14/11/2026 17:00",
       "imo": "9079212",
       "navio": "INTEGRADOR",
       "tipo": "SAÍDA",
@@ -501,16 +531,6 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/11/2026 17:00",
-      "imo": "9763045",
-      "navio": "MANTA ANADOLU",
-      "tipo": "SAÍDA",
-      "de": "TPIR - ILHA REDONDA",
-      "para": "-",
-      "agente": "GAC DO BRASIL LTDA."
-    },
-    {
-      "porto": "Rio de Janeiro",
       "inicio": "14/11/2026 18:00",
       "imo": "9440679",
       "navio": "PETREL",
@@ -521,23 +541,23 @@
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/11/2026 18:00",
-      "imo": "9620982",
-      "navio": "CBO MISTRAL (REB)",
+      "inicio": "14/11/2026 18:50",
+      "imo": "9530187",
+      "navio": "SANTOS SCOUT",
       "tipo": "SAÍDA",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "de": "Fundeio - 2F6A - LARGO",
       "para": "-",
-      "agente": "COMPANHIA BRASILEIRA DE OFFSHORE - CBO"
+      "agente": "BRAM OFFSHORE TRANSPORTES MARÍTIMOS LTDA"
     },
     {
       "porto": "Rio de Janeiro",
-      "inicio": "14/11/2026 18:30",
-      "imo": "9448528",
-      "navio": "CBO SUPPORTER (REB)",
-      "tipo": "ENTRADA",
-      "de": "-",
-      "para": "2TS1 - Terminal Siderúrgico parte 1",
-      "agente": "CBO SERVIÇOS MARÍTIMOS LTDA"
+      "inicio": "14/11/2026 19:00",
+      "imo": "9787429",
+      "navio": "OSTREIRO (REB)",
+      "tipo": "MUDANÇA",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F06 - LARGO OESTE",
+      "agente": "TIDEWATER DO BRASIL S.A."
     },
     {
       "porto": "Rio de Janeiro",
@@ -548,6 +568,76 @@
       "de": "2C11 - TECON - ICTSI 1",
       "para": "-",
       "agente": "MSC MEDITERRANEAN"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/11/2026 03:00",
+      "imo": "9457737",
+      "navio": "YM MOBILITY",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "2C22 - TECON 2 - MRIO",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/11/2026 03:00",
+      "imo": "9787405",
+      "navio": "PARDELA (REB)",
+      "tipo": "ENTRADA",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO",
+      "agente": "ROCHAMAR AGÊNCIA MARÍTIMA S.A."
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/11/2026 05:00",
+      "imo": "9990820",
+      "navio": "FEI YUN JIANG",
+      "tipo": "MUDANÇA",
+      "de": "2N07 - Pátio 8/9",
+      "para": "Fundeio - WPT 91 - AF Preferencial Gusa",
+      "agente": "THP SHIPPING AND LOGISTICS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/11/2026 05:00",
+      "imo": "9400069",
+      "navio": "CMA CGM XIAMEN",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/11/2026 15:00",
+      "imo": "9954151",
+      "navio": "DANUBE",
+      "tipo": "SAÍDA",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-",
+      "agente": "ZIM DO BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "15/11/2026 18:00",
+      "imo": "9585285",
+      "navio": "MSC DIVINA",
+      "tipo": "SAÍDA",
+      "de": "2N04 - Armazém 4 e 5",
+      "para": "-",
+      "agente": "MSC MEDITERRANEAN SHIPPING BRASIL LTDA"
+    },
+    {
+      "porto": "Rio de Janeiro",
+      "inicio": "16/11/2026 21:00",
+      "imo": "9312559",
+      "navio": "XIN CHANG SHA",
+      "tipo": "SAÍDA",
+      "de": "2C12 - TECON PROLONG - ICTSI - ICTSI RIO BRASILTERMINAL 1 S.A",
+      "para": "-",
+      "agente": "UNIMAR AGENCIAMENTOS MARITIMOS LTDA"
     },
     {
       "porto": "Niterói",
@@ -631,7 +721,7 @@
     },
     {
       "porto": "Itaguaí",
-      "inicio": "15/11/2026 06:00",
+      "inicio": "15/11/2026 07:00",
       "imo": "1060540",
       "navio": "PERSEUS",
       "tipo": "SAÍDA",

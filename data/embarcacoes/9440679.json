@@ -1,29 +1,36 @@
 {
   "imo": "9440679",
   "navio": "PETREL",
-  "gerado_em": "2026-11-14T20:25:52.562Z",
+  "gerado_em": "2026-11-15T00:03:09.968Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-14T07:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-14T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 10,
-    "manobras_180d": 51,
-    "manobras_365d": 62,
+    "manobras_30d": 11,
+    "manobras_180d": 52,
+    "manobras_365d": 63,
     "entradas_30d": 3,
-    "saidas_30d": 3,
+    "saidas_30d": 4,
     "mudancas_30d": 4,
     "entradas_365d": 17,
-    "saidas_365d": 16,
+    "saidas_365d": 17,
     "ultima_entrada": "2026-11-14T07:00:00.000Z",
-    "ultima_saida": "2026-10-31T19:00:00.000Z",
-    "tempo_medio_estadia_horas": 66.5,
+    "ultima_saida": "2026-11-14T21:00:00.000Z",
+    "tempo_medio_estadia_horas": 62.8,
     "tempo_medio_fundeio_horas": 38.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-14T21:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "-"
+    },
     {
       "data": "2026-11-14T07:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "-"
-    },
-    {
-      "data": "2026-10-18T05:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
     }
   ]
 }

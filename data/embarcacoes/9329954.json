@@ -1,21 +1,21 @@
 {
   "imo": "9329954",
   "navio": "NORMAND TURMALINA",
-  "gerado_em": "2026-11-14T20:25:52.562Z",
+  "gerado_em": "2026-11-15T00:03:09.968Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-12T11:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-14T16:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 27,
-    "manobras_365d": 36,
+    "manobras_30d": 3,
+    "manobras_180d": 29,
+    "manobras_365d": 38,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 2,
     "entradas_365d": 13,
     "saidas_365d": 13,
     "ultima_entrada": "2026-11-12T11:00:00.000Z",
@@ -24,6 +24,20 @@
     "tempo_medio_fundeio_horas": 76.5
   },
   "historico_recente": [
+    {
+      "data": "2026-11-14T16:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPBR - BRASCO",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-11-14T13:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-11-12T11:00:00.000Z",
       "tipo": "ENTRADA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "DOCKBRASIL - DOCKBRASIL"
-    },
-    {
-      "data": "2026-07-25T03:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-07-24T00:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "TPBR - BRASCO",
-      "para": "-"
     }
   ]
 }
