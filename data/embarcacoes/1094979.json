@@ -1,21 +1,21 @@
 {
   "imo": "1094979",
   "navio": "STARNAV ELEKTRA (CADASTRO PROVISÓRIO - PSP)",
-  "gerado_em": "2026-11-16T10:48:13.781Z",
+  "gerado_em": "2026-11-16T20:41:22.686Z",
   "estado_atual": {
-    "porto": "Niterói",
+    "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "4101 - TERMINAL NITPORT - NITPORT SERVIÇOS PORTUÁRIOS S/A.",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-16T03:00:00.000Z"
+    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-16T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 11,
-    "manobras_180d": 23,
-    "manobras_365d": 23,
+    "manobras_30d": 12,
+    "manobras_180d": 24,
+    "manobras_365d": 24,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 4,
+    "mudancas_30d": 5,
     "entradas_365d": 6,
     "saidas_365d": 5,
     "ultima_entrada": "2026-11-16T03:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 39.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-16T18:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2TS1 - Terminal Siderúrgico parte 1"
+    },
     {
       "data": "2026-11-16T03:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-10-28T06:45:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
