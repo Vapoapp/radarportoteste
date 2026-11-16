@@ -1,21 +1,21 @@
 {
   "imo": "9357169",
   "navio": "ASSO VENTISETTE",
-  "gerado_em": "2026-11-15T23:30:05.484Z",
+  "gerado_em": "2026-11-16T02:58:17.703Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "2P15 - Terminal Petrobrás (Armazém 15)",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-15T16:00:00.000Z"
+    "ultima_movimentacao": "2026-11-16T02:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 23,
-    "manobras_180d": 87,
-    "manobras_365d": 102,
+    "manobras_30d": 24,
+    "manobras_180d": 88,
+    "manobras_365d": 103,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 17,
+    "mudancas_30d": 18,
     "entradas_365d": 21,
     "saidas_365d": 21,
     "ultima_entrada": "2026-11-13T07:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 42.1
   },
   "historico_recente": [
+    {
+      "data": "2026-11-16T02:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "2P15 - Terminal Petrobrás (Armazém 15)"
+    },
     {
       "data": "2026-11-15T16:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2PAL - Terminal Petrobras AL",
       "para": "-"
-    },
-    {
-      "data": "2026-11-08T15:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2PAL - Terminal Petrobras AL"
     }
   ]
 }
