@@ -1,29 +1,36 @@
 {
   "imo": "9680774",
   "navio": "VEGA CHASER (REB)",
-  "gerado_em": "2026-11-17T11:47:52.637Z",
+  "gerado_em": "2026-11-17T20:03:27.131Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-07T18:00:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-17T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 8,
-    "manobras_365d": 8,
+    "manobras_30d": 3,
+    "manobras_180d": 9,
+    "manobras_365d": 9,
     "entradas_30d": 1,
-    "saidas_30d": 1,
+    "saidas_30d": 2,
     "mudancas_30d": 0,
     "entradas_365d": 4,
-    "saidas_365d": 4,
+    "saidas_365d": 5,
     "ultima_entrada": "2026-11-07T18:00:00.000Z",
-    "ultima_saida": "2026-10-19T17:00:00.000Z",
-    "tempo_medio_estadia_horas": 251.7,
-    "tempo_medio_fundeio_horas": 251.7
+    "ultima_saida": "2026-11-17T12:00:00.000Z",
+    "tempo_medio_estadia_horas": 247.3,
+    "tempo_medio_fundeio_horas": 247.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-17T12:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-11-07T18:00:00.000Z",
       "tipo": "ENTRADA",
