@@ -1,21 +1,21 @@
 {
   "imo": "9656204",
   "navio": "SAPURA ESMERALDA",
-  "gerado_em": "2026-11-18T10:21:11.508Z",
+  "gerado_em": "2026-11-18T18:54:18.994Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
     "local": "2N07 - Pátio 8/9",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-17T15:30:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-18T17:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 7,
-    "manobras_365d": 15,
+    "manobras_30d": 2,
+    "manobras_180d": 8,
+    "manobras_365d": 16,
     "entradas_30d": 1,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 6,
     "saidas_365d": 5,
     "ultima_entrada": "2026-11-17T15:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 40.7
   },
   "historico_recente": [
+    {
+      "data": "2026-11-18T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2N07 - Pátio 8/9",
+      "para": "2N07 - Pátio 8/9"
+    },
     {
       "data": "2026-11-17T15:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-04-28T21:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }

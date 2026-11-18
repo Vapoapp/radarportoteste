@@ -1,7 +1,7 @@
 {
   "imo": "9385257",
   "navio": "HOS MAVERICK",
-  "gerado_em": "2026-11-18T10:21:11.508Z",
+  "gerado_em": "2026-11-18T18:54:18.994Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
@@ -10,17 +10,17 @@
     "ultima_movimentacao": "2026-11-18T07:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 4,
-    "manobras_180d": 10,
-    "manobras_365d": 11,
-    "entradas_30d": 1,
+    "manobras_30d": 5,
+    "manobras_180d": 11,
+    "manobras_365d": 12,
+    "entradas_30d": 2,
     "saidas_30d": 2,
     "mudancas_30d": 1,
-    "entradas_365d": 5,
+    "entradas_365d": 6,
     "saidas_365d": 5,
-    "ultima_entrada": "2026-11-01T18:48:00.000Z",
+    "ultima_entrada": "2026-11-18T03:00:00.000Z",
     "ultima_saida": "2026-11-18T07:00:00.000Z",
-    "tempo_medio_estadia_horas": 232.9,
+    "tempo_medio_estadia_horas": 102.2,
     "tempo_medio_fundeio_horas": 23.8
   },
   "historico_recente": [
@@ -30,6 +30,13 @@
       "porto": "Niterói",
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
       "para": "-"
+    },
+    {
+      "data": "2026-11-18T03:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Niterói",
+      "de": "-",
+      "para": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A."
     },
     {
       "data": "2026-11-01T18:48:00.000Z",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-05T16:45:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Niterói",
-      "de": "ESMA - ESTALEIRO MAUÁ",
-      "para": "-"
     }
   ]
 }
