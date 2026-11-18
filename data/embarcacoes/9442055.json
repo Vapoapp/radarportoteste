@@ -1,21 +1,21 @@
 {
   "imo": "9442055",
   "navio": "TALHA-MAR",
-  "gerado_em": "2026-11-18T02:19:46.290Z",
+  "gerado_em": "2026-11-18T10:21:11.508Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "TPAM - ARSENAL DA MARINHA",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-17T09:40:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-18T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 75,
-    "manobras_365d": 103,
+    "manobras_30d": 13,
+    "manobras_180d": 76,
+    "manobras_365d": 104,
     "entradas_30d": 3,
     "saidas_30d": 3,
-    "mudancas_30d": 6,
+    "mudancas_30d": 7,
     "entradas_365d": 26,
     "saidas_365d": 25,
     "ultima_entrada": "2026-11-17T09:40:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 37
   },
   "historico_recente": [
+    {
+      "data": "2026-11-18T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "TPAM - ARSENAL DA MARINHA",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-11-17T09:40:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
       "para": "-"
-    },
-    {
-      "data": "2026-10-29T18:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
     }
   ]
 }
