@@ -1,21 +1,21 @@
 {
   "imo": "9690432",
   "navio": "BRAM BUCCANEER",
-  "gerado_em": "2026-11-20T13:03:08.268Z",
+  "gerado_em": "2026-11-20T21:00:13.310Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
+    "local": "NIT - ATRACADO NITERÓI",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-19T23:00:00.000Z"
+    "ultima_movimentacao": "2026-11-20T13:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 24,
-    "manobras_365d": 24,
+    "manobras_30d": 17,
+    "manobras_180d": 25,
+    "manobras_365d": 25,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 11,
+    "mudancas_30d": 12,
     "entradas_365d": 6,
     "saidas_365d": 5,
     "ultima_entrada": "2026-11-18T16:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 46
   },
   "historico_recente": [
+    {
+      "data": "2026-11-20T13:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "NIT - ATRACADO NITERÓI"
+    },
     {
       "data": "2026-11-19T23:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F6A - LARGO",
       "para": "TPBL - BRICLOG"
-    },
-    {
-      "data": "2026-11-11T06:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

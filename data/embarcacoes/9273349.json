@@ -1,29 +1,36 @@
 {
   "imo": "9273349",
   "navio": "MARLIN LEBLON",
-  "gerado_em": "2026-11-20T13:03:08.268Z",
+  "gerado_em": "2026-11-20T21:00:13.310Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-11-20T12:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-11-20T18:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 15,
-    "manobras_180d": 20,
-    "manobras_365d": 20,
-    "entradas_30d": 7,
+    "manobras_30d": 16,
+    "manobras_180d": 21,
+    "manobras_365d": 21,
+    "entradas_30d": 8,
     "saidas_30d": 8,
     "mudancas_30d": 0,
-    "entradas_365d": 10,
+    "entradas_365d": 11,
     "saidas_365d": 10,
-    "ultima_entrada": "2026-11-18T15:00:00.000Z",
+    "ultima_entrada": "2026-11-20T18:00:00.000Z",
     "ultima_saida": "2026-11-20T12:00:00.000Z",
     "tempo_medio_estadia_horas": 132.4,
     "tempo_medio_fundeio_horas": 132.4
   },
   "historico_recente": [
+    {
+      "data": "2026-11-20T18:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-11-20T12:00:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-10-25T16:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "Fundeio - 2F06 - LARGO OESTE"
     }
   ]
 }
