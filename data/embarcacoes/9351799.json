@@ -1,29 +1,36 @@
 {
   "imo": "9351799",
   "navio": "LOG-IN PANTANAL (REB)",
-  "gerado_em": "2026-11-21T09:39:18.437Z",
+  "gerado_em": "2026-11-21T16:56:49.788Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2C11 - TECON - ICTSI 1",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-21T00:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-21T12:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 12,
-    "manobras_180d": 46,
-    "manobras_365d": 66,
+    "manobras_30d": 13,
+    "manobras_180d": 47,
+    "manobras_365d": 67,
     "entradas_30d": 5,
-    "saidas_30d": 4,
+    "saidas_30d": 5,
     "mudancas_30d": 3,
     "entradas_365d": 27,
-    "saidas_365d": 26,
+    "saidas_365d": 27,
     "ultima_entrada": "2026-11-21T00:00:00.000Z",
-    "ultima_saida": "2026-11-14T23:30:00.000Z",
-    "tempo_medio_estadia_horas": 26.7,
+    "ultima_saida": "2026-11-21T12:00:00.000Z",
+    "tempo_medio_estadia_horas": 26.1,
     "tempo_medio_fundeio_horas": null
   },
   "historico_recente": [
+    {
+      "data": "2026-11-21T12:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "2C11 - TECON - ICTSI 1",
+      "para": "-"
+    },
     {
       "data": "2026-11-21T00:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "2C11 - TECON - ICTSI 1"
-    },
-    {
-      "data": "2026-10-24T17:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2C21 - TECON 3 - MRIO",
-      "para": "-"
     }
   ]
 }
