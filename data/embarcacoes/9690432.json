@@ -1,29 +1,43 @@
 {
   "imo": "9690432",
   "navio": "BRAM BUCCANEER",
-  "gerado_em": "2026-11-21T02:04:58.678Z",
+  "gerado_em": "2026-11-21T09:39:18.437Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2P19 - Terminal Petrobrás SC",
-    "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-21T02:00:00.000Z"
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-21T06:40:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 19,
-    "manobras_180d": 27,
-    "manobras_365d": 27,
+    "manobras_30d": 21,
+    "manobras_180d": 29,
+    "manobras_365d": 29,
     "entradas_30d": 3,
-    "saidas_30d": 2,
-    "mudancas_30d": 14,
+    "saidas_30d": 3,
+    "mudancas_30d": 15,
     "entradas_365d": 6,
-    "saidas_365d": 5,
+    "saidas_365d": 6,
     "ultima_entrada": "2026-11-18T16:30:00.000Z",
-    "ultima_saida": "2026-11-14T05:00:00.000Z",
-    "tempo_medio_estadia_horas": 98.6,
-    "tempo_medio_fundeio_horas": 41.2
+    "ultima_saida": "2026-11-21T06:40:00.000Z",
+    "tempo_medio_estadia_horas": 91.3,
+    "tempo_medio_fundeio_horas": 37.2
   },
   "historico_recente": [
+    {
+      "data": "2026-11-21T06:40:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "-"
+    },
+    {
+      "data": "2026-11-21T05:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2P19 - Terminal Petrobrás SC",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-11-21T02:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2TS1 - Terminal Siderúrgico parte 1",
       "para": "-"
-    },
-    {
-      "data": "2026-11-14T01:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2TS1 - Terminal Siderúrgico parte 1"
-    },
-    {
-      "data": "2026-11-13T08:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2P19 - Terminal Petrobrás SC",
-      "para": "NIT - ATRACADO NITERÓI"
     }
   ]
 }
