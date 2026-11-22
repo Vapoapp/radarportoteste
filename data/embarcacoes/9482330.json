@@ -1,21 +1,21 @@
 {
   "imo": "9482330",
   "navio": "MULTIPLICITY (REB)",
-  "gerado_em": "2026-11-22T02:05:21.915Z",
+  "gerado_em": "2026-11-22T09:40:56.030Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-21T16:00:00.000Z"
+    "ultima_movimentacao": "2026-11-22T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 16,
-    "manobras_180d": 80,
-    "manobras_365d": 99,
+    "manobras_30d": 17,
+    "manobras_180d": 81,
+    "manobras_365d": 100,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 7,
+    "mudancas_30d": 8,
     "entradas_365d": 26,
     "saidas_365d": 26,
     "ultima_entrada": "2026-11-21T09:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 38
   },
   "historico_recente": [
+    {
+      "data": "2026-11-22T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-11-21T16:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-11-04T06:30:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "-"
     }
   ]
 }
