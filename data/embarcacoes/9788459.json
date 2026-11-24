@@ -1,29 +1,36 @@
 {
   "imo": "9788459",
   "navio": "MR ALDO",
-  "gerado_em": "2026-11-23T03:05:34.878Z",
+  "gerado_em": "2026-11-24T00:03:04.368Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-11-19T18:30:00.000Z"
+    "local": "2P19 - Terminal Petrobrás SC",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-11-23T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 20,
-    "manobras_180d": 93,
-    "manobras_365d": 122,
-    "entradas_30d": 4,
+    "manobras_30d": 21,
+    "manobras_180d": 94,
+    "manobras_365d": 123,
+    "entradas_30d": 5,
     "saidas_30d": 5,
     "mudancas_30d": 11,
-    "entradas_365d": 27,
+    "entradas_365d": 28,
     "saidas_365d": 28,
-    "ultima_entrada": "2026-11-18T02:00:00.000Z",
+    "ultima_entrada": "2026-11-23T06:00:00.000Z",
     "ultima_saida": "2026-11-19T18:30:00.000Z",
     "tempo_medio_estadia_horas": 55.4,
     "tempo_medio_fundeio_horas": 28.4
   },
   "historico_recente": [
+    {
+      "data": "2026-11-23T06:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
     {
       "data": "2026-11-19T18:30:00.000Z",
       "tipo": "SAÍDA",
@@ -82,13 +89,6 @@
     },
     {
       "data": "2026-11-08T16:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F06 - LARGO OESTE",
-      "para": "ESEN - ESTALEIRO ENAVE / RENAVE"
-    },
-    {
-      "data": "2026-11-08T12:00:00.000Z",
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",

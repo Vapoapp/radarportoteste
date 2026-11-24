@@ -1,21 +1,21 @@
 {
   "imo": "9385271",
   "navio": "HOS TAURUS (REB)",
-  "gerado_em": "2026-11-23T03:05:34.878Z",
+  "gerado_em": "2026-11-24T00:03:04.368Z",
   "estado_atual": {
     "porto": "Niterói",
     "em_fundeio": false,
     "local": "ESMC - MacLaren Ponta da Areia",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-10-23T08:45:00.000Z"
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-23T08:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 0,
-    "manobras_180d": 16,
-    "manobras_365d": 22,
+    "manobras_30d": 1,
+    "manobras_180d": 17,
+    "manobras_365d": 23,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 9,
     "saidas_365d": 8,
     "ultima_entrada": "2026-10-23T08:45:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 83.4
   },
   "historico_recente": [
+    {
+      "data": "2026-11-23T08:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "ESMC - MacLaren Ponta da Areia"
+    },
     {
       "data": "2026-10-23T08:45:00.000Z",
       "tipo": "ENTRADA",
@@ -85,13 +92,6 @@
       "tipo": "MUDANÇA",
       "porto": "Niterói",
       "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "Fundeio - 2F6A - LARGO"
-    },
-    {
-      "data": "2026-08-25T19:30:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
     }
   ]

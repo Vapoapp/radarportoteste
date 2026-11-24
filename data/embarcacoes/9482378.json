@@ -1,29 +1,36 @@
 {
   "imo": "9482378",
   "navio": "CBO MANOELLA",
-  "gerado_em": "2026-11-23T03:05:34.878Z",
+  "gerado_em": "2026-11-24T00:03:04.368Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "-",
-    "ultimo_tipo_evento": "SAÍDA",
-    "ultima_movimentacao": "2026-11-01T21:30:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - 2F6A - LARGO",
+    "ultimo_tipo_evento": "ENTRADA",
+    "ultima_movimentacao": "2026-11-23T11:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 8,
-    "manobras_365d": 10,
-    "entradas_30d": 0,
+    "manobras_30d": 2,
+    "manobras_180d": 9,
+    "manobras_365d": 11,
+    "entradas_30d": 1,
     "saidas_30d": 1,
     "mudancas_30d": 0,
-    "entradas_365d": 4,
+    "entradas_365d": 5,
     "saidas_365d": 4,
-    "ultima_entrada": "2026-06-08T16:00:00.000Z",
+    "ultima_entrada": "2026-11-23T11:00:00.000Z",
     "ultima_saida": "2026-11-01T21:30:00.000Z",
     "tempo_medio_estadia_horas": 129.7,
     "tempo_medio_fundeio_horas": 12.8
   },
   "historico_recente": [
+    {
+      "data": "2026-11-23T11:00:00.000Z",
+      "tipo": "ENTRADA",
+      "porto": "Rio de Janeiro",
+      "de": "-",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-11-01T21:30:00.000Z",
       "tipo": "SAÍDA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "ESPR - MacLaren Ilha da Conceição",
       "para": "-"
-    },
-    {
-      "data": "2026-05-11T09:00:00.000Z",
-      "tipo": "ENTRADA",
-      "porto": "Rio de Janeiro",
-      "de": "-",
-      "para": "ESPR - MacLaren Ilha da Conceição"
     }
   ]
 }
