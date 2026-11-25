@@ -1,21 +1,21 @@
 {
   "imo": "9370070",
   "navio": "SIDDIS SAILOR (REB)",
-  "gerado_em": "2026-11-24T20:20:43.288Z",
+  "gerado_em": "2026-11-25T03:35:13.655Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "2TS1 - Terminal Siderúrgico parte 1",
+    "local": "TPBR - BRASCO",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-24T15:00:00.000Z"
+    "ultima_movimentacao": "2026-11-25T03:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 56,
-    "manobras_365d": 74,
+    "manobras_30d": 8,
+    "manobras_180d": 57,
+    "manobras_365d": 75,
     "entradas_30d": 3,
     "saidas_30d": 2,
-    "mudancas_30d": 2,
+    "mudancas_30d": 3,
     "entradas_365d": 29,
     "saidas_365d": 28,
     "ultima_entrada": "2026-11-17T11:30:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 29.2
   },
   "historico_recente": [
+    {
+      "data": "2026-11-25T03:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS1 - Terminal Siderúrgico parte 1",
+      "para": "TPBR - BRASCO"
+    },
     {
       "data": "2026-11-24T15:00:00.000Z",
       "tipo": "MUDANÇA",
@@ -85,13 +92,6 @@
       "tipo": "MUDANÇA",
       "porto": "Rio de Janeiro",
       "de": "ESEN - ESTALEIRO ENAVE / RENAVE",
-      "para": "TPBR - BRASCO"
-    },
-    {
-      "data": "2026-10-12T13:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2NTO - Terminal de Óleo",
       "para": "TPBR - BRASCO"
     }
   ]
