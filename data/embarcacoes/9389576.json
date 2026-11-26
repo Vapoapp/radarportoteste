@@ -1,21 +1,21 @@
 {
   "imo": "9389576",
   "navio": "SKANDI SALVADOR",
-  "gerado_em": "2026-11-26T14:05:08.795Z",
+  "gerado_em": "2026-11-26T22:55:54.354Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": false,
-    "local": "2TS2 - Terminal Siderúrgico parte 2 a 6",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-26T09:00:00.000Z"
+    "em_fundeio": true,
+    "local": "Fundeio - WPT 65 - 2F6A",
+    "ultimo_tipo_evento": "MUDANÇA",
+    "ultima_movimentacao": "2026-11-26T16:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 9,
-    "manobras_180d": 33,
-    "manobras_365d": 33,
+    "manobras_30d": 10,
+    "manobras_180d": 34,
+    "manobras_365d": 34,
     "entradas_30d": 5,
     "saidas_30d": 4,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 14,
     "saidas_365d": 13,
     "ultima_entrada": "2026-11-26T09:00:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 6.3
   },
   "historico_recente": [
+    {
+      "data": "2026-11-26T16:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "2TS2 - Terminal Siderúrgico parte 2 a 6",
+      "para": "Fundeio - WPT 65 - 2F6A"
+    },
     {
       "data": "2026-11-26T09:00:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Niterói",
       "de": "-",
       "para": "ESBA - ESTALEIRO BASE A. CASTRO E SILVA"
-    },
-    {
-      "data": "2026-10-22T21:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2P14 - Terminal Petrobrás (Armazém 14)",
-      "para": "-"
     }
   ]
 }
