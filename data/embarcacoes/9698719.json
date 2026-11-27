@@ -1,29 +1,43 @@
 {
   "imo": "9698719",
   "navio": "BRAM BREEZE",
-  "gerado_em": "2026-11-27T14:25:22.336Z",
+  "gerado_em": "2026-11-27T22:49:44.693Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": false,
-    "local": "NIT - ATRACADO NITERÓI",
+    "local": "2P19 - Terminal Petrobrás SC",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-26T20:20:00.000Z"
+    "ultima_movimentacao": "2026-11-27T21:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 22,
-    "manobras_180d": 99,
-    "manobras_365d": 132,
+    "manobras_30d": 24,
+    "manobras_180d": 101,
+    "manobras_365d": 134,
     "entradas_30d": 4,
     "saidas_30d": 3,
-    "mudancas_30d": 15,
+    "mudancas_30d": 17,
     "entradas_365d": 30,
     "saidas_365d": 29,
     "ultima_entrada": "2026-11-26T18:15:00.000Z",
     "ultima_saida": "2026-11-23T17:00:00.000Z",
     "tempo_medio_estadia_horas": 80.1,
-    "tempo_medio_fundeio_horas": 27.1
+    "tempo_medio_fundeio_horas": 26.5
   },
   "historico_recente": [
+    {
+      "data": "2026-11-27T21:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "2P19 - Terminal Petrobrás SC"
+    },
+    {
+      "data": "2026-11-27T17:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Rio de Janeiro",
+      "de": "NIT - ATRACADO NITERÓI",
+      "para": "Fundeio - 2F6A - LARGO"
+    },
     {
       "data": "2026-11-26T20:20:00.000Z",
       "tipo": "MUDANÇA",
@@ -79,20 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "2P15 - Terminal Petrobrás (Armazém 15)",
       "para": "-"
-    },
-    {
-      "data": "2026-11-12T10:30:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "Fundeio - 2F6A - LARGO",
-      "para": "2P19 - Terminal Petrobrás SC"
-    },
-    {
-      "data": "2026-11-11T20:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Rio de Janeiro",
-      "de": "2PAL - Terminal Petrobras AL",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }

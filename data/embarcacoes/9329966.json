@@ -1,7 +1,7 @@
 {
   "imo": "9329966",
   "navio": "NORMAND TURQUESA",
-  "gerado_em": "2026-11-27T14:25:22.336Z",
+  "gerado_em": "2026-11-27T22:49:44.693Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
     "em_fundeio": true,
@@ -10,12 +10,12 @@
     "ultima_movimentacao": "2026-11-27T13:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 2,
-    "manobras_180d": 5,
-    "manobras_365d": 7,
+    "manobras_30d": 3,
+    "manobras_180d": 6,
+    "manobras_365d": 8,
     "entradas_30d": 1,
     "saidas_30d": 1,
-    "mudancas_30d": 0,
+    "mudancas_30d": 1,
     "entradas_365d": 4,
     "saidas_365d": 3,
     "ultima_entrada": "2026-11-27T13:00:00.000Z",
@@ -30,6 +30,13 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F6A - LARGO"
+    },
+    {
+      "data": "2026-11-27T09:00:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "Fundeio - 2F6A - LARGO",
+      "para": "ESMA - ESTALEIRO MAUÁ"
     },
     {
       "data": "2026-11-08T18:30:00.000Z",
