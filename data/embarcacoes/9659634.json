@@ -1,29 +1,36 @@
 {
   "imo": "9659634",
   "navio": "BARU TESORO",
-  "gerado_em": "2026-11-28T04:20:14.248Z",
+  "gerado_em": "2026-11-28T13:17:20.179Z",
   "estado_atual": {
     "porto": "Rio de Janeiro",
-    "em_fundeio": true,
-    "local": "Fundeio - 2F06 - LARGO OESTE",
-    "ultimo_tipo_evento": "ENTRADA",
-    "ultima_movimentacao": "2026-11-27T07:30:00.000Z"
+    "em_fundeio": false,
+    "local": "-",
+    "ultimo_tipo_evento": "SAÍDA",
+    "ultima_movimentacao": "2026-11-28T06:00:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 7,
-    "manobras_180d": 47,
-    "manobras_365d": 64,
+    "manobras_30d": 8,
+    "manobras_180d": 48,
+    "manobras_365d": 65,
     "entradas_30d": 2,
-    "saidas_30d": 2,
+    "saidas_30d": 3,
     "mudancas_30d": 3,
     "entradas_365d": 21,
-    "saidas_365d": 20,
+    "saidas_365d": 21,
     "ultima_entrada": "2026-11-27T07:30:00.000Z",
-    "ultima_saida": "2026-11-26T19:30:00.000Z",
-    "tempo_medio_estadia_horas": 100.5,
-    "tempo_medio_fundeio_horas": 73.2
+    "ultima_saida": "2026-11-28T06:00:00.000Z",
+    "tempo_medio_estadia_horas": 96.6,
+    "tempo_medio_fundeio_horas": 70.8
   },
   "historico_recente": [
+    {
+      "data": "2026-11-28T06:00:00.000Z",
+      "tipo": "SAÍDA",
+      "porto": "Rio de Janeiro",
+      "de": "Fundeio - 2F06 - LARGO OESTE",
+      "para": "-"
+    },
     {
       "data": "2026-11-27T07:30:00.000Z",
       "tipo": "ENTRADA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "-",
       "para": "Fundeio - 2F06 - LARGO OESTE"
-    },
-    {
-      "data": "2026-09-27T21:00:00.000Z",
-      "tipo": "SAÍDA",
-      "porto": "Rio de Janeiro",
-      "de": "2TS1 - Terminal Siderúrgico parte 1",
-      "para": "-"
     }
   ]
 }
