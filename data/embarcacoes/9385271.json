@@ -1,21 +1,21 @@
 {
   "imo": "9385271",
   "navio": "HOS TAURUS (REB)",
-  "gerado_em": "2026-11-27T22:49:44.693Z",
+  "gerado_em": "2026-11-28T04:20:14.248Z",
   "estado_atual": {
     "porto": "Niterói",
-    "em_fundeio": false,
-    "local": "ESMC - MacLaren Ponta da Areia",
+    "em_fundeio": true,
+    "local": "Fundeio - 2F06 - LARGO OESTE",
     "ultimo_tipo_evento": "MUDANÇA",
-    "ultima_movimentacao": "2026-11-23T08:30:00.000Z"
+    "ultima_movimentacao": "2026-11-28T03:30:00.000Z"
   },
   "metricas": {
-    "manobras_30d": 1,
-    "manobras_180d": 17,
-    "manobras_365d": 23,
+    "manobras_30d": 2,
+    "manobras_180d": 18,
+    "manobras_365d": 24,
     "entradas_30d": 0,
     "saidas_30d": 0,
-    "mudancas_30d": 1,
+    "mudancas_30d": 2,
     "entradas_365d": 9,
     "saidas_365d": 8,
     "ultima_entrada": "2026-10-23T08:45:00.000Z",
@@ -24,6 +24,13 @@
     "tempo_medio_fundeio_horas": 83.4
   },
   "historico_recente": [
+    {
+      "data": "2026-11-28T03:30:00.000Z",
+      "tipo": "MUDANÇA",
+      "porto": "Niterói",
+      "de": "ESMC - MacLaren Ponta da Areia",
+      "para": "Fundeio - 2F06 - LARGO OESTE"
+    },
     {
       "data": "2026-11-23T08:30:00.000Z",
       "tipo": "MUDANÇA",
@@ -86,13 +93,6 @@
       "porto": "Rio de Janeiro",
       "de": "Fundeio - 2F06 - LARGO OESTE",
       "para": "-"
-    },
-    {
-      "data": "2026-08-26T12:00:00.000Z",
-      "tipo": "MUDANÇA",
-      "porto": "Niterói",
-      "de": "4102 - TERMINAL NITSHORE - NITSHORE ENGENHARIA E SERVIÇOS PORTUÁRIOS S.A.",
-      "para": "Fundeio - 2F6A - LARGO"
     }
   ]
 }
